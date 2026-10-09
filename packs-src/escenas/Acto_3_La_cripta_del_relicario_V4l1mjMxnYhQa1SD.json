@@ -12,13 +12,13 @@
   "padding": 0,
   "grid": {
     "type": 1,
-    "size": 150,
+    "size": 100,
     "style": "solidLines",
     "thickness": 1,
     "color": "#000000",
     "alpha": 0,
-    "distance": 5,
-    "units": "ft"
+    "distance": 1,
+    "units": "m"
   },
   "tokenVision": true,
   "fog": {
@@ -281,163 +281,6 @@
       "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.iTvwlDv0Ut6ZTfc0"
     }
   ],
-  "lights": [
-    {
-      "_id": "iIykh8Ua4VJuuHUl",
-      "name": "Lámpara del laboratorio improvisado",
-      "x": 1800,
-      "y": 360,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.45,
-        "angle": 360,
-        "bright": 8,
-        "dim": 20,
-        "color": "#ffc77a",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.iIykh8Ua4VJuuHUl"
-    },
-    {
-      "_id": "QF4bo7t9uMersneW",
-      "name": "Cirio en la escalera del convento",
-      "x": 300,
-      "y": 600,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 3,
-        "dim": 12,
-        "color": "#ffc547",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "torch",
-          "speed": 4,
-          "intensity": 1,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.QF4bo7t9uMersneW"
-    },
-    {
-      "_id": "kcdJOlM3iMbDioCf",
-      "name": "Cirio de la antecámara",
-      "x": 675,
-      "y": 600,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 3,
-        "dim": 12,
-        "color": "#ffc547",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "torch",
-          "speed": 4,
-          "intensity": 1,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.kcdJOlM3iMbDioCf"
-    },
-    {
-      "_id": "cqv9WXKXDbvrndEI",
-      "x": 1275,
-      "y": 600,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.35,
-        "angle": 360,
-        "bright": 0,
-        "dim": 8,
-        "color": "#8fb3c9",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "fog",
-          "speed": 1,
-          "intensity": 2,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.cqv9WXKXDbvrndEI"
-    }
-  ],
   "regions": [
     {
       "_id": "ocgW1TTz335qkyEJ",
@@ -522,6 +365,163 @@
       "locked": false,
       "flags": {},
       "_key": "!scenes.regions!V4l1mjMxnYhQa1SD.EwtRbSpwM7Y0L6uL"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "iIykh8Ua4VJuuHUl",
+      "name": "Lámpara del laboratorio improvisado",
+      "x": 1800,
+      "y": 360,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.45,
+        "angle": 360,
+        "bright": 2.44,
+        "dim": 6.1,
+        "color": "#ffc77a",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.iIykh8Ua4VJuuHUl"
+    },
+    {
+      "_id": "QF4bo7t9uMersneW",
+      "name": "Cirio en la escalera del convento",
+      "x": 300,
+      "y": 600,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 3.66,
+        "color": "#ffc547",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 4,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.QF4bo7t9uMersneW"
+    },
+    {
+      "_id": "kcdJOlM3iMbDioCf",
+      "name": "Cirio de la antecámara",
+      "x": 675,
+      "y": 600,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 3.66,
+        "color": "#ffc547",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 4,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.kcdJOlM3iMbDioCf"
+    },
+    {
+      "_id": "cqv9WXKXDbvrndEI",
+      "x": 1275,
+      "y": 600,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.35,
+        "angle": 360,
+        "bright": 0,
+        "dim": 2.44,
+        "color": "#8fb3c9",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "fog",
+          "speed": 1,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.cqv9WXKXDbvrndEI"
     }
   ],
   "tokens": [],

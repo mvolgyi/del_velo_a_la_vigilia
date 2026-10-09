@@ -12,13 +12,13 @@
   "padding": 0,
   "grid": {
     "type": 1,
-    "size": 150,
+    "size": 100,
     "style": "solidLines",
     "thickness": 1,
     "color": "#000000",
     "alpha": 0,
-    "distance": 5,
-    "units": "ft"
+    "distance": 1,
+    "units": "m"
   },
   "tokenVision": true,
   "fog": {
@@ -641,7 +641,6 @@
       "_key": "!scenes.walls!Lt8TlhDCDtaStvhY.bFuEkbj100az2CGZ"
     }
   ],
-  "lights": [],
   "regions": [
     {
       "_id": "ManBH4IsHKiXwmfO",
@@ -686,6 +685,7 @@
       "_key": "!scenes.regions!Lt8TlhDCDtaStvhY.ManBH4IsHKiXwmfO"
     }
   ],
+  "lights": [],
   "tokens": [],
   "notes": [],
   "sounds": [],

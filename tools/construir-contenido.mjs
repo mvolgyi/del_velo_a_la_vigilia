@@ -720,6 +720,9 @@ function conClaves(escena) {
   return escena;
 }
 
+const GRID_M_PX = 100;
+const PIES_POR_METRO = 3.2808;
+
 /** Ambiente (playlist + pista) de una escena según content/musica.json; se lee acá porque las escenas se construyen antes que las listas. */
 function ambienteDe(escenaId) {
   if (!existe("content/musica.json")) return {};
@@ -751,7 +754,9 @@ function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscurida
     // y las coordenadas de muros, puertas y luces (que vienen del plano, en
     // píxeles del mapa) quedarían corridas media pantalla.
     padding: 0,
-    grid: { type: 1, size: grid, style: "solidLines", thickness: 1, color: "#000000", alpha: gridAlpha, distance: 5, units: "ft" },
+    // Casillas de 1 metro (100 px a 30 px/pie, 2 % de error): en interiores
+    // modernos una casilla de 5 pies hace que un token tape media habitación.
+    grid: { type: 1, size: GRID_M_PX, style: "solidLines", thickness: 1, color: "#000000", alpha: gridAlpha, distance: 1, units: "m" },
     tokenVision: true,
     fog: { exploration: true },
     environment: { darknessLevel: oscuridad, globalLight: { enabled: Boolean(luzGlobal) } },
@@ -763,7 +768,9 @@ function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscurida
       background: { src: `modules/${MODULO}/${fondo}`, color: "#000000" },
       sort: 0
     }],
-    walls, lights, regions,
+    walls, regions,
+    // Los radios de las luces vienen en pies (presets del plano); la escena mide en metros.
+    lights: (lights ?? []).map(l => ({ ...l, config: { ...l.config, dim: +(l.config.dim / PIES_POR_METRO).toFixed(2), bright: +(l.config.bright / PIES_POR_METRO).toFixed(2) } })),
     tokens: [], notes: [], sounds: [], tiles: [], drawings: [],
     flags: flags("escena", { escena: id, nota: nota ?? "", ...extra }),
     _stats: STATS

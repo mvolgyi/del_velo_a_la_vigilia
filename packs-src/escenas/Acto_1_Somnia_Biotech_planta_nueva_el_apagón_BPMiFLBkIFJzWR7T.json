@@ -12,13 +12,13 @@
   "padding": 0,
   "grid": {
     "type": 1,
-    "size": 150,
+    "size": 100,
     "style": "solidLines",
     "thickness": 1,
     "color": "#000000",
     "alpha": 0,
-    "distance": 5,
-    "units": "ft"
+    "distance": 1,
+    "units": "m"
   },
   "tokenVision": true,
   "fog": {
@@ -596,203 +596,6 @@
       "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.zVtI2u17ZhdVXt7V"
     }
   ],
-  "lights": [
-    {
-      "_id": "M5YE4Bx9nd8HrETm",
-      "name": "Emergencia · pasillo central oeste",
-      "x": 450,
-      "y": 675,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.6,
-        "angle": 360,
-        "bright": 3,
-        "dim": 15,
-        "color": "#d12a1e",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 3,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.M5YE4Bx9nd8HrETm"
-    },
-    {
-      "_id": "Zx96ERSAonJVLSuM",
-      "name": "Emergencia · pasillo central este",
-      "x": 1050,
-      "y": 675,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.6,
-        "angle": 360,
-        "bright": 3,
-        "dim": 15,
-        "color": "#d12a1e",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 3,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.Zx96ERSAonJVLSuM"
-    },
-    {
-      "_id": "fLAcz7tXKiSQFSyz",
-      "name": "Emergencia · pasillo de cristal norte",
-      "x": 1425,
-      "y": 300,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.6,
-        "angle": 360,
-        "bright": 3,
-        "dim": 15,
-        "color": "#d12a1e",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 3,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.fLAcz7tXKiSQFSyz"
-    },
-    {
-      "_id": "hVCjakkWu2RNzPST",
-      "name": "Emergencia · pasillo de cristal sur",
-      "x": 1425,
-      "y": 825,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.6,
-        "angle": 360,
-        "bright": 3,
-        "dim": 15,
-        "color": "#d12a1e",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 3,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.hVCjakkWu2RNzPST"
-    },
-    {
-      "_id": "jpCJA3Q3thn5VUIS",
-      "name": "Emergencia · pasillo de servicio",
-      "x": 1050,
-      "y": 1125,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.6,
-        "angle": 360,
-        "bright": 3,
-        "dim": 15,
-        "color": "#d12a1e",
-        "coloration": 1,
-        "attenuation": 0.6,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 3,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "locked": false,
-      "flags": {},
-      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.jpCJA3Q3thn5VUIS"
-    }
-  ],
   "regions": [
     {
       "_id": "j3e4Y9k1d3pIc7J6",
@@ -835,6 +638,203 @@
       "locked": false,
       "flags": {},
       "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.j3e4Y9k1d3pIc7J6"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "M5YE4Bx9nd8HrETm",
+      "name": "Emergencia · pasillo central oeste",
+      "x": 450,
+      "y": 675,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 4.57,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.M5YE4Bx9nd8HrETm"
+    },
+    {
+      "_id": "Zx96ERSAonJVLSuM",
+      "name": "Emergencia · pasillo central este",
+      "x": 1050,
+      "y": 675,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 4.57,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.Zx96ERSAonJVLSuM"
+    },
+    {
+      "_id": "fLAcz7tXKiSQFSyz",
+      "name": "Emergencia · pasillo de cristal norte",
+      "x": 1425,
+      "y": 300,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 4.57,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.fLAcz7tXKiSQFSyz"
+    },
+    {
+      "_id": "hVCjakkWu2RNzPST",
+      "name": "Emergencia · pasillo de cristal sur",
+      "x": 1425,
+      "y": 825,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 4.57,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.hVCjakkWu2RNzPST"
+    },
+    {
+      "_id": "jpCJA3Q3thn5VUIS",
+      "name": "Emergencia · pasillo de servicio",
+      "x": 1050,
+      "y": 1125,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 4.57,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.jpCJA3Q3thn5VUIS"
     }
   ],
   "tokens": [],

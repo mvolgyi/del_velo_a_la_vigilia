@@ -4251,13 +4251,13 @@
       "padding": 0,
       "grid": {
         "type": 1,
-        "size": 150,
+        "size": 100,
         "style": "solidLines",
         "thickness": 1,
         "color": "#000000",
         "alpha": 0,
-        "distance": 5,
-        "units": "ft"
+        "distance": 1,
+        "units": "m"
       },
       "tokenVision": true,
       "fog": {
@@ -4835,203 +4835,6 @@
           "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.zVtI2u17ZhdVXt7V"
         }
       ],
-      "lights": [
-        {
-          "_id": "M5YE4Bx9nd8HrETm",
-          "name": "Emergencia · pasillo central oeste",
-          "x": 450,
-          "y": 675,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.M5YE4Bx9nd8HrETm"
-        },
-        {
-          "_id": "Zx96ERSAonJVLSuM",
-          "name": "Emergencia · pasillo central este",
-          "x": 1050,
-          "y": 675,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.Zx96ERSAonJVLSuM"
-        },
-        {
-          "_id": "fLAcz7tXKiSQFSyz",
-          "name": "Emergencia · pasillo de cristal norte",
-          "x": 1425,
-          "y": 300,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.fLAcz7tXKiSQFSyz"
-        },
-        {
-          "_id": "hVCjakkWu2RNzPST",
-          "name": "Emergencia · pasillo de cristal sur",
-          "x": 1425,
-          "y": 825,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.hVCjakkWu2RNzPST"
-        },
-        {
-          "_id": "jpCJA3Q3thn5VUIS",
-          "name": "Emergencia · pasillo de servicio",
-          "x": 1050,
-          "y": 1125,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.jpCJA3Q3thn5VUIS"
-        }
-      ],
       "regions": [
         {
           "_id": "j3e4Y9k1d3pIc7J6",
@@ -5076,6 +4879,203 @@
           "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.j3e4Y9k1d3pIc7J6"
         }
       ],
+      "lights": [
+        {
+          "_id": "M5YE4Bx9nd8HrETm",
+          "name": "Emergencia · pasillo central oeste",
+          "x": 450,
+          "y": 675,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.M5YE4Bx9nd8HrETm"
+        },
+        {
+          "_id": "Zx96ERSAonJVLSuM",
+          "name": "Emergencia · pasillo central este",
+          "x": 1050,
+          "y": 675,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.Zx96ERSAonJVLSuM"
+        },
+        {
+          "_id": "fLAcz7tXKiSQFSyz",
+          "name": "Emergencia · pasillo de cristal norte",
+          "x": 1425,
+          "y": 300,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.fLAcz7tXKiSQFSyz"
+        },
+        {
+          "_id": "hVCjakkWu2RNzPST",
+          "name": "Emergencia · pasillo de cristal sur",
+          "x": 1425,
+          "y": 825,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.hVCjakkWu2RNzPST"
+        },
+        {
+          "_id": "jpCJA3Q3thn5VUIS",
+          "name": "Emergencia · pasillo de servicio",
+          "x": 1050,
+          "y": 1125,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.jpCJA3Q3thn5VUIS"
+        }
+      ],
       "tokens": [],
       "notes": [],
       "sounds": [],
@@ -5109,13 +5109,13 @@
       "padding": 0,
       "grid": {
         "type": 1,
-        "size": 150,
+        "size": 100,
         "style": "solidLines",
         "thickness": 1,
         "color": "#000000",
         "alpha": 0,
-        "distance": 5,
-        "units": "ft"
+        "distance": 1,
+        "units": "m"
       },
       "tokenVision": true,
       "fog": {
@@ -5738,7 +5738,6 @@
           "_key": "!scenes.walls!Lt8TlhDCDtaStvhY.bFuEkbj100az2CGZ"
         }
       ],
-      "lights": [],
       "regions": [
         {
           "_id": "ManBH4IsHKiXwmfO",
@@ -5783,6 +5782,7 @@
           "_key": "!scenes.regions!Lt8TlhDCDtaStvhY.ManBH4IsHKiXwmfO"
         }
       ],
+      "lights": [],
       "tokens": [],
       "notes": [],
       "sounds": [],
@@ -5816,13 +5816,13 @@
       "padding": 0,
       "grid": {
         "type": 1,
-        "size": 150,
+        "size": 100,
         "style": "solidLines",
         "thickness": 1,
         "color": "#000000",
         "alpha": 0,
-        "distance": 5,
-        "units": "ft"
+        "distance": 1,
+        "units": "m"
       },
       "tokenVision": true,
       "fog": {
@@ -6085,163 +6085,6 @@
           "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.iTvwlDv0Ut6ZTfc0"
         }
       ],
-      "lights": [
-        {
-          "_id": "iIykh8Ua4VJuuHUl",
-          "name": "Lámpara del laboratorio improvisado",
-          "x": 1800,
-          "y": 360,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.45,
-            "angle": 360,
-            "bright": 8,
-            "dim": 20,
-            "color": "#ffc77a",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": null,
-              "speed": 5,
-              "intensity": 5,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.iIykh8Ua4VJuuHUl"
-        },
-        {
-          "_id": "QF4bo7t9uMersneW",
-          "name": "Cirio en la escalera del convento",
-          "x": 300,
-          "y": 600,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 3,
-            "dim": 12,
-            "color": "#ffc547",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "torch",
-              "speed": 4,
-              "intensity": 1,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.QF4bo7t9uMersneW"
-        },
-        {
-          "_id": "kcdJOlM3iMbDioCf",
-          "name": "Cirio de la antecámara",
-          "x": 675,
-          "y": 600,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.5,
-            "angle": 360,
-            "bright": 3,
-            "dim": 12,
-            "color": "#ffc547",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "torch",
-              "speed": 4,
-              "intensity": 1,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.kcdJOlM3iMbDioCf"
-        },
-        {
-          "_id": "cqv9WXKXDbvrndEI",
-          "x": 1275,
-          "y": 600,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.35,
-            "angle": 360,
-            "bright": 0,
-            "dim": 8,
-            "color": "#8fb3c9",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "fog",
-              "speed": 1,
-              "intensity": 2,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.cqv9WXKXDbvrndEI"
-        }
-      ],
       "regions": [
         {
           "_id": "ocgW1TTz335qkyEJ",
@@ -6328,6 +6171,163 @@
           "_key": "!scenes.regions!V4l1mjMxnYhQa1SD.EwtRbSpwM7Y0L6uL"
         }
       ],
+      "lights": [
+        {
+          "_id": "iIykh8Ua4VJuuHUl",
+          "name": "Lámpara del laboratorio improvisado",
+          "x": 1800,
+          "y": 360,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.45,
+            "angle": 360,
+            "bright": 2.44,
+            "dim": 6.1,
+            "color": "#ffc77a",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.iIykh8Ua4VJuuHUl"
+        },
+        {
+          "_id": "QF4bo7t9uMersneW",
+          "name": "Cirio en la escalera del convento",
+          "x": 300,
+          "y": 600,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 3.66,
+            "color": "#ffc547",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "torch",
+              "speed": 4,
+              "intensity": 1,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.QF4bo7t9uMersneW"
+        },
+        {
+          "_id": "kcdJOlM3iMbDioCf",
+          "name": "Cirio de la antecámara",
+          "x": 675,
+          "y": 600,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 3.66,
+            "color": "#ffc547",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "torch",
+              "speed": 4,
+              "intensity": 1,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.kcdJOlM3iMbDioCf"
+        },
+        {
+          "_id": "cqv9WXKXDbvrndEI",
+          "x": 1275,
+          "y": 600,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.35,
+            "angle": 360,
+            "bright": 0,
+            "dim": 2.44,
+            "color": "#8fb3c9",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "fog",
+              "speed": 1,
+              "intensity": 2,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.cqv9WXKXDbvrndEI"
+        }
+      ],
       "tokens": [],
       "notes": [],
       "sounds": [],
@@ -6361,13 +6361,13 @@
       "padding": 0,
       "grid": {
         "type": 1,
-        "size": 150,
+        "size": 100,
         "style": "solidLines",
         "thickness": 1,
         "color": "#000000",
         "alpha": 0,
-        "distance": 5,
-        "units": "ft"
+        "distance": 1,
+        "units": "m"
       },
       "tokenVision": true,
       "fog": {
@@ -6784,163 +6784,6 @@
           "_key": "!scenes.walls!uH16g5FyHIKxoG5J.jPnIFEUe4awgy7wv"
         }
       ],
-      "lights": [
-        {
-          "_id": "vgxuSJLMBZMdzpfH",
-          "name": "Emergencia · pasillo norte",
-          "x": 1125,
-          "y": 525,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.vgxuSJLMBZMdzpfH"
-        },
-        {
-          "_id": "Vk1gmzcPJoKMOPQ6",
-          "name": "Emergencia · pasillo sur",
-          "x": 1125,
-          "y": 975,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.Vk1gmzcPJoKMOPQ6"
-        },
-        {
-          "_id": "qHl5iKqOKZP7FCcb",
-          "name": "Emergencia · vestíbulo viejo",
-          "x": 375,
-          "y": 750,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.6,
-            "angle": 360,
-            "bright": 3,
-            "dim": 15,
-            "color": "#d12a1e",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "pulse",
-              "speed": 2,
-              "intensity": 3,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.qHl5iKqOKZP7FCcb"
-        },
-        {
-          "_id": "AOHaCDbPQPjmWclE",
-          "x": 968,
-          "y": 765,
-          "elevation": 0,
-          "rotation": 0,
-          "walls": true,
-          "vision": false,
-          "config": {
-            "negative": false,
-            "priority": 0,
-            "alpha": 0.4,
-            "angle": 360,
-            "bright": 0,
-            "dim": 10,
-            "color": "#4fd1a5",
-            "coloration": 1,
-            "attenuation": 0.6,
-            "luminosity": 0.5,
-            "saturation": 0,
-            "contrast": 0,
-            "shadows": 0,
-            "animation": {
-              "type": "flame",
-              "speed": 1,
-              "intensity": 1,
-              "reverse": false
-            },
-            "darkness": {
-              "min": 0,
-              "max": 1
-            }
-          },
-          "hidden": false,
-          "locked": false,
-          "flags": {},
-          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.AOHaCDbPQPjmWclE"
-        }
-      ],
       "regions": [
         {
           "_id": "ng0dLuIVPodBvtU4",
@@ -7027,6 +6870,163 @@
           "_key": "!scenes.regions!uH16g5FyHIKxoG5J.rzz58ChmeODwzzVY"
         }
       ],
+      "lights": [
+        {
+          "_id": "vgxuSJLMBZMdzpfH",
+          "name": "Emergencia · pasillo norte",
+          "x": 1125,
+          "y": 525,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.vgxuSJLMBZMdzpfH"
+        },
+        {
+          "_id": "Vk1gmzcPJoKMOPQ6",
+          "name": "Emergencia · pasillo sur",
+          "x": 1125,
+          "y": 975,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.Vk1gmzcPJoKMOPQ6"
+        },
+        {
+          "_id": "qHl5iKqOKZP7FCcb",
+          "name": "Emergencia · vestíbulo viejo",
+          "x": 375,
+          "y": 750,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.6,
+            "angle": 360,
+            "bright": 0.91,
+            "dim": 4.57,
+            "color": "#d12a1e",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "pulse",
+              "speed": 2,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.qHl5iKqOKZP7FCcb"
+        },
+        {
+          "_id": "AOHaCDbPQPjmWclE",
+          "x": 968,
+          "y": 765,
+          "elevation": 0,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "config": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.4,
+            "angle": 360,
+            "bright": 0,
+            "dim": 3.05,
+            "color": "#4fd1a5",
+            "coloration": 1,
+            "attenuation": 0.6,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 1,
+              "intensity": 1,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "hidden": false,
+          "locked": false,
+          "flags": {},
+          "_key": "!scenes.lights!uH16g5FyHIKxoG5J.AOHaCDbPQPjmWclE"
+        }
+      ],
       "tokens": [],
       "notes": [],
       "sounds": [],
@@ -7060,13 +7060,13 @@
       "padding": 0,
       "grid": {
         "type": 1,
-        "size": 150,
+        "size": 100,
         "style": "solidLines",
         "thickness": 1,
         "color": "#000000",
         "alpha": 0,
-        "distance": 5,
-        "units": "ft"
+        "distance": 1,
+        "units": "m"
       },
       "tokenVision": true,
       "fog": {
@@ -7285,6 +7285,7 @@
           "_key": "!scenes.walls!cYVJwEoF67iVbfLn.vo7Lw0CblN1pVBww"
         }
       ],
+      "regions": [],
       "lights": [
         {
           "_id": "Szu0CKYPH3y0vKHo",
@@ -7300,8 +7301,8 @@
             "priority": 0,
             "alpha": 0.3,
             "angle": 360,
-            "bright": 10,
-            "dim": 20,
+            "bright": 3.05,
+            "dim": 6.1,
             "color": "#dbe6ee",
             "coloration": 1,
             "attenuation": 0.6,
@@ -7338,8 +7339,8 @@
             "priority": 0,
             "alpha": 0.45,
             "angle": 360,
-            "bright": 8,
-            "dim": 20,
+            "bright": 2.44,
+            "dim": 6.1,
             "color": "#ffc77a",
             "coloration": 1,
             "attenuation": 0.6,
@@ -7364,7 +7365,6 @@
           "_key": "!scenes.lights!cYVJwEoF67iVbfLn.gbw8EVApVOwlyPzx"
         }
       ],
-      "regions": [],
       "tokens": [],
       "notes": [],
       "sounds": [],

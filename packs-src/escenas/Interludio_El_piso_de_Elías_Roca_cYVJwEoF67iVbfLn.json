@@ -12,13 +12,13 @@
   "padding": 0,
   "grid": {
     "type": 1,
-    "size": 150,
+    "size": 100,
     "style": "solidLines",
     "thickness": 1,
     "color": "#000000",
     "alpha": 0,
-    "distance": 5,
-    "units": "ft"
+    "distance": 1,
+    "units": "m"
   },
   "tokenVision": true,
   "fog": {
@@ -237,6 +237,7 @@
       "_key": "!scenes.walls!cYVJwEoF67iVbfLn.vo7Lw0CblN1pVBww"
     }
   ],
+  "regions": [],
   "lights": [
     {
       "_id": "Szu0CKYPH3y0vKHo",
@@ -252,8 +253,8 @@
         "priority": 0,
         "alpha": 0.3,
         "angle": 360,
-        "bright": 10,
-        "dim": 20,
+        "bright": 3.05,
+        "dim": 6.1,
         "color": "#dbe6ee",
         "coloration": 1,
         "attenuation": 0.6,
@@ -290,8 +291,8 @@
         "priority": 0,
         "alpha": 0.45,
         "angle": 360,
-        "bright": 8,
-        "dim": 20,
+        "bright": 2.44,
+        "dim": 6.1,
         "color": "#ffc77a",
         "coloration": 1,
         "attenuation": 0.6,
@@ -316,7 +317,6 @@
       "_key": "!scenes.lights!cYVJwEoF67iVbfLn.gbw8EVApVOwlyPzx"
     }
   ],
-  "regions": [],
   "tokens": [],
   "notes": [],
   "sounds": [],

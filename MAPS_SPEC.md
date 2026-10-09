@@ -1,5 +1,10 @@
 # MAPS_SPEC — Especificación de mapas de Del Velo a la Vigilia
 
+> **Escala en Foundry (desde 0.1.8):** los planos se dibujan a 30 px/pie, pero las escenas usan
+> casillas de **1 metro = 100 px** (error del 2 %). En interiores modernos una casilla de 5 pies
+> hacía que un token tapara media habitación. Los radios de luz de los presets siguen en pies y el
+> build los convierte a metros.
+
 Contrato **obligatorio** para todo mapa y asset visual de la crónica *Somnia
 Biotech* (Hunter: The Reckoning 5e, Málaga, hoy). El skill `battlemaps` lee este
 archivo al empezar cualquier tarea de mapas y aplica su checklist antes de
