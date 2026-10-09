@@ -129,7 +129,10 @@
       "si": "Importar ahora",
       "no": "Más tarde",
       "hecho": "Crónica importada: {n} documentos creados.",
-      "sinAventura": "No se encontró la Aventura en el compendio del módulo."
+      "sinAventura": "No se encontró la Aventura en el compendio del módulo.",
+      "actualizarTitulo": "Actualizar la crónica Somnia Biotech",
+      "actualizarPregunta": "La crónica de este mundo se importó con la versión {importada} del módulo y ahora está la {version}. ¿La actualizamos? Reemplaza escenas, actores, journals, macros y música por los de la versión nueva sin duplicar nada. Lo que hayas editado a mano en esos documentos se pierde; tus propios documentos no se tocan.",
+      "actualizarSi": "Actualizar ahora"
     }
   }
 }

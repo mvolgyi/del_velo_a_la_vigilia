@@ -129,7 +129,10 @@
       "si": "Import now",
       "no": "Later",
       "hecho": "Chronicle imported: {n} documents created.",
-      "sinAventura": "The Adventure was not found in the module compendium."
+      "sinAventura": "The Adventure was not found in the module compendium.",
+      "actualizarTitulo": "Update the Somnia Biotech chronicle",
+      "actualizarPregunta": "This world's chronicle was imported with module version {importada}; the module is now {version}. Update it? It replaces scenes, actors, journals, macros and music with the new ones without duplicating anything. Manual edits to those documents are lost; your own documents are untouched.",
+      "actualizarSi": "Update now"
     }
   }
 }

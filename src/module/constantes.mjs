@@ -31,7 +31,9 @@ export class DVV {
     /** Si tras un «1» en dados de Desesperación se publica el recordatorio. */
     RECORDATORIOS: "recordatorios-desesperacion",
     /** Si ya se le ofreció al Narrador importar la crónica en este mundo. */
-    IMPORTACION_OFRECIDA: "importacion-ofrecida"
+    IMPORTACION_OFRECIDA: "importacion-ofrecida",
+    /** Última versión del módulo para la que se ofreció actualizar la crónica importada. */
+    VERSION_OFRECIDA: "version-ofrecida"
   };
 
   static BALIZAS = ["fe", "metodo", "carne"];

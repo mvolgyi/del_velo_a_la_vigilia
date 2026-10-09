@@ -83,11 +83,38 @@ async function importarCronica({ silencioso = false } = {}) {
   return resultado;
 }
 
-/** Al entrar por primera vez a un mundo sin la crónica, se ofrece importarla. */
+/** Versión del módulo con la que se importó la crónica por última vez (la anota Foundry). */
+function versionImportada(doc) {
+  return game.settings.get("core", "adventureImports")?.[doc.uuid]?.moduleVersion ?? "";
+}
+
+/**
+ * Al entrar por primera vez a un mundo sin la crónica, se ofrece importarla.
+ * Si ya está importada pero con una versión anterior del módulo, se ofrece
+ * actualizarla (escenas, actores, journals…), una vez por versión.
+ */
 async function ofrecerImportacion() {
-  if (cronicaImportada() || game.settings.get(DVV.ID, DVV.SETTINGS.IMPORTACION_OFRECIDA)) return;
   const doc = await aventura();
   if (!doc) return;
+  const version = game.modules.get(DVV.ID).version;
+
+  if (cronicaImportada()) {
+    const importada = versionImportada(doc);
+    const ofrecida = game.settings.get(DVV.ID, DVV.SETTINGS.VERSION_OFRECIDA);
+    if (!importada || importada === version || ofrecida === version) return;
+    const si = await foundry.applications.api.DialogV2.confirm({
+      window: { title: game.i18n.localize("DVV.importar.actualizarTitulo") },
+      classes: ["dvv-dialogo"],
+      content: `<p>${game.i18n.format("DVV.importar.actualizarPregunta", { importada, version })}</p>`,
+      yes: { label: game.i18n.localize("DVV.importar.actualizarSi"), default: true },
+      no: { label: game.i18n.localize("DVV.importar.no") }
+    });
+    await game.settings.set(DVV.ID, DVV.SETTINGS.VERSION_OFRECIDA, version);
+    if (si) await importarCronica();
+    return;
+  }
+
+  if (game.settings.get(DVV.ID, DVV.SETTINGS.IMPORTACION_OFRECIDA)) return;
   const si = await foundry.applications.api.DialogV2.confirm({
     window: { title: game.i18n.localize("DVV.importar.titulo") },
     classes: ["dvv-dialogo"],
