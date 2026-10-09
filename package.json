@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "del-velo-a-la-vigilia",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Módulo de Foundry VTT para Hunter: The Reckoning 5e (wod5e): los tres caminos, el Arsenal de la Vigilia y la crónica Somnia Biotech",
   "type": "module",
   "scripts": {
@@ -17,7 +17,7 @@
     "pack:personajes": "fvtt package pack personajes --id del-velo-a-la-vigilia --type Module --in packs-src/personajes --out packs",
     "pack:escenas": "fvtt package pack escenas --id del-velo-a-la-vigilia --type Module --in packs-src/escenas --out packs",
     "pack:macros": "fvtt package pack macros --id del-velo-a-la-vigilia --type Module --in packs-src/macros --out packs",
-    "pack": "npm run contenido && npm run verificar && npm run pack:reservas && npm run pack:mejoras && npm run pack:estados && npm run pack:rasgos && npm run pack:arsenal && npm run pack:reglas && npm run pack:cronica && npm run pack:personajes && npm run pack:escenas && npm run pack:macros && npm run pack:aventura",
+    "pack": "npm run contenido && npm run verificar && npm run pack:reservas && npm run pack:mejoras && npm run pack:estados && npm run pack:rasgos && npm run pack:arsenal && npm run pack:reglas && npm run pack:cronica && npm run pack:personajes && npm run pack:escenas && npm run pack:macros && npm run pack:playlists && npm run pack:aventura",
     "unpack:escenas": "fvtt package unpack escenas --id del-velo-a-la-vigilia --type Module --out packs-src/escenas --clean",
     "arte": "node tools/generar-arte.mjs",
     "planos": "node tools/construir-planos.mjs",
@@ -25,7 +25,9 @@
     "release": "node tools/release.mjs",
     "e2e": "node tools/e2e/prueba.mjs",
     "pack:aventura": "fvtt package pack aventura --id del-velo-a-la-vigilia --type Module --in packs-src/aventura --out packs",
-    "tokens": "node tools/tokens.mjs"
+    "tokens": "node tools/tokens.mjs",
+    "pack:playlists": "fvtt package pack playlists --id del-velo-a-la-vigilia --type Module --in packs-src/playlists --out packs",
+    "musica": "node tools/generar-musica.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",

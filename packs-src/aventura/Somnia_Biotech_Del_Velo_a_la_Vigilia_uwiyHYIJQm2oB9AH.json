@@ -4,7 +4,7 @@
   "name": "Somnia Biotech — Del Velo a la Vigilia",
   "img": "modules/del-velo-a-la-vigilia/assets/mapas/somnia-planta-nueva.webp",
   "caption": "<p>La crónica completa, lista para dirigir.</p>",
-  "description": "<p>Importa al mundo <strong>5 escenas</strong>, <strong>12 actores</strong> (PNJs y plantillas de cazador), <strong>14 journals</strong> (crónica y reglas caseras) y <strong>9 macros</strong>, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
+  "description": "<p>Importa al mundo <strong>5 escenas</strong>, <strong>12 actores</strong> (PNJs y plantillas de cazador), <strong>14 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 1 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
   "actors": [
     {
       "_id": "kWQNBnBz3V9gvlnP",
@@ -4239,6 +4239,8 @@
   ],
   "scenes": [
     {
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "zl4QyC5jr06y0na6",
       "_id": "BPMiFLBkIFJzWR7T",
       "name": "Acto 1 · Somnia Biotech — planta nueva (el apagón)",
       "folder": "jO7QZOk0HboPNns0",
@@ -5095,6 +5097,8 @@
       }
     },
     {
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "OfroDRj1ZgqdUKTx",
       "_id": "Lt8TlhDCDtaStvhY",
       "name": "Acto 2 · El convento desconsagrado",
       "folder": "jO7QZOk0HboPNns0",
@@ -5800,6 +5804,8 @@
       }
     },
     {
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "dsYLNTBixGJwrNDZ",
       "_id": "V4l1mjMxnYhQa1SD",
       "name": "Acto 3 · La cripta del relicario",
       "folder": "jO7QZOk0HboPNns0",
@@ -6226,6 +6232,8 @@
       }
     },
     {
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "KDc0ZZlTpcBPjBDh",
       "_id": "uH16g5FyHIKxoG5J",
       "name": "Actos 1 y 3 · Somnia Biotech — la planta vieja",
       "folder": "jO7QZOk0HboPNns0",
@@ -6806,6 +6814,8 @@
       }
     },
     {
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "B0Qh1Trm7NqJ67C7",
       "_id": "cYVJwEoF67iVbfLn",
       "name": "Interludio · El piso de Elías Roca",
       "folder": "jO7QZOk0HboPNns0",
@@ -7360,6 +7370,247 @@
       }
     }
   ],
+  "playlists": [
+    {
+      "_id": "RREVIAminsF37jT3",
+      "name": "Somnia Biotech — Ambientes",
+      "description": "",
+      "sounds": [
+        {
+          "_id": "zl4QyC5jr06y0na6",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.zl4QyC5jr06y0na6",
+          "name": "Acto 1 · Somnia, el apagón",
+          "description": "Ambiente de la escena somnia-planta-nueva",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/somnia-apagon.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.4,
+          "fade": 2000,
+          "sort": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "somnia-apagon",
+              "escena": "somnia-planta-nueva"
+            }
+          }
+        },
+        {
+          "_id": "KDc0ZZlTpcBPjBDh",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.KDc0ZZlTpcBPjBDh",
+          "name": "Actos 1 y 3 · La planta vieja",
+          "description": "Ambiente de la escena somnia-planta-vieja",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/somnia-planta-vieja.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.4,
+          "fade": 2000,
+          "sort": 1000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "somnia-planta-vieja",
+              "escena": "somnia-planta-vieja"
+            }
+          }
+        },
+        {
+          "_id": "B0Qh1Trm7NqJ67C7",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.B0Qh1Trm7NqJ67C7",
+          "name": "Interludio · El piso de Elías",
+          "description": "Ambiente de la escena piso-de-elias",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/piso-de-elias.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 2000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "piso-de-elias",
+              "escena": "piso-de-elias"
+            }
+          }
+        },
+        {
+          "_id": "OfroDRj1ZgqdUKTx",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.OfroDRj1ZgqdUKTx",
+          "name": "Acto 2 · El convento, de día",
+          "description": "Ambiente de la escena convento-planta",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/convento-dia.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 3000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "convento-dia",
+              "escena": "convento-planta"
+            }
+          }
+        },
+        {
+          "_id": "dsYLNTBixGJwrNDZ",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.dsYLNTBixGJwrNDZ",
+          "name": "Acto 3 · La cripta del relicario",
+          "description": "Ambiente de la escena cripta",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/cripta.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.45,
+          "fade": 2000,
+          "sort": 4000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "cripta",
+              "escena": "cripta"
+            }
+          }
+        },
+        {
+          "_id": "L32JCtpbTuvLIuZF",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.L32JCtpbTuvLIuZF",
+          "name": "Acto 1 · La huida por los pasillos",
+          "description": "",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/persecucion.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.5,
+          "fade": 2000,
+          "sort": 5000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "persecucion",
+              "escena": ""
+            }
+          }
+        },
+        {
+          "_id": "uAGtAL8MZR80084S",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.uAGtAL8MZR80084S",
+          "name": "Acto 3 · Combate en la cripta",
+          "description": "",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/combate-cripta.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.5,
+          "fade": 2000,
+          "sort": 6000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "combate-cripta",
+              "escena": ""
+            }
+          }
+        },
+        {
+          "_id": "qKhxZeZsga6Qcvsx",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.qKhxZeZsga6Qcvsx",
+          "name": "Los Heraldos (Imbuimiento)",
+          "description": "",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/heraldos.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.45,
+          "fade": 2000,
+          "sort": 7000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "heraldos",
+              "escena": ""
+            }
+          }
+        },
+        {
+          "_id": "kMfqYoQIpqj7Ao22",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.kMfqYoQIpqj7Ao22",
+          "name": "El amanecer (la huida final)",
+          "description": "",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/amanecer.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.4,
+          "fade": 2000,
+          "sort": 8000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "amanecer",
+              "escena": ""
+            }
+          }
+        },
+        {
+          "_id": "5GxPvDfqiD7GXHdT",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.5GxPvDfqiD7GXHdT",
+          "name": "Sor Anunciación (Sitis Sacra)",
+          "description": "",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/Sitis_Sacra.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.45,
+          "fade": 2000,
+          "sort": 9000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "sitis-sacra",
+              "escena": ""
+            }
+          }
+        }
+      ],
+      "channel": "music",
+      "mode": -1,
+      "playing": false,
+      "fade": 2000,
+      "folder": "bcRYBghBjS8J592E",
+      "sorting": "m",
+      "seed": 0,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "playlist",
+          "lista": "ambientes"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    }
+  ],
   "folders": [
     {
       "_id": "2eZIccsbgmrRP7jP",
@@ -7422,6 +7673,25 @@
       "_id": "Q6mGq6TQ9KR6FRAL",
       "name": "Del Velo a la Vigilia",
       "type": "Macro",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": "#5c1f1f",
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "carpeta"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "bcRYBghBjS8J592E",
+      "name": "Del Velo a la Vigilia",
+      "type": "Playlist",
       "folder": null,
       "sorting": "m",
       "sort": 0,
@@ -7535,7 +7805,6 @@
   ],
   "items": [],
   "tables": [],
-  "playlists": [],
   "cards": [],
   "combats": [],
   "folder": null,

@@ -47,7 +47,7 @@ marked.use({ gfm: true });
 const md2html = md => marked.parse(md, { async: false });
 
 const existe = rel => fs.existsSync(path.join(RAIZ, rel));
-const PACKS = ["reservas", "mejoras", "estados", "rasgos", "arsenal", "reglas", "cronica", "personajes", "escenas", "macros", "aventura"];
+const PACKS = ["reservas", "mejoras", "estados", "rasgos", "arsenal", "reglas", "cronica", "personajes", "escenas", "macros", "playlists", "aventura"];
 for (const p of PACKS) limpiarGenerados(path.join(RAIZ, "packs-src", p));
 
 const ICONO_ITEM = "systems/wod5e/assets/icons/items/item-default.svg";
@@ -720,10 +720,25 @@ function conClaves(escena) {
   return escena;
 }
 
+/** Ambiente (playlist + pista) de una escena según content/musica.json; se lee acá porque las escenas se construyen antes que las listas. */
+function ambienteDe(escenaId) {
+  if (!existe("content/musica.json")) return {};
+  for (const lista of leerJson("content/musica.json").listas) {
+    const pista = lista.pistas.find(p => p.escena === escenaId);
+    if (pista && existe(`assets/music/${pista.archivo ?? `${pista.id}.mp3`}`)) {
+      return { playlist: idEstable(`playlist:${lista.id}`), playlistSound: idEstable(`pista:${lista.id}:${pista.id}`) };
+    }
+  }
+  return {};
+}
+
 /** Escena base, compartida por las dos fuentes (planos y escenas.json). */
 function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscuridad, luzGlobal, fondo, walls, lights, regions, nota, extra = {} }) {
   const sid = ID.escena(id);
+  const ambiente = ambienteDe(id);
   return conClaves({
+    playlist: ambiente.playlist ?? null,
+    playlistSound: ambiente.playlistSound ?? null,
     _id: sid,
     _key: `!scenes!${sid}`,
     name: nombre,
@@ -910,6 +925,75 @@ const cerrar = () => {
   console.log(avisos.length ? `✓ contenido construido con ${avisos.length} aviso(s)` : "✓ contenido construido");
 };
 
+
+/* ========================================================================== */
+/*  Música y ambientes                                                        */
+/* ========================================================================== */
+
+const MUSICA = existe("content/musica.json") ? leerJson("content/musica.json") : { listas: [] };
+const MODOS_LISTA = { sequential: 0, shuffle: 1, simultaneous: 2, soundboard: -1 };
+ID.lista = id => idEstable(`playlist:${id}`);
+ID.pista = (lista, id) => idEstable(`pista:${lista}:${id}`);
+
+/** { escenaId: { playlist, playlistSound } } para enlazar el ambiente de cada escena. */
+const AMBIENTE_POR_ESCENA = {};
+for (const lista of MUSICA.listas) {
+  for (const pista of lista.pistas) {
+    if (pista.escena) AMBIENTE_POR_ESCENA[pista.escena] = { playlist: ID.lista(lista.id), playlistSound: ID.pista(lista.id, pista.id) };
+  }
+}
+
+function construirPlaylists() {
+  let n = 0;
+  for (const lista of MUSICA.listas) {
+    const pid = ID.lista(lista.id);
+    const sounds = [];
+    for (const [i, pista] of lista.pistas.entries()) {
+      const archivo = pista.archivo ?? `${pista.id}.mp3`;
+      if (!existe(`assets/music/${archivo}`)) {
+        avisos.push(`musica.json: falta assets/music/${archivo} (${pista.id}); corré npm run musica`);
+        continue;
+      }
+      const sid = ID.pista(lista.id, pista.id);
+      sounds.push({
+        _id: sid,
+        _key: `!playlists.sounds!${pid}.${sid}`,
+        name: pista.nombre,
+        description: pista.escena ? `Ambiente de la escena ${pista.escena}` : "",
+        path: `modules/${MODULO}/assets/music/${archivo}`,
+        channel: "",
+        playing: false,
+        pausedTime: null,
+        repeat: pista.repetir ?? true,
+        volume: pista.volumen ?? 0.4,
+        fade: pista.fundido ?? 2000,
+        sort: i * 1000,
+        flags: flags("pista", { pista: pista.id, escena: pista.escena ?? "" })
+      });
+    }
+    escribirDoc("playlists", {
+      _id: pid,
+      _key: `!playlists!${pid}`,
+      name: lista.nombre,
+      description: lista.descripcion ?? "",
+      sounds,
+      channel: "music",
+      mode: MODOS_LISTA[lista.modo ?? "soundboard"] ?? -1,
+      playing: false,
+      fade: 2000,
+      folder: null,
+      sorting: "m",
+      seed: 0,
+      sort: 0,
+      ownership: { default: 0 },
+      flags: flags("playlist", { lista: lista.id }),
+      _stats: STATS
+    });
+    n++;
+  }
+  console.log(`playlists: ${n} (${Object.keys(AMBIENTE_POR_ESCENA).length} escenas con ambiente)`);
+}
+
 /* ========================================================================== */
 /*  Aventura: todo al mundo en un click                                       */
 /* ========================================================================== */
@@ -961,6 +1045,7 @@ function construirAventura() {
   const journal = [...colgar(leerPack("cronica"), "JournalEntry"), ...colgar(leerPack("reglas"), "JournalEntry")];
   const scenes = colgar(leerPack("escenas"), "Scene");
   const macros = colgar(leerPack("macros"), "Macro");
+  const playlists = colgar(leerPack("playlists"), "Playlist");
   folders.unshift(...Object.values(raices));
 
   const portada = existe("assets/mapas/somnia-planta-nueva.webp") ? `modules/${MODULO}/assets/mapas/somnia-planta-nueva.webp` : "icons/svg/book.svg";
@@ -970,9 +1055,9 @@ function construirAventura() {
     name: "Somnia Biotech — Del Velo a la Vigilia",
     img: portada,
     caption: "<p>La crónica completa, lista para dirigir.</p>",
-    description: `<p>Importa al mundo <strong>${scenes.length} escenas</strong>, <strong>${actors.length} actores</strong> (PNJs y plantillas de cazador), <strong>${journal.length} journals</strong> (crónica y reglas caseras) y <strong>${macros.length} macros</strong>, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>`,
-    actors, journal, scenes, macros, folders,
-    items: [], tables: [], playlists: [], cards: [], combats: [],
+    description: `<p>Importa al mundo <strong>${scenes.length} escenas</strong>, <strong>${actors.length} actores</strong> (PNJs y plantillas de cazador), <strong>${journal.length} journals</strong> (crónica y reglas caseras), <strong>${macros.length} macros</strong> y ${playlists.length} lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>`,
+    actors, journal, scenes, macros, playlists, folders,
+    items: [], tables: [], cards: [], combats: [],
     folder: null, sort: 0,
     flags: flags("aventura", { aventura: "somnia-biotech" }),
     _stats: STATS
@@ -990,5 +1075,6 @@ function construirAventura() {
   console.log(`aventura: ${scenes.length} escenas, ${actors.length} actores, ${journal.length} journals, ${macros.length} macros, ${folders.length} carpetas`);
 }
 
+construirPlaylists();
 construirAventura();
 cerrar();

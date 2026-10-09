@@ -1,0 +1,78 @@
+{
+  "_comentario": "Pistas de ambiente de la crónica. Las que tienen `prompt` se generan con Lyria 3 (tools/generar-musica.mjs) en assets/music/<id>.mp3; las que tienen `archivo` ya existen. `escena` enlaza la pista como ambiente de esa escena (se reproduce al activarla).",
+  "modelo": "lyria-3-pro-preview",
+  "listas": [
+    {
+      "id": "ambientes",
+      "nombre": "Somnia Biotech — Ambientes",
+      "modo": "soundboard",
+      "pistas": [
+        {
+          "id": "somnia-apagon",
+          "nombre": "Acto 1 · Somnia, el apagón",
+          "escena": "somnia-planta-nueva",
+          "volumen": 0.4,
+          "prompt": "Dark ambient horror soundscape for a tabletop RPG scene: a modern biotech clinic at night during a partial power blackout. Low electrical hum of dying fluorescent lights, the periodic click and whine of emergency lights, a failing ventilation fan, a distant muffled wet sound behind thick glass, a slow sub-bass drone that rises and falls. No melody, no drums, no voices, instrumental, seamless loopable, about 2 minutes."
+        },
+        {
+          "id": "somnia-planta-vieja",
+          "nombre": "Actos 1 y 3 · La planta vieja",
+          "escena": "somnia-planta-vieja",
+          "volumen": 0.4,
+          "prompt": "Dark industrial ambient soundscape for a tabletop RPG scene: an abandoned old hospital wing, a server rack running at full power in the dark, electrical buzzing and overheating fans, water dripping on old tiles, metal pipes ticking as they cool, a deep unsettling drone with faint reversed tones. No melody, no drums, no voices, instrumental, seamless loopable, about 2 minutes."
+        },
+        {
+          "id": "piso-de-elias",
+          "nombre": "Interludio · El piso de Elías",
+          "escena": "piso-de-elias",
+          "volumen": 0.35,
+          "prompt": "Quiet, tense ambient music for a tabletop RPG interlude: rain against the window of a small rented apartment at night, an old refrigerator humming, a kettle, the city of Málaga muffled outside. A single sparse, melancholic guitar note now and then over a warm but uneasy low pad; grief, insomnia, cigarettes. Minimal, slow, instrumental, no drums, seamless loopable, about 2 minutes."
+        },
+        {
+          "id": "convento-dia",
+          "nombre": "Acto 2 · El convento, de día",
+          "escena": "convento-planta",
+          "volumen": 0.35,
+          "prompt": "Uneasy daytime ambient soundscape for a tabletop RPG scene: a deconsecrated Spanish convent in the afternoon. Wind through broken cloister windows, pigeons, a distant church bell, dust, an old wooden door creaking, and underneath it a faint, almost subliminal female prayer in Latin that comes and goes. Calm on the surface, wrong underneath. No drums, no melody, instrumental, seamless loopable, about 2 minutes."
+        },
+        {
+          "id": "cripta",
+          "nombre": "Acto 3 · La cripta del relicario",
+          "escena": "cripta",
+          "volumen": 0.45,
+          "prompt": "Dark ambient horror soundscape for a tabletop RPG scene: a medieval stone crypt beneath a convent, converted into a secret medical ward. Dripping water, the slow rhythmic pump of an IV machine, a faint heartbeat, distant whispered Latin prayers from a woman, deep sub-bass drone, occasional metallic scrape of a gurney. No melody, no drums, instrumental, seamless loopable, about 2 minutes."
+        },
+        {
+          "id": "persecucion",
+          "nombre": "Acto 1 · La huida por los pasillos",
+          "volumen": 0.5,
+          "prompt": "Tense horror chase music for a tabletop RPG: fleeing through dark hospital corridors from a predator that walks instead of running. Driving low pulse like a racing heart, stuttering industrial percussion, card readers beeping red denial tones, breathless rising strings, moments of silence that snap back. Modern horror film score, instrumental, no vocals, about 2 minutes."
+        },
+        {
+          "id": "combate-cripta",
+          "nombre": "Acto 3 · Combate en la cripta",
+          "volumen": 0.5,
+          "prompt": "Intense modern horror combat music for a tabletop RPG climax: a desperate fight in a medieval crypt full of fragile medical equipment, against a vampire. Pounding low drums, distorted cello and brass stabs, shattering glass hits, a choir that is almost a scream, relentless momentum. Dark cinematic action score, instrumental, no lyrics, about 2 minutes."
+        },
+        {
+          "id": "heraldos",
+          "nombre": "Los Heraldos (Imbuimiento)",
+          "volumen": 0.45,
+          "prompt": "Luminous, eerie, sacred ambient music for a tabletop RPG moment when unseen angelic messengers speak to a mortal: time stops, dust hangs in the air. Shimmering high choral pads, glass harmonics, a slow swell of warm light with an undertone of dread, letters of fire. Awe and fear in equal measure. Slow, instrumental, no drums, no lyrics, about 2 minutes."
+        },
+        {
+          "id": "amanecer",
+          "nombre": "El amanecer (la huida final)",
+          "volumen": 0.4,
+          "prompt": "Exhausted, bittersweet dawn music for the end of a tabletop RPG horror session: survivors stumble out of a burning clinic as the first sunlight hits the wet asphalt of Málaga. Soft piano, low strings, distant sirens and seagulls, a slow breath of relief with grief underneath. Cinematic, slow, instrumental, no drums, about 2 minutes."
+        },
+        {
+          "id": "sitis-sacra",
+          "nombre": "Sor Anunciación (Sitis Sacra)",
+          "archivo": "Sitis_Sacra.mp3",
+          "volumen": 0.45
+        }
+      ]
+    }
+  ]
+}

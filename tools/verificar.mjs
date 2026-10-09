@@ -122,7 +122,7 @@ for (const archivo of archivos) {
   // fvtt-cli no tiene entrada `adventures`, así que no se les asigna _key.
   const esAventura = doc._key?.startsWith("!adventures");
   const EMBEBIDOS = esAventura ? {} : { pages: "journal.pages", items: "actors.items",
-                      effects: "actors.effects", results: "tables.results" };
+                      effects: "actors.effects", results: "tables.results", sounds: "playlists.sounds" };
   if (doc._key?.startsWith("!scenes!")) {
     for (const col of ["walls", "lights", "levels", "regions", "tokens", "notes", "sounds", "tiles", "drawings"]) {
       EMBEBIDOS[col] = `scenes.${col}`;

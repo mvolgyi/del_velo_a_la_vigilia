@@ -96,6 +96,15 @@ npm run planos       # esquemas en assets/mapas/<id>.esquema.webp
 npm run pintar       # repinta con el modelo (requiere GOOGE_AI_STUDIO_API_KEY en .env)
 ```
 
+### Música y ambientes
+
+Las pistas se describen en `content/musica.json` y se generan con Lyria 3 (Gemini API):
+
+```bash
+npm run musica                         # assets/music/<id>.mp3 (las propias, con `archivo`, no se tocan)
+npm run contenido                      # lista de reproducción + ambiente enlazado a cada escena
+```
+
 ### Retratos y tokens de PNJs
 
 Los prompts viven en `tools/arte.config.json` (estilos `retrato` y `token`). El token se genera
