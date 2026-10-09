@@ -253,6 +253,12 @@ export class Desesperacion {
       type: Boolean,
       default: false
     });
+    game.settings.register(DVV.ID, DVV.SETTINGS.IMPORTACION_OFRECIDA, {
+      scope: "world",
+      config: false,
+      type: Boolean,
+      default: false
+    });
     game.settings.register(DVV.ID, DVV.SETTINGS.RECORDATORIOS, {
       name: "DVV.settings.recordatorios-desesperacion.Name",
       hint: "DVV.settings.recordatorios-desesperacion.Hint",

@@ -122,6 +122,14 @@
     "tirada": {
       "boton": "Tirar {label}",
       "dificultad": "dif. {n}"
+    },
+    "importar": {
+      "titulo": "Importar la crónica Somnia Biotech",
+      "pregunta": "Este mundo todavía no tiene la crónica. ¿La importamos ahora? Crea escenas, actores, journals y macros con sus carpetas. Podés hacerlo después desde el compendio «Somnia Biotech — Importar la crónica» o con la macro.",
+      "si": "Importar ahora",
+      "no": "Más tarde",
+      "hecho": "Crónica importada: {n} documentos creados.",
+      "sinAventura": "No se encontró la Aventura en el compendio del módulo."
     }
   }
 }

@@ -47,7 +47,7 @@ marked.use({ gfm: true });
 const md2html = md => marked.parse(md, { async: false });
 
 const existe = rel => fs.existsSync(path.join(RAIZ, rel));
-const PACKS = ["reservas", "mejoras", "estados", "rasgos", "arsenal", "reglas", "cronica", "personajes", "escenas", "macros"];
+const PACKS = ["reservas", "mejoras", "estados", "rasgos", "arsenal", "reglas", "cronica", "personajes", "escenas", "macros", "aventura"];
 for (const p of PACKS) limpiarGenerados(path.join(RAIZ, "packs-src", p));
 
 const ICONO_ITEM = "systems/wod5e/assets/icons/items/item-default.svg";
@@ -858,6 +858,7 @@ function construirEscenas() {
 function construirMacros() {
   const api = `game.modules.get("${MODULO}").api`;
   const macros = [
+    { id: "importar", nombre: "Somnia Biotech — Importar la crónica al mundo", icono: "icons/svg/down.svg", comando: `${api}.importarCronica();` },
     { id: "panel", nombre: "Somnia Biotech — Panel del Narrador", icono: "icons/svg/book.svg", comando: `${api}.abrirPanel();` },
     { id: "otorgar", nombre: "Las Tres Puertas — Otorgar camino", icono: "icons/svg/door-exit.svg", comando: `${api}.otorgarCamino();` },
     { id: "comprar", nombre: "Comprar poder (Borde / Artefacto / Modificación)", icono: "icons/svg/upgrade.svg", comando: `${api}.comprarPoder();` },
@@ -898,5 +899,90 @@ construirPersonajes();
 construirEscenas();
 construirMacros();
 
-for (const a of avisos) console.warn(`aviso: ${a}`);
-console.log(avisos.length ? `✓ contenido construido con ${avisos.length} aviso(s)` : "✓ contenido construido");
+const cerrar = () => {
+  for (const a of avisos) console.warn(`aviso: ${a}`);
+  console.log(avisos.length ? `✓ contenido construido con ${avisos.length} aviso(s)` : "✓ contenido construido");
+};
+
+/* ========================================================================== */
+/*  Aventura: todo al mundo en un click                                       */
+/* ========================================================================== */
+
+/**
+ * Un documento Adventure que embebe escenas, actores, journals y macros ya
+ * generados, con sus carpetas, para que el Narrador importe la crónica entera
+ * desde el compendio (o desde el quickstart de Foundry 14) sin arrastrar nada.
+ * Los ítems (reservas, mejoras, estados, arsenal) quedan en sus compendios:
+ * se usan desde ahí.
+ */
+function construirAventura() {
+  const AVENTURA_ID = idEstable("aventura:somnia-biotech");
+  const leerPack = pack => {
+    const dir = path.join(RAIZ, "packs-src", pack);
+    if (!fs.existsSync(dir)) return [];
+    return fs.readdirSync(dir).filter(f => f.endsWith(".json"))
+      .map(f => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
+  };
+  const sinKey = doc => {
+    const { _key, ...resto } = doc;
+    for (const campo of ["pages", "items", "effects"]) {
+      if (Array.isArray(resto[campo])) resto[campo] = resto[campo].map(({ _key, ...h }) => h);
+    }
+    return resto;
+  };
+  const esCarpeta = d => d._key?.startsWith("!folders!");
+
+  const raices = {};
+  const raiz = tipo => {
+    raices[tipo] ??= {
+      _id: idEstable(`aventura:raiz:${tipo}`), name: "Del Velo a la Vigilia", type: tipo, folder: null,
+      sorting: "m", sort: 0, color: "#5c1f1f", flags: flags("carpeta"), _stats: STATS
+    };
+    return raices[tipo];
+  };
+
+  const folders = [];
+  const colgar = (docs, tipo) => {
+    const carpetas = docs.filter(esCarpeta).map(sinKey);
+    const resto = docs.filter(d => !esCarpeta(d)).map(sinKey);
+    const r = raiz(tipo);
+    for (const c of carpetas) folders.push({ ...c, folder: c.folder ?? r._id });
+    for (const d of resto) d.folder ??= r._id;
+    return resto;
+  };
+
+  const actors = colgar(leerPack("personajes"), "Actor");
+  const journal = [...colgar(leerPack("cronica"), "JournalEntry"), ...colgar(leerPack("reglas"), "JournalEntry")];
+  const scenes = colgar(leerPack("escenas"), "Scene");
+  const macros = colgar(leerPack("macros"), "Macro");
+  folders.unshift(...Object.values(raices));
+
+  const portada = existe("assets/mapas/somnia-planta-nueva.webp") ? `modules/${MODULO}/assets/mapas/somnia-planta-nueva.webp` : "icons/svg/book.svg";
+  escribirDoc("aventura", {
+    _id: AVENTURA_ID,
+    _key: `!adventures!${AVENTURA_ID}`,
+    name: "Somnia Biotech — Del Velo a la Vigilia",
+    img: portada,
+    caption: "<p>La crónica completa, lista para dirigir.</p>",
+    description: `<p>Importa al mundo <strong>${scenes.length} escenas</strong>, <strong>${actors.length} actores</strong> (PNJs y plantillas de cazador), <strong>${journal.length} journals</strong> (crónica y reglas caseras) y <strong>${macros.length} macros</strong>, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>`,
+    actors, journal, scenes, macros, folders,
+    items: [], tables: [], playlists: [], cards: [], combats: [],
+    folder: null, sort: 0,
+    flags: flags("aventura", { aventura: "somnia-biotech" }),
+    _stats: STATS
+  });
+
+  // El quickstart del manifest apunta a este id.
+  const manifestPath = path.join(RAIZ, "module.json");
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+  if (manifest.quickstart?.adventures) {
+    for (const a of Object.values(manifest.quickstart.adventures)) {
+      a.uuid = `Compendium.${MODULO}.aventura.Adventure.${AVENTURA_ID}`;
+    }
+    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
+  }
+  console.log(`aventura: ${scenes.length} escenas, ${actors.length} actores, ${journal.length} journals, ${macros.length} macros, ${folders.length} carpetas`);
+}
+
+construirAventura();
+cerrar();

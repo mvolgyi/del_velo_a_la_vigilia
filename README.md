@@ -37,8 +37,11 @@ Desde Foundry → *Add-on Modules* → *Install Module* → pegar la URL del man
 https://github.com/mvolgyi/del_velo_a_la_vigilia/releases/latest/download/module.json
 ```
 
-Activar el módulo en el mundo. Las macros están en el compendio *Del Velo a la Vigilia — Macros*;
-empezá por **Somnia Biotech — Panel del Narrador**.
+Activar el módulo en el mundo. Al entrar como Narrador, el módulo ofrece **importar la crónica
+entera** (escenas, actores, journals y macros, con carpetas) en un click; también se puede hacer
+después desde el compendio *Somnia Biotech — Importar la crónica* o con la macro del mismo nombre.
+Reimportar actualiza sin duplicar. Los poderes, estados y el Arsenal quedan en sus compendios.
+Después, abrí la macro **Somnia Biotech — Panel del Narrador**.
 
 ## Estructura del repositorio
 

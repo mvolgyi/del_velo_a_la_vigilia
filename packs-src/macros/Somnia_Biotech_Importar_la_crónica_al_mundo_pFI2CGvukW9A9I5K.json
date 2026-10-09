@@ -1,0 +1,25 @@
+{
+  "_id": "pFI2CGvukW9A9I5K",
+  "_key": "!macros!pFI2CGvukW9A9I5K",
+  "name": "Somnia Biotech — Importar la crónica al mundo",
+  "type": "script",
+  "scope": "global",
+  "img": "icons/svg/down.svg",
+  "command": "game.modules.get(\"del-velo-a-la-vigilia\").api.importarCronica();",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "macro",
+      "macro": "importar"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

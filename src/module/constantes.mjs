@@ -29,7 +29,9 @@ export class DVV {
     /** Si al registrar +1 de Peligro también sube el Danger de la Célula. */
     SUBIR_DANGER: "subir-danger-automatico",
     /** Si tras un «1» en dados de Desesperación se publica el recordatorio. */
-    RECORDATORIOS: "recordatorios-desesperacion"
+    RECORDATORIOS: "recordatorios-desesperacion",
+    /** Si ya se le ofreció al Narrador importar la crónica en este mundo. */
+    IMPORTACION_OFRECIDA: "importacion-ofrecida"
   };
 
   static BALIZAS = ["fe", "metodo", "carne"];

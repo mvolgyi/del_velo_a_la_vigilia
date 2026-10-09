@@ -38,6 +38,7 @@ Hooks.once("ready", async () => {
     registrarPeligro: (actor, motivo) => Desesperacion.registrarPeligro(actor, motivo),
     ajustarBalizas: actor => Balizas.dialogo(actor),
     equiparSet: (actor, setId) => Arsenal.equiparSet(actor, setId),
+    importarCronica: opciones => importarCronica(opciones),
     cazadorActual
   };
 
@@ -45,7 +46,53 @@ Hooks.once("ready", async () => {
   await Arsenal.cargar().catch(err => console.warn(`${DVV.ID} | arsenal:`, err));
 
   console.log(`${DVV.ID} | Listo. Foundry ${game.version} · ${game.system.id} ${game.system.version} · ${Caminos.lista.length} caminos`);
+
+  if (game.user.isGM) ofrecerImportacion().catch(err => console.warn(`${DVV.ID} | importación:`, err));
 });
+
+/* -------------------------------------------- */
+/*  Importar la crónica al mundo                */
+/* -------------------------------------------- */
+
+/** La Aventura del compendio: escenas, actores, journals, macros y carpetas. */
+async function aventura() {
+  const pack = DVV.pack("aventura");
+  if (!pack) return null;
+  const indice = await pack.getIndex();
+  const entrada = indice.contents[0];
+  return entrada ? pack.getDocument(entrada._id) : null;
+}
+
+function cronicaImportada() {
+  return game.scenes.some(s => s.getFlag(DVV.ID, "escena")) || game.journal.some(j => j.getFlag(DVV.ID, "archivo"));
+}
+
+/** Importa (o actualiza) todo el contenido de la crónica en el mundo. */
+async function importarCronica({ silencioso = false } = {}) {
+  if (!game.user.isGM) return ui.notifications.warn(game.i18n.localize("DVV.soloNarrador"));
+  const doc = await aventura();
+  if (!doc) return ui.notifications.error(game.i18n.localize("DVV.importar.sinAventura"));
+  const resultado = await doc.import({ dialog: false });
+  await game.settings.set(DVV.ID, DVV.SETTINGS.IMPORTACION_OFRECIDA, true);
+  if (!silencioso) ui.notifications.info(game.i18n.format("DVV.importar.hecho", { n: Object.values(resultado?.created ?? {}).reduce((a, b) => a + (b?.length ?? 0), 0) }));
+  return resultado;
+}
+
+/** Al entrar por primera vez a un mundo sin la crónica, se ofrece importarla. */
+async function ofrecerImportacion() {
+  if (cronicaImportada() || game.settings.get(DVV.ID, DVV.SETTINGS.IMPORTACION_OFRECIDA)) return;
+  const doc = await aventura();
+  if (!doc) return;
+  const si = await foundry.applications.api.DialogV2.confirm({
+    window: { title: game.i18n.localize("DVV.importar.titulo") },
+    classes: ["dvv-dialogo"],
+    content: `<p>${game.i18n.localize("DVV.importar.pregunta")}</p>${doc.description}`,
+    yes: { label: game.i18n.localize("DVV.importar.si"), default: true },
+    no: { label: game.i18n.localize("DVV.importar.no") }
+  });
+  await game.settings.set(DVV.ID, DVV.SETTINGS.IMPORTACION_OFRECIDA, true);
+  if (si) await importarCronica();
+}
 
 /* -------------------------------------------- */
 /*  Hooks del sistema                           */

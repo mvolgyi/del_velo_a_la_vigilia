@@ -122,6 +122,14 @@
     "tirada": {
       "boton": "Roll {label}",
       "dificultad": "diff. {n}"
+    },
+    "importar": {
+      "titulo": "Import the Somnia Biotech chronicle",
+      "pregunta": "This world does not have the chronicle yet. Import it now? It creates scenes, actors, journals and macros with their folders. You can do it later from the “Somnia Biotech — Importar la crónica” compendium or with the macro.",
+      "si": "Import now",
+      "no": "Later",
+      "hecho": "Chronicle imported: {n} documents created.",
+      "sinAventura": "The Adventure was not found in the module compendium."
     }
   }
 }
