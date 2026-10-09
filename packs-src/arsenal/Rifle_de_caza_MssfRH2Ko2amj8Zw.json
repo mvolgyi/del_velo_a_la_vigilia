@@ -1,0 +1,52 @@
+{
+  "_id": "MssfRH2Ko2amj8Zw",
+  "_key": "!items!MssfRH2Ko2amj8Zw",
+  "name": "Rifle de caza",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol-brass.webp",
+  "folder": "aWbs3Zkyb7u1gkto",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Compostura + Armas de fuego</td></tr><tr><th>Daño</th><td>+4</td></tr><tr><th>Dif. / regla</th><td>+1 dado apuntando 1 turno con apoyo</td></tr><tr><th>Ocultamiento</th><td>No</td></tr><tr><th>Recursos</th><td>2</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "weaponType": "ranged",
+    "weaponvalue": 4,
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {
+      "d1": {
+        "path": "attributes.composure"
+      },
+      "d2": {
+        "path": "skills.firearms"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "arma",
+      "arma": "rifle-caza",
+      "categoria": "fuego",
+      "agravado": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

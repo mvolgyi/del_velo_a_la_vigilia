@@ -1,0 +1,39 @@
+{
+  "_id": "HUvyZHiZASNX7SUd",
+  "_key": "!items!HUvyZHiZASNX7SUd",
+  "name": "Marcador Pasivo",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "OfRFmL1eZGRDgg7u",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Rastreador de Firma.</em></p><p>Si el Iluminado llega físicamente al refugio de la criatura con la firma activa, puede dejar un sensor oculto: sabrá cuándo la criatura entra o sale mientras el sensor sobreviva.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-rastreador-de-firma",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-ilu-rastreador-de-firma",
+      "camino": "iluminado",
+      "mejora": "marcador-pasivo",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

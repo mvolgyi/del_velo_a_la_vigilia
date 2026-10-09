@@ -1,0 +1,39 @@
+{
+  "_id": "YtsG4c8DnfS8vC0h",
+  "_key": "!items!YtsG4c8DnfS8vC0h",
+  "name": "Leer la Herida",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Segunda Vista.</em></p><p>Con un turno de observación y una tirada de Inteligencia + Ocultismo (dif. 3), el Imbuido intuye una vulnerabilidad general de la criatura (el fuego, el sol, la plata, su ancla). La cronista da una pista, no una ficha técnica.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-segunda-vista",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-segunda-vista",
+      "camino": "imbuido",
+      "mejora": "leer-la-herida",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

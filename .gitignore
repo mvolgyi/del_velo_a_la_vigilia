@@ -1,0 +1,21 @@
+# Material con copyright (libro básico de Nosolorol). NUNCA al repo público.
+docs/*.pdf
+
+# Secretos
+.env
+.env.*
+!.env.example
+*.key
+
+# Packs compilados (LevelDB, binario). La fuente versionable vive en packs-src/.
+packs/
+
+# Foundry crea esto al bloquear el paquete durante el desarrollo.
+*.lock
+
+node_modules/
+.DS_Store
+
+# Artefactos de release
+dist/
+*.zip

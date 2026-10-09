@@ -1,0 +1,46 @@
+{
+  "_id": "ww0sOZgSLyXRbdyb",
+  "_key": "!items!ww0sOZgSLyXRbdyb",
+  "name": "Segunda Vista — Resolución + Percepción",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 0,
+  "system": {
+    "description": "<p>Todo Imbuido la recibe gratis en el Imbuimiento. Reemplaza y supera al Borde estándar Sense the Unnatural.</p><p>El Imbuido ve el mundo como es. No hay efectos visuales dramáticos: simplemente el vampiro se ve muerto, la piel del hombre lobo no termina de quedarse quieta, el fantasma está ahí parado aunque nadie más lo vea.</p>\n<p><strong>Sistema.</strong></p><p>Pasiva. Ante un sobrenatural disfrazado, oculto o inmaterial, la cronista pide Resolución + Percepción (dificultad según el poder que lo oculte; contra disciplinas como Obfuscate o Mask of a Thousand Faces es una tirada enfrentada contra el poder del monstruo). No requiere encender la Chispa. Un éxito revela que algo está mal; un crítico revela qué tipo de criatura es, si el Imbuido ya conoció a una igual.</p><p><em>Dificultad según el poder que oculte; contra disciplinas de ocultamiento es enfrentada contra el poder del monstruo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-segunda-vista",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.awareness"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-segunda-vista",
+      "camino": "imbuido",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

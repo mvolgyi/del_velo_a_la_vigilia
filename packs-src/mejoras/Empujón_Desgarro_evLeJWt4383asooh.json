@@ -1,0 +1,39 @@
+{
+  "_id": "evLeJWt4383asooh",
+  "_key": "!items!evLeJWt4383asooh",
+  "name": "Empujón (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Reflejo Anticipatorio.</em></p><p>Desgarrando, el reflejo alcanza para sacar a otros del camino: toda la célula queda cubierta contra la sorpresa esa escena. El manotazo que te tira al piso medio segundo antes del disparo.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-reflejo-anticipatorio",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-reflejo-anticipatorio",
+      "camino": "modificado",
+      "mejora": "empujon",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

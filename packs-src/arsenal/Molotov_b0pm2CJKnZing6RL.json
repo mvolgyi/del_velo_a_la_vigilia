@@ -1,0 +1,52 @@
+{
+  "_id": "b0pm2CJKnZing6RL",
+  "_key": "!items!b0pm2CJKnZing6RL",
+  "name": "Molotov",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol-brass.webp",
+  "folder": "CyTXIpzvobmRjGOW",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Destreza + Atletismo</td></tr><tr><th>Daño</th><td>+2 agravado</td></tr><tr><th>Dif. / regla</th><td>Dif. 2 lanzarla a corta, dif. 3 a media. Prende el escenario: la cronista lo va a usar</td></tr><tr><th>Ocultamiento</th><td>—</td></tr><tr><th>Recursos</th><td>1 (nafta y trapo)</td></tr></tbody></table><p>Daño: +2 agravado en el área</p><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "weaponType": "ranged",
+    "weaponvalue": 2,
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {
+      "d1": {
+        "path": "attributes.dexterity"
+      },
+      "d2": {
+        "path": "skills.athletics"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "arma",
+      "arma": "molotov",
+      "categoria": "especial",
+      "agravado": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

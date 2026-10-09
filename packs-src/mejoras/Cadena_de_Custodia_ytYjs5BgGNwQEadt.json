@@ -1,0 +1,39 @@
+{
+  "_id": "ytYjs5BgGNwQEadt",
+  "_key": "!items!ytYjs5BgGNwQEadt",
+  "name": "Cadena de Custodia",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "OfRFmL1eZGRDgg7u",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Reconstructor.</em></p><p>Los archivos del Reconstructor quedan cifrados y con firma de integridad. Sirven para convencer a un contacto escéptico, un policía, un periodista, un patrocinador de la org, de que lo que la célula dice haber visto pasó de verdad. La cronista decide cuánto pesa esa prueba, pero pesa.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-reconstructor",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-ilu-reconstructor",
+      "camino": "iluminado",
+      "mejora": "cadena-de-custodia",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

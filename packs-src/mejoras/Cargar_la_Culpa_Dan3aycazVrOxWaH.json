@@ -1,0 +1,39 @@
+{
+  "_id": "Dan3aycazVrOxWaH",
+  "_key": "!items!Dan3aycazVrOxWaH",
+  "name": "Cargar la Culpa",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Atravesar.</em></p><p>Si el objetivo mató a un mortal en los últimos días, el Imbuido lo sabe al ganar la enfrentada, y el objetivo sufre además −1 dado en todas sus reservas contra el Imbuido durante la escena. El peso de lo que hizo se le sube a los hombros.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-atravesar",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-atravesar",
+      "camino": "imbuido",
+      "mejora": "cargar-la-culpa",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

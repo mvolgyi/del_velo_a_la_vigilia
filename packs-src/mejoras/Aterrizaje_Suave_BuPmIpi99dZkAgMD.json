@@ -1,0 +1,39 @@
+{
+  "_id": "BuPmIpi99dZkAgMD",
+  "_key": "!items!BuPmIpi99dZkAgMD",
+  "name": "Aterrizaje Suave",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Glándula de Sobremarcha.</em></p><p>Elimina el bajón post-escena. El sistema aprende a dosificar la vuelta.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-glandula-de-sobremarcha",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-glandula-de-sobremarcha",
+      "camino": "gen2",
+      "mejora": "aterrizaje-suave",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "0cfBEUsvlYOc70QB",
+  "_key": "!items!0cfBEUsvlYOc70QB",
+  "name": "Ojo Compuesto — Compostura + Aguante (dif. 2)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "IUJmQ8f7T6tgqp7i",
+  "sort": 101,
+  "system": {
+    "description": "<p><em>Auspex 1 · emula Auspex 1</em></p>\n<p>Retina reconstruida en capas, cóclea afinada, bulbo olfativo expandido. El mundo entra entero y a la vez.</p>\n<p><strong>Sistema.</strong></p><p>Se activa exigiendo la carne con Resolución + Consciencia (dif. 1; la tirada existe para arriesgar la Desesperación, no para fallar). Durante la escena: +2 dados a todas las tiradas de Percepción, lee labios a distancia, oye una conversación a través de una pared fina, reconoce un perfume en un ascensor vacío.</p>\n<p><strong>El precio propio.</strong></p><p>Mientras está activo, el Modificado sufre −2 dados para resistir ataques sensoriales: un flash, una sirena o un grito a corta distancia pueden aturdirlo un turno (chequeo de Compostura + Aguante, dif. 2). Los sentidos abiertos se abren para todo.</p>\n<p><strong>La marca:</strong> Iris con anillos concéntricos, refleja la luz</p>\n<p><em>Activación — exigir la carne: incluí los dados de Desesperación. Ocupa 2 Modificaciones contra el límite de Resistencia.</em></p><p><em>Aguante no existe en H5: se usa Atletismo. Chequeo del precio propio: resistir aturdimiento por ataque sensorial (flash, sirena, grito) mientras el injerto está activo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-ojo-compuesto",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.composure"
+      },
+      "d2": {
+        "path": "skills.athletics"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-gen2-ojo-compuesto",
+      "camino": "gen2",
+      "dificultad": 2,
+      "indice": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

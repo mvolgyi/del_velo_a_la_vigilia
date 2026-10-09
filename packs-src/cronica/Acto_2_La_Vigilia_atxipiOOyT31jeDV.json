@@ -1,0 +1,137 @@
+{
+  "_id": "atxipiOOyT31jeDV",
+  "_key": "!journal!atxipiOOyT31jeDV",
+  "name": "Acto 2 — La Vigilia",
+  "folder": "wLhwD4CLZ873vynb",
+  "sort": 30,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/cronica/04-acto-2.md"
+    }
+  },
+  "pages": [
+    {
+      "_id": "6kbSEsn2QZ548LSz",
+      "_key": "!journal.pages!atxipiOOyT31jeDV.6kbSEsn2QZ548LSz",
+      "name": "Introducción",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>La preparación se juega a través de escenas modulares que la mesa puede abordar en el orden que prefiera, utilizando los talentos específicos de los cuatro personajes para cargar las balizas hacia su transformación final.</p>\n"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LA8KyAYIlULm3MWH",
+      "_key": "!journal.pages!atxipiOOyT31jeDV.LA8KyAYIlULm3MWH",
+      "name": "Seguir a Salas (La Infiltración)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>La @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.kWQNBnBz3V9gvlnP]{doctora} visita un laboratorio satélite dos veces por semana. El Informático es clave aquí para anular las alarmas, mientras el Doctorando sabe exactamente qué buscar en los servidores.</p>\n<ul>\n<li><strong>Éxito (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"0\" data-label=\"Sigilo\"><i class=\"fa-solid fa-dice-d10\"></i> Sigilo</a>/<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"0\" data-label=\"Tecnología\"><i class=\"fa-solid fa-dice-d10\"></i> Tecnología</a>):</strong> Obtienen los cuadernos del Compuesto A y suman +1 Método <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Robar los cuadernos del Compuesto A\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Robar los cuadernos del Compuesto A</span></button>. Quien los estudie a fondo gana otro punto <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Estudiar a fondo los cuadernos\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Estudiar a fondo los cuadernos</span></button>.</li>\n<li><strong>Crítico:</strong> Descubren la agenda de cirugías clandestinas. La palabra &quot;@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.UpZ0DCdeSgMIlyXC]{Quimera}&quot; (los voluntarios de continuidad) entra en juego.</li>\n<li><strong>Fallo:</strong> Son detectados. Esa misma noche @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.yWZmWOJ2RbCdY4Dq]{Marcos} visita el piso franco de @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.O2GuehcZV88rKsKt]{Elías}. Se improvisa una Custodia (rezos y sal). Solo un personaje que tire <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.resolve skills.occult\" data-dificultad=\"1\" data-label=\"Resolución + Convicción\"><i class=\"fa-solid fa-dice-d10\"></i> Resolución + Convicción</a> y logre un éxito hace que la sal resista un empujón antinatural.</li>\n</ul>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fW6s8vqNpf4lolIq",
+      "_key": "!journal.pages!atxipiOOyT31jeDV.fW6s8vqNpf4lolIq",
+      "name": "El Durmiente Dado de Alta",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>El Guardia y el Limpiador, con su conocimiento de la calle, localizan a un @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.62xFjZPXiec7OFTE]{ex voluntario &quot;apagado&quot;}. Si un personaje decide cuidarlo o conseguirle ayuda humana sin pedir nada a cambio, gana +1 Fe <button type=\"button\" class=\"dvv-baliza fe\" data-dvv-baliza=\"fe\" data-delta=\"1\" data-motivo=\"Cuidar al durmiente sin pedir nada\"><span class=\"dvv-baliza-delta\">+1 Fe</span><span class=\"dvv-baliza-motivo\">Cuidar al durmiente sin pedir nada</span></button>. Si el Doctorando o el Informático deciden tratarlo como sujeto de estudio y sacarle sangre, la célula gana +1 Método <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Tratar al durmiente como sujeto de estudio\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Tratar al durmiente como sujeto de estudio</span></button>, forzando una escena de dilema moral en la mesa.</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CWzy9FH3TSUmmdE1",
+      "_key": "!journal.pages!atxipiOOyT31jeDV.CWzy9FH3TSUmmdE1",
+      "name": "Los Viales de la Heladera",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Los tres viales del Compuesto A robados hace nueve años por la célula de Elías descansan en el fondo de la nevera. No los ofrezcas; deja que la presión exterior haga su trabajo. Si el Guardia o el Limpiador (o quien esté más desesperado por proteger a su Piedra de Toque) se inyecta, gana +2 Carne <button type=\"button\" class=\"dvv-baliza carne\" data-dvv-baliza=\"carne\" data-delta=\"2\" data-motivo=\"Inyectarse el Compuesto A\"><span class=\"dvv-baliza-delta\">+2 Carne</span><span class=\"dvv-baliza-motivo\">Inyectarse el Compuesto A</span></button>. Esa noche sufrirá fiebre violenta, audición agudizada y sus moretones cerrarán en horas: la certeza de que el monstruo ahora vive en él.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4ttWqb3gX9QPNHF4",
+      "_key": "!journal.pages!atxipiOOyT31jeDV.4ttWqb3gX9QPNHF4",
+      "name": "La Capilla, de Día",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Una visita legal al convento desconsagrado. El Limpiador, que escuchó los rezos de @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación}, puede sentir el peso del lugar. Quien se quede a solas en el altar y tire <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.resolve skills.occult\" data-dificultad=\"2\" data-label=\"Resolución + Convicción (Dificultad 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Resolución + Convicción (Dificultad 2)</a> gana +1 Fe con un éxito <button type=\"button\" class=\"dvv-baliza fe\" data-dvv-baliza=\"fe\" data-delta=\"1\" data-motivo=\"Rezar a solas en el altar\"><span class=\"dvv-baliza-delta\">+1 Fe</span><span class=\"dvv-baliza-motivo\">Rezar a solas en el altar</span></button>. Con un crítico, verá encenderse por un segundo una vela apagada; un guiño de los Heraldos.</p>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "itYzJMyBLunw9Kp0",
+      "_key": "!journal.pages!atxipiOOyT31jeDV.itYzJMyBLunw9Kp0",
+      "name": "Momento de Encrucijada II — El Plan",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Con la información y las balizas cargadas, la mesa debe decidir cómo bajar a la cripta para el Acto 3. Esta elección define mecánicamente en qué tipo de Cazadores se convertirán:</p>\n<ul>\n<li><strong>Fuego, Fe y Sacrificio:</strong> Si el plan confía en la protección divina y en poner el cuerpo por los demás, la aventura late hacia el Despertar de los Imbuidos.</li>\n<li><strong>Datos, Aparatos y Química:</strong> Si el plan se apoya en los cuadernos de Salas y los diagramas a medio terminar de Mara, la crónica late hacia el Método y la creación de Artefactos.</li>\n<li><strong>Nuestra Propia Arma:</strong> Si el plan se estructura alrededor del personaje que se inyectó el Compuesto A usándolo como punta de lanza, el camino se sella hacia la Carne y las Modificaciones.</li>\n</ul>\n<blockquote>\n<p><strong>Para el Narrador:</strong> sabiendo que esta decisión moldeará sus fichas definitivas, pensá cómo vas a manejar el terreno de la &quot;cripta&quot; debajo del convento para que el clímax ofrezca oportunidades tácticas distintas dependiendo del plan que elijan.</p>\n</blockquote>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

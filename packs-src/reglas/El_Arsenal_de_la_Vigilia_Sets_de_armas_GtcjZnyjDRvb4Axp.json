@@ -1,0 +1,175 @@
+{
+  "_id": "GtcjZnyjDRvb4Axp",
+  "_key": "!journal!GtcjZnyjDRvb4Axp",
+  "name": "El Arsenal de la Vigilia — Sets de armas",
+  "folder": "xga5vFHstdau9DJL",
+  "sort": 50,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/reglas/05-el-arsenal-de-la-vigilia.md"
+    }
+  },
+  "pages": [
+    {
+      "_id": "LrqZetOLkPN2RNWk",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.LrqZetOLkPN2RNWk",
+      "name": "Sets de armas, dificultades y daño para Hunter: The Reckoning 5ª Edición",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Compañero de los tres documentos de poderes. Acá está el fierro: tablas de armas con reserva, dificultad y daño, reglas rápidas contra sobrenaturales, y sets armados listos para repartir según el Credo de cada cazador.</p>\n"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GJNpnSaiukafiB6V",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.GJNpnSaiukafiB6V",
+      "name": "1. Cómo leer las tablas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul>\n<li>Reserva: los dados que se tiran para atacar. En combate contra alguien que se defiende, la tirada es enfrentada (normalmente contra Destreza + Atletismo). El daño final es el margen de éxitos + el valor de Daño del arma.</li>\n<li>Daño: el modificador del arma. Recordá la regla de oro de H5: las armas comunes infligen daño superficial a vampiros y otras criaturas resistentes (que además lo dividen a la mitad). Para infligir agravado hace falta fuego, luz solar, o el equipamiento especial de las tablas 3 y 4.</li>\n<li>Dif.: dificultad o penalizador situacional cuando la tirada no es enfrentada, o requisito de uso. &quot;—&quot; significa que se usa la enfrentada normal sin nada raro.</li>\n<li>Ocult.: dónde se esconde el arma. Bolsillo / Campera / Abrigo / Bolso / No. Importa para cacheos, entrar a lugares y no llamar a la policía.</li>\n<li>Rec.: puntos de Recursos aproximados para conseguirla legalmente o en el mercado que corresponda. Entre paréntesis, si además hace falta un contacto o algo ilegal.</li>\n</ul>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "W23WEoYW16lkmG2v",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.W23WEoYW16lkmG2v",
+      "name": "2. Tabla — Cuerpo a cuerpo e improvisadas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table>\n<thead>\n<tr>\n<th>Arma</th>\n<th>Reserva</th>\n<th>Daño</th>\n<th>Dif.</th>\n<th>Ocult.</th>\n<th>Rec.</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Puños / patadas</td>\n<td>Fuerza + Pelea</td>\n<td>+0</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Manopla</td>\n<td>Fuerza + Pelea</td>\n<td>+1</td>\n<td>—</td>\n<td>Bolsillo</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Improvisada liviana (botella, caño corto)</td>\n<td>Fuerza + Pelea</td>\n<td>+1</td>\n<td>Se rompe con fallo total</td>\n<td>Depende</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Bate, cachiporra, llave cruz</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+2</td>\n<td>—</td>\n<td>Campera/Bolso</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Cuchillo, navaja</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+2</td>\n<td>—</td>\n<td>Bolsillo</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Machete, hacha de mano</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+3</td>\n<td>—</td>\n<td>Abrigo/Bolso</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Hacha de bombero, espada</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+3</td>\n<td>—</td>\n<td>No</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Maza/martillo a dos manos</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+4</td>\n<td>−1 a iniciativa; imposible en espacios chicos</td>\n<td>No</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Estaca de madera</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+0</td>\n<td>Ver regla de estacar (§5)</td>\n<td>Campera</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Motosierra</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+4</td>\n<td>Dif. base: arrancarla cuesta 1 turno; fallo total = 1 daño propio</td>\n<td>No</td>\n<td>2</td>\n</tr>\n</tbody></table>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eNtVRdr8vg1sysw4",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.eNtVRdr8vg1sysw4",
+      "name": "3. Tabla — Armas de fuego",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table>\n<thead>\n<tr>\n<th>Arma</th>\n<th>Reserva</th>\n<th>Daño</th>\n<th>Dif.</th>\n<th>Ocult.</th>\n<th>Rec.</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Pistola liviana (.22, .380)</td>\n<td>Compostura + Armas de fuego</td>\n<td>+2</td>\n<td>—</td>\n<td>Bolsillo</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Pistola pesada (9mm, .45)</td>\n<td>Compostura + Armas de fuego</td>\n<td>+3</td>\n<td>—</td>\n<td>Campera</td>\n<td>2 (permiso o contacto)</td>\n</tr>\n<tr>\n<td>Revólver de caza (.357)</td>\n<td>Compostura + Armas de fuego</td>\n<td>+3</td>\n<td>—</td>\n<td>Campera</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Escopeta (12g)</td>\n<td>Fuerza + Armas de fuego</td>\n<td>+4</td>\n<td>A quemarropa/corta; −1 Daño a media distancia</td>\n<td>Abrigo (recortada: Campera, ilegal)</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Rifle de caza</td>\n<td>Compostura + Armas de fuego</td>\n<td>+4</td>\n<td>+1 dado apuntando 1 turno con apoyo</td>\n<td>No</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Rifle táctico / semiauto</td>\n<td>Compostura + Armas de fuego</td>\n<td>+4</td>\n<td>Ráfaga corta: +1 dado, −1 Daño, munición ×3</td>\n<td>No</td>\n<td>3 (ilegal en casi todos lados)</td>\n</tr>\n<tr>\n<td>Subfusil</td>\n<td>Compostura + Armas de fuego</td>\n<td>+3</td>\n<td>Ráfaga: +2 dados a corta, munición ×5</td>\n<td>Bolso</td>\n<td>3 (ilegal)</td>\n</tr>\n<tr>\n<td>Ballesta</td>\n<td>Compostura + Armas de fuego</td>\n<td>+2</td>\n<td>1 turno recargar; silenciosa; acepta virotes especiales (§4)</td>\n<td>Bolso</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Táser / picana</td>\n<td>Destreza + Pelea o Armas de fuego</td>\n<td>+1</td>\n<td>Con margen 2+: el mortal queda incapacitado 1 turno. A vampiros: solo superficial, no incapacita</td>\n<td>Bolsillo</td>\n<td>1</td>\n</tr>\n</tbody></table>\n<p>Distancias rápidas: corta (misma habitación) sin modificador; media (calle de por medio) −2 dados salvo rifles; larga, solo rifles con apoyo y 1 turno de apuntar.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "omOK7wUXHLsRhdRp",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.omOK7wUXHLsRhdRp",
+      "name": "4. Tabla — Arsenal del cazador y munición especial",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table>\n<thead>\n<tr>\n<th>Elemento</th>\n<th>Reserva / uso</th>\n<th>Daño</th>\n<th>Dif. / regla</th>\n<th>Rec.</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Antorcha / spray + encendedor</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+1 agravado a vulnerables al fuego</td>\n<td>Fallo total: 1 superficial propio. Los vampiros chequean terror al fuego (§5)</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Molotov</td>\n<td>Destreza + Atletismo</td>\n<td>+2 agravado en el área</td>\n<td>Dif. 2 lanzarla a corta, dif. 3 a media. Prende el escenario: la cronista lo va a usar</td>\n<td>1 (nafta y trapo)</td>\n</tr>\n<tr>\n<td>Bengala / pistola de bengalas</td>\n<td>Compostura + Armas de fuego</td>\n<td>+1 agravado</td>\n<td>Solo corta distancia; ilumina la escena entera</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Lanzallamas casero (soplete + aerosol)</td>\n<td>Destreza + Artesanía o Armas de fuego</td>\n<td>+2 agravado, cono corto</td>\n<td>Dif. 2; fallo total = explota: 2 agravado propio</td>\n<td>1 (taller)</td>\n</tr>\n<tr>\n<td>Agua bendita</td>\n<td>Destreza + Atletismo (arrojar)</td>\n<td>1 agravado por contacto a criaturas malditas*</td>\n<td>*Solo si en tu crónica funciona; la fe del portador puede importar (cronista)</td>\n<td>— (una parroquia y buena cara)</td>\n</tr>\n<tr>\n<td>Sal / hierro frío</td>\n<td>—</td>\n<td>—</td>\n<td>Barreras y debilidades folclóricas: la cronista decide contra qué aplica. Línea de sal: como Custodia sin tirada contra espíritus menores</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Virote/bala de plata</td>\n<td>El arma que la dispara</td>\n<td>Daño del arma, agravado contra lupinos</td>\n<td>−1 dado a la reserva (balística horrible de la plata)</td>\n<td>2 (fundición casera o contacto)</td>\n</tr>\n<tr>\n<td>Munición incendiaria</td>\n<td>El arma que la dispara</td>\n<td>Daño del arma, +1 y agravado a vulnerables al fuego</td>\n<td>Ilegal; fallo total: encasquilla el arma</td>\n<td>3 (contacto)</td>\n</tr>\n<tr>\n<td>Munición Tratada / Osteoinjerto / Hendir</td>\n<td>Según el documento correspondiente</td>\n<td>Agravado a todo sobrenatural</td>\n<td>Requiere el camino correspondiente (Iluminado, Modificado o Imbuido)</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Estaca + martillo</td>\n<td>Fuerza + Cuerpo a cuerpo</td>\n<td>+0</td>\n<td>Ver §5. El martillo suma +1 dado si el objetivo está inmovilizado</td>\n<td>—</td>\n</tr>\n<tr>\n<td>Espejo, cámara, grabadora</td>\n<td>—</td>\n<td>—</td>\n<td>Herramientas de identificación: reflejo raro, sin imagen térmica coherente, voces que no estaban. +1 dado a Investigación relacionada</td>\n<td>1</td>\n</tr>\n</tbody></table>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GFNdGEkehn04WhDl",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.GFNdGEkehn04WhDl",
+      "name": "5. Reglas rápidas contra lo sobrenatural",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul>\n<li>Fuego y sol: daño agravado para vampiros y la mayoría de los no-muertos. Un vampiro que recibe fuego o lo tiene cerca debe resistir el terror (frenesí de miedo); huir es su reacción más probable, y un vampiro huyendo en pánico es un vampiro que comete errores.</li>\n<li>Armas de fuego contra vampiros: superficial y a la mitad. Un cargador entero molesta, no mata. Sirven para frenar, cegar, derribar y cubrir la retirada. Contra lupinos en forma de guerra: parecido, salvo plata.</li>\n<li>Plata contra lupinos: agravado, y duele de una forma que no olvidan. Contra todo lo demás, es un metal caro con mala balística.</li>\n<li>Estacar: una estaca en el corazón paraliza a un vampiro, no lo mata. Requiere: objetivo inmovilizado, sorprendido o incapacitado, ataque dirigido al corazón (−2 dados) y margen de 3+ en el daño. Con el vampiro clavado, decidir qué hacer con él es una escena de roleo, no una tirada.</li>\n<li>Decapitar / destruir: contra un sobrenatural incapacitado, no se tira: se describe. La pregunta de la mesa nunca es si el hacha corta, es quién de la célula lo hace y cómo duerme después.</li>\n<li>Mortales de por medio: todo lo de estas tablas mata gente común con una facilidad espantosa. Molotovs en un bar lleno, ráfagas en la calle: el Danger y la policía existen. H5 castiga al cazador descuidado más que ningún monstruo.</li>\n</ul>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mmvNsciafLTO8qSR",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.mmvNsciafLTO8qSR",
+      "name": "6. Sets armados por Credo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Cada set es un paquete listo para dar a un personaje nuevo o para equipar una misión. Coste orientativo en Recursos del personaje (o de la célula si comparten).</p>\n<h3>Set del Mártir de Barrio (Underground) — Rec. 1</h3>\n<p>Para el que protege a los suyos con lo que hay.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ZNBhG8seVR7fKwja]{Bate o llave cruz (+2)}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ECrwLZYDlZRuqKHd]{navaja (+2)}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ArHdMAIvvq4qHQ2e]{manopla (+1)}</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{2 molotovs preparados}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.9uIcOChKOVSuh3Nk]{sal gruesa}, linterna pesada (improvisada +1)</li>\n<li>Botiquín básico, radios baratas o celulares descartables</li>\n<li>Estilo de juego: emboscadas, terreno propio, fuego y retirada. Nada que la policía no pueda encontrar en cualquier casa.</li>\n</ul>\n<h3>Set del Peregrino (Faithful) — Rec. 1</h3>\n<p>Para el que pelea con fe y con lo que la fe permite cargar.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OTQUuLhfGodusCKF]{Estaca + martillo}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ECrwLZYDlZRuqKHd]{cuchillo (+2)}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.lWuwMs7bkGhBbTvz]{antorcha o spray + encendedor}</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.6OkuLJdxFcV1qCkA]{Agua bendita ×3}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.9uIcOChKOVSuh3Nk]{sal consagrada}, símbolo sagrado, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Us4TeIQ579i0taLv]{espejo de bolsillo}</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Py5ozbh2UAqChiok]{Ballesta (+2)} con virotes de madera endurecida</li>\n<li>Estilo de juego: preparación ritual, barreras, el arma justa para la criatura justa. Débil si lo agarran sin tiempo de preparar.</li>\n</ul>\n<h3>Set del Profesional (Martial) — Rec. 3</h3>\n<p>Para el que vino de las fuerzas o del otro lado de las fuerzas.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.C9FmdnppITizz2QD]{Pistola pesada (+3)} con 3 cargadores, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.GwXtVmxTMvt2GXhM]{escopeta (+4)} en el auto</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ECrwLZYDlZRuqKHd]{Cuchillo táctico (+2)}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.u0aSGOOp7pCJDisy]{táser (+1)}, chaleco (convierte 2 superficial por escena, cronista mediante)</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.BtuHnLgSb58HsLc6]{Munición incendiaria} (1 cargador, para emergencias), bridas, capucha</li>\n<li>Estilo de juego: violencia rápida y planificada, capturar más que matar. El set que más Danger genera si algo sale mal en público.</li>\n</ul>\n<h3>Set del Investigador (Inquisitive) — Rec. 2</h3>\n<p>Para el que primero entiende y después aprieta el gatillo.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.f6oJYRyN6HkoWRc2]{Pistola liviana (+2)}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.u0aSGOOp7pCJDisy]{táser (+1)}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ECrwLZYDlZRuqKHd]{cuchillo plegable (+2)}</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Us4TeIQ579i0taLv]{Cámara con térmica}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Us4TeIQ579i0taLv]{grabadora}, kit de forense amateur, lockpicks</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{1 molotov} &quot;por si acaso&quot; en el baúl</li>\n<li>Estilo de juego: identificar la criatura antes del contacto y elegir el arma de la tabla 4 que corresponde. Su verdadera arma es saber qué es lo que caza.</li>\n</ul>\n<h3>Set del Financista (Entrepreneurial) — Rec. 3+</h3>\n<p>Para el que resuelve con la billetera y los contactos.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.C9FmdnppITizz2QD]{Pistola pesada (+3)} legal y a su nombre, auto confiable, seguro pago</li>\n<li>Acceso: un contacto que consigue munición especial (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.RLoD9Mt78DqaqwVe]{plata}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.BtuHnLgSb58HsLc6]{incendiaria}) con 24-48h de aviso</li>\n<li>Equipamiento del resto de la célula mejorado en un nivel (él paga)</li>\n<li>Estilo de juego: logística, escape, abogados. No es el que empuña; es el que hace que los demás empuñen mejor.</li>\n</ul>\n<h3>Set de Taller (para un Iluminado) — Rec. 2 + escenas de taller</h3>\n<ul>\n<li>Lo del Investigador, más: 1 lote de @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.adQoTBsj0Oe2UHxc]{Munición Tratada} por misión, Emisor de Perímetro si lo compró, herramientas portátiles</li>\n<li>Regla de mesa: sus consumibles se preparan en escenas de taller, no se compran. Sin taller entre misiones, va con la tabla común como todo el mundo.</li>\n</ul>\n<h3>El Cuerpo (para un Modificado) — Rec. 0</h3>\n<ul>\n<li>El arma ya la lleva puesta. Sumale del set de su Credo lo que quiera cargar encima.</li>\n<li>Regla de mesa: el Modificado con Osteoinjerto pasa cualquier cacheo de armas. Eso vale más que cualquier fila de esta tabla, y la cronista debería cobrárselo en paranoia ajena.</li>\n</ul>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AE0MdxvfBVvnzaY9",
+      "_key": "!journal.pages!GtcjZnyjDRvb4Axp.AE0MdxvfBVvnzaY9",
+      "name": "7. Notas para la cronista",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul>\n<li>Las armas no escalan; el conocimiento sí. Un rifle es +4 hoy y +4 en la crónica 20. Lo que crece es saber cuándo usar plata, cuándo fuego y cuándo correr. Mantené las recompensas en información y acceso, no en armas más grandes.</li>\n<li>La munición se cuenta cuando importa. No lleves inventario grano a grano: usá la regla de que un fallo total en tiradas de armas de fuego puede significar &quot;última bala&quot; o encasquillamiento, a tu criterio dramático.</li>\n<li>Recursos y legalidad son fricción jugable. Conseguir el fierro es una escena. Cruzarlo por un control policial es otra. En España o donde ambientes, un civil con un subfusil es una trama en sí misma.</li>\n<li>Compatibilidad con los tres caminos. Estas tablas son la línea base mortal. Los documentos de Bordes, Artefactos y Modificaciones se montan encima sin tocar nada de acá: el agravado especial siempre viene de esos sistemas o de la tabla 4, nunca gratis.</li>\n</ul>\n"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

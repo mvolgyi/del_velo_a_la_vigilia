@@ -1,0 +1,46 @@
+{
+  "_id": "j9LElqH2s4dVofTf",
+  "_key": "!items!j9LElqH2s4dVofTf",
+  "name": "Sondear — Resolución + Consciencia",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 900,
+  "system": {
+    "description": "<p><em>Delve</em></p>\n<p>El pasado deja residuo. El Imbuido toca un objeto o un lugar y las imágenes llegan solas, quiera o no.</p>\n<p><strong>Sistema.</strong></p><p>Contacto físico con el objeto o la escena y Resolución + Consciencia encendiendo la Chispa. Éxito: un destello del evento más cargado emocionalmente vinculado a eso (segundos de imagen, sonido, olor). Crítico: la escena casi completa, con rostros. La cronista narra en fragmentos; las visiones son verdaderas pero no vienen con contexto ni subtítulos.</p>\n<p><em>Activación — Encender la Chispa: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-sondear",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.awareness"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-sondear",
+      "camino": "imbuido",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

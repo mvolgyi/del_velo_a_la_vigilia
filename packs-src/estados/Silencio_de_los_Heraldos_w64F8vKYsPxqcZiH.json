@@ -1,0 +1,37 @@
+{
+  "_id": "w64F8vKYsPxqcZiH",
+  "_key": "!items!w64F8vKYsPxqcZiH",
+  "name": "Silencio de los Heraldos",
+  "type": "condition",
+  "img": "icons/svg/silenced.svg",
+  "folder": "TIhnWbTQT97A8kPt",
+  "sort": 0,
+  "system": {
+    "description": "<p>La tirada de un Borde terminó en Desesperación total. El personaje cae en Desesperanza y los Heraldos callan: <strong>no puede usar ningún Borde Imbuido</strong> hasta salir de Desesperanza según las reglas normales (redención de su Determinación).</p><p>La Segunda Vista sigue funcionando: es pasiva.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "silencio-de-los-heraldos",
+      "camino": "imbuido"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

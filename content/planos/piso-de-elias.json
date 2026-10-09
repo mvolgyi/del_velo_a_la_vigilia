@@ -1,0 +1,52 @@
+{
+  "_comentario": "El departamento alquilado de Elías Roca (Interludio). Todo en PIES (30 px/pie). Norte arriba; la puerta de entrada da al rellano de la escalera común, al este.",
+  "planos": [
+    {
+      "id": "piso-de-elias",
+      "nombre": "Interludio · El piso de Elías Roca",
+      "orden": 20,
+      "ancho": 45,
+      "alto": 30,
+      "paleta": "departamento",
+      "oscuridad": 0.55,
+      "exterior": "the neighbouring flats of an old Málaga apartment block, seen only as solid dark masonry, and the worn terrazzo landing of the shared stairwell",
+      "nota": "Elías traba la puerta con tres cerrojos y corre un pasador oxidado (puerta trabada); baja las persianas. Huele a tabaco negro y humedad. El corcho reventado de fotos cubre la pared norte del living, frente al sofá. El cuaderno de Mara está sobre la mesa (Puerta del Taller). Los tres viales del Compuesto A, al fondo de la heladera (Puerta de la Quimera). Si en el Acto 2 los detectan, Marcos viene acá esa noche: la Custodia de sal se traza en el umbral de la entrada.",
+      "habitaciones": [
+        { "nombre": "Dormitorio", "x": 5, "y": 5, "w": 10, "h": 15, "piso": "parquet" },
+        { "nombre": "Living", "x": 15, "y": 5, "w": 15, "h": 15, "piso": "parquet" },
+        { "nombre": "Cocina", "x": 30, "y": 5, "w": 10, "h": 15, "piso": "baldosa" },
+        { "nombre": "Baño", "x": 5, "y": 20, "w": 10, "h": 5, "piso": "azulejo" },
+        { "nombre": "Pasillo de entrada", "x": 15, "y": 20, "w": 25, "h": 5, "piso": "parquet" },
+        { "nombre": "Rellano", "x": 40, "y": 15, "w": 5, "h": 15, "piso": "terrazo" }
+      ],
+      "vanos": [
+        { "x": 40, "y": 20.5, "w": 4, "eje": "v", "tipo": "puerta", "sonido": "woodHeavy", "estado": "trabada", "nombre": "Entrada (tres cerrojos y pasador)" },
+        { "x": 20, "y": 20, "w": 5, "eje": "h", "tipo": "abierto", "nombre": "Pasillo → living" },
+        { "x": 30, "y": 10, "w": 5, "eje": "v", "tipo": "abierto", "nombre": "Living → cocina" },
+        { "x": 15, "y": 16, "w": 3, "eje": "v", "tipo": "puerta", "nombre": "Dormitorio" },
+        { "x": 15, "y": 21, "w": 3, "eje": "v", "tipo": "puerta", "nombre": "Baño" }
+      ],
+      "muebles": [
+        { "tipo": "corcho", "x": 16, "y": 5.6, "w": 13, "h": 0.9, "desc": "a giant cork board covering the whole wall, crammed with clandestine photos, newspaper clippings and coffee-stained plans linked by red thread" },
+        { "tipo": "estante", "x": 15.6, "y": 7, "w": 1.3, "h": 5.5, "desc": "a sagging bookcase" },
+        { "tipo": "mesa", "x": 19.5, "y": 9, "w": 5, "h": 3 },
+        { "tipo": "silla", "x": 25, "y": 9.7, "w": 1.6, "h": 1.6 },
+        { "tipo": "sofa", "x": 18, "y": 14, "w": 8, "h": 2.8 },
+        { "tipo": "lampara", "x": 27.5, "y": 16.5, "w": 1.2, "h": 1.2, "luz": "lampara" },
+        { "tipo": "heladera", "x": 37.3, "y": 5.6, "w": 2.2, "h": 2.4, "desc": "a grimy old humming refrigerator" },
+        { "tipo": "mesada", "x": 30.6, "y": 5.6, "w": 6.4, "h": 2, "desc": "a worn kitchen counter with a sink and gas hob" },
+        { "tipo": "mesada", "x": 37.6, "y": 8.5, "w": 1.9, "h": 9, "bacha": false, "anafe": false, "desc": "a worn kitchen counter" },
+        { "tipo": "mesa", "x": 32, "y": 13, "w": 3, "h": 3 },
+        { "tipo": "cama", "x": 6, "y": 6, "w": 5, "h": 7, "cabecera": "n", "desc": "an unmade double bed" },
+        { "tipo": "estante", "x": 11.6, "y": 5.6, "w": 2.8, "h": 2, "desc": "a cheap wardrobe" },
+        { "tipo": "inodoro", "x": 6, "y": 20.6, "w": 1.5, "h": 2.2 },
+        { "tipo": "lavabo", "x": 8.4, "y": 20.6, "w": 2, "h": 1.5 },
+        { "tipo": "ducha", "x": 11.4, "y": 20.6, "w": 3.2, "h": 3.8 },
+        { "tipo": "escalera", "x": 41, "y": 24.5, "w": 3.5, "h": 5.5, "hacia": "s", "desc": "the shared staircase going down" }
+      ],
+      "luces": [
+        { "x": 35, "y": 12, "preset": "fluorescente", "nombre": "Tubo de la cocina" }
+      ]
+    }
+  ]
+}

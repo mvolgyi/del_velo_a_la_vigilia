@@ -1,0 +1,41 @@
+{
+  "_id": "n97fLCCAKFqwahjQ",
+  "_key": "!items!n97fLCCAKFqwahjQ",
+  "name": "La cicatriz (La Marca de los Heraldos)",
+  "type": "feature",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": null,
+  "sort": 0,
+  "system": {
+    "description": "<p>Todo Imbuido gana también un Defecto de 1 punto a elección de la cronista que refleja cómo lo cambió el contacto: insomnio, un tic, quemaduras leves en las palmas, no soporta los espejos. Los Heraldos no tocan sin dejar marca.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "points": 1,
+    "featuretype": "flaw"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "rasgo",
+      "camino": "imbuido"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

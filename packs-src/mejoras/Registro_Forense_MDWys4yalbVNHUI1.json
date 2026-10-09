@@ -1,0 +1,39 @@
+{
+  "_id": "MDWys4yalbVNHUI1",
+  "_key": "!items!MDWys4yalbVNHUI1",
+  "name": "Registro Forense",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "OfRFmL1eZGRDgg7u",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Lente Espectral.</em></p><p>La Lente graba. Con una escena de análisis posterior y una tirada de Inteligencia + Ciencias (dif. 3), el Iluminado extrae de la grabación una vulnerabilidad general de la criatura observada (el fuego, el sol, la plata, un patrón de comportamiento). Una pista, no una ficha técnica.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-lente-espectral",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-ilu-lente-espectral",
+      "camino": "iluminado",
+      "mejora": "registro-forense",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

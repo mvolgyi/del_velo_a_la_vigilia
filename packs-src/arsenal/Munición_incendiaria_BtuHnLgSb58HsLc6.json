@@ -1,0 +1,41 @@
+{
+  "_id": "BtuHnLgSb58HsLc6",
+  "_key": "!items!BtuHnLgSb58HsLc6",
+  "name": "Munición incendiaria",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-leather-black-brown.webp",
+  "folder": "gn38oQNim6zBkRSS",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Uso</th><td>El arma que la dispara</td></tr><tr><th>Daño</th><td>Daño del arma, +1 y agravado a vulnerables al fuego</td></tr><tr><th>Regla</th><td>Ilegal; fallo total: encasquilla el arma</td></tr><tr><th>Recursos</th><td>3 (contacto)</td></tr></tbody></table>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "equipo",
+      "equipo": "municion-incendiaria"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

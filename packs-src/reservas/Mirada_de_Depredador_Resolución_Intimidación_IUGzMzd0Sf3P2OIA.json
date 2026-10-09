@@ -1,0 +1,46 @@
+{
+  "_id": "IUGzMzd0Sf3P2OIA",
+  "_key": "!items!IUGzMzd0Sf3P2OIA",
+  "name": "Mirada de Depredador — Resolución + Intimidación",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 300,
+  "system": {
+    "description": "<p><em>≈ Atravesar</em></p>\n<p>Un iris injertado de algo que cazaba de noche. Cuando el Modificado clava los ojos en una criatura, esta reconoce a otro depredador, y las máscaras no funcionan entre depredadores.</p>\n<p><strong>Sistema.</strong></p><p>Enfrentada: Resolución + Intimidación del Modificado (carne exigida) contra Compostura + Subterfugio del objetivo. Si gana, durante la escena el objetivo no puede sostener disfraces sobrenaturales frente al Modificado y su célula, y sufre +1 de dificultad en tiradas Sociales contra ellos. La criatura sostiene esa mirada y entiende que del otro lado hay algo que ya no es presa.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Enfrentada contra Compostura + Subterfugio del objetivo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-mirada-de-depredador",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.intimidation"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-mirada-de-depredador",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

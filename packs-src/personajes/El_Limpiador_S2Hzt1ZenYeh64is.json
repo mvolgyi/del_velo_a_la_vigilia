@@ -1,0 +1,529 @@
+{
+  "_id": "S2Hzt1ZenYeh64is",
+  "_key": "!actors!S2Hzt1ZenYeh64is",
+  "name": "El Limpiador",
+  "type": "hunter",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "2cWtDPtMzAPnTSqk",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "El Limpiador",
+    "actorLink": true,
+    "disposition": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "headers": {
+      "concept": "Empleado de limpieza nocturna que escuchó rezos detrás de una puerta de piedra",
+      "chronicle": "Del Velo a la Vigilia",
+      "ambition": "Traer a su hija a vivir con él a Málaga.",
+      "desire": "Terminar un turno sin pasar por la puerta de la planta vieja.",
+      "touchstones": "<p>Su hija Abril, de nueve años, que vive con la madre. Somnia tiene sus papeles de contratación y su situación migratoria: puede encontrar la escuela de Abril o hacerlo deportar con una denuncia.</p>",
+      "creedfields": "Cualquier conflicto directo (físico, social o mental) con lo sobrenatural durante la Caza."
+    },
+    "attributes": {
+      "strength": {
+        "value": 2
+      },
+      "dexterity": {
+        "value": 2
+      },
+      "stamina": {
+        "value": 3
+      },
+      "charisma": {
+        "value": 2
+      },
+      "manipulation": {
+        "value": 1
+      },
+      "composure": {
+        "value": 3
+      },
+      "intelligence": {
+        "value": 2
+      },
+      "wits": {
+        "value": 3
+      },
+      "resolve": {
+        "value": 4
+      }
+    },
+    "skills": {
+      "stealth": {
+        "value": 3
+      },
+      "awareness": {
+        "value": 3
+      },
+      "athletics": {
+        "value": 3
+      },
+      "occult": {
+        "value": 2
+      },
+      "insight": {
+        "value": 2
+      },
+      "streetwise": {
+        "value": 2
+      },
+      "larceny": {
+        "value": 2
+      },
+      "craft": {
+        "value": 2
+      },
+      "brawl": {
+        "value": 1
+      },
+      "melee": {
+        "value": 1
+      },
+      "drive": {
+        "value": 1
+      },
+      "medicine": {
+        "value": 1
+      },
+      "etiquette": {
+        "value": 1
+      },
+      "survival": {
+        "value": 1
+      },
+      "animalken": {
+        "value": 1
+      }
+    },
+    "health": {
+      "max": 6,
+      "value": 6,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 7,
+      "value": 7,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "bio": {
+      "history": "<p>Limpia Somnia Biotech de noche desde hace dos años. Conoce cada baldosa que cruje, cada pasillo de mantenimiento sin cámaras y cada puerta que tiene prohibida, sobre todo la pesada puerta de la planta vieja. Más de una vez, pasando el trapeador cerca, escuchó a través de la piedra una voz de mujer que rezaba en latín. Rezó con ella sin decir nada a nadie.</p><p>La noche del apagón las cerraduras magnéticas fallan y, al pasar cerca de la frontera entre edificios, descubre que la puerta de la planta vieja está abierta de par en par. Entra lo justo para terminar en el pasillo de cristal con los otros tres. En la huida ve cerradas todas sus rutas de escape habituales.</p><p>En el Acto 2 siente el peso de la capilla del convento; en el Acto 3 lidera la marcha física hasta la puerta de piedra exacta de la que venían los rezos y carga a pulso a un durmiente escaleras arriba. Su miedo es legítimo, y es justamente ese miedo, cuando pone el cuerpo sin esperanza de ganar, lo que llama a los Heraldos.</p>"
+    },
+    "notes": "<p><strong>Especialidades:</strong> Sigilo (pasillos de servicio), Artesanía (mantenimiento de edificios)</p><p><strong>Ventajas y Defectos sugeridos:</strong></p><ul><li>Facultad: Sentir lo Antinatural</li><li>Facultad: Repeler lo Antinatural</li><li>Contactos ●● (personal de limpieza, porteros y conserjes)</li><li>Aliados ●● (la parroquia del barrio)</li><li>Lingüística ● (guaraní)</li><li>Recursos ● (sueldo de limpieza)</li><li>Estatus ● (respetado en la parroquia)</li><li>Defecto: Secreto Oscuro ● (situación migratoria irregular)</li><li>Defecto: Rechazado ● (en el trabajo lo tienen por un beato raro y nadie le cree)</li></ul><p><strong>Set del Arsenal:</strong> Set del Peregrino — sin ficha: símbolo sagrado, virotes de madera endurecida</p><p><strong>Camino probable según la crónica:</strong> fe</p>"
+  },
+  "items": [
+    {
+      "name": "Fieles",
+      "type": "creed",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "edges": "",
+        "drives": "",
+        "desperationFields": "Cualquier conflicto directo (físico, social o mental) con lo sobrenatural durante la Caza."
+      },
+      "_id": "tQQi1aNAlcnMhsmJ",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.tQQi1aNAlcnMhsmJ"
+    },
+    {
+      "name": "Juramento",
+      "type": "drive",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "redemption": "<p>le prometió a su Virgen que iba a sacar de ahí abajo a los que rezaban con él sin saberlo. Se redime cuando la célula lo ayuda a cumplir activamente su juramento.</p>"
+      },
+      "_id": "tVm3RbOeUg7gLpxy",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.tVm3RbOeUg7gLpxy"
+    },
+    {
+      "name": "Estaca + martillo",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "estaca-martillo"
+        }
+      },
+      "system": {
+        "description": "<p>Ver §5. El martillo suma +1 dado si el objetivo está inmovilizado</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "4bRXGYpIyv0klP1Y",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.4bRXGYpIyv0klP1Y"
+    },
+    {
+      "name": "Cuchillo, navaja",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "cuchillo"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Cuerpo a cuerpo</td></tr><tr><th>Daño</th><td>+2</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.melee"
+          }
+        }
+      },
+      "_id": "ZkCyuge5QzS9I6s4",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.ZkCyuge5QzS9I6s4"
+    },
+    {
+      "name": "Antorcha / spray + encendedor",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "antorcha"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Cuerpo a cuerpo</td></tr><tr><th>Daño</th><td>+1 agravado</td></tr><tr><th>Dif. / regla</th><td>Fallo total: 1 superficial propio. Los vampiros chequean terror al fuego (§5)</td></tr><tr><th>Ocultamiento</th><td>—</td></tr><tr><th>Recursos</th><td>—</td></tr></tbody></table><p>Daño: +1 agravado a vulnerables al fuego</p><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 1,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.melee"
+          }
+        }
+      },
+      "_id": "9NMLfXpeIqq7kIB4",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.9NMLfXpeIqq7kIB4"
+    },
+    {
+      "name": "Agua bendita",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "agua-bendita"
+        }
+      },
+      "system": {
+        "description": "<p>*Solo si en tu crónica funciona; la fe del portador puede importar (cronista)</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "SiUKyE2tteIXfnn7",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.SiUKyE2tteIXfnn7"
+    },
+    {
+      "name": "Agua bendita",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "agua-bendita"
+        }
+      },
+      "system": {
+        "description": "<p>*Solo si en tu crónica funciona; la fe del portador puede importar (cronista)</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "YvOVjmSgdvzACntJ",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.YvOVjmSgdvzACntJ"
+    },
+    {
+      "name": "Agua bendita",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "agua-bendita"
+        }
+      },
+      "system": {
+        "description": "<p>*Solo si en tu crónica funciona; la fe del portador puede importar (cronista)</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "WFKghSxIAfeDq1gF",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.WFKghSxIAfeDq1gF"
+    },
+    {
+      "name": "Sal / hierro frío",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "sal"
+        }
+      },
+      "system": {
+        "description": "<p>Barreras y debilidades folclóricas: la cronista decide contra qué aplica. Línea de sal: como Custodia sin tirada contra espíritus menores</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "lI3iAjN3kfed6X9C",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.lI3iAjN3kfed6X9C"
+    },
+    {
+      "name": "Espejo, cámara, grabadora",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "espejo-camara-grabadora"
+        }
+      },
+      "system": {
+        "description": "<p>Herramientas de identificación: reflejo raro, sin imagen térmica coherente, voces que no estaban. +1 dado a Investigación relacionada</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "2eXxxtDzQ740fLCW",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.2eXxxtDzQ740fLCW"
+    },
+    {
+      "name": "Ballesta",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "ballesta"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Compostura + Armas de fuego</td></tr><tr><th>Daño</th><td>+2</td></tr><tr><th>Dif. / regla</th><td>1 turno recargar; silenciosa; acepta virotes especiales (§4)</td></tr><tr><th>Ocultamiento</th><td>Bolso</td></tr><tr><th>Recursos</th><td>2</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "ranged",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.composure"
+          },
+          "d2": {
+            "path": "skills.firearms"
+          }
+        }
+      },
+      "_id": "lnFUT61pt4KEApk9",
+      "_key": "!actors.items!S2Hzt1ZenYeh64is.lnFUT61pt4KEApk9"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pj",
+      "pj": "limpiador",
+      "caminoProbable": "fe"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

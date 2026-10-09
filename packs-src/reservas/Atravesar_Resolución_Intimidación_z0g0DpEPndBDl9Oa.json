@@ -1,0 +1,46 @@
+{
+  "_id": "z0g0DpEPndBDl9Oa",
+  "_key": "!items!z0g0DpEPndBDl9Oa",
+  "name": "Atravesar — Resolución + Intimidación",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 300,
+  "system": {
+    "description": "<p><em>Pierce</em></p>\n<p>La mirada del Juez. El Imbuido clava los ojos en una criatura y le arranca la máscara.</p>\n<p><strong>Sistema.</strong></p><p>Enfrentada: Resolución + Intimidación del Imbuido (Chispa encendida) contra Compostura + Subterfugio del objetivo. Si gana, durante la escena el objetivo no puede sostener disfraces sobrenaturales frente al Imbuido y su célula (los presentes ven lo que la Segunda Vista del Imbuido ve), y sufre +1 de dificultad en tiradas Sociales contra ellos. El monstruo sabe que fue visto.</p>\n<p><em>Activación — Encender la Chispa: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Enfrentada contra Compostura + Subterfugio del objetivo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-atravesar",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.intimidation"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-atravesar",
+      "camino": "imbuido",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

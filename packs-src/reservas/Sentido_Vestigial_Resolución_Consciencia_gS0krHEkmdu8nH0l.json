@@ -1,0 +1,46 @@
+{
+  "_id": "gS0krHEkmdu8nH0l",
+  "_key": "!items!gS0krHEkmdu8nH0l",
+  "name": "Sentido Vestigial — Resolución + Consciencia",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>≈ Segunda Vista</em></p>\n<p>Todo Modificado lo recibe gratis con la Operación. Tercer gemelo de la Segunda Vista y la Lente Espectral.</p><p>Un injerto sensorial cultivado de tejido sobrenatural: un nervio óptico que no vino de un donante humano, un oído interno reconstruido con cartílago de otra cosa. El mundo oculto no se ve: se siente. Un escalofrío direccional, un gusto metálico cuando el vampiro entra al bar, la piel de gallina apuntando hacia el pasillo donde está parado el fantasma.</p>\n<p><strong>Sistema.</strong></p><p>Pasiva y siempre encendida, como la Segunda Vista, sin necesitar aparato como la Lente. Ante un sobrenatural disfrazado, oculto o inmaterial, la cronista pide Resolución + Consciencia (contra poderes de ocultamiento, enfrentada contra el poder del monstruo). La diferencia con sus gemelas: el Sentido Vestigial es visceral, no informativo. Un éxito dice que hay algo y dónde; nunca dice qué es, ni con crítico. Para identificar hace falta investigar como todo el mundo.</p><p><em>Contra poderes de ocultamiento es enfrentada contra el poder del monstruo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-sentido-vestigial",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.awareness"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-sentido-vestigial",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

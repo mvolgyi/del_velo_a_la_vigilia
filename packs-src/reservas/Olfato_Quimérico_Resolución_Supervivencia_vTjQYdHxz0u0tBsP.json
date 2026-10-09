@@ -1,0 +1,46 @@
+{
+  "_id": "vTjQYdHxz0u0tBsP",
+  "_key": "!items!vTjQYdHxz0u0tBsP",
+  "name": "Olfato Quimérico — Resolución + Supervivencia",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 800,
+  "system": {
+    "description": "<p><em>≈ Señalar</em></p>\n<p>Un epitelio olfativo reconstruido con tejido de rastreador nocturno. El mundo entero es un mapa de olores, y las criaturas sobrenaturales apestan a lo que son.</p>\n<p><strong>Sistema.</strong></p><p>Requiere haber olido antes a la criatura o tener una muestra suya (sangre, tejido, ropa impregnada). Resolución + Supervivencia exigiendo la carne. Éxito: dirección general e impresión de distancia. Crítico: el rastro concreto, calle por calle mientras lo siga. El rastro se degrada al amanecer, o antes si la criatura cruza agua corriente, sale de la ciudad o muere.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-olfato-quimerico",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.survival"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-olfato-quimerico",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

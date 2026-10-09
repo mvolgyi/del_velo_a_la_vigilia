@@ -1,0 +1,442 @@
+{
+  "_id": "XIHpnpJQlAczEpgb",
+  "_key": "!actors!XIHpnpJQlAczEpgb",
+  "name": "El Informático",
+  "type": "hunter",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "2cWtDPtMzAPnTSqk",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "El Informático",
+    "actorLink": true,
+    "disposition": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "headers": {
+      "concept": "Pasante de IT que vio consumir al rack prohibido cuando todo lo demás estaba apagado",
+      "chronicle": "Del Velo a la Vigilia",
+      "ambition": "Montar su propia consultora de ciberseguridad y no volver a trabajar para nadie.",
+      "desire": "Que nadie sepa dónde está esta noche.",
+      "touchstones": "<p>Su pareja, Carla, con quien comparte el alquiler y las deudas. Somnia le corta las líneas de crédito y las tarjetas: si él cae, ella pierde la casa con él.</p>",
+      "creedfields": "Sigilo y subterfugio en servicio de la Caza."
+    },
+    "attributes": {
+      "strength": {
+        "value": 1
+      },
+      "dexterity": {
+        "value": 2
+      },
+      "stamina": {
+        "value": 2
+      },
+      "charisma": {
+        "value": 2
+      },
+      "manipulation": {
+        "value": 3
+      },
+      "composure": {
+        "value": 3
+      },
+      "intelligence": {
+        "value": 3
+      },
+      "wits": {
+        "value": 4
+      },
+      "resolve": {
+        "value": 2
+      }
+    },
+    "skills": {
+      "technology": {
+        "value": 3
+      },
+      "larceny": {
+        "value": 3
+      },
+      "subterfuge": {
+        "value": 3
+      },
+      "stealth": {
+        "value": 2
+      },
+      "streetwise": {
+        "value": 2
+      },
+      "investigation": {
+        "value": 2
+      },
+      "awareness": {
+        "value": 2
+      },
+      "persuasion": {
+        "value": 2
+      },
+      "firearms": {
+        "value": 1
+      },
+      "athletics": {
+        "value": 1
+      },
+      "drive": {
+        "value": 1
+      },
+      "insight": {
+        "value": 1
+      },
+      "science": {
+        "value": 1
+      },
+      "etiquette": {
+        "value": 1
+      },
+      "craft": {
+        "value": 1
+      }
+    },
+    "health": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "bio": {
+      "history": "<p>Pasante de IT en Somnia Biotech: resetea contraseñas, cambia tóner y le prohibieron tocar el rack de la planta vieja, que tiene su propio circuito y sus propios técnicos. Siempre le pareció raro, y eso es todo lo que quiso saber.</p><p>La noche del apagón lo convocan de urgencia para levantar los servidores críticos. Al bajar nota que, mientras la red general está muerta, el consumo eléctrico del rack prohibido sigue al máximo. Siguiendo ese consumo llega al pasillo de cristal. En la huida aprende la lección más dura de su oficio: no se puede hackear una puerta sin energía.</p><p>En el Acto 2 es la llave para anular las alarmas del laboratorio de Salas; en el Acto 3 aísla el rack de la planta vieja y manipula las cámaras para que la célula baje sin ser vista. Es el más evasivo ante la pregunta de Elías, y el más probable de terminar como cazador puramente mortal: sin voces, sin inyecciones, con munición incendiaria, inhibidores de señal y paranoia táctica.</p>"
+    },
+    "notes": "<p><strong>Especialidades:</strong> Tecnología (redes y servidores), Artesanía (electrónica), Ciencias (electricidad)</p><p><strong>Ventajas y Defectos sugeridos:</strong></p><ul><li>Facultad: Equipamiento Improvisado</li><li>Facultad: Frustrar lo Antinatural</li><li>Contactos ●●● (foros, pasantes y técnicos de otras empresas)</li><li>Aliados ●● (un amigo administrador de sistemas)</li><li>Recursos ● (sueldo de pasante)</li><li>Lingüística ● (inglés técnico fluido)</li><li>Defecto: Sospechoso ● (los registros de Somnia muestran que tocó el rack prohibido la noche del apagón)</li><li>Defecto: Adicción ● (cafeína y modafinilo)</li></ul><p><strong>Set del Arsenal:</strong> Set del Mártir de Barrio — sin ficha: linterna pesada (improvisada +1), Botiquín básico, radios baratas o celulares descartables</p><p><strong>Camino probable según la crónica:</strong> mortal</p>"
+  },
+  "items": [
+    {
+      "name": "Clandestinos",
+      "type": "creed",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "edges": "",
+        "drives": "",
+        "desperationFields": "Sigilo y subterfugio en servicio de la Caza."
+      },
+      "_id": "XcnpjEJ24P9QmKYb",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.XcnpjEJ24P9QmKYb"
+    },
+    {
+      "name": "Orgullo",
+      "type": "drive",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "redemption": "<p>el mundo es de los humanos y no piensa dejar que unos chupasangre con presupuesto corporativo le ganen. Se redime cuando supera a la presa en algún desafío, directa o indirectamente.</p>"
+      },
+      "_id": "7HXoTcXlzKubjQIZ",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.7HXoTcXlzKubjQIZ"
+    },
+    {
+      "name": "Bate, cachiporra, llave cruz",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "bate"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Cuerpo a cuerpo</td></tr><tr><th>Daño</th><td>+2</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Campera/Bolso</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.melee"
+          }
+        }
+      },
+      "_id": "DwVzE9Ttm7CIhxmA",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.DwVzE9Ttm7CIhxmA"
+    },
+    {
+      "name": "Cuchillo, navaja",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "cuchillo"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Cuerpo a cuerpo</td></tr><tr><th>Daño</th><td>+2</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.melee"
+          }
+        }
+      },
+      "_id": "u5DAfTPcztw3tLY7",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.u5DAfTPcztw3tLY7"
+    },
+    {
+      "name": "Manopla",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "manopla"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Pelea</td></tr><tr><th>Daño</th><td>+1</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 1,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.brawl"
+          }
+        }
+      },
+      "_id": "V7KiGFvNOAPZQBhO",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.V7KiGFvNOAPZQBhO"
+    },
+    {
+      "name": "Molotov",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "molotov"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Destreza + Atletismo</td></tr><tr><th>Daño</th><td>+2 agravado</td></tr><tr><th>Dif. / regla</th><td>Dif. 2 lanzarla a corta, dif. 3 a media. Prende el escenario: la cronista lo va a usar</td></tr><tr><th>Ocultamiento</th><td>—</td></tr><tr><th>Recursos</th><td>1 (nafta y trapo)</td></tr></tbody></table><p>Daño: +2 agravado en el área</p><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "ranged",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.dexterity"
+          },
+          "d2": {
+            "path": "skills.athletics"
+          }
+        }
+      },
+      "_id": "U8JnHI0GLGB1HfeR",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.U8JnHI0GLGB1HfeR"
+    },
+    {
+      "name": "Molotov",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "molotov"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Destreza + Atletismo</td></tr><tr><th>Daño</th><td>+2 agravado</td></tr><tr><th>Dif. / regla</th><td>Dif. 2 lanzarla a corta, dif. 3 a media. Prende el escenario: la cronista lo va a usar</td></tr><tr><th>Ocultamiento</th><td>—</td></tr><tr><th>Recursos</th><td>1 (nafta y trapo)</td></tr></tbody></table><p>Daño: +2 agravado en el área</p><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "ranged",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.dexterity"
+          },
+          "d2": {
+            "path": "skills.athletics"
+          }
+        }
+      },
+      "_id": "3C9PTwilhtSZB8jy",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.3C9PTwilhtSZB8jy"
+    },
+    {
+      "name": "Sal / hierro frío",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "sal"
+        }
+      },
+      "system": {
+        "description": "<p>Barreras y debilidades folclóricas: la cronista decide contra qué aplica. Línea de sal: como Custodia sin tirada contra espíritus menores</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "4S7ic50xqCBCKqcP",
+      "_key": "!actors.items!XIHpnpJQlAczEpgb.4S7ic50xqCBCKqcP"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pj",
+      "pj": "informatico",
+      "caminoProbable": "mortal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

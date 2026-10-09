@@ -1,0 +1,37 @@
+{
+  "_id": "64LEbmVnJfV2d1vT",
+  "_key": "!items!64LEbmVnJfV2d1vT",
+  "name": "Ojos de la Bestia activos",
+  "type": "condition",
+  "img": "icons/svg/light.svg",
+  "folder": "6usSnsq06I0UhvAh",
+  "sort": 0,
+  "system": {
+    "description": "<p>Durante la escena: <strong>visión perfecta en oscuridad total</strong>, sin penalizadores. Contracara permanente: ante cualquier luz que lo enfoque de frente, los ojos brillan como los de un animal (fotos con flash, faros, la linterna de un policía). Con <em>Párpado Interno</em>: oculta el brillo y +2 a resistir flashes y gas (−1 a Percepción visual con la membrana bajada).</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "ojos-de-la-bestia-activos",
+      "camino": "gen2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

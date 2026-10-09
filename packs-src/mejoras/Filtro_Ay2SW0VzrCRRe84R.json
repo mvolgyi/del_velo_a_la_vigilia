@@ -1,0 +1,39 @@
+{
+  "_id": "Ay2SW0VzrCRRe84R",
+  "_key": "!items!Ay2SW0VzrCRRe84R",
+  "name": "Filtro",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Ojo Compuesto.</em></p><p>Elimina el penalizador contra ataques sensoriales. El injerto aprende a cerrar la compuerta.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-ojo-compuesto",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-ojo-compuesto",
+      "camino": "gen2",
+      "mejora": "filtro",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

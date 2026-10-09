@@ -1,0 +1,46 @@
+{
+  "_id": "GTeq20yFc3AWodyS",
+  "_key": "!items!GTeq20yFc3AWodyS",
+  "name": "Iluminar — Carisma + Empatía",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 400,
+  "system": {
+    "description": "<p><em>Illuminate</em></p>\n<p>Una calma que se contagia. Donde está el Imbuido, el pánico no prende.</p>\n<p><strong>Sistema.</strong></p><p>Carisma + Empatía encendiendo la Chispa. Los mortales presentes (hasta éxitos × 2 personas) quedan inmunes al pánico de masas y al terror sobrenatural durante la escena, y obedecen indicaciones razonables del Imbuido para ponerse a salvo sin discutir. No funciona sobre la célula (los cazadores ya eligieron mirar) ni controla mentes: la gente calmada sigue siendo gente.</p>\n<p><em>Activación — Encender la Chispa: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-iluminar",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.charisma"
+      },
+      "d2": {
+        "path": "skills.insight"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-iluminar",
+      "camino": "imbuido",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

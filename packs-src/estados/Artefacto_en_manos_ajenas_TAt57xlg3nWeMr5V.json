@@ -1,0 +1,60 @@
+{
+  "_id": "TAt57xlg3nWeMr5V",
+  "_key": "!items!TAt57xlg3nWeMr5V",
+  "name": "Artefacto en manos ajenas",
+  "type": "condition",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Rpd9Fzl1M6xNxgEu",
+  "sort": 0,
+  "system": {
+    "description": "<p>Un Artefacto prestado o robado funciona, pero mal: cualquier usuario que no sea quien lo construyó tira con <strong>−2 dados</strong>, y la falla catastrófica ocurre con <em>cualquier</em> 1 en los dados de Desesperación, no solo en Desesperación total.</p><p>Ponelo en el actor que usa el Artefacto ajeno.</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Manos ajenas",
+        "value": "-2",
+        "paths": [
+          "edges.dvv-ilu-lente-espectral",
+          "edges.dvv-ilu-municion-tratada",
+          "edges.dvv-ilu-emisor-de-perimetro",
+          "edges.dvv-ilu-designador",
+          "edges.dvv-ilu-difusor-de-calma",
+          "edges.dvv-ilu-kit-de-trauma",
+          "edges.dvv-ilu-inhibidor",
+          "edges.dvv-ilu-motor-predictivo",
+          "edges.dvv-ilu-rastreador-de-firma",
+          "edges.dvv-ilu-reconstructor"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "manos-ajenas",
+      "camino": "iluminado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

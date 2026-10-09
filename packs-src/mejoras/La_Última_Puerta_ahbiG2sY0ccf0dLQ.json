@@ -1,0 +1,39 @@
+{
+  "_id": "ahbiG2sY0ccf0dLQ",
+  "_key": "!items!ahbiG2sY0ccf0dLQ",
+  "name": "La Última Puerta",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Sosegar.</em></p><p>Si el Imbuido ganó la enfrentada, puede hacer una única pregunta que la criatura responde con verdad desde lo que le queda de humanidad. Después de eso, lo que la criatura haga con ese momento de lucidez es cosa suya.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-sosegar",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-sosegar",
+      "camino": "imbuido",
+      "mejora": "la-ultima-puerta",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "SnOxcxu5a86wnzJ1",
+  "_key": "!items!SnOxcxu5a86wnzJ1",
+  "name": "Ojos de la Bestia — Resolución + Aguante (dif. 1)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "IUJmQ8f7T6tgqp7i",
+  "sort": 500,
+  "system": {
+    "description": "<p><em>Protean 1 · emula Protean 1</em></p>\n<p>El injerto más viejo y más probado del catálogo: tapetum lucidum cultivado detrás de la retina. Lo que tienen los gatos, los lobos y las cosas que cazan de noche.</p>\n<p><strong>Sistema.</strong></p><p>Un turno de adaptación exigiendo la carne (sin tirada, pero los dados de Desesperación se arriesgan igual con cualquier otra tirada del turno, o con una tirada seca de Resolución + Aguante dif. 1 si no hay ninguna). Durante la escena: visión perfecta en oscuridad total, sin penalizadores. La contracara permanente: ante cualquier luz que lo enfoque de frente, los ojos del Modificado brillan como los de un animal. En una foto con flash, en los faros de un auto, en la linterna de un policía.</p>\n<p><strong>La marca:</strong> Ojos que brillan como los de un gato ante cualquier luz</p>\n<p><em>Activación — exigir la carne: incluí los dados de Desesperación. Ocupa 2 Modificaciones contra el límite de Resistencia.</em></p><p><em>Aguante no existe en H5: se usa Atletismo. Sin tirada propia: un turno de adaptación; los dados de Desesperación se arriesgan con cualquier otra tirada del turno, o con esta tirada seca si no hay ninguna.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-ojos-de-la-bestia",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.athletics"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-gen2-ojos-de-la-bestia",
+      "camino": "gen2",
+      "dificultad": 1,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

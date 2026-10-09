@@ -1,0 +1,39 @@
+{
+  "_id": "A3vfdB2A6jgEhhBo",
+  "_key": "!items!A3vfdB2A6jgEhhBo",
+  "name": "Estocada Visceral (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Osteoinjerto.</em></p><p>Desgarrando, el próximo ataque que impacte suma +2 al daño. El injerto sabe dónde morder porque alguna vez fue parte de algo que mordía.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-osteoinjerto",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-osteoinjerto",
+      "camino": "modificado",
+      "mejora": "estocada-visceral",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

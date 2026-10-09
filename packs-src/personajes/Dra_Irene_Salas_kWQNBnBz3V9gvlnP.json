@@ -1,0 +1,95 @@
+{
+  "_id": "kWQNBnBz3V9gvlnP",
+  "_key": "!actors!kWQNBnBz3V9gvlnP",
+  "name": "Dra. Irene Salas",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Dra. Irene Salas",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "ghoul",
+    "headers": {
+      "concept": "Directora médica de Somnia, ghoul, cirujana de las Quimeras"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 3
+      },
+      "social": {
+        "value": 5
+      },
+      "mental": {
+        "value": 7
+      }
+    },
+    "exceptionaldicepools": {
+      "medicine": {
+        "value": 10
+      },
+      "science": {
+        "value": 9
+      },
+      "academics": {
+        "value": 8
+      },
+      "insight": {
+        "value": 7
+      },
+      "subterfuge": {
+        "value": 7
+      },
+      "technology": {
+        "value": 8
+      }
+    },
+    "health": {
+      "max": 6,
+      "value": 6,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 6,
+      "value": 6,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 1
+    },
+    "generaldifficulty": {
+      "normal": 3,
+      "strongest": 5
+    },
+    "description": "<p>Directora médica de Somnia Biotech y ex científica de Orpheus. Es quien diseñó el Compuesto A (la sangre vampírica procesada) y quien opera a los «voluntarios de continuidad»: ya injertó modificaciones en tres de ellos semanas antes del incendio. Visita un laboratorio satélite dos veces por semana y guarda la agenda con los datos de esas tres cirugías.</p><p>Brillante, fría y culposa. Se justifica con la ciencia («Lo que viste ahí abajo no es el infierno, es biología») y lleva una lista de «candidatos de interés»: la misma noche del Acto 1 anota ahí el nombre de quien entra en pánico.</p><p><strong>Tras la crónica:</strong> fugitiva, con la bata manchada y los ojos inyectados en sangre, rastrea a los cazadores heridos con su maletín quirúrgico para «arreglar algo de lo que rompió». Aliada culposa y bomba de tiempo moral para la célula.</p>",
+    "biography": "<h3>Poderes</h3><p>Ghoul: bebe sangre vampírica, ahora en forma del <strong>Compuesto A</strong> que ella misma refina.</p><ul><li><strong>Vigor del ghoul</strong> (Potencia o Fortaleza 1): +1 dado en una reserva física por escena o +1 al daño cuerpo a cuerpo.</li><li><strong>Autodosis del Compuesto A</strong>: una vez por escena se inyecta y cura 2 de daño superficial, o ignora las penalizaciones por heridas durante la escena.</li><li><strong>La Operación</strong>: puede practicar la Operación de La Carne Templada sobre un PJ (Resistencia + Aguante dif. 2 del paciente) y es la puerta de entrada al camino de la Carne.</li></ul><h3>Debilidades</h3><ul><li><strong>Adicción a la sangre</strong>: sin Compuesto A, −2 dados a todas las reservas mentales tras una noche y temblores que le impiden operar.</li><li><strong>Vínculo de sangre</strong> con la vampira que la alimenta: frente a Sor Anunciación duda y obedece.</li><li><strong>Culpa</strong>: frente a una víctima de sus experimentos, la célula gana +2 dados en tiradas sociales para presionarla.</li><li>Mortal en lo demás: no tiene Resiliencia y no se cura sola sin el Compuesto.</li></ul>",
+    "privatenotes": "<p><strong>Acto 1:</strong> fuera de escena; anota en su lista a quien falle la tirada de Mirar.</p><p><strong>Acto 2:</strong> objetivo de «Seguir a Salas»: sus cuadernos dan Método y su agenda revela a las Quimeras.</p><p><strong>Acto 3:</strong> su mesa con el disco duro y los viales es la elección final de la huida; si el Informático no la aísla, puede ver a la célula bajar por las cámaras.</p><p><strong>Epílogo:</strong> ofrece la Operación al Guardia (destino de la Carne). Sus diálogos están en Dramatis personae.</p><p><em>Cifras:</em> la fuente no da números. Todas las cifras son sugeridas.</p>",
+    "settings": {
+      "enableDisciplines": true
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "dra-salas"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

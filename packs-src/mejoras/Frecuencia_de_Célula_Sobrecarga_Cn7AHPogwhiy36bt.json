@@ -1,0 +1,39 @@
+{
+  "_id": "Cn7AHPogwhiy36bt",
+  "_key": "!items!Cn7AHPogwhiy36bt",
+  "name": "Frecuencia de Célula (Sobrecarga)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "OfRFmL1eZGRDgg7u",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Difusor de Calma.</em></p><p>Sobrecargando, el efecto se sintoniza también con la célula: durante la escena, los compañeros pueden repetir una tirada fallada de miedo, frenesí inducido o terror sobrenatural.</p><p><em>Sobrecarga: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-difusor-de-calma",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-ilu-difusor-de-calma",
+      "camino": "iluminado",
+      "mejora": "frecuencia-de-celula",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

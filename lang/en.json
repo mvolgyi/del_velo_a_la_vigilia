@@ -1,0 +1,127 @@
+{
+  "DVV": {
+    "modulo": "Del Velo a la Vigilia",
+    "soloNarrador": "Only the Storyteller can do this.",
+    "sinActor": "Pick a hunter: select their token or open their sheet first.",
+    "sinCelula": "{actor} is not part of any Cell. Add them to a Cell sheet to use shared Desperation.",
+    "elegirActor": "Which hunter?",
+    "confirmar": "Confirm",
+    "cancelar": "Cancel",
+    "settings": {
+      "subir-danger-automatico": {
+        "Name": "Raise Danger automatically",
+        "Hint": "When logging +1 Danger for using a power in front of a witness, also raise the Cell's Danger. By default it is only logged for the end of the session."
+      },
+      "recordatorios-desesperacion": {
+        "Name": "Reminders after a 1 on Desperation dice",
+        "Hint": "Posts the consequences to chat (Overreach or Despair; Silence, burnt Artifact or rejection crisis) when a roll with Desperation dice shows a 1."
+      },
+      "registro-peligro": {
+        "Name": "Danger log",
+        "Hint": "Session notes of +1 Danger."
+      }
+    },
+    "caminos": {
+      "imbuido": "Imbued",
+      "iluminado": "Enlightened",
+      "modificado": "Modified",
+      "gen2": "Second Generation",
+      "mortal": "Mortal hunter",
+      "sinCamino": "No path"
+    },
+    "balizas": {
+      "fe": "Faith",
+      "metodo": "Method",
+      "carne": "Flesh",
+      "titulo": "Beacons",
+      "ajustado": "{actor}: {signo}{delta} {baliza} ({motivo}). Faith {fe} · Method {metodo} · Flesh {carne}.",
+      "dialogoTitulo": "Adjust beacons",
+      "motivo": "Reason",
+      "dominante": "Dominant beacon: {baliza}",
+      "empate": "No dominant beacon"
+    },
+    "tresPuertas": {
+      "titulo": "The Three Doors — Grant a path",
+      "elegirCamino": "Path",
+      "elegirRama": "{ramas}",
+      "yaTiene": "{actor} already walked that path.",
+      "requiereModificado": "Second Generation grafts require the Operation first.",
+      "otorgado": "<strong>{actor}</strong> walks through the door: <strong>{camino}</strong> ({rama}). Gains <strong>{pasiva}</strong> for free and the Flaw <em>{defecto}</em>.",
+      "comprarTitulo": "Buy a power",
+      "poder": "Power",
+      "coste": "Cost",
+      "costePuntos": "{puntos} Advantage pts / {px} XP",
+      "fueraDeRama": "outside their {ramasNombre}: {puntos} pts / {px} XP",
+      "slots": "Flesh: {usados}/{limite} modifications (Stamina {resistencia})",
+      "slotsExcedidos": "This exceeds the Stamina limit ({limite}). It is not a purchase: it is a chronicle arc. Continue anyway?",
+      "mejorasAhora": "Perks bought now",
+      "comprado": "<strong>{actor}</strong> acquires <strong>{poder}</strong> ({camino}{rama}). Cost: {coste}.",
+      "yaTienePoder": "{actor} already has {poder}.",
+      "sinCaminos": "{actor} has no path granted. Use “Grant a path” first.",
+      "mejoraTitulo": "Buy a perk",
+      "mejoraComprada": "<strong>{actor}</strong> buys the perk <strong>{mejora}</strong> of {poder}."
+    },
+    "desesperacion": {
+      "quemarTitulo": "Burn the Spark / Overload / Tear",
+      "motivo": "Which effect?",
+      "sinDesesperacion": "The Cell's Desperation is 0: cannot {gasto}.",
+      "quemado": "<strong>{actor}</strong> — <strong>{gasto}</strong>: {motivo}. The Cell's Desperation drops from {antes} to {despues}.",
+      "peligroTitulo": "Log +1 Danger",
+      "peligroMotivo": "Reason (what the surviving supernatural saw)",
+      "peligroRegistrado": "<strong>+1 Danger</strong> logged for the end of session: {actor}, {motivo}.",
+      "peligroAplicado": "The Cell's Danger rises to {valor}.",
+      "aplicarPeligro": "Apply to the Cell's Danger",
+      "peligroAplicadoTodo": "{n} Danger points applied to the Cell (now {valor}).",
+      "recordatorio": {
+        "titulo": "A 1 on the Desperation dice",
+        "texto": "<strong>{actor}</strong> rolled {unos} “1” on Desperation dice. On a win the player chooses: <em>Overreach</em> (+1 Danger per 1, keep the win) or <em>Despair</em> (fail and enter Despair). On a failure it is Despair, no choice.",
+        "camino": "The roll was <strong>{poder}</strong> ({camino}). If it ends in Despair, also: <strong>{fallo}</strong>.",
+        "extralimitacion": "Overreach (+{unos} Danger)",
+        "desesperanza": "Despair",
+        "aplicarEstado": "Apply “{estado}”",
+        "estadoAplicado": "“{estado}” applied to {actor}.",
+        "desesperanzaAplicada": "{actor} enters Despair."
+      }
+    },
+    "arsenal": {
+      "titulo": "Equip Creed set",
+      "set": "Set",
+      "equipado": "<strong>{actor}</strong> receives the <strong>{set}</strong>: {items}.",
+      "equipoLibre": "Also, without a sheet: {lista}."
+    },
+    "panel": {
+      "titulo": "Somnia Biotech — Storyteller Panel",
+      "celula": "Cell",
+      "desesperacion": "Desperation",
+      "peligro": "Danger",
+      "sinCelula": "There is no Cell sheet in the world. Create a Group → Cell actor and add the hunters.",
+      "cazadores": "Hunters",
+      "sinCazadores": "No hunters with an assigned player.",
+      "caminos": "Paths",
+      "balizas": "Beacons",
+      "carne": "Flesh",
+      "estados": "Conditions",
+      "registroPeligro": "Session Danger log",
+      "registroVacio": "Nothing logged yet.",
+      "aplicarTodo": "Apply all to the Cell",
+      "limpiar": "Clear log",
+      "limpiarConfirmar": "This clears the session Danger log. Continue?",
+      "epilogo": "Likely epilogue",
+      "epilogos": {
+        "fe": "The Awakening (Imbued)",
+        "metodo": "The Heir of the Workshop (Enlightened)",
+        "carne": "The Chimera (Modified)",
+        "mortal": "The Mortal Hunter"
+      },
+      "otorgar": "Grant path",
+      "comprar": "Buy power",
+      "quemar": "Burn / Overload / Tear",
+      "registrar": "+1 Danger",
+      "equipar": "Equip set"
+    },
+    "tirada": {
+      "boton": "Roll {label}",
+      "dificultad": "diff. {n}"
+    }
+  }
+}

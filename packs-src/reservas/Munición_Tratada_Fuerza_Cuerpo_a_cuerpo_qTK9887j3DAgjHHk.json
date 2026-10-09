@@ -1,0 +1,46 @@
+{
+  "_id": "qTK9887j3DAgjHHk",
+  "_key": "!items!qTK9887j3DAgjHHk",
+  "name": "Munición Tratada — Fuerza + Cuerpo a cuerpo",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 101,
+  "system": {
+    "description": "<p><em>≈ Hendir</em></p>\n<p>Cartuchos cargados a mano con compuestos destilados de restos sobrenaturales, hojas con baño electrolítico que no figura en ningún manual. El arma es común; lo que muerde es el tratamiento.</p>\n<p><strong>Sistema.</strong></p><p>El Iluminado prepara un lote antes de la misión (escena de taller). Al usarlo en combate, se fuerza el prototipo al declarar el ataque: durante la escena, esa arma o munición inflige daño agravado a criaturas sobrenaturales, que no pueden aplicar curación sobrenatural sobre esas heridas hasta el final de la escena. Contra mortales es un arma común, siempre. El lote se agota al final de la escena: la química no dura.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Tirada de ataque; el texto no fija la reserva (se usa la estándar de H5). La activación se hace al declarar el ataque (hoja tratada).</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-municion-tratada",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.strength"
+      },
+      "d2": {
+        "path": "skills.melee"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-municion-tratada",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

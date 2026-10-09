@@ -1,0 +1,154 @@
+---
+id: la-marca-de-los-heraldos
+nombre: La Marca de los Heraldos — Bordes Imbuidos
+carpeta: Reglas
+orden: 10
+jugadores: si
+---
+
+# La Marca de los Heraldos
+
+## Bordes Imbuidos para Hunter: The Reckoning 5ª Edición
+
+Reglas caseras para reintroducir los poderes de los Imbuidos de la edición del '99 (los Bordes de Celo, Misericordia y Visión) dentro del tono y las mecánicas del Mundo de Tinieblas de 5ª edición.
+
+## 1. El concepto
+
+En la edición original, los Heraldos (los Mensajeros) imbuían a mortales comunes con poder sobrenatural en un momento de crisis. En H5 los cazadores son mortales sin poderes, y la Desesperación es el motor mecánico y narrativo del juego.
+
+Esta regla casera une las dos cosas: los Heraldos hablan a través de la Desesperación. Nadie sabe qué son. Ángeles, espíritus, un mecanismo de defensa de la realidad, o delirios compartidos de gente rota. La cronista nunca lo confirma. Los poderes son sutiles, negables, y siempre pueden explicarse (con esfuerzo) como suerte, adrenalina o coincidencia. Un Imbuido que corta a un vampiro con un cuchillo de cocina no lanza fuego: el cuchillo simplemente muerde donde no debería.
+
+Ese es el contrato de tono: si un poder se podría filmar y subir a internet como prueba de lo sobrenatural, es demasiado poder para esta regla.
+
+## 2. El Imbuimiento
+
+Un personaje se convierte en Imbuido solo en juego, nunca en creación de personaje (salvo que la crónica arranque con el Imbuimiento como escena inicial, al estilo del libro viejo).
+
+Disparador narrativo. El personaje enfrenta a lo sobrenatural en una situación desesperada y sin salida, y en lugar de quebrarse, elige: proteger, castigar o comprender. En ese instante escucha/ve/siente a los Heraldos (cada Imbuido lo percibe distinto: una voz, letras de fuego en el borde de la visión, un olor a ozono) y recibe la Marca.
+
+Disparador mecánico (opcional). Un momento candidato natural es cuando el jugador tira dados de Desesperación en una escena de vida o muerte contra un sobrenatural y saca un crítico, o cuando la célula está en Desesperación 5. La cronista decide; el Imbuimiento es un premio narrativo, no un derecho.
+
+Coste. El Imbuimiento otorga gratis la Segunda Vista (abajo). Cada Borde Imbuido adicional se compra como una Ventaja de 3 puntos (o con 6 PX en juego, el precio de un Borde normal). Las Mejoras cuestan lo mismo que un Perk normal.
+
+La cicatriz. Todo Imbuido gana también un Defecto de 1 punto a elección de la cronista que refleja cómo lo cambió el contacto: insomnio, un tic, quemaduras leves en las palmas, no soporta los espejos. Los Heraldos no tocan sin dejar marca.
+
+## 3. Mecánica común: encender la Chispa
+
+Todos los Bordes Imbuidos comparten estas reglas:
+
+- Activación. Usar un Borde Imbuido exige encender la Chispa: el jugador debe incluir los dados de Desesperación de la célula en la tirada del Borde, aunque no quiera. Los Heraldos no dan nada gratis.
+- Silencio de los Heraldos. Si la tirada resulta en Desesperación total (falla con 1s en los dados de Desesperación), además de las consecuencias normales el personaje cae en Despair y los Heraldos callan: no puede usar ningún Borde Imbuido hasta salir de Despair según las reglas normales.
+- Quemar la Chispa. Los efectos marcados como Quemar exigen además reducir la Desesperación de la célula en 1. Es un recurso compartido: cada milagro que pedís se lo sacás a tus compañeros. Si la Desesperación está en 0, no se puede Quemar.
+- La Marca atrae. Los sobrenaturales no detectan a un Imbuido en reposo, pero un Borde usado frente a un sobrenatural que sobrevive a la escena suma +1 de Peligro (Danger) al final de la sesión, además de lo que corresponda por los eventos. Los monstruos hablan entre ellos, y un mortal que hace eso es una anomalía que hay que investigar.
+- Un Borde Imbuido por turno. La Segunda Vista es pasiva y no cuenta.
+
+## 4. La Segunda Vista
+
+Todo Imbuido la recibe gratis en el Imbuimiento. Reemplaza y supera al Borde estándar Sense the Unnatural.
+
+El Imbuido ve el mundo como es. No hay efectos visuales dramáticos: simplemente el vampiro se ve muerto, la piel del hombre lobo no termina de quedarse quieta, el fantasma está ahí parado aunque nadie más lo vea.
+
+Sistema. Pasiva. Ante un sobrenatural disfrazado, oculto o inmaterial, la cronista pide Resolución + Percepción (dificultad según el poder que lo oculte; contra disciplinas como Obfuscate o Mask of a Thousand Faces es una tirada enfrentada contra el poder del monstruo). No requiere encender la Chispa. Un éxito revela que algo está mal; un crítico revela qué tipo de criatura es, si el Imbuido ya conoció a una igual.
+
+Mejora — Leer la Herida. Con un turno de observación y una tirada de Inteligencia + Ocultismo (dif. 3), el Imbuido intuye una vulnerabilidad general de la criatura (el fuego, el sol, la plata, su ancla). La cronista da una pista, no una ficha técnica.
+
+## 5. Los Bordes por Virtud
+
+Cada Imbuido resuena con una Virtud según cómo eligió en su Imbuimiento: Celo (castigar y proteger por la fuerza), Misericordia (amparar y redimir) o Visión (comprender). Puede comprar Bordes de su Virtud a coste normal; los de otras Virtudes cuestan 1 punto/2 PX más. Es una guía de personaje, no una jaula.
+
+Sugerencia de mapeo con los Credos de H5: Martial y Faithful tiran a Celo, Underground y Entrepreneurial a Misericordia (protegen a los suyos), Inquisitive a Visión. Pero el Credo describe el método del cazador y la Virtud describe su alma; pueden no coincidir, y eso es interesante.
+
+### Celo
+
+#### Hendir (Cleave)
+
+El arma del Imbuido, cualquiera sea, muerde la carne sobrenatural como si fuera bendita. No brilla ni arde: simplemente las heridas que hace no se cierran como deberían.
+
+Sistema. Se enciende la Chispa al declarar el ataque. Durante la escena, los ataques cuerpo a cuerpo del Imbuido con esa arma infligen daño agravado a criaturas sobrenaturales, y estas no pueden usar curación sobrenatural sobre esas heridas hasta el final de la escena. Contra mortales el arma es un arma común, siempre.
+
+Mejora — Filo Paciente (Quemar). Quemando la Chispa, el próximo ataque que impacte suma +2 al daño. Los Heraldos guían la mano hacia el corazón, el cuello, la costura del monstruo.
+
+Mejora — Sin Distinción. Hendir se extiende a armas a distancia que el Imbuido cargue personalmente (balas que él mismo puso en el cargador, flechas de su carcaj).
+
+#### Custodia (Ward)
+
+El Imbuido traza un umbral (con sal, con tiza, con el propio cuerpo plantado en la puerta) y lo sobrenatural duda en cruzarlo.
+
+Sistema. Un turno para trazar el límite de una habitación o vehículo, y Resolución + Ocultismo encendiendo la Chispa. Los éxitos quedan como reserva. Cada sobrenatural que intente cruzar debe superar esos éxitos con una tirada de Resolución + Resistencia (o el pool que la cronista juzgue); si falla, no puede cruzar este turno y sabe que algo lo rechazó. La Custodia dura la escena o hasta que el Imbuido cruce el umbral hacia afuera.
+
+Mejora — Santuario (Quemar). Quemando la Chispa al trazarla, la Custodia dura hasta el amanecer y protege también a los mortales que duerman dentro de pesadillas y poderes mentales sobrenaturales.
+
+#### Atravesar (Pierce)
+
+La mirada del Juez. El Imbuido clava los ojos en una criatura y le arranca la máscara.
+
+Sistema. Enfrentada: Resolución + Intimidación del Imbuido (Chispa encendida) contra Compostura + Subterfugio del objetivo. Si gana, durante la escena el objetivo no puede sostener disfraces sobrenaturales frente al Imbuido y su célula (los presentes ven lo que la Segunda Vista del Imbuido ve), y sufre +1 de dificultad en tiradas Sociales contra ellos. El monstruo sabe que fue visto.
+
+Mejora — Cargar la Culpa. Si el objetivo mató a un mortal en los últimos días, el Imbuido lo sabe al ganar la enfrentada, y el objetivo sufre además −1 dado en todas sus reservas contra el Imbuido durante la escena. El peso de lo que hizo se le sube a los hombros.
+
+### Misericordia
+
+#### Iluminar (Illuminate)
+
+Una calma que se contagia. Donde está el Imbuido, el pánico no prende.
+
+Sistema. Carisma + Empatía encendiendo la Chispa. Los mortales presentes (hasta éxitos × 2 personas) quedan inmunes al pánico de masas y al terror sobrenatural durante la escena, y obedecen indicaciones razonables del Imbuido para ponerse a salvo sin discutir. No funciona sobre la célula (los cazadores ya eligieron mirar) ni controla mentes: la gente calmada sigue siendo gente.
+
+Mejora — Faro (Quemar). Quemando la Chispa, el efecto alcanza también a la célula: durante la escena, todos los compañeros pueden repetir una tirada fallada de miedo, frenesí inducido o terror sobrenatural.
+
+#### Bálsamo (Donate)
+
+El Mártir carga con lo que otros no pueden. El Imbuido pone las manos sobre un herido y el dolor cambia de dueño.
+
+Sistema. Un turno de contacto y Resolución + Medicina encendiendo la Chispa. Por cada éxito, cura 1 nivel de daño superficial del objetivo transfiriéndolo al propio Imbuido como daño superficial. Con la mejora de abajo puede absorber agravado. No funciona sobre uno mismo. El daño transferido no puede a su vez transferirse: alguien tiene que pagarlo.
+
+Mejora — Cargar la Cruz (Quemar). Quemando la Chispa, puede transferir hasta 2 niveles de daño agravado del objetivo, que el Imbuido recibe como agravado. Duele exactamente lo que parece.
+
+#### Sosegar (Becalm)
+
+El Redentor cree que dentro del monstruo queda algo que escucha. A veces tiene razón.
+
+Sistema. El Imbuido le habla directamente a la criatura (necesita que pueda oírlo) y tira Carisma + Empatía con la Chispa encendida, enfrentado a Resolución + Compostura del objetivo. Si gana, suprime durante la escena la furia sobrenatural activa del objetivo: un frenesí se corta, una ghoul enloquecida baja el arma, un espectro deja de aullar. La criatura no se vuelve aliada ni dócil; solo vuelve a poder elegir.
+
+Mejora — La Última Puerta. Si el Imbuido ganó la enfrentada, puede hacer una única pregunta que la criatura responde con verdad desde lo que le queda de humanidad. Después de eso, lo que la criatura haga con ese momento de lucidez es cosa suya.
+
+### Visión
+
+#### Presagio (Foresee)
+
+Medio segundo de ventaja. El Imbuido ve el cuchillo antes de que la mano se mueva.
+
+Sistema. Se enciende la Chispa al inicio de la escena con Astucia + Consciencia (dif. 2). Si tiene éxito, durante la escena el Imbuido no puede ser emboscado ni sorprendido, y una vez por escena puede obligar a repetir una tirada (propia, de un aliado o de un enemigo) que acabe de resolverse, quedándose con el segundo resultado.
+
+Mejora — Compartir el Instante (Quemar). Quemando la Chispa, toda la célula queda cubierta contra la sorpresa esa escena. "¡Al piso!" llega siempre justo a tiempo.
+
+#### Señalar (Pinpoint)
+
+El hilo invisible. Una vez que el Imbuido conoció a su presa, sabe hacia dónde tirar.
+
+Sistema. Requiere haber visto a la criatura o tener algo suyo (sangre, un objeto personal, el cadáver de una víctima). Resolución + Investigación encendiendo la Chispa. Éxito: el Imbuido conoce la dirección general y una impresión de distancia ("cerca, bajo tierra, hacia el río"). Crítico: una imagen del lugar donde está ahora. La conexión dura hasta el amanecer o hasta que la criatura cruce agua corriente, salga de la ciudad o muera.
+
+Mejora — Marcar la Madriguera. Si el Imbuido llega físicamente al refugio de la criatura mientras la conexión está activa, la reconoce entre otros lugares para siempre y sabe si la criatura está dentro al llegar.
+
+#### Sondear (Delve)
+
+El pasado deja residuo. El Imbuido toca un objeto o un lugar y las imágenes llegan solas, quiera o no.
+
+Sistema. Contacto físico con el objeto o la escena y Resolución + Consciencia encendiendo la Chispa. Éxito: un destello del evento más cargado emocionalmente vinculado a eso (segundos de imagen, sonido, olor). Crítico: la escena casi completa, con rostros. La cronista narra en fragmentos; las visiones son verdaderas pero no vienen con contexto ni subtítulos.
+
+Mejora — Voluntad de Piedra. Las visiones violentas normalmente cuestan 1 de Fuerza de Voluntad. Con esta mejora, no. El Imbuido ya vio demasiado como para que una más lo tumbe.
+
+## 6. Notas de equilibrio y tono
+
+- La Desesperación es el freno. Todo pasa por los dados compartidos de la célula. Un jugador que abusa de los Bordes está apostando la cordura de todos y vaciando el pozo con cada Quemar. El sistema se autorregula en la mesa.
+- Despair pega más fuerte a un Imbuido. Perder el acceso a los Bordes hasta salir de Despair le da a esa mecánica un peso extra sin tocar sus reglas.
+- Peligro como contador de campaña. El +1 de Danger por usar Bordes frente a testigos sobrenaturales convierte cada milagro en deuda. Los monstruos empiezan a preguntarse quién es ese mortal, y eso escala solo.
+- Escala. Estos Bordes equivalen más o menos a niveles 1-2 de la edición vieja. Nada de Blaze, Smite ni resurrecciones: si la crónica llega a un punto donde eso tiene sentido, mejor diseñarlo como evento único que como compra de PX.
+- Los Heraldos tienen agenda. Opcional pero recomendado: de vez en cuando, los Heraldos piden. Un mensaje críptico, un nombre, una dirección. Ignorarlos no quita poderes, pero los mensajes se vuelven más insistentes, más invasivos. Es el gancho de trama que la edición vieja hacía mejor que nadie.
+
+## 7. Implementación en Foundry (sistema wod5e)
+
+- Cargá cada Borde Imbuido como un ítem de tipo Edge y cada Mejora como Perk asociado, igual que los Edges oficiales. El sistema wod5e ya maneja dados de Desesperación en las tiradas, así que "encender la Chispa" es simplemente marcar la opción de incluirlos.
+- La Segunda Vista conviene cargarla como Edge pasivo separado para que figure en la hoja.
+- Para el Quemar, no hay automatización nativa: bajá la Desesperación a mano desde el tracker de la célula y dejalo anotado en el chat con un /roll descriptivo o un mensaje de GM para que quede registro.
+- El +1 de Danger llevalo en tu tracker de crónica de fin de sesión, junto con las preguntas normales de Danger de H5.

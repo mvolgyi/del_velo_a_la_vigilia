@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "del-velo-a-la-vigilia",
+  "version": "0.1.0",
+  "description": "Módulo de Foundry VTT para Hunter: The Reckoning 5e (wod5e): los tres caminos, el Arsenal de la Vigilia y la crónica Somnia Biotech",
+  "type": "module",
+  "scripts": {
+    "contenido": "node tools/construir-contenido.mjs",
+    "verificar": "node tools/verificar.mjs",
+    "pack:reservas": "fvtt package pack reservas --id del-velo-a-la-vigilia --type Module --in packs-src/reservas --out packs",
+    "pack:mejoras": "fvtt package pack mejoras --id del-velo-a-la-vigilia --type Module --in packs-src/mejoras --out packs",
+    "pack:estados": "fvtt package pack estados --id del-velo-a-la-vigilia --type Module --in packs-src/estados --out packs",
+    "pack:rasgos": "fvtt package pack rasgos --id del-velo-a-la-vigilia --type Module --in packs-src/rasgos --out packs",
+    "pack:arsenal": "fvtt package pack arsenal --id del-velo-a-la-vigilia --type Module --in packs-src/arsenal --out packs",
+    "pack:reglas": "fvtt package pack reglas --id del-velo-a-la-vigilia --type Module --in packs-src/reglas --out packs",
+    "pack:cronica": "fvtt package pack cronica --id del-velo-a-la-vigilia --type Module --in packs-src/cronica --out packs",
+    "pack:personajes": "fvtt package pack personajes --id del-velo-a-la-vigilia --type Module --in packs-src/personajes --out packs",
+    "pack:escenas": "fvtt package pack escenas --id del-velo-a-la-vigilia --type Module --in packs-src/escenas --out packs",
+    "pack:macros": "fvtt package pack macros --id del-velo-a-la-vigilia --type Module --in packs-src/macros --out packs",
+    "pack": "npm run contenido && npm run verificar && npm run pack:reservas && npm run pack:mejoras && npm run pack:estados && npm run pack:rasgos && npm run pack:arsenal && npm run pack:reglas && npm run pack:cronica && npm run pack:personajes && npm run pack:escenas && npm run pack:macros",
+    "unpack:escenas": "fvtt package unpack escenas --id del-velo-a-la-vigilia --type Module --out packs-src/escenas --clean",
+    "arte": "node tools/generar-arte.mjs",
+    "planos": "node tools/construir-planos.mjs",
+    "pintar": "node tools/pintar-planos.mjs",
+    "release": "node tools/release.mjs",
+    "e2e": "node tools/e2e/prueba.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
+    "marked": "^18.0.7",
+    "playwright-core": "^1.64.0"
+  }
+}

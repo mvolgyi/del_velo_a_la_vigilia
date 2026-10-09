@@ -1,0 +1,46 @@
+{
+  "_id": "RJ93yQLPby2rPPhW",
+  "_key": "!items!RJ93yQLPby2rPPhW",
+  "name": "Glándula Apotropaica — Resolución + Aguante",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 200,
+  "system": {
+    "description": "<p><em>≈ Custodia</em></p>\n<p>Una glándula cultivada de tejido sobrenatural que segrega un compuesto que las criaturas de la noche no soportan. El Modificado lo suda, lo unta, marca territorio con él.</p>\n<p><strong>Sistema.</strong></p><p>Un turno para marcar el umbral de una habitación o vehículo con la secreción y Resolución + Aguante exigiendo la carne. Los éxitos quedan como reserva; cada sobrenatural que intente cruzar debe superarlos con Resolución + Resistencia o no puede cruzar este turno, y sabe que algo lo rechazó. Dura la escena o hasta que el Modificado cruce hacia afuera.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Aguante no existe en H5: se usa Atletismo. Los éxitos quedan como reserva que el sobrenatural debe superar.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-glandula-apotropaica",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.athletics"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-glandula-apotropaica",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "JOZbRtBu1NRk9sxO",
+  "_key": "!items!JOZbRtBu1NRk9sxO",
+  "name": "Toque Supresor — Compostura + Medicina",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 600,
+  "system": {
+    "description": "<p><em>≈ Sosegar</em></p>\n<p>Glándulas en las palmas que sintetizan un neuroinhibidor destilado de la propia biología del monstruo. Un contacto sostenido, y la furia se apaga.</p>\n<p><strong>Sistema.</strong></p><p>Requiere haber incorporado antes material de ese tipo de criatura (parte del régimen: una dosis preparada a partir de muestras). El Modificado necesita tocar al objetivo (contacto, o presa) y tira Compostura + Medicina exigiendo la carne, enfrentado a Resolución + Compostura del objetivo. Si gana, suprime durante la escena la furia sobrenatural activa: el frenesí se corta, la criatura queda lúcida, no dócil.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Enfrentada contra Resolución + Compostura del objetivo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-toque-supresor",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.composure"
+      },
+      "d2": {
+        "path": "skills.medicine"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-toque-supresor",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "xtkVFmUTZkRODXXH",
+  "_key": "!items!xtkVFmUTZkRODXXH",
+  "name": "Sin el régimen",
+  "type": "condition",
+  "img": "icons/svg/degen.svg",
+  "folder": "vOmF0XU1AZwclWxF",
+  "sort": 0,
+  "system": {
+    "description": "<p>El Modificado no consiguió o no preparó sus inmunosupresores entre historias. <strong>Todas las Modificaciones e injertos operan a −1 dado</strong> y la cronista puede pedir chequeos de Resistencia + Aguante ante síntomas de rechazo.</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Sin régimen",
+        "value": "-1",
+        "paths": [
+          "edges.dvv-mod-sentido-vestigial",
+          "edges.dvv-mod-osteoinjerto",
+          "edges.dvv-mod-glandula-apotropaica",
+          "edges.dvv-mod-mirada-de-depredador",
+          "edges.dvv-mod-feromonas-de-calma",
+          "edges.dvv-mod-plasma-universal",
+          "edges.dvv-mod-toque-supresor",
+          "edges.dvv-mod-reflejo-anticipatorio",
+          "edges.dvv-mod-olfato-quimerico",
+          "edges.dvv-mod-memoria-tactil",
+          "edges.dvv-gen2-ojo-compuesto",
+          "edges.dvv-gen2-malla-subdermica",
+          "edges.dvv-gen2-glandula-de-sobremarcha",
+          "edges.dvv-gen2-miofibras-sinteticas",
+          "edges.dvv-gen2-ojos-de-la-bestia",
+          "edges.dvv-gen2-mimetismo-dermico",
+          "edges.dvv-gen2-rostro-maleable"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "sin-regimen",
+      "camino": "modificado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

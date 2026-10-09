@@ -1,0 +1,46 @@
+{
+  "_id": "I7Sip2GwslupAhCF",
+  "_key": "!items!I7Sip2GwslupAhCF",
+  "name": "Lente Espectral — Resolución + Tecnología",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>≈ Segunda Vista</em></p>\n<p>Todo Iluminado la recibe gratis con el Avance. Es el gemelo tecnológico de la Segunda Vista.</p><p>Una cámara modificada, unos anteojos con visor térmico intervenido, una app de espectrografía que no debería correr en ese teléfono. A través de la Lente, el mundo se ve como es: el vampiro no registra temperatura corporal coherente, el hombre lobo tiene una silueta térmica que no cierra, hay una figura en el pasillo que el sensor detecta y el ojo no.</p>\n<p><strong>Sistema.</strong></p><p>Mientras el Iluminado observa a través de la Lente, funciona como la Segunda Vista: ante un sobrenatural disfrazado, oculto o inmaterial, la cronista pide Resolución + Tecnología (contra poderes de ocultamiento, tirada enfrentada contra el poder del monstruo). La diferencia clave con la Segunda Vista: hay que estar mirando a través del aparato. Quitarle la Lente al Iluminado lo deja ciego a lo oculto; ese es el precio de no llevar el don adentro.</p><p><em>Contra poderes de ocultamiento es enfrentada contra el poder del monstruo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-lente-espectral",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.technology"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-lente-espectral",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

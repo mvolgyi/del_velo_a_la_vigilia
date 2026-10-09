@@ -1,0 +1,60 @@
+{
+  "_id": "ysjWev5JXcKbwqu3",
+  "_key": "!items!ysjWev5JXcKbwqu3",
+  "name": "Artefactos sin mantenimiento",
+  "type": "condition",
+  "img": "icons/svg/downgrade.svg",
+  "folder": "Rpd9Fzl1M6xNxgEu",
+  "sort": 0,
+  "system": {
+    "description": "<p>Entre historias, cada Artefacto exige una escena breve de taller. Sin ella, <strong>todos los Artefactos operan a −1 dado</strong> hasta recibirla.</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Sin mantenimiento",
+        "value": "-1",
+        "paths": [
+          "edges.dvv-ilu-lente-espectral",
+          "edges.dvv-ilu-municion-tratada",
+          "edges.dvv-ilu-emisor-de-perimetro",
+          "edges.dvv-ilu-designador",
+          "edges.dvv-ilu-difusor-de-calma",
+          "edges.dvv-ilu-kit-de-trauma",
+          "edges.dvv-ilu-inhibidor",
+          "edges.dvv-ilu-motor-predictivo",
+          "edges.dvv-ilu-rastreador-de-firma",
+          "edges.dvv-ilu-reconstructor"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "sin-mantenimiento",
+      "camino": "iluminado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

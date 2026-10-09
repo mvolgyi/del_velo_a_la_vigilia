@@ -1,0 +1,25 @@
+{
+  "_id": "ucxdXwXZ4ogDFpA4",
+  "_key": "!macros!ucxdXwXZ4ogDFpA4",
+  "name": "Equipar set del Credo",
+  "type": "script",
+  "scope": "global",
+  "img": "icons/svg/item-bag.svg",
+  "command": "game.modules.get(\"del-velo-a-la-vigilia\").api.equiparSet();",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "macro",
+      "macro": "equipar"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

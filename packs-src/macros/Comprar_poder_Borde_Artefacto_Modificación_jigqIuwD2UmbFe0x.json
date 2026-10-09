@@ -1,0 +1,25 @@
+{
+  "_id": "jigqIuwD2UmbFe0x",
+  "_key": "!macros!jigqIuwD2UmbFe0x",
+  "name": "Comprar poder (Borde / Artefacto / Modificación)",
+  "type": "script",
+  "scope": "global",
+  "img": "icons/svg/upgrade.svg",
+  "command": "game.modules.get(\"del-velo-a-la-vigilia\").api.comprarPoder();",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "macro",
+      "macro": "comprar"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

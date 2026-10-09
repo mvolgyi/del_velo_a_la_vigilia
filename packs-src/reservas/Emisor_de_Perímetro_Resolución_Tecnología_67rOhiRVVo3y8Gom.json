@@ -1,0 +1,46 @@
+{
+  "_id": "67rOhiRVVo3y8Gom",
+  "_key": "!items!67rOhiRVVo3y8Gom",
+  "name": "Emisor de Perímetro — Resolución + Tecnología",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 200,
+  "system": {
+    "description": "<p><em>≈ Custodia</em></p>\n<p>Una caja del tamaño de un router que emite algo entre el ultrasonido y otra cosa. Los sobrenaturales que se acercan sienten la piel equivocada.</p>\n<p><strong>Sistema.</strong></p><p>Un turno para desplegarlo cubriendo una habitación o vehículo y Resolución + Tecnología forzando el prototipo. Los éxitos quedan como reserva; cada sobrenatural que intente cruzar el perímetro debe superarlos con Resolución + Resistencia o no puede cruzar este turno, y sabe que algo lo rechazó. Dura la escena o hasta que se quede sin batería, se destruya o el Iluminado lo apague.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Los éxitos quedan como reserva que el sobrenatural debe superar.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-emisor-de-perimetro",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.technology"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-emisor-de-perimetro",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

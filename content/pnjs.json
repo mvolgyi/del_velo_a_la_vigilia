@@ -1,0 +1,240 @@
+{
+  "pnjs": [
+    {
+      "id": "marcos",
+      "nombre": "Marcos",
+      "spcType": "vampire",
+      "gamesystem": "vampire",
+      "concepto": "Seguridad de Somnia, vampiro joven y arrogante",
+      "estandar": {
+        "physical": 6,
+        "social": 4,
+        "mental": 3
+      },
+      "excepcionales": {
+        "brawl": 8,
+        "athletics": 7,
+        "intimidation": 7,
+        "firearms": 6,
+        "awareness": 6,
+        "stealth": 6
+      },
+      "salud": 7,
+      "voluntad": 4,
+      "poder": 2,
+      "dificultadGeneral": {
+        "normal": 3,
+        "fuerte": 5
+      },
+      "descripcion": "<p>Jefe de seguridad nocturna de Somnia Biotech y su brazo armado. Vampiro joven, convertido hace poco: todavía se viste como un empleado bien pago (traje, credencial colgada, zapatos que cuida) y todavía disfruta demasiado de ser lo que es. Se alimenta de los durmientes del ala de ensayos directamente con la boca, sin jeringas ni vías.</p><p>Es arrogante y sádico: no corre, camina detrás de sus presas como un depredador jugando con la comida, convencido de que nadie le va a creer a un becario, un pasante de IT, un limpiador y un guardia de tres semanas. Habla en murmullos que se clavan en la cabeza y se burla de sus víctimas («Son comida, chavales. Comida que camina»).</p><p>No defiende a Somnia por lealtad: la clínica le da territorio, sangre fácil y licencia para cazar. En la cripta viene a cazar, no a proteger.</p><p><strong>Tras la crónica:</strong> la célula lo quemó dos veces (la bengala de Elías en el Acto 1 y la cripta en el Acto 3). Le quedó una grotesca cicatriz de quemaduras en la cara y el orgullo roto, y está obsesionado con rastrear a la célula para cobrarse una revancha personal.</p>",
+      "poderes": "<p>Rasgos de vampiro del libro básico: <strong>Mordisco</strong> (tras una presa, 2 de daño agravado y 1 por turno si sigue alimentándose; liberarse cuesta 1 FV) y <strong>Resiliencia</strong> (todo el daño es superficial salvo vulnerabilidades).</p><p>Poderes sugeridos (nivel de disciplina 1-2, cada uso cuesta 1 FV):</p><ul><li><strong>Aterrorizar (reserva 6)</strong>: el murmullo a través del vidrio. Se resiste con Compostura + Resolución; quien falla queda aterrorizado (−2 dados en su presencia salvo que gaste 1 FV).</li><li><strong>Prisa</strong> (Celeridad 1): cierra distancia de golpe o se retira con un turno de ventaja. Ideal para aparecer «doblando la esquina» en el muelle de carga.</li><li><strong>Potencia 1</strong>: +1 al daño de Pelea y fuerza para abrir puertas trabadas sin energía.</li></ul>",
+      "debilidades": "<ul><li><strong>Vulnerabilidad (fuego)</strong>: el fuego lo quema como a un mortal, y le tiene terror. Ante una llama abierta (bengala, Molotov, bidón encendido) retrocede salvo que gaste 1 FV.</li><li><strong>Vulnerabilidad (luz solar 2)</strong>: la luz directa lo quema.</li><li><strong>Punto débil (corazón, estaca de madera)</strong>: margen 5+ lo paraliza.</li><li><strong>Arrogancia</strong>: subestima a la célula; se toma su tiempo, monologa y juega con la presa en vez de rematar.</li></ul>",
+      "notas": "<p><strong>Acto 1:</strong> es el monstruo de la Escena del Velo y de la persecución. No tiene que matar a nadie: camina, intimida y acorrala. La bengala de Elías lo hace retroceder (primera quemadura).</p><p><strong>Acto 2:</strong> si falla la infiltración a Salas, visita el piso franco de Elías esa noche; la Custodia de sal solo aguanta si alguien saca un éxito en Resolución + Convicción.</p><p><strong>Acto 3:</strong> irrumpe en la cripta como factor caos, con la cara aún marcada; pelea frenética entre equipo médico frágil. Quiere a la célula, no a Somnia.</p><p><strong>Después:</strong> antagonista recurrente obsesionado con la célula.</p><p><em>Cifras:</em> la Narración y la Pantalla no dan números. Todas las cifras de este PNJ son sugeridas, basadas en los vampiros del Capítulo Seis (Richard Tupaz, Físicos 6, Salud 7). La Pantalla lo llama «ghoul»: es un error, Marcos es vampiro joven.</p>"
+    },
+    {
+      "id": "sor-anunciacion",
+      "nombre": "Sor Anunciación",
+      "spcType": "vampire",
+      "gamesystem": "vampire",
+      "concepto": "Priora del convento desconsagrado, vampira antigua, fuerza de la naturaleza",
+      "estandar": {
+        "physical": 10,
+        "social": 8,
+        "mental": 8
+      },
+      "excepcionales": {
+        "brawl": 12,
+        "intimidation": 12,
+        "occult": 11,
+        "awareness": 10,
+        "insight": 10,
+        "persuasion": 10
+      },
+      "salud": 12,
+      "voluntad": 10,
+      "poder": 5,
+      "dificultadGeneral": {
+        "normal": 5,
+        "fuerte": 7
+      },
+      "descripcion": "<p>La priora que reza en la cripta debajo del convento desconsagrado desde hace cuatrocientos años, esperando que Dios le conteste. Es la razón de ser de Somnia Biotech: la clínica la alimenta con el plasma de los «durmientes», bombeado por vías intravenosas hasta el relicario central donde yace en letargo.</p><p>Habla poco, con voz seca, antigua y aplastante. No grita; no le hace falta. Trata a los mortales como corderos en el matadero y a la fe ajena como ruido («Tu fe es ruido. Silencio»). Es paciente como solo puede serlo una eternidad: prefiere negociar que levantarse de su cama, y lo deja claro.</p><p>Sus rezos son lo que el Limpiador escuchaba detrás de la puerta de piedra.</p><p><strong>Tras la crónica:</strong> sigue viva bajo el convento, pero sin su relicario ni su «granja de sangre». Va a despertar hambrienta y sin correa. Los durmientes desconectados sueñan con ella y balbucean sus rezos en idiomas que desconocen.</p>",
+      "poderes": "<p>Rasgos de vampiro (Mordisco, Resiliencia). Es una fuerza de la naturaleza, no un enemigo a derrotar: la célula no tiene con qué lastimarla.</p><ul><li><strong>Aterrorizar (reserva 10)</strong>: al incorporarse en el relicario, afecta a todos los presentes.</li><li><strong>Orden (reserva 10)</strong> y <strong>Encanto (reserva 10)</strong>: «van a subir por esa escalera ahora mismo».</li><li><strong>Presciencia (reserva 10)</strong>: sabe lo que planean y a quién quieren salvar.</li><li><strong>Embestida</strong>: puede golpear a todos los que estén a su alcance a la vez.</li><li><strong>Regeneración (Salud 2)</strong> mientras está conectada al relicario.</li><li>Potencia/Fortaleza/Celeridad de nivel antiguo: aparta a un hombre «como si fuera una silla rota».</li></ul>",
+      "debilidades": "<ul><li><strong>Vulnerabilidad (fuego)</strong>.</li><li><strong>Vulnerabilidad (luz solar 3)</strong>: el amanecer es la única debilidad real de la cripta; la regla de Elías («no se baja sin un plan para el amanecer») existe por ella.</li><li><strong>Punto débil (corazón, estaca de madera)</strong>.</li><li><strong>Letargo y apego al relicario</strong>: mientras está conectada no quiere moverse. Solo deja la cama si la obligan, y entonces es una masacre.</li><li><strong>Hambre</strong> (después del epílogo): sin los durmientes, cada noche está más hambrienta y es menos paciente.</li></ul>",
+      "notas": "<p><strong>Acto 2:</strong> presencia indirecta. En la visita diurna a la capilla, el lugar pesa; el Limpiador la reconoce.</p><p><strong>Acto 3:</strong> no es un combate. Despierta en el relicario, ofrece el trato monstruoso (llévense a su amigo y váyanse) y aparta a Elías de un golpe si los Heraldos callan. Si la célula insiste en pelear, usá su Embestida y Aterrorizar para dejar claro que la única salida es la huida al amanecer.</p><p><strong>Después:</strong> antagonista principal de la crónica, hambrienta y sin correa.</p><p><em>Cifras:</em> la fuente no da números. Todas las cifras son sugeridas, escaladas por encima de los vampiros antiguos del Capítulo Seis para que sea inalcanzable para una célula novata.</p>"
+    },
+    {
+      "id": "dra-salas",
+      "nombre": "Dra. Irene Salas",
+      "spcType": "ghoul",
+      "gamesystem": "vampire",
+      "concepto": "Directora médica de Somnia, ghoul, cirujana de las Quimeras",
+      "estandar": {
+        "physical": 3,
+        "social": 5,
+        "mental": 7
+      },
+      "excepcionales": {
+        "medicine": 10,
+        "science": 9,
+        "academics": 8,
+        "insight": 7,
+        "subterfuge": 7,
+        "technology": 8
+      },
+      "salud": 6,
+      "voluntad": 6,
+      "poder": 1,
+      "dificultadGeneral": {
+        "normal": 3,
+        "fuerte": 5
+      },
+      "descripcion": "<p>Directora médica de Somnia Biotech y ex científica de Orpheus. Es quien diseñó el Compuesto A (la sangre vampírica procesada) y quien opera a los «voluntarios de continuidad»: ya injertó modificaciones en tres de ellos semanas antes del incendio. Visita un laboratorio satélite dos veces por semana y guarda la agenda con los datos de esas tres cirugías.</p><p>Brillante, fría y culposa. Se justifica con la ciencia («Lo que viste ahí abajo no es el infierno, es biología») y lleva una lista de «candidatos de interés»: la misma noche del Acto 1 anota ahí el nombre de quien entra en pánico.</p><p><strong>Tras la crónica:</strong> fugitiva, con la bata manchada y los ojos inyectados en sangre, rastrea a los cazadores heridos con su maletín quirúrgico para «arreglar algo de lo que rompió». Aliada culposa y bomba de tiempo moral para la célula.</p>",
+      "poderes": "<p>Ghoul: bebe sangre vampírica, ahora en forma del <strong>Compuesto A</strong> que ella misma refina.</p><ul><li><strong>Vigor del ghoul</strong> (Potencia o Fortaleza 1): +1 dado en una reserva física por escena o +1 al daño cuerpo a cuerpo.</li><li><strong>Autodosis del Compuesto A</strong>: una vez por escena se inyecta y cura 2 de daño superficial, o ignora las penalizaciones por heridas durante la escena.</li><li><strong>La Operación</strong>: puede practicar la Operación de La Carne Templada sobre un PJ (Resistencia + Aguante dif. 2 del paciente) y es la puerta de entrada al camino de la Carne.</li></ul>",
+      "debilidades": "<ul><li><strong>Adicción a la sangre</strong>: sin Compuesto A, −2 dados a todas las reservas mentales tras una noche y temblores que le impiden operar.</li><li><strong>Vínculo de sangre</strong> con la vampira que la alimenta: frente a Sor Anunciación duda y obedece.</li><li><strong>Culpa</strong>: frente a una víctima de sus experimentos, la célula gana +2 dados en tiradas sociales para presionarla.</li><li>Mortal en lo demás: no tiene Resiliencia y no se cura sola sin el Compuesto.</li></ul>",
+      "notas": "<p><strong>Acto 1:</strong> fuera de escena; anota en su lista a quien falle la tirada de Mirar.</p><p><strong>Acto 2:</strong> objetivo de «Seguir a Salas»: sus cuadernos dan Método y su agenda revela a las Quimeras.</p><p><strong>Acto 3:</strong> su mesa con el disco duro y los viales es la elección final de la huida; si el Informático no la aísla, puede ver a la célula bajar por las cámaras.</p><p><strong>Epílogo:</strong> ofrece la Operación al Guardia (destino de la Carne). Sus diálogos están en Dramatis personae.</p><p><em>Cifras:</em> la fuente no da números. Todas las cifras son sugeridas.</p>"
+    },
+    {
+      "id": "elias-roca",
+      "nombre": "Elías Roca",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Superviviente de la célula del garaje de Huelin, ex Imbuido en Despair crónico",
+      "estandar": {
+        "physical": 4,
+        "social": 4,
+        "mental": 7
+      },
+      "excepcionales": {
+        "occult": 8,
+        "investigation": 8,
+        "awareness": 8
+      },
+      "salud": 5,
+      "voluntad": 7,
+      "poder": 0,
+      "dificultadGeneral": {
+        "normal": 3,
+        "fuerte": 4
+      },
+      "descripcion": "<p>Un hombre mayor, rengo, con ojeras moradas y dedos nudosos llenos de cicatrices. Hace nueve años su célula, la del «garaje de Huelin», bajó a la cripta sin un plan para el amanecer y él fue el único que salió vivo; esa misma noche robaron tres viales del Compuesto A. Desde entonces vive en un piso alquilado que huele a tabaco negro y a humedad, con un corcho gigante tapizado de fotos clandestinas, recortes y planos de Somnia unidos por hilo rojo.</p><p>Era un Imbuido: los Heraldos lo eligieron y le dieron la Segunda Vista. Cuando mataron a sus amigos, las voces se callaron y lo dejaron en Despair. Conserva la Segunda Vista intacta y una Convicción alta, pero sus Bordes fueron silenciados permanentemente.</p><p>Es áspero, desconfiado y protector a su manera. No ofrece discursos heroicos sino reglas de supervivencia: fuego y sol; nada de celulares ni policía; los ghouls existen; nunca se baja a la cripta sin un plan para el amanecer. Guarda el cuaderno de Mara y los tres viales en la heladera.</p>",
+      "poderes": "<ul><li><strong>Segunda Vista (intacta)</strong>: ve el mundo oculto tal como es.</li><li><strong>Bordes silenciados</strong>: no puede usar ningún Borde Imbuido. Excepción narrativa: el Gesto de Elías en el Acto 3, si el Narrador decide que los Heraldos responden, enciende sus Bordes una última vez con una luz cegadora que frena a Sor Anunciación.</li><li><strong>Convicción alta</strong>: +2 dados para resistir Aterrorizar, Encanto y Orden.</li></ul>",
+      "debilidades": "<ul><li><strong>Despair crónico</strong>: no puede usar dados de Desesperación ni recibir los beneficios de la célula por ellos.</li><li><strong>Cuerpo gastado</strong>: rengo y con Salud 5; no aguanta una pelea larga.</li><li><strong>Culpa del superviviente</strong>: ante la posibilidad de salvar a otra célula, se sacrifica sin pensarlo.</li></ul>",
+      "notas": "<p><strong>Acto 1:</strong> el hombre mayor que patea la puerta del muelle de carga con un bidón de gasoil y una bengala.</p><p><strong>Interludio:</strong> anfitrión del refugio; leé su monólogo (handout) y dejá que las Tres Puertas aparezcan solas.</p><p><strong>Acto 2:</strong> su piso franco es el blanco de Marcos si la infiltración falla.</p><p><strong>Acto 3:</strong> el Gesto de Elías. Decidí si los Heraldos responden (muere en gracia, argumento de la Fe) o si hay silencio (Sor Anunciación lo aparta de un golpe, argumento de la Quimera).</p><p><strong>Epílogo:</strong> él, o una carta póstuma suya, le entrega el cuaderno de Mara al Doctorando.</p><p><em>Cifras:</em> Físico 4, Mental 7, Ocultismo 8 y Salud 5 vienen de la Pantalla. Social 4, Voluntad 7, Investigación 8, Consciencia 8 y las dificultades son sugeridas.</p>"
+    },
+    {
+      "id": "durmiente",
+      "nombre": "Durmiente",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Paciente desaparecido de Somnia, «apagado» por la sedación y la sangría",
+      "estandar": {
+        "physical": 2,
+        "social": 1,
+        "mental": 2
+      },
+      "excepcionales": {
+        "awareness": 4
+      },
+      "salud": 4,
+      "voluntad": 2,
+      "poder": 0,
+      "dificultadGeneral": {
+        "normal": 1,
+        "fuerte": 2
+      },
+      "descripcion": "<p>Uno de los voluntarios de los ensayos del sueño de Somnia Biotech. Sedados durante semanas en el ala de ensayos o conectados al relicario de la cripta, les drenan el plasma para alimentar a Sor Anunciación. Están pálidos, anémicos, con marcas de vías en los brazos y la mirada perdida.</p><p>Los dados de alta vuelven a la calle «apagados»: confundidos, con lagunas de memoria y miedo a dormir. Comparten pesadillas recurrentes con una mujer que reza y, tras el epílogo, se despiertan a media noche balbuceando rezos en idiomas que no conocen.</p>",
+      "poderes": "",
+      "debilidades": "<ul><li><strong>Anemia y sedación</strong>: −2 dados a toda acción física; no puede correr más de un turno sin ayuda.</li><li><strong>Vínculo con Sor Anunciación</strong>: sus sueños la conectan a la priora; ella podría usarlos para encontrar a quien los cuide.</li></ul>",
+      "notas": "<p><strong>Acto 1:</strong> la víctima de la que Marcos se alimenta en la Escena del Velo.</p><p><strong>Acto 2:</strong> «El Durmiente Dado de Alta»: cuidarlo sin pedir nada da +1 Fe; tratarlo como sujeto de estudio da +1 Método.</p><p><strong>Acto 3:</strong> varios están conectados al relicario; en la huida, alguien tiene que cargar a uno escaleras arriba.</p><p><strong>Después:</strong> hilo abierto de «Los Durmientes Despiertos».</p><p><em>Cifras:</em> todas sugeridas; es un personaje a proteger, no un rival.</p>"
+    },
+    {
+      "id": "ghoul-somnia",
+      "nombre": "Ghoul de Somnia",
+      "spcType": "ghoul",
+      "gamesystem": "vampire",
+      "concepto": "Sirviente humano adicto a la sangre que limpia los rastros de la clínica",
+      "estandar": {
+        "physical": 5,
+        "social": 3,
+        "mental": 2
+      },
+      "excepcionales": {
+        "brawl": 6,
+        "melee": 6,
+        "firearms": 6,
+        "intimidation": 5,
+        "larceny": 5
+      },
+      "salud": 7,
+      "voluntad": 3,
+      "poder": 1,
+      "dificultadGeneral": {
+        "normal": 2,
+        "fuerte": 3
+      },
+      "descripcion": "<p>Enfermero nocturno, camillero, chofer de ambulancia o personal de mantenimiento de Somnia. Bebe sangre de Marcos (o Compuesto A) y a cambio limpia rastros: hace desaparecer historias clínicas, traslada durmientes a la cripta y se encarga de los testigos. Como dice Elías: «Tipos que te venderían a su propia madre por una gota de esa mierda».</p><p>Leal por adicción, no por convicción. Sigue órdenes, se mueve en grupo y no hace preguntas.</p>",
+      "poderes": "<ul><li><strong>Vigor del ghoul</strong> (Potencia 1): +1 al daño cuerpo a cuerpo y fuerza por encima de lo humano.</li><li>Cura el daño superficial más rápido que un mortal mientras tenga sangre en el cuerpo.</li></ul>",
+      "debilidades": "<ul><li><strong>Adicción y vínculo de sangre</strong>: se lo puede sobornar o desestabilizar con la promesa (o la amenaza) de la sangre. Sin su dosis, −2 dados a todo.</li><li>Mortal: sin Resiliencia, recibe daño normal de armas comunes.</li></ul>",
+      "notas": "<p>Usalo en grupos iguales al Peligro actual, como el libro sugiere para los sirvientes. «Ghoul 3» es la versión rápida del libro.</p><p><strong>Acto 2:</strong> custodia el laboratorio satélite de Salas o persigue a la célula si la infiltración falla.</p><p><strong>Acto 3:</strong> intenta cruzar la puerta de piedra mientras alguien la sostiene en la huida.</p><p><em>Cifras:</em> sugeridas, basadas en el ejemplo «Ghoul 3» y en los sirvientes del Capítulo Seis.</p>"
+    },
+    {
+      "id": "maton-somnia",
+      "nombre": "Matón de Somnia",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Matón corporativo de seguridad privada al servicio de la clínica",
+      "estandar": {
+        "physical": 5,
+        "social": 3,
+        "mental": 2
+      },
+      "excepcionales": {
+        "brawl": 6,
+        "intimidation": 6,
+        "drive": 6,
+        "firearms": 5
+      },
+      "salud": 6,
+      "voluntad": 4,
+      "poder": 0,
+      "dificultadGeneral": {
+        "normal": 2,
+        "fuerte": 3
+      },
+      "descripcion": "<p>Personal de «seguridad corporativa» contratado por Somnia Biotech o por sus financistas. Mortal, no sabe (o no quiere saber) qué pasa en la planta vieja. Maneja los autos negros de la empresa que vigilan las casas de las familias de la célula, «entrevista» a los antiguos profesores del Doctorando y aprieta a los conocidos de los PJs.</p><p>Profesional y discreto en público, brutal cuando no hay testigos.</p>",
+      "poderes": "",
+      "debilidades": "<ul><li>Mortal: sin poderes ni Resiliencia.</li><li>Cobra por hora: si la situación se vuelve sobrenatural o sale a la luz, abandona.</li></ul>",
+      "notas": "<p><strong>Interludio y Acto 2:</strong> la presión sobre las Piedras de Toque. Usalo para que la célula sienta que la inacción tiene precio.</p><p><strong>Después:</strong> los «Trajes Grises» de los financistas de Somnia lo envían a investigar las ruinas y a ir tras las Piedras de Toque. Usalo en grupos iguales al Peligro actual.</p><p><em>Cifras:</em> sugeridas, basadas en los mortales del Capítulo Seis (sicaria humana 3/2, Salud 6, FV 4).</p>"
+    },
+    {
+      "id": "quimera-suelta",
+      "nombre": "Quimera suelta",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Voluntario de continuidad operado por Salas, mortal modificado con un injerto",
+      "estandar": {
+        "physical": 7,
+        "social": 2,
+        "mental": 3
+      },
+      "excepcionales": {
+        "brawl": 9,
+        "athletics": 8,
+        "stealth": 7,
+        "awareness": 7,
+        "survival": 6
+      },
+      "salud": 9,
+      "voluntad": 5,
+      "poder": 1,
+      "dificultadGeneral": {
+        "normal": 3,
+        "fuerte": 5
+      },
+      "descripcion": "<p>Uno de los tres «voluntarios de continuidad» a los que la Dra. Salas injertó modificaciones semanas antes del incendio de la clínica. La célula de jugadores no es la primera. Sin régimen de mantenimiento, sin médica y sin nadie que le explique qué le pasa, anda suelto por Málaga: cicatrices quirúrgicas que no cierran, fiebre, venas oscuras y hambre de algo que no entiende.</p><p>No es un monstruo por elección; es lo que puede llegar a ser un PJ que siga el camino de la Carne. Puede ser víctima, enemigo o espejo.</p><p><strong>Tres variantes</strong> (una por cada voluntario):</p><ul><li><strong>A — El Bruto</strong> (Refuerzo, Osteoinjerto): huesos reforzados; golpea como un martillo.</li><li><strong>B — El Rápido</strong> (Injerto de Segunda Generación, Glándula de Sobremarcha): estallidos de velocidad; aparece y desaparece.</li><li><strong>C — El Rastreador</strong> (Sensorio, Olfato Quimérico): huele la sangre y lo sobrenatural; sigue a la célula a donde vaya.</li></ul>",
+      "poderes": "<p>Tiene el <strong>Sentido Vestigial</strong> (siente lo sobrenatural como escalofríos y sabores metálicos) y un injerto según la variante:</p><ul><li><strong>A — Osteoinjerto</strong>: +2 al daño de Pelea y sus golpes rompen puertas y huesos.</li><li><strong>B — Glándula de Sobremarcha</strong>: Prisa (como el poder de monstruo) una vez por turno, a costa de 1 de daño superficial propio.</li><li><strong>C — Olfato Quimérico</strong>: rastrea a quien haya sangrado cerca; −2 a la dificultad para encontrar a la célula.</li></ul>",
+      "debilidades": "<ul><li><strong>Sin régimen</strong>: −1 dado a todo por falta de inmunosupresores; cada escena de esfuerzo, tirá 1 dado: con un 1 sufre una crisis de rechazo (1 de daño agravado y el injerto se apaga).</li><li><strong>El olor de la quimera</strong>: los sobrenaturales lo detectan con +1 dado; los vampiros podrían reclamarlo.</li><li>Mortal en lo demás: recibe daño normal.</li></ul>",
+      "notas": "<p><strong>Acto 2 (crítico en Seguir a Salas):</strong> la palabra «Quimera» entra en juego; la agenda de Salas da pistas de los tres voluntarios.</p><p><strong>Después:</strong> hilo abierto de «Las Quimeras Sueltas». Pueden aparecer cazando durmientes, buscando a Salas o pidiendo ayuda a la célula. Ideales para mostrarle al Guardia (camino de la Carne) su posible futuro.</p><p><em>Cifras:</em> todas sugeridas. «poder» 1 indica el injerto; es mortal modificado, no sobrenatural. Los injertos están simplificados a partir de La Carne Templada e Injertos de Segunda Generación.</p>"
+    }
+  ]
+}

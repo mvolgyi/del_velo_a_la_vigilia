@@ -1,0 +1,20 @@
+{
+  "_id": "cQiS68CRfa7a3enP",
+  "name": "PNJs",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "m",
+  "sort": 0,
+  "color": "#5c1f1f",
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "carpeta"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  },
+  "_key": "!folders!cQiS68CRfa7a3enP"
+}

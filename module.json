@@ -1,0 +1,373 @@
+{
+  "id": "del-velo-a-la-vigilia",
+  "title": "Del Velo a la Vigilia",
+  "description": "<p><strong>Del Velo a la Vigilia</strong> es un módulo para <em>Hunter: The Reckoning 5e</em> (Cazador: La Venganza) sobre el sistema wod5e.</p><p>Trae los <strong>tres caminos</strong> de reglas caseras (Bordes Imbuidos, Artefactos Iluminados y Modificaciones Humanas, con los Injertos de Segunda Generación), <strong>El Arsenal de la Vigilia</strong> con sets de armas por Credo, y la crónica <strong>Somnia Biotech</strong> lista para dirigir: actos, handouts, PNJs, plantillas de cazador, escenas y un panel del Narrador con Desesperación, Peligro y balizas.</p>",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "mvolgyi",
+      "url": "https://github.com/mvolgyi"
+    }
+  ],
+  "url": "https://github.com/mvolgyi/del_velo_a_la_vigilia",
+  "readme": "https://github.com/mvolgyi/del_velo_a_la_vigilia#readme",
+  "bugs": "https://github.com/mvolgyi/del_velo_a_la_vigilia/issues",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.365"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wod5e",
+        "type": "system",
+        "manifest": "https://github.com/WoD5E-Developers/wod5e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.3.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "src/module/main.mjs"
+  ],
+  "styles": [
+    "src/styles/dvv.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español (Facultades)",
+      "path": "lang/caminos-es.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "en",
+      "name": "English (Edges)",
+      "path": "lang/caminos-en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "reservas",
+      "label": "Caminos — Reservas de poder",
+      "path": "packs/reservas",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mejoras",
+      "label": "Caminos — Mejoras",
+      "path": "packs/mejoras",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "estados",
+      "label": "Caminos — Estados",
+      "path": "packs/estados",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rasgos",
+      "label": "Caminos — Defectos",
+      "path": "packs/rasgos",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "arsenal",
+      "label": "El Arsenal de la Vigilia",
+      "path": "packs/arsenal",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "reglas",
+      "label": "Reglas caseras",
+      "path": "packs/reglas",
+      "type": "JournalEntry",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cronica",
+      "label": "Somnia Biotech — Crónica",
+      "path": "packs/cronica",
+      "type": "JournalEntry",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "personajes",
+      "label": "Somnia Biotech — Personajes",
+      "path": "packs/personajes",
+      "type": "Actor",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "escenas",
+      "label": "Somnia Biotech — Escenas",
+      "path": "packs/escenas",
+      "type": "Scene",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Del Velo a la Vigilia — Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Del Velo a la Vigilia",
+      "sorting": "m",
+      "color": "#5c1f1f",
+      "packs": [
+        "macros",
+        "reglas",
+        "arsenal"
+      ],
+      "folders": [
+        {
+          "name": "Los Tres Caminos",
+          "sorting": "m",
+          "packs": [
+            "reservas",
+            "mejoras",
+            "estados",
+            "rasgos"
+          ]
+        },
+        {
+          "name": "Somnia Biotech",
+          "sorting": "m",
+          "packs": [
+            "cronica",
+            "personajes",
+            "escenas"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "wod5e": {
+      "customEdges": [
+        {
+          "id": "dvv-imb-segunda-vista",
+          "label": "DVV.Edges.dvv-imb-segunda-vista"
+        },
+        {
+          "id": "dvv-imb-hendir",
+          "label": "DVV.Edges.dvv-imb-hendir"
+        },
+        {
+          "id": "dvv-imb-custodia",
+          "label": "DVV.Edges.dvv-imb-custodia"
+        },
+        {
+          "id": "dvv-imb-atravesar",
+          "label": "DVV.Edges.dvv-imb-atravesar"
+        },
+        {
+          "id": "dvv-imb-iluminar",
+          "label": "DVV.Edges.dvv-imb-iluminar"
+        },
+        {
+          "id": "dvv-imb-balsamo",
+          "label": "DVV.Edges.dvv-imb-balsamo"
+        },
+        {
+          "id": "dvv-imb-sosegar",
+          "label": "DVV.Edges.dvv-imb-sosegar"
+        },
+        {
+          "id": "dvv-imb-presagio",
+          "label": "DVV.Edges.dvv-imb-presagio"
+        },
+        {
+          "id": "dvv-imb-senalar",
+          "label": "DVV.Edges.dvv-imb-senalar"
+        },
+        {
+          "id": "dvv-imb-sondear",
+          "label": "DVV.Edges.dvv-imb-sondear"
+        },
+        {
+          "id": "dvv-ilu-lente-espectral",
+          "label": "DVV.Edges.dvv-ilu-lente-espectral"
+        },
+        {
+          "id": "dvv-ilu-municion-tratada",
+          "label": "DVV.Edges.dvv-ilu-municion-tratada"
+        },
+        {
+          "id": "dvv-ilu-emisor-de-perimetro",
+          "label": "DVV.Edges.dvv-ilu-emisor-de-perimetro"
+        },
+        {
+          "id": "dvv-ilu-designador",
+          "label": "DVV.Edges.dvv-ilu-designador"
+        },
+        {
+          "id": "dvv-ilu-difusor-de-calma",
+          "label": "DVV.Edges.dvv-ilu-difusor-de-calma"
+        },
+        {
+          "id": "dvv-ilu-kit-de-trauma",
+          "label": "DVV.Edges.dvv-ilu-kit-de-trauma"
+        },
+        {
+          "id": "dvv-ilu-inhibidor",
+          "label": "DVV.Edges.dvv-ilu-inhibidor"
+        },
+        {
+          "id": "dvv-ilu-motor-predictivo",
+          "label": "DVV.Edges.dvv-ilu-motor-predictivo"
+        },
+        {
+          "id": "dvv-ilu-rastreador-de-firma",
+          "label": "DVV.Edges.dvv-ilu-rastreador-de-firma"
+        },
+        {
+          "id": "dvv-ilu-reconstructor",
+          "label": "DVV.Edges.dvv-ilu-reconstructor"
+        },
+        {
+          "id": "dvv-mod-sentido-vestigial",
+          "label": "DVV.Edges.dvv-mod-sentido-vestigial"
+        },
+        {
+          "id": "dvv-mod-osteoinjerto",
+          "label": "DVV.Edges.dvv-mod-osteoinjerto"
+        },
+        {
+          "id": "dvv-mod-glandula-apotropaica",
+          "label": "DVV.Edges.dvv-mod-glandula-apotropaica"
+        },
+        {
+          "id": "dvv-mod-mirada-de-depredador",
+          "label": "DVV.Edges.dvv-mod-mirada-de-depredador"
+        },
+        {
+          "id": "dvv-mod-feromonas-de-calma",
+          "label": "DVV.Edges.dvv-mod-feromonas-de-calma"
+        },
+        {
+          "id": "dvv-mod-plasma-universal",
+          "label": "DVV.Edges.dvv-mod-plasma-universal"
+        },
+        {
+          "id": "dvv-mod-toque-supresor",
+          "label": "DVV.Edges.dvv-mod-toque-supresor"
+        },
+        {
+          "id": "dvv-mod-reflejo-anticipatorio",
+          "label": "DVV.Edges.dvv-mod-reflejo-anticipatorio"
+        },
+        {
+          "id": "dvv-mod-olfato-quimerico",
+          "label": "DVV.Edges.dvv-mod-olfato-quimerico"
+        },
+        {
+          "id": "dvv-mod-memoria-tactil",
+          "label": "DVV.Edges.dvv-mod-memoria-tactil"
+        },
+        {
+          "id": "dvv-gen2-ojo-compuesto",
+          "label": "DVV.Edges.dvv-gen2-ojo-compuesto"
+        },
+        {
+          "id": "dvv-gen2-malla-subdermica",
+          "label": "DVV.Edges.dvv-gen2-malla-subdermica"
+        },
+        {
+          "id": "dvv-gen2-glandula-de-sobremarcha",
+          "label": "DVV.Edges.dvv-gen2-glandula-de-sobremarcha"
+        },
+        {
+          "id": "dvv-gen2-miofibras-sinteticas",
+          "label": "DVV.Edges.dvv-gen2-miofibras-sinteticas"
+        },
+        {
+          "id": "dvv-gen2-ojos-de-la-bestia",
+          "label": "DVV.Edges.dvv-gen2-ojos-de-la-bestia"
+        },
+        {
+          "id": "dvv-gen2-mimetismo-dermico",
+          "label": "DVV.Edges.dvv-gen2-mimetismo-dermico"
+        },
+        {
+          "id": "dvv-gen2-rostro-maleable",
+          "label": "DVV.Edges.dvv-gen2-rostro-maleable"
+        }
+      ]
+    },
+    "hotReload": {
+      "extensions": [
+        "css",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "src/styles",
+        "templates",
+        "lang"
+      ]
+    }
+  },
+  "manifest": "https://github.com/mvolgyi/del_velo_a_la_vigilia/releases/latest/download/module.json",
+  "download": "https://github.com/mvolgyi/del_velo_a_la_vigilia/releases/download/v0.1.0/module.zip"
+}

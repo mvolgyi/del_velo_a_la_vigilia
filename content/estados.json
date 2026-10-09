@@ -1,0 +1,143 @@
+{
+  "_comentario": "Estados (ítems `condition` de wod5e) que los tres caminos necesitan. Los `bonuses` usan los selectores del sistema: all, physical, social, mental, attributes.<id>, skills.<id>, o un selector propio que las reservas del módulo agregan a sus tiradas (dvv-imb, dvv-ilu, dvv-mod, dvv-gen2).",
+  "estados": [
+    {
+      "id": "silencio-de-los-heraldos",
+      "nombre": "Silencio de los Heraldos",
+      "camino": "imbuido",
+      "icono": "icons/svg/silenced.svg",
+      "descripcion": "<p>La tirada de un Borde terminó en Desesperación total. El personaje cae en Desesperanza y los Heraldos callan: <strong>no puede usar ningún Borde Imbuido</strong> hasta salir de Desesperanza según las reglas normales (redención de su Determinación).</p><p>La Segunda Vista sigue funcionando: es pasiva.</p>",
+      "bonuses": []
+    },
+    {
+      "id": "artefacto-quemado",
+      "nombre": "Artefacto quemado",
+      "camino": "iluminado",
+      "icono": "icons/svg/explosion.svg",
+      "descripcion": "<p>La tirada de un Artefacto terminó en Desesperación total y el prototipo se quemó. <strong>Anotá en el nombre del estado qué Artefacto es.</strong> Queda inservible hasta una escena de taller completa y una tirada de Inteligencia + Tecnología o Artesanía (dif. 3). Si el fallo ocurrió en manos del Iluminado, la cronista puede añadir 1 de daño superficial.</p>",
+      "bonuses": []
+    },
+    {
+      "id": "sin-mantenimiento",
+      "nombre": "Artefactos sin mantenimiento",
+      "camino": "iluminado",
+      "icono": "icons/svg/downgrade.svg",
+      "descripcion": "<p>Entre historias, cada Artefacto exige una escena breve de taller. Sin ella, <strong>todos los Artefactos operan a −1 dado</strong> hasta recibirla.</p>",
+      "bonuses": [
+        { "source": "Sin mantenimiento", "value": "-1", "paths": ["dvv-ilu"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "manos-ajenas",
+      "nombre": "Artefacto en manos ajenas",
+      "camino": "iluminado",
+      "icono": "icons/svg/item-bag.svg",
+      "descripcion": "<p>Un Artefacto prestado o robado funciona, pero mal: cualquier usuario que no sea quien lo construyó tira con <strong>−2 dados</strong>, y la falla catastrófica ocurre con <em>cualquier</em> 1 en los dados de Desesperación, no solo en Desesperación total.</p><p>Ponelo en el actor que usa el Artefacto ajeno.</p>",
+      "bonuses": [
+        { "source": "Manos ajenas", "value": "-2", "paths": ["dvv-ilu"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "lente-no-equipada",
+      "nombre": "Sin la Lente Espectral",
+      "camino": "iluminado",
+      "icono": "icons/svg/blind.svg",
+      "descripcion": "<p>El Iluminado no tiene el aparato encima (se lo quitaron, se rompió, lo dejó en el taller). <strong>Queda ciego a lo oculto</strong>: la Lente Espectral no funciona hasta recuperarla. Ese es el precio de no llevar el don adentro.</p>",
+      "bonuses": []
+    },
+    {
+      "id": "crisis-de-rechazo",
+      "nombre": "Crisis de rechazo",
+      "camino": "modificado",
+      "icono": "icons/svg/biohazard.svg",
+      "descripcion": "<p>La tirada de una Modificación terminó en Desesperación total y el cuerpo se rebeló: el Modificado sufre <strong>1 de daño agravado</strong> (fiebre, necrosis local, la sutura que se abre) y <strong>esa Modificación queda inerte</strong> hasta recibir una escena de cuidados (Inteligencia + Medicina, dif. 3, propia o de otro). Anotá en el nombre del estado qué Modificación es.</p>",
+      "bonuses": []
+    },
+    {
+      "id": "sin-regimen",
+      "nombre": "Sin el régimen",
+      "camino": "modificado",
+      "icono": "icons/svg/degen.svg",
+      "descripcion": "<p>El Modificado no consiguió o no preparó sus inmunosupresores entre historias. <strong>Todas las Modificaciones e injertos operan a −1 dado</strong> y la cronista puede pedir chequeos de Resistencia + Aguante ante síntomas de rechazo.</p>",
+      "bonuses": [
+        { "source": "Sin régimen", "value": "-1", "paths": ["dvv-mod", "dvv-gen2"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "ojo-compuesto-activo",
+      "nombre": "Ojo Compuesto activo",
+      "camino": "gen2",
+      "icono": "icons/svg/eye.svg",
+      "descripcion": "<p>Durante la escena: <strong>+2 dados a Percepción</strong> (lee labios, oye a través de paredes finas, reconoce perfumes). El precio propio: <strong>−2 dados para resistir ataques sensoriales</strong>; un flash, una sirena o un grito cercano aturden un turno (Compostura + Aguante, dif. 2). Con la mejora <em>Filtro</em> el penalizador desaparece.</p>",
+      "bonuses": [
+        { "source": "Ojo Compuesto", "value": "2", "paths": ["skills.awareness"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "malla-subdermica-activa",
+      "nombre": "Malla Subdérmica activa",
+      "camino": "gen2",
+      "icono": "icons/svg/shield.svg",
+      "descripcion": "<p>Durante la escena: <strong>Armadura 2</strong>. Cada turno convierte hasta 2 puntos de daño entrante de agravado a superficial, o de superficial a nada. Se apila con chaleco (cronista mediante). Precio propio: dolor amortiguado, <strong>−1 dado a tacto fino y a Medicina sobre sí mismo</strong>; si la malla convirtió 4+ puntos en la escena, 1 de daño superficial al terminar (salvo con <em>Tejido Sordo</em>).</p>",
+      "bonuses": [
+        { "source": "Malla Subdérmica", "value": "-1", "paths": ["skills.medicine"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "sobremarcha-activa",
+      "nombre": "Sobremarcha activa",
+      "camino": "gen2",
+      "icono": "icons/svg/lightning.svg",
+      "descripcion": "<p>Durante la escena: <strong>actúa primero en cada turno</strong> (empates con Celeridad real: Destreza comparada) y <strong>+2 dados a reservas basadas en Destreza</strong>. Al terminar la escena, aplicá <em>Bajón de Sobremarcha</em> (salvo con <em>Aterrizaje Suave</em>).</p>",
+      "bonuses": [
+        { "source": "Sobremarcha", "value": "2", "paths": ["attributes.dexterity"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "bajon-de-sobremarcha",
+      "nombre": "Bajón de Sobremarcha",
+      "camino": "gen2",
+      "icono": "icons/svg/falling.svg",
+      "descripcion": "<p>El cuerpo quema lo que no tiene. <strong>−1 dado a todas las reservas físicas</strong> hasta descansar al menos una hora y comer algo.</p>",
+      "bonuses": [
+        { "source": "Bajón de Sobremarcha", "value": "-1", "paths": ["physical"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "miofibras-activas",
+      "nombre": "Miofibras activas",
+      "camino": "gen2",
+      "icono": "icons/svg/upgrade.svg",
+      "descripcion": "<p>Durante la escena: <strong>+2 dados a todas las reservas basadas en Fuerza</strong>, y proezas sin tirada que un humano entrenado no puede hacer (saltar y agarrarse de un balcón, reventar una puerta de una patada, cargar a un adulto herido a trote sostenido). Precio propio: cada fallo total en una tirada de Fuerza es 1 de daño superficial propio (salvo con <em>Anclajes</em>).</p>",
+      "bonuses": [
+        { "source": "Miofibras", "value": "2", "paths": ["attributes.strength"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "ojos-de-la-bestia-activos",
+      "nombre": "Ojos de la Bestia activos",
+      "camino": "gen2",
+      "icono": "icons/svg/light.svg",
+      "descripcion": "<p>Durante la escena: <strong>visión perfecta en oscuridad total</strong>, sin penalizadores. Contracara permanente: ante cualquier luz que lo enfoque de frente, los ojos brillan como los de un animal (fotos con flash, faros, la linterna de un policía). Con <em>Párpado Interno</em>: oculta el brillo y +2 a resistir flashes y gas (−1 a Percepción visual con la membrana bajada).</p>",
+      "bonuses": []
+    },
+    {
+      "id": "mimetismo-activo",
+      "nombre": "Mimetismo Dérmico activo",
+      "camino": "gen2",
+      "icono": "icons/svg/invisible.svg",
+      "descripcion": "<p>Durante la escena: <strong>+3 dados a Sigilo</strong> mientras esté quieto o se mueva despacio, con piel expuesta. Correr rompe el efecto ese turno.</p>",
+      "bonuses": [
+        { "source": "Mimetismo Dérmico", "value": "3", "paths": ["skills.stealth"], "displayWhenInactive": false, "activeWhen": { "check": "always", "path": "", "value": "" } }
+      ]
+    },
+    {
+      "id": "rostro-maleable-activo",
+      "nombre": "Rostro Maleable activo",
+      "camino": "gen2",
+      "icono": "icons/svg/mystery-man.svg",
+      "descripcion": "<p>Los rasgos cambiaron lo suficiente para burlar a testigos, cámaras de seguridad, comparación con fotos y reconocimiento casual. No cambia altura, contextura, voz ni manos. Dura hasta revertirlo (otros 10 minutos) o hasta el próximo sueño profundo. Anotá en el nombre del estado qué cara lleva.</p>",
+      "bonuses": []
+    }
+  ]
+}

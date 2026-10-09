@@ -1,0 +1,46 @@
+{
+  "_id": "8tRgvxCoEmnoaNZc",
+  "_key": "!items!8tRgvxCoEmnoaNZc",
+  "name": "Reflejo Anticipatorio — Astucia + Consciencia (dif. 2)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 700,
+  "system": {
+    "description": "<p><em>≈ Presagio</em></p>\n<p>Tejido nervioso injertado a lo largo de la columna que reacciona a cosas que todavía no terminaron de pasar. El Modificado no ve el futuro: su cuerpo ya se movió cuando la mente pregunta por qué.</p>\n<p><strong>Sistema.</strong></p><p>Se exige la carne al inicio de la escena con Astucia + Consciencia (dif. 2). Con éxito, durante la escena el Modificado no puede ser emboscado ni sorprendido, y una vez por escena puede obligar a repetir una tirada recién resuelta, propia, de un aliado o de un enemigo, quedándose con el segundo resultado.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-reflejo-anticipatorio",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.wits"
+      },
+      "d2": {
+        "path": "skills.awareness"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-reflejo-anticipatorio",
+      "camino": "modificado",
+      "dificultad": 2,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

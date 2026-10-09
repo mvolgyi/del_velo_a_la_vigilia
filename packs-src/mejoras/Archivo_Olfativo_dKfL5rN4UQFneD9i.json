@@ -1,0 +1,39 @@
+{
+  "_id": "dKfL5rN4UQFneD9i",
+  "_key": "!items!dKfL5rN4UQFneD9i",
+  "name": "Archivo Olfativo",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Olfato Quimérico.</em></p><p>El Modificado nunca olvida un olor: reconoce automáticamente a cualquier criatura que ya rastreó si vuelve a cruzarla a distancia de olfato, sin tirada y a través de disfraces mundanos.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-olfato-quimerico",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-olfato-quimerico",
+      "camino": "modificado",
+      "mejora": "archivo-olfativo",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

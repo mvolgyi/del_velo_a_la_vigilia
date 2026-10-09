@@ -1,0 +1,46 @@
+{
+  "_id": "xuqsI5JiQR2E8Nxa",
+  "_key": "!items!xuqsI5JiQR2E8Nxa",
+  "name": "Memoria Táctil — Resolución + Consciencia",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 900,
+  "system": {
+    "description": "<p><em>≈ Sondear</em></p>\n<p>Terminaciones nerviosas injertadas en las yemas de los dedos que leen el residuo que los eventos violentos dejan en la materia. El Modificado toca, y el pasado le sube por el brazo.</p>\n<p><strong>Sistema.</strong></p><p>Contacto físico con el objeto o la escena y Resolución + Consciencia exigiendo la carne. Éxito: un destello del evento más cargado emocionalmente vinculado a eso (segundos de sensación: presión, temperatura, un sonido, un olor). Crítico: la secuencia casi completa, con rostros. Las impresiones son verdaderas pero llegan sin contexto, y llegan por el cuerpo: el Modificado siente el golpe que recibió la víctima.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-memoria-tactil",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.awareness"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-memoria-tactil",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

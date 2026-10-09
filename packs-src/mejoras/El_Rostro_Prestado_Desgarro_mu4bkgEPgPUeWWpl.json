@@ -1,0 +1,39 @@
+{
+  "_id": "mu4bkgEPgPUeWWpl",
+  "_key": "!items!mu4bkgEPgPUeWWpl",
+  "name": "El Rostro Prestado (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Rostro Maleable.</em></p><p>Desgarrando, puede copiar un rostro concreto que haya observado de cerca al menos una escena. Engaña a conocidos casuales del original (el portero, un compañero de oficina); nunca a familia, pareja o socios íntimos, y la voz sigue siendo la suya. Usar la cara de alguien es el tipo de decisión que una célula discute a los gritos, y así debería ser.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-rostro-maleable",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-rostro-maleable",
+      "camino": "gen2",
+      "mejora": "el-rostro-prestado",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "RLoD9Mt78DqaqwVe",
+  "_key": "!items!RLoD9Mt78DqaqwVe",
+  "name": "Virote/bala de plata",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-leather-black-brown.webp",
+  "folder": "gn38oQNim6zBkRSS",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Uso</th><td>El arma que la dispara</td></tr><tr><th>Daño</th><td>Daño del arma, agravado contra lupinos</td></tr><tr><th>Regla</th><td>−1 dado a la reserva (balística horrible de la plata)</td></tr><tr><th>Recursos</th><td>2 (fundición casera o contacto)</td></tr></tbody></table>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "equipo",
+      "equipo": "municion-plata"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

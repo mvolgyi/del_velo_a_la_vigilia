@@ -1,0 +1,51 @@
+{
+  "_id": "HXbU5TllHWSrXYM3",
+  "_key": "!items!HXbU5TllHWSrXYM3",
+  "name": "Malla Subdérmica activa",
+  "type": "condition",
+  "img": "icons/svg/shield.svg",
+  "folder": "6usSnsq06I0UhvAh",
+  "sort": 0,
+  "system": {
+    "description": "<p>Durante la escena: <strong>Armadura 2</strong>. Cada turno convierte hasta 2 puntos de daño entrante de agravado a superficial, o de superficial a nada. Se apila con chaleco (cronista mediante). Precio propio: dolor amortiguado, <strong>−1 dado a tacto fino y a Medicina sobre sí mismo</strong>; si la malla convirtió 4+ puntos en la escena, 1 de daño superficial al terminar (salvo con <em>Tejido Sordo</em>).</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Malla Subdérmica",
+        "value": "-1",
+        "paths": [
+          "skills.medicine"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "malla-subdermica-activa",
+      "camino": "gen2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

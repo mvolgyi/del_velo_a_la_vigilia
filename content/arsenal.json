@@ -1,0 +1,645 @@
+{
+  "armas": [
+    {
+      "id": "punos",
+      "nombre": "Puños / patadas",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 0,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.brawl"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "—",
+      "recursos": "—",
+      "notas": ""
+    },
+    {
+      "id": "manopla",
+      "nombre": "Manopla",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 1,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.brawl"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "Bolsillo",
+      "recursos": "1",
+      "notas": ""
+    },
+    {
+      "id": "improvisada-liviana",
+      "nombre": "Improvisada liviana (botella, caño corto)",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 1,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.brawl"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Se rompe con fallo total",
+      "ocultamiento": "Depende",
+      "recursos": "—",
+      "notas": ""
+    },
+    {
+      "id": "bate",
+      "nombre": "Bate, cachiporra, llave cruz",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 2,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "Campera/Bolso",
+      "recursos": "1",
+      "notas": ""
+    },
+    {
+      "id": "cuchillo",
+      "nombre": "Cuchillo, navaja",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 2,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "Bolsillo",
+      "recursos": "1",
+      "notas": ""
+    },
+    {
+      "id": "machete",
+      "nombre": "Machete, hacha de mano",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 3,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "Abrigo/Bolso",
+      "recursos": "1",
+      "notas": ""
+    },
+    {
+      "id": "hacha-bombero",
+      "nombre": "Hacha de bombero, espada",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 3,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "No",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "maza-dos-manos",
+      "nombre": "Maza/martillo a dos manos",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 4,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "−1 a iniciativa; imposible en espacios chicos",
+      "ocultamiento": "No",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "estaca",
+      "nombre": "Estaca de madera",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 0,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Ver regla de estacar (§5)",
+      "ocultamiento": "Campera",
+      "recursos": "—",
+      "notas": ""
+    },
+    {
+      "id": "motosierra",
+      "nombre": "Motosierra",
+      "categoria": "cuerpo",
+      "tipo": "melee",
+      "dano": 4,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Dif. base: arrancarla cuesta 1 turno; fallo total = 1 daño propio",
+      "ocultamiento": "No",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "pistola-liviana",
+      "nombre": "Pistola liviana (.22, .380)",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 2,
+      "agravado": false,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "Bolsillo",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "pistola-pesada",
+      "nombre": "Pistola pesada (9mm, .45)",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 3,
+      "agravado": false,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "Campera",
+      "recursos": "2 (permiso o contacto)",
+      "notas": ""
+    },
+    {
+      "id": "revolver-caza",
+      "nombre": "Revólver de caza (.357)",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 3,
+      "agravado": false,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "—",
+      "ocultamiento": "Campera",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "escopeta",
+      "nombre": "Escopeta (12g)",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 4,
+      "agravado": false,
+      "dados": [
+        "attributes.strength",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "A quemarropa/corta; −1 Daño a media distancia",
+      "ocultamiento": "Abrigo (recortada: Campera, ilegal)",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "rifle-caza",
+      "nombre": "Rifle de caza",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 4,
+      "agravado": false,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "+1 dado apuntando 1 turno con apoyo",
+      "ocultamiento": "No",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "rifle-tactico",
+      "nombre": "Rifle táctico / semiauto",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 4,
+      "agravado": false,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Ráfaga corta: +1 dado, −1 Daño, munición ×3",
+      "ocultamiento": "No",
+      "recursos": "3 (ilegal en casi todos lados)",
+      "notas": ""
+    },
+    {
+      "id": "subfusil",
+      "nombre": "Subfusil",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 3,
+      "agravado": false,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Ráfaga: +2 dados a corta, munición ×5",
+      "ocultamiento": "Bolso",
+      "recursos": "3 (ilegal)",
+      "notas": ""
+    },
+    {
+      "id": "ballesta",
+      "nombre": "Ballesta",
+      "categoria": "fuego",
+      "tipo": "ranged",
+      "dano": 2,
+      "agravado": false,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "1 turno recargar; silenciosa; acepta virotes especiales (§4)",
+      "ocultamiento": "Bolso",
+      "recursos": "2",
+      "notas": ""
+    },
+    {
+      "id": "taser",
+      "nombre": "Táser / picana",
+      "categoria": "fuego",
+      "tipo": "melee",
+      "dano": 1,
+      "agravado": false,
+      "dados": [
+        "attributes.dexterity",
+        "skills.brawl"
+      ],
+      "dadosAlternativos": [
+        "attributes.dexterity",
+        "skills.firearms"
+      ],
+      "dificultad": "Con margen 2+: el mortal queda incapacitado 1 turno. A vampiros: solo superficial, no incapacita",
+      "ocultamiento": "Bolsillo",
+      "recursos": "1",
+      "notas": ""
+    },
+    {
+      "id": "antorcha",
+      "nombre": "Antorcha / spray + encendedor",
+      "categoria": "especial",
+      "tipo": "melee",
+      "dano": 1,
+      "agravado": true,
+      "dados": [
+        "attributes.strength",
+        "skills.melee"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Fallo total: 1 superficial propio. Los vampiros chequean terror al fuego (§5)",
+      "ocultamiento": "",
+      "recursos": "—",
+      "notas": "Daño: +1 agravado a vulnerables al fuego"
+    },
+    {
+      "id": "molotov",
+      "nombre": "Molotov",
+      "categoria": "especial",
+      "tipo": "ranged",
+      "dano": 2,
+      "agravado": true,
+      "dados": [
+        "attributes.dexterity",
+        "skills.athletics"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Dif. 2 lanzarla a corta, dif. 3 a media. Prende el escenario: la cronista lo va a usar",
+      "ocultamiento": "",
+      "recursos": "1 (nafta y trapo)",
+      "notas": "Daño: +2 agravado en el área"
+    },
+    {
+      "id": "bengala",
+      "nombre": "Bengala / pistola de bengalas",
+      "categoria": "especial",
+      "tipo": "ranged",
+      "dano": 1,
+      "agravado": true,
+      "dados": [
+        "attributes.composure",
+        "skills.firearms"
+      ],
+      "dadosAlternativos": [],
+      "dificultad": "Solo corta distancia; ilumina la escena entera",
+      "ocultamiento": "",
+      "recursos": "1",
+      "notas": ""
+    },
+    {
+      "id": "lanzallamas",
+      "nombre": "Lanzallamas casero (soplete + aerosol)",
+      "categoria": "especial",
+      "tipo": "ranged",
+      "dano": 2,
+      "agravado": true,
+      "dados": [
+        "attributes.dexterity",
+        "skills.craft"
+      ],
+      "dadosAlternativos": [
+        "attributes.dexterity",
+        "skills.firearms"
+      ],
+      "dificultad": "Dif. 2; fallo total = explota: 2 agravado propio",
+      "ocultamiento": "",
+      "recursos": "1 (taller)",
+      "notas": "Daño: +2 agravado, cono corto"
+    }
+  ],
+  "equipo": [
+    {
+      "id": "agua-bendita",
+      "nombre": "Agua bendita",
+      "uso": "Destreza + Atletismo (arrojar)",
+      "dano": "1 agravado por contacto a criaturas malditas*",
+      "regla": "*Solo si en tu crónica funciona; la fe del portador puede importar (cronista)",
+      "recursos": "— (una parroquia y buena cara)"
+    },
+    {
+      "id": "sal",
+      "nombre": "Sal / hierro frío",
+      "uso": "—",
+      "dano": "—",
+      "regla": "Barreras y debilidades folclóricas: la cronista decide contra qué aplica. Línea de sal: como Custodia sin tirada contra espíritus menores",
+      "recursos": "—"
+    },
+    {
+      "id": "municion-plata",
+      "nombre": "Virote/bala de plata",
+      "uso": "El arma que la dispara",
+      "dano": "Daño del arma, agravado contra lupinos",
+      "regla": "−1 dado a la reserva (balística horrible de la plata)",
+      "recursos": "2 (fundición casera o contacto)"
+    },
+    {
+      "id": "municion-incendiaria",
+      "nombre": "Munición incendiaria",
+      "uso": "El arma que la dispara",
+      "dano": "Daño del arma, +1 y agravado a vulnerables al fuego",
+      "regla": "Ilegal; fallo total: encasquilla el arma",
+      "recursos": "3 (contacto)"
+    },
+    {
+      "id": "municion-tratada",
+      "nombre": "Munición Tratada / Osteoinjerto / Hendir",
+      "uso": "Según el documento correspondiente",
+      "dano": "Agravado a todo sobrenatural",
+      "regla": "Requiere el camino correspondiente (Iluminado, Modificado o Imbuido)",
+      "recursos": "—"
+    },
+    {
+      "id": "estaca-martillo",
+      "nombre": "Estaca + martillo",
+      "uso": "Fuerza + Cuerpo a cuerpo",
+      "dano": "+0",
+      "regla": "Ver §5. El martillo suma +1 dado si el objetivo está inmovilizado",
+      "recursos": "—"
+    },
+    {
+      "id": "espejo-camara-grabadora",
+      "nombre": "Espejo, cámara, grabadora",
+      "uso": "—",
+      "dano": "—",
+      "regla": "Herramientas de identificación: reflejo raro, sin imagen térmica coherente, voces que no estaban. +1 dado a Investigación relacionada",
+      "recursos": "1"
+    }
+  ],
+  "distancias": "<p><strong>Distancias rápidas:</strong> corta (misma habitación) sin modificador; media (calle de por medio) −2 dados salvo rifles; larga, solo rifles con apoyo y 1 turno de apuntar.</p>",
+  "reglasRapidas": "<ul><li><strong>Fuego y sol:</strong> daño agravado para vampiros y la mayoría de los no-muertos. Un vampiro que recibe fuego o lo tiene cerca debe resistir el terror (frenesí de miedo); huir es su reacción más probable, y un vampiro huyendo en pánico es un vampiro que comete errores.</li><li><strong>Armas de fuego contra vampiros:</strong> superficial y a la mitad. Un cargador entero molesta, no mata. Sirven para frenar, cegar, derribar y cubrir la retirada. Contra lupinos en forma de guerra: parecido, salvo plata.</li><li><strong>Plata contra lupinos:</strong> agravado, y duele de una forma que no olvidan. Contra todo lo demás, es un metal caro con mala balística.</li><li><strong>Estacar:</strong> una estaca en el corazón paraliza a un vampiro, no lo mata. Requiere: objetivo inmovilizado, sorprendido o incapacitado, ataque dirigido al corazón (−2 dados) y margen de 3+ en el daño. Con el vampiro clavado, decidir qué hacer con él es una escena de roleo, no una tirada.</li><li><strong>Decapitar / destruir:</strong> contra un sobrenatural incapacitado, no se tira: se describe. La pregunta de la mesa nunca es si el hacha corta, es quién de la célula lo hace y cómo duerme después.</li><li><strong>Mortales de por medio:</strong> todo lo de estas tablas mata gente común con una facilidad espantosa. Molotovs en un bar lleno, ráfagas en la calle: el Danger y la policía existen. H5 castiga al cazador descuidado más que ningún monstruo.</li></ul>",
+  "sets": [
+    {
+      "id": "martir-de-barrio",
+      "nombre": "Set del Mártir de Barrio",
+      "credo": "underground",
+      "credoNombre": "Clandestinos",
+      "recursos": "1",
+      "lema": "Para el que protege a los suyos con lo que hay.",
+      "items": [
+        "bate",
+        "cuchillo",
+        "manopla",
+        "molotov",
+        "molotov",
+        "sal"
+      ],
+      "equipoLibre": [
+        "linterna pesada (improvisada +1)",
+        "Botiquín básico",
+        "radios baratas o celulares descartables"
+      ],
+      "estilo": "<p><strong>Estilo de juego:</strong> emboscadas, terreno propio, fuego y retirada. Nada que la policía no pueda encontrar en cualquier casa.</p>",
+      "lineas": [
+        "<li>Bate o llave cruz (+2), navaja (+2), manopla (+1)</li>",
+        "<li>2 molotovs preparados, sal gruesa, linterna pesada (improvisada +1)</li>",
+        "<li>Botiquín básico, radios baratas o celulares descartables</li>",
+        "<li>Estilo de juego: emboscadas, terreno propio, fuego y retirada. Nada que la policía no pueda encontrar en cualquier casa.</li>"
+      ]
+    },
+    {
+      "id": "peregrino",
+      "nombre": "Set del Peregrino",
+      "credo": "faithful",
+      "credoNombre": "Fieles",
+      "recursos": "1",
+      "lema": "Para el que pelea con fe y con lo que la fe permite cargar.",
+      "items": [
+        "estaca-martillo",
+        "cuchillo",
+        "antorcha",
+        "agua-bendita",
+        "agua-bendita",
+        "agua-bendita",
+        "sal",
+        "espejo-camara-grabadora",
+        "ballesta"
+      ],
+      "equipoLibre": [
+        "símbolo sagrado",
+        "virotes de madera endurecida"
+      ],
+      "estilo": "<p><strong>Estilo de juego:</strong> preparación ritual, barreras, el arma justa para la criatura justa. Débil si lo agarran sin tiempo de preparar.</p>",
+      "lineas": [
+        "<li>Estaca + martillo, cuchillo (+2), antorcha o spray + encendedor</li>",
+        "<li>Agua bendita ×3, sal consagrada, símbolo sagrado, espejo de bolsillo</li>",
+        "<li>Ballesta (+2) con virotes de madera endurecida</li>",
+        "<li>Estilo de juego: preparación ritual, barreras, el arma justa para la criatura justa. Débil si lo agarran sin tiempo de preparar.</li>"
+      ]
+    },
+    {
+      "id": "profesional",
+      "nombre": "Set del Profesional",
+      "credo": "martial",
+      "credoNombre": "Marciales",
+      "recursos": "3",
+      "lema": "Para el que vino de las fuerzas o del otro lado de las fuerzas.",
+      "items": [
+        "pistola-pesada",
+        "escopeta",
+        "cuchillo",
+        "taser",
+        "municion-incendiaria"
+      ],
+      "equipoLibre": [
+        "3 cargadores",
+        "chaleco (convierte 2 superficial por escena, cronista mediante)",
+        "bridas",
+        "capucha"
+      ],
+      "estilo": "<p><strong>Estilo de juego:</strong> violencia rápida y planificada, capturar más que matar. El set que más Danger genera si algo sale mal en público.</p>",
+      "lineas": [
+        "<li>Pistola pesada (+3) con 3 cargadores, escopeta (+4) en el auto</li>",
+        "<li>Cuchillo táctico (+2), táser (+1), chaleco (convierte 2 superficial por escena, cronista mediante)</li>",
+        "<li>Munición incendiaria (1 cargador, para emergencias), bridas, capucha</li>",
+        "<li>Estilo de juego: violencia rápida y planificada, capturar más que matar. El set que más Danger genera si algo sale mal en público.</li>"
+      ]
+    },
+    {
+      "id": "investigador",
+      "nombre": "Set del Investigador",
+      "credo": "inquisitive",
+      "credoNombre": "Inquisitivos",
+      "recursos": "2",
+      "lema": "Para el que primero entiende y después aprieta el gatillo.",
+      "items": [
+        "pistola-liviana",
+        "taser",
+        "cuchillo",
+        "espejo-camara-grabadora",
+        "espejo-camara-grabadora",
+        "molotov"
+      ],
+      "equipoLibre": [
+        "kit de forense amateur",
+        "lockpicks"
+      ],
+      "estilo": "<p><strong>Estilo de juego:</strong> identificar la criatura antes del contacto y elegir el arma de la tabla 4 que corresponde. Su verdadera arma es saber qué es lo que caza.</p>",
+      "lineas": [
+        "<li>Pistola liviana (+2), táser (+1), cuchillo plegable (+2)</li>",
+        "<li>Cámara con térmica, grabadora, kit de forense amateur, lockpicks</li>",
+        "<li>1 molotov \"por si acaso\" en el baúl</li>",
+        "<li>Estilo de juego: identificar la criatura antes del contacto y elegir el arma de la tabla 4 que corresponde. Su verdadera arma es saber qué es lo que caza.</li>"
+      ]
+    },
+    {
+      "id": "financista",
+      "nombre": "Set del Financista",
+      "credo": "entrepreneurial",
+      "credoNombre": "Emprendedores",
+      "recursos": "3+",
+      "lema": "Para el que resuelve con la billetera y los contactos.",
+      "items": [
+        "pistola-pesada"
+      ],
+      "equipoLibre": [
+        "auto confiable",
+        "seguro pago",
+        "Acceso: un contacto que consigue munición especial (plata, incendiaria) con 24-48h de aviso",
+        "Equipamiento del resto de la célula mejorado en un nivel (él paga)"
+      ],
+      "estilo": "<p><strong>Estilo de juego:</strong> logística, escape, abogados. No es el que empuña; es el que hace que los demás empuñen mejor.</p>",
+      "lineas": [
+        "<li>Pistola pesada (+3) legal y a su nombre, auto confiable, seguro pago</li>",
+        "<li>Acceso: un contacto que consigue munición especial (plata, incendiaria) con 24-48h de aviso</li>",
+        "<li>Equipamiento del resto de la célula mejorado en un nivel (él paga)</li>",
+        "<li>Estilo de juego: logística, escape, abogados. No es el que empuña; es el que hace que los demás empuñen mejor.</li>"
+      ]
+    },
+    {
+      "id": "taller",
+      "nombre": "Set de Taller",
+      "credo": "iluminado",
+      "credoNombre": "Iluminado",
+      "recursos": "2 + escenas de taller",
+      "lema": "",
+      "items": [
+        "pistola-liviana",
+        "taser",
+        "cuchillo",
+        "espejo-camara-grabadora",
+        "espejo-camara-grabadora",
+        "molotov",
+        "municion-tratada"
+      ],
+      "equipoLibre": [
+        "kit de forense amateur",
+        "lockpicks",
+        "Emisor de Perímetro si lo compró",
+        "herramientas portátiles"
+      ],
+      "estilo": "<p><strong>Regla de mesa:</strong> sus consumibles se preparan en escenas de taller, no se compran. Sin taller entre misiones, va con la tabla común como todo el mundo.</p>",
+      "lineas": [
+        "<li>Lo del Investigador, más: 1 lote de Munición Tratada por misión, Emisor de Perímetro si lo compró, herramientas portátiles</li>",
+        "<li>Regla de mesa: sus consumibles se preparan en escenas de taller, no se compran. Sin taller entre misiones, va con la tabla común como todo el mundo.</li>"
+      ]
+    },
+    {
+      "id": "el-cuerpo",
+      "nombre": "El Cuerpo",
+      "credo": "modificado",
+      "credoNombre": "Modificado",
+      "recursos": "0",
+      "lema": "",
+      "items": [],
+      "equipoLibre": [],
+      "estilo": "<p><strong>Regla de mesa:</strong> el Modificado con Osteoinjerto pasa cualquier cacheo de armas. Eso vale más que cualquier fila de esta tabla, y la cronista debería cobrárselo en paranoia ajena.</p>",
+      "lineas": [
+        "<li>El arma ya la lleva puesta. Sumale del set de su Credo lo que quiera cargar encima.</li>",
+        "<li>Regla de mesa: el Modificado con Osteoinjerto pasa cualquier cacheo de armas. Eso vale más que cualquier fila de esta tabla, y la cronista debería cobrárselo en paranoia ajena.</li>"
+      ]
+    }
+  ],
+  "notasCronista": "<ul><li><strong>Las armas no escalan; el conocimiento sí.</strong> Un rifle es +4 hoy y +4 en la crónica 20. Lo que crece es saber cuándo usar plata, cuándo fuego y cuándo correr. Mantené las recompensas en información y acceso, no en armas más grandes.</li><li><strong>La munición se cuenta cuando importa.</strong> No lleves inventario grano a grano: usá la regla de que un fallo total en tiradas de armas de fuego puede significar \"última bala\" o encasquillamiento, a tu criterio dramático.</li><li><strong>Recursos y legalidad son fricción jugable.</strong> Conseguir el fierro es una escena. Cruzarlo por un control policial es otra. En España o donde ambientes, un civil con un subfusil es una trama en sí misma.</li><li><strong>Compatibilidad con los tres caminos.</strong> Estas tablas son la línea base mortal. Los documentos de Bordes, Artefactos y Modificaciones se montan encima sin tocar nada de acá: el agravado especial siempre viene de esos sistemas o de la tabla 4, nunca gratis.</li></ul>",
+  "comoLeer": "<ul><li><strong>Reserva:</strong> los dados que se tiran para atacar. En combate contra alguien que se defiende, la tirada es enfrentada (normalmente contra Destreza + Atletismo). El daño final es el margen de éxitos + el valor de Daño del arma.</li><li><strong>Daño:</strong> el modificador del arma. Recordá la regla de oro de H5: las armas comunes infligen daño superficial a vampiros y otras criaturas resistentes (que además lo dividen a la mitad). Para infligir agravado hace falta fuego, luz solar, o el equipamiento especial de las tablas 3 y 4.</li><li><strong>Dif.:</strong> dificultad o penalizador situacional cuando la tirada no es enfrentada, o requisito de uso. \"—\" significa que se usa la enfrentada normal sin nada raro.</li><li><strong>Ocult.:</strong> dónde se esconde el arma. Bolsillo / Campera / Abrigo / Bolso / No. Importa para cacheos, entrar a lugares y no llamar a la policía.</li><li><strong>Rec.:</strong> puntos de Recursos aproximados para conseguirla legalmente o en el mercado que corresponda. Entre paréntesis, si además hace falta un contacto o algo ilegal.</li></ul>"
+}

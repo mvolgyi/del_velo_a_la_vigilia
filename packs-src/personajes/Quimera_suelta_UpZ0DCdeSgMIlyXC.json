@@ -1,0 +1,92 @@
+{
+  "_id": "UpZ0DCdeSgMIlyXC",
+  "_key": "!actors!UpZ0DCdeSgMIlyXC",
+  "name": "Quimera suelta",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Quimera suelta",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Voluntario de continuidad operado por Salas, mortal modificado con un injerto"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 7
+      },
+      "social": {
+        "value": 2
+      },
+      "mental": {
+        "value": 3
+      }
+    },
+    "exceptionaldicepools": {
+      "brawl": {
+        "value": 9
+      },
+      "athletics": {
+        "value": 8
+      },
+      "stealth": {
+        "value": 7
+      },
+      "awareness": {
+        "value": 7
+      },
+      "survival": {
+        "value": 6
+      }
+    },
+    "health": {
+      "max": 9,
+      "value": 9,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 1
+    },
+    "generaldifficulty": {
+      "normal": 3,
+      "strongest": 5
+    },
+    "description": "<p>Uno de los tres «voluntarios de continuidad» a los que la Dra. Salas injertó modificaciones semanas antes del incendio de la clínica. La célula de jugadores no es la primera. Sin régimen de mantenimiento, sin médica y sin nadie que le explique qué le pasa, anda suelto por Málaga: cicatrices quirúrgicas que no cierran, fiebre, venas oscuras y hambre de algo que no entiende.</p><p>No es un monstruo por elección; es lo que puede llegar a ser un PJ que siga el camino de la Carne. Puede ser víctima, enemigo o espejo.</p><p><strong>Tres variantes</strong> (una por cada voluntario):</p><ul><li><strong>A — El Bruto</strong> (Refuerzo, Osteoinjerto): huesos reforzados; golpea como un martillo.</li><li><strong>B — El Rápido</strong> (Injerto de Segunda Generación, Glándula de Sobremarcha): estallidos de velocidad; aparece y desaparece.</li><li><strong>C — El Rastreador</strong> (Sensorio, Olfato Quimérico): huele la sangre y lo sobrenatural; sigue a la célula a donde vaya.</li></ul>",
+    "biography": "<h3>Poderes</h3><p>Tiene el <strong>Sentido Vestigial</strong> (siente lo sobrenatural como escalofríos y sabores metálicos) y un injerto según la variante:</p><ul><li><strong>A — Osteoinjerto</strong>: +2 al daño de Pelea y sus golpes rompen puertas y huesos.</li><li><strong>B — Glándula de Sobremarcha</strong>: Prisa (como el poder de monstruo) una vez por turno, a costa de 1 de daño superficial propio.</li><li><strong>C — Olfato Quimérico</strong>: rastrea a quien haya sangrado cerca; −2 a la dificultad para encontrar a la célula.</li></ul><h3>Debilidades</h3><ul><li><strong>Sin régimen</strong>: −1 dado a todo por falta de inmunosupresores; cada escena de esfuerzo, tirá 1 dado: con un 1 sufre una crisis de rechazo (1 de daño agravado y el injerto se apaga).</li><li><strong>El olor de la quimera</strong>: los sobrenaturales lo detectan con +1 dado; los vampiros podrían reclamarlo.</li><li>Mortal en lo demás: recibe daño normal.</li></ul>",
+    "privatenotes": "<p><strong>Acto 2 (crítico en Seguir a Salas):</strong> la palabra «Quimera» entra en juego; la agenda de Salas da pistas de los tres voluntarios.</p><p><strong>Después:</strong> hilo abierto de «Las Quimeras Sueltas». Pueden aparecer cazando durmientes, buscando a Salas o pidiendo ayuda a la célula. Ideales para mostrarle al Guardia (camino de la Carne) su posible futuro.</p><p><em>Cifras:</em> todas sugeridas. «poder» 1 indica el injerto; es mortal modificado, no sobrenatural. Los injertos están simplificados a partir de La Carne Templada e Injertos de Segunda Generación.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "quimera-suelta"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

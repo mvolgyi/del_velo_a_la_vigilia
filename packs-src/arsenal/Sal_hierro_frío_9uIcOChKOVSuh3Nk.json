@@ -1,0 +1,41 @@
+{
+  "_id": "9uIcOChKOVSuh3Nk",
+  "_key": "!items!9uIcOChKOVSuh3Nk",
+  "name": "Sal / hierro frío",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-leather-black-brown.webp",
+  "folder": "gn38oQNim6zBkRSS",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Uso</th><td>—</td></tr><tr><th>Daño</th><td>—</td></tr><tr><th>Regla</th><td>Barreras y debilidades folclóricas: la cronista decide contra qué aplica. Línea de sal: como Custodia sin tirada contra espíritus menores</td></tr><tr><th>Recursos</th><td>—</td></tr></tbody></table>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "equipo",
+      "equipo": "sal"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

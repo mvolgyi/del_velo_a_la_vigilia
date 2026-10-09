@@ -1,0 +1,22 @@
+{
+  "_comentario": "Contrato de estilo de Del Velo a la Vigilia (MAPS_SPEC.md §5). Fuente única de verdad del look: los mapas pintados (tools/pintar-planos.mjs) y cualquier arte generado (tools/generar-arte.mjs) pasan por estos bloques. El prompt de cada asset describe SOLO su sujeto. Cambiar el look de la crónica = editar estos bloques y regenerar.",
+  "modelo": "gemini-3-pro-image",
+  "referencia": "somnia-planta-nueva",
+  "estilos": {
+    "battlemap": {
+      "prefijo": "Top-down orthographic battlemap for a modern urban-horror tabletop roleplaying game (World of Darkness, Hunter: The Reckoning), set in present-day Málaga, Spain. Strict bird's-eye view looking straight down: no perspective distortion, no isometric tilt, no visible side walls on any structure.\n\nSUBJECT: ",
+      "sufijo": "\n\nSTYLE: illustrated photorealism in the manner of a professionally published modern-horror battlemap pack: crisp, confident dark ink outlines on every wall and object, filled with realistic painted materials. Cold, clinical, desaturated palette: hospital blue-greys, cold fluorescent whites gone dim, wet charcoal asphalt, grimy linoleum, steel and glass; old stone and damp medieval masonry where the place calls for it. Mean saturation low (about 8-15%), never warm or golden; the only accent colours are a deep emergency red used as a faint overall tint (never as a lit spot) and the occasional dark dried-blood stain. Nothing fantasy: no runes, no magic glow, no torches, no medieval props in modern rooms.\n\nFLOORS: real modern floor materials drawn tile by tile — linoleum or vinyl tiles, porcelain and ceramic tiles, raised data-centre floor panels, office carpet tiles, polished concrete with expansion joints, worn parquet; old flagstones only in the convent and crypt. Where a floor has tiles, their joints follow the plan's tile pattern so the floor itself reads the grid. NEVER draw ruled or dashed grid lines on top of anything.\n\nDETAIL: lived-in and neglected — scuff marks, wheel tracks, dust, paper scraps, water stains, grime along the skirting, damp and white salt bloom on old stone. Restrained: legible at table distance, never an all-over noisy wash.\n\nLIGHT AND SHADOW: soft down-right drop shadows under raised objects and ambient occlusion where walls meet the floor. NEVER paint a light source, light pool, glow, halo, lens flare or god-ray — no lit lamps, no glowing screens, no emergency-light spots; every light is added dynamically in the virtual tabletop.\n\nCOMPOSITION: full bleed to all four edges, no border, no frame, no vignette, no paper margin. Strictly top-down: walls seen only as their top edge, no wall faces, no ceilings, no roofs over interiors. DOORWAYS are empty gaps with at most a faint threshold strip — never a door leaf, open or closed. ABSOLUTELY NO TEXT: no room labels, no signage, no logos, no exit signs, no numbers, no lettering on screens, boxes, posters or floors. No compass, no scale bar, no grid, no tokens, no people, no bodies, no creatures.",
+      "aspecto": "4:3",
+      "tamano": "4K",
+      "carpeta": "assets/mapas"
+    },
+    "retrato": {
+      "prefijo": "Character portrait for a modern urban-horror tabletop RPG (World of Darkness, Hunter: The Reckoning), present-day Málaga, Spain. Head and upper chest, three-quarter view, subject facing the viewer.\n\nSUBJECT: ",
+      "sufijo": "\n\nSTYLE: illustrated photorealism with confident ink linework under painted colour, like the character art of a published modern-horror sourcebook. Cold, desaturated palette — sodium-orange streetlight against hospital blue-grey shadow — with one hard, dramatic key light; contemporary clothing and grooming, believable, unglamorous, tired. Nothing fantasy, no armour, no magic glow.\n\nBACKGROUND: a simple dark, softly out-of-focus urban backdrop (night street, clinic corridor or rain-streaked window), with no detail competing with the face.\n\nCRITICAL: the painting bleeds to all four edges of the image. It is NOT a print on paper, NOT inside a card, NOT matted, NOT framed. No margin, no drop shadow, no torn edges.\n\nABSOLUTELY NO TEXT anywhere in the image: no lettering on badges, lanyards, ID cards, clothing, signage or screens; no title, caption, signature, watermark or logo. A single character only.",
+      "aspecto": "3:4",
+      "tamano": "1K",
+      "carpeta": "assets/retratos"
+    }
+  },
+  "assets": []
+}

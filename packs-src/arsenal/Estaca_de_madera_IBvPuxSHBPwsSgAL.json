@@ -1,0 +1,52 @@
+{
+  "_id": "IBvPuxSHBPwsSgAL",
+  "_key": "!items!IBvPuxSHBPwsSgAL",
+  "name": "Estaca de madera",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+  "folder": "vg9D2hi3tw8xzwvf",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Cuerpo a cuerpo</td></tr><tr><th>Daño</th><td>+0</td></tr><tr><th>Dif. / regla</th><td>Ver regla de estacar (§5)</td></tr><tr><th>Ocultamiento</th><td>Campera</td></tr><tr><th>Recursos</th><td>—</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "weaponType": "melee",
+    "weaponvalue": 0,
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {
+      "d1": {
+        "path": "attributes.strength"
+      },
+      "d2": {
+        "path": "skills.melee"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "arma",
+      "arma": "estaca",
+      "categoria": "cuerpo",
+      "agravado": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

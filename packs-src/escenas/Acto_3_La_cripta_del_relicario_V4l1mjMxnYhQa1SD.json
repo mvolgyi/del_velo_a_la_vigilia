@@ -1,0 +1,427 @@
+{
+  "_id": "V4l1mjMxnYhQa1SD",
+  "_key": "!scenes!V4l1mjMxnYhQa1SD",
+  "name": "Acto 3 · La cripta del relicario",
+  "folder": "jO7QZOk0HboPNns0",
+  "navigation": true,
+  "navOrder": 40,
+  "width": 2100,
+  "height": 1350,
+  "padding": 0.25,
+  "grid": {
+    "type": 1,
+    "size": 150,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 1,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "2655jgQx1LKBvtTb",
+      "name": "Suelo",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/cripta.webp",
+        "color": "#000000"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!V4l1mjMxnYhQa1SD.2655jgQx1LKBvtTb"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "0H3Rpf8L5wv0ptUw",
+      "c": [
+        150,
+        450,
+        450,
+        450
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.0H3Rpf8L5wv0ptUw"
+    },
+    {
+      "_id": "7V4aO3CBAML2jLKG",
+      "c": [
+        150,
+        750,
+        450,
+        750
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.7V4aO3CBAML2jLKG"
+    },
+    {
+      "_id": "KlMnAd2knkZfMNoi",
+      "c": [
+        1650,
+        750,
+        2100,
+        750
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.KlMnAd2knkZfMNoi"
+    },
+    {
+      "_id": "GOe78zl4ZLf9e6hT",
+      "c": [
+        150,
+        450,
+        150,
+        750
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.GOe78zl4ZLf9e6hT"
+    },
+    {
+      "_id": "Wxg89PJPFMbQli3h",
+      "c": [
+        450,
+        300,
+        450,
+        525
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.Wxg89PJPFMbQli3h"
+    },
+    {
+      "_id": "4XrJjokLlK1SpInK",
+      "c": [
+        450,
+        675,
+        450,
+        1200
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.4XrJjokLlK1SpInK"
+    },
+    {
+      "_id": "nH7oBC5ebFEqw4VB",
+      "c": [
+        450,
+        300,
+        900,
+        300
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.nH7oBC5ebFEqw4VB"
+    },
+    {
+      "_id": "gaxdgJy2pkLdgIwI",
+      "c": [
+        450,
+        900,
+        600,
+        900
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.gaxdgJy2pkLdgIwI"
+    },
+    {
+      "_id": "TuV0SZmUHet9GwdE",
+      "c": [
+        750,
+        900,
+        900,
+        900
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.TuV0SZmUHet9GwdE"
+    },
+    {
+      "_id": "iqrs2T3kSrujb7XU",
+      "c": [
+        1650,
+        900,
+        2100,
+        900
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.iqrs2T3kSrujb7XU"
+    },
+    {
+      "_id": "9fynq0t93PpCMnFM",
+      "c": [
+        900,
+        150,
+        900,
+        525
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.9fynq0t93PpCMnFM"
+    },
+    {
+      "_id": "QcJtQakSyspjUxSS",
+      "c": [
+        900,
+        675,
+        900,
+        930
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.QcJtQakSyspjUxSS"
+    },
+    {
+      "_id": "lfBCgAbmA6I80kN2",
+      "c": [
+        900,
+        1020,
+        900,
+        1200
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.lfBCgAbmA6I80kN2"
+    },
+    {
+      "_id": "RwwyfvQyfb4VF3Nx",
+      "c": [
+        450,
+        1200,
+        900,
+        1200
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.RwwyfvQyfb4VF3Nx"
+    },
+    {
+      "_id": "n0YPFjNwrqSoW1Fp",
+      "c": [
+        900,
+        150,
+        1950,
+        150
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.n0YPFjNwrqSoW1Fp"
+    },
+    {
+      "_id": "yS1YTWNlnhxVvQXS",
+      "c": [
+        900,
+        1050,
+        1650,
+        1050
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.yS1YTWNlnhxVvQXS"
+    },
+    {
+      "_id": "ZbY4MhV2yJ2uB4FB",
+      "c": [
+        1650,
+        150,
+        1650,
+        300
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.ZbY4MhV2yJ2uB4FB"
+    },
+    {
+      "_id": "83MhkOfwbDl9sFDJ",
+      "c": [
+        1650,
+        450,
+        1650,
+        750
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.83MhkOfwbDl9sFDJ"
+    },
+    {
+      "_id": "Ut51daSRQgpdxlFJ",
+      "c": [
+        1650,
+        900,
+        1650,
+        1050
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.Ut51daSRQgpdxlFJ"
+    },
+    {
+      "_id": "diI8e8ZSEig4Ee8r",
+      "c": [
+        1650,
+        600,
+        1950,
+        600
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.diI8e8ZSEig4Ee8r"
+    },
+    {
+      "_id": "1L7SBjrEIbX6abpU",
+      "c": [
+        1950,
+        150,
+        1950,
+        600
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.1L7SBjrEIbX6abpU"
+    },
+    {
+      "_id": "Cg7yMd503v0QsYof",
+      "c": [
+        2100,
+        750,
+        2100,
+        900
+      ],
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.Cg7yMd503v0QsYof"
+    },
+    {
+      "_id": "iTvwlDv0Ut6ZTfc0",
+      "c": [
+        1650,
+        750,
+        1650,
+        900
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "stoneBasic",
+      "_key": "!scenes.walls!V4l1mjMxnYhQa1SD.iTvwlDv0Ut6ZTfc0"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "cqv9WXKXDbvrndEI",
+      "x": 1275,
+      "y": 600,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.35,
+        "angle": 360,
+        "bright": 0,
+        "dim": 8,
+        "color": "#8fb3c9",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "fog",
+          "speed": 1,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.cqv9WXKXDbvrndEI"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "ocgW1TTz335qkyEJ",
+      "name": "Escalera al convento",
+      "color": "#7b1c1c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 150,
+          "y": 450,
+          "width": 150,
+          "height": 300,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "NINPZ90XucOKPMHj",
+          "name": "Escalera al convento",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.Lt8TlhDCDtaStvhY.Region.ManBH4IsHKiXwmfO"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!V4l1mjMxnYhQa1SD.ocgW1TTz335qkyEJ.NINPZ90XucOKPMHj"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!V4l1mjMxnYhQa1SD.ocgW1TTz335qkyEJ"
+    },
+    {
+      "_id": "EwtRbSpwM7Y0L6uL",
+      "name": "Salida a Somnia Biotech (planta vieja → muelle de carga)",
+      "color": "#7b1c1c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1950,
+          "y": 750,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "A83WqIV0HkqyYxj0",
+          "name": "Salida a Somnia Biotech (planta vieja → muelle de carga)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.uH16g5FyHIKxoG5J.Region.rzz58ChmeODwzzVY"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!V4l1mjMxnYhQa1SD.EwtRbSpwM7Y0L6uL.A83WqIV0HkqyYxj0"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!V4l1mjMxnYhQa1SD.EwtRbSpwM7Y0L6uL"
+    }
+  ],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "cripta",
+      "nota": "Muy oscura: la única luz es el brillo frío del relicario. Los durmientes yacen en camillas médicas alrededor del relicario donde duerme Sor Anunciación, conectados por vías (tiles móviles: se pueden cortar). La mesa de la Dra. Salas (disco duro y viales del Compuesto A) está en el laboratorio improvisado, al noreste. La puerta de piedra del pasillo lateral es la que alguien sostiene en la huida; detrás, el pasillo sube a la planta vieja de Somnia y de ahí al muelle de carga (región). La escalera oeste sube a la sacristía del convento (región). Columnas y nichos dan cobertura. Muebles móviles NO pintados (colocarlos como tiles): tubos ×6, carro.",
+      "plano": "cripta",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

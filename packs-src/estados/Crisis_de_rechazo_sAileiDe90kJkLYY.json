@@ -1,0 +1,37 @@
+{
+  "_id": "sAileiDe90kJkLYY",
+  "_key": "!items!sAileiDe90kJkLYY",
+  "name": "Crisis de rechazo",
+  "type": "condition",
+  "img": "icons/svg/biohazard.svg",
+  "folder": "vOmF0XU1AZwclWxF",
+  "sort": 0,
+  "system": {
+    "description": "<p>La tirada de una Modificación terminó en Desesperación total y el cuerpo se rebeló: el Modificado sufre <strong>1 de daño agravado</strong> (fiebre, necrosis local, la sutura que se abre) y <strong>esa Modificación queda inerte</strong> hasta recibir una escena de cuidados (Inteligencia + Medicina, dif. 3, propia o de otro). Anotá en el nombre del estado qué Modificación es.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "crisis-de-rechazo",
+      "camino": "modificado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

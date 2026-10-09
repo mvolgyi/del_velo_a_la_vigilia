@@ -1,0 +1,80 @@
+{
+  "_id": "PvHEnOCdPTaQJp5M",
+  "_key": "!journal!PvHEnOCdPTaQJp5M",
+  "name": "Dramatis personae y diálogos",
+  "folder": "wLhwD4CLZ873vynb",
+  "sort": 60,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/cronica/07-dramatis-personae.md"
+    }
+  },
+  "pages": [
+    {
+      "_id": "0NZde7olypeE6ri9",
+      "_key": "!journal.pages!PvHEnOCdPTaQJp5M.0NZde7olypeE6ri9",
+      "name": "Marcos (Seguridad de Somnia, Vampiro Joven y Arrogante)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Ficha: @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.yWZmWOJ2RbCdY4Dq]{Marcos}</p>\n<h3>En el pasillo, a través del vidrio (Acto 1)</h3>\n<p>Tras alimentarse, no necesita gritar; su voz apenas es un murmullo que se les clava en la cabeza.</p>\n<section class=\"dvv-leer\"><p>&quot;Miren bien. Llévense la imagen. ¿A quién le van a llorar mañana? ¿A la policía? Son comida, chavales. Comida que camina. Y ahora tengo postre.&quot;</p>\n</section><h3>Acorralándolos en el muelle de carga (Acto 1)</h3>\n<p>Caminando despacio, pateando una tarjeta de acceso inútil.</p>\n<section class=\"dvv-leer\"><p>&quot;¿Ya se quedaron sin aire? Qué pena tener que correrlos, les juro. Me arruinan el traje, transpiran, hacen ruido. Te voy a arrancar la garganta a vos primero, a ver si así se callan un poco...&quot;</p>\n</section><h3>Irrumpiendo en la cripta (Acto 3)</h3>\n<p>Enfurecido y territorial, con la piel aún marcada por la bengala de @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.O2GuehcZV88rKsKt]{Elías}.</p>\n<section class=\"dvv-leer\"><p>&quot;Ustedes son unos pelotudos bárbaros. ¿En serio volvieron a bajar? Me quemaron la cara, pedazos de mierda. No los voy a matar rápido. Los voy a desarmar despacito para que vean cómo se les apaga el cuerpo.&quot;</p>\n</section>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fMA0KGTprQD5vW5q",
+      "_key": "!journal.pages!PvHEnOCdPTaQJp5M.fMA0KGTprQD5vW5q",
+      "name": "Sor Anunciación (Priora, Vampiro Antiguo, Fuerza de la Naturaleza)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Ficha: @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación}</p>\n<h3>Al despertar en el relicario (Acto 3)</h3>\n<p>Se incorpora lentamente, acomodándose el hábito, su voz es seca, antigua y aplastante. No grita; no le hace falta.</p>\n<section class=\"dvv-leer\"><p>&quot;Tanto ruido. Tanta urgencia por respirar unas décadas más. He rezado en esta cripta durante cuatrocientos años esperando que Dios me conteste, y el único ruido que me llega es el de los corderos llorando en el matadero.&quot;</p>\n</section><h3>El trato monstruoso (Acto 3)</h3>\n<p>Mirándolos desde la penumbra, absoluta e invencible.</p>\n<section class=\"dvv-leer\"><p>&quot;Guarden eso, criaturas. No tienen con qué lastimarme. Se van a llevar a su amigo, porque la eternidad me enseñó a ser paciente, y van a subir por esa escalera ahora mismo. Nadie más viene a &#39;donar&#39; este año. Pero si me obligan a dar un solo paso fuera de esta cama, no va a quedar sangre en sus venas ni para manchar la piedra.&quot;</p>\n</section><h3>Al apartar a Elías Roca (Acto 3)</h3>\n<p>Con un desdén glacial, justo antes de romperle el cuello o tirarlo contra la pared.</p>\n<section class=\"dvv-leer\"><p>&quot;Tu fe es ruido. Silencio.&quot;</p>\n</section>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "X6bHpf8ZfaKyyp1e",
+      "_key": "!journal.pages!PvHEnOCdPTaQJp5M.X6bHpf8ZfaKyyp1e",
+      "name": "Dra. Irene Salas (Directora Médica, Ghoul, Cirujana Fugitiva)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Ficha: @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.kWQNBnBz3V9gvlnP]{Dra. Irene Salas}</p>\n<h3>El encuentro clandestino (Epílogo — La Quimera)</h3>\n<p>Abriendo su maletín quirúrgico en un lugar mugriento, con la bata manchada y los ojos inyectados en sangre por la falta de sueño.</p>\n<section class=\"dvv-leer\"><p>&quot;No te muevas o te vas a desangrar, pibe. Las suturas que te hicieron en la guardia son una mierda. Quedate quieto.&quot;</p>\n</section><h3>La racionalización</h3>\n<p>Preparando los viales y el instrumental frío.</p>\n<section class=\"dvv-leer\"><p>&quot;Lo que viste ahí abajo no es el infierno, es biología. Biología depredadora, antigua, pero maleable. Somnia era una picadora de carne, sí, pero la ciencia que hicimos era real. Y vos estás en mi lista de candidatos.&quot;</p>\n</section><h3>La oferta cruel</h3>\n<p>Mirándolo a los ojos con la jeringa en la mano.</p>\n<section class=\"dvv-leer\"><p>&quot;Estás roto. Ese bicho te hizo pedazos y tu cuerpo humano no da para más; el mundo de la calle ya no te sirve. Dejame arreglar algo de lo que rompí. Te voy a abrir, te voy a meter el Compuesto A directo en el sistema, y te voy a convertir en el arma que necesitás ser para matarlos. Va a doler como la puta madre. ¿Aguantás, o te dejo morir acá?&quot;</p>\n</section>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

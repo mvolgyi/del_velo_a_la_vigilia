@@ -1,0 +1,37 @@
+{
+  "_id": "IcGVnf4SB5yUpwYj",
+  "_key": "!items!IcGVnf4SB5yUpwYj",
+  "name": "Sin la Lente Espectral",
+  "type": "condition",
+  "img": "icons/svg/blind.svg",
+  "folder": "Rpd9Fzl1M6xNxgEu",
+  "sort": 0,
+  "system": {
+    "description": "<p>El Iluminado no tiene el aparato encima (se lo quitaron, se rompió, lo dejó en el taller). <strong>Queda ciego a lo oculto</strong>: la Lente Espectral no funciona hasta recuperarla. Ese es el precio de no llevar el don adentro.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "lente-no-equipada",
+      "camino": "iluminado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

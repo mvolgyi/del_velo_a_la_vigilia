@@ -1,0 +1,41 @@
+{
+  "_id": "Us4TeIQ579i0taLv",
+  "_key": "!items!Us4TeIQ579i0taLv",
+  "name": "Espejo, cámara, grabadora",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-leather-black-brown.webp",
+  "folder": "gn38oQNim6zBkRSS",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Uso</th><td>—</td></tr><tr><th>Daño</th><td>—</td></tr><tr><th>Regla</th><td>Herramientas de identificación: reflejo raro, sin imagen térmica coherente, voces que no estaban. +1 dado a Investigación relacionada</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "equipo",
+      "equipo": "espejo-camara-grabadora"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "gpAQXfSDtvASr9BL",
+  "_key": "!items!gpAQXfSDtvASr9BL",
+  "name": "Difusor de Calma — Carisma + Tecnología",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 400,
+  "system": {
+    "description": "<p><em>≈ Iluminar</em></p>\n<p>Un dispersor químico, una frecuencia de audio subliminal en un parlante portátil. Donde funciona, el pánico no prende.</p>\n<p><strong>Sistema.</strong></p><p>Carisma + Tecnología forzando el prototipo. Los mortales presentes (hasta éxitos × 2 personas) quedan inmunes al pánico de masas y al terror sobrenatural durante la escena, y siguen indicaciones razonables del Iluminado para evacuar sin discutir. No afecta a la célula ni controla mentes.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-difusor-de-calma",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.charisma"
+      },
+      "d2": {
+        "path": "skills.technology"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-difusor-de-calma",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

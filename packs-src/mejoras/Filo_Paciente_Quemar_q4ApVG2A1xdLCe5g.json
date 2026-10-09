@@ -1,0 +1,39 @@
+{
+  "_id": "q4ApVG2A1xdLCe5g",
+  "_key": "!items!q4ApVG2A1xdLCe5g",
+  "name": "Filo Paciente (Quemar)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Hendir.</em></p><p>Quemando la Chispa, el próximo ataque que impacte suma +2 al daño. Los Heraldos guían la mano hacia el corazón, el cuello, la costura del monstruo.</p><p><em>Quemar: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-hendir",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-hendir",
+      "camino": "imbuido",
+      "mejora": "filo-paciente",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

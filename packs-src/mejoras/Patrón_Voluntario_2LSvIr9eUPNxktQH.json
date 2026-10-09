@@ -1,0 +1,39 @@
+{
+  "_id": "2LSvIr9eUPNxktQH",
+  "_key": "!items!2LSvIr9eUPNxktQH",
+  "name": "Patrón Voluntario",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Mimetismo Dérmico.</em></p><p>Control fino: puede formar manchas, tatuajes falsos o marcas de identificación a voluntad. Útil para infiltración; inquietante en una primera cita.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-mimetismo-dermico",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-mimetismo-dermico",
+      "camino": "gen2",
+      "mejora": "patron-voluntario",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

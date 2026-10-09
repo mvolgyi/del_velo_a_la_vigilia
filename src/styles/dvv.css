@@ -1,0 +1,266 @@
+/*
+ * Del Velo a la Vigilia — estilos del módulo.
+ *
+ * Todas las clases van prefijadas con `dvv-`. Foundry carga cada módulo en el
+ * mismo documento: una regla sin prefijo rompe la UI de otro módulo.
+ */
+
+:root {
+  --dvv-sangre: #5c1f1f;
+  --dvv-sangre-viva: #a3282f;
+  --dvv-fe: #c9a227;
+  --dvv-metodo: #2f7f8c;
+  --dvv-carne: #8c2f5c;
+  --dvv-niebla: #8a8680;
+  --dvv-emergencia: #d12a1e;
+}
+
+/* --- Journals: botones embebidos ---------------------------------------- */
+
+.dvv-tirada {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.05em 0.5em;
+  border: 1px solid var(--dvv-sangre-viva);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--dvv-sangre-viva) 12%, transparent);
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dvv-tirada:hover {
+  background: color-mix(in srgb, var(--dvv-sangre-viva) 28%, transparent);
+  text-shadow: none;
+}
+
+.dvv-baliza {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  width: auto;
+  margin: 0.1em 0;
+  padding: 0.1em 0.6em;
+  border: 1px solid var(--dvv-niebla);
+  border-left-width: 5px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  line-height: 1.3;
+  cursor: pointer;
+}
+
+.dvv-baliza.fe { border-left-color: var(--dvv-fe); }
+.dvv-baliza.metodo { border-left-color: var(--dvv-metodo); }
+.dvv-baliza.carne { border-left-color: var(--dvv-carne); }
+
+.dvv-baliza-delta { font-weight: 700; }
+.dvv-baliza-motivo { opacity: 0.85; }
+.dvv-baliza.usado { opacity: 0.55; }
+
+.dvv-leer {
+  margin: 0.75em 0;
+  padding: 0.6em 0.9em;
+  border-left: 4px solid var(--dvv-emergencia);
+  background: color-mix(in srgb, var(--dvv-emergencia) 8%, transparent);
+  font-style: italic;
+}
+
+.dvv-leer p:last-child { margin-bottom: 0; }
+
+.dvv-enlaces {
+  margin: -0.3em 0 0.8em;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--dvv-niebla) 14%, transparent);
+  font-size: 0.9em;
+}
+
+table.dvv-ficha {
+  width: auto;
+  margin: 0.4em 0;
+  border-collapse: collapse;
+}
+
+table.dvv-ficha th {
+  padding: 0.15em 0.6em 0.15em 0;
+  text-align: left;
+  color: var(--dvv-niebla);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+table.dvv-ficha td { padding: 0.15em 0; }
+
+/* --- Chat --------------------------------------------------------------- */
+
+.dvv-chat h4 {
+  margin: 0 0 0.3em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--dvv-sangre-viva);
+  font-size: 0.95em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.dvv-chat .dvv-botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  margin-top: 0.4em;
+}
+
+.dvv-chat .dvv-botones button {
+  flex: 1 1 auto;
+  width: auto;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.dvv-chat details summary { cursor: pointer; font-weight: 600; }
+
+/* --- Diálogos ----------------------------------------------------------- */
+
+.dvv-dialogo .form-group { margin-bottom: 0.5rem; }
+.dvv-dialogo fieldset { margin: 0.5rem 0; padding: 0.4rem 0.8rem; }
+.dvv-dialogo fieldset .form-group { margin-bottom: 0.2rem; }
+.dvv-dialogo select, .dvv-dialogo input[type="text"] { width: 100%; }
+
+/* --- Panel del Narrador ------------------------------------------------- */
+
+.dvv-cronica {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 0.5rem;
+}
+
+.dvv-cronica section { margin: 0; }
+
+.dvv-cronica h4 {
+  margin: 0 0 0.4rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--dvv-niebla) 35%, transparent);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--dvv-niebla);
+}
+
+.dvv-vacio { opacity: 0.7; font-style: italic; }
+
+.dvv-medidores {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.dvv-medidor {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.dvv-medidor-nombre { font-weight: 600; }
+
+.dvv-medidor button,
+.dvv-baliza-fila button,
+.dvv-acciones button {
+  width: 1.9rem;
+  height: 1.9rem;
+  padding: 0;
+  line-height: 1;
+}
+
+.dvv-acciones button { width: auto; min-width: 1.9rem; padding: 0 0.5rem; }
+
+.dvv-medidor-valor {
+  min-width: 2.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.dvv-medidor-valor small { font-size: 0.8rem; opacity: 0.5; }
+.dvv-desesperacion { color: var(--dvv-sangre-viva); }
+.dvv-peligro { color: var(--dvv-emergencia); }
+
+.dvv-cazador {
+  margin-bottom: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--dvv-niebla) 40%, transparent);
+  border-radius: 6px;
+}
+
+.dvv-cazador.en-desesperanza { border-color: var(--dvv-sangre-viva); }
+
+.dvv-cazador header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.dvv-cazador header img {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dvv-cazador header a { cursor: pointer; }
+.dvv-jugador { font-size: 0.8rem; opacity: 0.7; }
+
+.dvv-etiqueta {
+  margin-left: auto;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: var(--dvv-sangre-viva);
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+.dvv-cazador-cuerpo {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 0.8rem;
+}
+
+.dvv-baliza-fila {
+  display: grid;
+  grid-template-columns: 3.6rem 1.9rem 1.6rem 1.9rem;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 0.15rem;
+  padding-left: 0.3rem;
+  border-left: 4px solid var(--dvv-niebla);
+}
+
+.dvv-baliza-fila.fe { border-left-color: var(--dvv-fe); }
+.dvv-baliza-fila.metodo { border-left-color: var(--dvv-metodo); }
+.dvv-baliza-fila.carne { border-left-color: var(--dvv-carne); }
+.dvv-baliza-fila.dominante .dvv-baliza-nombre { font-weight: 700; }
+.dvv-baliza-valor { text-align: center; font-weight: 700; }
+
+.dvv-epilogo { margin-top: 0.3rem; font-size: 0.8rem; opacity: 0.8; }
+
+.dvv-detalle { font-size: 0.9rem; }
+.dvv-detalle > div { margin-bottom: 0.2rem; }
+.dvv-poderes { font-size: 0.85rem; opacity: 0.85; }
+
+.dvv-detalle .dvv-acciones,
+.dvv-registro .dvv-acciones {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.dvv-registro ul {
+  margin: 0 0 0.4rem;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.dvv-registro li.aplicado { opacity: 0.55; }
+.dvv-fecha { font-size: 0.8rem; opacity: 0.6; }

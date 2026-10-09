@@ -1,0 +1,46 @@
+{
+  "_id": "mE937wymwCqTHUeG",
+  "_key": "!items!mE937wymwCqTHUeG",
+  "name": "Señalar — Resolución + Investigación",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 800,
+  "system": {
+    "description": "<p><em>Pinpoint</em></p>\n<p>El hilo invisible. Una vez que el Imbuido conoció a su presa, sabe hacia dónde tirar.</p>\n<p><strong>Sistema.</strong></p><p>Requiere haber visto a la criatura o tener algo suyo (sangre, un objeto personal, el cadáver de una víctima). Resolución + Investigación encendiendo la Chispa. Éxito: el Imbuido conoce la dirección general y una impresión de distancia (\"cerca, bajo tierra, hacia el río\"). Crítico: una imagen del lugar donde está ahora. La conexión dura hasta el amanecer o hasta que la criatura cruce agua corriente, salga de la ciudad o muera.</p>\n<p><em>Activación — Encender la Chispa: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-senalar",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.investigation"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-senalar",
+      "camino": "imbuido",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

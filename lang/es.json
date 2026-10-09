@@ -1,0 +1,127 @@
+{
+  "DVV": {
+    "modulo": "Del Velo a la Vigilia",
+    "soloNarrador": "Solo el Narrador puede hacer esto.",
+    "sinActor": "Elegí un cazador: seleccioná su token o abrí su hoja antes.",
+    "sinCelula": "{actor} no pertenece a ninguna Célula. Agregalo a una hoja de Célula para usar la Desesperación compartida.",
+    "elegirActor": "¿Para qué cazador?",
+    "confirmar": "Confirmar",
+    "cancelar": "Cancelar",
+    "settings": {
+      "subir-danger-automatico": {
+        "Name": "Subir el Peligro automáticamente",
+        "Hint": "Al registrar +1 de Peligro por usar un poder ante testigos, además sube el Peligro de la Célula. Por defecto solo queda anotado para el fin de sesión."
+      },
+      "recordatorios-desesperacion": {
+        "Name": "Recordatorios tras un 1 en Desesperación",
+        "Hint": "Publica en el chat las consecuencias (Extralimitación o Desesperanza; Silencio, Artefacto quemado o Crisis de rechazo) cuando una tirada con dados de Desesperación saca un 1."
+      },
+      "registro-peligro": {
+        "Name": "Registro de Peligro",
+        "Hint": "Anotaciones de +1 Peligro de la sesión."
+      }
+    },
+    "caminos": {
+      "imbuido": "Imbuido",
+      "iluminado": "Iluminado",
+      "modificado": "Modificado",
+      "gen2": "Segunda Generación",
+      "mortal": "Cazador mortal",
+      "sinCamino": "Sin camino"
+    },
+    "balizas": {
+      "fe": "Fe",
+      "metodo": "Método",
+      "carne": "Carne",
+      "titulo": "Balizas",
+      "ajustado": "{actor}: {signo}{delta} {baliza} ({motivo}). Fe {fe} · Método {metodo} · Carne {carne}.",
+      "dialogoTitulo": "Ajustar balizas",
+      "motivo": "Motivo",
+      "dominante": "Baliza dominante: {baliza}",
+      "empate": "Sin baliza dominante"
+    },
+    "tresPuertas": {
+      "titulo": "Las Tres Puertas — Otorgar un camino",
+      "elegirCamino": "Camino",
+      "elegirRama": "{ramas}",
+      "yaTiene": "{actor} ya recorrió ese camino.",
+      "requiereModificado": "Los injertos de Segunda Generación requieren haber pasado por la Operación.",
+      "otorgado": "<strong>{actor}</strong> cruza la puerta: <strong>{camino}</strong> ({rama}). Recibe gratis <strong>{pasiva}</strong> y el Defecto <em>{defecto}</em>.",
+      "comprarTitulo": "Comprar un poder",
+      "poder": "Poder",
+      "coste": "Coste",
+      "costePuntos": "{puntos} pts de Ventaja / {px} PX",
+      "fueraDeRama": "fuera de su {ramasNombre}: {puntos} pts / {px} PX",
+      "slots": "Carne: {usados}/{limite} modificaciones (Resistencia {resistencia})",
+      "slotsExcedidos": "Esto supera el límite de Resistencia ({limite}). No es una compra: es un arco de crónica. ¿Seguir igual?",
+      "mejorasAhora": "Mejoras que compra ahora",
+      "comprado": "<strong>{actor}</strong> adquiere <strong>{poder}</strong> ({camino}{rama}). Coste: {coste}.",
+      "yaTienePoder": "{actor} ya tiene {poder}.",
+      "sinCaminos": "{actor} no tiene ningún camino otorgado. Primero usá «Otorgar un camino».",
+      "mejoraTitulo": "Comprar una mejora",
+      "mejoraComprada": "<strong>{actor}</strong> compra la mejora <strong>{mejora}</strong> de {poder}."
+    },
+    "desesperacion": {
+      "quemarTitulo": "Quemar la Chispa / Sobrecarga / Desgarro",
+      "motivo": "¿Qué efecto?",
+      "sinDesesperacion": "La Desesperación de la Célula está en 0: no se puede {gasto}.",
+      "quemado": "<strong>{actor}</strong> — <strong>{gasto}</strong>: {motivo}. La Desesperación de la Célula baja de {antes} a {despues}.",
+      "peligroTitulo": "Registrar +1 de Peligro",
+      "peligroMotivo": "Motivo (qué vio el sobrenatural que sobrevivió)",
+      "peligroRegistrado": "<strong>+1 Peligro</strong> anotado para el fin de sesión: {actor}, {motivo}.",
+      "peligroAplicado": "El Peligro de la Célula sube a {valor}.",
+      "aplicarPeligro": "Aplicar al Peligro de la Célula",
+      "peligroAplicadoTodo": "Se aplicaron {n} puntos de Peligro a la Célula (ahora {valor}).",
+      "recordatorio": {
+        "titulo": "Un 1 en los dados de Desesperación",
+        "texto": "<strong>{actor}</strong> sacó {unos} «1» en dados de Desesperación. Si la tirada tuvo éxito, el jugador elige: <em>Extralimitación</em> (+1 Peligro por cada 1, mantiene la victoria) o <em>Desesperanza</em> (falla y entra en Desesperanza). Si la tirada falló, es Desesperanza sin opción.",
+        "camino": "La tirada era de <strong>{poder}</strong> ({camino}). Si termina en Desesperanza, además: <strong>{fallo}</strong>.",
+        "extralimitacion": "Extralimitación (+{unos} Peligro)",
+        "desesperanza": "Desesperanza",
+        "aplicarEstado": "Aplicar «{estado}»",
+        "estadoAplicado": "Se aplicó «{estado}» a {actor}.",
+        "desesperanzaAplicada": "{actor} entra en Desesperanza."
+      }
+    },
+    "arsenal": {
+      "titulo": "Equipar set del Credo",
+      "set": "Set",
+      "equipado": "<strong>{actor}</strong> recibe el <strong>{set}</strong>: {items}.",
+      "equipoLibre": "Además, sin ficha: {lista}."
+    },
+    "panel": {
+      "titulo": "Somnia Biotech — Panel del Narrador",
+      "celula": "Célula",
+      "desesperacion": "Desesperación",
+      "peligro": "Peligro",
+      "sinCelula": "No hay ninguna hoja de Célula en el mundo. Creá un actor de tipo Grupo → Célula y agregá a los cazadores.",
+      "cazadores": "Cazadores",
+      "sinCazadores": "No hay cazadores con jugador asignado.",
+      "caminos": "Caminos",
+      "balizas": "Balizas",
+      "carne": "Carne",
+      "estados": "Estados",
+      "registroPeligro": "Registro de Peligro de la sesión",
+      "registroVacio": "Nada anotado todavía.",
+      "aplicarTodo": "Aplicar todo a la Célula",
+      "limpiar": "Limpiar registro",
+      "limpiarConfirmar": "Se borra el registro de Peligro de la sesión. ¿Seguir?",
+      "epilogo": "Epílogo probable",
+      "epilogos": {
+        "fe": "El Despertar (Imbuido)",
+        "metodo": "El Heredero del Taller (Iluminado)",
+        "carne": "La Quimera (Modificado)",
+        "mortal": "El Cazador Mortal"
+      },
+      "otorgar": "Otorgar camino",
+      "comprar": "Comprar poder",
+      "quemar": "Quemar / Sobrecarga / Desgarro",
+      "registrar": "+1 Peligro",
+      "equipar": "Equipar set"
+    },
+    "tirada": {
+      "boton": "Tirar {label}",
+      "dificultad": "dif. {n}"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "DVV": {
+    "Edges": {
+      "dvv-imb-segunda-vista": "[Imbuido] Segunda Vista",
+      "dvv-imb-hendir": "[Imbuido] Hendir",
+      "dvv-imb-custodia": "[Imbuido] Custodia",
+      "dvv-imb-atravesar": "[Imbuido] Atravesar",
+      "dvv-imb-iluminar": "[Imbuido] Iluminar",
+      "dvv-imb-balsamo": "[Imbuido] Bálsamo",
+      "dvv-imb-sosegar": "[Imbuido] Sosegar",
+      "dvv-imb-presagio": "[Imbuido] Presagio",
+      "dvv-imb-senalar": "[Imbuido] Señalar",
+      "dvv-imb-sondear": "[Imbuido] Sondear",
+      "dvv-ilu-lente-espectral": "[Iluminado] Lente Espectral",
+      "dvv-ilu-municion-tratada": "[Iluminado] Munición Tratada",
+      "dvv-ilu-emisor-de-perimetro": "[Iluminado] Emisor de Perímetro",
+      "dvv-ilu-designador": "[Iluminado] Designador",
+      "dvv-ilu-difusor-de-calma": "[Iluminado] Difusor de Calma",
+      "dvv-ilu-kit-de-trauma": "[Iluminado] Kit de Trauma",
+      "dvv-ilu-inhibidor": "[Iluminado] Inhibidor",
+      "dvv-ilu-motor-predictivo": "[Iluminado] Motor Predictivo",
+      "dvv-ilu-rastreador-de-firma": "[Iluminado] Rastreador de Firma",
+      "dvv-ilu-reconstructor": "[Iluminado] Reconstructor",
+      "dvv-mod-sentido-vestigial": "[Modificado] Sentido Vestigial",
+      "dvv-mod-osteoinjerto": "[Modificado] Osteoinjerto",
+      "dvv-mod-glandula-apotropaica": "[Modificado] Glándula Apotropaica",
+      "dvv-mod-mirada-de-depredador": "[Modificado] Mirada de Depredador",
+      "dvv-mod-feromonas-de-calma": "[Modificado] Feromonas de Calma",
+      "dvv-mod-plasma-universal": "[Modificado] Plasma Universal",
+      "dvv-mod-toque-supresor": "[Modificado] Toque Supresor",
+      "dvv-mod-reflejo-anticipatorio": "[Modificado] Reflejo Anticipatorio",
+      "dvv-mod-olfato-quimerico": "[Modificado] Olfato Quimérico",
+      "dvv-mod-memoria-tactil": "[Modificado] Memoria Táctil",
+      "dvv-gen2-ojo-compuesto": "[Gen II] Ojo Compuesto",
+      "dvv-gen2-malla-subdermica": "[Gen II] Malla Subdérmica",
+      "dvv-gen2-glandula-de-sobremarcha": "[Gen II] Glándula de Sobremarcha",
+      "dvv-gen2-miofibras-sinteticas": "[Gen II] Miofibras Sintéticas",
+      "dvv-gen2-ojos-de-la-bestia": "[Gen II] Ojos de la Bestia",
+      "dvv-gen2-mimetismo-dermico": "[Gen II] Mimetismo Dérmico",
+      "dvv-gen2-rostro-maleable": "[Gen II] Rostro Maleable"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "i0UqynN5txqla498",
+  "_key": "!items!i0UqynN5txqla498",
+  "name": "Vigilia de la Piel (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Glándula Apotropaica.</em></p><p>Desgarrando al marcar, la barrera dura hasta el amanecer y protege a los mortales que duerman dentro de pesadillas y poderes mentales sobrenaturales. El Modificado amanece deshidratado y con hambre de sal.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-glandula-apotropaica",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-glandula-apotropaica",
+      "camino": "modificado",
+      "mejora": "vigilia-de-la-piel",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

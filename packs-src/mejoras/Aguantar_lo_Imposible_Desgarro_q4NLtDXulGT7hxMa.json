@@ -1,0 +1,39 @@
+{
+  "_id": "q4NLtDXulGT7hxMa",
+  "_key": "!items!q4NLtDXulGT7hxMa",
+  "name": "Aguantar lo Imposible (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Malla Subdérmica.</em></p><p>Desgarrando como reacción, el primer ataque que lo impacte esta escena se ignora por completo, sea lo que sea. Una vez. El video después muestra a un tipo levantándose de algo de lo que nadie se levanta.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-malla-subdermica",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-malla-subdermica",
+      "camino": "gen2",
+      "mejora": "aguantar-lo-imposible",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

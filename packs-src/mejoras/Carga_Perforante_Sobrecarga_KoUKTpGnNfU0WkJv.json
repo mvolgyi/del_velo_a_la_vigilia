@@ -1,0 +1,39 @@
+{
+  "_id": "KoUKTpGnNfU0WkJv",
+  "_key": "!items!KoUKTpGnNfU0WkJv",
+  "name": "Carga Perforante (Sobrecarga)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "OfRFmL1eZGRDgg7u",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Munición Tratada.</em></p><p>Sobrecargando, el próximo ataque que impacte suma +2 al daño. El compuesto reacciona exactamente con lo que el monstruo tiene en las venas.</p><p><em>Sobrecarga: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-municion-tratada",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-ilu-municion-tratada",
+      "camino": "iluminado",
+      "mejora": "carga-perforante",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

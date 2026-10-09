@@ -1,0 +1,46 @@
+{
+  "_id": "oPEIKm1khrEZupfA",
+  "_key": "!items!oPEIKm1khrEZupfA",
+  "name": "Sosegar — Carisma + Empatía",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 600,
+  "system": {
+    "description": "<p><em>Becalm</em></p>\n<p>El Redentor cree que dentro del monstruo queda algo que escucha. A veces tiene razón.</p>\n<p><strong>Sistema.</strong></p><p>El Imbuido le habla directamente a la criatura (necesita que pueda oírlo) y tira Carisma + Empatía con la Chispa encendida, enfrentado a Resolución + Compostura del objetivo. Si gana, suprime durante la escena la furia sobrenatural activa del objetivo: un frenesí se corta, una ghoul enloquecida baja el arma, un espectro deja de aullar. La criatura no se vuelve aliada ni dócil; solo vuelve a poder elegir.</p>\n<p><em>Activación — Encender la Chispa: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Enfrentada contra Resolución + Compostura del objetivo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-sosegar",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.charisma"
+      },
+      "d2": {
+        "path": "skills.insight"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-sosegar",
+      "camino": "imbuido",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

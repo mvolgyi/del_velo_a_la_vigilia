@@ -1,0 +1,52 @@
+{
+  "_id": "OJh3OkqAWt9hopa1",
+  "_key": "!items!OJh3OkqAWt9hopa1",
+  "name": "Bengala / pistola de bengalas",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol-brass.webp",
+  "folder": "CyTXIpzvobmRjGOW",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Compostura + Armas de fuego</td></tr><tr><th>Daño</th><td>+1 agravado</td></tr><tr><th>Dif. / regla</th><td>Solo corta distancia; ilumina la escena entera</td></tr><tr><th>Ocultamiento</th><td>—</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "weaponType": "ranged",
+    "weaponvalue": 1,
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {
+      "d1": {
+        "path": "attributes.composure"
+      },
+      "d2": {
+        "path": "skills.firearms"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "arma",
+      "arma": "bengala",
+      "categoria": "especial",
+      "agravado": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

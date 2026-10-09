@@ -1,0 +1,89 @@
+{
+  "_id": "9iZfEE32ZgK1g9mi",
+  "_key": "!actors!9iZfEE32ZgK1g9mi",
+  "name": "Matón de Somnia",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Matón de Somnia",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Matón corporativo de seguridad privada al servicio de la clínica"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 5
+      },
+      "social": {
+        "value": 3
+      },
+      "mental": {
+        "value": 2
+      }
+    },
+    "exceptionaldicepools": {
+      "brawl": {
+        "value": 6
+      },
+      "intimidation": {
+        "value": 6
+      },
+      "drive": {
+        "value": 6
+      },
+      "firearms": {
+        "value": 5
+      }
+    },
+    "health": {
+      "max": 6,
+      "value": 6,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 4,
+      "value": 4,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 2,
+      "strongest": 3
+    },
+    "description": "<p>Personal de «seguridad corporativa» contratado por Somnia Biotech o por sus financistas. Mortal, no sabe (o no quiere saber) qué pasa en la planta vieja. Maneja los autos negros de la empresa que vigilan las casas de las familias de la célula, «entrevista» a los antiguos profesores del Doctorando y aprieta a los conocidos de los PJs.</p><p>Profesional y discreto en público, brutal cuando no hay testigos.</p>",
+    "biography": "<h3>Debilidades</h3><ul><li>Mortal: sin poderes ni Resiliencia.</li><li>Cobra por hora: si la situación se vuelve sobrenatural o sale a la luz, abandona.</li></ul>",
+    "privatenotes": "<p><strong>Interludio y Acto 2:</strong> la presión sobre las Piedras de Toque. Usalo para que la célula sienta que la inacción tiene precio.</p><p><strong>Después:</strong> los «Trajes Grises» de los financistas de Somnia lo envían a investigar las ruinas y a ir tras las Piedras de Toque. Usalo en grupos iguales al Peligro actual.</p><p><em>Cifras:</em> sugeridas, basadas en los mortales del Capítulo Seis (sicaria humana 3/2, Salud 6, FV 4).</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "maton-somnia"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

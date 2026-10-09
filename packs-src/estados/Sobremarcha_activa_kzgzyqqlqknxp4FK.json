@@ -1,0 +1,51 @@
+{
+  "_id": "kzgzyqqlqknxp4FK",
+  "_key": "!items!kzgzyqqlqknxp4FK",
+  "name": "Sobremarcha activa",
+  "type": "condition",
+  "img": "icons/svg/lightning.svg",
+  "folder": "6usSnsq06I0UhvAh",
+  "sort": 0,
+  "system": {
+    "description": "<p>Durante la escena: <strong>actúa primero en cada turno</strong> (empates con Celeridad real: Destreza comparada) y <strong>+2 dados a reservas basadas en Destreza</strong>. Al terminar la escena, aplicá <em>Bajón de Sobremarcha</em> (salvo con <em>Aterrizaje Suave</em>).</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Sobremarcha",
+        "value": "2",
+        "paths": [
+          "attributes.dexterity"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "sobremarcha-activa",
+      "camino": "gen2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

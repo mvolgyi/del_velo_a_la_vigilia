@@ -1,0 +1,39 @@
+{
+  "_id": "tsTlOQwzkJnAelMQ",
+  "_key": "!items!tsTlOQwzkJnAelMQ",
+  "name": "Santuario (Quemar)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Custodia.</em></p><p>Quemando la Chispa al trazarla, la Custodia dura hasta el amanecer y protege también a los mortales que duerman dentro de pesadillas y poderes mentales sobrenaturales.</p><p><em>Quemar: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-custodia",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-custodia",
+      "camino": "imbuido",
+      "mejora": "santuario",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

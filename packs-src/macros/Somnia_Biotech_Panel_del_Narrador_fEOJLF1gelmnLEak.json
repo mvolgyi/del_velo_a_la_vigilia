@@ -1,0 +1,25 @@
+{
+  "_id": "fEOJLF1gelmnLEak",
+  "_key": "!macros!fEOJLF1gelmnLEak",
+  "name": "Somnia Biotech — Panel del Narrador",
+  "type": "script",
+  "scope": "global",
+  "img": "icons/svg/book.svg",
+  "command": "game.modules.get(\"del-velo-a-la-vigilia\").api.abrirPanel();",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "macro",
+      "macro": "panel"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

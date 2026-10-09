@@ -1,0 +1,46 @@
+{
+  "_id": "zGgTVD4pCnJG8FOK",
+  "_key": "!items!zGgTVD4pCnJG8FOK",
+  "name": "Plasma Universal — Resolución + Medicina",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 500,
+  "system": {
+    "description": "<p><em>≈ Bálsamo</em></p>\n<p>La sangre del Modificado, saturada de factores de coagulación y compuestos regenerativos, es un suero de trauma ambulante. El problema es que hay que sacársela.</p>\n<p><strong>Sistema.</strong></p><p>Un turno de transfusión de campo (el kit cabe en un bolsillo) y Resolución + Medicina exigiendo la carne. Por cada éxito, cura 1 nivel de daño superficial del objetivo, y el Modificado sufre 1 nivel de daño superficial por la extracción. El espejo exacto del Bálsamo del Imbuido: alguien tiene que pagarlo, y acá se paga en sangre literal. No funciona sobre uno mismo.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-plasma-universal",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.medicine"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-plasma-universal",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

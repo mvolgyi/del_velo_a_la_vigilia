@@ -1,0 +1,46 @@
+{
+  "_id": "Cap2c3corgnmet4c",
+  "_key": "!items!Cap2c3corgnmet4c",
+  "name": "Rastreador de Firma — Resolución + Ciencias",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 800,
+  "system": {
+    "description": "<p><em>≈ Señalar</em></p>\n<p>Una muestra en un capilar, un sensor que no mide nada que la ciencia tenga nombre para medir, y una aguja que apunta.</p>\n<p><strong>Sistema.</strong></p><p>Requiere una muestra de la criatura (sangre, tejido, un objeto impregnado). Resolución + Ciencias forzando el prototipo. Éxito: dirección general e impresión de distancia. Crítico: el Rastreador triangula y da una ubicación aproximada en el mapa. La firma se degrada al amanecer, o antes si la criatura cruza agua corriente, sale de la ciudad o muere.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-rastreador-de-firma",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.science"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-rastreador-de-firma",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

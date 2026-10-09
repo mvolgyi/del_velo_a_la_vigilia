@@ -1,0 +1,39 @@
+{
+  "_id": "dfEgCu0eNe51Z2qM",
+  "_key": "!items!dfEgCu0eNe51Z2qM",
+  "name": "Jerarquía",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Mirada de Depredador.</em></p><p>Si el Modificado gana la enfrentada por 3+ éxitos, la criatura además debe gastar 1 de Fuerza de Voluntad para atacarlo directamente durante esta escena. Instinto puro: a ese no.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-mirada-de-depredador",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-mirada-de-depredador",
+      "camino": "modificado",
+      "mejora": "jerarquia",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

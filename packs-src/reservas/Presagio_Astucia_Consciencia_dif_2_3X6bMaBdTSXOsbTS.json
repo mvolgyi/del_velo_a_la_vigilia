@@ -1,0 +1,46 @@
+{
+  "_id": "3X6bMaBdTSXOsbTS",
+  "_key": "!items!3X6bMaBdTSXOsbTS",
+  "name": "Presagio — Astucia + Consciencia (dif. 2)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 700,
+  "system": {
+    "description": "<p><em>Foresee</em></p>\n<p>Medio segundo de ventaja. El Imbuido ve el cuchillo antes de que la mano se mueva.</p>\n<p><strong>Sistema.</strong></p><p>Se enciende la Chispa al inicio de la escena con Astucia + Consciencia (dif. 2). Si tiene éxito, durante la escena el Imbuido no puede ser emboscado ni sorprendido, y una vez por escena puede obligar a repetir una tirada (propia, de un aliado o de un enemigo) que acabe de resolverse, quedándose con el segundo resultado.</p>\n<p><em>Activación — Encender la Chispa: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-presagio",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.wits"
+      },
+      "d2": {
+        "path": "skills.awareness"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-presagio",
+      "camino": "imbuido",
+      "dificultad": 2,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

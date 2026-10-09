@@ -1,0 +1,46 @@
+{
+  "_id": "22pzlS5nfuyA1URJ",
+  "_key": "!items!22pzlS5nfuyA1URJ",
+  "name": "Kit de Trauma — Inteligencia + Medicina",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 500,
+  "system": {
+    "description": "<p><em>≈ Bálsamo</em></p>\n<p>Un maletín de emergencias que hace cosas que un maletín no hace: coagulantes que no existen en el mercado, un estimulador que reinicia lo que no debería reiniciarse.</p>\n<p><strong>Sistema.</strong></p><p>Un turno de trabajo sobre el paciente y Inteligencia + Medicina forzando el prototipo. Cada éxito cura 1 nivel de daño superficial del objetivo. A diferencia del Bálsamo, el daño no se transfiere: lo paga el maletín. Cada uso consume reactivos: el Kit admite (Inteligencia del Iluminado) usos por historia antes de necesitar una escena de taller para reponerlo. No funciona sobre el propio Iluminado con las manos temblando: sobre uno mismo, −2 dados.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Sobre uno mismo, −2 dados.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-kit-de-trauma",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.intelligence"
+      },
+      "d2": {
+        "path": "skills.medicine"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-kit-de-trauma",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

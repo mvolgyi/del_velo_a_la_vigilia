@@ -1,0 +1,39 @@
+{
+  "_id": "bajxe1NAYfVkfiNf",
+  "_key": "!items!bajxe1NAYfVkfiNf",
+  "name": "Instante Robado (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Glándula de Sobremarcha.</em></p><p>Desgarrando, una vez por escena el Modificado toma una acción física adicional en su turno (moverse y atacar, atacar dos veces, sacar a alguien de la línea de fuego y disparar). La copia mortal de la Celeridad de verdad, y el motivo por el que este injerto existe.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-glandula-de-sobremarcha",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-glandula-de-sobremarcha",
+      "camino": "gen2",
+      "mejora": "instante-robado",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

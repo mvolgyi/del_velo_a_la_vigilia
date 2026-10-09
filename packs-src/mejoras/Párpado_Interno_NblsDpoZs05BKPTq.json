@@ -1,0 +1,39 @@
+{
+  "_id": "NblsDpoZs05BKPTq",
+  "_key": "!items!NblsDpoZs05BKPTq",
+  "name": "Párpado Interno",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Ojos de la Bestia.</em></p><p>Una membrana nictitante que se cierra a voluntad: oculta el brillo (y protege de flashes y gas lacrimógeno con +2 dados a resistir), a cambio de un velo leve en la visión mientras está bajada (−1 a Percepción visual).</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-ojos-de-la-bestia",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-ojos-de-la-bestia",
+      "camino": "gen2",
+      "mejora": "parpado-interno",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "62xFjZPXiec7OFTE",
+  "_key": "!actors!62xFjZPXiec7OFTE",
+  "name": "Durmiente",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Durmiente",
+    "actorLink": false,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Paciente desaparecido de Somnia, «apagado» por la sedación y la sangría"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 2
+      },
+      "social": {
+        "value": 1
+      },
+      "mental": {
+        "value": 2
+      }
+    },
+    "exceptionaldicepools": {
+      "awareness": {
+        "value": 4
+      }
+    },
+    "health": {
+      "max": 4,
+      "value": 4,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 2,
+      "value": 2,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 1,
+      "strongest": 2
+    },
+    "description": "<p>Uno de los voluntarios de los ensayos del sueño de Somnia Biotech. Sedados durante semanas en el ala de ensayos o conectados al relicario de la cripta, les drenan el plasma para alimentar a Sor Anunciación. Están pálidos, anémicos, con marcas de vías en los brazos y la mirada perdida.</p><p>Los dados de alta vuelven a la calle «apagados»: confundidos, con lagunas de memoria y miedo a dormir. Comparten pesadillas recurrentes con una mujer que reza y, tras el epílogo, se despiertan a media noche balbuceando rezos en idiomas que no conocen.</p>",
+    "biography": "<h3>Debilidades</h3><ul><li><strong>Anemia y sedación</strong>: −2 dados a toda acción física; no puede correr más de un turno sin ayuda.</li><li><strong>Vínculo con Sor Anunciación</strong>: sus sueños la conectan a la priora; ella podría usarlos para encontrar a quien los cuide.</li></ul>",
+    "privatenotes": "<p><strong>Acto 1:</strong> la víctima de la que Marcos se alimenta en la Escena del Velo.</p><p><strong>Acto 2:</strong> «El Durmiente Dado de Alta»: cuidarlo sin pedir nada da +1 Fe; tratarlo como sujeto de estudio da +1 Método.</p><p><strong>Acto 3:</strong> varios están conectados al relicario; en la huida, alguien tiene que cargar a uno escaleras arriba.</p><p><strong>Después:</strong> hilo abierto de «Los Durmientes Despiertos».</p><p><em>Cifras:</em> todas sugeridas; es un personaje a proteger, no un rival.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "durmiente"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

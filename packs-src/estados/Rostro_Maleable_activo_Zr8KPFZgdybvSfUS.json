@@ -1,0 +1,37 @@
+{
+  "_id": "Zr8KPFZgdybvSfUS",
+  "_key": "!items!Zr8KPFZgdybvSfUS",
+  "name": "Rostro Maleable activo",
+  "type": "condition",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "6usSnsq06I0UhvAh",
+  "sort": 0,
+  "system": {
+    "description": "<p>Los rasgos cambiaron lo suficiente para burlar a testigos, cámaras de seguridad, comparación con fotos y reconocimiento casual. No cambia altura, contextura, voz ni manos. Dura hasta revertirlo (otros 10 minutos) o hasta el próximo sueño profundo. Anotá en el nombre del estado qué cara lleva.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "rostro-maleable-activo",
+      "camino": "gen2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

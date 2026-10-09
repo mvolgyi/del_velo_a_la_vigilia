@@ -1,0 +1,581 @@
+{
+  "_id": "uH16g5FyHIKxoG5J",
+  "_key": "!scenes!uH16g5FyHIKxoG5J",
+  "name": "Actos 1 y 3 · Somnia Biotech — la planta vieja",
+  "folder": "jO7QZOk0HboPNns0",
+  "navigation": true,
+  "navOrder": 15,
+  "width": 1800,
+  "height": 1500,
+  "padding": 0.25,
+  "grid": {
+    "type": 1,
+    "size": 150,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.95,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "S4mmsrjVJsKUO3bY",
+      "name": "Suelo",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/somnia-planta-vieja.webp",
+        "color": "#000000"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!uH16g5FyHIKxoG5J.S4mmsrjVJsKUO3bY"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "uIb9j3kxF0bK4wEt",
+      "c": [
+        0,
+        600,
+        150,
+        600
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.uIb9j3kxF0bK4wEt"
+    },
+    {
+      "_id": "Xy8eXIzAqYwuGtWR",
+      "c": [
+        600,
+        600,
+        750,
+        600
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.Xy8eXIzAqYwuGtWR"
+    },
+    {
+      "_id": "CBLvU5RpEA3zNHUr",
+      "c": [
+        900,
+        600,
+        1500,
+        600
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.CBLvU5RpEA3zNHUr"
+    },
+    {
+      "_id": "cmjmNAV9kU5eXkG7",
+      "c": [
+        0,
+        900,
+        150,
+        900
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.cmjmNAV9kU5eXkG7"
+    },
+    {
+      "_id": "E7u9fjKsQ39p3YsR",
+      "c": [
+        600,
+        900,
+        1350,
+        900
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.E7u9fjKsQ39p3YsR"
+    },
+    {
+      "_id": "wfOJXa5HcHcEAzi2",
+      "c": [
+        1500,
+        900,
+        1650,
+        900
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.wfOJXa5HcHcEAzi2"
+    },
+    {
+      "_id": "n7ibRU4OSZR6Fs16",
+      "c": [
+        0,
+        600,
+        0,
+        900
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.n7ibRU4OSZR6Fs16"
+    },
+    {
+      "_id": "n7BTxWaMpx6etcHA",
+      "c": [
+        150,
+        450,
+        150,
+        600
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.n7BTxWaMpx6etcHA"
+    },
+    {
+      "_id": "seNNqndc2zNnagY5",
+      "c": [
+        150,
+        900,
+        150,
+        1350
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.seNNqndc2zNnagY5"
+    },
+    {
+      "_id": "RKTrqOwUzPXuQkel",
+      "c": [
+        150,
+        450,
+        675,
+        450
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.RKTrqOwUzPXuQkel"
+    },
+    {
+      "_id": "rxZknj0vxsnfbaD2",
+      "c": [
+        825,
+        450,
+        975,
+        450
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.rxZknj0vxsnfbaD2"
+    },
+    {
+      "_id": "oE5wTM1hHb5GXV6m",
+      "c": [
+        1125,
+        450,
+        1350,
+        450
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.oE5wTM1hHb5GXV6m"
+    },
+    {
+      "_id": "XpCyeqjU8KXR2vUF",
+      "c": [
+        1500,
+        450,
+        1650,
+        450
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.XpCyeqjU8KXR2vUF"
+    },
+    {
+      "_id": "BRxKU2raYqBlf0BY",
+      "c": [
+        150,
+        1050,
+        300,
+        1050
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.BRxKU2raYqBlf0BY"
+    },
+    {
+      "_id": "tTadKSeCaIM2MEfX",
+      "c": [
+        450,
+        1050,
+        825,
+        1050
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.tTadKSeCaIM2MEfX"
+    },
+    {
+      "_id": "lbBMR5g3GqYjTLUG",
+      "c": [
+        975,
+        1050,
+        1275,
+        1050
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.lbBMR5g3GqYjTLUG"
+    },
+    {
+      "_id": "hWO6IUW4iyjU5OR3",
+      "c": [
+        1425,
+        1050,
+        1650,
+        1050
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.hWO6IUW4iyjU5OR3"
+    },
+    {
+      "_id": "pvwGhmrS96RSLfPr",
+      "c": [
+        600,
+        150,
+        600,
+        450
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.pvwGhmrS96RSLfPr"
+    },
+    {
+      "_id": "v3AyvhgnN39HUkEC",
+      "c": [
+        600,
+        600,
+        600,
+        900
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.v3AyvhgnN39HUkEC"
+    },
+    {
+      "_id": "fpsxS86ytyP4vHbG",
+      "c": [
+        600,
+        150,
+        1650,
+        150
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.fpsxS86ytyP4vHbG"
+    },
+    {
+      "_id": "lCRX7qfwUKq1JLMI",
+      "c": [
+        900,
+        150,
+        900,
+        450
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.lCRX7qfwUKq1JLMI"
+    },
+    {
+      "_id": "exeyPymR0awji5E3",
+      "c": [
+        1200,
+        150,
+        1200,
+        450
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.exeyPymR0awji5E3"
+    },
+    {
+      "_id": "93vSurSYRNiEkarw",
+      "c": [
+        1650,
+        150,
+        1650,
+        1350
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.93vSurSYRNiEkarw"
+    },
+    {
+      "_id": "gyseXbDSUYMagUot",
+      "c": [
+        1050,
+        600,
+        1050,
+        900
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.gyseXbDSUYMagUot"
+    },
+    {
+      "_id": "ASSkZ66DFImiv1r9",
+      "c": [
+        1050,
+        1050,
+        1050,
+        1350
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.ASSkZ66DFImiv1r9"
+    },
+    {
+      "_id": "tCIsOfqPBLQB7Xgi",
+      "c": [
+        150,
+        1350,
+        1650,
+        1350
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.tCIsOfqPBLQB7Xgi"
+    },
+    {
+      "_id": "t29xGYaNadWitPrr",
+      "c": [
+        750,
+        1050,
+        750,
+        1350
+      ],
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.t29xGYaNadWitPrr"
+    },
+    {
+      "_id": "ONuLYHjmBqSCiIDF",
+      "c": [
+        300,
+        1050,
+        450,
+        1050
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.ONuLYHjmBqSCiIDF"
+    },
+    {
+      "_id": "J7qzI7KIBQMb3Yz3",
+      "c": [
+        675,
+        450,
+        825,
+        450
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.J7qzI7KIBQMb3Yz3"
+    },
+    {
+      "_id": "zh0pGb9njvOLJCfY",
+      "c": [
+        975,
+        450,
+        1125,
+        450
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.zh0pGb9njvOLJCfY"
+    },
+    {
+      "_id": "toZmbK0WRHNjI3dG",
+      "c": [
+        1350,
+        450,
+        1500,
+        450
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.toZmbK0WRHNjI3dG"
+    },
+    {
+      "_id": "SvgtmuHcOiV3xYer",
+      "c": [
+        750,
+        600,
+        900,
+        600
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.SvgtmuHcOiV3xYer"
+    },
+    {
+      "_id": "gmI9z4QSKt2vy4d4",
+      "c": [
+        1500,
+        600,
+        1650,
+        600
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.gmI9z4QSKt2vy4d4"
+    },
+    {
+      "_id": "wDLCUkXwytqgcvYR",
+      "c": [
+        1350,
+        900,
+        1500,
+        900
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.wDLCUkXwytqgcvYR"
+    },
+    {
+      "_id": "jXfEfPaygRDeiv0h",
+      "c": [
+        825,
+        1050,
+        975,
+        1050
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.jXfEfPaygRDeiv0h"
+    },
+    {
+      "_id": "jPnIFEUe4awgy7wv",
+      "c": [
+        1275,
+        1050,
+        1425,
+        1050
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "stoneBasic",
+      "_key": "!scenes.walls!uH16g5FyHIKxoG5J.jPnIFEUe4awgy7wv"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "AOHaCDbPQPjmWclE",
+      "x": 968,
+      "y": 765,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 0,
+        "dim": 10,
+        "color": "#4fd1a5",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!uH16g5FyHIKxoG5J.AOHaCDbPQPjmWclE"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "ng0dLuIVPodBvtU4",
+      "name": "A la planta nueva",
+      "color": "#7b1c1c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 600,
+          "width": 150,
+          "height": 300,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "hpYA57ZYtFHyf9Br",
+          "name": "A la planta nueva",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.BPMiFLBkIFJzWR7T.Region.j3e4Y9k1d3pIc7J6"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!uH16g5FyHIKxoG5J.ng0dLuIVPodBvtU4.hpYA57ZYtFHyf9Br"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!uH16g5FyHIKxoG5J.ng0dLuIVPodBvtU4"
+    },
+    {
+      "_id": "rzz58ChmeODwzzVY",
+      "name": "Escalera de piedra a la cripta",
+      "color": "#7b1c1c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1440,
+          "y": 1080,
+          "width": 150,
+          "height": 240,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "a6doBtGqIFAcpybG",
+          "name": "Escalera de piedra a la cripta",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.V4l1mjMxnYhQa1SD.Region.EwtRbSpwM7Y0L6uL"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!uH16g5FyHIKxoG5J.rzz58ChmeODwzzVY.a6doBtGqIFAcpybG"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!uH16g5FyHIKxoG5J.rzz58ChmeODwzzVY"
+    }
+  ],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "somnia-planta-vieja",
+      "nota": "El ala antigua de la clínica: terrazo gastado, cañerías vistas, consultorios abandonados. La entrada es por el oeste, desde la pesada puerta de la planta nueva (región). Durante el apagón la única luz es la del rack prohibido, que sigue al máximo. El Limpiador sabe qué baldosas crujen y qué pasillos de mantenimiento no tienen cámaras. Al sur, la puerta de piedra de la que venían los rezos: detrás, la escalera baja al pasillo lateral de la cripta (región). Muebles móviles NO pintados (colocarlos como tiles): palet.",
+      "plano": "somnia-planta-vieja",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

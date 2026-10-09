@@ -1,0 +1,433 @@
+{
+  "_id": "VwfIrbvgIADJYhqL",
+  "_key": "!actors!VwfIrbvgIADJYhqL",
+  "name": "El Doctorando",
+  "type": "hunter",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "2cWtDPtMzAPnTSqk",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "El Doctorando",
+    "actorLink": true,
+    "disposition": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "headers": {
+      "concept": "Becario de investigación consumido por un dataset que no debería existir",
+      "chronicle": "Del Velo a la Vigilia",
+      "ambition": "Defender la tesis y conseguir un postdoctorado lejos de Málaga.",
+      "desire": "Abrir el dataset prohibido una vez más.",
+      "touchstones": "<p>Su antigua directora de tesis en la universidad, la catedrática Inés Montero. Somnia envía matones a «entrevistar» a sus antiguos profesores: si ella sale lastimada, es por los datos que él copió.</p>",
+      "creedfields": "Obtener información durante la Caza: documentación, allanamiento de morada e interrogatorio."
+    },
+    "attributes": {
+      "strength": {
+        "value": 1
+      },
+      "dexterity": {
+        "value": 2
+      },
+      "stamina": {
+        "value": 2
+      },
+      "charisma": {
+        "value": 2
+      },
+      "manipulation": {
+        "value": 2
+      },
+      "composure": {
+        "value": 3
+      },
+      "intelligence": {
+        "value": 4
+      },
+      "wits": {
+        "value": 3
+      },
+      "resolve": {
+        "value": 3
+      }
+    },
+    "skills": {
+      "academics": {
+        "value": 3
+      },
+      "science": {
+        "value": 3
+      },
+      "medicine": {
+        "value": 3
+      },
+      "investigation": {
+        "value": 2
+      },
+      "technology": {
+        "value": 2
+      },
+      "occult": {
+        "value": 2
+      },
+      "insight": {
+        "value": 2
+      },
+      "persuasion": {
+        "value": 2
+      },
+      "awareness": {
+        "value": 1
+      },
+      "etiquette": {
+        "value": 1
+      },
+      "finance": {
+        "value": 1
+      },
+      "stealth": {
+        "value": 1
+      },
+      "athletics": {
+        "value": 1
+      },
+      "subterfuge": {
+        "value": 1
+      },
+      "drive": {
+        "value": 1
+      }
+    },
+    "health": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 6,
+      "value": 6,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "bio": {
+      "history": "<p>Becario de investigación con convenio entre la universidad y Somnia Biotech. Le dieron acceso a datos anonimizados de los ensayos del sueño y encontró algo que no cerraba: pacientes con hemogramas imposibles, curvas de anemia que se repetían en ciclos, voluntarios que «salían del estudio» sin alta. Copió el dataset completo sin autorización y desde entonces no piensa en otra cosa.</p><p>La noche del apagón estaba trabajando hasta tarde, consumido por esos números. Cuando su monitor se apaga, sale al pasillo buscando al personal de mantenimiento o al guardia, y termina frente al vidrio del ala de ensayos viendo la explicación de sus gráficos: Marcos bebiendo de un durmiente.</p><p>En el Acto 2 sabe exactamente qué buscar en los servidores del laboratorio de Salas; en el Acto 3 es el traductor del horror, el que entiende la atrocidad biológica de la cripta. Si en la huida salva el disco duro y en el epílogo recibe el cuaderno de Mara, se convierte en el Heredero del Taller.</p>"
+    },
+    "notes": "<p><strong>Especialidades:</strong> Medicina (análisis clínicos), Academicismo (bioestadística), Ciencias (hematología)</p><p><strong>Ventajas y Defectos sugeridos:</strong></p><ul><li>Facultad: Acceso Global</li><li>Facultad: Biblioteca</li><li>Contactos ●● (investigadores y técnicos de laboratorio)</li><li>Aliados ●● (dos compañeros del grupo de investigación)</li><li>Estatus ● (becario de la universidad)</li><li>Lingüística ● (inglés y alemán académico)</li><li>Recursos ● (beca)</li><li>Defecto: Secreto Oscuro ● (copió sin autorización el dataset de pacientes de Somnia)</li><li>Defecto: Adicción ● (anfetaminas para estudiar)</li></ul><p><strong>Set del Arsenal:</strong> Set del Investigador — sin ficha: kit de forense amateur, lockpicks</p><p><strong>Camino probable según la crónica:</strong> metodo</p>"
+  },
+  "items": [
+    {
+      "name": "Inquisitivos",
+      "type": "creed",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "edges": "",
+        "drives": "",
+        "desperationFields": "Obtener información durante la Caza: documentación, allanamiento de morada e interrogatorio."
+      },
+      "_id": "tkmMNdh9A8GKQmi6",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.tkmMNdh9A8GKQmi6"
+    },
+    {
+      "name": "Curiosidad",
+      "type": "drive",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "redemption": "<p>necesita entender qué es lo que vio a través del vidrio y por qué sus datos tenían esa forma. Se redime cuando la célula descubre información nueva sobre su presa.</p>"
+      },
+      "_id": "uUn2w1WamRRBGgru",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.uUn2w1WamRRBGgru"
+    },
+    {
+      "name": "Pistola liviana (.22, .380)",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "pistola-liviana"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Compostura + Armas de fuego</td></tr><tr><th>Daño</th><td>+2</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>2</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "ranged",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.composure"
+          },
+          "d2": {
+            "path": "skills.firearms"
+          }
+        }
+      },
+      "_id": "d5xPqT4Hm5eHndK9",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.d5xPqT4Hm5eHndK9"
+    },
+    {
+      "name": "Táser / picana",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "taser"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Destreza + Pelea (o Destreza + Armas de fuego)</td></tr><tr><th>Daño</th><td>+1</td></tr><tr><th>Dif. / regla</th><td>Con margen 2+: el mortal queda incapacitado 1 turno. A vampiros: solo superficial, no incapacita</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 1,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.dexterity"
+          },
+          "d2": {
+            "path": "skills.brawl"
+          }
+        }
+      },
+      "_id": "cnH8CAU2gGLLdkgU",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.cnH8CAU2gGLLdkgU"
+    },
+    {
+      "name": "Cuchillo, navaja",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "cuchillo"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Cuerpo a cuerpo</td></tr><tr><th>Daño</th><td>+2</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.melee"
+          }
+        }
+      },
+      "_id": "mGp2lFbkADUW53Of",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.mGp2lFbkADUW53Of"
+    },
+    {
+      "name": "Espejo, cámara, grabadora",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "espejo-camara-grabadora"
+        }
+      },
+      "system": {
+        "description": "<p>Herramientas de identificación: reflejo raro, sin imagen térmica coherente, voces que no estaban. +1 dado a Investigación relacionada</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "k1UmE6XmVX58VKRy",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.k1UmE6XmVX58VKRy"
+    },
+    {
+      "name": "Espejo, cámara, grabadora",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "espejo-camara-grabadora"
+        }
+      },
+      "system": {
+        "description": "<p>Herramientas de identificación: reflejo raro, sin imagen térmica coherente, voces que no estaban. +1 dado a Investigación relacionada</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "BjOLzCUP4tiLKEm2",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.BjOLzCUP4tiLKEm2"
+    },
+    {
+      "name": "Molotov",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "molotov"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Destreza + Atletismo</td></tr><tr><th>Daño</th><td>+2 agravado</td></tr><tr><th>Dif. / regla</th><td>Dif. 2 lanzarla a corta, dif. 3 a media. Prende el escenario: la cronista lo va a usar</td></tr><tr><th>Ocultamiento</th><td>—</td></tr><tr><th>Recursos</th><td>1 (nafta y trapo)</td></tr></tbody></table><p>Daño: +2 agravado en el área</p><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "ranged",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.dexterity"
+          },
+          "d2": {
+            "path": "skills.athletics"
+          }
+        }
+      },
+      "_id": "BseTJMC0qbsL05fD",
+      "_key": "!actors.items!VwfIrbvgIADJYhqL.BseTJMC0qbsL05fD"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pj",
+      "pj": "doctorando",
+      "caminoProbable": "metodo"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

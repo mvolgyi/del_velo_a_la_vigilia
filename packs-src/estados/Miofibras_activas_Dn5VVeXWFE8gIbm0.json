@@ -1,0 +1,51 @@
+{
+  "_id": "Dn5VVeXWFE8gIbm0",
+  "_key": "!items!Dn5VVeXWFE8gIbm0",
+  "name": "Miofibras activas",
+  "type": "condition",
+  "img": "icons/svg/upgrade.svg",
+  "folder": "6usSnsq06I0UhvAh",
+  "sort": 0,
+  "system": {
+    "description": "<p>Durante la escena: <strong>+2 dados a todas las reservas basadas en Fuerza</strong>, y proezas sin tirada que un humano entrenado no puede hacer (saltar y agarrarse de un balcón, reventar una puerta de una patada, cargar a un adulto herido a trote sostenido). Precio propio: cada fallo total en una tirada de Fuerza es 1 de daño superficial propio (salvo con <em>Anclajes</em>).</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Miofibras",
+        "value": "2",
+        "paths": [
+          "attributes.strength"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "miofibras-activas",
+      "camino": "gen2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

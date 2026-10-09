@@ -1,0 +1,25 @@
+{
+  "_id": "HxvUA0ABrnFJci4B",
+  "_key": "!macros!HxvUA0ABrnFJci4B",
+  "name": "Balizas Fe / Método / Carne",
+  "type": "script",
+  "scope": "global",
+  "img": "icons/svg/light.svg",
+  "command": "game.modules.get(\"del-velo-a-la-vigilia\").api.ajustarBalizas();",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "macro",
+      "macro": "balizas"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

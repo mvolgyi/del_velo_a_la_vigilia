@@ -1,0 +1,92 @@
+{
+  "_id": "nSObabU1QRNcyMnw",
+  "_key": "!actors!nSObabU1QRNcyMnw",
+  "name": "Ghoul de Somnia",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Ghoul de Somnia",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "ghoul",
+    "headers": {
+      "concept": "Sirviente humano adicto a la sangre que limpia los rastros de la clínica"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 5
+      },
+      "social": {
+        "value": 3
+      },
+      "mental": {
+        "value": 2
+      }
+    },
+    "exceptionaldicepools": {
+      "brawl": {
+        "value": 6
+      },
+      "melee": {
+        "value": 6
+      },
+      "firearms": {
+        "value": 6
+      },
+      "intimidation": {
+        "value": 5
+      },
+      "larceny": {
+        "value": 5
+      }
+    },
+    "health": {
+      "max": 7,
+      "value": 7,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 3,
+      "value": 3,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 1
+    },
+    "generaldifficulty": {
+      "normal": 2,
+      "strongest": 3
+    },
+    "description": "<p>Enfermero nocturno, camillero, chofer de ambulancia o personal de mantenimiento de Somnia. Bebe sangre de Marcos (o Compuesto A) y a cambio limpia rastros: hace desaparecer historias clínicas, traslada durmientes a la cripta y se encarga de los testigos. Como dice Elías: «Tipos que te venderían a su propia madre por una gota de esa mierda».</p><p>Leal por adicción, no por convicción. Sigue órdenes, se mueve en grupo y no hace preguntas.</p>",
+    "biography": "<h3>Poderes</h3><ul><li><strong>Vigor del ghoul</strong> (Potencia 1): +1 al daño cuerpo a cuerpo y fuerza por encima de lo humano.</li><li>Cura el daño superficial más rápido que un mortal mientras tenga sangre en el cuerpo.</li></ul><h3>Debilidades</h3><ul><li><strong>Adicción y vínculo de sangre</strong>: se lo puede sobornar o desestabilizar con la promesa (o la amenaza) de la sangre. Sin su dosis, −2 dados a todo.</li><li>Mortal: sin Resiliencia, recibe daño normal de armas comunes.</li></ul>",
+    "privatenotes": "<p>Usalo en grupos iguales al Peligro actual, como el libro sugiere para los sirvientes. «Ghoul 3» es la versión rápida del libro.</p><p><strong>Acto 2:</strong> custodia el laboratorio satélite de Salas o persigue a la célula si la infiltración falla.</p><p><strong>Acto 3:</strong> intenta cruzar la puerta de piedra mientras alguien la sostiene en la huida.</p><p><em>Cifras:</em> sugeridas, basadas en el ejemplo «Ghoul 3» y en los sirvientes del Capítulo Seis.</p>",
+    "settings": {
+      "enableDisciplines": true
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "ghoul-somnia"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

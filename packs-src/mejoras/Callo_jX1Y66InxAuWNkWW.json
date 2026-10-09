@@ -1,0 +1,39 @@
+{
+  "_id": "jX1Y66InxAuWNkWW",
+  "_key": "!items!jX1Y66InxAuWNkWW",
+  "name": "Callo",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Memoria Táctil.</em></p><p>Las lecturas violentas normalmente cuestan 1 de Fuerza de Voluntad por el impacto somático. Con esta mejora, no. Las yemas de los dedos también hacen callo.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-memoria-tactil",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-memoria-tactil",
+      "camino": "modificado",
+      "mejora": "callo",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

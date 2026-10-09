@@ -1,0 +1,41 @@
+{
+  "_id": "b47fiptguiYZMPYC",
+  "_key": "!items!b47fiptguiYZMPYC",
+  "name": "La obsesión (La Ciencia del Umbral)",
+  "type": "feature",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": null,
+  "sort": 0,
+  "system": {
+    "description": "<p>Todo Iluminado gana un Defecto de 1 punto que refleja lo que el método le hizo: no puede dejar un problema sin resolver, habla solo, desconfía de todo lo que no midió él mismo, duerme en el taller. El espejo de la cicatriz del Imbuido.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "points": 1,
+    "featuretype": "flaw"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "rasgo",
+      "camino": "iluminado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

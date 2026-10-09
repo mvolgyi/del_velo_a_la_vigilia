@@ -1,0 +1,41 @@
+{
+  "_id": "iqLacX4LQmgMVR0a",
+  "_key": "!items!iqLacX4LQmgMVR0a",
+  "name": "La marca de la carne (La Carne Templada)",
+  "type": "feature",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": null,
+  "sort": 0,
+  "system": {
+    "description": "<p>Cada Modificación (incluido el Sentido Vestigial) deja una marca física permanente que un examen médico detectaría al instante y que a simple vista se nota como algo raro: cicatrices que no cierran del todo, una vena oscura, un olor tenue a hospital. Con la primera Modificación el personaje gana un Defecto de 1 punto que refleja esto (no puede sacarse la remera en público, los perros le ladran, los controles médicos son un problema). No se acumulan Defectos por cada mod, pero las marcas sí.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "points": 1,
+    "featuretype": "flaw"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "rasgo",
+      "camino": "modificado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

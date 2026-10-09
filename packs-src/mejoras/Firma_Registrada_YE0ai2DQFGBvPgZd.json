@@ -1,0 +1,39 @@
+{
+  "_id": "YE0ai2DQFGBvPgZd",
+  "_key": "!items!YE0ai2DQFGBvPgZd",
+  "name": "Firma Registrada",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "OfRFmL1eZGRDgg7u",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Designador.</em></p><p>Una criatura designada queda en la base de datos del Iluminado: la Lente Espectral la reconoce automáticamente en encuentros futuros, sin tirada, mientras el Iluminado la tenga a la vista.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-designador",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-ilu-designador",
+      "camino": "iluminado",
+      "mejora": "firma-registrada",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "SIVZ1Ur2N67HE9J7",
+  "_key": "!items!SIVZ1Ur2N67HE9J7",
+  "name": "Custodia — Resolución + Ocultismo",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "DWIGCWPWQ5ZCDDV3",
+  "sort": 200,
+  "system": {
+    "description": "<p><em>Ward</em></p>\n<p>El Imbuido traza un umbral (con sal, con tiza, con el propio cuerpo plantado en la puerta) y lo sobrenatural duda en cruzarlo.</p>\n<p><strong>Sistema.</strong></p><p>Un turno para trazar el límite de una habitación o vehículo, y Resolución + Ocultismo encendiendo la Chispa. Los éxitos quedan como reserva. Cada sobrenatural que intente cruzar debe superar esos éxitos con una tirada de Resolución + Resistencia (o el pool que la cronista juzgue); si falla, no puede cruzar este turno y sabe que algo lo rechazó. La Custodia dura la escena o hasta que el Imbuido cruce el umbral hacia afuera.</p>\n<p><em>Activación — Encender la Chispa: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Los éxitos quedan como reserva que el sobrenatural debe superar.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-custodia",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.occult"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-imb-custodia",
+      "camino": "imbuido",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

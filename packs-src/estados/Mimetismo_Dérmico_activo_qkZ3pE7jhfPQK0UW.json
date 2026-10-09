@@ -1,0 +1,51 @@
+{
+  "_id": "qkZ3pE7jhfPQK0UW",
+  "_key": "!items!qkZ3pE7jhfPQK0UW",
+  "name": "Mimetismo Dérmico activo",
+  "type": "condition",
+  "img": "icons/svg/invisible.svg",
+  "folder": "6usSnsq06I0UhvAh",
+  "sort": 0,
+  "system": {
+    "description": "<p>Durante la escena: <strong>+3 dados a Sigilo</strong> mientras esté quieto o se mueva despacio, con piel expuesta. Correr rompe el efecto ese turno.</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Mimetismo Dérmico",
+        "value": "3",
+        "paths": [
+          "skills.stealth"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "mimetismo-activo",
+      "camino": "gen2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

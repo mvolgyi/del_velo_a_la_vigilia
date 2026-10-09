@@ -1,0 +1,39 @@
+{
+  "_id": "yLGmSRapHlr4Lxj5",
+  "_key": "!items!yLGmSRapHlr4Lxj5",
+  "name": "Sin Distinción",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Hendir.</em></p><p>Hendir se extiende a armas a distancia que el Imbuido cargue personalmente (balas que él mismo puso en el cargador, flechas de su carcaj).</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-hendir",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-hendir",
+      "camino": "imbuido",
+      "mejora": "sin-distincion",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

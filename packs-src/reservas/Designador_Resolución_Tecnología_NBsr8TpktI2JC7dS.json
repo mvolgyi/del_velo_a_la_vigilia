@@ -1,0 +1,46 @@
+{
+  "_id": "NBsr8TpktI2JC7dS",
+  "_key": "!items!NBsr8TpktI2JC7dS",
+  "name": "Designador — Resolución + Tecnología",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 300,
+  "system": {
+    "description": "<p><em>≈ Atravesar</em></p>\n<p>Un puntero, una luz, una frecuencia. El Designador marca a la criatura y le arranca la máscara delante de todos.</p>\n<p><strong>Sistema.</strong></p><p>Enfrentada: Resolución + Tecnología del Iluminado (prototipo forzado) contra Compostura + Subterfugio del objetivo. Si gana, durante la escena el objetivo no puede sostener disfraces sobrenaturales frente al Iluminado y su célula, y sufre +1 de dificultad en tiradas Sociales contra ellos. La criatura siente el haz encima como una mira láser en el pecho.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Enfrentada contra Compostura + Subterfugio del objetivo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-designador",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.resolve"
+      },
+      "d2": {
+        "path": "skills.technology"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-designador",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

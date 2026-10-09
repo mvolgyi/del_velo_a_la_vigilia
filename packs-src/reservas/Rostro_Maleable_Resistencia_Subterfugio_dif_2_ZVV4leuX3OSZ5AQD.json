@@ -1,0 +1,46 @@
+{
+  "_id": "ZVV4leuX3OSZ5AQD",
+  "_key": "!items!ZVV4leuX3OSZ5AQD",
+  "name": "Rostro Maleable — Resistencia + Subterfugio (dif. 2)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "IUJmQ8f7T6tgqp7i",
+  "sort": 700,
+  "system": {
+    "description": "<p><em>Protean superficial · emula Protean (superficial)</em></p>\n<p>Cartílago facial reemplazado por matriz programable. Diez minutos frente a un espejo, un dolor espantoso, y otra persona te devuelve la mirada.</p>\n<p><strong>Sistema.</strong></p><p>Requiere 10 minutos y concentración (no en combate, no huyendo). Tirada de Resistencia + Subterfugio (dif. 2) exigiendo la carne. Éxito: los rasgos cambian lo suficiente para burlar a testigos, cámaras de seguridad, comparación con fotos y reconocimiento casual. No cambia altura, contextura, voz ni manos: un análisis biométrico serio o alguien que lo conozca de cerca no se engañan. El cambio dura hasta que el Modificado lo revierta (otros 10 minutos) o hasta el próximo sueño profundo, cuando la matriz se relaja sola.</p>\n<p><strong>La marca:</strong> En reposo profundo, la cara queda medio milímetro \"corrida\"</p>\n<p><em>Activación — exigir la carne: incluí los dados de Desesperación. Ocupa 2 Modificaciones contra el límite de Resistencia.</em></p><p><em>Requiere 10 minutos y concentración (no en combate, no huyendo).</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-rostro-maleable",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.stamina"
+      },
+      "d2": {
+        "path": "skills.subterfuge"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-gen2-rostro-maleable",
+      "camino": "gen2",
+      "dificultad": 2,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

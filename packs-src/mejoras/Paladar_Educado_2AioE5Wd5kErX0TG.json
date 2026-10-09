@@ -1,0 +1,39 @@
+{
+  "_id": "2AioE5Wd5kErX0TG",
+  "_key": "!items!2AioE5Wd5kErX0TG",
+  "name": "Paladar Educado",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Sentido Vestigial.</em></p><p>Con experiencia, el escalofrío aprende matices. Si el Modificado ya enfrentó antes a ese tipo de criatura, un éxito también le dice de qué tipo se trata. El cuerpo recuerda lo que casi lo mata.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-sentido-vestigial",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-sentido-vestigial",
+      "camino": "modificado",
+      "mejora": "paladar-educado",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "Q1FH4cn6OO4EzSuE",
+  "_key": "!items!Q1FH4cn6OO4EzSuE",
+  "name": "Ojo Compuesto activo",
+  "type": "condition",
+  "img": "icons/svg/eye.svg",
+  "folder": "6usSnsq06I0UhvAh",
+  "sort": 0,
+  "system": {
+    "description": "<p>Durante la escena: <strong>+2 dados a Percepción</strong> (lee labios, oye a través de paredes finas, reconoce perfumes). El precio propio: <strong>−2 dados para resistir ataques sensoriales</strong>; un flash, una sirena o un grito cercano aturden un turno (Compostura + Aguante, dif. 2). Con la mejora <em>Filtro</em> el penalizador desaparece.</p>",
+    "macroid": "",
+    "bonuses": [
+      {
+        "source": "Ojo Compuesto",
+        "value": "2",
+        "paths": [
+          "skills.awareness"
+        ],
+        "displayWhenInactive": false,
+        "activeWhen": {
+          "check": "always",
+          "path": "",
+          "value": ""
+        }
+      }
+    ],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "ojo-compuesto-activo",
+      "camino": "gen2"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

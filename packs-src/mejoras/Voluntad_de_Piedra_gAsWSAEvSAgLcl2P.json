@@ -1,0 +1,39 @@
+{
+  "_id": "gAsWSAEvSAgLcl2P",
+  "_key": "!items!gAsWSAEvSAgLcl2P",
+  "name": "Voluntad de Piedra",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Sondear.</em></p><p>Las visiones violentas normalmente cuestan 1 de Fuerza de Voluntad. Con esta mejora, no. El Imbuido ya vio demasiado como para que una más lo tumbe.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-sondear",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-sondear",
+      "camino": "imbuido",
+      "mejora": "voluntad-de-piedra",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

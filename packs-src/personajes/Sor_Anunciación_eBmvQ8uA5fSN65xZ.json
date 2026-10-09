@@ -1,0 +1,95 @@
+{
+  "_id": "eBmvQ8uA5fSN65xZ",
+  "_key": "!actors!eBmvQ8uA5fSN65xZ",
+  "name": "Sor Anunciación",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Sor Anunciación",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "vampire",
+    "headers": {
+      "concept": "Priora del convento desconsagrado, vampira antigua, fuerza de la naturaleza"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 10
+      },
+      "social": {
+        "value": 8
+      },
+      "mental": {
+        "value": 8
+      }
+    },
+    "exceptionaldicepools": {
+      "brawl": {
+        "value": 12
+      },
+      "intimidation": {
+        "value": 12
+      },
+      "occult": {
+        "value": 11
+      },
+      "awareness": {
+        "value": 10
+      },
+      "insight": {
+        "value": 10
+      },
+      "persuasion": {
+        "value": 10
+      }
+    },
+    "health": {
+      "max": 12,
+      "value": 12,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 10,
+      "value": 10,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 5
+    },
+    "generaldifficulty": {
+      "normal": 5,
+      "strongest": 7
+    },
+    "description": "<p>La priora que reza en la cripta debajo del convento desconsagrado desde hace cuatrocientos años, esperando que Dios le conteste. Es la razón de ser de Somnia Biotech: la clínica la alimenta con el plasma de los «durmientes», bombeado por vías intravenosas hasta el relicario central donde yace en letargo.</p><p>Habla poco, con voz seca, antigua y aplastante. No grita; no le hace falta. Trata a los mortales como corderos en el matadero y a la fe ajena como ruido («Tu fe es ruido. Silencio»). Es paciente como solo puede serlo una eternidad: prefiere negociar que levantarse de su cama, y lo deja claro.</p><p>Sus rezos son lo que el Limpiador escuchaba detrás de la puerta de piedra.</p><p><strong>Tras la crónica:</strong> sigue viva bajo el convento, pero sin su relicario ni su «granja de sangre». Va a despertar hambrienta y sin correa. Los durmientes desconectados sueñan con ella y balbucean sus rezos en idiomas que desconocen.</p>",
+    "biography": "<h3>Poderes</h3><p>Rasgos de vampiro (Mordisco, Resiliencia). Es una fuerza de la naturaleza, no un enemigo a derrotar: la célula no tiene con qué lastimarla.</p><ul><li><strong>Aterrorizar (reserva 10)</strong>: al incorporarse en el relicario, afecta a todos los presentes.</li><li><strong>Orden (reserva 10)</strong> y <strong>Encanto (reserva 10)</strong>: «van a subir por esa escalera ahora mismo».</li><li><strong>Presciencia (reserva 10)</strong>: sabe lo que planean y a quién quieren salvar.</li><li><strong>Embestida</strong>: puede golpear a todos los que estén a su alcance a la vez.</li><li><strong>Regeneración (Salud 2)</strong> mientras está conectada al relicario.</li><li>Potencia/Fortaleza/Celeridad de nivel antiguo: aparta a un hombre «como si fuera una silla rota».</li></ul><h3>Debilidades</h3><ul><li><strong>Vulnerabilidad (fuego)</strong>.</li><li><strong>Vulnerabilidad (luz solar 3)</strong>: el amanecer es la única debilidad real de la cripta; la regla de Elías («no se baja sin un plan para el amanecer») existe por ella.</li><li><strong>Punto débil (corazón, estaca de madera)</strong>.</li><li><strong>Letargo y apego al relicario</strong>: mientras está conectada no quiere moverse. Solo deja la cama si la obligan, y entonces es una masacre.</li><li><strong>Hambre</strong> (después del epílogo): sin los durmientes, cada noche está más hambrienta y es menos paciente.</li></ul>",
+    "privatenotes": "<p><strong>Acto 2:</strong> presencia indirecta. En la visita diurna a la capilla, el lugar pesa; el Limpiador la reconoce.</p><p><strong>Acto 3:</strong> no es un combate. Despierta en el relicario, ofrece el trato monstruoso (llévense a su amigo y váyanse) y aparta a Elías de un golpe si los Heraldos callan. Si la célula insiste en pelear, usá su Embestida y Aterrorizar para dejar claro que la única salida es la huida al amanecer.</p><p><strong>Después:</strong> antagonista principal de la crónica, hambrienta y sin correa.</p><p><em>Cifras:</em> la fuente no da números. Todas las cifras son sugeridas, escaladas por encima de los vampiros antiguos del Capítulo Seis para que sea inalcanzable para una célula novata.</p>",
+    "settings": {
+      "enableDisciplines": true
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "sor-anunciacion"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

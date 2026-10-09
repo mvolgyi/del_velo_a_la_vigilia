@@ -1,0 +1,398 @@
+{
+  "_id": "nuV2NH8xBk5q8Zx0",
+  "_key": "!actors!nuV2NH8xBk5q8Zx0",
+  "name": "El Guardia",
+  "type": "hunter",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "2cWtDPtMzAPnTSqk",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "El Guardia",
+    "actorLink": true,
+    "disposition": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "headers": {
+      "concept": "Vigilador de seguridad privada con tres semanas en Somnia Biotech",
+      "chronicle": "Del Velo a la Vigilia",
+      "ambition": "Conseguir un puesto fijo que le permita sacar a su hermana y a su sobrino del barrio.",
+      "desire": "Dormir una noche entera sin levantarse a revisar la cerradura.",
+      "touchstones": "<p>Su hermana Lucía, madre soltera, que vive a dos calles de él. Somnia tiene su ficha de empleado con la dirección de su familiar de contacto: los autos de la empresa empiezan a rondar esa casa al día siguiente del apagón.</p>",
+      "creedfields": "Conflicto físico durante la Caza (no necesita ser con la presa ni con lo sobrenatural)."
+    },
+    "attributes": {
+      "strength": {
+        "value": 3
+      },
+      "dexterity": {
+        "value": 3
+      },
+      "stamina": {
+        "value": 4
+      },
+      "charisma": {
+        "value": 2
+      },
+      "manipulation": {
+        "value": 1
+      },
+      "composure": {
+        "value": 3
+      },
+      "intelligence": {
+        "value": 2
+      },
+      "wits": {
+        "value": 2
+      },
+      "resolve": {
+        "value": 2
+      }
+    },
+    "skills": {
+      "firearms": {
+        "value": 3
+      },
+      "athletics": {
+        "value": 3
+      },
+      "brawl": {
+        "value": 3
+      },
+      "awareness": {
+        "value": 2
+      },
+      "melee": {
+        "value": 2
+      },
+      "intimidation": {
+        "value": 2
+      },
+      "drive": {
+        "value": 2
+      },
+      "streetwise": {
+        "value": 2
+      },
+      "stealth": {
+        "value": 1
+      },
+      "survival": {
+        "value": 1
+      },
+      "medicine": {
+        "value": 1
+      },
+      "investigation": {
+        "value": 1
+      },
+      "larceny": {
+        "value": 1
+      },
+      "technology": {
+        "value": 1
+      },
+      "insight": {
+        "value": 1
+      }
+    },
+    "health": {
+      "max": 7,
+      "value": 7,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "bio": {
+      "history": "<p>Lleva tres semanas como vigilador nocturno en Somnia Biotech. Le dieron una credencial, un uniforme, un monitor de cámaras y ninguna llave maestra física. Hace las rondas que le marcan y no pregunta por qué la planta vieja tiene su propio personal de seguridad, ni por qué ese tal Marcos, el jefe de noche, nunca aparece de día.</p><p>La noche del apagón parcial las cámaras se caen y tiene que doblar turno para hacer una ronda a pie por el nivel inferior y verificar las puertas. Así termina en el pasillo de cristal frente al ala de ensayos, viendo a Marcos alimentarse de un durmiente. En la huida descubre que su tarjeta no abre nada sin energía y que su entrenamiento no sirve contra algo que camina sin apuro detrás de ellos.</p><p>Es el único con entrenamiento táctico de la célula: en el Acto 3 va en punta, revisando esquinas con la linterna. Es el candidato natural para inyectarse el Compuesto A si siente que es la única forma de proteger a su hermana, y para quedarse atrás sosteniendo la puerta de piedra en la huida.</p>"
+    },
+    "notes": "<p><strong>Especialidades:</strong> Armas de fuego (pistolas)</p><p><strong>Ventajas y Defectos sugeridos:</strong></p><ul><li>Facultad: Arsenal (vía contactos de la seguridad privada)</li><li>Facultad: Repeler lo Antinatural</li><li>Contactos ●●● (vigiladores, porteros y un par de policías de barrio)</li><li>Aliados ●● (dos compañeros de turno que le deben favores)</li><li>Recursos ●● (sueldo fijo, horas extra)</li><li>Defecto: Adicción ● (tabaco y bebidas energéticas para los turnos dobles)</li><li>Defecto: Secreto Oscuro ● (lo echaron del trabajo anterior por romperle la nariz a un detenido)</li></ul><p><strong>Set del Arsenal:</strong> Set del Profesional — sin ficha: 3 cargadores, chaleco (convierte 2 superficial por escena, cronista mediante), bridas, capucha</p><p><strong>Camino probable según la crónica:</strong> carne</p>"
+  },
+  "items": [
+    {
+      "name": "Marciales",
+      "type": "creed",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "edges": "",
+        "drives": "",
+        "desperationFields": "Conflicto físico durante la Caza (no necesita ser con la presa ni con lo sobrenatural)."
+      },
+      "_id": "CyBxOwrYVBUmGGSb",
+      "_key": "!actors.items!nuV2NH8xBk5q8Zx0.CyBxOwrYVBUmGGSb"
+    },
+    {
+      "name": "Expiación",
+      "type": "drive",
+      "img": "systems/wod5e/assets/icons/items/item-default.svg",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "system": {
+        "description": "",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "",
+          "page": ""
+        },
+        "redemption": "<p>firmó el contrato y cuidó las puertas de Somnia mientras desangraban gente adentro. Se redime cuando la célula protege a alguien de la presa poniéndose en peligro por él.</p>"
+      },
+      "_id": "JQ89Z7zjNqasrXL0",
+      "_key": "!actors.items!nuV2NH8xBk5q8Zx0.JQ89Z7zjNqasrXL0"
+    },
+    {
+      "name": "Pistola pesada (9mm, .45)",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "pistola-pesada"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Compostura + Armas de fuego</td></tr><tr><th>Daño</th><td>+3</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Campera</td></tr><tr><th>Recursos</th><td>2 (permiso o contacto)</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "ranged",
+        "weaponvalue": 3,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.composure"
+          },
+          "d2": {
+            "path": "skills.firearms"
+          }
+        }
+      },
+      "_id": "QlagtTbrI5L2MEkX",
+      "_key": "!actors.items!nuV2NH8xBk5q8Zx0.QlagtTbrI5L2MEkX"
+    },
+    {
+      "name": "Escopeta (12g)",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "escopeta"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Armas de fuego</td></tr><tr><th>Daño</th><td>+4</td></tr><tr><th>Dif. / regla</th><td>A quemarropa/corta; −1 Daño a media distancia</td></tr><tr><th>Ocultamiento</th><td>Abrigo (recortada: Campera, ilegal)</td></tr><tr><th>Recursos</th><td>2</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "ranged",
+        "weaponvalue": 4,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.firearms"
+          }
+        }
+      },
+      "_id": "9E2apBfjo3reZWjA",
+      "_key": "!actors.items!nuV2NH8xBk5q8Zx0.9E2apBfjo3reZWjA"
+    },
+    {
+      "name": "Cuchillo, navaja",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "cuchillo"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Fuerza + Cuerpo a cuerpo</td></tr><tr><th>Daño</th><td>+2</td></tr><tr><th>Dif. / regla</th><td>—</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 2,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.strength"
+          },
+          "d2": {
+            "path": "skills.melee"
+          }
+        }
+      },
+      "_id": "VOpTXMEozlg7d3NO",
+      "_key": "!actors.items!nuV2NH8xBk5q8Zx0.VOpTXMEozlg7d3NO"
+    },
+    {
+      "name": "Táser / picana",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-steel-green.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "arma",
+          "arma": "taser"
+        }
+      },
+      "system": {
+        "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Reserva</th><td>Destreza + Pelea (o Destreza + Armas de fuego)</td></tr><tr><th>Daño</th><td>+1</td></tr><tr><th>Dif. / regla</th><td>Con margen 2+: el mortal queda incapacitado 1 turno. A vampiros: solo superficial, no incapacita</td></tr><tr><th>Ocultamiento</th><td>Bolsillo</td></tr><tr><th>Recursos</th><td>1</td></tr></tbody></table><p><em>Las armas comunes infligen daño superficial a vampiros y criaturas resistentes (y lo dividen a la mitad). Para agravado hace falta fuego, sol o equipamiento especial.</em></p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "weaponType": "melee",
+        "weaponvalue": 1,
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {
+          "d1": {
+            "path": "attributes.dexterity"
+          },
+          "d2": {
+            "path": "skills.brawl"
+          }
+        }
+      },
+      "_id": "EF6ucVYYBAeZeEVZ",
+      "_key": "!actors.items!nuV2NH8xBk5q8Zx0.EF6ucVYYBAeZeEVZ"
+    },
+    {
+      "name": "Munición incendiaria",
+      "type": "gear",
+      "img": "icons/containers/bags/pack-leather-black-brown.webp",
+      "sort": 0,
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "equipo",
+          "equipo": "municion-incendiaria"
+        }
+      },
+      "system": {
+        "description": "<p>Ilegal; fallo total: encasquilla el arma</p>",
+        "macroid": "",
+        "bonuses": [],
+        "dataItemId": "",
+        "source": {
+          "book": "Del Velo a la Vigilia",
+          "page": "El Arsenal de la Vigilia"
+        },
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "enabled": false
+        },
+        "quantity": 1,
+        "dicepool": {}
+      },
+      "_id": "b4OtNG7cnZJQ0OhN",
+      "_key": "!actors.items!nuV2NH8xBk5q8Zx0.b4OtNG7cnZJQ0OhN"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pj",
+      "pj": "guardia",
+      "caminoProbable": "carne"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

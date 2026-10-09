@@ -1,0 +1,95 @@
+{
+  "_id": "yWZmWOJ2RbCdY4Dq",
+  "_key": "!actors!yWZmWOJ2RbCdY4Dq",
+  "name": "Marcos",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Marcos",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "vampire",
+    "headers": {
+      "concept": "Seguridad de Somnia, vampiro joven y arrogante"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 6
+      },
+      "social": {
+        "value": 4
+      },
+      "mental": {
+        "value": 3
+      }
+    },
+    "exceptionaldicepools": {
+      "brawl": {
+        "value": 8
+      },
+      "athletics": {
+        "value": 7
+      },
+      "intimidation": {
+        "value": 7
+      },
+      "firearms": {
+        "value": 6
+      },
+      "awareness": {
+        "value": 6
+      },
+      "stealth": {
+        "value": 6
+      }
+    },
+    "health": {
+      "max": 7,
+      "value": 7,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 4,
+      "value": 4,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 2
+    },
+    "generaldifficulty": {
+      "normal": 3,
+      "strongest": 5
+    },
+    "description": "<p>Jefe de seguridad nocturna de Somnia Biotech y su brazo armado. Vampiro joven, convertido hace poco: todavía se viste como un empleado bien pago (traje, credencial colgada, zapatos que cuida) y todavía disfruta demasiado de ser lo que es. Se alimenta de los durmientes del ala de ensayos directamente con la boca, sin jeringas ni vías.</p><p>Es arrogante y sádico: no corre, camina detrás de sus presas como un depredador jugando con la comida, convencido de que nadie le va a creer a un becario, un pasante de IT, un limpiador y un guardia de tres semanas. Habla en murmullos que se clavan en la cabeza y se burla de sus víctimas («Son comida, chavales. Comida que camina»).</p><p>No defiende a Somnia por lealtad: la clínica le da territorio, sangre fácil y licencia para cazar. En la cripta viene a cazar, no a proteger.</p><p><strong>Tras la crónica:</strong> la célula lo quemó dos veces (la bengala de Elías en el Acto 1 y la cripta en el Acto 3). Le quedó una grotesca cicatriz de quemaduras en la cara y el orgullo roto, y está obsesionado con rastrear a la célula para cobrarse una revancha personal.</p>",
+    "biography": "<h3>Poderes</h3><p>Rasgos de vampiro del libro básico: <strong>Mordisco</strong> (tras una presa, 2 de daño agravado y 1 por turno si sigue alimentándose; liberarse cuesta 1 FV) y <strong>Resiliencia</strong> (todo el daño es superficial salvo vulnerabilidades).</p><p>Poderes sugeridos (nivel de disciplina 1-2, cada uso cuesta 1 FV):</p><ul><li><strong>Aterrorizar (reserva 6)</strong>: el murmullo a través del vidrio. Se resiste con Compostura + Resolución; quien falla queda aterrorizado (−2 dados en su presencia salvo que gaste 1 FV).</li><li><strong>Prisa</strong> (Celeridad 1): cierra distancia de golpe o se retira con un turno de ventaja. Ideal para aparecer «doblando la esquina» en el muelle de carga.</li><li><strong>Potencia 1</strong>: +1 al daño de Pelea y fuerza para abrir puertas trabadas sin energía.</li></ul><h3>Debilidades</h3><ul><li><strong>Vulnerabilidad (fuego)</strong>: el fuego lo quema como a un mortal, y le tiene terror. Ante una llama abierta (bengala, Molotov, bidón encendido) retrocede salvo que gaste 1 FV.</li><li><strong>Vulnerabilidad (luz solar 2)</strong>: la luz directa lo quema.</li><li><strong>Punto débil (corazón, estaca de madera)</strong>: margen 5+ lo paraliza.</li><li><strong>Arrogancia</strong>: subestima a la célula; se toma su tiempo, monologa y juega con la presa en vez de rematar.</li></ul>",
+    "privatenotes": "<p><strong>Acto 1:</strong> es el monstruo de la Escena del Velo y de la persecución. No tiene que matar a nadie: camina, intimida y acorrala. La bengala de Elías lo hace retroceder (primera quemadura).</p><p><strong>Acto 2:</strong> si falla la infiltración a Salas, visita el piso franco de Elías esa noche; la Custodia de sal solo aguanta si alguien saca un éxito en Resolución + Convicción.</p><p><strong>Acto 3:</strong> irrumpe en la cripta como factor caos, con la cara aún marcada; pelea frenética entre equipo médico frágil. Quiere a la célula, no a Somnia.</p><p><strong>Después:</strong> antagonista recurrente obsesionado con la célula.</p><p><em>Cifras:</em> la Narración y la Pantalla no dan números. Todas las cifras de este PNJ son sugeridas, basadas en los vampiros del Capítulo Seis (Richard Tupaz, Físicos 6, Salud 7). La Pantalla lo llama «ghoul»: es un error, Marcos es vampiro joven.</p>",
+    "settings": {
+      "enableDisciplines": true
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "marcos"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

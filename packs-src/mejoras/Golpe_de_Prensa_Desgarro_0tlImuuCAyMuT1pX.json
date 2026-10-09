@@ -1,0 +1,39 @@
+{
+  "_id": "0tlImuuCAyMuT1pX",
+  "_key": "!items!0tlImuuCAyMuT1pX",
+  "name": "Golpe de Prensa (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Miofibras Sintéticas.</em></p><p>Desgarrando, un golpe (o agarre) suma +2 al daño, una vez por escena. Contra un mortal, esto es una ambulancia. Que el jugador lo sepa antes, no después.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-miofibras-sinteticas",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-miofibras-sinteticas",
+      "camino": "gen2",
+      "mejora": "golpe-de-prensa",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "USG0xGfkrob4At3w",
+  "_key": "!items!USG0xGfkrob4At3w",
+  "name": "Piedra en la Pared (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "Gnr35UcteA2NXjXj",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Mimetismo Dérmico.</em></p><p>Desgarrando, durante 1 turno el Modificado inmóvil es efectivamente invisible a la vista casual y a las cámaras: la mirada resbala. Un observador que sepa exactamente dónde mirar tira Resolución + Consciencia enfrentada.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-mimetismo-dermico",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-gen2-mimetismo-dermico",
+      "camino": "gen2",
+      "mejora": "piedra-en-la-pared",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

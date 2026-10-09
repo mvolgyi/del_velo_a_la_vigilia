@@ -1,0 +1,25 @@
+{
+  "_id": "Epkz0QAF8jMIuP4o",
+  "_key": "!macros!Epkz0QAF8jMIuP4o",
+  "name": "Registrar +1 Peligro",
+  "type": "script",
+  "scope": "global",
+  "img": "icons/svg/hazard.svg",
+  "command": "game.modules.get(\"del-velo-a-la-vigilia\").api.registrarPeligro();",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "macro",
+      "macro": "peligro"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

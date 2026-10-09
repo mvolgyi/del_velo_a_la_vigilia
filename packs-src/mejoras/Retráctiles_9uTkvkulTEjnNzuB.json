@@ -1,0 +1,39 @@
+{
+  "_id": "9uTkvkulTEjnNzuB",
+  "_key": "!items!9uTkvkulTEjnNzuB",
+  "name": "Retráctiles",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Osteoinjerto.</em></p><p>Los espolones se ocultan por completo bajo la piel en reposo: ni un cacheo los encuentra. Sin esta mejora, se notan como crestas duras al tacto.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-osteoinjerto",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-osteoinjerto",
+      "camino": "modificado",
+      "mejora": "retractiles",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "_id": "I7uITUaepjiVMpBq",
+  "_key": "!journal!I7uITUaepjiVMpBq",
+  "name": "Injertos de Segunda Generación — Disciplinas Sintéticas",
+  "folder": "xga5vFHstdau9DJL",
+  "sort": 40,
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/reglas/04-injertos-de-segunda-generacion.md"
+    }
+  },
+  "pages": [
+    {
+      "_id": "hqJ2NOs6OvOp6XXk",
+      "_key": "!journal.pages!I7uITUaepjiVMpBq.hqJ2NOs6OvOp6XXk",
+      "name": "Modificaciones cibernéticas que emulan Disciplinas — Hunter: The Reckoning 5ª Edición",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Anexo de La Carne Templada. Las Modificaciones del documento base son herramientas de caza. Estas son otra cosa: injertos que replican, en versión mortal y precaria, lo que los monstruos hacen por naturaleza. Auspex, Fortaleza, Celeridad, Potencia, y un roce muy superficial de Protean. Ingeniería inversa aplicada al propio cuerpo.</p>\n<p>En la ficción, esto es lo que pasa cuando un programa clandestino (una org, una clínica sin nombre, o el propio Modificado con demasiadas muestras y demasiada poca prudencia) deja de destilar tejido de monstruo para hacer sensores y empieza a preguntarse: ¿y si el injerto hace lo que el monstruo hacía?</p>\n"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oes83GUvbhlC2dfi",
+      "_key": "!journal.pages!I7uITUaepjiVMpBq.oes83GUvbhlC2dfi",
+      "name": "1. Reglas comunes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Aplican todas las reglas de La Carne Templada (exigir la carne, crisis de rechazo, Desgarro, el régimen, el olor de la quimera, +1 Danger ante testigos sobrenaturales), con estos agregados:</p>\n<ul>\n<li>Requisito. Solo un personaje que ya es Modificado (pasó por la Operación y tiene el Sentido Vestigial) puede recibir injertos de Segunda Generación. El cuerpo tiene que estar ya acostumbrado a aceptar quimera.</li>\n<li>Coste. Cada injerto de Segunda Generación cuesta 4 puntos de Ventaja (u 8 PX en juego). Las Mejoras cuestan como un Perk normal.</li>\n<li>Ocupan doble. Cada uno cuenta como 2 Modificaciones contra el límite de (Resistencia). Son injertos masivos: haces musculares completos, mallas subdérmicas, órganos nuevos.</li>\n<li>Techo de poder. Emulan Disciplinas de nivel 1-2, nunca más. Un Modificado con Miofibras es más fuerte que cualquier humano de su tamaño; no gana pulseadas contra un Brujah. La versión mortal siempre es la copia berreta: funciona, cuesta, y se nota.</li>\n<li>El olor empeora. Con uno o más injertos de Segunda Generación, el bonus de detección de los sobrenaturales con sentidos agudizados sube a +2 dados. Para un vampiro con Auspex, un Modificado de Segunda Generación prácticamente brilla.</li>\n<li>Efecto sostenido. Salvo que se indique lo contrario, activar el injerto (exigiendo la carne) dura la escena. Mantenerlo una segunda escena consecutiva exige un chequeo de Resistencia + Aguante (dif. 2) o el cuerpo pasa factura: 1 de daño superficial y el injerto se apaga.</li>\n</ul>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BMR1H0mK3kEyzLvE",
+      "_key": "!journal.pages!I7uITUaepjiVMpBq.BMR1H0mK3kEyzLvE",
+      "name": "2. Tabla resumen",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table>\n<thead>\n<tr>\n<th>Injerto</th>\n<th>Emula</th>\n<th>Activación (reserva)</th>\n<th>Efecto principal</th>\n<th>Desgarro</th>\n<th>La marca</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Ojo Compuesto</td>\n<td>Auspex 1</td>\n<td>Resolución + Consciencia</td>\n<td>+2 dados a toda Percepción durante la escena</td>\n<td>Un detalle imposible de la escena, a elección de la cronista</td>\n<td>Iris con anillos concéntricos, refleja la luz</td>\n</tr>\n<tr>\n<td>Malla Subdérmica</td>\n<td>Fortaleza 1-2</td>\n<td>Resistencia + Aguante</td>\n<td>Armadura 2 (convierte 2 de daño por turno de agravado a superficial o de superficial a nada)</td>\n<td>Ignorar por completo el primer ataque que impacte esta escena</td>\n<td>Piel con textura de cuero fino; no marca en frío</td>\n</tr>\n<tr>\n<td>Glándula de Sobremarcha</td>\n<td>Celeridad 1-2</td>\n<td>Destreza + Atletismo</td>\n<td>Actúa primero en el turno y +2 dados a reservas de Destreza durante la escena</td>\n<td>Una acción física extra en un turno, una vez por escena</td>\n<td>Temblor fino permanente en las manos</td>\n</tr>\n<tr>\n<td>Miofibras Sintéticas</td>\n<td>Potencia 1-2</td>\n<td>Fuerza + Atletismo</td>\n<td>+2 dados a reservas de Fuerza; proezas: saltos, romper puertas, cargar a un adulto corriendo</td>\n<td>+2 al daño de un golpe, una vez por escena</td>\n<td>Musculatura con cordones visibles bajo la piel</td>\n</tr>\n<tr>\n<td>Ojos de la Bestia</td>\n<td>Protean 1</td>\n<td>Sin tirada (exige la carne igual: 1 turno)</td>\n<td>Visión nocturna perfecta en oscuridad total durante la escena</td>\n<td>—</td>\n<td>Ojos que brillan como los de un gato ante cualquier luz</td>\n</tr>\n<tr>\n<td>Mimetismo Dérmico</td>\n<td>Protean (superficial)</td>\n<td>Destreza + Sigilo</td>\n<td>Cromatóforos: +3 dados a Sigilo estando quieto o moviéndose lento, la ropa no se camufla</td>\n<td>Invisible a cámaras y a la vista casual mientras no se mueva, 1 turno</td>\n<td>Manchas que cambian de tono con el estado de ánimo</td>\n</tr>\n<tr>\n<td>Rostro Maleable</td>\n<td>Protean (superficial)</td>\n<td>Resistencia + Subterfugio</td>\n<td>Cartílago programable: altera sus rasgos lo bastante para burlar testigos y fotos; 10 min de dolor frente a un espejo</td>\n<td>Copiar un rostro concreto visto de cerca (engaña a conocidos casuales, nunca a íntimos)</td>\n<td>En reposo profundo, la cara queda medio milímetro &quot;corrida&quot;</td>\n</tr>\n</tbody></table>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NWIygdHlqdRYwy7G",
+      "_key": "!journal.pages!I7uITUaepjiVMpBq.NWIygdHlqdRYwy7G",
+      "name": "3. Sistemas detallados",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h3>Ojo Compuesto (Auspex 1)</h3>\n<p class=\"dvv-enlaces\"><strong>Reserva:</strong> @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.qIu1isjfUbbGOFeI]{Resolución + Consciencia} · @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.0cfBEUsvlYOc70QB]{Compostura + Aguante}<br><strong>Mejoras:</strong> @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.ebDr71JM0cWVAtc3]{Enfoque Total} · @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.Ay2SW0VzrCRRe84R]{Filtro}</p>\n<p>Retina reconstruida en capas, cóclea afinada, bulbo olfativo expandido. El mundo entra entero y a la vez.</p>\n<p>Sistema. Se activa exigiendo la carne con Resolución + Consciencia (dif. 1; la tirada existe para arriesgar la Desesperación, no para fallar). Durante la escena: +2 dados a todas las tiradas de Percepción, lee labios a distancia, oye una conversación a través de una pared fina, reconoce un perfume en un ascensor vacío.</p>\n<p>El precio propio. Mientras está activo, el Modificado sufre −2 dados para resistir ataques sensoriales: un flash, una sirena o un grito a corta distancia pueden aturdirlo un turno (chequeo de Compostura + Aguante, dif. 2). Los sentidos abiertos se abren para todo.</p>\n<p>Desgarro — Enfoque Total. Desgarrando, la cronista le entrega un detalle de la escena que ningún sentido humano podría captar: el latido ausente del tipo del fondo, el olor a tierra de tumba bajo el perfume, la conversación susurrada en el piso de arriba.</p>\n<p>Mejora — Filtro. Elimina el penalizador contra ataques sensoriales. El injerto aprende a cerrar la compuerta.</p>\n<h3>Malla Subdérmica (Fortaleza 1-2)</h3>\n<p class=\"dvv-enlaces\"><strong>Reserva:</strong> @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.nHAXDepOFvUA6w3H]{Resistencia + Aguante}<br><strong>Mejoras:</strong> @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.q4NLtDXulGT7hxMa]{Aguantar lo Imposible} · @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.8s9D9DgkgsjfW7Uh]{Tejido Sordo}</p>\n<p>Una red de fibra biológica tejida entre dermis y músculo, cultivada de tejido de algo que las balas no frenaban.</p>\n<p>Sistema. Se activa exigiendo la carne con Resistencia + Aguante (dif. 1). Durante la escena, el Modificado tiene Armadura 2: cada turno convierte hasta 2 puntos de daño entrante de agravado a superficial, o de superficial a nada. Se apila con chaleco (primero la malla, después el chaleco, decisión de la cronista sobre el tope razonable).</p>\n<p>El precio propio. La malla no distingue: mientras está activa, el Modificado siente el dolor amortiguado y sufre −1 dado a tiradas de tacto fino y de Medicina sobre sí mismo. Y las heridas que la malla &quot;traga&quot; igual se acumulan como moretones profundos: al final de la escena, si la malla convirtió 4+ puntos, 1 de daño superficial por trauma interno.</p>\n<p>Desgarro — Aguantar lo Imposible. Desgarrando como reacción, el primer ataque que lo impacte esta escena se ignora por completo, sea lo que sea. Una vez. El video después muestra a un tipo levantándose de algo de lo que nadie se levanta.</p>\n<p>Mejora — Tejido Sordo. Elimina el daño por trauma acumulado de fin de escena. El cuerpo aprendió a distribuir el castigo.</p>\n<h3>Glándula de Sobremarcha (Celeridad 1-2)</h3>\n<p class=\"dvv-enlaces\"><strong>Reserva:</strong> @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.leuqXjCUGB15U6Y6]{Destreza + Atletismo}<br><strong>Mejoras:</strong> @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.bajxe1NAYfVkfiNf]{Instante Robado} · @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.BuPmIpi99dZkAgMD]{Aterrizaje Suave}</p>\n<p>Un segundo sistema adrenal, sintético, con gatillo voluntario. El mundo no se pone lento: el Modificado se pone rápido, que no es lo mismo y duele distinto.</p>\n<p>Sistema. Se activa exigiendo la carne con Destreza + Atletismo (dif. 1). Durante la escena: actúa primero en cada turno (empates entre Sobremarchas y Celeridades reales se resuelven con Destreza comparada) y +2 dados a reservas basadas en Destreza (esquivar, disparar en movimiento, conducir, sigilo activo).</p>\n<p>El precio propio. Al terminar la escena, el bajón: −1 dado a todas las reservas físicas hasta descansar al menos una hora y comer algo. El cuerpo quema lo que no tiene.</p>\n<p>Desgarro — Instante Robado. Desgarrando, una vez por escena el Modificado toma una acción física adicional en su turno (moverse y atacar, atacar dos veces, sacar a alguien de la línea de fuego y disparar). La copia mortal de la Celeridad de verdad, y el motivo por el que este injerto existe.</p>\n<p>Mejora — Aterrizaje Suave. Elimina el bajón post-escena. El sistema aprende a dosificar la vuelta.</p>\n<h3>Miofibras Sintéticas (Potencia 1-2)</h3>\n<p class=\"dvv-enlaces\"><strong>Reserva:</strong> @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.JfOvUmxafOnqDRSt]{Fuerza + Atletismo}<br><strong>Mejoras:</strong> @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.0tlImuuCAyMuT1pX]{Golpe de Prensa} · @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.PqK2ANXUeujkAgoB]{Anclajes}</p>\n<p>Haces musculares completos reemplazados por fibra cultivada. No se ve como un fisicoculturista: se ve como un tipo normal con cordones raros bajo la piel, hasta que arranca una puerta del marco.</p>\n<p>Sistema. Se activa exigiendo la carne con Fuerza + Atletismo (dif. 1). Durante la escena: +2 dados a todas las reservas basadas en Fuerza, y proezas sin tirada que un humano entrenado no puede hacer: saltar y agarrarse de un balcón de primer piso, reventar una puerta común de una patada, cargar a un adulto herido a paso de trote sostenido.</p>\n<p>El precio propio. El esqueleto y los tendones siguen siendo humanos. Cada fallo total en una tirada de Fuerza con las Miofibras activas significa 1 de daño superficial propio: desgarro, esguince, la fibra tirando de donde no debe.</p>\n<p>Desgarro — Golpe de Prensa. Desgarrando, un golpe (o agarre) suma +2 al daño, una vez por escena. Contra un mortal, esto es una ambulancia. Que el jugador lo sepa antes, no después.</p>\n<p>Mejora — Anclajes. Tendones reforzados en la misma cirugía: elimina el daño propio por fallos totales.</p>\n<h3>Ojos de la Bestia (Protean 1)</h3>\n<p class=\"dvv-enlaces\"><strong>Reserva:</strong> @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.SnOxcxu5a86wnzJ1]{Resolución + Aguante}<br><strong>Mejoras:</strong> @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.NblsDpoZs05BKPTq]{Párpado Interno}</p>\n<p>El injerto más viejo y más probado del catálogo: tapetum lucidum cultivado detrás de la retina. Lo que tienen los gatos, los lobos y las cosas que cazan de noche.</p>\n<p>Sistema. Un turno de adaptación exigiendo la carne (sin tirada, pero los dados de Desesperación se arriesgan igual con cualquier otra tirada del turno, o con una tirada seca de Resolución + Aguante dif. 1 si no hay ninguna). Durante la escena: visión perfecta en oscuridad total, sin penalizadores. La contracara permanente: ante cualquier luz que lo enfoque de frente, los ojos del Modificado brillan como los de un animal. En una foto con flash, en los faros de un auto, en la linterna de un policía.</p>\n<p>Mejora — Párpado Interno. Una membrana nictitante que se cierra a voluntad: oculta el brillo (y protege de flashes y gas lacrimógeno con +2 dados a resistir), a cambio de un velo leve en la visión mientras está bajada (−1 a Percepción visual).</p>\n<h3>Mimetismo Dérmico (Protean superficial)</h3>\n<p class=\"dvv-enlaces\"><strong>Reserva:</strong> @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.5WW94RyXJskJ7q0X]{Destreza + Sigilo}<br><strong>Mejoras:</strong> @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.USG0xGfkrob4At3w]{Piedra en la Pared} · @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.2LSvIr9eUPNxktQH]{Patrón Voluntario}</p>\n<p>Cromatóforos injertados en la piel expuesta, cultivados de algo que no era del todo pulpo ni del todo otra cosa. La piel lee el fondo y se le parece.</p>\n<p>Sistema. Se activa exigiendo la carne con Destreza + Sigilo (dif. 1). Durante la escena: +3 dados a Sigilo mientras esté quieto o se mueva despacio, con piel expuesta (cara, manos; ropa ajustada de tela lisa acompaña &quot;bastante&quot;, decisión de la cronista). Correr rompe el efecto ese turno.</p>\n<p>Desgarro — Piedra en la Pared. Desgarrando, durante 1 turno el Modificado inmóvil es efectivamente invisible a la vista casual y a las cámaras: la mirada resbala. Un observador que sepa exactamente dónde mirar tira Resolución + Consciencia enfrentada.</p>\n<p>Mejora — Patrón Voluntario. Control fino: puede formar manchas, tatuajes falsos o marcas de identificación a voluntad. Útil para infiltración; inquietante en una primera cita.</p>\n<h3>Rostro Maleable (Protean superficial)</h3>\n<p class=\"dvv-enlaces\"><strong>Reserva:</strong> @UUID[Compendium.del-velo-a-la-vigilia.reservas.Item.ZVV4leuX3OSZ5AQD]{Resistencia + Subterfugio}<br><strong>Mejoras:</strong> @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.mu4bkgEPgPUeWWpl]{El Rostro Prestado} · @UUID[Compendium.del-velo-a-la-vigilia.mejoras.Item.jHKNYqDPF65pz75H]{Memoria de Forma}</p>\n<p>Cartílago facial reemplazado por matriz programable. Diez minutos frente a un espejo, un dolor espantoso, y otra persona te devuelve la mirada.</p>\n<p>Sistema. Requiere 10 minutos y concentración (no en combate, no huyendo). Tirada de Resistencia + Subterfugio (dif. 2) exigiendo la carne. Éxito: los rasgos cambian lo suficiente para burlar a testigos, cámaras de seguridad, comparación con fotos y reconocimiento casual. No cambia altura, contextura, voz ni manos: un análisis biométrico serio o alguien que lo conozca de cerca no se engañan. El cambio dura hasta que el Modificado lo revierta (otros 10 minutos) o hasta el próximo sueño profundo, cuando la matriz se relaja sola.</p>\n<p>Desgarro — El Rostro Prestado. Desgarrando, puede copiar un rostro concreto que haya observado de cerca al menos una escena. Engaña a conocidos casuales del original (el portero, un compañero de oficina); nunca a familia, pareja o socios íntimos, y la voz sigue siendo la suya. Usar la cara de alguien es el tipo de decisión que una célula discute a los gritos, y así debería ser.</p>\n<p>Mejora — Memoria de Forma. El injerto guarda hasta 3 configuraciones fijas que puede adoptar en 2 minutos en vez de 10. Tres identidades de bolsillo, cada una tan buena como sus documentos falsos.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Rvo9vSBhiPIaESQk",
+      "_key": "!journal.pages!I7uITUaepjiVMpBq.Rvo9vSBhiPIaESQk",
+      "name": "4. Notas de equilibrio y tono",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul>\n<li>Siguen siendo mortales. Armadura 2 no para una ráfaga, +2 dados no ganan contra Potencia 3, y la invisibilidad dura un turno y de parado. La Segunda Generación empareja la cancha un rato; no la da vuelta.</li>\n<li>El doble slot es el freno duro. Con Resistencia 3, un Modificado banca el Sentido Vestigial más una Gen II y una común, o tres comunes. Elegir es el juego.</li>\n<li>Cada injerto tiene su precio propio además del sistema común. Sobrecarga sensorial, bajón metabólico, tendones que se rompen, ojos que brillan. Las Mejoras que borran esos precios existen a propósito: son la zanahoria de PX que hace que el jugador invierta en su cuerpo roto en vez de en el próximo juguete.</li>\n<li>¿De dónde sale la cirugía? Nadie se injerta una Malla Subdérmica en el baño de su casa. Cada Gen II implica un quirófano real, un cirujano que sabe, y por lo tanto alguien que sabe de vos. Ese alguien es un PNJ con agenda. Usalo.</li>\n<li>La pregunta de La Carne Templada, subrayada. Con las Modificaciones comunes, la célula se pregunta si el Modificado sigue siendo humano. Con ojos que brillan en la oscuridad y una cara que cambia, se lo preguntan en voz alta. No lo resuelvas: es el mejor combustible de mesa chica que tiene este anexo.</li>\n</ul>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DGwHBu6yyOJlX4OZ",
+      "_key": "!journal.pages!I7uITUaepjiVMpBq.DGwHBu6yyOJlX4OZ",
+      "name": "5. Implementación en Foundry (sistema wod5e)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul>\n<li>Cada injerto como ítem de tipo Edge con sus Mejoras como Perks, igual que toda la línea. Activación = incluir dados de Desesperación.</li>\n<li>Los efectos sostenidos (Armadura 2, +2 dados de Destreza, etc.) conviene cargarlos como efectos activos que prendés y apagás sobre el actor; el chequeo de mantener una segunda escena va a mano.</li>\n<li>Los precios propios (bajón de Sobremarcha, penalizador sensorial del Ojo Compuesto) también como efectos activos con nombre claro, así el jugador se acuerda de aplicárselos sin que se lo persigas.</li>\n<li>El doble slot contra el límite de Resistencia llevalo anotado en la bio del personaje o en tu journal de crónica; el sistema no lo cuenta solo.</li>\n</ul>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

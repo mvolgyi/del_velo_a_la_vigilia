@@ -1,0 +1,1470 @@
+{
+  "caminos": [
+    {
+      "id": "imbuido",
+      "prefijo": "imb",
+      "nombre": "La Marca de los Heraldos",
+      "subtitulo": "Bordes Imbuidos",
+      "sustantivo": "Borde",
+      "sustantivoPlural": "Bordes",
+      "baliza": "fe",
+      "origen": {
+        "nombre": "El Imbuimiento",
+        "texto": "<p>Un personaje se convierte en Imbuido solo en juego, nunca en creación de personaje (salvo que la crónica arranque con el Imbuimiento como escena inicial, al estilo del libro viejo).</p><p><strong>Disparador narrativo.</strong> El personaje enfrenta a lo sobrenatural en una situación desesperada y sin salida, y en lugar de quebrarse, elige: proteger, castigar o comprender. En ese instante escucha/ve/siente a los Heraldos (cada Imbuido lo percibe distinto: una voz, letras de fuego en el borde de la visión, un olor a ozono) y recibe la Marca.</p><p><strong>Disparador mecánico (opcional).</strong> Un momento candidato natural es cuando el jugador tira dados de Desesperación en una escena de vida o muerte contra un sobrenatural y saca un crítico, o cuando la célula está en Desesperación 5. La cronista decide; el Imbuimiento es un premio narrativo, no un derecho.</p><p><strong>Coste.</strong> El Imbuimiento otorga gratis la Segunda Vista (abajo). Cada Borde Imbuido adicional se compra como una Ventaja de 3 puntos (o con 6 PX en juego, el precio de un Borde normal). Las Mejoras cuestan lo mismo que un Perk normal.</p><p><strong>La cicatriz.</strong> Todo Imbuido gana también un Defecto de 1 punto a elección de la cronista que refleja cómo lo cambió el contacto: insomnio, un tic, quemaduras leves en las palmas, no soporta los espejos. Los Heraldos no tocan sin dejar marca.</p>"
+      },
+      "activacion": {
+        "nombre": "Encender la Chispa",
+        "texto": "<p>Usar un Borde Imbuido exige encender la Chispa: el jugador debe incluir los dados de Desesperación de la célula en la tirada del Borde, aunque no quiera. Los Heraldos no dan nada gratis.</p>"
+      },
+      "gasto": {
+        "nombre": "Quemar",
+        "texto": "<p>Los efectos marcados como Quemar exigen además reducir la Desesperación de la célula en 1. Es un recurso compartido: cada milagro que pedís se lo sacás a tus compañeros. Si la Desesperación está en 0, no se puede Quemar.</p>"
+      },
+      "falloTotal": {
+        "nombre": "Silencio de los Heraldos",
+        "texto": "<p>Si la tirada resulta en Desesperación total (falla con 1s en los dados de Desesperación), además de las consecuencias normales el personaje cae en Despair y los Heraldos callan: no puede usar ningún Borde Imbuido hasta salir de Despair según las reglas normales.</p>"
+      },
+      "reglasComunes": "<p>Todos los Bordes Imbuidos comparten estas reglas:</p><ul><li><strong>Activación.</strong> Usar un Borde Imbuido exige encender la Chispa: el jugador debe incluir los dados de Desesperación de la célula en la tirada del Borde, aunque no quiera. Los Heraldos no dan nada gratis.</li><li><strong>Silencio de los Heraldos.</strong> Si la tirada resulta en Desesperación total (falla con 1s en los dados de Desesperación), además de las consecuencias normales el personaje cae en Despair y los Heraldos callan: no puede usar ningún Borde Imbuido hasta salir de Despair según las reglas normales.</li><li><strong>Quemar la Chispa.</strong> Los efectos marcados como Quemar exigen además reducir la Desesperación de la célula en 1. Es un recurso compartido: cada milagro que pedís se lo sacás a tus compañeros. Si la Desesperación está en 0, no se puede Quemar.</li><li><strong>La Marca atrae.</strong> Los sobrenaturales no detectan a un Imbuido en reposo, pero un Borde usado frente a un sobrenatural que sobrevive a la escena suma +1 de Peligro (Danger) al final de la sesión, además de lo que corresponda por los eventos. Los monstruos hablan entre ellos, y un mortal que hace eso es una anomalía que hay que investigar.</li><li><strong>Un Borde Imbuido por turno.</strong> La Segunda Vista es pasiva y no cuenta.</li></ul>",
+      "defecto": {
+        "nombre": "La cicatriz",
+        "texto": "<p>Todo Imbuido gana también un Defecto de 1 punto a elección de la cronista que refleja cómo lo cambió el contacto: insomnio, un tic, quemaduras leves en las palmas, no soporta los espejos. Los Heraldos no tocan sin dejar marca.</p>"
+      },
+      "coste": {
+        "puntos": 3,
+        "px": 6,
+        "fueraDeRamaPuntos": 1,
+        "fueraDeRamaPx": 2
+      },
+      "ramasNombre": "Virtud",
+      "ramas": [
+        {
+          "id": "celo",
+          "nombre": "Celo",
+          "texto": "<p>Castigar y proteger por la fuerza.</p>"
+        },
+        {
+          "id": "misericordia",
+          "nombre": "Misericordia",
+          "texto": "<p>Amparar y redimir.</p>"
+        },
+        {
+          "id": "vision",
+          "nombre": "Visión",
+          "texto": "<p>Comprender.</p>"
+        }
+      ],
+      "notasRamas": "<p>Cada Imbuido resuena con una Virtud según cómo eligió en su Imbuimiento: Celo (castigar y proteger por la fuerza), Misericordia (amparar y redimir) o Visión (comprender). Puede comprar Bordes de su Virtud a coste normal; los de otras Virtudes cuestan 1 punto/2 PX más. Es una guía de personaje, no una jaula.</p><p>Sugerencia de mapeo con los Credos de H5: Martial y Faithful tiran a Celo, Underground y Entrepreneurial a Misericordia (protegen a los suyos), Inquisitive a Visión. Pero el Credo describe el método del cazador y la Virtud describe su alma; pueden no coincidir, y eso es interesante.</p>",
+      "pasiva": {
+        "id": "segunda-vista",
+        "nombre": "Segunda Vista",
+        "nombreOriginal": "",
+        "rama": "",
+        "gratis": true,
+        "slots": 1,
+        "intro": "<p>Todo Imbuido la recibe gratis en el Imbuimiento. Reemplaza y supera al Borde estándar Sense the Unnatural.</p><p>El Imbuido ve el mundo como es. No hay efectos visuales dramáticos: simplemente el vampiro se ve muerto, la piel del hombre lobo no termina de quedarse quieta, el fantasma está ahí parado aunque nadie más lo vea.</p>",
+        "sistema": "<p>Pasiva. Ante un sobrenatural disfrazado, oculto o inmaterial, la cronista pide Resolución + Percepción (dificultad según el poder que lo oculte; contra disciplinas como Obfuscate o Mask of a Thousand Faces es una tirada enfrentada contra el poder del monstruo). No requiere encender la Chispa. Un éxito revela que algo está mal; un crítico revela qué tipo de criatura es, si el Imbuido ya conoció a una igual.</p>",
+        "precioPropio": "",
+        "marca": "",
+        "emula": "",
+        "reservas": [
+          {
+            "nombre": "Resolución + Percepción",
+            "dados": [
+              "attributes.resolve",
+              "skills.awareness"
+            ],
+            "dificultad": 0,
+            "nota": "Dificultad según el poder que oculte; contra disciplinas de ocultamiento es enfrentada contra el poder del monstruo"
+          }
+        ],
+        "mejoras": [
+          {
+            "id": "leer-la-herida",
+            "nombre": "Leer la Herida",
+            "gasto": false,
+            "texto": "<p>Con un turno de observación y una tirada de Inteligencia + Ocultismo (dif. 3), el Imbuido intuye una vulnerabilidad general de la criatura (el fuego, el sol, la plata, su ancla). La cronista da una pista, no una ficha técnica.</p>"
+          }
+        ]
+      },
+      "poderes": [
+        {
+          "id": "hendir",
+          "nombre": "Hendir",
+          "nombreOriginal": "Cleave",
+          "rama": "celo",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>El arma del Imbuido, cualquiera sea, muerde la carne sobrenatural como si fuera bendita. No brilla ni arde: simplemente las heridas que hace no se cierran como deberían.</p>",
+          "sistema": "<p>Se enciende la Chispa al declarar el ataque. Durante la escena, los ataques cuerpo a cuerpo del Imbuido con esa arma infligen daño agravado a criaturas sobrenaturales, y estas no pueden usar curación sobrenatural sobre esas heridas hasta el final de la escena. Contra mortales el arma es un arma común, siempre.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Fuerza + Cuerpo a cuerpo",
+              "dados": [
+                "attributes.strength",
+                "skills.melee"
+              ],
+              "dificultad": 0,
+              "nota": "Tirada de ataque; el texto no fija la reserva (se usa la estándar de H5). La activación se hace al declarar el ataque"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "filo-paciente",
+              "nombre": "Filo Paciente",
+              "gasto": true,
+              "texto": "<p>Quemando la Chispa, el próximo ataque que impacte suma +2 al daño. Los Heraldos guían la mano hacia el corazón, el cuello, la costura del monstruo.</p>"
+            },
+            {
+              "id": "sin-distincion",
+              "nombre": "Sin Distinción",
+              "gasto": false,
+              "texto": "<p>Hendir se extiende a armas a distancia que el Imbuido cargue personalmente (balas que él mismo puso en el cargador, flechas de su carcaj).</p>"
+            }
+          ]
+        },
+        {
+          "id": "custodia",
+          "nombre": "Custodia",
+          "nombreOriginal": "Ward",
+          "rama": "celo",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>El Imbuido traza un umbral (con sal, con tiza, con el propio cuerpo plantado en la puerta) y lo sobrenatural duda en cruzarlo.</p>",
+          "sistema": "<p>Un turno para trazar el límite de una habitación o vehículo, y Resolución + Ocultismo encendiendo la Chispa. Los éxitos quedan como reserva. Cada sobrenatural que intente cruzar debe superar esos éxitos con una tirada de Resolución + Resistencia (o el pool que la cronista juzgue); si falla, no puede cruzar este turno y sabe que algo lo rechazó. La Custodia dura la escena o hasta que el Imbuido cruce el umbral hacia afuera.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Ocultismo",
+              "dados": [
+                "attributes.resolve",
+                "skills.occult"
+              ],
+              "dificultad": 0,
+              "nota": "Los éxitos quedan como reserva que el sobrenatural debe superar"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "santuario",
+              "nombre": "Santuario",
+              "gasto": true,
+              "texto": "<p>Quemando la Chispa al trazarla, la Custodia dura hasta el amanecer y protege también a los mortales que duerman dentro de pesadillas y poderes mentales sobrenaturales.</p>"
+            }
+          ]
+        },
+        {
+          "id": "atravesar",
+          "nombre": "Atravesar",
+          "nombreOriginal": "Pierce",
+          "rama": "celo",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>La mirada del Juez. El Imbuido clava los ojos en una criatura y le arranca la máscara.</p>",
+          "sistema": "<p>Enfrentada: Resolución + Intimidación del Imbuido (Chispa encendida) contra Compostura + Subterfugio del objetivo. Si gana, durante la escena el objetivo no puede sostener disfraces sobrenaturales frente al Imbuido y su célula (los presentes ven lo que la Segunda Vista del Imbuido ve), y sufre +1 de dificultad en tiradas Sociales contra ellos. El monstruo sabe que fue visto.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Intimidación",
+              "dados": [
+                "attributes.resolve",
+                "skills.intimidation"
+              ],
+              "dificultad": 0,
+              "nota": "Enfrentada contra Compostura + Subterfugio del objetivo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "cargar-la-culpa",
+              "nombre": "Cargar la Culpa",
+              "gasto": false,
+              "texto": "<p>Si el objetivo mató a un mortal en los últimos días, el Imbuido lo sabe al ganar la enfrentada, y el objetivo sufre además −1 dado en todas sus reservas contra el Imbuido durante la escena. El peso de lo que hizo se le sube a los hombros.</p>"
+            }
+          ]
+        },
+        {
+          "id": "iluminar",
+          "nombre": "Iluminar",
+          "nombreOriginal": "Illuminate",
+          "rama": "misericordia",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Una calma que se contagia. Donde está el Imbuido, el pánico no prende.</p>",
+          "sistema": "<p>Carisma + Empatía encendiendo la Chispa. Los mortales presentes (hasta éxitos × 2 personas) quedan inmunes al pánico de masas y al terror sobrenatural durante la escena, y obedecen indicaciones razonables del Imbuido para ponerse a salvo sin discutir. No funciona sobre la célula (los cazadores ya eligieron mirar) ni controla mentes: la gente calmada sigue siendo gente.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Carisma + Empatía",
+              "dados": [
+                "attributes.charisma",
+                "skills.insight"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "faro",
+              "nombre": "Faro",
+              "gasto": true,
+              "texto": "<p>Quemando la Chispa, el efecto alcanza también a la célula: durante la escena, todos los compañeros pueden repetir una tirada fallada de miedo, frenesí inducido o terror sobrenatural.</p>"
+            }
+          ]
+        },
+        {
+          "id": "balsamo",
+          "nombre": "Bálsamo",
+          "nombreOriginal": "Donate",
+          "rama": "misericordia",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>El Mártir carga con lo que otros no pueden. El Imbuido pone las manos sobre un herido y el dolor cambia de dueño.</p>",
+          "sistema": "<p>Un turno de contacto y Resolución + Medicina encendiendo la Chispa. Por cada éxito, cura 1 nivel de daño superficial del objetivo transfiriéndolo al propio Imbuido como daño superficial. Con la mejora de abajo puede absorber agravado. No funciona sobre uno mismo. El daño transferido no puede a su vez transferirse: alguien tiene que pagarlo.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Medicina",
+              "dados": [
+                "attributes.resolve",
+                "skills.medicine"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "cargar-la-cruz",
+              "nombre": "Cargar la Cruz",
+              "gasto": true,
+              "texto": "<p>Quemando la Chispa, puede transferir hasta 2 niveles de daño agravado del objetivo, que el Imbuido recibe como agravado. Duele exactamente lo que parece.</p>"
+            }
+          ]
+        },
+        {
+          "id": "sosegar",
+          "nombre": "Sosegar",
+          "nombreOriginal": "Becalm",
+          "rama": "misericordia",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>El Redentor cree que dentro del monstruo queda algo que escucha. A veces tiene razón.</p>",
+          "sistema": "<p>El Imbuido le habla directamente a la criatura (necesita que pueda oírlo) y tira Carisma + Empatía con la Chispa encendida, enfrentado a Resolución + Compostura del objetivo. Si gana, suprime durante la escena la furia sobrenatural activa del objetivo: un frenesí se corta, una ghoul enloquecida baja el arma, un espectro deja de aullar. La criatura no se vuelve aliada ni dócil; solo vuelve a poder elegir.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Carisma + Empatía",
+              "dados": [
+                "attributes.charisma",
+                "skills.insight"
+              ],
+              "dificultad": 0,
+              "nota": "Enfrentada contra Resolución + Compostura del objetivo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "la-ultima-puerta",
+              "nombre": "La Última Puerta",
+              "gasto": false,
+              "texto": "<p>Si el Imbuido ganó la enfrentada, puede hacer una única pregunta que la criatura responde con verdad desde lo que le queda de humanidad. Después de eso, lo que la criatura haga con ese momento de lucidez es cosa suya.</p>"
+            }
+          ]
+        },
+        {
+          "id": "presagio",
+          "nombre": "Presagio",
+          "nombreOriginal": "Foresee",
+          "rama": "vision",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Medio segundo de ventaja. El Imbuido ve el cuchillo antes de que la mano se mueva.</p>",
+          "sistema": "<p>Se enciende la Chispa al inicio de la escena con Astucia + Consciencia (dif. 2). Si tiene éxito, durante la escena el Imbuido no puede ser emboscado ni sorprendido, y una vez por escena puede obligar a repetir una tirada (propia, de un aliado o de un enemigo) que acabe de resolverse, quedándose con el segundo resultado.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Astucia + Consciencia",
+              "dados": [
+                "attributes.wits",
+                "skills.awareness"
+              ],
+              "dificultad": 2,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "compartir-el-instante",
+              "nombre": "Compartir el Instante",
+              "gasto": true,
+              "texto": "<p>Quemando la Chispa, toda la célula queda cubierta contra la sorpresa esa escena. \"¡Al piso!\" llega siempre justo a tiempo.</p>"
+            }
+          ]
+        },
+        {
+          "id": "senalar",
+          "nombre": "Señalar",
+          "nombreOriginal": "Pinpoint",
+          "rama": "vision",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>El hilo invisible. Una vez que el Imbuido conoció a su presa, sabe hacia dónde tirar.</p>",
+          "sistema": "<p>Requiere haber visto a la criatura o tener algo suyo (sangre, un objeto personal, el cadáver de una víctima). Resolución + Investigación encendiendo la Chispa. Éxito: el Imbuido conoce la dirección general y una impresión de distancia (\"cerca, bajo tierra, hacia el río\"). Crítico: una imagen del lugar donde está ahora. La conexión dura hasta el amanecer o hasta que la criatura cruce agua corriente, salga de la ciudad o muera.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Investigación",
+              "dados": [
+                "attributes.resolve",
+                "skills.investigation"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "marcar-la-madriguera",
+              "nombre": "Marcar la Madriguera",
+              "gasto": false,
+              "texto": "<p>Si el Imbuido llega físicamente al refugio de la criatura mientras la conexión está activa, la reconoce entre otros lugares para siempre y sabe si la criatura está dentro al llegar.</p>"
+            }
+          ]
+        },
+        {
+          "id": "sondear",
+          "nombre": "Sondear",
+          "nombreOriginal": "Delve",
+          "rama": "vision",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>El pasado deja residuo. El Imbuido toca un objeto o un lugar y las imágenes llegan solas, quiera o no.</p>",
+          "sistema": "<p>Contacto físico con el objeto o la escena y Resolución + Consciencia encendiendo la Chispa. Éxito: un destello del evento más cargado emocionalmente vinculado a eso (segundos de imagen, sonido, olor). Crítico: la escena casi completa, con rostros. La cronista narra en fragmentos; las visiones son verdaderas pero no vienen con contexto ni subtítulos.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Consciencia",
+              "dados": [
+                "attributes.resolve",
+                "skills.awareness"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "voluntad-de-piedra",
+              "nombre": "Voluntad de Piedra",
+              "gasto": false,
+              "texto": "<p>Las visiones violentas normalmente cuestan 1 de Fuerza de Voluntad. Con esta mejora, no. El Imbuido ya vio demasiado como para que una más lo tumbe.</p>"
+            }
+          ]
+        }
+      ],
+      "notas": "<ul><li><strong>La Desesperación es el freno.</strong> Todo pasa por los dados compartidos de la célula. Un jugador que abusa de los Bordes está apostando la cordura de todos y vaciando el pozo con cada Quemar. El sistema se autorregula en la mesa.</li><li><strong>Despair pega más fuerte a un Imbuido.</strong> Perder el acceso a los Bordes hasta salir de Despair le da a esa mecánica un peso extra sin tocar sus reglas.</li><li><strong>Peligro como contador de campaña.</strong> El +1 de Danger por usar Bordes frente a testigos sobrenaturales convierte cada milagro en deuda. Los monstruos empiezan a preguntarse quién es ese mortal, y eso escala solo.</li><li><strong>Escala.</strong> Estos Bordes equivalen más o menos a niveles 1-2 de la edición vieja. Nada de Blaze, Smite ni resurrecciones: si la crónica llega a un punto donde eso tiene sentido, mejor diseñarlo como evento único que como compra de PX.</li><li><strong>Los Heraldos tienen agenda.</strong> Opcional pero recomendado: de vez en cuando, los Heraldos piden. Un mensaje críptico, un nombre, una dirección. Ignorarlos no quita poderes, pero los mensajes se vuelven más insistentes, más invasivos. Es el gancho de trama que la edición vieja hacía mejor que nadie.</li></ul>",
+      "foundry": "<ul><li>Cargá cada Borde Imbuido como un ítem de tipo Edge y cada Mejora como Perk asociado, igual que los Edges oficiales. El sistema wod5e ya maneja dados de Desesperación en las tiradas, así que \"encender la Chispa\" es simplemente marcar la opción de incluirlos.</li><li>La Segunda Vista conviene cargarla como Edge pasivo separado para que figure en la hoja.</li><li>Para el Quemar, no hay automatización nativa: bajá la Desesperación a mano desde el tracker de la célula y dejalo anotado en el chat con un /roll descriptivo o un mensaje de GM para que quede registro.</li><li>El +1 de Danger llevalo en tu tracker de crónica de fin de sesión, junto con las preguntas normales de Danger de H5.</li></ul>"
+    },
+    {
+      "id": "iluminado",
+      "prefijo": "ilu",
+      "nombre": "La Ciencia del Umbral",
+      "subtitulo": "Artefactos Iluminados",
+      "sustantivo": "Artefacto",
+      "sustantivoPlural": "Artefactos",
+      "baliza": "metodo",
+      "origen": {
+        "nombre": "El Avance",
+        "texto": "<p>Un personaje se convierte en Iluminado mediante el Avance: su primer prototipo funcional. Igual que el Imbuimiento, ocurre en juego, no en creación de personaje (con la misma excepción de crónicas que arranquen ahí).</p><p><strong>Disparador narrativo.</strong> El personaje sobrevivió a lo sobrenatural y respondió con obsesión metódica: muestras, mediciones, semanas sin dormir. El Avance llega cuando tiene tres cosas: material de estudio (restos, fluidos, grabaciones de una criatura), tiempo de taller, y un momento de desesperación intelectual, la madrugada en que deja de intentar que tenga sentido y simplemente lo hace andar.</p><p><strong>Disparador mecánico (opcional).</strong> Tras una escena donde la célula obtuvo material sobrenatural tangible, un jugador con al menos 3 en Ciencias, Tecnología o Artesanía puede proponer su Avance. La cronista decide, igual que con el Imbuimiento: es un premio narrativo.</p><p><strong>Coste.</strong> El Avance otorga gratis la Lente Espectral (abajo). Cada Artefacto adicional se compra como Ventaja de 3 puntos (o 6 PX en juego). Las Mejoras cuestan como un Perk normal. Misma economía que los Bordes Imbuidos, deliberadamente: nadie en la mesa elige el camino por ventaja mecánica.</p><p><strong>La obsesión.</strong> Todo Iluminado gana un Defecto de 1 punto que refleja lo que el método le hizo: no puede dejar un problema sin resolver, habla solo, desconfía de todo lo que no midió él mismo, duerme en el taller. El espejo de la cicatriz del Imbuido.</p>"
+      },
+      "activacion": {
+        "nombre": "Forzar el prototipo",
+        "texto": "<p>Usar la función anómala de un Artefacto exige forzarlo: el jugador debe incluir los dados de Desesperación de la célula en la tirada. La función normal del objeto (una cámara saca fotos, un botiquín venda) no requiere nada; lo imposible siempre cuesta.</p>"
+      },
+      "gasto": {
+        "nombre": "Sobrecarga",
+        "texto": "<p>Los efectos marcados como Sobrecarga exigen además reducir la Desesperación de la célula en 1. El Iluminado le exige al prototipo más de lo que fue diseñado para dar, y ese margen sale del mismo pozo compartido que los milagros. Con Desesperación en 0 no hay Sobrecarga.</p>"
+      },
+      "falloTotal": {
+        "nombre": "Falla catastrófica",
+        "texto": "<p>Si la tirada resulta en Desesperación total, además de las consecuencias normales el Artefacto se quema: queda inservible hasta que el Iluminado lo repare (una escena de taller completa y una tirada de Inteligencia + Tecnología o Artesanía, dif. 3). Si el fallo ocurre en las manos del Iluminado, la cronista puede añadir 1 de daño superficial por descarga, esquirlas o quemadura química. La versión tecnológica del silencio de los Heraldos.</p>"
+      },
+      "reglasComunes": "<p>Los Artefactos comparten estas reglas, paralelas a \"encender la Chispa\":</p><ul><li><strong>Activación.</strong> Usar la función anómala de un Artefacto exige forzarlo: el jugador debe incluir los dados de Desesperación de la célula en la tirada. La función normal del objeto (una cámara saca fotos, un botiquín venda) no requiere nada; lo imposible siempre cuesta.</li><li><strong>Falla catastrófica.</strong> Si la tirada resulta en Desesperación total, además de las consecuencias normales el Artefacto se quema: queda inservible hasta que el Iluminado lo repare (una escena de taller completa y una tirada de Inteligencia + Tecnología o Artesanía, dif. 3). Si el fallo ocurre en las manos del Iluminado, la cronista puede añadir 1 de daño superficial por descarga, esquirlas o quemadura química. La versión tecnológica del silencio de los Heraldos.</li><li><strong>Sobrecarga.</strong> Los efectos marcados como Sobrecarga exigen además reducir la Desesperación de la célula en 1. El Iluminado le exige al prototipo más de lo que fue diseñado para dar, y ese margen sale del mismo pozo compartido que los milagros. Con Desesperación en 0 no hay Sobrecarga.</li><li><strong>La anomalía atrae.</strong> Un Artefacto usado frente a un sobrenatural que sobrevive a la escena suma +1 de Peligro (Danger) al final de la sesión. Para un monstruo, un mortal con un arma que no debería existir es tan alarmante como uno que hace milagros, y encima este se puede robar.</li><li><strong>Manos ajenas.</strong> Un Artefacto prestado o robado funciona, pero mal: cualquier otro usuario tira con −2 dados y la falla catastrófica ocurre con cualquier 1 en los dados de Desesperación, no solo en Desesperación total. Nadie salvo el que lo construyó sabe exactamente qué cinta aislante está aguantando qué.</li><li><strong>Mantenimiento.</strong> Entre historias (no entre sesiones), cada Artefacto exige una escena breve de taller. Si el Iluminado no puede o no quiere dársela, el Artefacto opera a −1 dado hasta recibirla. Los prototipos no perdonan el abandono.</li><li><strong>Un Artefacto forzado por turno.</strong> La Lente Espectral en modo pasivo no cuenta.</li></ul>",
+      "defecto": {
+        "nombre": "La obsesión",
+        "texto": "<p>Todo Iluminado gana un Defecto de 1 punto que refleja lo que el método le hizo: no puede dejar un problema sin resolver, habla solo, desconfía de todo lo que no midió él mismo, duerme en el taller. El espejo de la cicatriz del Imbuido.</p>"
+      },
+      "coste": {
+        "puntos": 3,
+        "px": 6,
+        "fueraDeRamaPuntos": 1,
+        "fueraDeRamaPx": 2
+      },
+      "ramasNombre": "Rama",
+      "ramas": [
+        {
+          "id": "balistica-anomala",
+          "nombre": "Balística Anómala",
+          "texto": "<p>Neutralizar la amenaza.</p>"
+        },
+        {
+          "id": "contramedidas",
+          "nombre": "Contramedidas",
+          "texto": "<p>Proteger a los vivos.</p>"
+        },
+        {
+          "id": "telemetria",
+          "nombre": "Telemetría",
+          "texto": "<p>Entender al enemigo.</p>"
+        }
+      ],
+      "notasRamas": "<p>Cada Iluminado se especializa en una Rama según qué problema lo obsesionó primero: Balística Anómala (neutralizar la amenaza), Contramedidas (proteger a los vivos) o Telemetría (entender al enemigo). Son el espejo de Celo, Misericordia y Visión. Los Artefactos de la propia Rama se compran a coste normal; los de otras cuestan 1 punto/2 PX más.</p>",
+      "pasiva": {
+        "id": "lente-espectral",
+        "nombre": "Lente Espectral",
+        "nombreOriginal": "≈ Segunda Vista",
+        "rama": "",
+        "gratis": true,
+        "slots": 1,
+        "intro": "<p>Todo Iluminado la recibe gratis con el Avance. Es el gemelo tecnológico de la Segunda Vista.</p><p>Una cámara modificada, unos anteojos con visor térmico intervenido, una app de espectrografía que no debería correr en ese teléfono. A través de la Lente, el mundo se ve como es: el vampiro no registra temperatura corporal coherente, el hombre lobo tiene una silueta térmica que no cierra, hay una figura en el pasillo que el sensor detecta y el ojo no.</p>",
+        "sistema": "<p>Mientras el Iluminado observa a través de la Lente, funciona como la Segunda Vista: ante un sobrenatural disfrazado, oculto o inmaterial, la cronista pide Resolución + Tecnología (contra poderes de ocultamiento, tirada enfrentada contra el poder del monstruo). La diferencia clave con la Segunda Vista: hay que estar mirando a través del aparato. Quitarle la Lente al Iluminado lo deja ciego a lo oculto; ese es el precio de no llevar el don adentro.</p>",
+        "precioPropio": "",
+        "marca": "",
+        "emula": "",
+        "reservas": [
+          {
+            "nombre": "Resolución + Tecnología",
+            "dados": [
+              "attributes.resolve",
+              "skills.technology"
+            ],
+            "dificultad": 0,
+            "nota": "Contra poderes de ocultamiento es enfrentada contra el poder del monstruo"
+          }
+        ],
+        "mejoras": [
+          {
+            "id": "registro-forense",
+            "nombre": "Registro Forense",
+            "gasto": false,
+            "texto": "<p>La Lente graba. Con una escena de análisis posterior y una tirada de Inteligencia + Ciencias (dif. 3), el Iluminado extrae de la grabación una vulnerabilidad general de la criatura observada (el fuego, el sol, la plata, un patrón de comportamiento). Una pista, no una ficha técnica.</p>"
+          }
+        ]
+      },
+      "poderes": [
+        {
+          "id": "municion-tratada",
+          "nombre": "Munición Tratada",
+          "nombreOriginal": "≈ Hendir",
+          "rama": "balistica-anomala",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Cartuchos cargados a mano con compuestos destilados de restos sobrenaturales, hojas con baño electrolítico que no figura en ningún manual. El arma es común; lo que muerde es el tratamiento.</p>",
+          "sistema": "<p>El Iluminado prepara un lote antes de la misión (escena de taller). Al usarlo en combate, se fuerza el prototipo al declarar el ataque: durante la escena, esa arma o munición inflige daño agravado a criaturas sobrenaturales, que no pueden aplicar curación sobrenatural sobre esas heridas hasta el final de la escena. Contra mortales es un arma común, siempre. El lote se agota al final de la escena: la química no dura.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Destreza + Armas de fuego",
+              "dados": [
+                "attributes.dexterity",
+                "skills.firearms"
+              ],
+              "dificultad": 0,
+              "nota": "Tirada de ataque; el texto no fija la reserva (se usa la estándar de H5). La activación se hace al declarar el ataque (munición)"
+            },
+            {
+              "nombre": "Fuerza + Cuerpo a cuerpo",
+              "dados": [
+                "attributes.strength",
+                "skills.melee"
+              ],
+              "dificultad": 0,
+              "nota": "Tirada de ataque; el texto no fija la reserva (se usa la estándar de H5). La activación se hace al declarar el ataque (hoja tratada)"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "carga-perforante",
+              "nombre": "Carga Perforante",
+              "gasto": true,
+              "texto": "<p>Sobrecargando, el próximo ataque que impacte suma +2 al daño. El compuesto reacciona exactamente con lo que el monstruo tiene en las venas.</p>"
+            },
+            {
+              "id": "produccion-en-serie",
+              "nombre": "Producción en Serie",
+              "gasto": false,
+              "texto": "<p>El Iluminado puede preparar un segundo lote por escena de taller y confiárselo a un compañero de célula, que lo usa sin el penalizador de manos ajenas (la munición es consumible, no un prototipo delicado). El compañero fuerza los dados de Desesperación igual.</p>"
+            }
+          ]
+        },
+        {
+          "id": "emisor-de-perimetro",
+          "nombre": "Emisor de Perímetro",
+          "nombreOriginal": "≈ Custodia",
+          "rama": "balistica-anomala",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Una caja del tamaño de un router que emite algo entre el ultrasonido y otra cosa. Los sobrenaturales que se acercan sienten la piel equivocada.</p>",
+          "sistema": "<p>Un turno para desplegarlo cubriendo una habitación o vehículo y Resolución + Tecnología forzando el prototipo. Los éxitos quedan como reserva; cada sobrenatural que intente cruzar el perímetro debe superarlos con Resolución + Resistencia o no puede cruzar este turno, y sabe que algo lo rechazó. Dura la escena o hasta que se quede sin batería, se destruya o el Iluminado lo apague.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Tecnología",
+              "dados": [
+                "attributes.resolve",
+                "skills.technology"
+              ],
+              "dificultad": 0,
+              "nota": "Los éxitos quedan como reserva que el sobrenatural debe superar"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "modo-nocturno",
+              "nombre": "Modo Nocturno",
+              "gasto": true,
+              "texto": "<p>Sobrecargando al desplegarlo, el Emisor aguanta hasta el amanecer y su zumbido de fondo bloquea pesadillas y poderes mentales sobrenaturales sobre los mortales que duerman dentro.</p>"
+            }
+          ]
+        },
+        {
+          "id": "designador",
+          "nombre": "Designador",
+          "nombreOriginal": "≈ Atravesar",
+          "rama": "balistica-anomala",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Un puntero, una luz, una frecuencia. El Designador marca a la criatura y le arranca la máscara delante de todos.</p>",
+          "sistema": "<p>Enfrentada: Resolución + Tecnología del Iluminado (prototipo forzado) contra Compostura + Subterfugio del objetivo. Si gana, durante la escena el objetivo no puede sostener disfraces sobrenaturales frente al Iluminado y su célula, y sufre +1 de dificultad en tiradas Sociales contra ellos. La criatura siente el haz encima como una mira láser en el pecho.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Tecnología",
+              "dados": [
+                "attributes.resolve",
+                "skills.technology"
+              ],
+              "dificultad": 0,
+              "nota": "Enfrentada contra Compostura + Subterfugio del objetivo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "firma-registrada",
+              "nombre": "Firma Registrada",
+              "gasto": false,
+              "texto": "<p>Una criatura designada queda en la base de datos del Iluminado: la Lente Espectral la reconoce automáticamente en encuentros futuros, sin tirada, mientras el Iluminado la tenga a la vista.</p>"
+            }
+          ]
+        },
+        {
+          "id": "difusor-de-calma",
+          "nombre": "Difusor de Calma",
+          "nombreOriginal": "≈ Iluminar",
+          "rama": "contramedidas",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Un dispersor químico, una frecuencia de audio subliminal en un parlante portátil. Donde funciona, el pánico no prende.</p>",
+          "sistema": "<p>Carisma + Tecnología forzando el prototipo. Los mortales presentes (hasta éxitos × 2 personas) quedan inmunes al pánico de masas y al terror sobrenatural durante la escena, y siguen indicaciones razonables del Iluminado para evacuar sin discutir. No afecta a la célula ni controla mentes.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Carisma + Tecnología",
+              "dados": [
+                "attributes.charisma",
+                "skills.technology"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "frecuencia-de-celula",
+              "nombre": "Frecuencia de Célula",
+              "gasto": true,
+              "texto": "<p>Sobrecargando, el efecto se sintoniza también con la célula: durante la escena, los compañeros pueden repetir una tirada fallada de miedo, frenesí inducido o terror sobrenatural.</p>"
+            }
+          ]
+        },
+        {
+          "id": "kit-de-trauma",
+          "nombre": "Kit de Trauma",
+          "nombreOriginal": "≈ Bálsamo",
+          "rama": "contramedidas",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Un maletín de emergencias que hace cosas que un maletín no hace: coagulantes que no existen en el mercado, un estimulador que reinicia lo que no debería reiniciarse.</p>",
+          "sistema": "<p>Un turno de trabajo sobre el paciente y Inteligencia + Medicina forzando el prototipo. Cada éxito cura 1 nivel de daño superficial del objetivo. A diferencia del Bálsamo, el daño no se transfiere: lo paga el maletín. Cada uso consume reactivos: el Kit admite (Inteligencia del Iluminado) usos por historia antes de necesitar una escena de taller para reponerlo. No funciona sobre el propio Iluminado con las manos temblando: sobre uno mismo, −2 dados.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Inteligencia + Medicina",
+              "dados": [
+                "attributes.intelligence",
+                "skills.medicine"
+              ],
+              "dificultad": 0,
+              "nota": "Sobre uno mismo, −2 dados"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "protocolo-extremo",
+              "nombre": "Protocolo Extremo",
+              "gasto": true,
+              "texto": "<p>Sobrecargando, el Kit puede convertir hasta 2 niveles de daño agravado del objetivo en superficial. La ciencia no borra la herida; la vuelve sobrevivible.</p>"
+            }
+          ]
+        },
+        {
+          "id": "inhibidor",
+          "nombre": "Inhibidor",
+          "nombreOriginal": "≈ Sosegar",
+          "rama": "contramedidas",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Un dardo, un aerosol, un pulso. Destilado de la propia biología del monstruo, apaga la furia sin apagar a la criatura.</p>",
+          "sistema": "<p>Requiere haber estudiado antes material de ese tipo de criatura (una muestra, una autopsia, horas de grabación). El Iluminado aplica el Inhibidor (ataque a distancia corta o contacto) y tira Compostura + Ciencias forzando el prototipo, enfrentado a Resolución + Compostura del objetivo. Si gana, suprime durante la escena la furia sobrenatural activa: el frenesí se corta, la ghoul baja el arma. La criatura no queda dócil; queda lúcida.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Compostura + Ciencias",
+              "dados": [
+                "attributes.composure",
+                "skills.science"
+              ],
+              "dificultad": 0,
+              "nota": "Enfrentada contra Resolución + Compostura del objetivo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "ventana-de-interrogacion",
+              "nombre": "Ventana de Interrogación",
+              "gasto": false,
+              "texto": "<p>Si el Inhibidor hizo efecto, el cóctel afloja algo más que la furia: el Iluminado puede hacer una única pregunta que la criatura responde con verdad. Qué hace la criatura con su momento de lucidez es cosa suya.</p>"
+            }
+          ]
+        },
+        {
+          "id": "motor-predictivo",
+          "nombre": "Motor Predictivo",
+          "nombreOriginal": "≈ Presagio",
+          "rama": "telemetria",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Un algoritmo entrenado con todo lo que la célula grabó, corriendo en un teléfono reforzado, susurrando probabilidades a un auricular.</p>",
+          "sistema": "<p>Se fuerza el prototipo al inicio de la escena con Astucia + Tecnología (dif. 2). Con éxito, durante la escena el Iluminado no puede ser emboscado ni sorprendido (el Motor ve el patrón antes de que pase), y una vez por escena puede obligar a repetir una tirada recién resuelta, propia, de un aliado o de un enemigo, quedándose con el segundo resultado.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Astucia + Tecnología",
+              "dados": [
+                "attributes.wits",
+                "skills.technology"
+              ],
+              "dificultad": 2,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "red-de-celula",
+              "nombre": "Red de Célula",
+              "gasto": true,
+              "texto": "<p>Sobrecargando, todos los compañeros con auricular quedan cubiertos contra la sorpresa esa escena. La voz sintética diciendo \"movimiento, izquierda, ahora\" llega siempre justo a tiempo.</p>"
+            }
+          ]
+        },
+        {
+          "id": "rastreador-de-firma",
+          "nombre": "Rastreador de Firma",
+          "nombreOriginal": "≈ Señalar",
+          "rama": "telemetria",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Una muestra en un capilar, un sensor que no mide nada que la ciencia tenga nombre para medir, y una aguja que apunta.</p>",
+          "sistema": "<p>Requiere una muestra de la criatura (sangre, tejido, un objeto impregnado). Resolución + Ciencias forzando el prototipo. Éxito: dirección general e impresión de distancia. Crítico: el Rastreador triangula y da una ubicación aproximada en el mapa. La firma se degrada al amanecer, o antes si la criatura cruza agua corriente, sale de la ciudad o muere.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Ciencias",
+              "dados": [
+                "attributes.resolve",
+                "skills.science"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "marcador-pasivo",
+              "nombre": "Marcador Pasivo",
+              "gasto": false,
+              "texto": "<p>Si el Iluminado llega físicamente al refugio de la criatura con la firma activa, puede dejar un sensor oculto: sabrá cuándo la criatura entra o sale mientras el sensor sobreviva.</p>"
+            }
+          ]
+        },
+        {
+          "id": "reconstructor",
+          "nombre": "Reconstructor",
+          "nombreOriginal": "≈ Sondear",
+          "rama": "telemetria",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Fotogrametría, análisis de residuos, micrófonos que levantan ecos de cosas que ya terminaron de sonar. El Reconstructor arma el pasado de una escena pieza por pieza.</p>",
+          "sistema": "<p>Requiere acceso físico a la escena o al objeto y una escena de trabajo de campo. Inteligencia + Investigación forzando el prototipo. Éxito: una reconstrucción parcial del evento más significativo vinculado al lugar u objeto (posiciones, secuencia, un fragmento de audio). Crítico: la escena casi completa, con rostros identificables. A diferencia de Sondear, el resultado es un archivo: se puede mostrar, compartir y volver a mirar. También se puede robar.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Inteligencia + Investigación",
+              "dados": [
+                "attributes.intelligence",
+                "skills.investigation"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "cadena-de-custodia",
+              "nombre": "Cadena de Custodia",
+              "gasto": false,
+              "texto": "<p>Los archivos del Reconstructor quedan cifrados y con firma de integridad. Sirven para convencer a un contacto escéptico, un policía, un periodista, un patrocinador de la org, de que lo que la célula dice haber visto pasó de verdad. La cronista decide cuánto pesa esa prueba, pero pesa.</p>"
+            }
+          ]
+        }
+      ],
+      "notas": "<ul><li><strong>Paridad deliberada con los Bordes Imbuidos.</strong> Mismos costes, misma activación por Desesperación, mismo +1 de Danger, efectos espejados. La elección entre Heraldo y taller es de personaje, no de optimización.</li><li><strong>La fragilidad es el precio.</strong> El Imbuido pierde sus Bordes al caer en Despair; el Iluminado pierde el Artefacto quemado hasta repararlo, y encima se lo pueden robar, confiscar o romper. A cambio, algunas de sus cosas se comparten (Producción en Serie, los archivos del Reconstructor) y su don no depende de su estado mental.</li><li><strong>Materiales como gancho de trama.</strong> Munición Tratada, el Inhibidor y el Rastreador piden muestras y estudio previo. Eso convierte cada cadáver de monstruo en botín y cada autopsia en escena jugable.</li><li><strong>¿De dónde salió esto?</strong> Si en tu crónica existen las orgs, un Iluminado es un imán de atención: patrocinadores que quieren el prototipo, trajes grises que quieren saber quién filtró qué. El origen ambiguo de la Ciencia del Umbral es un arco de campaña esperando a que lo tires.</li><li><strong>Escala.</strong> Igual que los Bordes: equivalente a niveles 1-2 de la edición vieja. Nada de rayos desintegradores ni teletransporte; si la crónica lo pide alguna vez, que sea un evento único.</li></ul>",
+      "foundry": "<ul><li>Cargá cada Artefacto como ítem de tipo Edge con sus Mejoras como Perks, igual que los Bordes Imbuidos. Forzar el prototipo es marcar la inclusión de dados de Desesperación en la tirada.</li><li>La Lente Espectral va como Edge pasivo separado, con una nota de que requiere el objeto físico equipado.</li><li>El estado de cada Artefacto (operativo, quemado, sin mantenimiento, prestado) conviene llevarlo como efectos activos sobre el ítem o en una tabla de journal del taller del personaje; el sistema no lo automatiza.</li><li>Sobrecarga: igual que Quemar la Chispa, bajá la Desesperación a mano en el tracker de la célula y dejá registro en el chat.</li><li>El +1 de Danger va en tu tracker de fin de sesión, junto con las preguntas normales de Danger de H5.</li></ul>"
+    },
+    {
+      "id": "modificado",
+      "prefijo": "mod",
+      "nombre": "La Carne Templada",
+      "subtitulo": "Modificaciones Humanas",
+      "sustantivo": "Modificación",
+      "sustantivoPlural": "Modificaciones",
+      "baliza": "carne",
+      "origen": {
+        "nombre": "La Operación",
+        "texto": "<p>Un personaje se convierte en Modificado mediante su primera intervención, en juego, nunca en creación de personaje (con la excepción habitual de crónicas que arranquen ahí).</p><p><strong>Disparador narrativo.</strong> El cazador sobrevivió a lo sobrenatural con el cuerpo roto o con la certeza de que la próxima vez no alcanza. Y tenía acceso: material biológico de una criatura, un contacto en una clínica clandestina, un programa de una org que busca voluntarios, o conocimientos médicos propios y la desesperación suficiente para usárselos encima.</p><p><strong>Disparador mecánico (opcional).</strong> Tras una escena donde la célula obtuvo restos de una criatura, un jugador cuyo personaje quedó gravemente herido o tenga 3+ en Medicina o Ciencias puede proponer su Operación. La cronista decide; es un premio narrativo, como el Imbuimiento y el Avance.</p><p><strong>Coste.</strong> La Operación otorga gratis el Sentido Vestigial (abajo). Cada Modificación adicional se compra como Ventaja de 3 puntos (o 6 PX en juego). Las Mejoras cuestan como un Perk normal. Misma economía que los otros dos caminos, a propósito.</p><p><strong>La marca de la carne.</strong> Cada Modificación (incluido el Sentido Vestigial) deja una marca física permanente que un examen médico detectaría al instante y que a simple vista se nota como algo raro: cicatrices que no cierran del todo, una vena oscura, un olor tenue a hospital. Con la primera Modificación el personaje gana un Defecto de 1 punto que refleja esto (no puede sacarse la remera en público, los perros le ladran, los controles médicos son un problema). No se acumulan Defectos por cada mod, pero las marcas sí.</p><p><strong>El límite.</strong> Un cuerpo humano aguanta hasta (Resistencia) Modificaciones además del Sentido Vestigial. Pasarse de ahí no es una opción de compra; es un arco de crónica, y probablemente uno que termina mal.</p>"
+      },
+      "activacion": {
+        "nombre": "Exigir la carne",
+        "texto": "<p>Usar la función anómala de una Modificación exige exigirle a la carne: el jugador debe incluir los dados de Desesperación de la célula en la tirada. El tejido injertado no trabaja gratis.</p>"
+      },
+      "gasto": {
+        "nombre": "Desgarro",
+        "texto": "<p>Los efectos marcados como Desgarro exigen además reducir la Desesperación de la célula en 1. El Modificado le exige al injerto más de lo que el cuerpo puede sostener, y ese margen sale del pozo compartido. Con Desesperación en 0 no hay Desgarro.</p>"
+      },
+      "falloTotal": {
+        "nombre": "Crisis de rechazo",
+        "texto": "<p>Si la tirada resulta en Desesperación total, además de las consecuencias normales el cuerpo se rebela: el Modificado sufre 1 de daño agravado (fiebre, necrosis local, la sutura que se abre) y esa Modificación queda inerte hasta que reciba una escena de cuidados (Inteligencia + Medicina, dif. 3, propia o de otro). La versión de carne del silencio de los Heraldos y del prototipo quemado.</p>"
+      },
+      "reglasComunes": "<p>Las Modificaciones comparten estas reglas, paralelas a encender la Chispa y forzar el prototipo:</p><ul><li><strong>Activación.</strong> Usar la función anómala de una Modificación exige exigirle a la carne: el jugador debe incluir los dados de Desesperación de la célula en la tirada. El tejido injertado no trabaja gratis.</li><li><strong>Crisis de rechazo.</strong> Si la tirada resulta en Desesperación total, además de las consecuencias normales el cuerpo se rebela: el Modificado sufre 1 de daño agravado (fiebre, necrosis local, la sutura que se abre) y esa Modificación queda inerte hasta que reciba una escena de cuidados (Inteligencia + Medicina, dif. 3, propia o de otro). La versión de carne del silencio de los Heraldos y del prototipo quemado.</li><li><strong>Desgarro.</strong> Los efectos marcados como Desgarro exigen además reducir la Desesperación de la célula en 1. El Modificado le exige al injerto más de lo que el cuerpo puede sostener, y ese margen sale del pozo compartido. Con Desesperación en 0 no hay Desgarro.</li><li><strong>El olor de la quimera.</strong> Una Modificación usada frente a un sobrenatural que sobrevive a la escena suma +1 de Peligro (Danger) al final de la sesión. Y hay algo peor: los sobrenaturales con sentidos agudizados (olfato de lupino, auspex, etc.) que examinen activamente al Modificado ganan +1 dado para notar que no es del todo normal, use o no sus Modificaciones. La carne injertada huele a lo que fue.</li><li><strong>El régimen.</strong> El Modificado depende de inmunosupresores y compuestos de mantenimiento (una escena breve de conseguir/preparar dosis entre historias, no entre sesiones). Sin el régimen, todas las Modificaciones operan a −1 dado y la cronista puede pedir chequeos de Resistencia + Aguante ante síntomas de rechazo. El equivalente del taller del Iluminado, pero adentro del cuerpo.</li><li><strong>No se presta, no se roba, no se apaga.</strong> A diferencia del Artefacto, nadie le puede sacar la Modificación al Modificado sin un quirófano. A diferencia del Borde, el Despair no la silencia. Ese es su punto fuerte, y por eso paga con daño propio y con el olor.</li><li><strong>Una Modificación exigida por turno.</strong> El Sentido Vestigial en pasiva no cuenta.</li></ul>",
+      "defecto": {
+        "nombre": "La marca de la carne",
+        "texto": "<p>Cada Modificación (incluido el Sentido Vestigial) deja una marca física permanente que un examen médico detectaría al instante y que a simple vista se nota como algo raro: cicatrices que no cierran del todo, una vena oscura, un olor tenue a hospital. Con la primera Modificación el personaje gana un Defecto de 1 punto que refleja esto (no puede sacarse la remera en público, los perros le ladran, los controles médicos son un problema). No se acumulan Defectos por cada mod, pero las marcas sí.</p>"
+      },
+      "coste": {
+        "puntos": 3,
+        "px": 6,
+        "fueraDeRamaPuntos": 1,
+        "fueraDeRamaPx": 2
+      },
+      "ramasNombre": "Línea",
+      "ramas": [
+        {
+          "id": "refuerzo",
+          "nombre": "Refuerzo",
+          "texto": "<p>El cuerpo como arma.</p>"
+        },
+        {
+          "id": "soporte",
+          "nombre": "Soporte",
+          "texto": "<p>El cuerpo al servicio de otros.</p>"
+        },
+        {
+          "id": "sensorio",
+          "nombre": "Sensorio",
+          "texto": "<p>El cuerpo como instrumento de percepción.</p>"
+        }
+      ],
+      "notasRamas": "<p>Cada Modificado se define por una Línea según qué le pidió primero a su cuerpo: Refuerzo (el cuerpo como arma), Soporte (el cuerpo al servicio de otros) y Sensorio (el cuerpo como instrumento de percepción). Espejo de Celo, Misericordia y Visión, y de las tres Ramas del Iluminado. Las Modificaciones de la propia Línea se compran a coste normal; las de otras cuestan 1 punto/2 PX más.</p>",
+      "pasiva": {
+        "id": "sentido-vestigial",
+        "nombre": "Sentido Vestigial",
+        "nombreOriginal": "≈ Segunda Vista",
+        "rama": "",
+        "gratis": true,
+        "slots": 1,
+        "intro": "<p>Todo Modificado lo recibe gratis con la Operación. Tercer gemelo de la Segunda Vista y la Lente Espectral.</p><p>Un injerto sensorial cultivado de tejido sobrenatural: un nervio óptico que no vino de un donante humano, un oído interno reconstruido con cartílago de otra cosa. El mundo oculto no se ve: se siente. Un escalofrío direccional, un gusto metálico cuando el vampiro entra al bar, la piel de gallina apuntando hacia el pasillo donde está parado el fantasma.</p>",
+        "sistema": "<p>Pasiva y siempre encendida, como la Segunda Vista, sin necesitar aparato como la Lente. Ante un sobrenatural disfrazado, oculto o inmaterial, la cronista pide Resolución + Consciencia (contra poderes de ocultamiento, enfrentada contra el poder del monstruo). La diferencia con sus gemelas: el Sentido Vestigial es visceral, no informativo. Un éxito dice que hay algo y dónde; nunca dice qué es, ni con crítico. Para identificar hace falta investigar como todo el mundo.</p>",
+        "precioPropio": "",
+        "marca": "",
+        "emula": "",
+        "reservas": [
+          {
+            "nombre": "Resolución + Consciencia",
+            "dados": [
+              "attributes.resolve",
+              "skills.awareness"
+            ],
+            "dificultad": 0,
+            "nota": "Contra poderes de ocultamiento es enfrentada contra el poder del monstruo"
+          }
+        ],
+        "mejoras": [
+          {
+            "id": "paladar-educado",
+            "nombre": "Paladar Educado",
+            "gasto": false,
+            "texto": "<p>Con experiencia, el escalofrío aprende matices. Si el Modificado ya enfrentó antes a ese tipo de criatura, un éxito también le dice de qué tipo se trata. El cuerpo recuerda lo que casi lo mata.</p>"
+          }
+        ]
+      },
+      "poderes": [
+        {
+          "id": "osteoinjerto",
+          "nombre": "Osteoinjerto",
+          "nombreOriginal": "≈ Hendir",
+          "rama": "refuerzo",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Espolones de hueso denso y cerámica biológica bajo los antebrazos, tratados con los mismos compuestos que la Munición Tratada del Iluminado, pero vivos.</p>",
+          "sistema": "<p>Se exige la carne al declarar el ataque. Durante la escena, los ataques desarmados del Modificado infligen daño como arma cuerpo a cuerpo ligera y agravado contra criaturas sobrenaturales, que no pueden aplicar curación sobrenatural sobre esas heridas hasta el final de la escena. No se le puede desarmar, obviamente. Contra mortales, los espolones hacen daño de arma común y dejan heridas muy difíciles de explicar en una comisaría.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Fuerza + Pelea",
+              "dados": [
+                "attributes.strength",
+                "skills.brawl"
+              ],
+              "dificultad": 0,
+              "nota": "Tirada de ataque; el texto no fija la reserva (se usa la estándar de H5). La activación se hace al declarar el ataque (ataque desarmado)"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "estocada-visceral",
+              "nombre": "Estocada Visceral",
+              "gasto": true,
+              "texto": "<p>Desgarrando, el próximo ataque que impacte suma +2 al daño. El injerto sabe dónde morder porque alguna vez fue parte de algo que mordía.</p>"
+            },
+            {
+              "id": "retractiles",
+              "nombre": "Retráctiles",
+              "gasto": false,
+              "texto": "<p>Los espolones se ocultan por completo bajo la piel en reposo: ni un cacheo los encuentra. Sin esta mejora, se notan como crestas duras al tacto.</p>"
+            }
+          ]
+        },
+        {
+          "id": "glandula-apotropaica",
+          "nombre": "Glándula Apotropaica",
+          "nombreOriginal": "≈ Custodia",
+          "rama": "refuerzo",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Una glándula cultivada de tejido sobrenatural que segrega un compuesto que las criaturas de la noche no soportan. El Modificado lo suda, lo unta, marca territorio con él.</p>",
+          "sistema": "<p>Un turno para marcar el umbral de una habitación o vehículo con la secreción y Resolución + Aguante exigiendo la carne. Los éxitos quedan como reserva; cada sobrenatural que intente cruzar debe superarlos con Resolución + Resistencia o no puede cruzar este turno, y sabe que algo lo rechazó. Dura la escena o hasta que el Modificado cruce hacia afuera.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Aguante",
+              "dados": [
+                "attributes.resolve",
+                "skills.athletics"
+              ],
+              "dificultad": 0,
+              "nota": "Aguante no existe en H5: se usa Atletismo. Los éxitos quedan como reserva que el sobrenatural debe superar"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "vigilia-de-la-piel",
+              "nombre": "Vigilia de la Piel",
+              "gasto": true,
+              "texto": "<p>Desgarrando al marcar, la barrera dura hasta el amanecer y protege a los mortales que duerman dentro de pesadillas y poderes mentales sobrenaturales. El Modificado amanece deshidratado y con hambre de sal.</p>"
+            }
+          ]
+        },
+        {
+          "id": "mirada-de-depredador",
+          "nombre": "Mirada de Depredador",
+          "nombreOriginal": "≈ Atravesar",
+          "rama": "refuerzo",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Un iris injertado de algo que cazaba de noche. Cuando el Modificado clava los ojos en una criatura, esta reconoce a otro depredador, y las máscaras no funcionan entre depredadores.</p>",
+          "sistema": "<p>Enfrentada: Resolución + Intimidación del Modificado (carne exigida) contra Compostura + Subterfugio del objetivo. Si gana, durante la escena el objetivo no puede sostener disfraces sobrenaturales frente al Modificado y su célula, y sufre +1 de dificultad en tiradas Sociales contra ellos. La criatura sostiene esa mirada y entiende que del otro lado hay algo que ya no es presa.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Intimidación",
+              "dados": [
+                "attributes.resolve",
+                "skills.intimidation"
+              ],
+              "dificultad": 0,
+              "nota": "Enfrentada contra Compostura + Subterfugio del objetivo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "jerarquia",
+              "nombre": "Jerarquía",
+              "gasto": false,
+              "texto": "<p>Si el Modificado gana la enfrentada por 3+ éxitos, la criatura además debe gastar 1 de Fuerza de Voluntad para atacarlo directamente durante esta escena. Instinto puro: a ese no.</p>"
+            }
+          ]
+        },
+        {
+          "id": "feromonas-de-calma",
+          "nombre": "Feromonas de Calma",
+          "nombreOriginal": "≈ Iluminar",
+          "rama": "soporte",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Glándulas modificadas que saturan el aire cercano con algo que el cerebro mamífero lee como estamos a salvo, seguí a este.</p>",
+          "sistema": "<p>Carisma + Aguante exigiendo la carne. Los mortales presentes (hasta éxitos × 2 personas) quedan inmunes al pánico de masas y al terror sobrenatural durante la escena, y siguen indicaciones razonables del Modificado para evacuar sin discutir. No afecta a la célula ni controla mentes.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Carisma + Aguante",
+              "dados": [
+                "attributes.charisma",
+                "skills.athletics"
+              ],
+              "dificultad": 0,
+              "nota": "Aguante no existe en H5: se usa Atletismo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "manada",
+              "nombre": "Manada",
+              "gasto": true,
+              "texto": "<p>Desgarrando, la señal química alcanza también a la célula: durante la escena, los compañeros pueden repetir una tirada fallada de miedo, frenesí inducido o terror sobrenatural. Después de años juntos, el cuerpo de la célula también reconoce el estamos a salvo.</p>"
+            }
+          ]
+        },
+        {
+          "id": "plasma-universal",
+          "nombre": "Plasma Universal",
+          "nombreOriginal": "≈ Bálsamo",
+          "rama": "soporte",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>La sangre del Modificado, saturada de factores de coagulación y compuestos regenerativos, es un suero de trauma ambulante. El problema es que hay que sacársela.</p>",
+          "sistema": "<p>Un turno de transfusión de campo (el kit cabe en un bolsillo) y Resolución + Medicina exigiendo la carne. Por cada éxito, cura 1 nivel de daño superficial del objetivo, y el Modificado sufre 1 nivel de daño superficial por la extracción. El espejo exacto del Bálsamo del Imbuido: alguien tiene que pagarlo, y acá se paga en sangre literal. No funciona sobre uno mismo.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Medicina",
+              "dados": [
+                "attributes.resolve",
+                "skills.medicine"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "ultima-reserva",
+              "nombre": "Última Reserva",
+              "gasto": true,
+              "texto": "<p>Desgarrando, la transfusión puede convertir hasta 2 niveles de daño agravado del objetivo en superficial, y el Modificado sufre 1 agravado. Hay noches en que volver a casa con todos cuesta un pedazo de uno.</p>"
+            }
+          ]
+        },
+        {
+          "id": "toque-supresor",
+          "nombre": "Toque Supresor",
+          "nombreOriginal": "≈ Sosegar",
+          "rama": "soporte",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Glándulas en las palmas que sintetizan un neuroinhibidor destilado de la propia biología del monstruo. Un contacto sostenido, y la furia se apaga.</p>",
+          "sistema": "<p>Requiere haber incorporado antes material de ese tipo de criatura (parte del régimen: una dosis preparada a partir de muestras). El Modificado necesita tocar al objetivo (contacto, o presa) y tira Compostura + Medicina exigiendo la carne, enfrentado a Resolución + Compostura del objetivo. Si gana, suprime durante la escena la furia sobrenatural activa: el frenesí se corta, la criatura queda lúcida, no dócil.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Compostura + Medicina",
+              "dados": [
+                "attributes.composure",
+                "skills.medicine"
+              ],
+              "dificultad": 0,
+              "nota": "Enfrentada contra Resolución + Compostura del objetivo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "confesor-quimico",
+              "nombre": "Confesor Químico",
+              "gasto": false,
+              "texto": "<p>Si el Toque hizo efecto, la lucidez viene con la guardia baja: el Modificado puede hacer una única pregunta que la criatura responde con verdad. Lo que la criatura haga después con ese momento es cosa suya.</p>"
+            }
+          ]
+        },
+        {
+          "id": "reflejo-anticipatorio",
+          "nombre": "Reflejo Anticipatorio",
+          "nombreOriginal": "≈ Presagio",
+          "rama": "sensorio",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Tejido nervioso injertado a lo largo de la columna que reacciona a cosas que todavía no terminaron de pasar. El Modificado no ve el futuro: su cuerpo ya se movió cuando la mente pregunta por qué.</p>",
+          "sistema": "<p>Se exige la carne al inicio de la escena con Astucia + Consciencia (dif. 2). Con éxito, durante la escena el Modificado no puede ser emboscado ni sorprendido, y una vez por escena puede obligar a repetir una tirada recién resuelta, propia, de un aliado o de un enemigo, quedándose con el segundo resultado.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Astucia + Consciencia",
+              "dados": [
+                "attributes.wits",
+                "skills.awareness"
+              ],
+              "dificultad": 2,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "empujon",
+              "nombre": "Empujón",
+              "gasto": true,
+              "texto": "<p>Desgarrando, el reflejo alcanza para sacar a otros del camino: toda la célula queda cubierta contra la sorpresa esa escena. El manotazo que te tira al piso medio segundo antes del disparo.</p>"
+            }
+          ]
+        },
+        {
+          "id": "olfato-quimerico",
+          "nombre": "Olfato Quimérico",
+          "nombreOriginal": "≈ Señalar",
+          "rama": "sensorio",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Un epitelio olfativo reconstruido con tejido de rastreador nocturno. El mundo entero es un mapa de olores, y las criaturas sobrenaturales apestan a lo que son.</p>",
+          "sistema": "<p>Requiere haber olido antes a la criatura o tener una muestra suya (sangre, tejido, ropa impregnada). Resolución + Supervivencia exigiendo la carne. Éxito: dirección general e impresión de distancia. Crítico: el rastro concreto, calle por calle mientras lo siga. El rastro se degrada al amanecer, o antes si la criatura cruza agua corriente, sale de la ciudad o muere.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Supervivencia",
+              "dados": [
+                "attributes.resolve",
+                "skills.survival"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "archivo-olfativo",
+              "nombre": "Archivo Olfativo",
+              "gasto": false,
+              "texto": "<p>El Modificado nunca olvida un olor: reconoce automáticamente a cualquier criatura que ya rastreó si vuelve a cruzarla a distancia de olfato, sin tirada y a través de disfraces mundanos.</p>"
+            }
+          ]
+        },
+        {
+          "id": "memoria-tactil",
+          "nombre": "Memoria Táctil",
+          "nombreOriginal": "≈ Sondear",
+          "rama": "sensorio",
+          "gratis": false,
+          "slots": 1,
+          "intro": "<p>Terminaciones nerviosas injertadas en las yemas de los dedos que leen el residuo que los eventos violentos dejan en la materia. El Modificado toca, y el pasado le sube por el brazo.</p>",
+          "sistema": "<p>Contacto físico con el objeto o la escena y Resolución + Consciencia exigiendo la carne. Éxito: un destello del evento más cargado emocionalmente vinculado a eso (segundos de sensación: presión, temperatura, un sonido, un olor). Crítico: la secuencia casi completa, con rostros. Las impresiones son verdaderas pero llegan sin contexto, y llegan por el cuerpo: el Modificado siente el golpe que recibió la víctima.</p>",
+          "precioPropio": "",
+          "marca": "",
+          "emula": "",
+          "reservas": [
+            {
+              "nombre": "Resolución + Consciencia",
+              "dados": [
+                "attributes.resolve",
+                "skills.awareness"
+              ],
+              "dificultad": 0,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "callo",
+              "nombre": "Callo",
+              "gasto": false,
+              "texto": "<p>Las lecturas violentas normalmente cuestan 1 de Fuerza de Voluntad por el impacto somático. Con esta mejora, no. Las yemas de los dedos también hacen callo.</p>"
+            }
+          ]
+        }
+      ],
+      "notas": "<ul><li><strong>Paridad con los otros dos caminos.</strong> Mismos costes, misma activación por Desesperación, mismo +1 de Danger, efectos espejados uno a uno. Heraldo, taller o quirófano: la elección es de concepto, no de optimización.</li><li><strong>El precio distintivo es el cuerpo.</strong> El Imbuido pierde sus Bordes en Despair; el Iluminado pierde el Artefacto quemado o robado; el Modificado no pierde nada externo, pero la crisis de rechazo le pega en la salud, el régimen lo ata a proveedores, y los monstruos lo huelen aunque no haga nada. Es el camino más confiable en combate y el más caro de vivir.</li><li><strong>El límite de Resistencia es un arco, no un tope.</strong> El día que un jugador quiera pasarse de (Resistencia) Modificaciones, no le vendas el punto: jugalo. Qué le pasa a un cuerpo humano con demasiada quimera adentro es exactamente el tipo de pregunta que esta línea existe para hacer.</li><li><strong>Muestras como economía compartida.</strong> El Toque Supresor y el Olfato Quimérico piden material de criaturas, igual que la Munición Tratada del Iluminado. Si tenés un Iluminado y un Modificado en la misma célula, van a pelearse por el cadáver, y eso es una escena, no un problema.</li><li><strong>La sospecha es jugable.</strong> El resto de la célula tiene derecho a preguntarse cuánto de humano le queda al Modificado. No lo resuelvas: dejalo respirar en las escenas de mesa chica.</li><li><strong>Escala.</strong> Como los otros dos documentos: nivel 1-2 de la edición vieja. Sin regeneración instantánea, sin fuerza sobrehumana visible, sin saltar entre techos.</li></ul>",
+      "foundry": "<ul><li>Cada Modificación va como ítem de tipo Edge con sus Mejoras como Perks, igual que Bordes y Artefactos. Exigir la carne es incluir los dados de Desesperación en la tirada.</li><li>El Sentido Vestigial va como Edge pasivo separado.</li><li>La crisis de rechazo conviene llevarla como efecto activo sobre el ítem (Modificación inerte) más el daño agravado aplicado a mano; el régimen y sus penalizadores, como efecto activo sobre el actor.</li><li>Desgarro: igual que Quemar y Sobrecarga, bajá la Desesperación a mano en el tracker de la célula y dejá registro en el chat.</li><li>El +1 de Danger y el bonus de detección para sobrenaturales con sentidos agudizados van en tus notas de crónica; el segundo es simplemente +1 dado situacional cuando corresponda.</li></ul>"
+    },
+    {
+      "id": "gen2",
+      "prefijo": "gen2",
+      "nombre": "Injertos de Segunda Generación",
+      "subtitulo": "Disciplinas Sintéticas",
+      "sustantivo": "Injerto",
+      "sustantivoPlural": "Injertos",
+      "baliza": "carne",
+      "requiere": "modificado",
+      "origen": null,
+      "activacion": null,
+      "gasto": {
+        "nombre": "Desgarro",
+        "texto": ""
+      },
+      "falloTotal": null,
+      "reglasComunes": "<p>Aplican todas las reglas de La Carne Templada (exigir la carne, crisis de rechazo, Desgarro, el régimen, el olor de la quimera, +1 Danger ante testigos sobrenaturales), con estos agregados:</p><ul><li><strong>Requisito.</strong> Solo un personaje que ya es Modificado (pasó por la Operación y tiene el Sentido Vestigial) puede recibir injertos de Segunda Generación. El cuerpo tiene que estar ya acostumbrado a aceptar quimera.</li><li><strong>Coste.</strong> Cada injerto de Segunda Generación cuesta 4 puntos de Ventaja (u 8 PX en juego). Las Mejoras cuestan como un Perk normal.</li><li><strong>Ocupan doble.</strong> Cada uno cuenta como 2 Modificaciones contra el límite de (Resistencia). Son injertos masivos: haces musculares completos, mallas subdérmicas, órganos nuevos.</li><li><strong>Techo de poder.</strong> Emulan Disciplinas de nivel 1-2, nunca más. Un Modificado con Miofibras es más fuerte que cualquier humano de su tamaño; no gana pulseadas contra un Brujah. La versión mortal siempre es la copia berreta: funciona, cuesta, y se nota.</li><li><strong>El olor empeora.</strong> Con uno o más injertos de Segunda Generación, el bonus de detección de los sobrenaturales con sentidos agudizados sube a +2 dados. Para un vampiro con Auspex, un Modificado de Segunda Generación prácticamente brilla.</li><li><strong>Efecto sostenido.</strong> Salvo que se indique lo contrario, activar el injerto (exigiendo la carne) dura la escena. Mantenerlo una segunda escena consecutiva exige un chequeo de Resistencia + Aguante (dif. 2) o el cuerpo pasa factura: 1 de daño superficial y el injerto se apaga.</li></ul>",
+      "defecto": null,
+      "coste": {
+        "puntos": 4,
+        "px": 8,
+        "fueraDeRamaPuntos": 0,
+        "fueraDeRamaPx": 0
+      },
+      "ramasNombre": "",
+      "ramas": [],
+      "notasRamas": "",
+      "pasiva": null,
+      "poderes": [
+        {
+          "id": "ojo-compuesto",
+          "nombre": "Ojo Compuesto",
+          "nombreOriginal": "Auspex 1",
+          "rama": "",
+          "gratis": false,
+          "slots": 2,
+          "intro": "<p>Retina reconstruida en capas, cóclea afinada, bulbo olfativo expandido. El mundo entra entero y a la vez.</p>",
+          "sistema": "<p>Se activa exigiendo la carne con Resolución + Consciencia (dif. 1; la tirada existe para arriesgar la Desesperación, no para fallar). Durante la escena: +2 dados a todas las tiradas de Percepción, lee labios a distancia, oye una conversación a través de una pared fina, reconoce un perfume en un ascensor vacío.</p>",
+          "precioPropio": "<p>Mientras está activo, el Modificado sufre −2 dados para resistir ataques sensoriales: un flash, una sirena o un grito a corta distancia pueden aturdirlo un turno (chequeo de Compostura + Aguante, dif. 2). Los sentidos abiertos se abren para todo.</p>",
+          "marca": "Iris con anillos concéntricos, refleja la luz",
+          "emula": "Auspex 1",
+          "reservas": [
+            {
+              "nombre": "Resolución + Consciencia",
+              "dados": [
+                "attributes.resolve",
+                "skills.awareness"
+              ],
+              "dificultad": 1,
+              "nota": ""
+            },
+            {
+              "nombre": "Compostura + Aguante",
+              "dados": [
+                "attributes.composure",
+                "skills.athletics"
+              ],
+              "dificultad": 2,
+              "nota": "Aguante no existe en H5: se usa Atletismo. Chequeo del precio propio: resistir aturdimiento por ataque sensorial (flash, sirena, grito) mientras el injerto está activo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "enfoque-total",
+              "nombre": "Enfoque Total",
+              "gasto": true,
+              "texto": "<p>Desgarrando, la cronista le entrega un detalle de la escena que ningún sentido humano podría captar: el latido ausente del tipo del fondo, el olor a tierra de tumba bajo el perfume, la conversación susurrada en el piso de arriba.</p>"
+            },
+            {
+              "id": "filtro",
+              "nombre": "Filtro",
+              "gasto": false,
+              "texto": "<p>Elimina el penalizador contra ataques sensoriales. El injerto aprende a cerrar la compuerta.</p>"
+            }
+          ]
+        },
+        {
+          "id": "malla-subdermica",
+          "nombre": "Malla Subdérmica",
+          "nombreOriginal": "Fortaleza 1-2",
+          "rama": "",
+          "gratis": false,
+          "slots": 2,
+          "intro": "<p>Una red de fibra biológica tejida entre dermis y músculo, cultivada de tejido de algo que las balas no frenaban.</p>",
+          "sistema": "<p>Se activa exigiendo la carne con Resistencia + Aguante (dif. 1). Durante la escena, el Modificado tiene Armadura 2: cada turno convierte hasta 2 puntos de daño entrante de agravado a superficial, o de superficial a nada. Se apila con chaleco (primero la malla, después el chaleco, decisión de la cronista sobre el tope razonable).</p>",
+          "precioPropio": "<p>La malla no distingue: mientras está activa, el Modificado siente el dolor amortiguado y sufre −1 dado a tiradas de tacto fino y de Medicina sobre sí mismo. Y las heridas que la malla \"traga\" igual se acumulan como moretones profundos: al final de la escena, si la malla convirtió 4+ puntos, 1 de daño superficial por trauma interno.</p>",
+          "marca": "Piel con textura de cuero fino; no marca en frío",
+          "emula": "Fortaleza 1-2",
+          "reservas": [
+            {
+              "nombre": "Resistencia + Aguante",
+              "dados": [
+                "attributes.stamina",
+                "skills.athletics"
+              ],
+              "dificultad": 1,
+              "nota": "Aguante no existe en H5: se usa Atletismo"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "aguantar-lo-imposible",
+              "nombre": "Aguantar lo Imposible",
+              "gasto": true,
+              "texto": "<p>Desgarrando como reacción, el primer ataque que lo impacte esta escena se ignora por completo, sea lo que sea. Una vez. El video después muestra a un tipo levantándose de algo de lo que nadie se levanta.</p>"
+            },
+            {
+              "id": "tejido-sordo",
+              "nombre": "Tejido Sordo",
+              "gasto": false,
+              "texto": "<p>Elimina el daño por trauma acumulado de fin de escena. El cuerpo aprendió a distribuir el castigo.</p>"
+            }
+          ]
+        },
+        {
+          "id": "glandula-de-sobremarcha",
+          "nombre": "Glándula de Sobremarcha",
+          "nombreOriginal": "Celeridad 1-2",
+          "rama": "",
+          "gratis": false,
+          "slots": 2,
+          "intro": "<p>Un segundo sistema adrenal, sintético, con gatillo voluntario. El mundo no se pone lento: el Modificado se pone rápido, que no es lo mismo y duele distinto.</p>",
+          "sistema": "<p>Se activa exigiendo la carne con Destreza + Atletismo (dif. 1). Durante la escena: actúa primero en cada turno (empates entre Sobremarchas y Celeridades reales se resuelven con Destreza comparada) y +2 dados a reservas basadas en Destreza (esquivar, disparar en movimiento, conducir, sigilo activo).</p>",
+          "precioPropio": "<p>Al terminar la escena, el bajón: −1 dado a todas las reservas físicas hasta descansar al menos una hora y comer algo. El cuerpo quema lo que no tiene.</p>",
+          "marca": "Temblor fino permanente en las manos",
+          "emula": "Celeridad 1-2",
+          "reservas": [
+            {
+              "nombre": "Destreza + Atletismo",
+              "dados": [
+                "attributes.dexterity",
+                "skills.athletics"
+              ],
+              "dificultad": 1,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "instante-robado",
+              "nombre": "Instante Robado",
+              "gasto": true,
+              "texto": "<p>Desgarrando, una vez por escena el Modificado toma una acción física adicional en su turno (moverse y atacar, atacar dos veces, sacar a alguien de la línea de fuego y disparar). La copia mortal de la Celeridad de verdad, y el motivo por el que este injerto existe.</p>"
+            },
+            {
+              "id": "aterrizaje-suave",
+              "nombre": "Aterrizaje Suave",
+              "gasto": false,
+              "texto": "<p>Elimina el bajón post-escena. El sistema aprende a dosificar la vuelta.</p>"
+            }
+          ]
+        },
+        {
+          "id": "miofibras-sinteticas",
+          "nombre": "Miofibras Sintéticas",
+          "nombreOriginal": "Potencia 1-2",
+          "rama": "",
+          "gratis": false,
+          "slots": 2,
+          "intro": "<p>Haces musculares completos reemplazados por fibra cultivada. No se ve como un fisicoculturista: se ve como un tipo normal con cordones raros bajo la piel, hasta que arranca una puerta del marco.</p>",
+          "sistema": "<p>Se activa exigiendo la carne con Fuerza + Atletismo (dif. 1). Durante la escena: +2 dados a todas las reservas basadas en Fuerza, y proezas sin tirada que un humano entrenado no puede hacer: saltar y agarrarse de un balcón de primer piso, reventar una puerta común de una patada, cargar a un adulto herido a paso de trote sostenido.</p>",
+          "precioPropio": "<p>El esqueleto y los tendones siguen siendo humanos. Cada fallo total en una tirada de Fuerza con las Miofibras activas significa 1 de daño superficial propio: desgarro, esguince, la fibra tirando de donde no debe.</p>",
+          "marca": "Musculatura con cordones visibles bajo la piel",
+          "emula": "Potencia 1-2",
+          "reservas": [
+            {
+              "nombre": "Fuerza + Atletismo",
+              "dados": [
+                "attributes.strength",
+                "skills.athletics"
+              ],
+              "dificultad": 1,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "golpe-de-prensa",
+              "nombre": "Golpe de Prensa",
+              "gasto": true,
+              "texto": "<p>Desgarrando, un golpe (o agarre) suma +2 al daño, una vez por escena. Contra un mortal, esto es una ambulancia. Que el jugador lo sepa antes, no después.</p>"
+            },
+            {
+              "id": "anclajes",
+              "nombre": "Anclajes",
+              "gasto": false,
+              "texto": "<p>Tendones reforzados en la misma cirugía: elimina el daño propio por fallos totales.</p>"
+            }
+          ]
+        },
+        {
+          "id": "ojos-de-la-bestia",
+          "nombre": "Ojos de la Bestia",
+          "nombreOriginal": "Protean 1",
+          "rama": "",
+          "gratis": false,
+          "slots": 2,
+          "intro": "<p>El injerto más viejo y más probado del catálogo: tapetum lucidum cultivado detrás de la retina. Lo que tienen los gatos, los lobos y las cosas que cazan de noche.</p>",
+          "sistema": "<p>Un turno de adaptación exigiendo la carne (sin tirada, pero los dados de Desesperación se arriesgan igual con cualquier otra tirada del turno, o con una tirada seca de Resolución + Aguante dif. 1 si no hay ninguna). Durante la escena: visión perfecta en oscuridad total, sin penalizadores. La contracara permanente: ante cualquier luz que lo enfoque de frente, los ojos del Modificado brillan como los de un animal. En una foto con flash, en los faros de un auto, en la linterna de un policía.</p>",
+          "precioPropio": "",
+          "marca": "Ojos que brillan como los de un gato ante cualquier luz",
+          "emula": "Protean 1",
+          "reservas": [
+            {
+              "nombre": "Resolución + Aguante",
+              "dados": [
+                "attributes.resolve",
+                "skills.athletics"
+              ],
+              "dificultad": 1,
+              "nota": "Aguante no existe en H5: se usa Atletismo. Sin tirada propia: un turno de adaptación; los dados de Desesperación se arriesgan con cualquier otra tirada del turno, o con esta tirada seca si no hay ninguna"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "parpado-interno",
+              "nombre": "Párpado Interno",
+              "gasto": false,
+              "texto": "<p>Una membrana nictitante que se cierra a voluntad: oculta el brillo (y protege de flashes y gas lacrimógeno con +2 dados a resistir), a cambio de un velo leve en la visión mientras está bajada (−1 a Percepción visual).</p>"
+            }
+          ]
+        },
+        {
+          "id": "mimetismo-dermico",
+          "nombre": "Mimetismo Dérmico",
+          "nombreOriginal": "Protean superficial",
+          "rama": "",
+          "gratis": false,
+          "slots": 2,
+          "intro": "<p>Cromatóforos injertados en la piel expuesta, cultivados de algo que no era del todo pulpo ni del todo otra cosa. La piel lee el fondo y se le parece.</p>",
+          "sistema": "<p>Se activa exigiendo la carne con Destreza + Sigilo (dif. 1). Durante la escena: +3 dados a Sigilo mientras esté quieto o se mueva despacio, con piel expuesta (cara, manos; ropa ajustada de tela lisa acompaña \"bastante\", decisión de la cronista). Correr rompe el efecto ese turno.</p>",
+          "precioPropio": "",
+          "marca": "Manchas que cambian de tono con el estado de ánimo",
+          "emula": "Protean (superficial)",
+          "reservas": [
+            {
+              "nombre": "Destreza + Sigilo",
+              "dados": [
+                "attributes.dexterity",
+                "skills.stealth"
+              ],
+              "dificultad": 1,
+              "nota": ""
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "piedra-en-la-pared",
+              "nombre": "Piedra en la Pared",
+              "gasto": true,
+              "texto": "<p>Desgarrando, durante 1 turno el Modificado inmóvil es efectivamente invisible a la vista casual y a las cámaras: la mirada resbala. Un observador que sepa exactamente dónde mirar tira Resolución + Consciencia enfrentada.</p>"
+            },
+            {
+              "id": "patron-voluntario",
+              "nombre": "Patrón Voluntario",
+              "gasto": false,
+              "texto": "<p>Control fino: puede formar manchas, tatuajes falsos o marcas de identificación a voluntad. Útil para infiltración; inquietante en una primera cita.</p>"
+            }
+          ]
+        },
+        {
+          "id": "rostro-maleable",
+          "nombre": "Rostro Maleable",
+          "nombreOriginal": "Protean superficial",
+          "rama": "",
+          "gratis": false,
+          "slots": 2,
+          "intro": "<p>Cartílago facial reemplazado por matriz programable. Diez minutos frente a un espejo, un dolor espantoso, y otra persona te devuelve la mirada.</p>",
+          "sistema": "<p>Requiere 10 minutos y concentración (no en combate, no huyendo). Tirada de Resistencia + Subterfugio (dif. 2) exigiendo la carne. Éxito: los rasgos cambian lo suficiente para burlar a testigos, cámaras de seguridad, comparación con fotos y reconocimiento casual. No cambia altura, contextura, voz ni manos: un análisis biométrico serio o alguien que lo conozca de cerca no se engañan. El cambio dura hasta que el Modificado lo revierta (otros 10 minutos) o hasta el próximo sueño profundo, cuando la matriz se relaja sola.</p>",
+          "precioPropio": "",
+          "marca": "En reposo profundo, la cara queda medio milímetro \"corrida\"",
+          "emula": "Protean (superficial)",
+          "reservas": [
+            {
+              "nombre": "Resistencia + Subterfugio",
+              "dados": [
+                "attributes.stamina",
+                "skills.subterfuge"
+              ],
+              "dificultad": 2,
+              "nota": "Requiere 10 minutos y concentración (no en combate, no huyendo)"
+            }
+          ],
+          "mejoras": [
+            {
+              "id": "el-rostro-prestado",
+              "nombre": "El Rostro Prestado",
+              "gasto": true,
+              "texto": "<p>Desgarrando, puede copiar un rostro concreto que haya observado de cerca al menos una escena. Engaña a conocidos casuales del original (el portero, un compañero de oficina); nunca a familia, pareja o socios íntimos, y la voz sigue siendo la suya. Usar la cara de alguien es el tipo de decisión que una célula discute a los gritos, y así debería ser.</p>"
+            },
+            {
+              "id": "memoria-de-forma",
+              "nombre": "Memoria de Forma",
+              "gasto": false,
+              "texto": "<p>El injerto guarda hasta 3 configuraciones fijas que puede adoptar en 2 minutos en vez de 10. Tres identidades de bolsillo, cada una tan buena como sus documentos falsos.</p>"
+            }
+          ]
+        }
+      ],
+      "notas": "<ul><li><strong>Siguen siendo mortales.</strong> Armadura 2 no para una ráfaga, +2 dados no ganan contra Potencia 3, y la invisibilidad dura un turno y de parado. La Segunda Generación empareja la cancha un rato; no la da vuelta.</li><li><strong>El doble slot es el freno duro.</strong> Con Resistencia 3, un Modificado banca el Sentido Vestigial más una Gen II y una común, o tres comunes. Elegir es el juego.</li><li><strong>Cada injerto tiene su precio propio además del sistema común.</strong> Sobrecarga sensorial, bajón metabólico, tendones que se rompen, ojos que brillan. Las Mejoras que borran esos precios existen a propósito: son la zanahoria de PX que hace que el jugador invierta en su cuerpo roto en vez de en el próximo juguete.</li><li><strong>¿De dónde sale la cirugía?</strong> Nadie se injerta una Malla Subdérmica en el baño de su casa. Cada Gen II implica un quirófano real, un cirujano que sabe, y por lo tanto alguien que sabe de vos. Ese alguien es un PNJ con agenda. Usalo.</li><li><strong>La pregunta de La Carne Templada, subrayada.</strong> Con las Modificaciones comunes, la célula se pregunta si el Modificado sigue siendo humano. Con ojos que brillan en la oscuridad y una cara que cambia, se lo preguntan en voz alta. No lo resuelvas: es el mejor combustible de mesa chica que tiene este anexo.</li></ul>",
+      "foundry": "<ul><li>Cada injerto como ítem de tipo Edge con sus Mejoras como Perks, igual que toda la línea. Activación = incluir dados de Desesperación.</li><li>Los efectos sostenidos (Armadura 2, +2 dados de Destreza, etc.) conviene cargarlos como efectos activos que prendés y apagás sobre el actor; el chequeo de mantener una segunda escena va a mano.</li><li>Los precios propios (bajón de Sobremarcha, penalizador sensorial del Ojo Compuesto) también como efectos activos con nombre claro, así el jugador se acuerda de aplicárselos sin que se lo persigas.</li><li>El doble slot contra el límite de Resistencia llevalo anotado en la bio del personaje o en tu journal de crónica; el sistema no lo cuenta solo.</li></ul>"
+    }
+  ]
+}

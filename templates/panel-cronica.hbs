@@ -1,0 +1,85 @@
+<div class="dvv-cronica">
+
+  <section class="dvv-celula">
+    <h4>{{localize "DVV.panel.celula"}}{{#if celula}} · {{celula.nombre}}{{/if}}</h4>
+    {{#if celula}}
+      <div class="dvv-medidores">
+        <div class="dvv-medidor">
+          <span class="dvv-medidor-nombre">{{localize "DVV.panel.desesperacion"}}</span>
+          <button type="button" data-action="desperacion" data-celula="{{celula.id}}" data-delta="-1"><i class="fa-solid fa-minus"></i></button>
+          <span class="dvv-medidor-valor dvv-desesperacion">{{celula.desesperacion}}</span>
+          <button type="button" data-action="desperacion" data-celula="{{celula.id}}" data-delta="1"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="dvv-medidor">
+          <span class="dvv-medidor-nombre">{{localize "DVV.panel.peligro"}}</span>
+          <button type="button" data-action="peligro" data-celula="{{celula.id}}" data-delta="-1"><i class="fa-solid fa-minus"></i></button>
+          <span class="dvv-medidor-valor dvv-peligro">{{celula.peligro}}<small>/{{celula.peligroMax}}</small></span>
+          <button type="button" data-action="peligro" data-celula="{{celula.id}}" data-delta="1"><i class="fa-solid fa-plus"></i></button>
+        </div>
+      </div>
+    {{else}}
+      <p class="dvv-vacio">{{localize "DVV.panel.sinCelula"}}</p>
+    {{/if}}
+  </section>
+
+  <section class="dvv-cazadores">
+    <h4>{{localize "DVV.panel.cazadores"}}</h4>
+    {{#if cazadores.length}}
+      {{#each cazadores as |c|}}
+        <article class="dvv-cazador{{#if c.desesperanza}} en-desesperanza{{/if}}">
+          <header>
+            <img src="{{c.img}}" alt="">
+            <a data-action="abrirActor" data-actor="{{c.id}}"><strong>{{c.nombre}}</strong></a>
+            {{#if c.jugador}}<span class="dvv-jugador">{{c.jugador}}</span>{{/if}}
+            {{#if c.desesperanza}}<span class="dvv-etiqueta">Desesperanza</span>{{/if}}
+          </header>
+          <div class="dvv-cazador-cuerpo">
+            <div class="dvv-balizas">
+              {{#each c.balizas as |b|}}
+                <div class="dvv-baliza-fila {{b.clave}}{{#if b.dominante}} dominante{{/if}}">
+                  <span class="dvv-baliza-nombre">{{b.nombre}}</span>
+                  <button type="button" data-action="baliza" data-actor="{{c.id}}" data-baliza="{{b.clave}}" data-delta="-1"><i class="fa-solid fa-minus"></i></button>
+                  <span class="dvv-baliza-valor">{{b.valor}}</span>
+                  <button type="button" data-action="baliza" data-actor="{{c.id}}" data-baliza="{{b.clave}}" data-delta="1"><i class="fa-solid fa-plus"></i></button>
+                </div>
+              {{/each}}
+              <div class="dvv-epilogo">{{localize "DVV.panel.epilogo"}}: <em>{{c.epilogo}}</em></div>
+            </div>
+            <div class="dvv-detalle">
+              <div><strong>{{localize "DVV.panel.caminos"}}:</strong> {{c.caminos}}{{#if c.slots}} · {{localize "DVV.panel.carne"}} {{c.slots}}{{/if}}</div>
+              {{#if c.poderes}}<div class="dvv-poderes">{{c.poderes}}</div>{{/if}}
+              {{#if c.estados}}<div><strong>{{localize "DVV.panel.estados"}}:</strong> {{c.estados}}</div>{{/if}}
+              <div class="dvv-acciones">
+                <button type="button" data-action="otorgar" data-actor="{{c.id}}" title="{{localize 'DVV.panel.otorgar'}}"><i class="fa-solid fa-door-open"></i></button>
+                <button type="button" data-action="comprar" data-actor="{{c.id}}" title="{{localize 'DVV.panel.comprar'}}"><i class="fa-solid fa-arrow-up"></i></button>
+                <button type="button" data-action="quemar" data-actor="{{c.id}}" title="{{localize 'DVV.panel.quemar'}}"><i class="fa-solid fa-fire"></i></button>
+                <button type="button" data-action="registrar" data-actor="{{c.id}}" title="{{localize 'DVV.panel.registrar'}}"><i class="fa-solid fa-triangle-exclamation"></i></button>
+                <button type="button" data-action="equipar" data-actor="{{c.id}}" title="{{localize 'DVV.panel.equipar'}}"><i class="fa-solid fa-briefcase"></i></button>
+              </div>
+            </div>
+          </div>
+        </article>
+      {{/each}}
+    {{else}}
+      <p class="dvv-vacio">{{localize "DVV.panel.sinCazadores"}}</p>
+    {{/if}}
+  </section>
+
+  <section class="dvv-registro">
+    <h4>{{localize "DVV.panel.registroPeligro"}}</h4>
+    {{#if registro.length}}
+      <ul>
+        {{#each registro as |e|}}
+          <li class="{{#if e.aplicado}}aplicado{{/if}}"><span class="dvv-fecha">{{e.fechaCorta}}</span> <strong>{{e.actor}}</strong> — {{e.motivo}}{{#if e.aplicado}} ✓{{/if}}</li>
+        {{/each}}
+      </ul>
+      <div class="dvv-acciones">
+        {{#if pendientes}}<button type="button" data-action="aplicarTodo"><i class="fa-solid fa-arrow-up"></i> {{localize "DVV.panel.aplicarTodo"}} (+{{pendientes}})</button>{{/if}}
+        <button type="button" data-action="limpiar"><i class="fa-solid fa-trash"></i> {{localize "DVV.panel.limpiar"}}</button>
+      </div>
+    {{else}}
+      <p class="dvv-vacio">{{localize "DVV.panel.registroVacio"}}</p>
+    {{/if}}
+  </section>
+
+</div>

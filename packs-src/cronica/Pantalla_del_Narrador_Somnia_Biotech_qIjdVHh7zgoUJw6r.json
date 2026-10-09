@@ -1,0 +1,118 @@
+{
+  "_id": "qIjdVHh7zgoUJw6r",
+  "_key": "!journal!qIjdVHh7zgoUJw6r",
+  "name": "Pantalla del Narrador — Somnia Biotech",
+  "folder": "wLhwD4CLZ873vynb",
+  "sort": 70,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/cronica/08-pantalla-del-narrador.md"
+    }
+  },
+  "pages": [
+    {
+      "_id": "9bZri5bMRMOzplgv",
+      "_key": "!journal.pages!qIjdVHh7zgoUJw6r.9bZri5bMRMOzplgv",
+      "name": "Introducción",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Célula:</strong> Sujetos de prueba · <strong>Nivel de amenaza:</strong> Crítico · <strong>Reglamento:</strong> 5ª ed.</p>\n"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8jmdtB21qoGR34RM",
+      "_key": "!journal.pages!qIjdVHh7zgoUJw6r.8jmdtB21qoGR34RM",
+      "name": "1. Núcleo del juego: Desesperación y Peligro",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>El estado de la célula se rige por el <strong>Peligro</strong> (la amenaza del mundo) y la <strong>Desesperación</strong> (la urgencia de la célula).</p>\n<p>Los dados de Desesperación se añaden a las reservas según el Credo del Cazador y la situación táctica en curso:</p>\n<table>\n<thead>\n<tr>\n<th>Credo</th>\n<th>Campo de Desesperación</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Clandestinos</td>\n<td>Sigilo y subterfugio en servicio directo de la Caza.</td>\n</tr>\n<tr>\n<td>Emprendedores</td>\n<td>Construir, inventar, aumentar o reparar dispositivos durante la Caza.</td>\n</tr>\n<tr>\n<td>Fieles</td>\n<td>Cualquier conflicto directo físico, social o mental frente a lo sobrenatural.</td>\n</tr>\n<tr>\n<td>Inquisitivos</td>\n<td>Obtener información vital, allanamientos de propiedades e interrogatorios.</td>\n</tr>\n<tr>\n<td>Marciales</td>\n<td>Aplastar a la amenaza con devoción a las armas, táctica y fuerza bruta.</td>\n</tr>\n</tbody></table>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2uLyVoDks2UrVZgn",
+      "_key": "!journal.pages!qIjdVHh7zgoUJw6r.2uLyVoDks2UrVZgn",
+      "name": "2. Reglas caseras: los Tres Caminos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Reglas de activación rápida para los poderes adquiridos en el epílogo. Todos cuestan <strong>3 puntos de Ventaja (o 6 PX en juego)</strong> y requieren obligatoriamente un <strong>Defecto de 1 punto</strong> para reflejar su precio.</p>\n<h3>🕊️ La Marca de los Heraldos (Imbuidos — Fe)</h3>\n<ul>\n<li><strong>Activación (Encender la Chispa):</strong> El jugador debe incluir dados de Desesperación en la tirada.</li>\n<li><strong>Fallo Total (Silencio):</strong> Si falla con un &quot;1&quot; en los dados de Desesperación, cae en Despair, los Heraldos callan temporalmente y pierde el acceso a sus Bordes.</li>\n<li><strong>Poder Pasivo:</strong> Segunda Vista gratis (ve el mundo oculto como es, sin efectos dramáticos ni luces).</li>\n<li><strong>Quemar la Chispa:</strong> Algunos poderes requieren reducir la Desesperación de la célula en 1.</li>\n<li><strong>Consecuencia:</strong> Usar un Borde ante un sobrenatural que sobrevive suma +1 de Peligro al final de la sesión.</li>\n</ul>\n<h3>⚙️ La Ciencia del Umbral (Iluminados — Método)</h3>\n<ul>\n<li><strong>Activación (Forzar el Prototipo):</strong> El jugador debe incluir dados de Desesperación.</li>\n<li><strong>Fallo Catastrófico:</strong> El Artefacto se quema y queda inservible hasta recibir una escena de reparación (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología/Artesanía dif. 3\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología/Artesanía dif. 3</a>). Puede causar 1 de daño superficial al usuario.</li>\n<li><strong>Poder Pasivo:</strong> Lente Espectral gratis (permite ver lo oculto pero solo mirando a través del dispositivo).</li>\n<li><strong>Sobrecarga:</strong> Algunos efectos potentes requieren reducir la Desesperación de la célula en 1.</li>\n<li><strong>Mantenimiento:</strong> Los artefactos operan con −1 dado si no reciben mantenimiento entre historias.</li>\n</ul>\n<h3>🧬 La Carne Templada (Modificados — Carne)</h3>\n<ul>\n<li><strong>Activación (Exigir la Carne):</strong> El jugador debe incluir dados de Desesperación.</li>\n<li><strong>Crisis de Rechazo (Fallo Total):</strong> El Modificado sufre 1 de daño agravado propio y el injerto se apaga hasta recibir cuidados médicos (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"3\" data-label=\"Inteligencia + Medicina dif. 3\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina dif. 3</a>).</li>\n<li><strong>Poder Pasivo:</strong> Sentido Vestigial gratis (siente lo sobrenatural mediante estímulos físicos: escalofríos, sabores metálicos, dolores).</li>\n<li><strong>El Olor de la Quimera:</strong> Los sobrenaturales ganan +1 dado para detectar que el Modificado no es humano normal. Usar poderes frente a ellos suma +1 de Peligro.</li>\n<li><strong>Límite de Carne:</strong> El cuerpo solo aguanta un número de modificaciones igual a su puntuación de Resistencia.</li>\n</ul>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0xYG6t301olsNK6E",
+      "_key": "!journal.pages!qIjdVHh7zgoUJw6r.0xYG6t301olsNK6E",
+      "name": "3. Arsenal de la Vigilia (combate rápido)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Tiradas enfrentadas generalmente contra <strong>Destreza + Atletismo</strong> del objetivo. <strong>Daño total = margen de éxitos + daño del arma.</strong></p>\n<table>\n<thead>\n<tr>\n<th>Arma / Ataque</th>\n<th>Reserva</th>\n<th>Daño</th>\n<th>Especial / Dificultad</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Pistola liviana / pesada</td>\n<td>Compostura + Armas de Fuego</td>\n<td>+2 / +3</td>\n<td>Ocultamiento fácil en bolsillo (liviana) o campera (pesada).</td>\n</tr>\n<tr>\n<td>Escopeta</td>\n<td>Fuerza + Armas de Fuego</td>\n<td>+4</td>\n<td>Ataque devastador a quemarropa/corta; −1 al daño a media distancia.</td>\n</tr>\n<tr>\n<td>Táser / Picana</td>\n<td>Destreza + Pelea (o Armas de Fuego)</td>\n<td>+1</td>\n<td>Incapacita a un mortal 1 turno completo si el margen de éxitos es 2+.</td>\n</tr>\n<tr>\n<td>Munición de plata</td>\n<td>El arma que lo dispara</td>\n<td>Base</td>\n<td>Daño agravado contra lupinos; sufre −1 dado a la reserva de ataque.</td>\n</tr>\n<tr>\n<td>Cóctel Molotov</td>\n<td>Destreza + Atletismo</td>\n<td>+2 (agr.)</td>\n<td>Daño agravado en área. Dificultad 2 a corta distancia, dificultad 3 a media.</td>\n</tr>\n</tbody></table>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TFiw8KQ7NfuSHyq7",
+      "_key": "!journal.pages!qIjdVHh7zgoUJw6r.TFiw8KQ7NfuSHyq7",
+      "name": "4. Dramatis personae y estado de la campaña",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h3>💀 PNJs principales</h3>\n<ul>\n<li><strong>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación}:</strong> Vampira, antagonista principal y figura de pesadilla. Está viva y sin su &quot;granja de sangre&quot; en la clínica, lo que significa que tiene mucha hambre.</li>\n<li><strong>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}:</strong> Aliada culposa, cirujana de las Quimeras y ex científica de Orpheus. Posee la agenda con los datos de las tres cirugías previas; es una bomba de tiempo moral para la célula.</li>\n<li><strong>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.yWZmWOJ2RbCdY4Dq]{Marcos}:</strong> Vampiro joven y ex brazo armado de la clínica. Obsesionado con la célula por haberlo quemado dos veces; ahora posee una grotesca cicatriz por quemaduras y busca revancha personal.</li>\n<li><strong>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.O2GuehcZV88rKsKt]{Elías Roca}:</strong> Ex Imbuido atrapado en un Despair crónico. Atributos: Físico 4, Mental 7. Habilidades: Ocultismo 8. Salud: 5. Posee Convicción alta y Segunda Vista intacta, pero sus Bordes han sido silenciados permanentemente por los Heraldos.</li>\n</ul>\n<h3>🕸️ Hilos de trama abiertos (consecuencias del epílogo)</h3>\n<ul>\n<li><strong>Los Durmientes Despiertos:</strong> Los @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.62xFjZPXiec7OFTE]{sujetos de prueba} dados de alta del piso inferior ahora comparten un efecto secundario: tienen pesadillas recurrentes y compartidas soñando con la mujer que reza (Sor Anunciación).</li>\n<li><strong>Las Quimeras Sueltas:</strong> La Dra. Salas ya injertó modificaciones en tres @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.UpZ0DCdeSgMIlyXC]{&quot;voluntarios de continuidad&quot;} semanas antes del incendio de la clínica. La célula de jugadores no es la primera, y esos engendros tempranos andan sueltos por la ciudad.</li>\n<li><strong>Los Trajes Grises / Tecnocracia:</strong> Somnia Biotech no operaba en el vacío. Tenía poderosos financistas corporativos que acaban de perder su valiosísima fuente del &quot;Compuesto A&quot;. Empezarán a investigar las ruinas e irán implacablemente tras las Piedras de Toque de la célula para forzar su salida a la luz.</li>\n</ul>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

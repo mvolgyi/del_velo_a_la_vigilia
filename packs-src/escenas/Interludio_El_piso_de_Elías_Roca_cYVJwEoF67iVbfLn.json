@@ -1,0 +1,337 @@
+{
+  "_id": "cYVJwEoF67iVbfLn",
+  "_key": "!scenes!cYVJwEoF67iVbfLn",
+  "name": "Interludio · El piso de Elías Roca",
+  "folder": "jO7QZOk0HboPNns0",
+  "navigation": true,
+  "navOrder": 20,
+  "width": 1350,
+  "height": 900,
+  "padding": 0.25,
+  "grid": {
+    "type": 1,
+    "size": 150,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.55,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "rERHoLsMyvcPRVT1",
+      "name": "Suelo",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/piso-de-elias.webp",
+        "color": "#000000"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!cYVJwEoF67iVbfLn.rERHoLsMyvcPRVT1"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "2plJV75eLJH0HVPf",
+      "c": [
+        150,
+        150,
+        1200,
+        150
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.2plJV75eLJH0HVPf"
+    },
+    {
+      "_id": "5IXVrYXAsc0QNjLd",
+      "c": [
+        150,
+        600,
+        600,
+        600
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.5IXVrYXAsc0QNjLd"
+    },
+    {
+      "_id": "3NXL7B3FCcpMSqpl",
+      "c": [
+        750,
+        600,
+        1200,
+        600
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.3NXL7B3FCcpMSqpl"
+    },
+    {
+      "_id": "vCq9bxutfLPIX795",
+      "c": [
+        150,
+        150,
+        150,
+        750
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.vCq9bxutfLPIX795"
+    },
+    {
+      "_id": "2im3pGkpSHTyOO9r",
+      "c": [
+        450,
+        150,
+        450,
+        480
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.2im3pGkpSHTyOO9r"
+    },
+    {
+      "_id": "ylWhCSybcEPSpPEg",
+      "c": [
+        450,
+        570,
+        450,
+        630
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.ylWhCSybcEPSpPEg"
+    },
+    {
+      "_id": "qYov52oL4yAdCJF5",
+      "c": [
+        450,
+        720,
+        450,
+        750
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.qYov52oL4yAdCJF5"
+    },
+    {
+      "_id": "G2wZon7tghxKuLhw",
+      "c": [
+        900,
+        150,
+        900,
+        300
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.G2wZon7tghxKuLhw"
+    },
+    {
+      "_id": "ReNQVFYidTzvyrHV",
+      "c": [
+        900,
+        450,
+        900,
+        600
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.ReNQVFYidTzvyrHV"
+    },
+    {
+      "_id": "lapezQygyPlKKlz8",
+      "c": [
+        1200,
+        150,
+        1200,
+        615
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.lapezQygyPlKKlz8"
+    },
+    {
+      "_id": "oYSq2F873rlD1VB2",
+      "c": [
+        1200,
+        735,
+        1200,
+        900
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.oYSq2F873rlD1VB2"
+    },
+    {
+      "_id": "D45VniX9u3vd6DwT",
+      "c": [
+        150,
+        750,
+        1200,
+        750
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.D45VniX9u3vd6DwT"
+    },
+    {
+      "_id": "xKolu7Ro9FsDriY3",
+      "c": [
+        1200,
+        450,
+        1350,
+        450
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.xKolu7Ro9FsDriY3"
+    },
+    {
+      "_id": "FZl5vpZOxCa7qB8D",
+      "c": [
+        1200,
+        900,
+        1350,
+        900
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.FZl5vpZOxCa7qB8D"
+    },
+    {
+      "_id": "GkGx4U1qQrMIxfl5",
+      "c": [
+        1350,
+        450,
+        1350,
+        900
+      ],
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.GkGx4U1qQrMIxfl5"
+    },
+    {
+      "_id": "JPUYkAO81oJ8j6X5",
+      "c": [
+        1200,
+        615,
+        1200,
+        735
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "woodHeavy",
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.JPUYkAO81oJ8j6X5"
+    },
+    {
+      "_id": "DWyf3T1Ywoc2Inbn",
+      "c": [
+        450,
+        480,
+        450,
+        570
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "woodBasic",
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.DWyf3T1Ywoc2Inbn"
+    },
+    {
+      "_id": "vo7Lw0CblN1pVBww",
+      "c": [
+        450,
+        630,
+        450,
+        720
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "woodBasic",
+      "_key": "!scenes.walls!cYVJwEoF67iVbfLn.vo7Lw0CblN1pVBww"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "Szu0CKYPH3y0vKHo",
+      "name": "Tubo de la cocina",
+      "x": 1050,
+      "y": 360,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 10,
+        "dim": 20,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!cYVJwEoF67iVbfLn.Szu0CKYPH3y0vKHo"
+    },
+    {
+      "_id": "gbw8EVApVOwlyPzx",
+      "x": 843,
+      "y": 513,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.45,
+        "angle": 360,
+        "bright": 8,
+        "dim": 20,
+        "color": "#ffc77a",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!cYVJwEoF67iVbfLn.gbw8EVApVOwlyPzx"
+    }
+  ],
+  "regions": [],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "piso-de-elias",
+      "nota": "Elías traba la puerta con tres cerrojos y corre un pasador oxidado (puerta trabada); baja las persianas. Huele a tabaco negro y humedad. El corcho reventado de fotos cubre la pared norte del living, frente al sofá. El cuaderno de Mara está sobre la mesa (Puerta del Taller). Los tres viales del Compuesto A, al fondo de la heladera (Puerta de la Quimera). Si en el Acto 2 los detectan, Marcos viene acá esa noche: la Custodia de sal se traza en el umbral de la entrada. Muebles móviles NO pintados (colocarlos como tiles): mesa ×2, silla, sofa, lampara.",
+      "plano": "piso-de-elias",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

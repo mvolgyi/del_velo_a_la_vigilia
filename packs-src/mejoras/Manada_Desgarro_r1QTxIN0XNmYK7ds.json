@@ -1,0 +1,39 @@
+{
+  "_id": "r1QTxIN0XNmYK7ds",
+  "_key": "!items!r1QTxIN0XNmYK7ds",
+  "name": "Manada (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Feromonas de Calma.</em></p><p>Desgarrando, la señal química alcanza también a la célula: durante la escena, los compañeros pueden repetir una tirada fallada de miedo, frenesí inducido o terror sobrenatural. Después de años juntos, el cuerpo de la célula también reconoce el estamos a salvo.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-feromonas-de-calma",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-feromonas-de-calma",
+      "camino": "modificado",
+      "mejora": "manada",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

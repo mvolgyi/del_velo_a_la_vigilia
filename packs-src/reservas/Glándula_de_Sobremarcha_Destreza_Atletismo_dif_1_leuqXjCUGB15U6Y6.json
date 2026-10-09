@@ -1,0 +1,46 @@
+{
+  "_id": "leuqXjCUGB15U6Y6",
+  "_key": "!items!leuqXjCUGB15U6Y6",
+  "name": "Glándula de Sobremarcha — Destreza + Atletismo (dif. 1)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "IUJmQ8f7T6tgqp7i",
+  "sort": 300,
+  "system": {
+    "description": "<p><em>Celeridad 1-2 · emula Celeridad 1-2</em></p>\n<p>Un segundo sistema adrenal, sintético, con gatillo voluntario. El mundo no se pone lento: el Modificado se pone rápido, que no es lo mismo y duele distinto.</p>\n<p><strong>Sistema.</strong></p><p>Se activa exigiendo la carne con Destreza + Atletismo (dif. 1). Durante la escena: actúa primero en cada turno (empates entre Sobremarchas y Celeridades reales se resuelven con Destreza comparada) y +2 dados a reservas basadas en Destreza (esquivar, disparar en movimiento, conducir, sigilo activo).</p>\n<p><strong>El precio propio.</strong></p><p>Al terminar la escena, el bajón: −1 dado a todas las reservas físicas hasta descansar al menos una hora y comer algo. El cuerpo quema lo que no tiene.</p>\n<p><strong>La marca:</strong> Temblor fino permanente en las manos</p>\n<p><em>Activación — exigir la carne: incluí los dados de Desesperación. Ocupa 2 Modificaciones contra el límite de Resistencia.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-glandula-de-sobremarcha",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.dexterity"
+      },
+      "d2": {
+        "path": "skills.athletics"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-gen2-glandula-de-sobremarcha",
+      "camino": "gen2",
+      "dificultad": 1,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

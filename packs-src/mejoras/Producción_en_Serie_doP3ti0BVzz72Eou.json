@@ -1,0 +1,39 @@
+{
+  "_id": "doP3ti0BVzz72Eou",
+  "_key": "!items!doP3ti0BVzz72Eou",
+  "name": "Producción en Serie",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "OfRFmL1eZGRDgg7u",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Munición Tratada.</em></p><p>El Iluminado puede preparar un segundo lote por escena de taller y confiárselo a un compañero de célula, que lo usa sin el penalizador de manos ajenas (la munición es consumible, no un prototipo delicado). El compañero fuerza los dados de Desesperación igual.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-municion-tratada",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-ilu-municion-tratada",
+      "camino": "iluminado",
+      "mejora": "produccion-en-serie",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

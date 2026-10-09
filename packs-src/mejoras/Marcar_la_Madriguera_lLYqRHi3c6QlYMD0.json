@@ -1,0 +1,39 @@
+{
+  "_id": "lLYqRHi3c6QlYMD0",
+  "_key": "!items!lLYqRHi3c6QlYMD0",
+  "name": "Marcar la Madriguera",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "V5MBsMZ65ACU9A1P",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Señalar.</em></p><p>Si el Imbuido llega físicamente al refugio de la criatura mientras la conexión está activa, la reconoce entre otros lugares para siempre y sabe si la criatura está dentro al llegar.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Marca de los Heraldos"
+    },
+    "edge": "dvv-imb-senalar",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-imb-senalar",
+      "camino": "imbuido",
+      "mejora": "marcar-la-madriguera",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

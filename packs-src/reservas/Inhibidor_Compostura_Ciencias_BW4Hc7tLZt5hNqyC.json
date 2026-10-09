@@ -1,0 +1,46 @@
+{
+  "_id": "BW4Hc7tLZt5hNqyC",
+  "_key": "!items!BW4Hc7tLZt5hNqyC",
+  "name": "Inhibidor — Compostura + Ciencias",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 600,
+  "system": {
+    "description": "<p><em>≈ Sosegar</em></p>\n<p>Un dardo, un aerosol, un pulso. Destilado de la propia biología del monstruo, apaga la furia sin apagar a la criatura.</p>\n<p><strong>Sistema.</strong></p><p>Requiere haber estudiado antes material de ese tipo de criatura (una muestra, una autopsia, horas de grabación). El Iluminado aplica el Inhibidor (ataque a distancia corta o contacto) y tira Compostura + Ciencias forzando el prototipo, enfrentado a Resolución + Compostura del objetivo. Si gana, suprime durante la escena la furia sobrenatural activa: el frenesí se corta, la ghoul baja el arma. La criatura no queda dócil; queda lúcida.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Enfrentada contra Resolución + Compostura del objetivo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-inhibidor",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.composure"
+      },
+      "d2": {
+        "path": "skills.science"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-inhibidor",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

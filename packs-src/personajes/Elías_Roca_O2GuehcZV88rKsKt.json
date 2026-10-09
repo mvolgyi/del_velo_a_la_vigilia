@@ -1,0 +1,86 @@
+{
+  "_id": "O2GuehcZV88rKsKt",
+  "_key": "!actors!O2GuehcZV88rKsKt",
+  "name": "Elías Roca",
+  "type": "spc",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Elías Roca",
+    "actorLink": false,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Superviviente de la célula del garaje de Huelin, ex Imbuido en Despair crónico"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 4
+      },
+      "social": {
+        "value": 4
+      },
+      "mental": {
+        "value": 7
+      }
+    },
+    "exceptionaldicepools": {
+      "occult": {
+        "value": 8
+      },
+      "investigation": {
+        "value": 8
+      },
+      "awareness": {
+        "value": 8
+      }
+    },
+    "health": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 7,
+      "value": 7,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 3,
+      "strongest": 4
+    },
+    "description": "<p>Un hombre mayor, rengo, con ojeras moradas y dedos nudosos llenos de cicatrices. Hace nueve años su célula, la del «garaje de Huelin», bajó a la cripta sin un plan para el amanecer y él fue el único que salió vivo; esa misma noche robaron tres viales del Compuesto A. Desde entonces vive en un piso alquilado que huele a tabaco negro y a humedad, con un corcho gigante tapizado de fotos clandestinas, recortes y planos de Somnia unidos por hilo rojo.</p><p>Era un Imbuido: los Heraldos lo eligieron y le dieron la Segunda Vista. Cuando mataron a sus amigos, las voces se callaron y lo dejaron en Despair. Conserva la Segunda Vista intacta y una Convicción alta, pero sus Bordes fueron silenciados permanentemente.</p><p>Es áspero, desconfiado y protector a su manera. No ofrece discursos heroicos sino reglas de supervivencia: fuego y sol; nada de celulares ni policía; los ghouls existen; nunca se baja a la cripta sin un plan para el amanecer. Guarda el cuaderno de Mara y los tres viales en la heladera.</p>",
+    "biography": "<h3>Poderes</h3><ul><li><strong>Segunda Vista (intacta)</strong>: ve el mundo oculto tal como es.</li><li><strong>Bordes silenciados</strong>: no puede usar ningún Borde Imbuido. Excepción narrativa: el Gesto de Elías en el Acto 3, si el Narrador decide que los Heraldos responden, enciende sus Bordes una última vez con una luz cegadora que frena a Sor Anunciación.</li><li><strong>Convicción alta</strong>: +2 dados para resistir Aterrorizar, Encanto y Orden.</li></ul><h3>Debilidades</h3><ul><li><strong>Despair crónico</strong>: no puede usar dados de Desesperación ni recibir los beneficios de la célula por ellos.</li><li><strong>Cuerpo gastado</strong>: rengo y con Salud 5; no aguanta una pelea larga.</li><li><strong>Culpa del superviviente</strong>: ante la posibilidad de salvar a otra célula, se sacrifica sin pensarlo.</li></ul>",
+    "privatenotes": "<p><strong>Acto 1:</strong> el hombre mayor que patea la puerta del muelle de carga con un bidón de gasoil y una bengala.</p><p><strong>Interludio:</strong> anfitrión del refugio; leé su monólogo (handout) y dejá que las Tres Puertas aparezcan solas.</p><p><strong>Acto 2:</strong> su piso franco es el blanco de Marcos si la infiltración falla.</p><p><strong>Acto 3:</strong> el Gesto de Elías. Decidí si los Heraldos responden (muere en gracia, argumento de la Fe) o si hay silencio (Sor Anunciación lo aparta de un golpe, argumento de la Quimera).</p><p><strong>Epílogo:</strong> él, o una carta póstuma suya, le entrega el cuaderno de Mara al Doctorando.</p><p><em>Cifras:</em> Físico 4, Mental 7, Ocultismo 8 y Salud 5 vienen de la Pantalla. Social 4, Voluntad 7, Investigación 8, Consciencia 8 y las dificultades son sugeridas.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "elias-roca"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

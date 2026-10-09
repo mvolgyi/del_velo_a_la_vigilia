@@ -1,0 +1,99 @@
+{
+  "_id": "odK6SXRylCTYU821",
+  "_key": "!journal!odK6SXRylCTYU821",
+  "name": "Visión general de la crónica",
+  "folder": "wLhwD4CLZ873vynb",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/cronica/00-vision-general.md"
+    }
+  },
+  "pages": [
+    {
+      "_id": "i7moKzIa8Wue11Mx",
+      "_key": "!journal.pages!odK6SXRylCTYU821.i7moKzIa8Wue11Mx",
+      "name": "Premisa",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Málaga. <strong>Somnia Biotech</strong>, una clínica de ensayos del sueño, alimenta en secreto a una vampira antigua con la sangre de sus pacientes &quot;durmientes&quot; y la destila en el <strong>Compuesto A</strong>. Cuatro empleados —el <strong>Guardia</strong> con tres semanas en el puesto, el <strong>Informático</strong> pasante de IT, el <strong>Doctorando</strong> obsesionado con un dataset prohibido y el <strong>Limpiador</strong> que escuchaba rezos tras una puerta de piedra— ven lo que no debían durante un apagón. Desde esa noche, la clínica los caza a ellos y a sus Piedras de Toque.</p>\n"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7ikINOe6rCkFbvlt",
+      "_key": "!journal.pages!odK6SXRylCTYU821.7ikINOe6rCkFbvlt",
+      "name": "Estructura",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ol>\n<li><strong>Acto 1 — La noche que se rompe el Velo:</strong> apagón, Escena del Velo, huida y rescate con fuego.</li>\n<li><strong>Interludio — El Superviviente:</strong> el piso de Elías, sus reglas y las Tres Puertas.</li>\n<li><strong>Acto 2 — La Vigilia:</strong> escenas modulares de preparación y el Plan.</li>\n<li><strong>Acto 3 — La Cripta:</strong> el relicario bajo el convento y la huida al amanecer.</li>\n<li><strong>Epílogo:</strong> dos semanas después, cada personaje recibe su destino.</li>\n</ol>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "in56duvJzUuRBfOq",
+      "_key": "!journal.pages!odK6SXRylCTYU821.in56duvJzUuRBfOq",
+      "name": "Las tres balizas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Las decisiones clave suman a una baliza por personaje: <strong>Fe</strong> (proteger sin cálculo, escuchar a los Heraldos), <strong>Método</strong> (datos, cuadernos, aparatos) o <strong>Carne</strong> (el terror en el cuerpo, el Compuesto A). En el Epílogo la baliza dominante decide el camino: Marca de los Heraldos, Ciencia del Umbral o Carne Templada. Quien no carga ninguna queda como cazador mortal con el Arsenal de la Vigilia.</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "g10plcXALnNVepzQ",
+      "_key": "!journal.pages!odK6SXRylCTYU821.g10plcXALnNVepzQ",
+      "name": "Personajes no jugadores",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.yWZmWOJ2RbCdY4Dq]{Marcos} — seguridad de Somnia, vampiro joven y arrogante.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación} — priora, vampira antigua dormida en el relicario.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.kWQNBnBz3V9gvlnP]{Dra. Irene Salas} — directora médica, ghoul, cirujana de las Quimeras.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.O2GuehcZV88rKsKt]{Elías Roca} — superviviente de la célula del garaje de Huelin, ex Imbuido.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.62xFjZPXiec7OFTE]{Durmiente} — paciente desaparecido conectado al relicario.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.nSObabU1QRNcyMnw]{Ghoul de Somnia} — sirviente humano adicto a la sangre.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.9iZfEE32ZgK1g9mi]{Matón de Somnia} — matón corporativo de la clínica.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.UpZ0DCdeSgMIlyXC]{Quimera suelta} — &quot;voluntario de continuidad&quot; con un injerto.</li>\n</ul>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

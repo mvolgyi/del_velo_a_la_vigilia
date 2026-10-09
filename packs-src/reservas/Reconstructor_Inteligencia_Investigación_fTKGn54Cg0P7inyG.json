@@ -1,0 +1,46 @@
+{
+  "_id": "fTKGn54Cg0P7inyG",
+  "_key": "!items!fTKGn54Cg0P7inyG",
+  "name": "Reconstructor — Inteligencia + Investigación",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "INScTYsqQGcEdcCX",
+  "sort": 900,
+  "system": {
+    "description": "<p><em>≈ Sondear</em></p>\n<p>Fotogrametría, análisis de residuos, micrófonos que levantan ecos de cosas que ya terminaron de sonar. El Reconstructor arma el pasado de una escena pieza por pieza.</p>\n<p><strong>Sistema.</strong></p><p>Requiere acceso físico a la escena o al objeto y una escena de trabajo de campo. Inteligencia + Investigación forzando el prototipo. Éxito: una reconstrucción parcial del evento más significativo vinculado al lugar u objeto (posiciones, secuencia, un fragmento de audio). Crítico: la escena casi completa, con rostros identificables. A diferencia de Sondear, el resultado es un archivo: se puede mostrar, compartir y volver a mirar. También se puede robar.</p>\n<p><em>Activación — Forzar el prototipo: incluí los dados de Desesperación de la Célula en la tirada.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "edge": "dvv-ilu-reconstructor",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.intelligence"
+      },
+      "d2": {
+        "path": "skills.investigation"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-ilu-reconstructor",
+      "camino": "iluminado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

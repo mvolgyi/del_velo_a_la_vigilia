@@ -1,0 +1,46 @@
+{
+  "_id": "5WW94RyXJskJ7q0X",
+  "_key": "!items!5WW94RyXJskJ7q0X",
+  "name": "Mimetismo Dérmico — Destreza + Sigilo (dif. 1)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "IUJmQ8f7T6tgqp7i",
+  "sort": 600,
+  "system": {
+    "description": "<p><em>Protean superficial · emula Protean (superficial)</em></p>\n<p>Cromatóforos injertados en la piel expuesta, cultivados de algo que no era del todo pulpo ni del todo otra cosa. La piel lee el fondo y se le parece.</p>\n<p><strong>Sistema.</strong></p><p>Se activa exigiendo la carne con Destreza + Sigilo (dif. 1). Durante la escena: +3 dados a Sigilo mientras esté quieto o se mueva despacio, con piel expuesta (cara, manos; ropa ajustada de tela lisa acompaña \"bastante\", decisión de la cronista). Correr rompe el efecto ese turno.</p>\n<p><strong>La marca:</strong> Manchas que cambian de tono con el estado de ánimo</p>\n<p><em>Activación — exigir la carne: incluí los dados de Desesperación. Ocupa 2 Modificaciones contra el límite de Resistencia.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-mimetismo-dermico",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.dexterity"
+      },
+      "d2": {
+        "path": "skills.stealth"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-gen2-mimetismo-dermico",
+      "camino": "gen2",
+      "dificultad": 1,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

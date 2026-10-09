@@ -1,0 +1,39 @@
+{
+  "_id": "kPrFkw9K6TWF2KYu",
+  "_key": "!items!kPrFkw9K6TWF2KYu",
+  "name": "Confesor Químico",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Toque Supresor.</em></p><p>Si el Toque hizo efecto, la lucidez viene con la guardia baja: el Modificado puede hacer una única pregunta que la criatura responde con verdad. Lo que la criatura haga después con ese momento es cosa suya.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-toque-supresor",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-toque-supresor",
+      "camino": "modificado",
+      "mejora": "confesor-quimico",
+      "gasto": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "_id": "pqC8voavKZL3Zvik",
+  "_key": "!journal!pqC8voavKZL3Zvik",
+  "name": "Interludio — El Superviviente",
+  "folder": "wLhwD4CLZ873vynb",
+  "sort": 20,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/cronica/02-interludio.md"
+    }
+  },
+  "pages": [
+    {
+      "_id": "luskZNkWgvmSj5gU",
+      "_key": "!journal.pages!pqC8voavKZL3Zvik.luskZNkWgvmSj5gU",
+      "name": "El Refugio y el Choque Térmico",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>El contraste debe ser absoluto: del terror estroboscópico del apagón en Somnia Biotech al silencio opresivo del piso alquilado de @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.O2GuehcZV88rKsKt]{Elías Roca}. El espacio físico narra su obsesión, dominado por un corcho gigante tapizado con nueve años de fotos clandestinas, recortes y planos de la clínica. El acto de ofrecerles café o mate funciona como un ancla mundana necesaria para que la adrenalina baje y el impacto de la realidad oculta los aplaste.</p>\n<blockquote>\n<p>El texto completo para leer en voz alta está en el handout <em>El monólogo de Elías</em>.</p>\n</blockquote>\n"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f6ZVhFyOw3ZtUL5A",
+      "_key": "!journal.pages!pqC8voavKZL3Zvik.f6ZVhFyOw3ZtUL5A",
+      "name": "El Catálogo de la Supervivencia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Elías no ofrece un discurso heroico, sino un manual de emergencias dictado por el trauma. Estructura la iniciación en reglas inquebrantables que los jugadores deben asimilar:</p>\n<ul>\n<li><strong>El fuego y el sol:</strong> Las únicas certezas absolutas contra lo que acaban de ver a través del vidrio.</li>\n<li><strong>El apagón digital:</strong> Prohibición estricta de usar nombres reales por teléfono o buscar información en redes; la policía no es una opción porque el enemigo controla esas infraestructuras.</li>\n<li><strong>Biología del depredador:</strong> Les explica cómo se mueve un vampiro y qué es exactamente un @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.nSObabU1QRNcyMnw]{ghoul} (los sirvientes humanos que limpian sus rastros).</li>\n<li><strong>La regla de sangre:</strong> &quot;No se baja a la cripta sin un plan para el amanecer&quot;. Romper esta regla fue lo que aniquiló a sus cuatro amigos de la célula original del &quot;garaje de Huelin&quot;.</li>\n</ul>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PyecTMuFLXbA0MyD",
+      "_key": "!journal.pages!pqC8voavKZL3Zvik.PyecTMuFLXbA0MyD",
+      "name": "Las Tres Puertas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Elías esparce orgánicamente las semillas de los tres caminos de progresión mecánica en el entorno, dejándolas a disposición de los jugadores:</p>\n<ul>\n<li><strong>La Puerta de los Despertados (Fe):</strong> Elías cuenta de primera mano qué se siente cuando los Heraldos te eligen y otorgan la Segunda Vista, y el vacío físico del Despair cuando la célula muere y las voces se apagan dejándote solo.</li>\n<li><strong>La Puerta del Taller (Método):</strong> Sobre una mesa descansa el cuaderno de Mara, la &quot;técnica&quot; de su célula muerta. Está lleno de mediciones y diagramas de aparatos a medio diseñar, esperando a que alguien con mente analítica los termine.</li>\n<li><strong>La Puerta de la Quimera (Carne):</strong> Sin ningún cartel que advierta su peligro, en el fondo de la heladera, reposan tres viales intactos del Compuesto A que robaron hace nueve años, esperando a quien esté dispuesto a alterar su propio cuerpo para sobrevivir.</li>\n</ul>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7Q0IrcItAxjd8aiM",
+      "_key": "!journal.pages!pqC8voavKZL3Zvik.7Q0IrcItAxjd8aiM",
+      "name": "La Pregunta",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>El clímax de la escena no es de acción, sino de voluntad. Elías se sienta frente a ellos, asume el silencio de la sala y les lanza la pregunta que detonará la campaña: <strong>&quot;¿Volverían a entrar?&quot;</strong>. Los cazadores de verdad nacen de dudar; las respuestas evasivas del informático o el miedo legítimo del limpiador son exactamente el combustible que la narrativa necesita.</p>\n<p>La cacería de Somnia Biotech contra las Piedras de Toque de los personajes es el motor de este acto; el momento en que descubren que en el Mundo de Tinieblas la inacción se cobra en la sangre de los seres queridos. La clínica usará sus recursos corporativos para cercarlos: el guardia notará autos de la empresa vigilando la casa de su familiar, al informático le cortarán las líneas de crédito amenazando su sustento, y el doctorando verá cómo envían @UUID[Compendium.del-velo-a-la-vigilia.personajes.Actor.9iZfEE32ZgK1g9mi]{matones} a &quot;entrevistar&quot; a sus antiguos profesores. Esta presión transforma el miedo en proactividad.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

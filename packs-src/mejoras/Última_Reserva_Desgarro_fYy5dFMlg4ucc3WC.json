@@ -1,0 +1,39 @@
+{
+  "_id": "fYy5dFMlg4ucc3WC",
+  "_key": "!items!fYy5dFMlg4ucc3WC",
+  "name": "Última Reserva (Desgarro)",
+  "type": "perk",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "H5pPGrjjNT6cYCsV",
+  "sort": 0,
+  "system": {
+    "description": "<p><em>Mejora de Plasma Universal.</em></p><p>Desgarrando, la transfusión puede convertir hasta 2 niveles de daño agravado del objetivo en superficial, y el Modificado sufre 1 agravado. Hay noches en que volver a casa con todos cuesta un pedazo de uno.</p><p><em>Desgarro: además de incluir los dados de Desesperación, bajá la Desesperación de la Célula en 1.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-plasma-universal",
+    "selected": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "mejora",
+      "poder": "dvv-mod-plasma-universal",
+      "camino": "modificado",
+      "mejora": "ultima-reserva",
+      "gasto": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "nHAXDepOFvUA6w3H",
+  "_key": "!items!nHAXDepOFvUA6w3H",
+  "name": "Malla Subdérmica — Resistencia + Aguante (dif. 1)",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "IUJmQ8f7T6tgqp7i",
+  "sort": 200,
+  "system": {
+    "description": "<p><em>Fortaleza 1-2 · emula Fortaleza 1-2</em></p>\n<p>Una red de fibra biológica tejida entre dermis y músculo, cultivada de tejido de algo que las balas no frenaban.</p>\n<p><strong>Sistema.</strong></p><p>Se activa exigiendo la carne con Resistencia + Aguante (dif. 1). Durante la escena, el Modificado tiene Armadura 2: cada turno convierte hasta 2 puntos de daño entrante de agravado a superficial, o de superficial a nada. Se apila con chaleco (primero la malla, después el chaleco, decisión de la cronista sobre el tope razonable).</p>\n<p><strong>El precio propio.</strong></p><p>La malla no distingue: mientras está activa, el Modificado siente el dolor amortiguado y sufre −1 dado a tiradas de tacto fino y de Medicina sobre sí mismo. Y las heridas que la malla \"traga\" igual se acumulan como moretones profundos: al final de la escena, si la malla convirtió 4+ puntos, 1 de daño superficial por trauma interno.</p>\n<p><strong>La marca:</strong> Piel con textura de cuero fino; no marca en frío</p>\n<p><em>Activación — exigir la carne: incluí los dados de Desesperación. Ocupa 2 Modificaciones contra el límite de Resistencia.</em></p><p><em>Aguante no existe en H5: se usa Atletismo.</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "Injertos de Segunda Generación"
+    },
+    "edge": "dvv-gen2-malla-subdermica",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.stamina"
+      },
+      "d2": {
+        "path": "skills.athletics"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-gen2-malla-subdermica",
+      "camino": "gen2",
+      "dificultad": 1,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

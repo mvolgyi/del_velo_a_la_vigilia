@@ -1,0 +1,46 @@
+{
+  "_id": "tBLyCLwVCJbIbZO0",
+  "_key": "!items!tBLyCLwVCJbIbZO0",
+  "name": "Osteoinjerto — Fuerza + Pelea",
+  "type": "edgepool",
+  "img": "systems/wod5e/assets/icons/items/item-default.svg",
+  "folder": "gM7zNnMGuvCgflb9",
+  "sort": 100,
+  "system": {
+    "description": "<p><em>≈ Hendir</em></p>\n<p>Espolones de hueso denso y cerámica biológica bajo los antebrazos, tratados con los mismos compuestos que la Munición Tratada del Iluminado, pero vivos.</p>\n<p><strong>Sistema.</strong></p><p>Se exige la carne al declarar el ataque. Durante la escena, los ataques desarmados del Modificado infligen daño como arma cuerpo a cuerpo ligera y agravado contra criaturas sobrenaturales, que no pueden aplicar curación sobrenatural sobre esas heridas hasta el final de la escena. No se le puede desarmar, obviamente. Contra mortales, los espolones hacen daño de arma común y dejan heridas muy difíciles de explicar en una comisaría.</p>\n<p><em>Activación — Exigir la carne: incluí los dados de Desesperación de la Célula en la tirada.</em></p><p><em>Tirada de ataque; el texto no fija la reserva (se usa la estándar de H5). La activación se hace al declarar el ataque (ataque desarmado).</em></p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Carne Templada"
+    },
+    "edge": "dvv-mod-osteoinjerto",
+    "dicepool": {
+      "d1": {
+        "path": "attributes.strength"
+      },
+      "d2": {
+        "path": "skills.brawl"
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "reserva",
+      "poder": "dvv-mod-osteoinjerto",
+      "camino": "modificado",
+      "dificultad": 0,
+      "indice": 0
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

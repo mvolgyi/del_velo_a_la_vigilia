@@ -1,0 +1,41 @@
+{
+  "_id": "6OkuLJdxFcV1qCkA",
+  "_key": "!items!6OkuLJdxFcV1qCkA",
+  "name": "Agua bendita",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-leather-black-brown.webp",
+  "folder": "gn38oQNim6zBkRSS",
+  "sort": 0,
+  "system": {
+    "description": "<table class=\"dvv-ficha\"><tbody><tr><th>Uso</th><td>Destreza + Atletismo (arrojar)</td></tr><tr><th>Daño</th><td>1 agravado por contacto a criaturas malditas*</td></tr><tr><th>Regla</th><td>*Solo si en tu crónica funciona; la fe del portador puede importar (cronista)</td></tr><tr><th>Recursos</th><td>— (una parroquia y buena cara)</td></tr></tbody></table>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "El Arsenal de la Vigilia"
+    },
+    "uses": {
+      "current": 0,
+      "max": 0,
+      "enabled": false
+    },
+    "quantity": 1,
+    "dicepool": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "equipo",
+      "equipo": "agua-bendita"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

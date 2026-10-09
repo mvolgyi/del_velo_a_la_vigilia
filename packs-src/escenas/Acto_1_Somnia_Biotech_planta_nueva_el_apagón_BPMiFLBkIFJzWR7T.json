@@ -1,0 +1,857 @@
+{
+  "_id": "BPMiFLBkIFJzWR7T",
+  "_key": "!scenes!BPMiFLBkIFJzWR7T",
+  "name": "Acto 1 · Somnia Biotech — planta nueva (el apagón)",
+  "folder": "jO7QZOk0HboPNns0",
+  "navigation": true,
+  "navOrder": 10,
+  "width": 2400,
+  "height": 1800,
+  "padding": 0.25,
+  "grid": {
+    "type": 1,
+    "size": 150,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.9,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "RScdXbOBxUhtSnOe",
+      "name": "Suelo",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/somnia-planta-nueva.webp",
+        "color": "#000000"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!BPMiFLBkIFJzWR7T.RScdXbOBxUhtSnOe"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "wlAj1d2GDs2GScaP",
+      "c": [
+        150,
+        150,
+        2250,
+        150
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.wlAj1d2GDs2GScaP"
+    },
+    {
+      "_id": "9YAowDGTCtTczgcE",
+      "c": [
+        150,
+        600,
+        300,
+        600
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.9YAowDGTCtTczgcE"
+    },
+    {
+      "_id": "d3yW9E2iXopkJWPL",
+      "c": [
+        450,
+        600,
+        750,
+        600
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.d3yW9E2iXopkJWPL"
+    },
+    {
+      "_id": "lhq3MKnaXri8mBje",
+      "c": [
+        900,
+        600,
+        1125,
+        600
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.lhq3MKnaXri8mBje"
+    },
+    {
+      "_id": "6XYD7OMN3LhjKN8L",
+      "c": [
+        1275,
+        600,
+        1350,
+        600
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.6XYD7OMN3LhjKN8L"
+    },
+    {
+      "_id": "rBVGVQ9MD0BvgS9G",
+      "c": [
+        150,
+        150,
+        150,
+        1650
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.rBVGVQ9MD0BvgS9G"
+    },
+    {
+      "_id": "V4VDtc50XQxVYfIH",
+      "c": [
+        600,
+        150,
+        600,
+        600
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.V4VDtc50XQxVYfIH"
+    },
+    {
+      "_id": "j3tpS7qTViYpTrnK",
+      "c": [
+        1050,
+        150,
+        1050,
+        600
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.j3tpS7qTViYpTrnK"
+    },
+    {
+      "_id": "MGnkG9QvKMdaDMJi",
+      "c": [
+        1050,
+        750,
+        1050,
+        1050
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.MGnkG9QvKMdaDMJi"
+    },
+    {
+      "_id": "BgXSbuegwUR0FwNL",
+      "c": [
+        1350,
+        150,
+        1350,
+        600
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.BgXSbuegwUR0FwNL"
+    },
+    {
+      "_id": "FRbJE7w1FdjjohaD",
+      "c": [
+        1350,
+        750,
+        1350,
+        1050
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.FRbJE7w1FdjjohaD"
+    },
+    {
+      "_id": "CCpasnnltEduPaWE",
+      "c": [
+        1350,
+        1200,
+        1350,
+        1350
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.CCpasnnltEduPaWE"
+    },
+    {
+      "_id": "sddUTd0Ws2ucG8go",
+      "c": [
+        1350,
+        1500,
+        1350,
+        1650
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.sddUTd0Ws2ucG8go"
+    },
+    {
+      "_id": "V5NG4rtpEUdvgrl6",
+      "c": [
+        150,
+        750,
+        375,
+        750
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.V5NG4rtpEUdvgrl6"
+    },
+    {
+      "_id": "nFRYEmvjiXahoPF6",
+      "c": [
+        525,
+        750,
+        825,
+        750
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.nFRYEmvjiXahoPF6"
+    },
+    {
+      "_id": "2rMiuCyv6JtUTCJU",
+      "c": [
+        975,
+        750,
+        1125,
+        750
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.2rMiuCyv6JtUTCJU"
+    },
+    {
+      "_id": "5i0WduYfFbcoXP5X",
+      "c": [
+        1275,
+        750,
+        1350,
+        750
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.5i0WduYfFbcoXP5X"
+    },
+    {
+      "_id": "UUlTBRc5pnrnzu5X",
+      "c": [
+        150,
+        1200,
+        225,
+        1200
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.UUlTBRc5pnrnzu5X"
+    },
+    {
+      "_id": "KOkUzMp0k7KgFHIC",
+      "c": [
+        675,
+        1200,
+        1350,
+        1200
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.KOkUzMp0k7KgFHIC"
+    },
+    {
+      "_id": "mmMX1KSBqCxidOPT",
+      "c": [
+        2250,
+        1200,
+        2400,
+        1200
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.mmMX1KSBqCxidOPT"
+    },
+    {
+      "_id": "RgJvsMFpSNSNneTR",
+      "c": [
+        750,
+        750,
+        750,
+        1050
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.RgJvsMFpSNSNneTR"
+    },
+    {
+      "_id": "EpgUXhX8huPe9zdn",
+      "c": [
+        750,
+        1200,
+        750,
+        1650
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.EpgUXhX8huPe9zdn"
+    },
+    {
+      "_id": "wa9xF8mLJ8xn9Om7",
+      "c": [
+        150,
+        1650,
+        300,
+        1650
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.wa9xF8mLJ8xn9Om7"
+    },
+    {
+      "_id": "2zJWGOEXwL2tp9eJ",
+      "c": [
+        600,
+        1650,
+        1650,
+        1650
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.2zJWGOEXwL2tp9eJ"
+    },
+    {
+      "_id": "EQdBJ1XZ3z6DqUrL",
+      "c": [
+        1800,
+        1650,
+        1950,
+        1650
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.EQdBJ1XZ3z6DqUrL"
+    },
+    {
+      "_id": "ifv26GP6I4CQJRJF",
+      "c": [
+        750,
+        1050,
+        1350,
+        1050
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.ifv26GP6I4CQJRJF"
+    },
+    {
+      "_id": "og6QLgKy7HmTAjBN",
+      "c": [
+        1500,
+        1050,
+        2250,
+        1050
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.og6QLgKy7HmTAjBN"
+    },
+    {
+      "_id": "tUKd043iolBHAaGu",
+      "c": [
+        1500,
+        750,
+        1500,
+        825
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.tUKd043iolBHAaGu"
+    },
+    {
+      "_id": "H6uAwhQgrdODL3LA",
+      "c": [
+        1500,
+        975,
+        1500,
+        1050
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.H6uAwhQgrdODL3LA"
+    },
+    {
+      "_id": "tP3vvTQmhFUrAeaC",
+      "c": [
+        2250,
+        150,
+        2250,
+        1275
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.tP3vvTQmhFUrAeaC"
+    },
+    {
+      "_id": "fPfuCZs4KI8SeWF5",
+      "c": [
+        2250,
+        1425,
+        2250,
+        1650
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.fPfuCZs4KI8SeWF5"
+    },
+    {
+      "_id": "PjrI0Fn8ybzd4V2q",
+      "c": [
+        2250,
+        1500,
+        2400,
+        1500
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.PjrI0Fn8ybzd4V2q"
+    },
+    {
+      "_id": "TIuEpzdbiPzdqfNK",
+      "c": [
+        2400,
+        1200,
+        2400,
+        1500
+      ],
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.TIuEpzdbiPzdqfNK"
+    },
+    {
+      "_id": "nX02mMvv0U9qiz8m",
+      "c": [
+        300,
+        600,
+        450,
+        600
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.nX02mMvv0U9qiz8m"
+    },
+    {
+      "_id": "rbEyDBcILi1SFhq8",
+      "c": [
+        750,
+        600,
+        900,
+        600
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.rbEyDBcILi1SFhq8"
+    },
+    {
+      "_id": "5M8gUBofWQLYmF4e",
+      "c": [
+        1125,
+        600,
+        1275,
+        600
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.5M8gUBofWQLYmF4e"
+    },
+    {
+      "_id": "8SXNAe3Ky18DiLHf",
+      "c": [
+        375,
+        750,
+        525,
+        750
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "slidingModern",
+      "sight": 0,
+      "light": 0,
+      "sound": 10,
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.8SXNAe3Ky18DiLHf"
+    },
+    {
+      "_id": "E8xY67G1k7MWuVUj",
+      "c": [
+        825,
+        750,
+        975,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.E8xY67G1k7MWuVUj"
+    },
+    {
+      "_id": "7gqM4dKrwQw1rtNg",
+      "c": [
+        1125,
+        750,
+        1275,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.7gqM4dKrwQw1rtNg"
+    },
+    {
+      "_id": "QZNHnoeoo0L3dk38",
+      "c": [
+        300,
+        1650,
+        600,
+        1650
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "slidingModern",
+      "sight": 0,
+      "light": 0,
+      "sound": 10,
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.QZNHnoeoo0L3dk38"
+    },
+    {
+      "_id": "gemLno2FmzfF0Rcq",
+      "c": [
+        750,
+        1050,
+        750,
+        1200
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.gemLno2FmzfF0Rcq"
+    },
+    {
+      "_id": "abOq9Nanyg1kTxt9",
+      "c": [
+        1350,
+        1050,
+        1350,
+        1200
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.abOq9Nanyg1kTxt9"
+    },
+    {
+      "_id": "D4v5znM2qXVcbb8S",
+      "c": [
+        1350,
+        600,
+        1350,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "slidingModern",
+      "sight": 0,
+      "light": 0,
+      "sound": 10,
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.D4v5znM2qXVcbb8S"
+    },
+    {
+      "_id": "aLShrOnwyfcUsTY8",
+      "c": [
+        1500,
+        150,
+        1500,
+        750
+      ],
+      "move": 20,
+      "sight": 0,
+      "light": 0,
+      "sound": 20,
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.aLShrOnwyfcUsTY8"
+    },
+    {
+      "_id": "qPUwQdl0eoTLnmTQ",
+      "c": [
+        1500,
+        825,
+        1500,
+        975
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.qPUwQdl0eoTLnmTQ"
+    },
+    {
+      "_id": "DUfGjCXJKrbQCdAn",
+      "c": [
+        1350,
+        1050,
+        1500,
+        1050
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.DUfGjCXJKrbQCdAn"
+    },
+    {
+      "_id": "WT8UcvXa9fCVChLx",
+      "c": [
+        1650,
+        1650,
+        1800,
+        1650
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.WT8UcvXa9fCVChLx"
+    },
+    {
+      "_id": "RZ2J5XbKF3zpg5FZ",
+      "c": [
+        1950,
+        1650,
+        2250,
+        1650
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "slidingMetalHeavy",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.RZ2J5XbKF3zpg5FZ"
+    },
+    {
+      "_id": "zVtI2u17ZhdVXt7V",
+      "c": [
+        2250,
+        1275,
+        2250,
+        1425
+      ],
+      "door": 1,
+      "ds": 1,
+      "doorSound": "industrial",
+      "_key": "!scenes.walls!BPMiFLBkIFJzWR7T.zVtI2u17ZhdVXt7V"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "M5YE4Bx9nd8HrETm",
+      "name": "Emergencia · pasillo central oeste",
+      "x": 450,
+      "y": 675,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.M5YE4Bx9nd8HrETm"
+    },
+    {
+      "_id": "Zx96ERSAonJVLSuM",
+      "name": "Emergencia · pasillo central este",
+      "x": 1050,
+      "y": 675,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.Zx96ERSAonJVLSuM"
+    },
+    {
+      "_id": "fLAcz7tXKiSQFSyz",
+      "name": "Emergencia · pasillo de cristal norte",
+      "x": 1425,
+      "y": 300,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.fLAcz7tXKiSQFSyz"
+    },
+    {
+      "_id": "hVCjakkWu2RNzPST",
+      "name": "Emergencia · pasillo de cristal sur",
+      "x": 1425,
+      "y": 825,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.hVCjakkWu2RNzPST"
+    },
+    {
+      "_id": "jpCJA3Q3thn5VUIS",
+      "name": "Emergencia · pasillo de servicio",
+      "x": 1050,
+      "y": 1125,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.jpCJA3Q3thn5VUIS"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "j3e4Y9k1d3pIc7J6",
+      "name": "A la planta vieja",
+      "color": "#7b1c1c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2250,
+          "y": 1200,
+          "width": 150,
+          "height": 300,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "0PPgzq6UpwogYawh",
+          "name": "A la planta vieja",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.uH16g5FyHIKxoG5J.Region.ng0dLuIVPodBvtU4"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!BPMiFLBkIFJzWR7T.j3e4Y9k1d3pIc7J6.0PPgzq6UpwogYawh"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.j3e4Y9k1d3pIc7J6"
+    }
+  ],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "somnia-planta-nueva",
+      "nota": "Apagón: solo las luces de emergencia rojas de los pasillos. Las cerraduras magnéticas sin energía dejan TRABADAS la entrada principal, el control de acceso de recepción, la sala de servidores, el ala de ensayos y la persiana del muelle: los lectores solo pitan en rojo; el Narrador las destraba a mano. El vidrio del ala de ensayos es grueso e insonorizado: se ve todo, no se oye nada, no se pasa (muro de vidrio). La pesada puerta de la planta vieja (este del muelle) está abierta de par en par, como la encuentra el Limpiador. Por la puerta de servicio del muelle entra Elías con el bidón y la bengala (preset de luz «bengala» en tools/iluminacion.mjs). Muebles móviles NO pintados (colocarlos como tiles): silla ×3, sofa ×2, mesa, carro, palet ×3.",
+      "plano": "somnia-planta-nueva",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

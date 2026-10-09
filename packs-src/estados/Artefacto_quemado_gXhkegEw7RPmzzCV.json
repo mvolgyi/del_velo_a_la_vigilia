@@ -1,0 +1,37 @@
+{
+  "_id": "gXhkegEw7RPmzzCV",
+  "_key": "!items!gXhkegEw7RPmzzCV",
+  "name": "Artefacto quemado",
+  "type": "condition",
+  "img": "icons/svg/explosion.svg",
+  "folder": "Rpd9Fzl1M6xNxgEu",
+  "sort": 0,
+  "system": {
+    "description": "<p>La tirada de un Artefacto terminó en Desesperación total y el prototipo se quemó. <strong>Anotá en el nombre del estado qué Artefacto es.</strong> Queda inservible hasta una escena de taller completa y una tirada de Inteligencia + Tecnología o Artesanía (dif. 3). Si el fallo ocurrió en manos del Iluminado, la cronista puede añadir 1 de daño superficial.</p>",
+    "macroid": "",
+    "bonuses": [],
+    "dataItemId": "",
+    "source": {
+      "book": "Del Velo a la Vigilia",
+      "page": "La Ciencia del Umbral"
+    },
+    "suppressed": false,
+    "effects": {}
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "estado",
+      "estado": "artefacto-quemado",
+      "camino": "iluminado"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}
