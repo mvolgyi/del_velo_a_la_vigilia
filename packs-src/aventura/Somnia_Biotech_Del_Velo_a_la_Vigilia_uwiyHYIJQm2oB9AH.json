@@ -10,7 +10,7 @@
       "_id": "kWQNBnBz3V9gvlnP",
       "name": "Dra. Irene Salas",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/dra-salas.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -18,7 +18,7 @@
         "actorLink": false,
         "disposition": -1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/dra-salas.webp"
         }
       },
       "system": {
@@ -104,7 +104,7 @@
       "_id": "62xFjZPXiec7OFTE",
       "name": "Durmiente",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/durmiente.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -112,7 +112,7 @@
         "actorLink": false,
         "disposition": 0,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp"
         }
       },
       "system": {
@@ -1947,7 +1947,7 @@
       "_id": "O2GuehcZV88rKsKt",
       "name": "Elías Roca",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/elias-roca.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -1955,7 +1955,7 @@
         "actorLink": false,
         "disposition": 0,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/elias-roca.webp"
         }
       },
       "system": {
@@ -2032,7 +2032,7 @@
       "_id": "nSObabU1QRNcyMnw",
       "name": "Ghoul de Somnia",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/ghoul-somnia.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -2040,7 +2040,7 @@
         "actorLink": false,
         "disposition": -1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/ghoul-somnia.webp"
         }
       },
       "system": {
@@ -2123,7 +2123,7 @@
       "_id": "yWZmWOJ2RbCdY4Dq",
       "name": "Marcos",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/marcos.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -2131,7 +2131,7 @@
         "actorLink": false,
         "disposition": -1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/marcos.webp"
         }
       },
       "system": {
@@ -2217,7 +2217,7 @@
       "_id": "9iZfEE32ZgK1g9mi",
       "name": "Matón de Somnia",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/maton-somnia.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -2225,7 +2225,7 @@
         "actorLink": false,
         "disposition": -1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/maton-somnia.webp"
         }
       },
       "system": {
@@ -2305,7 +2305,7 @@
       "_id": "UpZ0DCdeSgMIlyXC",
       "name": "Quimera suelta",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/quimera-suelta.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -2313,7 +2313,7 @@
         "actorLink": false,
         "disposition": -1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/quimera-suelta.webp"
         }
       },
       "system": {
@@ -2396,7 +2396,7 @@
       "_id": "eBmvQ8uA5fSN65xZ",
       "name": "Sor Anunciación",
       "type": "spc",
-      "img": "icons/svg/mystery-man.svg",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/sor-anunciacion.webp",
       "folder": "cQiS68CRfa7a3enP",
       "sort": 0,
       "prototypeToken": {
@@ -2404,7 +2404,7 @@
         "actorLink": false,
         "disposition": -1,
         "texture": {
-          "src": "icons/svg/mystery-man.svg"
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/sor-anunciacion.webp"
         }
       },
       "system": {

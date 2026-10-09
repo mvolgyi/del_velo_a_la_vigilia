@@ -550,19 +550,22 @@ function construirPersonajes() {
   for (const p of PNJS) {
     const aid = ID.actor(p.id);
     const hostil = ["vampire", "ghoul"].includes(p.spcType) || /maton|quimera/.test(p.id);
+    // Retrato y token si el arte existe; si no, el icono por defecto.
+    const retrato = existe(`assets/retratos/${p.id}.webp`) ? `modules/${MODULO}/assets/retratos/${p.id}.webp` : "icons/svg/mystery-man.svg";
+    const token = existe(`assets/tokens/${p.id}.webp`) ? `modules/${MODULO}/assets/tokens/${p.id}.webp` : retrato;
     escribirDoc("personajes", {
       _id: aid,
       _key: `!actors!${aid}`,
       name: p.nombre,
       type: "spc",
-      img: "icons/svg/mystery-man.svg",
+      img: retrato,
       folder: carpetas.id("PNJs"),
       sort: 0,
       prototypeToken: {
         name: p.nombre,
         actorLink: false,
         disposition: hostil ? -1 : 0,
-        texture: { src: "icons/svg/mystery-man.svg" }
+        texture: { src: token }
       },
       system: {
         spcType: p.spcType,

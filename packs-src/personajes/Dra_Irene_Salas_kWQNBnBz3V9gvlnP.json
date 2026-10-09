@@ -3,7 +3,7 @@
   "_key": "!actors!kWQNBnBz3V9gvlnP",
   "name": "Dra. Irene Salas",
   "type": "spc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/del-velo-a-la-vigilia/assets/retratos/dra-salas.webp",
   "folder": "cQiS68CRfa7a3enP",
   "sort": 0,
   "prototypeToken": {
@@ -11,7 +11,7 @@
     "actorLink": false,
     "disposition": -1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/dra-salas.webp"
     }
   },
   "system": {

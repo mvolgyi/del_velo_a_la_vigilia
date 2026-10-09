@@ -16,7 +16,111 @@
       "aspecto": "3:4",
       "tamano": "1K",
       "carpeta": "assets/retratos"
+    },
+    "token": {
+      "prefijo": "Top-down token artwork for a virtual tabletop (World of Darkness, Hunter: The Reckoning, present-day Málaga). ONE single person seen from DIRECTLY ABOVE, a strict bird's-eye view as if photographed from the ceiling: we see the top of the head, hair, shoulders, and the arms slightly spread or holding something; no face visible from the front, no three-quarter angle. The figure stands centered and fills about 80% of the frame.\n\nSUBJECT: ",
+      "sufijo": "\n\nSTYLE: illustrated photorealism with confident ink outlines under painted colour, cold desaturated palette, matching the battlemaps of the same campaign. Contemporary, unglamorous clothing.\n\nBACKGROUND: a perfectly flat, uniform, pure chroma-key green (#00FF00) background with absolutely nothing else on it: no floor, no texture, no gradient, no shadow cast on the ground, no vignette. The green must be a single flat colour so it can be keyed out.\n\nNO text, no letters, no frame, no border, no ring, no circle, no token base, no second figure.",
+      "aspecto": "1:1",
+      "tamano": "1K",
+      "carpeta": "assets/tokens-crudo"
     }
   },
-  "assets": []
+  "assets": [
+    {
+      "id": "marcos",
+      "estilo": "retrato",
+      "prompt": "Marcos, head of night security at a biotech clinic and a freshly turned vampire: a man about 30, Spanish, dark hair combed back with product, clean-shaven, in a well-cut dark grey suit with a lanyard and a plastic ID badge, white shirt open at the collar. Arrogant half-smile, eyes too bright and too still, skin slightly too pale, a dark smear of blood at the corner of his mouth. Behind him, out of focus, the red emergency lights of a dark hospital corridor. The illustration fills the entire image edge to edge: no paper border, no torn-paper frame, no white margin of any kind.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "sor-anunciacion",
+      "estilo": "retrato",
+      "prompt": "Sor Anunciación, a four-hundred-year-old vampire nun, prioress of a deconsecrated convent, lying in state and now rising: an ancient, gaunt woman in a worn black-and-white Spanish religious habit, face like parchment stretched over bone, lips thin and dark, eyes open, dry, utterly calm and contemptuous. Medieval stone niche behind her, an IV line taped to her wrist. Dim cold light.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "dra-salas",
+      "estilo": "retrato",
+      "prompt": "Dra. Irene Salas, medical director of a biotech clinic, a ghoul addicted to vampire blood: a woman in her late forties, sharp intelligent face, grey-streaked dark hair pulled back, wire-rim glasses, a stained white lab coat over a dark blouse, bloodshot sleepless eyes, lips pressed in a guilty, clinical expression. Behind her, blurred, a surgical lamp and steel instruments.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "elias-roca",
+      "estilo": "retrato",
+      "prompt": "Elías Roca, an old hunter who survived his cell: a Spanish man in his late sixties, lean and worn, deep purple shadows under the eyes, grey stubble, a cheap wool cardigan over a faded shirt, knotted scarred fingers holding a lit cigarette, a burn-scarred palm visible. Haunted, stubborn, exhausted gaze. Behind him, out of focus, a cork board covered in photos and red thread.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "durmiente",
+      "estilo": "retrato",
+      "prompt": "A 'sleeper', an anaemic clinical trial patient who has been sedated and bled for weeks: a young adult of indeterminate gender in a thin hospital gown, skin grey-pale, cracked lips, bruised needle marks on the inside of the forearm, hair matted, eyes half open and unfocused, lost. Behind them, blurred, a row of hospital beds under dim red emergency light.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "ghoul-somnia",
+      "estilo": "retrato",
+      "prompt": "A night-shift orderly of a biotech clinic who is secretly a ghoul, addicted to vampire blood: a heavyset man in his forties in pale blue scrubs with a clinic badge, unshaven, sweaty, eyes feverish and eager, teeth slightly stained, a rolled-up sleeve. Servile, nervous, dangerous. Behind him, blurred, a service corridor with a gurney.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "maton-somnia",
+      "estilo": "retrato",
+      "prompt": "A corporate security contractor working for a biotech company: a broad man in his thirties, buzz cut, short beard, black bomber jacket over a black polo, an earpiece, hands in gloves, impassive professional face with cold eyes. Behind him, blurred, a black SUV under a sodium streetlight on a wet street at night.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "quimera-suelta",
+      "estilo": "retrato",
+      "prompt": "A 'chimera', a human volunteer surgically modified with vampire-derived grafts and now abandoned on the streets: a man in his twenties, feverish and sweating, hoodie pulled half back, surgical scars on the neck and temple that have not healed, dark veins spreading under the skin of the jaw, one eye reflecting light like an animal's, expression hungry and frightened. Behind him, blurred, a graffitied alley at night.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "marcos",
+      "estilo": "token",
+      "prompt": "a man in a well-cut dark grey suit and white shirt, dark slicked-back hair seen from above, a lanyard with an ID badge, one hand loosely at his side, the other slightly raised with fingers spread like a predator about to grab.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "sor-anunciacion",
+      "estilo": "token",
+      "prompt": "an ancient gaunt nun in a black-and-white religious habit and veil seen from above, arms folded over her chest like a corpse laid in state, an IV line taped to one wrist, bony pale hands.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "dra-salas",
+      "estilo": "token",
+      "prompt": "a woman in a stained white lab coat seen from above, grey-streaked dark hair pulled back in a bun, holding a clipboard in one hand and a syringe in the other.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "elias-roca",
+      "estilo": "token",
+      "prompt": "an old lean man in a worn wool cardigan seen from above, grey thinning hair, holding an UNLIT red emergency flare (a plain red tube, no flame, no light, no glow) in one hand and a plastic jerrycan in the other.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "durmiente",
+      "estilo": "token",
+      "prompt": "a frail young patient in a thin pale hospital gown seen from above, matted hair, bare arms with bruised needle marks, barefoot, arms hanging limp.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "ghoul-somnia",
+      "estilo": "token",
+      "prompt": "a heavyset man in pale blue hospital scrubs seen from above, balding crown, pushing nothing but with hands raised holding a bloodied rag.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "maton-somnia",
+      "estilo": "token",
+      "prompt": "a broad man in a black bomber jacket seen from above, buzz-cut head, black gloves, holding a compact pistol in a two-handed grip pointed forward.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "quimera-suelta",
+      "estilo": "token",
+      "prompt": "a young man in a dark hoodie with the hood down seen from above, sweat-dark hair, surgical scars on the neck and scalp, dark veins on the back of the neck, hands clawed, one forearm showing a bony ridge under the skin.",
+      "nota": "token cenital PNJ"
+    }
+  ]
 }

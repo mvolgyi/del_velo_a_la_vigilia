@@ -96,6 +96,17 @@ npm run planos       # esquemas en assets/mapas/<id>.esquema.webp
 npm run pintar       # repinta con el modelo (requiere GOOGE_AI_STUDIO_API_KEY en .env)
 ```
 
+### Retratos y tokens de PNJs
+
+Los prompts viven en `tools/arte.config.json` (estilos `retrato` y `token`). El token se genera
+cenital sobre fondo chroma y se recorta a círculo con anillo:
+
+```bash
+node tools/generar-arte.mjs            # retratos → assets/retratos/, crudos → assets/tokens-crudo/
+npm run tokens                         # recorte → assets/tokens/<id>.webp
+npm run contenido                      # las fichas toman retrato y token si existen
+```
+
 ## Cómo funciona por dentro (wod5e)
 
 - Las **Facultades** de wod5e no son ítems: son un registro que este módulo extiende con

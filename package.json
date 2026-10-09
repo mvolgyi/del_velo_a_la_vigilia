@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "del-velo-a-la-vigilia",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Módulo de Foundry VTT para Hunter: The Reckoning 5e (wod5e): los tres caminos, el Arsenal de la Vigilia y la crónica Somnia Biotech",
   "type": "module",
   "scripts": {
@@ -24,7 +24,8 @@
     "pintar": "node tools/pintar-planos.mjs",
     "release": "node tools/release.mjs",
     "e2e": "node tools/e2e/prueba.mjs",
-    "pack:aventura": "fvtt package pack aventura --id del-velo-a-la-vigilia --type Module --in packs-src/aventura --out packs"
+    "pack:aventura": "fvtt package pack aventura --id del-velo-a-la-vigilia --type Module --in packs-src/aventura --out packs",
+    "tokens": "node tools/tokens.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",

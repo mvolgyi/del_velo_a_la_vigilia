@@ -8,7 +8,7 @@
  *
  * Uso:
  *   node tools/generar-arte.mjs                 # genera lo que falte
- *   node tools/generar-arte.mjs --solo <id>,<id>
+ *   node tools/generar-arte.mjs --solo <id>,<id> [--estilo retrato|token]
  *   node tools/generar-arte.mjs --forzar        # regenera aunque exista
  *   node tools/generar-arte.mjs --listar
  *
@@ -40,6 +40,7 @@ const valor = f => {
 
 const soloIds = valor("--solo")?.split(",").map(s => s.trim()).filter(Boolean) ?? null;
 const forzar = tiene("--forzar");
+const soloEstilo = valor("--estilo");
 
 /* --- clave --------------------------------------------------------------- */
 
@@ -149,6 +150,7 @@ if (soloIds) {
     process.exit(1);
   }
 }
+if (soloEstilo) cola = cola.filter(a => a.estilo === soloEstilo);
 if (!forzar) cola = cola.filter(a => !fs.existsSync(rutaDe(a)));
 
 if (!cola.length) {
