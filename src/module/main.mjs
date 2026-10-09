@@ -13,6 +13,7 @@ import { Balizas } from "./balizas.mjs";
 import { Arsenal } from "./arsenal.mjs";
 import { PanelCronica } from "./panel-cronica.mjs";
 import { cazadorActual } from "./actores.mjs";
+import { instalarParches } from "./compat.mjs";
 
 export { DVV, Caminos, TresPuertas, Desesperacion, Balizas, Arsenal, PanelCronica };
 
@@ -24,6 +25,10 @@ Hooks.once("init", () => {
 });
 
 /* -------------------------------------------- */
+
+Hooks.once("setup", () => {
+  instalarParches();
+});
 
 Hooks.once("ready", async () => {
   // API pública, para macros y otros módulos. Se expone antes de cargar los

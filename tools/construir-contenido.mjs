@@ -407,7 +407,9 @@ function expandirMarcadores(md, archivo) {
       avisos.push(`${archivo}: @npc{${id}} no existe en content/pnjs.json`);
       return etiqueta?.trim() ?? id;
     }
-    return enlace("personajes", "Actor", ID.actor(id), etiqueta?.trim() || nombrePnj[id]);
+    // Al actor del MUNDO: la Aventura lo importa conservando el id, así el
+    // enlace queda vivo en la mesa (token, salud) y no toca el compendio.
+    return `@UUID[Actor.${ID.actor(id)}]{${etiqueta?.trim() || nombrePnj[id]}}`;
   });
 
   // @item{id|texto}
