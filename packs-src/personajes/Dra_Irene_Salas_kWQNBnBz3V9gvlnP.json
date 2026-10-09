@@ -32,22 +32,28 @@
     },
     "exceptionaldicepools": {
       "medicine": {
-        "value": 10
+        "value": 10,
+        "active": true
       },
       "science": {
-        "value": 9
+        "value": 9,
+        "active": true
       },
       "academics": {
-        "value": 8
+        "value": 8,
+        "active": true
       },
       "insight": {
-        "value": 7
+        "value": 7,
+        "active": true
       },
       "subterfuge": {
-        "value": 7
+        "value": 7,
+        "active": true
       },
       "technology": {
-        "value": 8
+        "value": 8,
+        "active": true
       }
     },
     "health": {

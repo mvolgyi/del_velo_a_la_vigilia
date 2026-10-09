@@ -32,22 +32,28 @@
     },
     "exceptionaldicepools": {
       "brawl": {
-        "value": 8
+        "value": 8,
+        "active": true
       },
       "athletics": {
-        "value": 7
+        "value": 7,
+        "active": true
       },
       "intimidation": {
-        "value": 7
+        "value": 7,
+        "active": true
       },
       "firearms": {
-        "value": 6
+        "value": 6,
+        "active": true
       },
       "awareness": {
-        "value": 6
+        "value": 6,
+        "active": true
       },
       "stealth": {
-        "value": 6
+        "value": 6,
+        "active": true
       }
     },
     "health": {

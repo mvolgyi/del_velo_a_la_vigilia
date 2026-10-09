@@ -32,7 +32,8 @@
     },
     "exceptionaldicepools": {
       "awareness": {
-        "value": 4
+        "value": 4,
+        "active": true
       }
     },
     "health": {

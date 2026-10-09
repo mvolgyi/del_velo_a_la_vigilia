@@ -32,13 +32,16 @@
     },
     "exceptionaldicepools": {
       "occult": {
-        "value": 8
+        "value": 8,
+        "active": true
       },
       "investigation": {
-        "value": 8
+        "value": 8,
+        "active": true
       },
       "awareness": {
-        "value": 8
+        "value": 8,
+        "active": true
       }
     },
     "health": {

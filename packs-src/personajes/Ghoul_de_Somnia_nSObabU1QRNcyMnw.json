@@ -32,19 +32,24 @@
     },
     "exceptionaldicepools": {
       "brawl": {
-        "value": 6
+        "value": 6,
+        "active": true
       },
       "melee": {
-        "value": 6
+        "value": 6,
+        "active": true
       },
       "firearms": {
-        "value": 6
+        "value": 6,
+        "active": true
       },
       "intimidation": {
-        "value": 5
+        "value": 5,
+        "active": true
       },
       "larceny": {
-        "value": 5
+        "value": 5,
+        "active": true
       }
     },
     "health": {

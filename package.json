@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "del-velo-a-la-vigilia",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Módulo de Foundry VTT para Hunter: The Reckoning 5e (wod5e): los tres caminos, el Arsenal de la Vigilia y la crónica Somnia Biotech",
   "type": "module",
   "scripts": {

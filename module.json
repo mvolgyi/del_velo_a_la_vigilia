@@ -2,7 +2,7 @@
   "id": "del-velo-a-la-vigilia",
   "title": "Del Velo a la Vigilia",
   "description": "<p><strong>Del Velo a la Vigilia</strong> es un módulo para <em>Hunter: The Reckoning 5e</em> (Cazador: La Venganza) sobre el sistema wod5e.</p><p>Trae los <strong>tres caminos</strong> de reglas caseras (Bordes Imbuidos, Artefactos Iluminados y Modificaciones Humanas, con los Injertos de Segunda Generación), <strong>El Arsenal de la Vigilia</strong> con sets de armas por Credo, y la crónica <strong>Somnia Biotech</strong> lista para dirigir: actos, handouts, PNJs, plantillas de cazador, escenas y un panel del Narrador con Desesperación, Peligro y balizas.</p>",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "authors": [
     {
       "name": "mvolgyi",
@@ -381,7 +381,7 @@
     }
   },
   "manifest": "https://github.com/mvolgyi/del_velo_a_la_vigilia/releases/latest/download/module.json",
-  "download": "https://github.com/mvolgyi/del_velo_a_la_vigilia/releases/download/v0.1.3/module.zip",
+  "download": "https://github.com/mvolgyi/del_velo_a_la_vigilia/releases/download/v0.1.4/module.zip",
   "quickstart": {
     "adventures": {
       "somnia-biotech": {

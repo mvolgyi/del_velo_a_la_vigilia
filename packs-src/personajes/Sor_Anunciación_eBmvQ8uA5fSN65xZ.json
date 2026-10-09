@@ -32,22 +32,28 @@
     },
     "exceptionaldicepools": {
       "brawl": {
-        "value": 12
+        "value": 12,
+        "active": true
       },
       "intimidation": {
-        "value": 12
+        "value": 12,
+        "active": true
       },
       "occult": {
-        "value": 11
+        "value": 11,
+        "active": true
       },
       "awareness": {
-        "value": 10
+        "value": 10,
+        "active": true
       },
       "insight": {
-        "value": 10
+        "value": 10,
+        "active": true
       },
       "persuasion": {
-        "value": 10
+        "value": 10,
+        "active": true
       }
     },
     "health": {

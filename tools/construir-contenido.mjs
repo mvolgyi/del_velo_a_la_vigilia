@@ -575,7 +575,8 @@ function construirPersonajes() {
           social: { value: p.estandar?.social ?? 1 },
           mental: { value: p.estandar?.mental ?? 1 }
         },
-        exceptionaldicepools: Object.fromEntries(Object.entries(p.excepcionales ?? {}).map(([k, v]) => [k, { value: v }])),
+        // `active: true`: la hoja de PNJ de wod5e solo muestra las reservas excepcionales marcadas como activas.
+        exceptionaldicepools: Object.fromEntries(Object.entries(p.excepcionales ?? {}).map(([k, v]) => [k, { value: v, active: true }])),
         health: { max: p.salud ?? 5, value: p.salud ?? 5, aggravated: 0, superficial: 0 },
         willpower: { max: p.voluntad ?? 5, value: p.voluntad ?? 5, aggravated: 0, superficial: 0 },
         power: { value: p.poder ?? 0 },

@@ -39,22 +39,28 @@
         },
         "exceptionaldicepools": {
           "medicine": {
-            "value": 10
+            "value": 10,
+            "active": true
           },
           "science": {
-            "value": 9
+            "value": 9,
+            "active": true
           },
           "academics": {
-            "value": 8
+            "value": 8,
+            "active": true
           },
           "insight": {
-            "value": 7
+            "value": 7,
+            "active": true
           },
           "subterfuge": {
-            "value": 7
+            "value": 7,
+            "active": true
           },
           "technology": {
-            "value": 8
+            "value": 8,
+            "active": true
           }
         },
         "health": {
@@ -133,7 +139,8 @@
         },
         "exceptionaldicepools": {
           "awareness": {
-            "value": 4
+            "value": 4,
+            "active": true
           }
         },
         "health": {
@@ -1976,13 +1983,16 @@
         },
         "exceptionaldicepools": {
           "occult": {
-            "value": 8
+            "value": 8,
+            "active": true
           },
           "investigation": {
-            "value": 8
+            "value": 8,
+            "active": true
           },
           "awareness": {
-            "value": 8
+            "value": 8,
+            "active": true
           }
         },
         "health": {
@@ -2061,19 +2071,24 @@
         },
         "exceptionaldicepools": {
           "brawl": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "melee": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "firearms": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "intimidation": {
-            "value": 5
+            "value": 5,
+            "active": true
           },
           "larceny": {
-            "value": 5
+            "value": 5,
+            "active": true
           }
         },
         "health": {
@@ -2152,22 +2167,28 @@
         },
         "exceptionaldicepools": {
           "brawl": {
-            "value": 8
+            "value": 8,
+            "active": true
           },
           "athletics": {
-            "value": 7
+            "value": 7,
+            "active": true
           },
           "intimidation": {
-            "value": 7
+            "value": 7,
+            "active": true
           },
           "firearms": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "awareness": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "stealth": {
-            "value": 6
+            "value": 6,
+            "active": true
           }
         },
         "health": {
@@ -2246,16 +2267,20 @@
         },
         "exceptionaldicepools": {
           "brawl": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "intimidation": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "drive": {
-            "value": 6
+            "value": 6,
+            "active": true
           },
           "firearms": {
-            "value": 5
+            "value": 5,
+            "active": true
           }
         },
         "health": {
@@ -2334,19 +2359,24 @@
         },
         "exceptionaldicepools": {
           "brawl": {
-            "value": 9
+            "value": 9,
+            "active": true
           },
           "athletics": {
-            "value": 8
+            "value": 8,
+            "active": true
           },
           "stealth": {
-            "value": 7
+            "value": 7,
+            "active": true
           },
           "awareness": {
-            "value": 7
+            "value": 7,
+            "active": true
           },
           "survival": {
-            "value": 6
+            "value": 6,
+            "active": true
           }
         },
         "health": {
@@ -2425,22 +2455,28 @@
         },
         "exceptionaldicepools": {
           "brawl": {
-            "value": 12
+            "value": 12,
+            "active": true
           },
           "intimidation": {
-            "value": 12
+            "value": 12,
+            "active": true
           },
           "occult": {
-            "value": 11
+            "value": 11,
+            "active": true
           },
           "awareness": {
-            "value": 10
+            "value": 10,
+            "active": true
           },
           "insight": {
-            "value": 10
+            "value": 10,
+            "active": true
           },
           "persuasion": {
-            "value": 10
+            "value": 10,
+            "active": true
           }
         },
         "health": {
