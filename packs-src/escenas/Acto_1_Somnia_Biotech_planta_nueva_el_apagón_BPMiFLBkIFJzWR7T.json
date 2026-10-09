@@ -9,7 +9,7 @@
   "navOrder": 10,
   "width": 2400,
   "height": 1800,
-  "padding": 0.25,
+  "padding": 0,
   "grid": {
     "type": 1,
     "size": 150,

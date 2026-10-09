@@ -747,7 +747,10 @@ function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscurida
     navOrder: orden ?? 0,
     width: w,
     height: h,
-    padding: 0.25,
+    // Sin relleno: Foundry desplaza el rectángulo de la escena por el padding
+    // y las coordenadas de muros, puertas y luces (que vienen del plano, en
+    // píxeles del mapa) quedarían corridas media pantalla.
+    padding: 0,
     grid: { type: 1, size: grid, style: "solidLines", thickness: 1, color: "#000000", alpha: gridAlpha, distance: 5, units: "ft" },
     tokenVision: true,
     fog: { exploration: true },

@@ -9,7 +9,7 @@
   "navOrder": 15,
   "width": 1800,
   "height": 1500,
-  "padding": 0.25,
+  "padding": 0,
   "grid": {
     "type": 1,
     "size": 150,
@@ -25,7 +25,7 @@
     "exploration": true
   },
   "environment": {
-    "darknessLevel": 0.95,
+    "darknessLevel": 0.85,
     "globalLight": {
       "enabled": false
     }
@@ -436,6 +436,123 @@
     }
   ],
   "lights": [
+    {
+      "_id": "vgxuSJLMBZMdzpfH",
+      "name": "Emergencia · pasillo norte",
+      "x": 1125,
+      "y": 525,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!uH16g5FyHIKxoG5J.vgxuSJLMBZMdzpfH"
+    },
+    {
+      "_id": "Vk1gmzcPJoKMOPQ6",
+      "name": "Emergencia · pasillo sur",
+      "x": 1125,
+      "y": 975,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!uH16g5FyHIKxoG5J.Vk1gmzcPJoKMOPQ6"
+    },
+    {
+      "_id": "qHl5iKqOKZP7FCcb",
+      "name": "Emergencia · vestíbulo viejo",
+      "x": 375,
+      "y": 750,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.6,
+        "angle": 360,
+        "bright": 3,
+        "dim": 15,
+        "color": "#d12a1e",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!uH16g5FyHIKxoG5J.qHl5iKqOKZP7FCcb"
+    },
     {
       "_id": "AOHaCDbPQPjmWclE",
       "x": 968,
