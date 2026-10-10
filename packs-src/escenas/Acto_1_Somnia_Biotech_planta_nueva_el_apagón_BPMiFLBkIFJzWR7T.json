@@ -837,8 +837,878 @@
       "_key": "!scenes.lights!BPMiFLBkIFJzWR7T.jpCJA3Q3thn5VUIS"
     }
   ],
-  "tokens": [],
-  "notes": [],
+  "tokens": [
+    {
+      "_id": "F94z80rYSK5cSuCE",
+      "name": "Marcos",
+      "displayName": 30,
+      "actorId": "yWZmWOJ2RbCdY4Dq",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/marcos.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1700,
+      "y": 650,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "pnj": "marcos"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.F94z80rYSK5cSuCE"
+    },
+    {
+      "_id": "xgswe71WgAZHcy0v",
+      "name": "Durmiente 1",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1735,
+      "y": 220,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.xgswe71WgAZHcy0v"
+    },
+    {
+      "_id": "Vt12g06c4XNmQI5W",
+      "name": "Durmiente 2",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2065,
+      "y": 220,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.Vt12g06c4XNmQI5W"
+    },
+    {
+      "_id": "qQ7LSIGQwAaImXwf",
+      "name": "Durmiente 3",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1735,
+      "y": 370,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.qQ7LSIGQwAaImXwf"
+    },
+    {
+      "_id": "BFT0BojBy140KKHC",
+      "name": "Durmiente 4",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2065,
+      "y": 370,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.BFT0BojBy140KKHC"
+    },
+    {
+      "_id": "XTj65zzkgMCed672",
+      "name": "Durmiente 5",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1735,
+      "y": 520,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.XTj65zzkgMCed672"
+    },
+    {
+      "_id": "gWEx9NqEIVvO6szU",
+      "name": "Durmiente 6",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2065,
+      "y": 520,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.gWEx9NqEIVvO6szU"
+    },
+    {
+      "_id": "7yo5MPtz3fzx9uKy",
+      "name": "Elías Roca",
+      "displayName": 30,
+      "actorId": "O2GuehcZV88rKsKt",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/elias-roca.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1600,
+      "y": 1400,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "RScdXbOBxUhtSnOe",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "somnia-planta-nueva",
+          "sala": "Muelle de carga",
+          "pnj": "elias-roca"
+        }
+      },
+      "_key": "!scenes.tokens!BPMiFLBkIFJzWR7T.7yo5MPtz3fzx9uKy"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "aED9NlMIkYPariQ0",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "TkSKdqMg1EpC4wh2",
+      "x": 450,
+      "y": 1425,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A1",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Hall de entrada"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.aED9NlMIkYPariQ0"
+    },
+    {
+      "_id": "A3cQpLeiZPA7Aold",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "YlrMLF254MD1sThJ",
+      "x": 450,
+      "y": 975,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A2",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Recepción"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.A3cQpLeiZPA7Aold"
+    },
+    {
+      "_id": "X9nSzi4xiKbpHBO5",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "IwPJOagZD4W4zeOf",
+      "x": 900,
+      "y": 900,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A3",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Seguridad"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.X9nSzi4xiKbpHBO5"
+    },
+    {
+      "_id": "z7GpM6j37kieqg37",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "fBpWYwjWlfT9V8y0",
+      "x": 750,
+      "y": 675,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A4",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Pasillo central"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.z7GpM6j37kieqg37"
+    },
+    {
+      "_id": "29FPg3ogHtL59Mwj",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "CHwuHk7HbTIKUdZ9",
+      "x": 375,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A5",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Oficinas"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.29FPg3ogHtL59Mwj"
+    },
+    {
+      "_id": "jqjUlLIQAKNPBjEo",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "L49MNNrdDUq9N9co",
+      "x": 825,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A6",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Sala de servidores"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.jqjUlLIQAKNPBjEo"
+    },
+    {
+      "_id": "cYdMR8ugYURJR3JX",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "vkVO36AWetUq1xf4",
+      "x": 1200,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A7",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Vestuario"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.cYdMR8ugYURJR3JX"
+    },
+    {
+      "_id": "KDMXnxTKmZD1RpJ5",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "K75hytuuiNsAY7Of",
+      "x": 1200,
+      "y": 900,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A8",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Cuarto de limpieza"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.KDMXnxTKmZD1RpJ5"
+    },
+    {
+      "_id": "c0ia0tr9EV4Da5LF",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "9lgl0LKcW5upXPsl",
+      "x": 1050,
+      "y": 1125,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A9",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Pasillo de servicio"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.c0ia0tr9EV4Da5LF"
+    },
+    {
+      "_id": "ryJopTReWix1c0Cs",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "6Tcq01ZQnkkyDm7c",
+      "x": 1050,
+      "y": 1425,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A10",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Depósito"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.ryJopTReWix1c0Cs"
+    },
+    {
+      "_id": "MGs5ZVLeyXXmjAjR",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "bfBx5lsgbBDUCzYA",
+      "x": 1425,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A11",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Pasillo de cristal"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.MGs5ZVLeyXXmjAjR"
+    },
+    {
+      "_id": "7R8nsDb58d477lu2",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "BYLgVBIku61LZDrw",
+      "x": 1875,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A12",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.7R8nsDb58d477lu2"
+    },
+    {
+      "_id": "dElIHNjj0kWBJBLN",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "DcuAVwKUB6Zhtu7o",
+      "x": 1800,
+      "y": 1350,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A13",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Muelle de carga"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.dElIHNjj0kWBJBLN"
+    },
+    {
+      "_id": "tcVm2djBxeZaD6wO",
+      "entryId": "nVrnVWJrdwTKD0X8",
+      "pageId": "GDygwqbVEPnJ6VOt",
+      "x": 2325,
+      "y": 1350,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "A14",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "somnia-planta-nueva",
+          "sala": "Frontera con la planta vieja"
+        }
+      },
+      "_key": "!scenes.notes!BPMiFLBkIFJzWR7T.tcVm2djBxeZaD6wO"
+    }
+  ],
   "sounds": [],
   "tiles": [],
   "drawings": [],

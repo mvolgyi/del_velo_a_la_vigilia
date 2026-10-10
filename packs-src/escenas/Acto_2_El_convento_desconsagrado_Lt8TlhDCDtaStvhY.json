@@ -686,8 +686,546 @@
     }
   ],
   "lights": [],
-  "tokens": [],
-  "notes": [],
+  "tokens": [
+    {
+      "_id": "eeQnpIApXi7rASy2",
+      "name": "Durmiente",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 250,
+      "y": 800,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "xWsjegtfTeGJsFZQ",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "convento-planta",
+          "sala": "Capilla",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!Lt8TlhDCDtaStvhY.eeQnpIApXi7rASy2"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "NqWKO73cZdb0TmuS",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "yIC0FjDx9Raipd5t",
+      "x": 450,
+      "y": 750,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D1",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Capilla"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.NqWKO73cZdb0TmuS"
+    },
+    {
+      "_id": "JEq4bB6MnLa9Ul3d",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "9usELBMSXR4Kb0gN",
+      "x": 900,
+      "y": 300,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D2",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Sacristía"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.JEq4bB6MnLa9Ul3d"
+    },
+    {
+      "_id": "gdZpXsiYe8y0dqoH",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "KejZdDT03ftLXx1V",
+      "x": 1125,
+      "y": 300,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D3",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Bajada a la cripta"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.gdZpXsiYe8y0dqoH"
+    },
+    {
+      "_id": "CGq8d47yotQwhIGy",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "My39GWvIh2HvmD72",
+      "x": 825,
+      "y": 900,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D4",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Galería oeste"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.CGq8d47yotQwhIGy"
+    },
+    {
+      "_id": "vsnMqdb5DMaEpuZo",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "vvzeWqpgdzVjlDay",
+      "x": 1275,
+      "y": 900,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D5",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Patio del claustro"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.vsnMqdb5DMaEpuZo"
+    },
+    {
+      "_id": "z3nC7eWjVLH0R818",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "HYwOlBTh4GymiHHT",
+      "x": 1275,
+      "y": 525,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D6",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Galería norte"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.z3nC7eWjVLH0R818"
+    },
+    {
+      "_id": "RGs3OZRhNB0B0C48",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "2NAWxkT32BgvMDnu",
+      "x": 1500,
+      "y": 300,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D7",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Refectorio"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.RGs3OZRhNB0B0C48"
+    },
+    {
+      "_id": "IPKDFL3UZDdhy78k",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "SeusfyP26gwetzE5",
+      "x": 1725,
+      "y": 900,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D8",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Galería este"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.IPKDFL3UZDdhy78k"
+    },
+    {
+      "_id": "9u8GhIJDJfUuGF9h",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "58VvcGma3Xz4bb2a",
+      "x": 1950,
+      "y": 563,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D9",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Celda 1"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.9u8GhIJDJfUuGF9h"
+    },
+    {
+      "_id": "JWG5vGorbU8ImB9S",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "dLTM6xjzyhXBA6md",
+      "x": 1950,
+      "y": 788,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D10",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Celda 2"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.JWG5vGorbU8ImB9S"
+    },
+    {
+      "_id": "kSGqVMVoGLF5I4NT",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "FuWzsvUCYLqqMHLy",
+      "x": 1950,
+      "y": 1013,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D11",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Celda 3"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.kSGqVMVoGLF5I4NT"
+    },
+    {
+      "_id": "1tPRCpRXLqJV7zhc",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "896Hca0NSCZSdGRh",
+      "x": 1950,
+      "y": 1238,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D12",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Celda 4"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.1tPRCpRXLqJV7zhc"
+    },
+    {
+      "_id": "ILBfuLk3YiSKG7XP",
+      "entryId": "gIJSfLZzRRTHd6rO",
+      "pageId": "iE92eiBeyAyg8Ew1",
+      "x": 1275,
+      "y": 1275,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "D13",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "convento-planta",
+          "sala": "Galería sur"
+        }
+      },
+      "_key": "!scenes.notes!Lt8TlhDCDtaStvhY.ILBfuLk3YiSKG7XP"
+    }
+  ],
   "sounds": [],
   "tiles": [],
   "drawings": [],

@@ -275,3 +275,31 @@ magick montage assets/mapas/somnia-planta-nueva.webp assets/mapas/<id>.webp -til
 # conservar el crudo del modelo para inspeccionarlo
 DVV_CONSERVAR_CRUDO=1 node tools/pintar-planos.mjs --solo <id> --forzar
 ```
+
+---
+
+## 8. Mapa de ciudad (nivel 2)
+
+`assets/mapas/malaga.webp` es el único mapa de asentamiento: Málaga entre las
+longitudes −4.490 y −4.400 y las latitudes 36.690 y 36.740 (centro histórico,
+puerto, Malagueta, Trinidad, Perchel, Huelin, Teatinos). No se pinta con el
+modelo: se **renderiza desde OpenStreetMap** con `tools/malaga-mapa.py`
+(Pillow + `magick`), así las calles están donde están.
+
+- **Escala:** 2 m/px (1.9998 exacto), 4016 × 2783 px. Proyección
+  equirectangular con corrección `cos(latMedia)` para que el metro sea igual en
+  X y en Y. `content/malaga/geo.json` guarda bbox, tamaño, m/px y la fórmula
+  `x = (lon − oeste) / (este − oeste) · ancho`, `y = (norte − lat) / (norte − sur) · alto`
+  para ubicar lugares de la trama sobre el mapa.
+- **Datos:** Overpass API, una consulta por capa (calles, edificios, agua y
+  costa, verde, playa, ferrocarril, puerto); las respuestas crudas se cachean
+  con `--cache` para no repetir descargas. `--descargar` baja lo que falte.
+- **Estilo:** el mismo contrato que los interiores, de noche: tierra gris fría,
+  verde y arena apagados, mar azul petróleo, manzanas grises con tinta fina y
+  sombra abajo-derecha, calles por jerarquía (las grandes más anchas y claras),
+  grano sutil. Sin texto, sin marcadores, sin leyenda, sin grid. Métricas:
+  saturación ~10.5%, luminancia ~26.6% (es un mapa nocturno).
+- **Atribución obligatoria:** «© OpenStreetMap contributors (ODbL)». Va en la
+  nota de la escena y en cualquier lugar donde se muestre o redistribuya el
+  mapa. Es una obra derivada de una base de datos ODbL: si se publica, debe
+  conservar esa atribución.

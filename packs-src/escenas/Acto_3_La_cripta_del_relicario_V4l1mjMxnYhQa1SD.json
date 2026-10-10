@@ -524,8 +524,700 @@
       "_key": "!scenes.lights!V4l1mjMxnYhQa1SD.cqv9WXKXDbvrndEI"
     }
   ],
-  "tokens": [],
-  "notes": [],
+  "tokens": [
+    {
+      "_id": "0G8k5oinxmW8evbg",
+      "name": "Ghoul de Somnia 1",
+      "displayName": 30,
+      "actorId": "nSObabU1QRNcyMnw",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/ghoul-somnia.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 500,
+      "y": 650,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Antecámara",
+          "pnj": "ghoul-somnia"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.0G8k5oinxmW8evbg"
+    },
+    {
+      "_id": "i9Md57kltfYsLWFm",
+      "name": "Ghoul de Somnia 2",
+      "displayName": 30,
+      "actorId": "nSObabU1QRNcyMnw",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/ghoul-somnia.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 600,
+      "y": 650,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Antecámara",
+          "pnj": "ghoul-somnia"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.i9Md57kltfYsLWFm"
+    },
+    {
+      "_id": "oCeOPRunJlkYX6fr",
+      "name": "Marcos",
+      "displayName": 30,
+      "actorId": "yWZmWOJ2RbCdY4Dq",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/marcos.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 500,
+      "y": 1100,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Osario",
+          "pnj": "marcos"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.oCeOPRunJlkYX6fr"
+    },
+    {
+      "_id": "7M4TKVrdZe7uHrGn",
+      "name": "Sor Anunciación",
+      "displayName": 30,
+      "actorId": "eBmvQ8uA5fSN65xZ",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/sor-anunciacion.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1225,
+      "y": 550,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "pnj": "sor-anunciacion"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.7M4TKVrdZe7uHrGn"
+    },
+    {
+      "_id": "Z4wDnZfBfWQhxtMQ",
+      "name": "Durmiente 1",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1225,
+      "y": 250,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.Z4wDnZfBfWQhxtMQ"
+    },
+    {
+      "_id": "g04IzAfagYUHfdVs",
+      "name": "Durmiente 2",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1030,
+      "y": 415,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.g04IzAfagYUHfdVs"
+    },
+    {
+      "_id": "1VVP7EParIw5c9Lo",
+      "name": "Durmiente 3",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1420,
+      "y": 415,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.1VVP7EParIw5c9Lo"
+    },
+    {
+      "_id": "5bbF8Vdf4GCaPMVi",
+      "name": "Durmiente 4",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1030,
+      "y": 685,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.5bbF8Vdf4GCaPMVi"
+    },
+    {
+      "_id": "4UYIkHHigWVj7kZu",
+      "name": "Durmiente 5",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1420,
+      "y": 685,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.4UYIkHHigWVj7kZu"
+    },
+    {
+      "_id": "08GXlX8bgHusgfWl",
+      "name": "Durmiente 6",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1225,
+      "y": 850,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.08GXlX8bgHusgfWl"
+    },
+    {
+      "_id": "jcUWUHBmCIDOfXg4",
+      "name": "Dra. Irene Salas",
+      "displayName": 30,
+      "actorId": "kWQNBnBz3V9gvlnP",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/dra-salas.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1600,
+      "y": 450,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "2655jgQx1LKBvtTb",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "cripta",
+          "sala": "Laboratorio improvisado",
+          "pnj": "dra-salas"
+        }
+      },
+      "_key": "!scenes.tokens!V4l1mjMxnYhQa1SD.jcUWUHBmCIDOfXg4"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "NBzJ50xf1g8UFnC8",
+      "entryId": "tqTYD7W8QuBBZ3rW",
+      "pageId": "ziTo5r7dopVEiRdN",
+      "x": 300,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "E1",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "cripta",
+          "sala": "Escalera del convento"
+        }
+      },
+      "_key": "!scenes.notes!V4l1mjMxnYhQa1SD.NBzJ50xf1g8UFnC8"
+    },
+    {
+      "_id": "nHJmrQDFhWZKpLG3",
+      "entryId": "tqTYD7W8QuBBZ3rW",
+      "pageId": "94DkCP4rd9ZixKEE",
+      "x": 675,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "E2",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "cripta",
+          "sala": "Antecámara"
+        }
+      },
+      "_key": "!scenes.notes!V4l1mjMxnYhQa1SD.nHJmrQDFhWZKpLG3"
+    },
+    {
+      "_id": "Bdecq2ps4l3PKqIk",
+      "entryId": "tqTYD7W8QuBBZ3rW",
+      "pageId": "iK4aYt20n95xGdSf",
+      "x": 675,
+      "y": 1050,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "E3",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "cripta",
+          "sala": "Osario"
+        }
+      },
+      "_key": "!scenes.notes!V4l1mjMxnYhQa1SD.Bdecq2ps4l3PKqIk"
+    },
+    {
+      "_id": "oq69QWMZWIJ8ExUs",
+      "entryId": "tqTYD7W8QuBBZ3rW",
+      "pageId": "pfFAh5EdSIUpZcHn",
+      "x": 1275,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "E4",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "cripta",
+          "sala": "Cámara del relicario"
+        }
+      },
+      "_key": "!scenes.notes!V4l1mjMxnYhQa1SD.oq69QWMZWIJ8ExUs"
+    },
+    {
+      "_id": "S3CWMTI8oGpmuu1u",
+      "entryId": "tqTYD7W8QuBBZ3rW",
+      "pageId": "E2SouVmnGHTT3JHx",
+      "x": 1800,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "E5",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "cripta",
+          "sala": "Laboratorio improvisado"
+        }
+      },
+      "_key": "!scenes.notes!V4l1mjMxnYhQa1SD.S3CWMTI8oGpmuu1u"
+    },
+    {
+      "_id": "lSBt8V0U0N5u7Mnm",
+      "entryId": "tqTYD7W8QuBBZ3rW",
+      "pageId": "CdPIItV4UEGw2gCu",
+      "x": 1875,
+      "y": 825,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "E6",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "cripta",
+          "sala": "Pasillo lateral"
+        }
+      },
+      "_key": "!scenes.notes!V4l1mjMxnYhQa1SD.lSBt8V0U0N5u7Mnm"
+    }
+  ],
   "sounds": [],
   "tiles": [],
   "drawings": [],

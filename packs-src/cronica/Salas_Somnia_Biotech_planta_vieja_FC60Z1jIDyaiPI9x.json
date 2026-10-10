@@ -1,0 +1,355 @@
+{
+  "_id": "FC60Z1jIDyaiPI9x",
+  "_key": "!journal!FC60Z1jIDyaiPI9x",
+  "name": "Salas · Somnia Biotech — planta vieja",
+  "folder": "jcMvTH4WzA9DN1fp",
+  "sort": 504,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/salas/somnia-planta-vieja.md",
+      "escena": "somnia-planta-vieja"
+    }
+  },
+  "pages": [
+    {
+      "_id": "cKi7rWNUgus5dQ4S",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.cKi7rWNUgus5dQ4S",
+      "name": "Salas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>El ala antigua de la clínica, levantada sobre el convento desconsagrado. En el Acto 1 es una tentación opcional detrás de la puerta que quedó abierta; en el Acto 3 es la ruta de bajada a la cripta (aislar el rack prohibido, cruzar sin cámaras, abrir la puerta de piedra) y el camino de huida al amanecer.</p><p>Cada pin numerado del mapa abre la página de su sala. Los tokens de PNJ ya están colocados; los ocultos se revelan desde la capa de tokens.</p><ul><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.cUKHKDzDV47STBNO]{B1. Umbral}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.EgrumSgJPoHNj0Pj]{B2. Vestíbulo viejo}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.QQaudC2WsKArzpcp]{B3. Pasillo de mantenimiento norte}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.0L3D7XnYB0qM9e2V]{B4. Consultorio 1}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.sQwAeW1YoNH4QXpm]{B5. Consultorio 2}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.vQaaYnyZDerWlFIu]{B6. Consultorio 3}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.KkbSPKWAjs0F47ml]{B7. Sala del rack}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.afjNtUk82YjoPmOD]{B8. Sala de máquinas}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.lqTCK69M4Amlgwqe]{B9. Pasillo de mantenimiento sur}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.LBJ4gW4GIfGnmHY9]{B10. Archivo}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.BQqe3NCA4ICOWxd3]{B11. Depósito viejo}</li><li>@UUID[JournalEntry.FC60Z1jIDyaiPI9x.JournalEntryPage.nDw2plJgvJopcQ3q]{B12. Bajada de piedra}</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cUKHKDzDV47STBNO",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.cUKHKDzDV47STBNO",
+      "name": "B1. Umbral",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>El terrazo está gastado en una franja central, como si generaciones de pies hubieran pisado siempre el mismo lugar. A sus espaldas queda el hormigón limpio de la planta nueva; adelante, el aire es frío y huele a moho. Una cañería desnuda corre por el techo y gotea.</p>\n</section><p><strong>Qué hay.</strong> El paso entre la pesada puerta de la planta nueva y el vestíbulo viejo. En el marco, la pintura moderna se termina de golpe y debajo asoma un revoque mucho más antiguo, con restos de una cruz de hierro arrancada (quedaron los cuatro agujeros de los clavos). En el piso, junto a la pared, una baldosa floja.</p>\n<p><strong>Qué pasa.</strong> El Limpiador sabe que la baldosa floja cruje: pisarla en el Acto 3 sin saberlo es un ruido que llega hasta el vestíbulo; quien no la conozca debe superar <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"1\" data-label=\"Astucia + Alerta (dif. 1)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Alerta (dif. 1)</a> para esquivarla, o el Limpiador puede avisar a todos. En el Acto 1, cruzar el umbral es entrar en territorio de @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos}: el murmullo de rezos que se oía desde la frontera se apaga en cuanto alguien apoya el pie aquí.</p>\n<p><strong>Para el Narrador.</strong> Este es el último punto de retorno fácil. Al amanecer del Acto 3, los PJs cruzan el umbral en sentido contrario, heridos y cargando a un durmiente: desde aquí, la salida por el muelle y la puerta de servicio (A13) está a pocos metros.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Umbral",
+          "codigo": "B1"
+        }
+      }
+    },
+    {
+      "_id": "EgrumSgJPoHNj0Pj",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.EgrumSgJPoHNj0Pj",
+      "name": "B2. Vestíbulo viejo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un vestíbulo alto, de techos con molduras rotas y una luz de emergencia que tiñe de rojo un mostrador de madera hinchado por la humedad. Las sillas de espera están apiladas contra una pared. En una esquina del techo, una cámara nueva, blanca, que no pertenece a este lugar.</p>\n</section><p><strong>Qué hay.</strong> La antigua sala de espera del ala, con aberturas al pasillo de mantenimiento norte y al sur, y la puerta del archivo. La cámara del techo apunta al umbral: está conectada al rack prohibido, no a la red general, así que <strong>sigue funcionando</strong> durante el apagón. Detrás del mostrador hay un cuaderno de rondas de seguridad con la letra prolija de Marcos.</p>\n<p><strong>Qué pasa.</strong> En el Acto 1, la cámara graba a cualquiera que entre: la Dra. Salas la revisará al día siguiente. En el Acto 3, un @UUID[Actor.9iZfEE32ZgK1g9mi]{matón de Somnia} hace la ronda aquí (token oculto); revelalo si los PJs entran sin plan. El Limpiador conoce el punto ciego de la cámara, pegado a la pared norte: con él como guía, cruzar sin ser vistos exige <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>. Si el Informático ya aisló el rack (B7), la cámara está muerta y la tirada no hace falta. En el Acto 1 el matón no está: dejá su token oculto.</p>\n<p><strong>Para el Narrador.</strong> El cuaderno de rondas muestra que Marcos baja a la &quot;puerta de piedra&quot; todas las noches a las 3:00. Si los PJs lo leen en el Acto 1, ya tienen el horario para el Acto 3.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.9iZfEE32ZgK1g9mi]{Matón de Somnia} (oculto)</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Vestíbulo viejo",
+          "codigo": "B2"
+        }
+      }
+    },
+    {
+      "_id": "QQaudC2WsKArzpcp",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.QQaudC2WsKArzpcp",
+      "name": "B3. Pasillo de mantenimiento norte",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un pasillo largo y bajo, con cañerías que corren a la altura de la cabeza y gotean sobre el terrazo. Una luz de emergencia, a mitad de camino, deja los extremos en penumbra. Del lado norte, tres puertas de consultorio; del lado sur, la de la sala del rack y, al fondo, la de la sala de máquinas.</p>\n</section><p><strong>Qué hay.</strong> El eje del ala vieja. No tiene cámaras: Somnia nunca las instaló porque nadie autorizado pasa por aquí salvo Marcos. Por debajo de la puerta de la sala del rack se filtra un resplandor azul, la única luz &quot;viva&quot; de toda la planta durante el apagón, y un zumbido constante.</p>\n<p><strong>Qué pasa.</strong> Es la ruta segura del Acto 3: el Limpiador la elige porque no tiene vigilancia. Quien pase la mano por las cañerías con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a> nota que uno de los caños nuevos, de plástico médico, corre junto a los viejos y baja por el piso hacia el sur: es la línea por la que sube algo que no es agua. En el Acto 1, si los PJs llegan aquí perseguidos, el zumbido del rack tapa sus pasos (+1 dado a Sigilo).</p>\n<p><strong>Para el Narrador.</strong> Usá este pasillo para que la célula respire antes de bajar. Es el momento de repasar el plan de la Encrucijada II, revisar las armas y decidir quién va en punta (el Guardia, según la crónica).</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Pasillo de mantenimiento norte",
+          "codigo": "B3"
+        }
+      }
+    },
+    {
+      "_id": "0L3D7XnYB0qM9e2V",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.0L3D7XnYB0qM9e2V",
+      "name": "B4. Consultorio 1",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una camilla de exploración vieja, sin colchoneta, con el cuero agrietado. Un estante pequeño con frascos vacíos y una lámpara de pie torcida. Sobre la pared, el rectángulo más claro de un cuadro que alguien descolgó.</p>\n</section><p><strong>Qué hay.</strong> Un consultorio abandonado desde que el ala se cerró. En el estante, entre frascos de vidrio vacíos, una caja de lata con jeringas de vidrio antiguas y agujas gruesas, de las que se esterilizaban hirviendo. Detrás de la camilla, en el piso, alguien rayó con una uña una serie de palitos: cuarenta y tantos, agrupados de a cinco.</p>\n<p><strong>Qué pasa.</strong> Quien examine las marcas con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a> se da cuenta de que están hechas desde la altura de alguien acostado en la camilla: un paciente contó días aquí, atado. El rectángulo de la pared tenía una imagen religiosa; el clavo todavía sostiene un pedazo de cordón de rosario. Si un PJ con fe lo toma y lo guarda, no pasa nada visible, pero el lugar parece pesar un poco menos.</p>\n<p><strong>Para el Narrador.</strong> Los consultorios no tienen otra salida que el pasillo norte: son buenos escondites de un turno, malos refugios. Si Marcos persigue a alguien hasta aquí en el Acto 1, que se quede parado en la puerta, mirando las marcas del piso con nostalgia.</p>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Consultorio 1",
+          "codigo": "B4"
+        }
+      }
+    },
+    {
+      "_id": "sQwAeW1YoNH4QXpm",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.sQwAeW1YoNH4QXpm",
+      "name": "B5. Consultorio 2",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Estanterías de medicamentos, oxidadas y vacías, cubren toda la pared del fondo. El piso está lleno de cápsulas de vidrio rotas que crujen bajo los pies. Huele a polvo y, muy débil, a éter.</p>\n</section><p><strong>Qué hay.</strong> La antigua farmacia del ala. Las estanterías están vacías salvo una caja olvidada en el estante más alto: ampollas de un sedante discontinuado, con fecha de vencimiento de hace treinta años, y un recetario con el sello de una congregación religiosa (&quot;Hermanas de la Anunciación — Dispensario&quot;).</p>\n<p><strong>Qué pasa.</strong> El sello es la primera prueba de que la clínica se construyó sobre el dispensario del convento: el nombre resuena con el de @UUID[Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación}, aunque los PJs todavía no lo sepan. Quien camine sin cuidado sobre los vidrios rotos hace ruido: pedí <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a> para cruzar en silencio. Las ampollas no sirven para nada útil, pero el Doctorando puede identificarlas con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.science\" data-dificultad=\"2\" data-label=\"Inteligencia + Ciencia (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Ciencia (dif. 2)</a>: es el mismo principio activo que hoy se usa con los durmientes.</p>\n<p><strong>Para el Narrador.</strong> El recetario es una buena pieza para el corcho de Elías en el Interludio: une a Somnia con el convento antes de que nadie lo diga en voz alta.</p>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Consultorio 2",
+          "codigo": "B5"
+        }
+      }
+    },
+    {
+      "_id": "vQaaYnyZDerWlFIu",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.vQaaYnyZDerWlFIu",
+      "name": "B6. Consultorio 3",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>El consultorio más grande, con un escritorio de chapa de médico y una segunda camilla vieja junto a la ventana tapiada. Sobre el escritorio, polvo; sobre el polvo, huellas de dedos recientes y la marca limpia de un maletín que estuvo apoyado hace poco.</p>\n</section><p><strong>Qué hay.</strong> El único consultorio que alguien sigue usando. Los cajones del escritorio están vacíos salvo el último, con llave: dentro hay guantes quirúrgicos sin abrir, un rollo de vendas, un bisturí descartable y una libreta con hojas arrancadas. En la camilla, las correas son nuevas.</p>\n<p><strong>Qué pasa.</strong> Abrir el cajón exige <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a> o forzarlo con ruido. Las hojas arrancadas dejaron su marca en la siguiente: con un lápiz pasado de costado, se lee una lista de tres nombres con la palabra &quot;continuidad&quot; al lado. Es la letra de la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}: aquí revisa a sus @UUID[Actor.UpZ0DCdeSgMIlyXC]{voluntarios de continuidad} lejos de la planta nueva. Llevarse la libreta es una prueba concreta <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Descifrar la libreta de Salas en el consultorio 3\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Descifrar la libreta de Salas en el consultorio 3</span></button>.</p>\n<p><strong>Para el Narrador.</strong> En el Acto 1 este cuarto es una rareza; en el Acto 3 es una tentación que cuesta tiempo. Si la célula se detiene a revisarlo antes de bajar, sumá 1 al Peligro: el matón del vestíbulo empieza a sospechar.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Consultorio 3",
+          "codigo": "B6"
+        }
+      }
+    },
+    {
+      "_id": "KkbSPKWAjs0F47ml",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.KkbSPKWAjs0F47ml",
+      "name": "B7. Sala del rack",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un zumbido grave llena la sala. Dos racks viejos, medio desarmados, están muertos; el tercero brilla con decenas de luces azules y verdes, completo, impecable. De su base salen cables gruesos que se meten por un agujero en el piso, como raíces buscando agua.</p>\n</section><p><strong>Qué hay.</strong> El <strong>rack prohibido</strong>: el circuito <em>PV-07</em> que el Informático vio en la consola de la planta nueva (A6). Tiene alimentación propia, alimenta las cámaras de la planta vieja, las alarmas de la puerta de piedra y algo más abajo: los cables bajan a la cripta. En la pared, un cartel plastificado: &quot;Prohibido apagar. Ante cualquier incidencia, llamar a Dirección&quot;.</p>\n<p><strong>Qué pasa.</strong> En el Acto 1 es una pista y una luz: el único lugar iluminado de la planta. En el Acto 3 es la primera parada del plan: el Informático aísla el rack con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>. Con éxito, las cámaras y las alarmas mueren sin aviso y la Dra. Salas no ve bajar a nadie. Con fallo, salta una alarma silenciosa: el @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} de la bajada queda alerta y el Peligro sube en 1. Arrancar los cables a lo bruto también funciona, pero corta la luz de algo que está abajo, y alguien abajo lo nota.</p>\n<p><strong>Para el Narrador.</strong> Quien mire por el agujero del piso con una linterna ve, muy abajo, el brillo húmedo de la piedra y un tubo transparente con algo oscuro que circula. No lo describas como sangre: dejalo para la cripta.</p>\n"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Sala del rack",
+          "codigo": "B7"
+        }
+      }
+    },
+    {
+      "_id": "afjNtUk82YjoPmOD",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.afjNtUk82YjoPmOD",
+      "name": "B8. Sala de máquinas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una caldera de hierro fundido ocupa media sala, fría y enorme como un animal dormido. En la pared, un tablero eléctrico con palancas de baquelita; en el rincón, un tanque de agua oxidado que gotea. El aire está caliente y espeso, aunque la caldera no funciona.</p>\n</section><p><strong>Qué hay.</strong> Tiene dos puertas: una al pasillo norte y otra al pasillo sur, justo frente a la puerta de piedra. El tablero eléctrico controla la iluminación vieja de toda el ala. Junto a la caldera hay herramientas de hierro (un caño suelto, una llave de caldera: @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Q5jDNrb197TgmngW]{caño} y @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ZNBhG8seVR7fKwja]{llave de caldera}) y bolsas de sal gruesa para el ablandador de agua (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.9uIcOChKOVSuh3Nk]{sal gruesa}).</p>\n<p><strong>Qué pasa.</strong> Es el atajo del Limpiador: cruzar la sala de máquinas evita recorrer el pasillo sur bajo la cámara y deja a la célula a dos pasos de la puerta de piedra. En el Acto 3 hay un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} durmiendo la mona de sangre detrás de la caldera (token oculto): despertarlo es un combate en un espacio estrecho. Si pasan en silencio, <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>, no se entera. Bajar las palancas del tablero apaga las luces de emergencia del ala: oscuridad total, una ventaja para quien conoce el terreno.</p>\n<p><strong>Para el Narrador.</strong> El calor sin caldera viene de abajo. Si alguien apoya la mano en el piso cerca de la pared sur, está tibio. En el Acto 1 la sala está vacía.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.nSObabU1QRNcyMnw]{Ghoul de Somnia} (oculto)</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Sala de máquinas",
+          "codigo": "B8"
+        }
+      }
+    },
+    {
+      "_id": "lqTCK69M4Amlgwqe",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.lqTCK69M4Amlgwqe",
+      "name": "B9. Pasillo de mantenimiento sur",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>El pasillo sur es más húmedo que el norte: hay charcos sobre el terrazo y manchas negras en las paredes. Al fondo, una puerta distinta a todas las demás: piedra tallada, con un marco gastado por siglos, incrustada en la pared moderna como un diente viejo.</p>\n</section><p><strong>Qué hay.</strong> Puertas a la sala de máquinas (norte), al depósito viejo y a la puerta de piedra (sur). Una cámara barre el pasillo en vaivén desde la entrada del vestíbulo, conectada al rack prohibido. Junto a la puerta de piedra, en el piso, restos de cera de vela y pétalos secos.</p>\n<p><strong>Qué pasa.</strong> Es el lugar donde el Limpiador escuchaba los rezos. En el Acto 1, con la puerta de piedra cerrada, quien apoye la oreja con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Alerta (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Alerta (dif. 2)</a> oye una voz de mujer, antigua, rezando en latín, y algo que podría ser una respiración enorme. En el Acto 3, cruzar el pasillo bajo la cámara (si el rack sigue encendido) exige <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 3)</a>; el Limpiador conoce el ritmo del vaivén y puede darle un dado extra al grupo.</p>\n<p><strong>Para el Narrador.</strong> En la huida del Acto 3, este pasillo es la recta final antes del umbral: hacé que los PJs oigan pasos detrás de ellos en la piedra. Quien carga al durmiente no puede correr.</p>\n"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Pasillo de mantenimiento sur",
+          "codigo": "B9"
+        }
+      }
+    },
+    {
+      "_id": "LBJ4gW4GIfGnmHY9",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.LBJ4gW4GIfGnmHY9",
+      "name": "B10. Archivo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Estanterías metálicas cargadas de carpetas amarillentas, atadas con cintas. El olor a papel viejo es tan fuerte que se siente en la lengua. Algunas carpetas están en el piso, abiertas, como si alguien hubiera buscado algo con apuro.</p>\n</section><p><strong>Qué hay.</strong> El archivo histórico de pacientes, desde el dispensario de las monjas hasta los primeros años de Somnia. Las carpetas más viejas están escritas a mano; las más nuevas, impresas. Entre las del piso hay una caja rotulada &quot;Huelin&quot; con fotocopias y un sobre vacío.</p>\n<p><strong>Qué pasa.</strong> Una búsqueda de una hora con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.academics\" data-dificultad=\"3\" data-label=\"Inteligencia + Erudición (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Erudición (dif. 3)</a> revela que pacientes con diagnósticos de &quot;sueño profundo&quot; desaparecen del registro cada pocos años, siempre de a tres, desde mucho antes de que existiera Somnia. La caja &quot;Huelin&quot; contiene las fichas que la clínica armó hace nueve años sobre la célula de @UUID[Actor.O2GuehcZV88rKsKt]{Elías}: alguien se llevó la del propio Elías. Si los PJs le muestran la caja en el Interludio, la reacción de Elías es oro para la mesa.</p>\n<p><strong>Para el Narrador.</strong> El archivo tiene una sola puerta, al vestíbulo. Si en el Acto 3 alguien pierde tiempo aquí, sumá 1 al Peligro; si lo exploran en el Acto 1, el hallazgo los prepara para el Interludio.</p>\n"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Archivo",
+          "codigo": "B10"
+        }
+      }
+    },
+    {
+      "_id": "BQqe3NCA4ICOWxd3",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.BQqe3NCA4ICOWxd3",
+      "name": "B11. Depósito viejo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un cuarto de hormigón con un estante bajo y un pallet en el medio. Sobre el pallet, cajas de cartón nuevas que desentonan con todo lo demás del ala. El aire está frío y huele a plástico de hospital.</p>\n</section><p><strong>Qué hay.</strong> Las &quot;entregas de la planta vieja&quot; que solo firma Marcos (ver A9): cajas con bolsas de recolección, tubuladuras de grado médico, conectores, frascos de anticoagulante y una nevera portátil vacía con restos de hielo. En el estante bajo, linternas de cabeza, guantes y un rollo de cinta americana.</p>\n<p><strong>Qué pasa.</strong> Este es el abastecimiento de la cripta: todo lo que la mantiene funcionando pasa por aquí. Las linternas de cabeza son un regalo para el Acto 3 (eliminan penalizaciones por oscuridad en la cripta). Si los PJs arruinan los suministros (cortar las tubuladuras, tirar el anticoagulante), la cripta va a tener problemas en pocos días; el Doctorando sabe con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a> que, sin anticoagulante, las vías del relicario se tapan.</p>\n<p><strong>Para el Narrador.</strong> El depósito tiene una sola puerta, al pasillo sur. Es un buen lugar para que la célula deje algo preparado para la huida (un bidón, una camilla de arrastre, un botiquín) si el plan lo prevé.</p>\n"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Depósito viejo",
+          "codigo": "B11"
+        }
+      }
+    },
+    {
+      "_id": "nDw2plJgvJopcQ3q",
+      "_key": "!journal.pages!FC60Z1jIDyaiPI9x.nDw2plJgvJopcQ3q",
+      "name": "B12. Bajada de piedra",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Detrás de la puerta de piedra, el mundo cambia: muros de sillería húmeda, una columna gruesa y una escalera medieval que se hunde en la oscuridad. Los peldaños están gastados en el centro como cucharas. Desde abajo sube un aire frío, con olor a cera, a tierra y a hierro.</p>\n</section><p><strong>Qué hay.</strong> El acceso a la cripta bajo el convento. La puerta de piedra es pesada y en el Acto 1 está <strong>cerrada desde abajo</strong>: no cede. Por la escalera bajan, pegados a la pared, los tubos de grado médico y los cables del rack. Detrás de la columna, una silla plegable y un termo: el puesto del ghoul de la bajada.</p>\n<p><strong>Qué pasa.</strong> En el Acto 3, la puerta se abre si el rack está aislado o si el Limpiador conoce la palanca escondida detrás de la columna. Bajar la escalera lleva a la cripta (otro mapa). En la <strong>huida al amanecer</strong>, este es el lugar de dos de los tres costos: alguien sostiene la puerta de piedra un turno extra para que Marcos o los @UUID[Actor.nSObabU1QRNcyMnw]{ghouls} no pasen, y alguien carga a un @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente} escaleras arriba con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.stamina skills.athletics\" data-dificultad=\"0\" data-label=\"Resistencia + Atletismo\"><i class=\"fa-solid fa-dice-d10\"></i> Resistencia + Atletismo</a>.</p>\n<p><strong>Para el Narrador.</strong> Si sonó la alarma en B7, el ghoul espera despierto; si no, dormita en la silla y se lo puede reducir en silencio. En el Acto 1, nadie pasa de la puerta (el token del ghoul queda oculto) y el rezo que se oye detrás se detiene de golpe cuando alguien la toca.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.nSObabU1QRNcyMnw]{Ghoul de Somnia} (oculto)</p>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-vieja",
+          "sala": "Bajada de piedra",
+          "codigo": "B12"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

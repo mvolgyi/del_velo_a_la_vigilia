@@ -76,6 +76,14 @@
   font-size: 0.9em;
 }
 
+.dvv-tokens, .dvv-ficha-poi {
+  margin: 0.4em 0 0.8em;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--dvv-niebla) 14%, transparent);
+  font-size: 0.9em;
+}
+
 table.dvv-ficha {
   width: auto;
   margin: 0.4em 0;

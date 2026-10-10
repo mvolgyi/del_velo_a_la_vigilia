@@ -736,7 +736,7 @@ function ambienteDe(escenaId) {
 }
 
 /** Escena base, compartida por las dos fuentes (planos y escenas.json). */
-function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscuridad, luzGlobal, fondo, walls, lights, regions, nota, extra = {} }) {
+function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscuridad, luzGlobal, fondo, walls, lights, regions, nota, notes = [], tokens = [], extra = {} }) {
   const sid = ID.escena(id);
   const ambiente = ambienteDe(id);
   return conClaves({
@@ -771,10 +771,142 @@ function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscurida
     walls, regions,
     // Los radios de las luces vienen en pies (presets del plano); la escena mide en metros.
     lights: (lights ?? []).map(l => ({ ...l, config: { ...l.config, dim: +(l.config.dim / PIES_POR_METRO).toFixed(2), bright: +(l.config.bright / PIES_POR_METRO).toFixed(2) } })),
-    tokens: [], notes: [], sounds: [], tiles: [], drawings: [],
+    tokens, notes, sounds: [], tiles: [], drawings: [],
     flags: flags("escena", { escena: id, nota: nota ?? "", ...extra }),
     _stats: STATS
   });
+}
+
+
+/* ========================================================================== */
+/*  Salas: notas de habitación, pines en el mapa y tokens colocados           */
+/* ========================================================================== */
+
+/**
+ * content/salas/<escena>.md → un journal por escena (una página por sala),
+ * un pin (Note) por sala en el mapa que abre esa página, y los tokens de PNJ
+ * que la sala declara. El formato del archivo está documentado en README.md.
+ */
+const DISPOSICION = { vampire: -1, ghoul: -1 };
+const HOSTILES = /maton|quimera|ghoul/;
+
+function cargarSalas() {
+  const dir = path.join(RAIZ, "content/salas");
+  const salasPorEscena = {};
+  for (const archivo of archivosMd(dir)) {
+    const rel = path.relative(RAIZ, archivo);
+    const { meta, cuerpo } = separarFrontmatter(fs.readFileSync(archivo, "utf8"));
+    const escena = meta.escena ?? slug(path.basename(archivo, ".md"));
+    const prefijo = meta.prefijo ?? "A";
+    const jid = ID.journal(`salas:${escena}`);
+    const salas = [];
+    // Secciones: "# A1. Nombre {sala: Nombre del plano}" + línea opcional "tokens: …"
+    const partes = cuerpo.split(/^(?=# )/m).filter(p => p.trim());
+    for (const parte of partes) {
+      const m = /^# (.+?)\s*\{sala:\s*([^}]+)\}\s*\n([\s\S]*)$/.exec(parte);
+      if (!m) { avisos.push(`${rel}: sección sin {sala: …}: ${parte.split("\n")[0]}`); continue; }
+      let [, titulo, sala, resto] = m;
+      sala = sala.trim();
+      const tokens = [];
+      resto = resto.replace(/^tokens:\s*(.+)$/m, (_, lista) => {
+        for (const t of lista.split(",").map(x => x.trim()).filter(Boolean)) {
+          const mm = /^([a-z0-9-]+)(?:\s*x(\d+))?(?:\s*\((oculto)\))?$/i.exec(t);
+          if (!mm) { avisos.push(`${rel}: token ilegible «${t}»`); continue; }
+          if (!nombrePnj[mm[1]]) { avisos.push(`${rel}: token de PNJ desconocido «${mm[1]}»`); continue; }
+          tokens.push({ pnj: mm[1], n: Number(mm[2] ?? 1), oculto: !!mm[3] });
+        }
+        return "";
+      });
+      const codigo = titulo.split(".")[0].trim();
+      salas.push({ codigo, titulo: titulo.trim(), sala, md: resto.trim(), tokens, pageId: ID.pagina(jid, salas.length + 1) });
+    }
+    salasPorEscena[escena] = { rel, jid, prefijo, nombre: meta.nombre ?? escena, intro: meta.intro ?? "", salas };
+  }
+  return salasPorEscena;
+}
+const SALAS = cargarSalas();
+
+/** Pines y tokens de una escena a partir de sus salas y del plano (habitaciones en pies). */
+function pinesYTokensDe(plano) {
+  const def = SALAS[plano.id];
+  if (!def) return { notes: [], tokens: [] };
+  const notes = [], tokens = [];
+  const px = pies => Math.round(pies * PX_POR_PIE);
+  for (const s of def.salas) {
+    const hab = plano.habitaciones.find(h => h.nombre === s.sala);
+    if (!hab) { avisos.push(`${def.rel}: la sala «${s.sala}» no existe en el plano ${plano.id}`); continue; }
+    const cx = px(hab.x + hab.w / 2), cy = px(hab.y + hab.h / 2);
+    notes.push({
+      _id: idEstable(`nota:${plano.id}:${s.codigo}`),
+      entryId: def.jid, pageId: s.pageId,
+      x: cx, y: cy, elevation: 0, sort: 0, locked: false,
+      texture: { src: "icons/svg/book.svg", anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+      iconSize: 44, text: s.codigo, fontFamily: "Signika", fontSize: 28, textAnchor: 1, textColor: "#ffffff",
+      global: false, flags: flags("pin", { escena: plano.id, sala: s.sala })
+    });
+    // Tokens: los durmientes van sobre las camillas/camas de la sala y la
+    // priora sobre el relicario; el resto en fila alrededor del centro.
+    const dentro = m => m.x >= hab.x && m.y >= hab.y && m.x + (m.w ?? 0) <= hab.x + hab.w + 0.01 && m.y + (m.h ?? 0) <= hab.y + hab.h + 0.01;
+    const centroMueble = m => ({ x: px(m.x + (m.w ?? 1) / 2) - 50, y: px(m.y + (m.h ?? 1) / 2) - 50 });
+    const camas = (plano.muebles ?? []).filter(m => /^(camilla|camilla-medica|cama|catre)$/.test(m.tipo) && dentro(m)).sort((a, b) => a.y - b.y || a.x - b.x).map(centroMueble);
+    const relicario = (plano.muebles ?? []).find(m => m.tipo === "relicario" && dentro(m));
+    const lista = s.tokens.flatMap(t => Array.from({ length: t.n }, (_, i) => ({ ...t, i })));
+    let k = 0;
+    lista.forEach(t => {
+      const pnj = PNJS.find(p => p.id === t.pnj);
+      let x, y;
+      if (t.pnj === "durmiente" && camas.length) ({ x, y } = camas.shift());
+      else if (t.pnj === "sor-anunciacion" && relicario) ({ x, y } = centroMueble(relicario));
+      else {
+        const col = k % 4, fila = Math.floor(k / 4);
+        x = Math.round((cx - 50 + (col - 1.5) * GRID_M_PX) / 50) * 50;
+        y = Math.round((cy + 60 + fila * GRID_M_PX) / 50) * 50;
+        k++;
+      }
+      const hostil = DISPOSICION[pnj.spcType] ?? (HOSTILES.test(pnj.id) ? -1 : 0);
+      const textura = existe(`assets/tokens/${pnj.id}.webp`) ? `modules/${MODULO}/assets/tokens/${pnj.id}.webp`
+        : existe(`assets/retratos/${pnj.id}.webp`) ? `modules/${MODULO}/assets/retratos/${pnj.id}.webp` : "icons/svg/mystery-man.svg";
+      tokens.push({
+        _id: idEstable(`token:${plano.id}:${s.codigo}:${t.pnj}:${t.i}`),
+        name: t.n > 1 ? `${pnj.nombre} ${t.i + 1}` : pnj.nombre,
+        displayName: 30, actorId: ID.actor(pnj.id), actorLink: false,
+        texture: { src: textura, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+        // En v14 el token pertenece a un nivel de la escena; sin esto no se dibuja.
+        x, y, width: 1, height: 1, elevation: 0, level: idEstable(`nivel:${plano.id}`), rotation: 0, alpha: 1, lockRotation: false, locked: false, sort: 0,
+        hidden: t.oculto, disposition: hostil,
+        flags: flags("token", { escena: plano.id, sala: s.sala, pnj: pnj.id })
+      });
+    });
+  }
+  return { notes, tokens };
+}
+
+function construirSalas() {
+  const carpetas = new Carpetas("cronica", "JournalEntry");
+  let n = 0;
+  for (const [escena, def] of Object.entries(SALAS)) {
+    const paginas = [];
+    const intro = `${def.intro ? `<p>${def.intro}</p>` : ""}<p>Cada pin numerado del mapa abre la página de su sala. Los tokens de PNJ ya están colocados; los ocultos se revelan desde la capa de tokens.</p><ul>${def.salas.map(s => `<li>@UUID[JournalEntry.${def.jid}.JournalEntryPage.${s.pageId}]{${s.titulo}}</li>`).join("")}</ul>`;
+    const pid0 = ID.pagina(def.jid, 0);
+    paginas.push({ _id: pid0, _key: `!journal.pages!${def.jid}.${pid0}`, name: "Salas", type: "text", title: { show: false, level: 1 }, text: { format: 1, content: intro }, sort: 0, ownership: { default: -1 }, flags: {} });
+    def.salas.forEach((s, i) => {
+      const html = md2html(expandirMarcadores(s.md, def.rel));
+      const tokensTxt = s.tokens.length ? `<p class="dvv-tokens"><strong>Tokens en la sala:</strong> ${s.tokens.map(t => `@UUID[Actor.${ID.actor(t.pnj)}]{${nombrePnj[t.pnj]}}${t.n > 1 ? ` ×${t.n}` : ""}${t.oculto ? " (oculto)" : ""}`).join(" · ")}</p>` : "";
+      paginas.push({
+        _id: s.pageId, _key: `!journal.pages!${def.jid}.${s.pageId}`, name: s.titulo, type: "text",
+        title: { show: true, level: 1 }, text: { format: 1, content: html + tokensTxt },
+        sort: (i + 1) * 100000, ownership: { default: -1 }, flags: flags("sala", { escena, sala: s.sala, codigo: s.codigo })
+      });
+    });
+    escribirDoc("cronica", {
+      _id: def.jid, _key: `!journal!${def.jid}`, name: `Salas · ${def.nombre}`,
+      folder: carpetas.id("Salas", "Crónica"), sort: 500 + n, ownership: { default: 0 },
+      flags: flags("journal", { archivo: def.rel, escena }), pages: paginas, _stats: STATS
+    });
+    n++;
+  }
+  carpetas.escribir();
+  console.log(`salas: ${n} journals (${Object.values(SALAS).reduce((a, d) => a + d.salas.length, 0)} salas)`);
 }
 
 /**
@@ -826,15 +958,16 @@ function escenasDePlanos(carpetas) {
       ).map(([t, n]) => (n > 1 ? `${t} ×${n}` : t)).join(", ")}.` : ""
     ].filter(Boolean).join(" ");
 
+    const { notes, tokens } = pinesYTokensDe(plano);
     escribirDoc("escenas", docEscena({
       id: plano.id, nombre: plano.nombre, carpeta: carpetas.id("Somnia Biotech"), orden: plano.orden ?? 10,
       w: W, h: H, grid: GRID_PX, gridAlpha: 0, oscuridad: plano.oscuridad ?? 0.5, luzGlobal: plano.luzGlobal,
-      fondo, walls, lights, regions, nota,
+      fondo, walls, lights, regions, nota, notes, tokens,
       extra: { origen: "escena", plano: plano.id, provisional: fondo === esquema }
     }));
     const puertas = walls.filter(m => m.door).length;
     resumen.push(`  ${plano.id.padEnd(22)} ${W}×${H}  ${walls.length - puertas} muros · ${puertas} puertas · ` +
-      `${lights.length} luces · ${regions.length} regiones${fondo === esquema ? " · ESQUEMA" : ""}`);
+      `${lights.length} luces · ${regions.length} regiones · ${notes.length} pines · ${tokens.length} tokens${fondo === esquema ? " · ESQUEMA" : ""}`);
   }
   if (verbose) for (const r of resumen) console.log(r);
   return resumen.length;
@@ -935,6 +1068,86 @@ const cerrar = () => {
   console.log(avisos.length ? `✓ contenido construido con ${avisos.length} aviso(s)` : "✓ contenido construido");
 };
 
+
+
+/* ========================================================================== */
+/*  Málaga: escena de ciudad con puntos de interés                            */
+/* ========================================================================== */
+
+/**
+ * content/malaga/pois.json + geo.json + *.md → una escena "Málaga" (mapa de
+ * ciudad renderizado desde OpenStreetMap, sin grid táctico), un journal con
+ * una página por punto de interés y un pin por punto en el mapa.
+ */
+function construirMalaga() {
+  if (!existe("content/malaga/pois.json") || !existe("content/malaga/geo.json")) return;
+  if (!existe("assets/mapas/malaga.webp")) { avisos.push("malaga: falta assets/mapas/malaga.webp (node tools/malaga-mapa.mjs)"); return; }
+  const { pois, escena: defEscena } = leerJson("content/malaga/pois.json");
+  const geo = leerJson("content/malaga/geo.json");
+  const { w, h } = dimensiones(path.join(RAIZ, "assets/mapas/malaga.webp"));
+  if (w !== geo.ancho || h !== geo.alto) avisos.push(`malaga: el mapa mide ${w}×${h} y geo.json dice ${geo.ancho}×${geo.alto}`);
+  const b = geo.bbox;
+  const aPx = (lat, lon) => ({
+    x: Math.round((lon - b.oeste) / (b.este - b.oeste) * w),
+    y: Math.round((b.norte - lat) / (b.norte - b.sur) * h)
+  });
+
+  // Journal: presentación + una página por POI, en el orden del md (orden) o del json.
+  const jid = ID.journal("malaga");
+  const paginasMd = archivosMd(path.join(RAIZ, "content/malaga")).map(f => {
+    const { meta, cuerpo } = separarFrontmatter(fs.readFileSync(f, "utf8"));
+    return { id: meta.id ?? slug(path.basename(f, ".md")), nombre: meta.nombre ?? meta.id, orden: Number(meta.orden ?? 100), cuerpo, rel: path.relative(RAIZ, f) };
+  }).sort((a, c) => a.orden - c.orden);
+  const pageIdDe = id => ID.pagina(jid, id);
+  const pages = paginasMd.map((p, i) => {
+    const poi = pois.find(x => x.id === p.id);
+    const cab = poi ? `<p class="dvv-ficha-poi"><strong>${poi.tipo}</strong>${poi.direccion ? ` · ${poi.direccion}` : ""}${poi.ficticio ? " · <em>lugar ficticio de la crónica</em>" : ""}</p>` : "";
+    return {
+      _id: pageIdDe(p.id), _key: `!journal.pages!${jid}.${pageIdDe(p.id)}`,
+      name: p.nombre, type: "text", title: { show: i > 0, level: 1 },
+      text: { format: 1, content: cab + md2html(expandirMarcadores(p.cuerpo.replace(/^# .+\n?/m, ""), p.rel)) },
+      sort: i * 100000, ownership: { default: -1 }, flags: poi ? flags("poi", { poi: poi.id, tipo: poi.tipo }) : {}
+    };
+  });
+  for (const poi of pois) if (!paginasMd.some(p => p.id === poi.id)) avisos.push(`malaga: el POI ${poi.id} no tiene content/malaga/${poi.id}.md`);
+  const carpetas = new Carpetas("cronica", "JournalEntry");
+  escribirDoc("cronica", {
+    _id: jid, _key: `!journal!${jid}`, name: "Málaga — Puntos de interés",
+    folder: carpetas.id("Crónica"), sort: 900, ownership: { default: 0 },
+    flags: flags("journal", { archivo: "content/malaga" }), pages, _stats: STATS
+  });
+  carpetas.escribir();
+
+  // Escena: sin grid táctico; 1 unidad = 100 m.
+  const sid = ID.escena("malaga");
+  const notes = pois.map(poi => {
+    const { x, y } = aPx(poi.lat, poi.lon);
+    if (x < 0 || y < 0 || x > w || y > h) avisos.push(`malaga: ${poi.id} cae fuera del mapa (${x},${y})`);
+    return {
+      _id: idEstable(`nota:malaga:${poi.id}`), entryId: jid, pageId: pageIdDe(poi.id),
+      x, y, elevation: 0, sort: 0, locked: false,
+      texture: { src: poi.icono ?? "icons/svg/house.svg", anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: poi.ficticio ? "#ff8a80" : "#ffffff", alphaThreshold: 0.75 },
+      iconSize: 48, text: poi.nombre, fontFamily: "Signika", fontSize: 26, textAnchor: 1, textColor: "#ffffff",
+      global: true, flags: flags("pin", { poi: poi.id, tipo: poi.tipo })
+    };
+  });
+  const escenasCarp = new Carpetas("escenas", "Scene");
+  const tam = Math.round(100 / (geo.metrosPorPixel ?? 2));
+  escribirDoc("escenas", conClaves({
+    _id: sid, _key: `!scenes!${sid}`, name: defEscena?.nombre ?? "Málaga",
+    folder: escenasCarp.id("Somnia Biotech"), navigation: true, navOrder: 0,
+    width: w, height: h, padding: 0,
+    grid: { type: 0, size: tam, style: "solidLines", thickness: 1, color: "#000000", alpha: 0, distance: 100, units: "m" },
+    tokenVision: false, fog: { exploration: false },
+    environment: { darknessLevel: 0.15, globalLight: { enabled: true } },
+    levels: [{ _id: idEstable("nivel:malaga"), name: "Ciudad", elevation: { bottom: 0, top: 20 }, background: { src: `modules/${MODULO}/assets/mapas/malaga.webp`, color: "#0b0d10" }, sort: 0 }],
+    walls: [], lights: [], regions: [], tokens: [], notes, sounds: [], tiles: [], drawings: [],
+    flags: flags("escena", { escena: "malaga", nota: `Mapa de ciudad (OpenStreetMap, ${geo.atribucion ?? "© OpenStreetMap contributors"}). Los pines abren el journal de Málaga.` }),
+    _stats: STATS
+  }));
+  escenasCarp.escribir();
+  console.log(`malaga: escena ${w}×${h}, ${pois.length} puntos de interés, ${pages.length} páginas`);
+}
 
 /* ========================================================================== */
 /*  Música y ambientes                                                        */
@@ -1085,6 +1298,8 @@ function construirAventura() {
   console.log(`aventura: ${scenes.length} escenas, ${actors.length} actores, ${journal.length} journals, ${macros.length} macros, ${folders.length} carpetas`);
 }
 
+construirSalas();
+construirMalaga();
 construirPlaylists();
 construirAventura();
 cerrar();

@@ -1,0 +1,199 @@
+{
+  "_id": "tqTYD7W8QuBBZ3rW",
+  "_key": "!journal!tqTYD7W8QuBBZ3rW",
+  "name": "Salas · La cripta del relicario",
+  "folder": "jcMvTH4WzA9DN1fp",
+  "sort": 501,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/salas/cripta.md",
+      "escena": "cripta"
+    }
+  },
+  "pages": [
+    {
+      "_id": "HWIJHH9lAYR30ngl",
+      "_key": "!journal.pages!tqTYD7W8QuBBZ3rW.HWIJHH9lAYR30ngl",
+      "name": "Salas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>La cripta medieval bajo el convento desconsagrado, donde Somnia Biotech alimenta a Sor Anunciación con el plasma de los durmientes (Acto 3). Se baja de noche, desde la sacristía o desde la planta vieja de la clínica, y se sale al amanecer o no se sale.</p><p>Cada pin numerado del mapa abre la página de su sala. Los tokens de PNJ ya están colocados; los ocultos se revelan desde la capa de tokens.</p><ul><li>@UUID[JournalEntry.tqTYD7W8QuBBZ3rW.JournalEntryPage.ziTo5r7dopVEiRdN]{E1. Escalera del convento}</li><li>@UUID[JournalEntry.tqTYD7W8QuBBZ3rW.JournalEntryPage.94DkCP4rd9ZixKEE]{E2. Antecámara}</li><li>@UUID[JournalEntry.tqTYD7W8QuBBZ3rW.JournalEntryPage.iK4aYt20n95xGdSf]{E3. Osario}</li><li>@UUID[JournalEntry.tqTYD7W8QuBBZ3rW.JournalEntryPage.pfFAh5EdSIUpZcHn]{E4. Cámara del relicario}</li><li>@UUID[JournalEntry.tqTYD7W8QuBBZ3rW.JournalEntryPage.E2SouVmnGHTT3JHx]{E5. Laboratorio improvisado}</li><li>@UUID[JournalEntry.tqTYD7W8QuBBZ3rW.JournalEntryPage.CdPIItV4UEGw2gCu]{E6. Pasillo lateral}</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ziTo5r7dopVEiRdN",
+      "_key": "!journal.pages!tqTYD7W8QuBBZ3rW.ziTo5r7dopVEiRdN",
+      "name": "E1. Escalera del convento",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Los peldaños de piedra bajan en curva, gastados en el centro por siglos de pies. Un cirio en un hueco de la pared tiembla con la corriente que sube desde abajo. El aire es frío y espeso, y trae algo que no debería estar en una cripta: olor a alcohol de hospital.</p>\n</section><p><strong>Qué hay.</strong> La escalera que sube a la sacristía del convento (transición a la escena del convento, sala D3) y un cirio encendido, cambiado esta misma noche. La barra de hierro que traba la puerta de arriba cuelga de sus ganchos: quien baje por acá debe decidir si la deja puesta o la saca para tener una salida rápida.</p>\n<p><strong>Qué pasa.</strong> Si la célula entra por el convento, este es el punto de partida del Descenso. El Limpiador sabe qué peldaños crujen: guiar al grupo en silencio es <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a> por cabeza, o una sola tirada suya con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Consciencia (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Consciencia (dif. 2)</a> si los demás pisan donde él pisa. Un fallo alerta a los @UUID[Actor.nSObabU1QRNcyMnw]{ghouls} de la antecámara (E2).</p>\n<p><strong>Para el Narrador.</strong> Si sacaron la barra, la escalera sirve de segunda vía de escape en el Acto 3, pero no lleva al amanecer: lleva a un convento cerrado de noche, con el auto de los matones en la esquina. La huida canónica es por el pasillo lateral (E6).</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "cripta",
+          "sala": "Escalera del convento",
+          "codigo": "E1"
+        }
+      }
+    },
+    {
+      "_id": "94DkCP4rd9ZixKEE",
+      "_key": "!journal.pages!tqTYD7W8QuBBZ3rW.94DkCP4rd9ZixKEE",
+      "name": "E2. Antecámara",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una sala baja de piedra húmeda, con nichos de enterramiento abiertos en las paredes como bocas negras. Un cirio arde en el suelo, junto a una silla plegable y un termo. Más allá, entre columnas, se adivina un resplandor frío y azulado, y el pitido lento de un monitor médico.</p>\n</section><p><strong>Qué hay.</strong> Cinco nichos de enterramiento, la mayoría vacíos o con huesos revueltos. Dos @UUID[Actor.nSObabU1QRNcyMnw]{ghouls} con ambos de enfermero hacen guardia: uno sentado jugando con el celular, el otro de pie, fumando. Llevan una radio de mano que conecta con la seguridad de Somnia. Quitarle la radio a uno permite al Informático escuchar la frecuencia de la clínica con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a>, y saber cuándo baja @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos}.</p>\n<p><strong>Qué pasa.</strong> Si los ghouls no fueron alertados, se los puede sorprender: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 3)</a> para acercarse sin ser vistos. Pelean sin miedo pero sin convicción; si uno cae, el otro intenta usar la radio. Si la radio suena, Marcos llega en tres turnos. Un cuchillo, una barra o un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.u0aSGOOp7pCJDisy]{táser} alcanzan contra ellos; no hace falta fuego.</p>\n<p><strong>Para el Narrador.</strong> Uno de los ghouls tiene en el bolsillo la llave de la cerradura de la puerta de piedra de la sacristía. Si la célula planea volver alguna vez al convento, esa llave vale oro.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.nSObabU1QRNcyMnw]{Ghoul de Somnia} ×2</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "cripta",
+          "sala": "Antecámara",
+          "codigo": "E2"
+        }
+      }
+    },
+    {
+      "_id": "iK4aYt20n95xGdSf",
+      "_key": "!journal.pages!tqTYD7W8QuBBZ3rW.iK4aYt20n95xGdSf",
+      "name": "E3. Osario",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Los nichos de esta sala están llenos hasta el techo de huesos: cráneos apilados, fémures cruzados como leña. El olor es seco, de polvo antiguo. Y en un rincón, debajo de todo eso, algo que no tiene siglos: una mochila de lona verde, con un parche de un club de fútbol.</p>\n</section><p><strong>Qué hay.</strong> Cuatro nichos del osario medieval y, mezclados con los huesos viejos, los restos de la célula del garaje de Huelin: cuatro esqueletos con jirones de ropa moderna, una zapatilla, un reloj. La mochila es de Mara. Adentro hay un aparato a medio terminar, una lente montada en un tubo con cables, el mismo que aparece dibujado en su cuaderno. Revisar los restos con calma (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>) muestra que no los mataron peleando: los dejaron desangrarse. Un fémur sirve como @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Q5jDNrb197TgmngW]{arma improvisada}.</p>\n<p><strong>Qué pasa.</strong> @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} espera acá, entre los huesos, desde antes de que ellos bajaran: los olió en la escalera y prefiere cazarlos que avisarle a nadie. Irrumpe desde las sombras cuando la célula empieza a desconectar a los durmientes en la cámara (E4), o antes si alguien se demora en el osario. Llevarse la mochila de Mara da <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Recuperar el aparato de Mara\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Recuperar el aparato de Mara</span></button>.</p>\n<p><strong>Para el Narrador.</strong> Si Elías bajó con ellos, ver los restos de sus amigos es el detonante de su gesto más adelante. Dale un momento en silencio antes de que Marcos aparezca.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} (oculto)</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "cripta",
+          "sala": "Osario",
+          "codigo": "E3"
+        }
+      }
+    },
+    {
+      "_id": "pfFAh5EdSIUpZcHn",
+      "_key": "!journal.pages!tqTYD7W8QuBBZ3rW.pfFAh5EdSIUpZcHn",
+      "name": "E4. Cámara del relicario",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>La cámara es una nave de piedra románica sostenida por cuatro columnas achaparradas. En el centro, un relicario enorme de piedra y bronce, con una cruz tallada en la tapa, brilla con una luz fría que no viene de ninguna lámpara. A su alrededor, seis camillas de hospital. Seis personas dormidas, pálidas como la cera, con vías en los brazos. Los tubos corren por el suelo y se pierden, todos, dentro del relicario.</p>\n</section><p><strong>Qué hay.</strong> Los seis @UUID[Actor.62xFjZPXiec7OFTE]{durmientes}, conectados por vías que bombean su plasma hacia el relicario donde yace @UUID[Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación}. Los tubos se pueden cortar; las columnas y los nichos dan cobertura. Desconectar a un durmiente sin provocarle un shock pide <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>: el Doctorando es quien entiende lo que está viendo.</p>\n<p><strong>Qué pasa.</strong> Al tercer durmiente desconectado, Marcos irrumpe desde el osario (ver su diálogo en <em>Dramatis personae</em>). La pelea es frenética, en un espacio cerrado y lleno de equipo frágil. Si el combate se alarga o alguien toca el relicario, Sor Anunciación despierta y se incorpora. En el peor momento, @UUID[Actor.O2GuehcZV88rKsKt]{Elías} se interpone y grita a un cielo que lleva nueve años mudo: vos decidís si los Heraldos responden. Con Elías caído, la Encrucijada III: protegerse unos a otros sin chance y sacar un crítico con dados de Desesperación da <button type=\"button\" class=\"dvv-baliza fe\" data-dvv-baliza=\"fe\" data-delta=\"1\" data-motivo=\"El Destello: baliza definitiva de Imbuido\"><span class=\"dvv-baliza-delta\">+1 Fe</span><span class=\"dvv-baliza-motivo\">El Destello: baliza definitiva de Imbuido</span></button>; sobrevivir a heridas mortales con el Compuesto A en las venas da <button type=\"button\" class=\"dvv-baliza carne\" data-dvv-baliza=\"carne\" data-delta=\"1\" data-motivo=\"La Marca: baliza definitiva de Quimera\"><span class=\"dvv-baliza-delta\">+1 Carne</span><span class=\"dvv-baliza-motivo\">La Marca: baliza definitiva de Quimera</span></button>.</p>\n<p><strong>Para el Narrador.</strong> Sor Anunciación no es un combate: es una fuerza de la naturaleza. Ofrecé su trato monstruoso antes de que la mesa se suicide.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación} (oculto) · @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente} ×6</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "cripta",
+          "sala": "Cámara del relicario",
+          "codigo": "E4"
+        }
+      }
+    },
+    {
+      "_id": "E2SouVmnGHTT3JHx",
+      "_key": "!journal.pages!tqTYD7W8QuBBZ3rW.E2SouVmnGHTT3JHx",
+      "name": "E5. Laboratorio improvisado",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Detrás de una arcada baja, la Edad Media termina de golpe. Un banco de trabajo de acero con centrífugas y una notebook abierta, una heladera de plasma que zumba, estanterías con bolsas de sangre etiquetadas y un carro con instrumental quirúrgico. Una lámpara de escritorio ilumina todo con luz blanca, clínica, obscena.</p>\n</section><p><strong>Qué hay.</strong> La mesa de la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}: la notebook conectada a un disco duro externo con toda la investigación del Compuesto A y, en la heladera, una gradilla con los viales restantes del Compuesto A. En el estante, alcohol, éter y oxígeno: material para convertir el laboratorio en una hoguera con un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{molotov} o un encendedor. En el carro, bisturíes (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ECrwLZYDlZRuqKHd]{cuchillo}) y jeringas de adrenalina que, con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>, ponen de pie a un PJ que acaba de caer.</p>\n<p><strong>Qué pasa.</strong> Salas está escondida detrás de la heladera. No pelea: si la descubren, levanta las manos, negocia y, si puede, huye por el pasillo lateral. En la huida, alguien elige: tienen cinco segundos frente a esta mesa. Salvar el disco duro da <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Salvar el disco duro de Salas\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Salvar el disco duro de Salas</span></button>; salvar los viales da <button type=\"button\" class=\"dvv-baliza carne\" data-dvv-baliza=\"carne\" data-delta=\"1\" data-motivo=\"Salvar los viales del Compuesto A\"><span class=\"dvv-baliza-delta\">+1 Carne</span><span class=\"dvv-baliza-motivo\">Salvar los viales del Compuesto A</span></button>. Lo que quede, arde.</p>\n<p><strong>Para el Narrador.</strong> Si la célula deja escapar a Salas, ella vuelve en el Epílogo con su maletín y su oferta cruel. Si la entregan o la matan, esa puerta de la Carne se cierra.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Irene Salas} (oculto)</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "cripta",
+          "sala": "Laboratorio improvisado",
+          "codigo": "E5"
+        }
+      }
+    },
+    {
+      "_id": "CdPIItV4UEGw2gCu",
+      "_key": "!journal.pages!tqTYD7W8QuBBZ3rW.CdPIItV4UEGw2gCu",
+      "name": "E6. Pasillo lateral",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una puerta de piedra, gruesa como un muro, gira sobre un eje de hierro y deja ver un pasillo estrecho que sube. Al fondo, muy lejos, se ve el resplandor rojizo de una luz de emergencia y se oye el zumbido de la planta vieja de Somnia. El aire que baja huele, por fin, a calle.</p>\n</section><p><strong>Qué hay.</strong> El pasillo medieval que unía la cripta con el antiguo hospital de la orden y que hoy sube a la planta vieja de Somnia Biotech, y de ahí al muelle de carga (transición a la escena de la planta vieja). La puerta de piedra se abre hacia la cámara y se puede trabar con el cuerpo desde este lado.</p>\n<p><strong>Qué pasa.</strong> Es la vía de la huida al amanecer, con sus tres costos obligatorios. <strong>Alguien sostiene:</strong> un PJ se queda un turno extra bloqueando la puerta de piedra para que Marcos o los ghouls no pasen; pide <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.strength skills.athletics\" data-dificultad=\"3\" data-label=\"Fuerza + Atletismo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Fuerza + Atletismo (dif. 3)</a> y el resto de su Voluntad. <strong>Alguien carga:</strong> otro PJ carga a pulso a un durmiente desconectado por la escalera hasta la calle, con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.stamina skills.athletics\" data-dificultad=\"0\" data-label=\"Resistencia + Atletismo\"><i class=\"fa-solid fa-dice-d10\"></i> Resistencia + Atletismo</a>. <strong>Alguien elige:</strong> ver E5. Salen a tropiezos por la puerta trasera de Somnia justo cuando los primeros rayos del sol golpean el asfalto.</p>\n<p><strong>Para el Narrador.</strong> Si la célula entró por Somnia, este pasillo también fue su entrada: el Informático habrá aislado el rack de la planta vieja para cortar alarmas y cámaras. Si no lo hizo, al subir los espera un @UUID[Actor.9iZfEE32ZgK1g9mi]{matón} de turno en el muelle.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "cripta",
+          "sala": "Pasillo lateral",
+          "codigo": "E6"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

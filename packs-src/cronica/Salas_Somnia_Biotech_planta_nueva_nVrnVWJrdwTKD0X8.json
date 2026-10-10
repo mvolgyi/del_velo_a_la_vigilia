@@ -1,0 +1,407 @@
+{
+  "_id": "nVrnVWJrdwTKD0X8",
+  "_key": "!journal!nVrnVWJrdwTKD0X8",
+  "name": "Salas · Somnia Biotech — planta nueva",
+  "folder": "jcMvTH4WzA9DN1fp",
+  "sort": 503,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/salas/somnia-planta-nueva.md",
+      "escena": "somnia-planta-nueva"
+    }
+  },
+  "pages": [
+    {
+      "_id": "JlWPDJ8DWRkTxfn9",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.JlWPDJ8DWRkTxfn9",
+      "name": "Salas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>El edificio moderno de la clínica de ensayos del sueño, la noche del apagón (Acto 1). Los cuatro empleados parten de rincones distintos, convergen en el pasillo de cristal frente al ala de ensayos y huyen de Marcos hasta el muelle de carga, donde Elías entra con fuego.</p><p>Cada pin numerado del mapa abre la página de su sala. Los tokens de PNJ ya están colocados; los ocultos se revelan desde la capa de tokens.</p><ul><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.TkSKdqMg1EpC4wh2]{A1. Hall de entrada}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.YlrMLF254MD1sThJ]{A2. Recepción}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.IwPJOagZD4W4zeOf]{A3. Seguridad}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.fBpWYwjWlfT9V8y0]{A4. Pasillo central}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.CHwuHk7HbTIKUdZ9]{A5. Oficinas}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.L49MNNrdDUq9N9co]{A6. Sala de servidores}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.vkVO36AWetUq1xf4]{A7. Vestuario}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.K75hytuuiNsAY7Of]{A8. Cuarto de limpieza}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.9lgl0LKcW5upXPsl]{A9. Pasillo de servicio}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.6Tcq01ZQnkkyDm7c]{A10. Depósito}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.bfBx5lsgbBDUCzYA]{A11. Pasillo de cristal}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.BYLgVBIku61LZDrw]{A12. Ala de ensayos clínicos}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.DcuAVwKUB6Zhtu7o]{A13. Muelle de carga}</li><li>@UUID[JournalEntry.nVrnVWJrdwTKD0X8.JournalEntryPage.GDygwqbVEPnJ6VOt]{A14. Frontera con la planta vieja}</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TkSKdqMg1EpC4wh2",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.TkSKdqMg1EpC4wh2",
+      "name": "A1. Hall de entrada",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Dos sofás de cuero sintético, una mesa ratona con revistas de bienestar y una pared de vidrio que da a la calle mojada. Afuera, el estacionamiento brilla bajo la lluvia. Adentro no hay más luz que el resplandor rojizo que llega desde el pasillo. El silencio es tan espeso que se oye el goteo de un paraguas olvidado.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal es una doble puerta de vidrio con cerradura magnética: sin energía, queda <strong>trabada</strong> y el lector junto al marco solo pita en rojo. El vidrio es laminado de seguridad; romperlo exige <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.strength skills.athletics\" data-dificultad=\"4\" data-label=\"Fuerza + Atletismo (dif. 4)\"><i class=\"fa-solid fa-dice-d10\"></i> Fuerza + Atletismo (dif. 4)</a> y hace un estruendo que se oye en todo el edificio. En el paragüero hay un paraguas largo con punta metálica (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Q5jDNrb197TgmngW]{arma improvisada liviana}). Sobre la mesa, folletos de Somnia: &quot;Dormí mejor. Viví más. Sumate a nuestros estudios remunerados&quot;.</p>\n<p><strong>Qué pasa.</strong> Es la trampa más cruel de la huida: la calle está <em>ahí</em>, a dos metros, y no se puede salir. Si los PJs llegan corriendo desde recepción con @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} detrás, describí cómo ven su propio reflejo en el vidrio, y detrás del reflejo, la silueta de Marcos caminando sin apuro. Desde aquí solo se vuelve a la recepción.</p>\n<p><strong>Para el Narrador.</strong> Si un jugador insiste en romper el vidrio y lo logra, no lo castigues: Marcos lo deja salir solo y se queda con los demás. Separar al grupo también es una forma de ganar. Ese PJ puede reaparecer por la calle justo cuando Elías llega al muelle.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Hall de entrada",
+          "codigo": "A1"
+        }
+      }
+    },
+    {
+      "_id": "YlrMLF254MD1sThJ",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.YlrMLF254MD1sThJ",
+      "name": "A2. Recepción",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un mostrador largo y blanco, con un monitor muerto que les devuelve su propia cara en negro. Detrás, el logo de Somnia apenas se adivina en la pared. Hacia el norte, el control de acceso de vidrio que da al pasillo central; hacia el este, una puerta gris de servicio.</p>\n</section><p><strong>Qué hay.</strong> Detrás del mostrador: el libro de visitas en papel (lo exige la normativa), un cajón con tarjetas de acceso de visitante, caramelos y un cargador de linterna. El control de acceso es una puerta de vidrio <strong>trabada</strong>: el lector pita en rojo. Tiene un pulsador verde de emergencia, pero alguien lo desconectó: los cables cuelgan sueltos detrás de la tapa. El Guardia sabe que la consola de recepción tiene un desbloqueo mecánico con llave… y la llave no está en su gancho.</p>\n<p><strong>Qué pasa.</strong> Quien hojee el libro de visitas con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a> nota que casi todos los &quot;voluntarios&quot; ingresan de noche, y que varios nombres tienen entrada pero no salida. Forzar la puerta del control de acceso exige <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.strength skills.athletics\" data-dificultad=\"3\" data-label=\"Fuerza + Atletismo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Fuerza + Atletismo (dif. 3)</a> o abrir la cerradura con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>. Desde aquí, la puerta de servicio (sin lector) lleva al pasillo de servicio y de ahí al muelle.</p>\n<p><strong>Para el Narrador.</strong> Un pulsador de emergencia arrancado es la primera pista de que el sistema está pensado para que nadie salga. El Informático lo entiende de inmediato: las cerraduras están configuradas a propósito para <strong>quedarse trabadas</strong> si se corta la luz.</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Recepción",
+          "codigo": "A2"
+        }
+      }
+    },
+    {
+      "_id": "IwPJOagZD4W4zeOf",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.IwPJOagZD4W4zeOf",
+      "name": "A3. Seguridad",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una pared de monitores de circuito cerrado, todos en negro. La silla del guardia todavía está tibia. Huele a café recalentado y a plástico de equipo electrónico. Un piloto naranja parpadea, solitario, bajo el escritorio.</p>\n</section><p><strong>Qué hay.</strong> La base del Guardia. El piloto naranja es el grabador de las cámaras: tiene batería propia y siguió grabando unos minutos después del corte. Hay un armario metálico con linternas, un botiquín y una tonfa reglamentaria (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ZNBhG8seVR7fKwja]{tonfa}). En la pizarra, los turnos de la semana: el nombre de Marcos figura solo en turnos nocturnos, siempre en el &quot;nivel inferior y planta vieja&quot;.</p>\n<p><strong>Qué pasa.</strong> Revisar el grabador con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a> muestra las últimas imágenes antes de que muera la batería: el pasillo de cristal vacío, la puerta del ala de ensayos abriéndose sola, una figura que entra sin pasar la tarjeta. Sacar el disco del grabador lleva un turno y una herramienta; quien se lo lleve tiene la primera prueba física de la noche <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Llevarse el disco del grabador de Seguridad\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Llevarse el disco del grabador de Seguridad</span></button>. La única salida es la puerta al pasillo central.</p>\n<p><strong>Para el Narrador.</strong> El Guardia arranca aquí la escena: la caída de las cámaras lo obliga a hacer la ronda a pie. Si vuelven más tarde, el armario es el único lugar con luz portátil de toda la planta.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Seguridad",
+          "codigo": "A3"
+        }
+      }
+    },
+    {
+      "_id": "fBpWYwjWlfT9V8y0",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.fBpWYwjWlfT9V8y0",
+      "name": "A4. Pasillo central",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un pasillo largo de linóleo gris, iluminado a tramos por dos luces de emergencia que tiñen todo de rojo. Entre una luz y otra, oscuridad. Cada lector de tarjeta a lo largo de la pared tiene un ojito rojo encendido, como si los mirara.</p>\n</section><p><strong>Qué hay.</strong> La columna vertebral de la planta: puertas a Oficinas, Sala de servidores (con lector, <strong>trabada</strong>), Vestuario, Seguridad y Cuarto de limpieza; al sur, el control de acceso de vidrio que da a recepción (<strong>trabado</strong> del otro lado); al este, la puerta de vidrio al pasillo de cristal. En la pared, un plano de evacuación plastificado: la planta vieja aparece tachada con cinta adhesiva negra.</p>\n<p><strong>Qué pasa.</strong> Es el lugar natural de encuentro antes de la Escena del Velo: el Doctorando sale de las oficinas buscando a alguien, el Guardia hace su ronda, el Informático llega rumbo a los servidores, el Limpiador viene con el carro. Durante la huida, es un embudo: todas sus salidas llevan a cuartos sin salida, salvo el control de acceso trabado. Golpear tarjetas contra los lectores solo produce pitidos rojos; describilos cada vez, más rápido, más fuerte.</p>\n<p><strong>Para el Narrador.</strong> Marcos no corre. Si los PJs se esconden en un cuarto lateral, dejalo pasar despacio frente a la puerta, arrastrando los dedos por la pared. Pedí <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.composure skills.stealth\" data-dificultad=\"2\" data-label=\"Compostura + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Compostura + Sigilo (dif. 2)</a> para no hacer ruido; si fallan, golpea dos veces la puerta con los nudillos, saluda por su nombre y sigue de largo.</p>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Pasillo central",
+          "codigo": "A4"
+        }
+      }
+    },
+    {
+      "_id": "CHwuHk7HbTIKUdZ9",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.CHwuHk7HbTIKUdZ9",
+      "name": "A5. Oficinas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Cuatro escritorios bajo un techo de placas acústicas. Las pantallas acaban de morir y todavía se oye el clic de los discos frenando. Un escritorio desaparece bajo pilas de impresiones subrayadas en tres colores y una taza de café frío que dejó un círculo sobre una tabla de datos.</p>\n</section><p><strong>Qué hay.</strong> El escritorio del Doctorando, enterrado en impresiones del dataset prohibido: series de hemoglobina de los voluntarios durmientes, con caídas semanales que nadie explica. En el archivador bajo hay carpetas de &quot;consentimiento informado&quot; sin firma. En un cajón de otro escritorio, una linterna de llavero y una tarjeta de acceso de un médico.</p>\n<p><strong>Qué pasa.</strong> Quien estudie las impresiones con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a> entiende el patrón: las caídas son de alguien que pierde medio litro de sangre, siempre de noche, siempre en las mismas camas; y tres pacientes figuran como &quot;transferidos a continuidad&quot; sin centro de destino. Llevarse esas hojas no cambia nada esta noche, pero en el Acto 2 vale oro para el plan del Doctorando <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Rescatar las impresiones del dataset\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Rescatar las impresiones del dataset</span></button>. La tarjeta del médico no funciona sin energía: es inútil ahora, útil en el Acto 3.</p>\n<p><strong>Para el Narrador.</strong> El Doctorando arranca aquí cuando se apaga el monitor. Si alguien pasa demasiado tiempo leyendo durante la huida, Marcos aparece en la puerta y se apoya en el marco: &quot;¿Interesante? Lo escribí yo, en parte. Con la boca&quot;.</p>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Oficinas",
+          "codigo": "A5"
+        }
+      }
+    },
+    {
+      "_id": "L49MNNrdDUq9N9co",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.L49MNNrdDUq9N9co",
+      "name": "A6. Sala de servidores",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>El aire está más frío aquí, y quieto. Las filas de racks están mudas; solo el panel de una consola junto a la pared sigue vivo, alimentado por una batería, con un gráfico verde que sube y baja. Huele a polvo caliente y a ozono.</p>\n</section><p><strong>Qué hay.</strong> La puerta tiene lector <strong>trabado</strong>, pero el Informático lleva la única llave física de cilindro del edificio: lo llamaron para levantar los servidores. Los racks de la planta nueva están apagados. La consola de monitoreo controla la red eléctrica de las dos alas, y muestra algo imposible: mientras toda la planta nueva está a cero, un circuito marcado <em>PV-07</em> (planta vieja) consume al máximo desde una línea propia que no figura en ningún plano.</p>\n<p><strong>Qué pasa.</strong> Con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a> el Informático confirma que <em>PV-07</em> alimenta un rack de la planta vieja y que esa línea baja &quot;hacia abajo&quot;, a un punto sin nombre. Con un crítico, ve que el consumo sube y baja con el ritmo de una respiración. Intentar cortar <em>PV-07</em> desde aquí no funciona: la línea está protegida desde el otro lado.</p>\n<p><strong>Para el Narrador.</strong> Esta es la semilla del Acto 3: el Informático va a volver a este circuito para aislar el rack. Si durante la huida alguien se encierra aquí, es un buen escondite (la puerta es pesada), pero no tiene otra salida: Marcos se sienta en el pasillo a esperar.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Sala de servidores",
+          "codigo": "A6"
+        }
+      }
+    },
+    {
+      "_id": "vkVO36AWetUq1xf4",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.vkVO36AWetUq1xf4",
+      "name": "A7. Vestuario",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una hilera de casilleros de acero, un banco atornillado al piso, el olor a desodorante y a ropa húmeda. Una de las puertas metálicas está entreabierta y se mueve apenas con la corriente del aire acondicionado muerto.</p>\n</section><p><strong>Qué hay.</strong> Casilleros del personal, con candados de combinación. El del Limpiador tiene su ropa de calle y un rosario de su madre. El casillero entreabierto es el de Marcos: tres camisas blancas idénticas, planchadas, un frasco de colonia cara y nada más. Ningún objeto personal, ninguna foto. En el piso de otro casillero, una caja de herramientas de mantenimiento con una llave cruz (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ZNBhG8seVR7fKwja]{llave cruz}).</p>\n<p><strong>Qué pasa.</strong> Quien revise las camisas de Marcos con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a> encuentra en el puño de una de ellas una mancha marrón, lavada mil veces, que nunca terminó de salir. En el banco, alguien dejó una credencial de visitante con el nombre de un voluntario que, según el libro de recepción, nunca salió. La única salida es el pasillo central.</p>\n<p><strong>Para el Narrador.</strong> El vestuario es un callejón sin salida y Marcos lo sabe. Si alguien se esconde dentro de un casillero, dejá que Marcos abra todos los demás, uno por uno, sin apuro. No abre el último: se ríe y se va. Que eso pese más que un ataque.</p>\n"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Vestuario",
+          "codigo": "A7"
+        }
+      }
+    },
+    {
+      "_id": "K75hytuuiNsAY7Of",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.K75hytuuiNsAY7Of",
+      "name": "A8. Cuarto de limpieza",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Estantes de productos químicos con etiquetas de colores, un carro con balde y trapeador, un olor a lavandina que pica en la garganta. Es el único cuarto del edificio que no tiene lector de tarjeta: se abre con una llave que solo tiene el Limpiador.</p>\n</section><p><strong>Qué hay.</strong> El territorio del Limpiador. Alcohol isopropílico, aerosoles desengrasantes, botellas de vidrio de limpiavidrios concentrado, trapos, un encendedor que alguien olvidó en el bolsillo de un guardapolvo. Con lo que hay se puede improvisar un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.lWuwMs7bkGhBbTvz]{aerosol con encendedor} o un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{cóctel molotov} con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.craft\" data-dificultad=\"2\" data-label=\"Inteligencia + Artesanía (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Artesanía (dif. 2)</a>. Colgado detrás de la puerta, el cuadrante de limpieza: la planta vieja figura con una nota a mano, &quot;NO ENTRAR. Orden de Dirección&quot;.</p>\n<p><strong>Qué pasa.</strong> Si los PJs descubren aquí que el fuego puede servir, adelantan la lección de Elías: Marcos retrocede ante las llamas igual que retrocederá ante la bengala. Usalo, pero que cueste: armar algo lleva dos turnos que Marcos usa para acercarse. La salida es el pasillo central.</p>\n<p><strong>Para el Narrador.</strong> Desde aquí el Limpiador empuja el carro hacia el muelle al inicio del acto, y así llega a la frontera con la planta vieja. Si alguien prende fuego cerca de los estantes, el cuarto entero puede arder: es un recurso desesperado, no un arma limpia.</p>\n"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Cuarto de limpieza",
+          "codigo": "A8"
+        }
+      }
+    },
+    {
+      "_id": "9lgl0LKcW5upXPsl",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.9lgl0LKcW5upXPsl",
+      "name": "A9. Pasillo de servicio",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un pasillo angosto, de paredes sin pintar, con marcas de ruedas de carro en el piso. Una sola luz de emergencia, a mitad de camino, vuelve todo rojo. Al fondo, la puerta del muelle.</p>\n</section><p><strong>Qué hay.</strong> Une la recepción con el muelle de carga. No tiene lectores: es la ruta que usan el personal de limpieza y los repartidores. En una pared, un extintor de polvo y una caja de primeros auxilios. Pegado con cinta, un cartel hecho a mano: &quot;Entregas planta vieja: solo Marcos firma&quot;.</p>\n<p><strong>Qué pasa.</strong> Es la ruta de huida más directa una vez que los PJs logran pasar la recepción. Correr aquí no tiene obstáculos, y por eso resulta inquietante: cuando llegan al muelle, Marcos ya está más cerca de lo que debería. El extintor sirve para cegar a Marcos un instante (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.athletics\" data-dificultad=\"2\" data-label=\"Destreza + Atletismo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Atletismo (dif. 2)</a>): no le hace daño, pero gana un turno para el grupo.</p>\n<p><strong>Para el Narrador.</strong> El cartel es una pista para el Acto 2: alguien recibe envíos para la planta vieja. Si los PJs vuelven al Acto 3 por la puerta trasera, entran exactamente por este pasillo.</p>\n"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Pasillo de servicio",
+          "codigo": "A9"
+        }
+      }
+    },
+    {
+      "_id": "6Tcq01ZQnkkyDm7c",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.6Tcq01ZQnkkyDm7c",
+      "name": "A10. Depósito",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Estanterías de metal hasta el techo, cajas selladas con cinta azul, un pallet envuelto en film. El aire huele a cartón y a plástico nuevo. El depósito no tiene puerta hacia el pasillo: se abre de lleno al muelle, como una boca.</p>\n</section><p><strong>Qué hay.</strong> Insumos de la clínica: sábanas descartables, guantes, cajas de vías intravenosas y bolsas de transfusión <strong>vacías</strong>, muchas más de las que justifica un estudio del sueño. Las etiquetas de algunos lotes llevan el código <em>CA-</em> y un número. En la pared del fondo, un gabinete contra incendios con su @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Wb2JGFSZgDzJoTGc]{hacha de bombero} detrás de un vidrio. El pallet está lleno de cajas de suero fisiológico.</p>\n<p><strong>Qué pasa.</strong> Quien revise las cajas con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a> se da cuenta de que el volumen de bolsas de recolección alcanza para vaciar a varios pacientes por semana; el código <em>CA-</em> (Compuesto A) es la primera vez que esa sigla aparece en la crónica. Romper el gabinete del hacha hace ruido, pero el arma es real. Las estanterías permiten esconderse (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>) mientras Marcos cruza el muelle.</p>\n<p><strong>Para el Narrador.</strong> Si alguien se queda con el hacha, no la transformes en una solución: un golpe a Marcos lo enfurece más de lo que lo frena. Lo que funciona es el fuego, y eso lo trae Elías.</p>\n"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Depósito",
+          "codigo": "A10"
+        }
+      }
+    },
+    {
+      "_id": "bfBx5lsgbBDUCzYA",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.bfBx5lsgbBDUCzYA",
+      "name": "A11. Pasillo de cristal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un corredor estrecho con una pared entera de vidrio grueso. Del otro lado, el ala de ensayos: camillas en fila bajo la luz roja intermitente, siluetas tapadas con mantas finas. El vidrio no deja pasar ningún sonido. Ven todo. No oyen nada.</p>\n</section><p><strong>Qué hay.</strong> Dos luces de emergencia, una en cada extremo. El vidrio insonorizado del ala de ensayos es un muro: no se abre ni se rompe. Al sur, junto a la puerta del ala (<strong>trabada</strong>, lector en rojo), hay otra puerta que baja al muelle de carga. Al oeste, la puerta de vidrio al pasillo central.</p>\n<p><strong>Qué pasa.</strong> Aquí convergen los cuatro PJs y aquí se juega la <strong>Escena del Velo</strong>: leé el texto del Acto 1 (Marcos alimentándose de un @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente}). Cada jugador tira <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.composure attributes.resolve\" data-dificultad=\"2\" data-label=\"Compostura + Resolución (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Compostura + Resolución (dif. 2)</a>. Con crítico, <button type=\"button\" class=\"dvv-baliza fe\" data-dvv-baliza=\"fe\" data-delta=\"1\" data-motivo=\"Crítico al mirar a Marcos\"><span class=\"dvv-baliza-delta\">+1 Fe</span><span class=\"dvv-baliza-motivo\">Crítico al mirar a Marcos</span></button>; con fallo, <button type=\"button\" class=\"dvv-baliza carne\" data-dvv-baliza=\"carne\" data-delta=\"1\" data-motivo=\"Fallo al mirar a Marcos\"><span class=\"dvv-baliza-delta\">+1 Carne</span><span class=\"dvv-baliza-motivo\">Fallo al mirar a Marcos</span></button> y la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas} anota su nombre. Después, Marcos habla a través del vidrio (texto en Dramatis personae) y sale del ala por la puerta del sur, que se abre para él sin tarjeta.</p>\n<p><strong>Para el Narrador.</strong> La puerta del ala está entre los PJs y el muelle: cuando Marcos sale, les corta la ruta corta y los empuja hacia el oeste, al pasillo central. Ese es el inicio de la persecución. Que el ojito rojo del lector se apague solo cuando Marcos pasa frente a él.</p>\n"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Pasillo de cristal",
+          "codigo": "A11"
+        }
+      }
+    },
+    {
+      "_id": "BYLgVBIku61LZDrw",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.BYLgVBIku61LZDrw",
+      "name": "A12. Ala de ensayos clínicos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Nueve camillas ancladas al piso, dos filas enfrentadas, monitores apagados sobre cada cabecera. Las mantas suben y bajan muy despacio. El aire es tibio, quieto, y huele a hierro y a desinfectante. En una de las camillas, alguien no respira como los demás.</p>\n</section><p><strong>Qué hay.</strong> Seis pacientes durmientes, sedados y monitorizados por equipos que ahora están muertos. Tres camillas están vacías, con las sábanas recién cambiadas. Un gabinete de suministros sellado guarda sedantes, vías y bolsas de recolección rotuladas con nombres. @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} está inclinado sobre la camilla del este más cercana al vidrio.</p>\n<p><strong>Qué pasa.</strong> En el Acto 1, los PJs ven esta sala <strong>desde afuera</strong>: el vidrio es insonorizado y la puerta está trabada. Si alguno logra entrar más tarde (por ejemplo, volviendo cuando Marcos los persigue en otra parte), puede revisar a los durmientes con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>: todos tienen marcas de punción en el cuello y en el brazo, y una anemia severa. Ninguno despierta, sacudan lo que sacudan. Las tres camillas vacías son las de los &quot;transferidos a continuidad&quot;.</p>\n<p><strong>Para el Narrador.</strong> No dejes que los PJs saquen a un durmiente esta noche: no tienen cómo, y la puerta del muelle no se abre. Es la deuda que van a pagar en el Acto 3, cuando alguien cargue a uno escaleras arriba. El token de Marcos sale de aquí al pasillo de cristal en cuanto termina la Escena del Velo.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} · @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente} ×6</p>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Ala de ensayos clínicos",
+          "codigo": "A12"
+        }
+      }
+    },
+    {
+      "_id": "DcuAVwKUB6Zhtu7o",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.DcuAVwKUB6Zhtu7o",
+      "name": "A13. Muelle de carga",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un galpón de hormigón con manchas de aceite, pallets apilados y una persiana metálica cerrada que vibra con el viento de la calle. Huele a gasoil viejo y a lluvia. La única salida que queda es una puerta de servicio de chapa, con barra antipánico, al lado de un contenedor verde que se adivina del otro lado.</p>\n</section><p><strong>Qué hay.</strong> La persiana del muelle tiene motor eléctrico: <strong>trabada</strong>. La puerta de servicio tiene la barra antipánico atada con una cadena y un candado: Somnia la cierra de noche. Hay racks de pallets y, en la pared este, la pesada puerta de la planta vieja, <strong>abierta</strong> de par en par.</p>\n<p><strong>Qué pasa.</strong> El final del Acto 1. Los PJs llegan acorralados; Marcos dobla la esquina, pateando una tarjeta inútil, y dice su texto (Dramatis personae). Intentar romper la cadena exige <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.strength skills.athletics\" data-dificultad=\"4\" data-label=\"Fuerza + Atletismo (dif. 4)\"><i class=\"fa-solid fa-dice-d10\"></i> Fuerza + Atletismo (dif. 4)</a>: no deberían lograrlo a tiempo. Justo cuando Marcos va a terminar el juego, revelá el token de @UUID[Actor.O2GuehcZV88rKsKt]{Elías}: patea la puerta desde la calle (el candado, viejo, salta), entra con un bidón de gasoil abierto y una @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OJh3OkqAWt9hopa1]{bengala} encendida al rojo y les grita que corran hacia afuera. Marcos sisea, se cubre la cara y retrocede hacia las sombras.</p>\n<p><strong>Para el Narrador.</strong> Si los PJs huyen por la puerta de la planta vieja, Marcos los sigue sin apuro; Elías entra igual por esta puerta y los saca de ahí. La quemadura de la bengala marca a Marcos para el Acto 3.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca} (oculto)</p>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Muelle de carga",
+          "codigo": "A13"
+        }
+      }
+    },
+    {
+      "_id": "GDygwqbVEPnJ6VOt",
+      "_key": "!journal.pages!nVrnVWJrdwTKD0X8.GDygwqbVEPnJ6VOt",
+      "name": "A14. Frontera con la planta vieja",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Del otro lado de la pesada puerta, el piso cambia: deja de ser hormigón y se vuelve terrazo viejo, gastado en el centro. El aire que sale es más frío y huele a humedad, a piedra y, muy en el fondo, a cera de vela. Muy lejos, un zumbido de máquinas.</p>\n</section><p><strong>Qué hay.</strong> Un tramo corto de pasillo entre los dos edificios. La pesada puerta, siempre cerrada y prohibida para el personal, está <strong>abierta de par en par</strong>: la cerradura magnética soltó sin energía. Un cartel de &quot;Prohibido el paso — Solo personal autorizado&quot; cuelga torcido. Este es el acceso a la planta vieja.</p>\n<p><strong>Qué pasa.</strong> El Limpiador encuentra la puerta abierta al inicio del acto mientras trapea cerca de la frontera. Quien preste atención con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Alerta (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Alerta (dif. 2)</a> oye, muy por debajo del zumbido, un murmullo rítmico: alguien rezando en latín. El Limpiador lo reconoce: es el rezo que escuchaba detrás de la puerta de piedra. Cruzar lleva a la planta vieja (B1).</p>\n<p><strong>Para el Narrador.</strong> No obligues a nadie a entrar en el Acto 1: la puerta abierta es una invitación, no un pasillo. Si la cruzan, que el murmullo se detenga de golpe, como si alguien abajo hubiera dejado de rezar para escuchar. En el Acto 3, esta frontera es por donde la célula baja y por donde vuelve a salir al amanecer.</p>\n"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "somnia-planta-nueva",
+          "sala": "Frontera con la planta vieja",
+          "codigo": "A14"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

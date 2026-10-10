@@ -265,6 +265,8 @@ El Foundry local (v14.365) no tiene wod5e instalado. Para probar:
 | 4 | Escenas con mapa | ✓ hecho; 5 escenas desde planos vectoriales, mapas pintados (ver `MAPS_SPEC.md`) |
 | 5 | Release 0.1.0 e instalación en Molten | pendiente: commit, tag `v0.1.0`, el workflow publica `module.json` + `module.zip`; instalar en Molten con la URL del manifest |
 
+| 6 | Salas con pin y página por habitación (51), tokens de PNJ colocados, Málaga como escena de ciudad (OpenStreetMap) con 20 puntos de interés | ✓ hecho en 0.2.0 |
+
 Prueba end-to-end: `npm run e2e` (ver README). Pendiente de mesa: retratos/tokens de PNJs y
 tiles de muebles móviles (listados en la nota de cada escena).
 

@@ -1,0 +1,199 @@
+{
+  "_id": "VhdEkVoa11J6FLVE",
+  "_key": "!journal!VhdEkVoa11J6FLVE",
+  "name": "Salas · El piso de Elías Roca",
+  "folder": "jcMvTH4WzA9DN1fp",
+  "sort": 502,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/salas/piso-de-elias.md",
+      "escena": "piso-de-elias"
+    }
+  },
+  "pages": [
+    {
+      "_id": "8fVLZcWqpusrUfuY",
+      "_key": "!journal.pages!VhdEkVoa11J6FLVE.8fVLZcWqpusrUfuY",
+      "name": "Salas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>El departamento alquilado de Elías Roca, en un edificio viejo de Málaga, donde la célula llega la misma noche del apagón (Interludio). Es el refugio, el aula y la encrucijada: acá se dictan las reglas, se ofrecen las Tres Puertas y se vuelve durante todo el Acto 2.</p><p>Cada pin numerado del mapa abre la página de su sala. Los tokens de PNJ ya están colocados; los ocultos se revelan desde la capa de tokens.</p><ul><li>@UUID[JournalEntry.VhdEkVoa11J6FLVE.JournalEntryPage.Z3x7fsgvg16WCHRk]{C1. Rellano}</li><li>@UUID[JournalEntry.VhdEkVoa11J6FLVE.JournalEntryPage.c3I1uZMAcVLY8Bvx]{C2. Pasillo de entrada}</li><li>@UUID[JournalEntry.VhdEkVoa11J6FLVE.JournalEntryPage.REgD04xlV3qPgFLq]{C3. Living}</li><li>@UUID[JournalEntry.VhdEkVoa11J6FLVE.JournalEntryPage.HvMxjwdD28DwvU3C]{C4. Cocina}</li><li>@UUID[JournalEntry.VhdEkVoa11J6FLVE.JournalEntryPage.HLSf3HBRoG2PpcXg]{C5. Dormitorio}</li><li>@UUID[JournalEntry.VhdEkVoa11J6FLVE.JournalEntryPage.mTXxs3zYbvFo9CJu]{C6. Baño}</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Z3x7fsgvg16WCHRk",
+      "_key": "!journal.pages!VhdEkVoa11J6FLVE.Z3x7fsgvg16WCHRk",
+      "name": "C1. Rellano",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>La escalera común sube en espiral, con el terrazo gastado y una bombita que parpadea un piso más abajo. Huele a lavandina vieja y a guiso ajeno. Frente a ustedes, una puerta de madera pesada sin nombre en el timbre. Del otro lado no se oye nada; ni una radio, ni un televisor.</p>\n</section><p><strong>Qué hay.</strong> El descanso compartido de un edificio de los sesenta: la escalera que baja a la calle, la puerta del piso de Elías y, enfrente, la de una vecina que espía por la mirilla. Elías es paranoico y lo demuestra: un pelo pegado con saliva entre la hoja y el marco, a la altura de la rodilla. Quien lo busque lo encuentra con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Consciencia (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Consciencia (dif. 2)</a>; con un crítico nota además una línea de sal gruesa, vieja y pisoteada, en el umbral.</p>\n<p><strong>Qué pasa.</strong> Elías los hace subir rápido y en silencio; no quiere que la vecina les vea las caras. Si alguien toca el timbre, Elías no abre: hay que golpear tres veces, despacio. Durante el Acto 2 este rellano es la primera línea de defensa: si fallan la infiltración de &quot;Seguir a Salas&quot;, @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} sube por esta escalera esa misma noche y se detiene en el umbral (ver C2).</p>\n<p><strong>Para el Narrador.</strong> La vecina, la señora Pepa, es una fuente útil y gratuita: si un PJ la trata bien, cuenta que &quot;unos señores de traje&quot; preguntaron por Elías hace años y que él no sale nunca de día. También puede ser la víctima perfecta si Somnia aprieta.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "piso-de-elias",
+          "sala": "Rellano",
+          "codigo": "C1"
+        }
+      }
+    },
+    {
+      "_id": "c3I1uZMAcVLY8Bvx",
+      "_key": "!journal.pages!VhdEkVoa11J6FLVE.c3I1uZMAcVLY8Bvx",
+      "name": "C2. Pasillo de entrada",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Tres cerrojos, uno después del otro, y un pasador oxidado que chirría al correrse. El pasillo es angosto y oscuro, con el parquet levantado en las juntas. Hay un perchero con un impermeable que gotea y, a la altura de los ojos, un crucifijo de lata clavado al revés y vuelto a clavar al derecho.</p>\n</section><p><strong>Qué hay.</strong> La puerta trabada, el perchero, una caja de herramientas abierta en el piso y, al fondo, la puerta del baño. Abajo del perchero, una bolsa de supermercado con botellas vacías, trapos y un bidón de nafta: el kit de @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{cócteles molotov} que Elías arma &quot;por las dudas&quot;. Al lado, dos kilos de sal gruesa en paquetes (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.9uIcOChKOVSuh3Nk]{sal}). El crucifijo dado vuelta es el chiste privado de un hombre al que Dios dejó de contestarle.</p>\n<p><strong>Qué pasa.</strong> @UUID[Actor.O2GuehcZV88rKsKt]{Elías} traba todo y no deja pasar a nadie más allá de este punto con el celular encendido: lo pide en la mano, con chip y batería afuera. Si en el Acto 2 los detectan, esta es la línea donde se traza la Custodia: sal y rezos sobre el umbral. Cuando Marcos empuja, solo un personaje que saque un éxito en <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.resolve skills.occult\" data-dificultad=\"1\" data-label=\"Resolución + Convicción (dif. 1)\"><i class=\"fa-solid fa-dice-d10\"></i> Resolución + Convicción (dif. 1)</a> hace que la sal resista el empujón antinatural.</p>\n<p><strong>Para el Narrador.</strong> Si la Custodia falla, la puerta aguanta un turno más gracias a los cerrojos: es tiempo justo para que alguien prenda un molotov. Marcos se retira ante el fuego; vuelve otra noche.</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "piso-de-elias",
+          "sala": "Pasillo de entrada",
+          "codigo": "C2"
+        }
+      }
+    },
+    {
+      "_id": "REgD04xlV3qPgFLq",
+      "_key": "!journal.pages!VhdEkVoa11J6FLVE.REgD04xlV3qPgFLq",
+      "name": "C3. Living",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>El living está dominado por una pared que ya no es pared: es un corcho reventado de fotos, recortes de diarios, planos manchados de café y kilómetros de hilo rojo que unen caras con fechas. Enfrente, un sofá hundido, una mesa con tazas cachadas y una lámpara de pie que tiñe todo de amarillo. Huele a tabaco negro y a humedad.</p>\n</section><p><strong>Qué hay.</strong> El corcho: nueve años de vigilancia sobre Somnia Biotech. Sobre la mesa, el cuaderno de tapas de cuero de Mara, lleno de mediciones y diagramas de aparatos a medio diseñar: la Puerta del Taller, sin cartel. Un estante combado de libros de ocultismo y manuales de electrónica. Estudiar el corcho con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a> revela que la planta vieja de Somnia y el convento desconsagrado están unidos por debajo; con un crítico, encuentran una foto reciente de la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas} entrando a su laboratorio satélite, la semilla de &quot;Seguir a Salas&quot;.</p>\n<p><strong>Qué pasa.</strong> Acá Elías pasa el mate y el café y dicta las reglas (handout <em>El monólogo de Elías</em>). Acá también cuenta, si le preguntan, qué se siente cuando los Heraldos te eligen y qué deja el silencio cuando se van: la Puerta de los Despertados. La escena termina con él sentado frente a la célula, preguntando: <strong>&quot;¿Volverían a entrar?&quot;</strong>. Durante el Acto 2, la mesa del living es donde se arma el Plan (Encrucijada II).</p>\n<p><strong>Para el Narrador.</strong> No apures la Pregunta. Las respuestas evasivas y el miedo son material de juego, no fallos.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca}</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "piso-de-elias",
+          "sala": "Living",
+          "codigo": "C3"
+        }
+      }
+    },
+    {
+      "_id": "HvMxjwdD28DwvU3C",
+      "_key": "!journal.pages!VhdEkVoa11J6FLVE.HvMxjwdD28DwvU3C",
+      "name": "C4. Cocina",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un tubo fluorescente tarda tres parpadeos en prenderse. La cocina es chica, de baldosas amarillentas, con una hornalla tiznada y una pava que nunca se enfría del todo. En el rincón, una heladera vieja zumba como un animal dormido.</p>\n</section><p><strong>Qué hay.</strong> La mesada con la bacha llena de tazas, la hornalla, una mesita con dos sillas y la heladera. Adentro casi no hay comida: yerba, leche cortada, un frasco de pickles. Al fondo de todo, detrás de un táper, descansan tres viales intactos del Compuesto A, robados hace nueve años: la Puerta de la Quimera, sin ningún cartel. En el cajón de los cubiertos hay encendedores, un aerosol de insecticida y una botella de alcohol fino: lo justo para improvisar una @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.lWuwMs7bkGhBbTvz]{antorcha de aerosol}.</p>\n<p><strong>Qué pasa.</strong> Elías prepara el mate y el café acá, rengueando, y puede quedarse en la cocina si la mesa prefiere hablarle a solas. No ofrezcas los viales: Elías los menciona una vez y no vuelve a hacerlo. Que la presión de Somnia sobre las Piedras de Toque haga el trabajo. Quien se inyecte gana <button type=\"button\" class=\"dvv-baliza carne\" data-dvv-baliza=\"carne\" data-delta=\"2\" data-motivo=\"Inyectarse el Compuesto A\"><span class=\"dvv-baliza-delta\">+2 Carne</span><span class=\"dvv-baliza-motivo\">Inyectarse el Compuesto A</span></button> y esa noche sufre fiebre violenta, audición agudizada y moretones que cierran en horas.</p>\n<p><strong>Para el Narrador.</strong> Si alguien se inyecta delante de Elías, él no lo detiene, pero sale de la cocina y no habla en toda la noche. Al día siguiente le deja al PJ un termo de café y una frazada, sin decir nada.</p>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "piso-de-elias",
+          "sala": "Cocina",
+          "codigo": "C4"
+        }
+      }
+    },
+    {
+      "_id": "HLSf3HBRoG2PpcXg",
+      "_key": "!journal.pages!VhdEkVoa11J6FLVE.HLSf3HBRoG2PpcXg",
+      "name": "C5. Dormitorio",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>La puerta se traba a mitad de recorrido contra una pila de diarios. Una cama doble deshecha, con las sábanas grises y una sola almohada hundida. Un ropero barato con una puerta descolgada. En la mesa de luz, un cenicero lleno y una estampita quemada por un borde.</p>\n</section><p><strong>Qué hay.</strong> El único lugar del piso donde Elías no deja entrar a nadie. Debajo de la cama hay una caja de zapatos con fotos de la célula del garaje de Huelin: cuatro caras jóvenes y una mujer de anteojos con un soldador en la mano, Mara. En el estante alto del ropero, envuelta en una toalla, la pistola de bengalas con la que Elías le quemó la cara a @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} en el Acto 1, con dos cartuchos (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OJh3OkqAWt9hopa1]{bengala}). Encontrar la caja sin desordenar nada pide <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a>.</p>\n<p><strong>Qué pasa.</strong> Si Elías descubre a alguien revolviendo, se pone violento por primera vez: grita, empuja y después se queda sentado en la cama sin hablar. Si en cambio un PJ le pregunta por las fotos con respeto, Elías nombra a sus cuatro amigos uno por uno y cuenta cómo murió cada uno en la cripta. Es la mejor manera de que la mesa entienda la regla del amanecer.</p>\n<p><strong>Para el Narrador.</strong> Elías no duerme acá: duerme sentado en el sofá, mirando el corcho. La estampita quemada es de la noche en que los Heraldos se callaron.</p>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "piso-de-elias",
+          "sala": "Dormitorio",
+          "codigo": "C5"
+        }
+      }
+    },
+    {
+      "_id": "mTXxs3zYbvFo9CJu",
+      "_key": "!journal.pages!VhdEkVoa11J6FLVE.mTXxs3zYbvFo9CJu",
+      "name": "C6. Baño",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Azulejos verdes, juntas negras de humedad y una ducha con cortina de plástico rota. El espejo del lavabo está tapado con una toalla sujeta con cinta. Gotea una canilla, a ritmo de reloj.</p>\n</section><p><strong>Qué hay.</strong> El lugar donde los PJs pueden lavarse la sangre y el hollín del Acto 1. En el botiquín hay gasa, agujas de sutura, antisépticos y un frasco de somníferos sin abrir, vencido hace años: Elías no los toma porque no quiere dormir profundo. Con lo que hay, un PJ puede atender heridas superficiales con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>. La toalla que tapa el espejo esconde una costumbre: Elías revisa con él, cada noche, si hay &quot;algo&quot; detrás suyo en la habitación (@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Us4TeIQ579i0taLv]{espejo}).</p>\n<p><strong>Qué pasa.</strong> Es un buen lugar para escenas de a dos: el Guardia mirándose las manos que no paran de temblar, el Doctorando vomitando en silencio. Si un PJ se inyectó el Compuesto A, acá es donde pasa la fiebre de esa noche, bajo el agua fría, mientras escucha con espanto cada gota y cada paso del edificio.</p>\n<p><strong>Para el Narrador.</strong> Si alguien saca la toalla y se mira demasiado tiempo después de inyectarse, describile sus pupilas un poco más grandes de lo normal. No digas nada más.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "piso-de-elias",
+          "sala": "Baño",
+          "codigo": "C6"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

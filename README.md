@@ -131,6 +131,17 @@ npm run contenido                      # las fichas toman retrato y token si exi
 - Tras cada tirada el sistema emite `wod5e.handleFailure` con los dados de Desesperación; el
   módulo espera el mensaje de la tirada para saber de qué reserva vino y publica el recordatorio.
 
+## Salas y puntos de interés
+
+`content/salas/<escena>.md` describe cada habitación de una escena (una sección `# A1. Nombre
+{sala: Nombre del plano}` por habitación, con texto para leer, qué hay y qué pasa). El build
+genera un journal por escena, un **pin numerado** por sala en el mapa que abre su página, y los
+**tokens** de PNJ declarados en la línea `tokens: marcos, durmiente x6, dra-salas (oculto)`.
+
+`content/malaga/` tiene `pois.json` (puntos de interés con coordenadas), `geo.json` (escala del
+mapa, lo escribe `tools/malaga-mapa.mjs` al renderizar OpenStreetMap) y un Markdown por punto.
+El build genera la escena «Málaga» con un pin por punto y el journal de la ciudad.
+
 ## Marcadores en los Markdown de `content/`
 
 ```

@@ -1,0 +1,15 @@
+{
+  "bbox": {
+    "oeste": -4.49,
+    "este": -4.4,
+    "sur": 36.69,
+    "norte": 36.74
+  },
+  "ancho": 4016,
+  "alto": 2783,
+  "metrosPorPixel": 1.999807,
+  "proyeccion": "equirectangular",
+  "latMedia": 36.715,
+  "formula": "x = (lon - oeste) / (este - oeste) * ancho; y = (norte - lat) / (norte - sur) * alto",
+  "atribucion": "© OpenStreetMap contributors (ODbL)"
+}

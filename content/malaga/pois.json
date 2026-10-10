@@ -1,0 +1,233 @@
+{
+  "escena": {
+    "nombre": "Málaga",
+    "bbox": {
+      "oeste": -4.49,
+      "este": -4.4,
+      "sur": 36.69,
+      "norte": 36.74
+    }
+  },
+  "pois": [
+    {
+      "id": "somnia-biotech",
+      "nombre": "Somnia Biotech",
+      "tipo": "cronica",
+      "lat": 36.7246,
+      "lon": -4.4252,
+      "direccion": "Calle Carretería esquina Gaona, centro histórico",
+      "ficticio": true,
+      "icono": "icons/svg/hazard.svg",
+      "nota": "Ficticia. La planta nueva ocupa un edificio de oficinas reformado sobre Carretería; la planta vieja es el antiguo hospital de la orden, pegado al convento desconsagrado de la calle Gaona: la cripta conecta los dos."
+    },
+    {
+      "id": "piso-elias",
+      "nombre": "El piso de Elías",
+      "tipo": "refugio",
+      "lat": 36.7035,
+      "lon": -4.443,
+      "direccion": "Calle trasera a dos manzanas del Parque de Huelin",
+      "ficticio": true,
+      "icono": "icons/svg/house.svg",
+      "nota": "Ficticio; coordenada dentro del barrio de Huelin."
+    },
+    {
+      "id": "garaje-huelin",
+      "nombre": "El garaje de Huelin",
+      "tipo": "cronica",
+      "lat": 36.7012,
+      "lon": -4.4472,
+      "direccion": "Pasaje de cocheras junto a la Carretera de Cádiz, Huelin",
+      "ficticio": true,
+      "icono": "icons/svg/padlock.svg",
+      "nota": "Ficticio; Huelin oeste, cerca de la Carretera de Cádiz."
+    },
+    {
+      "id": "bar-huelin",
+      "nombre": "Bar Casa Paco",
+      "tipo": "servicios",
+      "lat": 36.7022,
+      "lon": -4.4448,
+      "direccion": "Esquina de la Plaza de Huelin",
+      "ficticio": true,
+      "icono": "icons/svg/coins.svg",
+      "nota": "Bar ficticio; la plaza y el barrio son reales, la coordenada es aproximada."
+    },
+    {
+      "id": "convento-desconsagrado",
+      "nombre": "El convento desconsagrado",
+      "tipo": "cronica",
+      "lat": 36.7238,
+      "lon": -4.4234,
+      "direccion": "Calle Gaona, entre Carretería y San Felipe Neri",
+      "ficticio": true,
+      "icono": "icons/svg/angel.svg",
+      "nota": "Ficticio; la calle Gaona y San Felipe Neri son reales, el edificio no."
+    },
+    {
+      "id": "laboratorio-salas",
+      "nombre": "Laboratorio satélite de Salas",
+      "tipo": "cronica",
+      "lat": 36.7315,
+      "lon": -4.4305,
+      "direccion": "Avenida de Martiricos, torre de oficinas junto al Guadalmedina",
+      "ficticio": true,
+      "icono": "icons/svg/city.svg",
+      "nota": "Ficticio; zona de oficinas de Martiricos, cerca de La Rosaleda. Coordenada aproximada."
+    },
+    {
+      "id": "hospital-clinico",
+      "nombre": "Hospital Clínico Universitario",
+      "tipo": "servicios",
+      "lat": 36.7185,
+      "lon": -4.4805,
+      "direccion": "Campus de Teatinos s/n",
+      "ficticio": false,
+      "icono": "icons/svg/blood.svg",
+      "nota": "Real. Coordenada aproximada (±300 m) dentro del Campus de Teatinos."
+    },
+    {
+      "id": "comisaria-provincial",
+      "nombre": "Comisaría Provincial de Policía Nacional",
+      "tipo": "peligro",
+      "lat": 36.713,
+      "lon": -4.438,
+      "direccion": "Plaza de Manuel Azaña, 3",
+      "ficticio": false,
+      "icono": "icons/svg/padlock.svg",
+      "nota": "Real, pero la coordenada es APROXIMADA (zona Perchel sur / Ayala); verificar antes de fijar el pin."
+    },
+    {
+      "id": "armeria-perchel",
+      "nombre": "Armería del Perchel",
+      "tipo": "compras",
+      "lat": 36.7163,
+      "lon": -4.4302,
+      "direccion": "Calle Hilera, El Perchel",
+      "ficticio": true,
+      "icono": "icons/svg/item-bag.svg",
+      "nota": "Nombre genérico (hay armerías reales en Málaga, no se usa ninguna); coordenada aproximada."
+    },
+    {
+      "id": "ferreteria-velazquez",
+      "nombre": "Ferretería Industrial Velázquez",
+      "tipo": "compras",
+      "lat": 36.7005,
+      "lon": -4.453,
+      "direccion": "Avenida de Velázquez (Carretera de Cádiz)",
+      "ficticio": true,
+      "icono": "icons/svg/item-bag.svg",
+      "nota": "Comercio genérico; la avenida es real, la coordenada es aproximada."
+    },
+    {
+      "id": "farmacia-guardia",
+      "nombre": "Farmacia de guardia de la Alameda",
+      "tipo": "servicios",
+      "lat": 36.718,
+      "lon": -4.4218,
+      "direccion": "Alameda Principal, esquina con calle Larios",
+      "ficticio": false,
+      "icono": "icons/svg/light.svg",
+      "nota": "Hay una farmacia 24 h histórica en este punto de la Alameda; verificar nombre y horario actuales. Coordenada buena."
+    },
+    {
+      "id": "cementerio-ingles",
+      "nombre": "Cementerio Inglés",
+      "tipo": "religion",
+      "lat": 36.7218,
+      "lon": -4.4094,
+      "direccion": "Avenida de Pries, 1",
+      "ficticio": false,
+      "icono": "icons/svg/oak.svg",
+      "nota": "Real. Coordenada buena."
+    },
+    {
+      "id": "gibralfaro",
+      "nombre": "Castillo de Gibralfaro",
+      "tipo": "investigacion",
+      "lat": 36.723,
+      "lon": -4.411,
+      "direccion": "Camino de Gibralfaro",
+      "ficticio": false,
+      "icono": "icons/svg/castle.svg",
+      "nota": "Real. Coordenada buena (castillo; la Alcazaba queda unos 300 m al suroeste)."
+    },
+    {
+      "id": "iglesia-santiago",
+      "nombre": "Iglesia de Santiago",
+      "tipo": "religion",
+      "lat": 36.7224,
+      "lon": -4.4185,
+      "direccion": "Calle Granada, 78",
+      "ficticio": false,
+      "icono": "icons/svg/holy-shield.svg",
+      "nota": "Real. Coordenada buena."
+    },
+    {
+      "id": "atarazanas",
+      "nombre": "Mercado de Atarazanas",
+      "tipo": "compras",
+      "lat": 36.7187,
+      "lon": -4.4245,
+      "direccion": "Calle Atarazanas, 10",
+      "ficticio": false,
+      "icono": "icons/svg/item-bag.svg",
+      "nota": "Real. Coordenada buena."
+    },
+    {
+      "id": "archivo-municipal",
+      "nombre": "Archivo Municipal",
+      "tipo": "investigacion",
+      "lat": 36.7176,
+      "lon": -4.424,
+      "direccion": "Alameda Principal, 23",
+      "ficticio": false,
+      "icono": "icons/svg/book.svg",
+      "nota": "Real. Coordenada aproximada (±100 m)."
+    },
+    {
+      "id": "muelle-uno",
+      "nombre": "Muelle Uno y el puerto",
+      "tipo": "compras",
+      "lat": 36.7175,
+      "lon": -4.4145,
+      "direccion": "Muelle Uno, Paseo del Parque",
+      "ficticio": false,
+      "icono": "icons/svg/anchor.svg",
+      "nota": "Real. Coordenada buena; incluye el Paseo del Parque al norte."
+    },
+    {
+      "id": "malagueta",
+      "nombre": "Playa de La Malagueta",
+      "tipo": "peligro",
+      "lat": 36.7192,
+      "lon": -4.4065,
+      "direccion": "Paseo Marítimo Pablo Ruiz Picasso",
+      "ficticio": false,
+      "icono": "icons/svg/light.svg",
+      "nota": "Real. Coordenada buena; la Farola queda al suroeste."
+    },
+    {
+      "id": "hostal-perchel",
+      "nombre": "Hostal Andalucía y locutorio",
+      "tipo": "refugio",
+      "lat": 36.712,
+      "lon": -4.434,
+      "direccion": "Explanada de la Estación, frente a María Zambrano",
+      "ficticio": true,
+      "icono": "icons/svg/door-exit.svg",
+      "nota": "Hostal y locutorio genéricos; la estación María Zambrano (real) está enfrente. Coordenada aproximada."
+    },
+    {
+      "id": "desguace-cadiz",
+      "nombre": "Desguace Hermanos Ruiz",
+      "tipo": "compras",
+      "lat": 36.6975,
+      "lon": -4.466,
+      "direccion": "Calle trasera de la Carretera de Cádiz, hacia la Misericordia",
+      "ficticio": true,
+      "icono": "icons/svg/item-bag.svg",
+      "nota": "Ficticio; zona de talleres al oeste de la Carretera de Cádiz. Coordenada aproximada."
+    }
+  ]
+}

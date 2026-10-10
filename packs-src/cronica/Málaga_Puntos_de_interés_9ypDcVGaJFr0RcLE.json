@@ -1,0 +1,542 @@
+{
+  "_id": "9ypDcVGaJFr0RcLE",
+  "_key": "!journal!9ypDcVGaJFr0RcLE",
+  "name": "Málaga — Puntos de interés",
+  "folder": "wLhwD4CLZ873vynb",
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/malaga"
+    }
+  },
+  "pages": [
+    {
+      "_id": "6a5ne6eoCXsCYedG",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.6a5ne6eoCXsCYedG",
+      "name": "Málaga",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Una ciudad de seiscientos mil habitantes que vive de cara al mar y de espaldas a lo que pasa de noche. Cruceros, terrazas y un centro histórico lleno de turistas; detrás, barrios obreros, polígonos y un campus universitario donde una clínica de ensayos del sueño alimenta a una vampira. Esta escena es el mapa de la Vigilia: la célula se mueve por acá para comprar, investigar, esconderse y preparar la bajada.</p>\n<h2>Cómo se mueve la célula</h2>\n<ul>\n<li><strong>A pie:</strong> el centro histórico se cruza en 15 minutos. Del centro a la Malagueta, 15; al Perchel y María Zambrano, 15; a Huelin, 30.</li>\n<li><strong>Metro:</strong> la Línea 1 une Atarazanas con Teatinos (el Clínico) en unos 20 minutos; la Línea 2 baja por Huelin y la Carretera de Cádiz. Funciona de 6:30 a 23:00 (más tarde los fines de semana) y está lleno de cámaras.</li>\n<li><strong>Autobús:</strong> la EMT llega a todo; de madrugada solo quedan las líneas nocturnas, cada 30-60 minutos.</li>\n<li><strong>Coche:</strong> de Huelin a Teatinos, 15 minutos; de Huelin al centro, 10; de Teatinos al centro, 15. Aparcar en el centro es imposible: el casco histórico es peatonal.</li>\n<li><strong>Taxi / VTC:</strong> rápido pero deja registro (la app, la tarjeta, la cara del conductor).</li>\n</ul>\n<h2>Los barrios</h2>\n<table>\n<thead>\n<tr>\n<th>Barrio</th>\n<th>Qué es para la crónica</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Teatinos</strong></td>\n<td>Campus universitario y hospital. Avenidas anchas, poca gente de noche: se ve quién vigila.</td>\n</tr>\n<tr>\n<td><strong>Huelin / Carretera de Cádiz</strong></td>\n<td>Barrio obrero junto al mar. El piso de Elías, el garaje de su célula, talleres y desguaces.</td>\n</tr>\n<tr>\n<td><strong>Centro histórico</strong></td>\n<td>Calles estrechas, iglesias, turistas. El convento desconsagrado en la calle Gaona.</td>\n</tr>\n<tr>\n<td><strong>Soho / Alameda</strong></td>\n<td>Archivo, farmacia, mercado. Bisagra entre el centro y el puerto.</td>\n</tr>\n<tr>\n<td><strong>El Perchel / La Trinidad</strong></td>\n<td>Barrios populares al otro lado del Guadalmedina. Armería, locutorios, hostales baratos, la Comisaría.</td>\n</tr>\n<tr>\n<td><strong>Martiricos</strong></td>\n<td>Torres de oficinas junto al río y La Rosaleda. El laboratorio satélite de Salas.</td>\n</tr>\n<tr>\n<td><strong>Puerto / Malagueta / Gibralfaro</strong></td>\n<td>Muelles, playa y el monte del castillo. Contrabando, vigilancia y amaneceres.</td>\n</tr>\n</tbody></table>\n<h2>Cómo opera Somnia en la ciudad</h2>\n<ul>\n<li><strong>Autos negros:</strong> sedanes y furgonetas oscuras de una empresa de &quot;seguridad corporativa&quot;. Los conducen @UUID[Actor.9iZfEE32ZgK1g9mi]{matones}; aparcan frente a las casas de las Piedras de Toque y no se esconden: quieren que se los vea.</li>\n<li><strong>Contactos en la policía:</strong> alguien en la Comisaría Provincial archiva las denuncias contra la clínica. Llamar al 091 con nombre real es avisarle a Somnia.</li>\n<li><strong>Gente adentro:</strong> @UUID[Actor.nSObabU1QRNcyMnw]{ghouls} trabajando de celadores, enfermeros y conductores de ambulancia. Conocen el Clínico, las urgencias y los turnos.</li>\n<li><strong>Dinero:</strong> los financistas pueden cortar créditos, comprar testigos y pagar a un estibador para que mire hacia otro lado.</li>\n<li><strong>De noche manda @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos}.</strong> De día, la clínica es solo una empresa: el sol es el mejor aliado de la célula.</li>\n</ul>\n<p><strong>Regla rápida de Peligro:</strong> cada visita a un punto marcado como <em>peligro</em>, cada compra en negro y cada vez que alguien usa su DNI real donde Somnia puede mirar, el Narrador puede sumar +1 Peligro (ver la sección &quot;Riesgo&quot; de cada lugar).</p>\n<h2>Puntos de interés</h2>\n<table>\n<thead>\n<tr>\n<th>Lugar</th>\n<th>Tipo</th>\n<th>Barrio</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Somnia Biotech</td>\n<td>crónica</td>\n<td>Centro (Carretería / Gaona)</td>\n</tr>\n<tr>\n<td>El piso de Elías</td>\n<td>refugio</td>\n<td>Huelin</td>\n</tr>\n<tr>\n<td>El garaje de Huelin</td>\n<td>crónica</td>\n<td>Huelin</td>\n</tr>\n<tr>\n<td>Bar Casa Paco</td>\n<td>servicios</td>\n<td>Huelin</td>\n</tr>\n<tr>\n<td>El convento desconsagrado</td>\n<td>crónica</td>\n<td>Centro histórico</td>\n</tr>\n<tr>\n<td>Laboratorio satélite de Salas</td>\n<td>crónica</td>\n<td>Martiricos</td>\n</tr>\n<tr>\n<td>Hospital Clínico Universitario</td>\n<td>servicios</td>\n<td>Teatinos</td>\n</tr>\n<tr>\n<td>Comisaría Provincial de Policía Nacional</td>\n<td>peligro</td>\n<td>Perchel sur</td>\n</tr>\n<tr>\n<td>Armería del Perchel</td>\n<td>compras</td>\n<td>El Perchel</td>\n</tr>\n<tr>\n<td>Ferretería Industrial Velázquez</td>\n<td>compras</td>\n<td>Carretera de Cádiz</td>\n</tr>\n<tr>\n<td>Farmacia de guardia de la Alameda</td>\n<td>servicios</td>\n<td>Centro / Alameda</td>\n</tr>\n<tr>\n<td>Cementerio Inglés</td>\n<td>religión</td>\n<td>Malagueta</td>\n</tr>\n<tr>\n<td>Castillo de Gibralfaro</td>\n<td>investigación</td>\n<td>Gibralfaro</td>\n</tr>\n<tr>\n<td>Iglesia de Santiago</td>\n<td>religión</td>\n<td>Centro histórico</td>\n</tr>\n<tr>\n<td>Mercado de Atarazanas</td>\n<td>compras</td>\n<td>Centro / Soho</td>\n</tr>\n<tr>\n<td>Archivo Municipal</td>\n<td>investigación</td>\n<td>Alameda</td>\n</tr>\n<tr>\n<td>Muelle Uno y el puerto</td>\n<td>compras</td>\n<td>Puerto</td>\n</tr>\n<tr>\n<td>Playa de La Malagueta</td>\n<td>peligro</td>\n<td>Malagueta</td>\n</tr>\n<tr>\n<td>Hostal Andalucía y locutorio</td>\n<td>refugio</td>\n<td>El Perchel (María Zambrano)</td>\n</tr>\n<tr>\n<td>Desguace Hermanos Ruiz</td>\n<td>compras</td>\n<td>Carretera de Cádiz</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p><strong>Para el Narrador:</strong> la Catedral, la Alcazaba y el Parque de Málaga no tienen página propia, pero están en el mapa; usalos como telón de fondo de persecuciones y citas.</p>\n</blockquote>\n"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tYEoGwG4ged58nEq",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.tYEoGwG4ged58nEq",
+      "name": "Somnia Biotech",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>cronica</strong> · Calle Carretería esquina Gaona, centro histórico · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Una clínica privada de ensayos del sueño en el borde del centro histórico, entre Carretería y la calle Gaona: cristal ahumado sobre una fachada del XIX, un cartel discreto que promete &quot;descanso reparador basado en evidencia&quot; y, pegado por detrás, el viejo convento desconsagrado. La planta vieja es el antiguo hospital de la orden; la cripta corre por debajo de los dos edificios. Por dentro, la planta nueva brilla; la planta vieja tiene su propio circuito eléctrico y su propio personal.</p>\n<h2>Quién hay</h2>\n<p>@UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} manda de noche; la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas} firma de día. Enfermeros y camilleros que son @UUID[Actor.nSObabU1QRNcyMnw]{ghouls}, @UUID[Actor.9iZfEE32ZgK1g9mi]{matones} en la garita y, en el ala de ensayos, los @UUID[Actor.62xFjZPXiec7OFTE]{durmientes}.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Vigilar desde la esquina de Carretería: horarios de turnos, matrículas de los autos negros. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Atención\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Atención</a></li>\n<li>Sacarle a un ex compañero de turno qué cambió desde el apagón. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.persuasion\" data-dificultad=\"3\" data-label=\"Carisma + Persuasión\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Persuasión</a></li>\n</ul>\n<h2>Riesgo</h2>\n<p>Cámaras en todo el perímetro y la caseta de seguridad tiene las fotos de la célula. +1 Peligro si alguien del Acto 1 se deja ver a menos de cien metros.</p>\n<h2>Para el Narrador</h2>\n<p>Una ambulancia sin luces sale a las tres de la mañana rumbo al centro. Quien la siga descubre adónde llevan a los durmientes que &quot;dan de alta&quot;.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "somnia-biotech",
+          "tipo": "cronica"
+        }
+      }
+    },
+    {
+      "_id": "taGqdILqin3gVyNO",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.taGqdILqin3gVyNO",
+      "name": "El piso de Elías",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>refugio</strong> · Calle trasera a dos manzanas del Parque de Huelin · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Un tercero sin ascensor en una calle trasera de Huelin, a dos manzanas del parque. La escalera huele a lejía y a guiso; el piso, a tabaco negro y humedad. Tres cerrojos, persianas siempre bajas y un corcho gigante con nueve años de fotos, recortes y planos de Somnia unidos por hilo rojo. Es el piso franco de la célula mientras dure la Vigilia.</p>\n<h2>Quién hay</h2>\n<p>@UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca}, casi siempre. La vecina del cuarto, Doña Remedios, viuda y chismosa, que vigila el rellano por la mirilla: &quot;Ese hombre no sale ni a por el pan, hijo&quot;.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Descanso y café. Una noche acá recupera daño superficial sin tirar.</li>\n<li>El cuaderno de Mara y los planos de la clínica: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación</a> para encontrar la ruta de mantenimiento que nadie vigila.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.9uIcOChKOVSuh3Nk]{Sal gruesa} y @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.6OkuLJdxFcV1qCkA]{agua bendita} para una Custodia improvisada.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Si la célula falla al seguir a Salas, @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} viene acá esa misma noche (ver Acto 2). Un auto negro aparcado dos noches seguidas en la esquina: +1 Peligro.</p>\n<h2>Para el Narrador</h2>\n<p>Los tres viales del Compuesto A están en el fondo de la heladera. No los muestres; dejá que alguien la abra buscando leche.</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "piso-elias",
+          "tipo": "refugio"
+        }
+      }
+    },
+    {
+      "_id": "Jtm28xDJqABX0pBZ",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.Jtm28xDJqABX0pBZ",
+      "name": "El garaje de Huelin",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>cronica</strong> · Pasaje de cocheras junto a la Carretera de Cádiz, Huelin · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Una cochera de persiana metálica en un pasaje de garajes junto a la Carretera de Cádiz. Hace nueve años fue el taller y cuartel de la célula de Elías: cinco cazadores, un banco de trabajo y demasiada confianza. Bajaron a la cripta sin un plan para el amanecer y solo volvió uno. La cochera sigue alquilada a nombre de un muerto; Elías la paga en efectivo y no la abre nunca.</p>\n<h2>Quién hay</h2>\n<p>Nadie. A veces el dueño de las cocheras, Antonio, jubilado de la Renfe, que cobra en mano y no pregunta: &quot;Mientras pague, como si guarda ahí un elefante&quot;.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>El banco de Mara: herramientas, soldador y piezas a medio montar. Sirve como taller para Artefactos y para armar un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.iNS97xZcTegauGWe]{lanzallamas casero}.</li>\n<li>Una caja con lo que quedó de la célula: @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Py5ozbh2UAqChiok]{una ballesta}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.RLoD9Mt78DqaqwVe]{virotes de plata} oxidados y fotos. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.occult\" data-dificultad=\"3\" data-label=\"Inteligencia + Ocultismo\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Ocultismo</a> para leer en esas notas qué salió mal.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Somnia sabe que el garaje existió. Abrir la persiana después de nueve años hace ruido: +1 Peligro si nadie vigila el pasaje.</p>\n<h2>Para el Narrador</h2>\n<p>Escena ideal para la Puerta del Taller. Si Elías acompaña, que no cruce el umbral.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "garaje-huelin",
+          "tipo": "cronica"
+        }
+      }
+    },
+    {
+      "_id": "CldMbiTko4XwkSQC",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.CldMbiTko4XwkSQC",
+      "name": "Bar Casa Paco",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>servicios</strong> · Esquina de la Plaza de Huelin · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Bar de barrio en una esquina de la Plaza de Huelin: barra de acero, televisión con el fútbol sin volumen, tostadas con tomate y café de máquina vieja. Abre a las seis para los que entran a trabajar y cierra cuando Paco se cansa. Es donde Elías toma su café cada mañana, siempre en la mesa del fondo, de espaldas a la pared.</p>\n<h2>Quién hay</h2>\n<p>Paco, el dueño, sesentón con delantal y memoria de elefante: &quot;¿Los amigos de Elías? Pues sentaos, que el café no se toma solo&quot;. Jubilados, albañiles y, de vez en cuando, @UUID[Actor.O2GuehcZV88rKsKt]{Elías}.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Un lugar público y seguro de día para reunirse.</li>\n<li>Rumores del barrio: quién pregunta por Elías, qué autos no son de acá. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.streetwise\" data-dificultad=\"2\" data-label=\"Carisma + Callejeo\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Callejeo</a></li>\n<li>Paco guarda un sobre o un bolso detrás de la barra si se lo piden bien.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Bajo. Pero si Somnia busca a Elías, empieza por acá: un @UUID[Actor.9iZfEE32ZgK1g9mi]{matón} de traje tomando un cortado que nadie conoce es la señal. +1 Peligro si la célula se pelea dentro.</p>\n<h2>Para el Narrador</h2>\n<p>Buen sitio para que Elías cuente algo que no quiere decir en su casa, &quot;por si hay micrófonos&quot;.</p>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "bar-huelin",
+          "tipo": "servicios"
+        }
+      }
+    },
+    {
+      "_id": "J09ygli2UDFEFeLv",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.J09ygli2UDFEFeLv",
+      "name": "El convento desconsagrado",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>cronica</strong> · Calle Gaona, entre Carretería y San Felipe Neri · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Un convento de clausura del siglo XVII en la calle Gaona, entre Carretería y San Felipe Neri. Lo desacralizaron hace décadas y hoy figura como &quot;espacio cultural en rehabilitación&quot;: capilla vacía, claustro con naranjos secos y un cartel de obra que no avanza. Una fundación vinculada a Somnia lo compró hace años. Debajo de la sacristía, una puerta de piedra baja a la cripta.</p>\n<h2>Quién hay</h2>\n<p>De día, Julián, el conserje de la fundación, que abre la capilla para visitas y exposiciones: &quot;Se puede pasar, pero no toquen nada, que esto es BIC&quot;. De noche, @UUID[Actor.nSObabU1QRNcyMnw]{ghouls}. En la cripta, @UUID[Actor.eBmvQ8uA5fSN65xZ]{Sor Anunciación}.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Visita legal de día (escena &quot;La Capilla, de Día&quot; del Acto 2). Quien rece a solas en el altar tira <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.resolve skills.occult\" data-dificultad=\"2\" data-label=\"Resolución + Convicción\"><i class=\"fa-solid fa-dice-d10\"></i> Resolución + Convicción</a>.</li>\n<li>Planos de la capilla y la sacristía: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Cámaras de la fundación en el portón. De noche, entrar sin plan es suicidio. +1 Peligro si alguien fuerza la puerta de piedra antes del Acto 3.</p>\n<h2>Para el Narrador</h2>\n<p>El Limpiador reconoce el olor a cera y piedra húmeda. Que lo diga en voz alta.</p>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "convento-desconsagrado",
+          "tipo": "cronica"
+        }
+      }
+    },
+    {
+      "_id": "5pgA3PZAb8wsp59B",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.5pgA3PZAb8wsp59B",
+      "name": "Laboratorio satélite de Salas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>cronica</strong> · Avenida de Martiricos, torre de oficinas junto al Guadalmedina · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Dos plantas alquiladas en una torre de oficinas de Martiricos, junto al Guadalmedina y a la sombra de La Rosaleda. En el buzón dice &quot;Somnia Biotech — Unidad de Análisis&quot;. Recepción compartida con una aseguradora y una academia de inglés, control de acceso con tarjeta, servidores propios en un cuarto refrigerado. La doctora viene dos veces por semana, siempre de noche.</p>\n<h2>Quién hay</h2>\n<p>La @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}, martes y viernes. Un vigilante de la torre, Rafa, que hace crucigramas: &quot;A estas horas no sube nadie sin tarjeta, ¿eh?&quot;. Un @UUID[Actor.9iZfEE32ZgK1g9mi]{matón} que la trae en auto negro y espera en el garaje.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Los cuadernos del Compuesto A y, con un crítico, la agenda de cirugías (escena &quot;Seguir a Salas&quot; del Acto 2).</li>\n<li>Entrar sin ser visto: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo</a>.</li>\n<li>Anular la alarma del cuarto de servidores: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Cámaras de la torre, registro de tarjetas y el matón en el garaje. Si los detectan, @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} visita el piso de Elías esa noche. +1 Peligro con cualquier fallo total.</p>\n<h2>Para el Narrador</h2>\n<p>Un partido nocturno en La Rosaleda llena la zona de policía y gente: cobertura perfecta o desastre.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "laboratorio-salas",
+          "tipo": "cronica"
+        }
+      }
+    },
+    {
+      "_id": "kPq5bFF40KlDLyjO",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.kPq5bFF40KlDLyjO",
+      "name": "Hospital Clínico Universitario",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>servicios</strong> · Campus de Teatinos s/n</p><h2>Qué es</h2>\n<p>El Hospital Clínico Virgen de la Victoria, en el Campus de Teatinos: un bloque enorme de hormigón con urgencias abiertas las 24 horas y un aparcamiento siempre lleno. Somnia queda a veinte minutos en coche, y no es casualidad que se conozcan: buena parte de los &quot;voluntarios&quot; de la clínica llegan derivados de sus consultas de trastornos del sueño, y más de un celador cobra por derivarlos.</p>\n<h2>Quién hay</h2>\n<p>Celadores, enfermeras de urgencias y Lucía Benítez, residente de neurología de tercer año, agotada y honesta: &quot;Tres pacientes míos se apuntaron a ese ensayo. Ninguno ha vuelto a revisión&quot;.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Urgencias: curar daño agravado o heridas que no se pueden explicar, a cambio de un parte médico. Mentir sobre el origen: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"3\" data-label=\"Manipulación + Subterfugio\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio</a>.</li>\n<li>Historias clínicas de @UUID[Actor.62xFjZPXiec7OFTE]{durmientes} derivados a Somnia: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"3\" data-label=\"Inteligencia + Medicina\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Una herida de bala o una quemadura grave obliga al hospital a avisar a la policía. Un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} trabaja de celador en el turno de noche. +1 Peligro si un PJ entra con su nombre real.</p>\n<h2>Para el Narrador</h2>\n<p>Buen escenario para el Epílogo del Limpiador: el pasillo de un hospital público, el polvo suspendido, los Heraldos.</p>\n"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "hospital-clinico",
+          "tipo": "servicios"
+        }
+      }
+    },
+    {
+      "_id": "10x4h3vmAfug0Ufl",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.10x4h3vmAfug0Ufl",
+      "name": "Comisaría Provincial de Policía Nacional",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>peligro</strong> · Plaza de Manuel Azaña, 3</p><h2>Qué es</h2>\n<p>La Comisaría Provincial, en la plaza de Manuel Azaña: un edificio institucional con furgones aparcados en doble fila y la bandera en la puerta. Acá se tramitan denuncias, DNI y pasaportes. Para una célula de cazadores es territorio enemigo: Elías ya les dijo que la policía no es una opción.</p>\n<h2>Quién hay</h2>\n<p>El agente de la puerta, el subinspector Gálvez, de Homicidios, que tiene sobre la mesa dos desapariciones de pacientes de Somnia y una orden de arriba de no tocarlas: &quot;Esto viene de muy arriba, chaval. Yo no te he visto&quot;.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Averiguar qué denuncias hay contra la clínica y quién las archivó: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.persuasion\" data-dificultad=\"3\" data-label=\"Manipulación + Persuasión\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Persuasión</a> con Gálvez.</li>\n<li>Saber si la policía busca a algún PJ: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.streetwise\" data-dificultad=\"2\" data-label=\"Astucia + Callejeo\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Callejeo</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Alto. Somnia tiene contactos en la policía: denunciar con nombre real es poner a la Piedra de Toque en una lista. Entrar con un arma oculta y que la detecte el arco de seguridad es una noche en el calabozo. +1 Peligro por cada visita.</p>\n<h2>Para el Narrador</h2>\n<p>Gálvez puede ser un aliado futuro, si sobrevive a sus jefes.</p>\n"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "comisaria-provincial",
+          "tipo": "peligro"
+        }
+      }
+    },
+    {
+      "_id": "kIBXorGN2R2oW4My",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.kIBXorGN2R2oW4My",
+      "name": "Armería del Perchel",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>compras</strong> · Calle Hilera, El Perchel · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Una armería de toda la vida en El Perchel: escaparate con cuchillos de monte, carabinas de aire comprimido y un cartel de &quot;Licencias D y E — Tramitamos&quot;. Huele a aceite de armas y a cuero. En España no se compra una pistola en el mostrador: hace falta licencia, guía de pertenencia y semanas de papeleo.</p>\n<h2>Quién hay</h2>\n<p>Don Manuel Ortega, armero de tercera generación, bigote cano y ojo clínico: &quot;Sin licencia, lo único que te llevas de aquí es un cuchillo y un consejo&quot;.</p>\n<h2>Qué se consigue</h2>\n<p>Horario: 10-14 y 17-20,30, cerrado domingos.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ECrwLZYDlZRuqKHd]{Cuchillos de monte} y @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.cdeuZf80iKLfhZ5o]{machetes}: 1 Recurso, sin papeles (mayor de edad).</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Py5ozbh2UAqChiok]{Ballesta}: 2 Recursos, con DNI.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.GwXtVmxTMvt2GXhM]{Escopeta}: 2 Recursos, exige licencia E y guía. @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.MssfRH2Ko2amj8Zw]{Rifle de caza}: 2 Recursos, licencia D.</li>\n<li>Spray de pimienta, linternas tácticas, chalecos de caza: 1 Recurso.</li>\n<li>Convencer a Ortega de que &quot;le guarde&quot; una escopeta a alguien con licencia: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.persuasion\" data-dificultad=\"4\" data-label=\"Manipulación + Persuasión\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Persuasión</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Cámara en la puerta y registro de ventas. Comprar con nombre real deja rastro que Somnia puede consultar. +1 Peligro si alguien pregunta por munición de plata.</p>\n<h2>Para el Narrador</h2>\n<p>Ortega caza en la Serranía y cuenta de &quot;lobos&quot; que no eran lobos. Sabe más de lo que admite.</p>\n"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "armeria-perchel",
+          "tipo": "compras"
+        }
+      }
+    },
+    {
+      "_id": "jypJJmv0RQHRaXIS",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.jypJJmv0RQHRaXIS",
+      "name": "Ferretería Industrial Velázquez",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>compras</strong> · Avenida de Velázquez (Carretera de Cádiz) · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Una ferretería grande en la Avenida de Velázquez, con almacén al fondo, carretillas y mostrador de profesionales. Abastece a los talleres y obras de la Carretera de Cádiz. Venden de todo y no preguntan nada, siempre que pagues.</p>\n<h2>Quién hay</h2>\n<p>Encarni, la encargada, eficiente y con prisa: &quot;¿Factura o ticket? Que tengo cola&quot;. Dos dependientes jóvenes que reponen y un albañil siempre discutiendo un precio.</p>\n<h2>Qué se consigue</h2>\n<p>Horario: 8-14 y 16,30-20, sábados por la mañana. Sin DNI.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ZNBhG8seVR7fKwja]{Llaves cruz y barras}, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.cdeuZf80iKLfhZ5o]{machetes y hachas de mano}: 1 Recurso.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Wb2JGFSZgDzJoTGc]{Hacha de leñador} o @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.bMsapEWIOzFwTvbc]{maza}: 2 Recursos.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.sCNBbRM2Du1IwT4T]{Motosierra}: 2 Recursos.</li>\n<li>Soplete, bombonas y aerosoles para un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.iNS97xZcTegauGWe]{lanzallamas casero}: 1 Recurso.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OTQUuLhfGodusCKF]{Estacas de madera y martillo}, cadenas, @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.9uIcOChKOVSuh3Nk]{sacos de sal gruesa}: sin coste.</li>\n<li>Armar algo útil con lo comprado: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.craft\" data-dificultad=\"2\" data-label=\"Inteligencia + Artesanía\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Artesanía</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Bajo. Pero comprar soplete, garrafas, cadenas y estacas en la misma visita es una lista rara: si Encarni se acuerda de la cara, la policía también. +1 Peligro si pagan con tarjeta.</p>\n<h2>Para el Narrador</h2>\n<p>Escena de compras rápida y cómica que sirve de respiro antes del Acto 3.</p>\n"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "ferreteria-velazquez",
+          "tipo": "compras"
+        }
+      }
+    },
+    {
+      "_id": "6To8Yw00K4z0Y2ac",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.6To8Yw00K4z0Y2ac",
+      "name": "Farmacia de guardia de la Alameda",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>servicios</strong> · Alameda Principal, esquina con calle Larios</p><h2>Qué es</h2>\n<p>La farmacia de la Alameda Principal, en la boca de calle Larios, abierta las 24 horas desde hace generaciones. De noche se atiende por una ventanilla blindada con timbre; la cruz verde parpadea sobre una acera llena de turistas y repartidores.</p>\n<h2>Quién hay</h2>\n<p>Carmen Ruiz, farmacéutica del turno de noche, cincuentona, gafas en la punta de la nariz: &quot;Sin receta no te puedo dar eso, cariño. Te doy gasas y agua oxigenada, que es lo que necesitas&quot;.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Botiquín completo, vendas, suero, analgésicos: sin coste relevante, sin DNI.</li>\n<li>Jeringas, agujas y material de curas: 1 Recurso.</li>\n<li>Sedantes, antibióticos fuertes o anticoagulantes requieren receta. Conseguirlos sin ella: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"3\" data-label=\"Manipulación + Subterfugio\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio</a> o <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.medicine\" data-dificultad=\"3\" data-label=\"Carisma + Medicina\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Medicina</a> si alguien sabe de qué habla.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Cámara sobre la ventanilla. Comprar material de curas de madrugada con sangre en la ropa es exactamente lo que Carmen recuerda. +1 Peligro si un PJ herido se presenta en persona.</p>\n<h2>Para el Narrador</h2>\n<p>Una noche, Carmen menciona a un cliente fijo con fiebre que compra vendas a diario: una @UUID[Actor.UpZ0DCdeSgMIlyXC]{quimera suelta}.</p>\n"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "farmacia-guardia",
+          "tipo": "servicios"
+        }
+      }
+    },
+    {
+      "_id": "oRyUrlX9QmHYqC76",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.oRyUrlX9QmHYqC76",
+      "name": "Cementerio Inglés",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>religion</strong> · Avenida de Pries, 1</p><h2>Qué es</h2>\n<p>El cementerio protestante más antiguo de España, en la Avenida de Pries, al pie de Gibralfaro. Tumbas de marineros, cónsules y poetas entre cipreses, geranios y gatos. Cierra al atardecer, pero sus tapias son bajas en el lado de la ladera. Tierra consagrada, aunque no católica: Sor Anunciación la desprecia.</p>\n<h2>Quién hay</h2>\n<p>De día, Mr. Alan Hughes, voluntario británico jubilado que hace las visitas guiadas: &quot;Most of them died of fever, you know. Muchos de fiebre&quot;. De noche, gatos y silencio.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Un lugar tranquilo para reunirse lejos de cámaras de calle.</li>\n<li>Tierra sagrada: pasar la noche aquí da a un PJ creyente +1 dado a una tirada de Resolución + Convicción al día siguiente.</li>\n<li>Rastrear una tumba sin nombre de nueve años atrás (alguien enterró algo de la célula de Elías): <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"3\" data-label=\"Astucia + Investigación\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Saltar la tapia de noche es allanamiento. La patrulla de la Policía Local pasa por la avenida cada hora. +1 Peligro si los encuentran dentro.</p>\n<h2>Para el Narrador</h2>\n<p>Escenario ideal para el funeral de Elías, si muere en el Acto 3.</p>\n"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "cementerio-ingles",
+          "tipo": "religion"
+        }
+      }
+    },
+    {
+      "_id": "ZBftBSLCqtzf3fsf",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.ZBftBSLCqtzf3fsf",
+      "name": "Castillo de Gibralfaro",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>investigacion</strong> · Camino de Gibralfaro</p><h2>Qué es</h2>\n<p>La fortaleza nazarí que corona el monte sobre la Alcazaba. Desde sus murallas y el mirador del camino se ve toda Málaga: el puerto, la Malagueta, el centro histórico y, al fondo, las luces de Teatinos. El camino de subida es empinado, de piedra y pinos, y de noche se queda casi vacío. Es el punto más alto de la ciudad: perfecto para mirar y para que te vean.</p>\n<h2>Quién hay</h2>\n<p>De día, turistas y la taquillera, Rocío, que cierra puntual: &quot;Se cierra a las ocho, ¿eh? Luego no os quejéis&quot;. De noche, parejas en el mirador y algún corredor.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Vigilancia: con prismáticos se distinguen los tejados de la calle Gaona y quién entra al convento. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Atención\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Atención</a>.</li>\n<li>Un punto de encuentro con salidas por tres caminos distintos.</li>\n<li>Ver amanecer: el horizonte del este es el primero en encenderse. Saber cuántos minutos faltan para el sol no es poca cosa.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Aislado de noche: si un @UUID[Actor.yWZmWOJ2RbCdY4Dq]{vampiro} los sigue hasta aquí, nadie oye nada. La bajada a oscuras exige <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.athletics\" data-dificultad=\"2\" data-label=\"Destreza + Atletismo\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Atletismo</a> si se corre. +1 Peligro si se quedan pasada la medianoche.</p>\n<h2>Para el Narrador</h2>\n<p>Escena de calma antes del Acto 3: la célula mirando la ciudad, contando las horas hasta el amanecer.</p>\n"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "gibralfaro",
+          "tipo": "investigacion"
+        }
+      }
+    },
+    {
+      "_id": "J6wP2jmHGVC6LMvH",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.J6wP2jmHGVC6LMvH",
+      "name": "Iglesia de Santiago",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>religion</strong> · Calle Granada, 78</p><h2>Qué es</h2>\n<p>Una de las parroquias más antiguas de Málaga, en la calle Granada, con torre mudéjar de ladrillo y la pila donde bautizaron a Picasso. Por dentro, dorados, cera y penumbra. Cierra al público por la noche, pero el párroco vive al lado y abre la puerta lateral a quien llama con suficiente desesperación.</p>\n<h2>Quién hay</h2>\n<p>El padre Ignacio Llamas, sesenta y tantos, ex misionero, insomne: &quot;No sé de qué huyes, hijo, pero aquí dentro no te va a pasar nada. O eso dice el jefe&quot;. Doña Pura, la sacristana, que lo regaña por abrir a deshoras.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.6OkuLJdxFcV1qCkA]{Agua bendita}: sin coste, con buena cara. Llenar botellas a escondidas de la pila: sin tirada, pero Doña Pura mira.</li>\n<li>Refugio de una noche en la sacristía: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.persuasion\" data-dificultad=\"2\" data-label=\"Carisma + Persuasión\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Persuasión</a>.</li>\n<li>Archivo parroquial: noticias del convento de la calle Gaona y de su priora. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.academics\" data-dificultad=\"3\" data-label=\"Inteligencia + Academicismo\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Academicismo</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Bajo. La calle Granada está llena de gente y cámaras de comercios. +1 Peligro si se pelea dentro: el padre Ignacio llamará a la policía.</p>\n<h2>Para el Narrador</h2>\n<p>El padre Ignacio puede escuchar en confesión lo que la célula no se anima a decirse. Buena escena para cargar Fe.</p>\n"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "iglesia-santiago",
+          "tipo": "religion"
+        }
+      }
+    },
+    {
+      "_id": "biInG8ACyTapiOBN",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.biInG8ACyTapiOBN",
+      "name": "Mercado de Atarazanas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>compras</strong> · Calle Atarazanas, 10</p><h2>Qué es</h2>\n<p>El mercado central de Málaga, en un antiguo astillero nazarí con su arco de herradura y una vidriera enorme. Pescado, carne, especias, aceitunas y ruido. Abre de mañana y a la una ya están baldeando el suelo. Alrededor, bares de desayuno y tiendas de todo.</p>\n<h2>Quién hay</h2>\n<p>Pepe &quot;el Carnicero&quot;, puesto 14, manos como palas y humor negro: &quot;¿Sangre de cerdo? Para morcillas te la doy; para lo otro no quiero saberlo&quot;. Turistas sacando fotos a los boquerones.</p>\n<h2>Qué se consigue</h2>\n<p>Horario: lunes a sábado, 8-14.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ECrwLZYDlZRuqKHd]{Cuchillos de carnicero} y ganchos: 1 Recurso, sin DNI.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.9uIcOChKOVSuh3Nk]{Sal gruesa} en sacos, ajos, especias: sin coste.</li>\n<li>Sangre animal fresca (para cebos o para engañar a un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul}): un favor de Pepe. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.streetwise\" data-dificultad=\"2\" data-label=\"Carisma + Callejeo\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Callejeo</a>.</li>\n<li>Información del puerto y del centro: los mayoristas lo saben todo.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Muchas cámaras y muchos ojos, pero nadie mira a nadie. Mínimo: +1 Peligro solo si se arma una pelea en el mercado.</p>\n<h2>Para el Narrador</h2>\n<p>Un @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente} dado de alta trabaja descargando cajas en la puerta trasera: escena &quot;El Durmiente Dado de Alta&quot; del Acto 2.</p>\n"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "atarazanas",
+          "tipo": "compras"
+        }
+      }
+    },
+    {
+      "_id": "paaJdEG9XB9z5X2N",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.paaJdEG9XB9z5X2N",
+      "name": "Archivo Municipal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>investigacion</strong> · Alameda Principal, 23</p><h2>Qué es</h2>\n<p>El Archivo Municipal de Málaga, en un palacete de la Alameda Principal: escaleras de mármol, sala de consulta con flexos verdes, legajos, planos históricos y la hemeroteca en microfilm. Silencioso, con aire acondicionado y wifi público: el mejor sitio de la ciudad para investigar sin dejar búsquedas en el celular propio.</p>\n<h2>Quién hay</h2>\n<p>Begoña Cifuentes, archivera, minuciosa y curiosa: &quot;Para el expediente de obra necesito el DNI y el motivo de la consulta. &#39;Curiosidad&#39; no me vale, ¿eh?&quot;.</p>\n<h2>Qué se consigue</h2>\n<p>Horario: lunes a viernes, mañanas. DNI para pedir legajos.</p>\n<ul>\n<li>Historia del convento de la calle Gaona, su desamortización y la fundación que lo compró: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.academics\" data-dificultad=\"3\" data-label=\"Inteligencia + Academicismo\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Academicismo</a>.</li>\n<li>Licencias de obra de Somnia y de la &quot;rehabilitación&quot; del convento, con los nombres de los financistas: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.finance\" data-dificultad=\"3\" data-label=\"Inteligencia + Finanzas\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Finanzas</a>.</li>\n<li>Prensa de hace nueve años: cuatro vecinos de Huelin desaparecidos la misma noche, &quot;un ajuste de cuentas&quot;, según el periódico. <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.resolve skills.investigation\" data-dificultad=\"2\" data-label=\"Resolución + Investigación\"><i class=\"fa-solid fa-dice-d10\"></i> Resolución + Investigación</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>El DNI queda registrado. Si alguien pide los mismos legajos que la fundación de Somnia, Begoña lo comenta. +1 Peligro si piden el expediente del convento con nombre real.</p>\n<h2>Para el Narrador</h2>\n<p>Una ficha de préstamo revela que la Dra. Salas consultó los mismos planos hace un año.</p>\n"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "archivo-municipal",
+          "tipo": "investigacion"
+        }
+      }
+    },
+    {
+      "_id": "5DECGf999anMY4HG",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.5DECGf999anMY4HG",
+      "name": "Muelle Uno y el puerto",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>compras</strong> · Muelle Uno, Paseo del Parque</p><h2>Qué es</h2>\n<p>El paseo comercial del puerto, junto a la pérgola blanca del Palmeral de las Sorpresas, con tiendas, terrazas y el Cubo del Pompidou. Al norte, el Paseo del Parque con sus ficus gigantes. Más allá de las vallas, el puerto real: contenedores, grúas, ferris a Melilla y cruceros. De noche, el paseo se vacía y los muelles de carga siguen trabajando.</p>\n<h2>Quién hay</h2>\n<p>Joaquín, estibador y contrabandista menor, que vende lo que &quot;se cae&quot; de los contenedores: &quot;Aquí no hay nada, ¿vale? Y si hay, cuesta el doble&quot;. Una tienda náutica en el puerto deportivo y guardias de seguridad privada aburridos.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OJh3OkqAWt9hopa1]{Bengalas de mano y pistola de bengalas} en la tienda náutica: 1 Recurso, sin licencia.</li>\n<li>Con Joaquín, en negro: @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.C9FmdnppITizz2QD]{pistola pesada} (2 Recursos), @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.u0aSGOOp7pCJDisy]{táser} (1 Recurso, prohibido en España), @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.BtuHnLgSb58HsLc6]{munición incendiaria} (3 Recursos). Ganarse su confianza: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.streetwise\" data-dificultad=\"3\" data-label=\"Manipulación + Callejeo\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Callejeo</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>La Guardia Civil y la seguridad portuaria patrullan los muelles de carga. Ser pillado con un arma de contrabando es cárcel. +1 Peligro por cada compra en negro.</p>\n<h2>Para el Narrador</h2>\n<p>Joaquín también le vende a Somnia. Si la célula le paga bien, puede contar qué cajas recibe la clínica.</p>\n"
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "muelle-uno",
+          "tipo": "compras"
+        }
+      }
+    },
+    {
+      "_id": "rO9TxQCGNXGO5MqJ",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.rO9TxQCGNXGO5MqJ",
+      "name": "Playa de La Malagueta",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>peligro</strong> · Paseo Marítimo Pablo Ruiz Picasso</p><h2>Qué es</h2>\n<p>La playa urbana a dos pasos del centro, entre el puerto y los edificios altos del paseo marítimo. De día, toallas y chiringuitos con espetos. De noche, arena oscura, la Farola girando y el rumor del mar tapando cualquier grito. Las letras gigantes de &quot;Malagueta&quot; son punto de encuentro hasta de madrugada.</p>\n<h2>Quién hay</h2>\n<p>Turistas trasnochados, un vendedor de latas que va y viene, y Sebas, el vigilante del chiringuito El Espeto, que duerme en una hamaca: &quot;Yo no he visto nada, como siempre&quot;.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Un sitio abierto, sin techos ni sombras donde esconderse: si hay que negociar con alguien peligroso, aquí se ve venir.</li>\n<li>Ver el amanecer sobre el mar: el sol sale de frente.</li>\n<li>Vigilar el puerto: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Atención\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Atención</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>De noche, la playa es territorio de la @UUID[Actor.UpZ0DCdeSgMIlyXC]{quimera suelta}: duerme bajo las pasarelas, hambrienta. La policía local hace batidas por botellones. +1 Peligro si pasan de las dos de la mañana en la arena.</p>\n<h2>Para el Narrador</h2>\n<p>Escenario del primer encuentro con una quimera: un hombre con fiebre metido en el agua hasta la cintura, de noche, en octubre.</p>\n"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "malagueta",
+          "tipo": "peligro"
+        }
+      }
+    },
+    {
+      "_id": "pv4EdjdoMhyMhbPi",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.pv4EdjdoMhyMhbPi",
+      "name": "Hostal Andalucía y locutorio",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>refugio</strong> · Explanada de la Estación, frente a María Zambrano · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Un hostal de una estrella frente a la estación María Zambrano, encima de un locutorio con cabinas, envíos de dinero y celulares de segunda mano. Habitaciones con lavabo, cortinas finas y un ventilador ruidoso. Se paga en efectivo y por noche. Desde la puerta se llega a la estación (AVE, cercanías, autobuses al aeropuerto) en dos minutos.</p>\n<h2>Quién hay</h2>\n<p>Doña Concha, la dueña, que fuma en la recepción: &quot;Aquí no se pregunta, cariño, pero se paga por adelantado&quot;. Abajo, Karim, el del locutorio, que libera celulares y no anota nada.</p>\n<h2>Qué se consigue</h2>\n<ul>\n<li>Habitación sin preguntas: 1 Recurso por semana. Piden DNI; dar uno falso o &quot;olvidarlo&quot;: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio</a>.</li>\n<li>Celulares descartables con tarjeta prepago: 1 Recurso por tres. En España la tarjeta exige DNI; Karim tiene &quot;unas cuantas ya registradas&quot;.</li>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Us4TeIQ579i0taLv]{Grabadoras y cámaras de segunda mano}: 1 Recurso.</li>\n<li>Ruta de huida: tren o autobús a otra ciudad en minutos.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>La estación está llena de cámaras y de policía. El hostal, no. +1 Peligro si un PJ usa su DNI real en la recepción.</p>\n<h2>Para el Narrador</h2>\n<p>Escondite perfecto para una Piedra de Toque mientras dura la Vigilia.</p>\n"
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "hostal-perchel",
+          "tipo": "refugio"
+        }
+      }
+    },
+    {
+      "_id": "PmYmKo8M1WM3kLps",
+      "_key": "!journal.pages!9ypDcVGaJFr0RcLE.PmYmKo8M1WM3kLps",
+      "name": "Desguace Hermanos Ruiz",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p class=\"dvv-ficha-poi\"><strong>compras</strong> · Calle trasera de la Carretera de Cádiz, hacia la Misericordia · <em>lugar ficticio de la crónica</em></p><h2>Qué es</h2>\n<p>Un desguace y chatarrería al final de una calle de talleres, cerca de la Misericordia, al oeste de la Carretera de Cádiz. Pilas de coches aplastados, un perro atado, una grúa oxidada y un portón de chapa con candado. Venden piezas sueltas y coches &quot;para piezas&quot; que a veces arrancan.</p>\n<h2>Quién hay</h2>\n<p>Los hermanos Ruiz: Juanma, que negocia, y Chico, que no habla y arregla motores. &quot;Aquí todo se paga en efectivo, quillo, y lo que no está en el libro no existe&quot;.</p>\n<h2>Qué se consigue</h2>\n<p>Horario: 9-14 y 16-19, cerrado domingos. Sin DNI.</p>\n<ul>\n<li>@UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.ZNBhG8seVR7fKwja]{Llaves cruz, barras y cadenas}: sin coste.</li>\n<li>Garrafas de gasoil y botellas para @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{molotovs}: 1 Recurso.</li>\n<li>Un coche viejo sin papeles en regla para una noche: 2 Recursos. Que arranque cuando haga falta: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.drive\" data-dificultad=\"2\" data-label=\"Inteligencia + Conducción\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Conducción</a>.</li>\n<li>Chapa y piezas para blindar algo o montar un Artefacto: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.craft\" data-dificultad=\"3\" data-label=\"Destreza + Artesanía\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Artesanía</a>.</li>\n</ul>\n<h2>Riesgo</h2>\n<p>Bajo, salvo que el coche aparezca en un control. La Guardia Civil revisa el desguace cada tanto por robos de catalizadores. +1 Peligro si el coche &quot;prestado&quot; queda grabado cerca de Somnia.</p>\n<h2>Para el Narrador</h2>\n<p>Chico encontró hace nueve años un coche quemado con símbolos pintados en el capó. Todavía lo tiene.</p>\n"
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "poi",
+          "poi": "desguace-cadiz",
+          "tipo": "compras"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

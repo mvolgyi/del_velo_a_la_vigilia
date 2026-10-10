@@ -1,0 +1,828 @@
+{
+  "_id": "n2z0loJi3vcGR6r7",
+  "_key": "!scenes!n2z0loJi3vcGR6r7",
+  "name": "Málaga",
+  "folder": "jO7QZOk0HboPNns0",
+  "navigation": true,
+  "navOrder": 0,
+  "width": 4016,
+  "height": 2783,
+  "padding": 0,
+  "grid": {
+    "type": 0,
+    "size": 50,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 100,
+    "units": "m"
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "environment": {
+    "darknessLevel": 0.15,
+    "globalLight": {
+      "enabled": true
+    }
+  },
+  "levels": [
+    {
+      "_id": "9Q7czZBZvv6ItXnR",
+      "name": "Ciudad",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/malaga.webp",
+        "color": "#0b0d10"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!n2z0loJi3vcGR6r7.9Q7czZBZvv6ItXnR"
+    }
+  ],
+  "walls": [],
+  "lights": [],
+  "regions": [],
+  "tokens": [],
+  "notes": [
+    {
+      "_id": "yELyDy3cxslT6dQQ",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "tYEoGwG4ged58nEq",
+      "x": 2892,
+      "y": 857,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/hazard.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Somnia Biotech",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "somnia-biotech",
+          "tipo": "cronica"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.yELyDy3cxslT6dQQ"
+    },
+    {
+      "_id": "YZvueZL9OJjjt5EQ",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "taGqdILqin3gVyNO",
+      "x": 2097,
+      "y": 2032,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/house.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "El piso de Elías",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "piso-elias",
+          "tipo": "refugio"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.YZvueZL9OJjjt5EQ"
+    },
+    {
+      "_id": "b9Pv1ZjEH98tDZbI",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "Jtm28xDJqABX0pBZ",
+      "x": 1910,
+      "y": 2160,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "El garaje de Huelin",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "garaje-huelin",
+          "tipo": "cronica"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.b9Pv1ZjEH98tDZbI"
+    },
+    {
+      "_id": "1sfJwOcpmuywygM7",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "CldMbiTko4XwkSQC",
+      "x": 2017,
+      "y": 2104,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/coins.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Bar Casa Paco",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "bar-huelin",
+          "tipo": "servicios"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.1sfJwOcpmuywygM7"
+    },
+    {
+      "_id": "qQ33BjCyDR7w7bhE",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "J09ygli2UDFEFeLv",
+      "x": 2972,
+      "y": 902,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/angel.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "El convento desconsagrado",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "convento-desconsagrado",
+          "tipo": "cronica"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.qQ33BjCyDR7w7bhE"
+    },
+    {
+      "_id": "rIiIzA30YlBt3h4F",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "5pgA3PZAb8wsp59B",
+      "x": 2655,
+      "y": 473,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/city.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Laboratorio satélite de Salas",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "laboratorio-salas",
+          "tipo": "cronica"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.rIiIzA30YlBt3h4F"
+    },
+    {
+      "_id": "0p52e3u9V0s207Np",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "kPq5bFF40KlDLyjO",
+      "x": 424,
+      "y": 1197,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/blood.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Hospital Clínico Universitario",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "hospital-clinico",
+          "tipo": "servicios"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.0p52e3u9V0s207Np"
+    },
+    {
+      "_id": "BU7tYdDfU8U1KxtU",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "10x4h3vmAfug0Ufl",
+      "x": 2320,
+      "y": 1503,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Comisaría Provincial de Policía Nacional",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "comisaria-provincial",
+          "tipo": "peligro"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.BU7tYdDfU8U1KxtU"
+    },
+    {
+      "_id": "CSDSxBxERj9CeQoK",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "kIBXorGN2R2oW4My",
+      "x": 2668,
+      "y": 1319,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/item-bag.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Armería del Perchel",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "armeria-perchel",
+          "tipo": "compras"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.CSDSxBxERj9CeQoK"
+    },
+    {
+      "_id": "OFvZHZFSWvK32MeF",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "jypJJmv0RQHRaXIS",
+      "x": 1651,
+      "y": 2199,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/item-bag.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Ferretería Industrial Velázquez",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "ferreteria-velazquez",
+          "tipo": "compras"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.OFvZHZFSWvK32MeF"
+    },
+    {
+      "_id": "l4Zx2GUpRT6p3tok",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "6To8Yw00K4z0Y2ac",
+      "x": 3043,
+      "y": 1225,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/light.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Farmacia de guardia de la Alameda",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "farmacia-guardia",
+          "tipo": "servicios"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.l4Zx2GUpRT6p3tok"
+    },
+    {
+      "_id": "QqVWQPXDDA7IMHzu",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "oRyUrlX9QmHYqC76",
+      "x": 3597,
+      "y": 1013,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/oak.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Cementerio Inglés",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "cementerio-ingles",
+          "tipo": "religion"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.QqVWQPXDDA7IMHzu"
+    },
+    {
+      "_id": "v9huTpZFJ7U5jthu",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "ZBftBSLCqtzf3fsf",
+      "x": 3525,
+      "y": 946,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/castle.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Castillo de Gibralfaro",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "gibralfaro",
+          "tipo": "investigacion"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.v9huTpZFJ7U5jthu"
+    },
+    {
+      "_id": "8QsPH6Ty7LgEridv",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "J6wP2jmHGVC6LMvH",
+      "x": 3190,
+      "y": 980,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/holy-shield.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Iglesia de Santiago",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "iglesia-santiago",
+          "tipo": "religion"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.8QsPH6Ty7LgEridv"
+    },
+    {
+      "_id": "3tlhELFyGQ0FKc3u",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "biInG8ACyTapiOBN",
+      "x": 2923,
+      "y": 1186,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/item-bag.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Mercado de Atarazanas",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "atarazanas",
+          "tipo": "compras"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.3tlhELFyGQ0FKc3u"
+    },
+    {
+      "_id": "zrAU98LS9RnI2QK2",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "paaJdEG9XB9z5X2N",
+      "x": 2945,
+      "y": 1247,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Archivo Municipal",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "archivo-municipal",
+          "tipo": "investigacion"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.zrAU98LS9RnI2QK2"
+    },
+    {
+      "_id": "S9t7qMU6yuXT72fZ",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "5DECGf999anMY4HG",
+      "x": 3369,
+      "y": 1252,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/anchor.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Muelle Uno y el puerto",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "muelle-uno",
+          "tipo": "compras"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.S9t7qMU6yuXT72fZ"
+    },
+    {
+      "_id": "HUB9rJC558UJVrtf",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "rO9TxQCGNXGO5MqJ",
+      "x": 3726,
+      "y": 1158,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/light.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Playa de La Malagueta",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "malagueta",
+          "tipo": "peligro"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.HUB9rJC558UJVrtf"
+    },
+    {
+      "_id": "Nnr7yYskJesUEjVT",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "pv4EdjdoMhyMhbPi",
+      "x": 2499,
+      "y": 1558,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/door-exit.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Hostal Andalucía y locutorio",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "hostal-perchel",
+          "tipo": "refugio"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.Nnr7yYskJesUEjVT"
+    },
+    {
+      "_id": "9Doz3NaFgLSQ4A5f",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "PmYmKo8M1WM3kLps",
+      "x": 1071,
+      "y": 2366,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/item-bag.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ff8a80",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Desguace Hermanos Ruiz",
+      "fontFamily": "Signika",
+      "fontSize": 26,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "poi": "desguace-cadiz",
+          "tipo": "compras"
+        }
+      },
+      "_key": "!scenes.notes!n2z0loJi3vcGR6r7.9Doz3NaFgLSQ4A5f"
+    }
+  ],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "malaga",
+      "nota": "Mapa de ciudad (OpenStreetMap, © OpenStreetMap contributors (ODbL)). Los pines abren el journal de Málaga."
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

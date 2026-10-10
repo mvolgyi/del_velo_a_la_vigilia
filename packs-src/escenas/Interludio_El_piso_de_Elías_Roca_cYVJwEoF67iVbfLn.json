@@ -317,8 +317,280 @@
       "_key": "!scenes.lights!cYVJwEoF67iVbfLn.gbw8EVApVOwlyPzx"
     }
   ],
-  "tokens": [],
-  "notes": [],
+  "tokens": [
+    {
+      "_id": "OVJDTIZztRsXAlIZ",
+      "name": "Elías Roca",
+      "displayName": 30,
+      "actorId": "O2GuehcZV88rKsKt",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/elias-roca.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 500,
+      "y": 450,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "rERHoLsMyvcPRVT1",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "piso-de-elias",
+          "sala": "Living",
+          "pnj": "elias-roca"
+        }
+      },
+      "_key": "!scenes.tokens!cYVJwEoF67iVbfLn.OVJDTIZztRsXAlIZ"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "bnIeUXoKua8KSovz",
+      "entryId": "VhdEkVoa11J6FLVE",
+      "pageId": "Z3x7fsgvg16WCHRk",
+      "x": 1275,
+      "y": 675,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "C1",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "piso-de-elias",
+          "sala": "Rellano"
+        }
+      },
+      "_key": "!scenes.notes!cYVJwEoF67iVbfLn.bnIeUXoKua8KSovz"
+    },
+    {
+      "_id": "I5JCy17vmffyKs1n",
+      "entryId": "VhdEkVoa11J6FLVE",
+      "pageId": "c3I1uZMAcVLY8Bvx",
+      "x": 825,
+      "y": 675,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "C2",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "piso-de-elias",
+          "sala": "Pasillo de entrada"
+        }
+      },
+      "_key": "!scenes.notes!cYVJwEoF67iVbfLn.I5JCy17vmffyKs1n"
+    },
+    {
+      "_id": "zAEj026O66GXCv5w",
+      "entryId": "VhdEkVoa11J6FLVE",
+      "pageId": "REgD04xlV3qPgFLq",
+      "x": 675,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "C3",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "piso-de-elias",
+          "sala": "Living"
+        }
+      },
+      "_key": "!scenes.notes!cYVJwEoF67iVbfLn.zAEj026O66GXCv5w"
+    },
+    {
+      "_id": "tnpBzdqruUWSDkPn",
+      "entryId": "VhdEkVoa11J6FLVE",
+      "pageId": "HvMxjwdD28DwvU3C",
+      "x": 1050,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "C4",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "piso-de-elias",
+          "sala": "Cocina"
+        }
+      },
+      "_key": "!scenes.notes!cYVJwEoF67iVbfLn.tnpBzdqruUWSDkPn"
+    },
+    {
+      "_id": "tTaJfaTB5JjDtBM8",
+      "entryId": "VhdEkVoa11J6FLVE",
+      "pageId": "HLSf3HBRoG2PpcXg",
+      "x": 300,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "C5",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "piso-de-elias",
+          "sala": "Dormitorio"
+        }
+      },
+      "_key": "!scenes.notes!cYVJwEoF67iVbfLn.tTaJfaTB5JjDtBM8"
+    },
+    {
+      "_id": "6YOoKV5YwOBqUy26",
+      "entryId": "VhdEkVoa11J6FLVE",
+      "pageId": "mTXxs3zYbvFo9CJu",
+      "x": 300,
+      "y": 675,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "C6",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "piso-de-elias",
+          "sala": "Baño"
+        }
+      },
+      "_key": "!scenes.notes!cYVJwEoF67iVbfLn.6YOoKV5YwOBqUy26"
+    }
+  ],
   "sounds": [],
   "tiles": [],
   "drawings": [],
