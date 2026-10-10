@@ -1066,7 +1066,7 @@
       "level": "NkLBnS4N0V4L0ZzQ",
       "rotation": 0,
       "alpha": 1,
-      "lockRotation": false,
+      "lockRotation": true,
       "locked": false,
       "sort": 0,
       "hidden": true,

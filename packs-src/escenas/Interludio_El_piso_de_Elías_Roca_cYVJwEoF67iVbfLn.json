@@ -413,7 +413,7 @@
       "level": "rERHoLsMyvcPRVT1",
       "rotation": 0,
       "alpha": 1,
-      "lockRotation": false,
+      "lockRotation": true,
       "locked": false,
       "sort": 0,
       "hidden": false,

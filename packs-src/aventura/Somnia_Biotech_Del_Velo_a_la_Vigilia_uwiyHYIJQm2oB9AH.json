@@ -17,6 +17,7 @@
         "name": "Dra. Irene Salas",
         "actorLink": false,
         "disposition": -1,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/dra-salas.webp"
         }
@@ -117,6 +118,7 @@
         "name": "Durmiente",
         "actorLink": false,
         "disposition": 0,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp"
         }
@@ -197,6 +199,7 @@
         "name": "El Doctorando",
         "actorLink": true,
         "disposition": 1,
+        "lockRotation": true,
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }
@@ -621,6 +624,7 @@
         "name": "El Guardia",
         "actorLink": true,
         "disposition": 1,
+        "lockRotation": true,
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }
@@ -1011,6 +1015,7 @@
         "name": "El Informático",
         "actorLink": true,
         "disposition": 1,
+        "lockRotation": true,
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }
@@ -1444,6 +1449,7 @@
         "name": "El Limpiador",
         "actorLink": true,
         "disposition": 1,
+        "lockRotation": true,
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }
@@ -2050,6 +2056,7 @@
         "name": "Elías Roca",
         "actorLink": false,
         "disposition": 0,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/elias-roca.webp"
         }
@@ -2227,6 +2234,7 @@
         "name": "Ghoul de Somnia",
         "actorLink": false,
         "disposition": -1,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/ghoul-somnia.webp"
         }
@@ -2412,6 +2420,7 @@
         "name": "Marcos",
         "actorLink": false,
         "disposition": -1,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/marcos.webp"
         }
@@ -2512,6 +2521,7 @@
         "name": "Matón de Somnia",
         "actorLink": false,
         "disposition": -1,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/maton-somnia.webp"
         }
@@ -2693,6 +2703,7 @@
         "name": "Quimera suelta",
         "actorLink": false,
         "disposition": -1,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/quimera-suelta.webp"
         }
@@ -2967,6 +2978,7 @@
         "name": "Sor Anunciación",
         "actorLink": false,
         "disposition": -1,
+        "lockRotation": true,
         "texture": {
           "src": "modules/del-velo-a-la-vigilia/assets/tokens/sor-anunciacion.webp"
         }
@@ -8338,7 +8350,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -8380,7 +8392,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -8422,7 +8434,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -8464,7 +8476,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -8506,7 +8518,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -8548,7 +8560,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -8590,7 +8602,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -8632,7 +8644,7 @@
           "level": "RScdXbOBxUhtSnOe",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -9982,7 +9994,7 @@
           "level": "xWsjegtfTeGJsFZQ",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11065,7 +11077,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11107,7 +11119,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11149,7 +11161,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -11191,7 +11203,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -11233,7 +11245,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11275,7 +11287,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11317,7 +11329,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11359,7 +11371,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11401,7 +11413,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11443,7 +11455,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -11485,7 +11497,7 @@
           "level": "2655jgQx1LKBvtTb",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -12456,7 +12468,7 @@
           "level": "S4mmsrjVJsKUO3bY",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -12498,7 +12510,7 @@
           "level": "S4mmsrjVJsKUO3bY",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -12540,7 +12552,7 @@
           "level": "S4mmsrjVJsKUO3bY",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -13446,7 +13458,7 @@
           "level": "rERHoLsMyvcPRVT1",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -15323,7 +15335,7 @@
           "level": "SG90A0iSVKtDaAFf",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -15364,7 +15376,7 @@
           "level": "SG90A0iSVKtDaAFf",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -15405,7 +15417,7 @@
           "level": "SG90A0iSVKtDaAFf",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -17200,7 +17212,7 @@
           "level": "GzuCWhdKZ19qpKLm",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -17766,7 +17778,7 @@
           "level": "CKwItMoyzNAsifU7",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -21784,7 +21796,7 @@
           "level": "apCYWhXugC95Twsk",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -25372,7 +25384,7 @@
           "level": "lEJUFcLrfGLPbXIs",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -25413,7 +25425,7 @@
           "level": "lEJUFcLrfGLPbXIs",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -26671,7 +26683,7 @@
           "level": "NkLBnS4N0V4L0ZzQ",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,
@@ -27195,7 +27207,7 @@
           "level": "BR1oG7ZCnnPSDxUz",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -30355,7 +30367,7 @@
           "level": "gJLkKFxF9SH0RoBt",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": false,
@@ -30396,7 +30408,7 @@
           "level": "gJLkKFxF9SH0RoBt",
           "rotation": 0,
           "alpha": 1,
-          "lockRotation": false,
+          "lockRotation": true,
           "locked": false,
           "sort": 0,
           "hidden": true,

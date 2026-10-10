@@ -573,6 +573,7 @@ function construirPersonajes() {
         name: p.nombre,
         actorLink: false,
         disposition: hostil ? -1 : 0,
+        lockRotation: true,
         texture: { src: token }
       },
       system: {
@@ -663,7 +664,7 @@ function construirPersonajes() {
       img: "icons/svg/mystery-man.svg",
       folder: carpetas.id("Plantillas de cazador"),
       sort: 0,
-      prototypeToken: { name: pj.nombre, actorLink: true, disposition: 1, texture: { src: "icons/svg/mystery-man.svg" } },
+      prototypeToken: { name: pj.nombre, actorLink: true, disposition: 1, lockRotation: true, texture: { src: "icons/svg/mystery-man.svg" } },
       system: {
         headers: {
           concept: pj.concepto ?? "",
@@ -914,7 +915,7 @@ function pinesYTokensDe(plano) {
         displayName: 30, actorId: ID.actor(pnj.id), actorLink: false,
         texture: { src: textura, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
         // En v14 el token pertenece a un nivel de la escena; sin esto no se dibuja.
-        x, y, width: 1, height: 1, elevation: 0, level: idEstable(`nivel:${plano.id}`), rotation: 0, alpha: 1, lockRotation: false, locked: false, sort: 0,
+        x, y, width: 1, height: 1, elevation: 0, level: idEstable(`nivel:${plano.id}`), rotation: 0, alpha: 1, lockRotation: true, locked: false, sort: 0,
         hidden: t.oculto, disposition: hostil,
         flags: flags("token", { escena: plano.id, sala: s.sala, pnj: pnj.id })
       });
@@ -1333,7 +1334,7 @@ function construirSectores() {
         const textura = existe(`assets/tokens/${pnj.id}.webp`) ? `modules/${MODULO}/assets/tokens/${pnj.id}.webp` : "icons/svg/mystery-man.svg";
         tokens.push({ _id: idEstable(`token:sector:${sec.id}:${t.pnj}:${i}`), name: t.n > 1 ? `${pnj.nombre} ${i + 1}` : pnj.nombre, displayName: 30, actorId: ID.actor(pnj.id), actorLink: false,
           texture: { src: textura, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
-          x, y, width: 1, height: 1, elevation: 0, level: idEstable(`nivel:sector:${sec.id}`), rotation: 0, alpha: 1, lockRotation: false, locked: false, sort: 0,
+          x, y, width: 1, height: 1, elevation: 0, level: idEstable(`nivel:sector:${sec.id}`), rotation: 0, alpha: 1, lockRotation: true, locked: false, sort: 0,
           hidden: t.oculto, disposition: (DISPOSICION[pnj.spcType] ?? (HOSTILES.test(pnj.id) ? -1 : 0)), flags: flags("token", { sector: sec.id, pnj: pnj.id }) });
       }
     }

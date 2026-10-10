@@ -10,6 +10,7 @@
     "name": "Sor Anunciación",
     "actorLink": false,
     "disposition": -1,
+    "lockRotation": true,
     "texture": {
       "src": "modules/del-velo-a-la-vigilia/assets/tokens/sor-anunciacion.webp"
     }

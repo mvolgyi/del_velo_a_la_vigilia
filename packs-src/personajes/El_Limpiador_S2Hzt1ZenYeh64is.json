@@ -10,6 +10,7 @@
     "name": "El Limpiador",
     "actorLink": true,
     "disposition": 1,
+    "lockRotation": true,
     "texture": {
       "src": "icons/svg/mystery-man.svg"
     }

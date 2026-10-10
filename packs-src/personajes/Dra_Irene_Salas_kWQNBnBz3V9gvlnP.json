@@ -10,6 +10,7 @@
     "name": "Dra. Irene Salas",
     "actorLink": false,
     "disposition": -1,
+    "lockRotation": true,
     "texture": {
       "src": "modules/del-velo-a-la-vigilia/assets/tokens/dra-salas.webp"
     }

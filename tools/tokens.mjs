@@ -70,7 +70,11 @@ function rectangular(entrada, destino) {
   return [
     entrada,
     ...KEY_Y_LIMPIEZA,
-    // 3. encajar sin deformar dentro de 400×800 y centrar sobre transparente
+    // 3. Foundry asume que un token "mira" hacia ABAJO (rotación 0 = sur) y lo
+    //    gira hacia donde se mueve; el arte se genera con el frente arriba, así
+    //    que se rota 180° para que el coche avance de frente.
+    "-rotate", "180",
+    //    Encajar sin deformar dentro de 400×800 y centrar sobre transparente.
     "-resize", `${VEH_ANCHO - 2 * VEH_MARGEN}x${VEH_ALTO - 2 * VEH_MARGEN}`,
     "-background", "none", "-gravity", "center", "-extent", `${VEH_ANCHO}x${VEH_ALTO}`,
     "-define", "webp:lossless=false", "-quality", "90",
