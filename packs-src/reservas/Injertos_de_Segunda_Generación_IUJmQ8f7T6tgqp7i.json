@@ -5,7 +5,7 @@
   "folder": null,
   "sorting": "m",
   "sort": 30,
-  "color": "#5c1f1f",
+  "color": null,
   "flags": {
     "del-velo-a-la-vigilia": {
       "origen": "carpeta"

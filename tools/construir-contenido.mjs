@@ -1492,7 +1492,7 @@ function construirAventura() {
   const raiz = tipo => {
     raices[tipo] ??= {
       _id: idEstable(`aventura:raiz:${tipo}`), name: "Del Velo a la Vigilia", type: tipo, folder: null,
-      sorting: "m", sort: 0, color: "#5c1f1f", flags: flags("carpeta"), _stats: STATS
+      sorting: "m", sort: 0, color: null, flags: flags("carpeta"), _stats: STATS
     };
     return raices[tipo];
   };

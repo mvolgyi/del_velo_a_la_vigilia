@@ -81,7 +81,9 @@ export class Carpetas {
     this.mapa = new Map();
   }
 
-  id(nombre, padre = null, color = "#5c1f1f") {
+  // Solo la carpeta raíz lleva color: módulos como Monk's Enhanced Journal
+  // tiñen con él el fondo de las entradas y los títulos dejan de leerse.
+  id(nombre, padre = null, color = null) {
     if (!nombre) return null;
     const clave = `${padre ?? ""}/${nombre}`;
     if (!this.mapa.has(clave)) {
