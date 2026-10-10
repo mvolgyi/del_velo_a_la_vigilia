@@ -1707,6 +1707,92 @@
         }
       },
       "_key": "!scenes.tokens!7tUfy5A2ebpJ94dq.j9k3EAwI77QmDpUN"
+    },
+    {
+      "_id": "fcfrOggacQq1ZolJ",
+      "name": "Sedán negro de Somnia (Carretería)",
+      "displayName": 30,
+      "actorId": "Vn6m2j0hYUZa3xBW",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-2.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1050,
+      "y": 1500,
+      "width": 2,
+      "height": 4,
+      "elevation": 0,
+      "level": "SG90A0iSVKtDaAFf",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "somnia-carreteria",
+          "vehiculo": "sedan-somnia-2",
+          "nombreBase": "Sedán negro de Somnia (Carretería)",
+          "pasajeros": []
+        }
+      },
+      "_key": "!scenes.tokens!7tUfy5A2ebpJ94dq.fcfrOggacQq1ZolJ"
+    },
+    {
+      "_id": "rgXuXqaO2NewliGR",
+      "name": "La ambulancia sin luces",
+      "displayName": 30,
+      "actorId": "tCtkbTV1Qnoeay7p",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/ambulancia-somnia.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1250,
+      "y": 1500,
+      "width": 2,
+      "height": 4,
+      "elevation": 0,
+      "level": "SG90A0iSVKtDaAFf",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "somnia-carreteria",
+          "vehiculo": "ambulancia-somnia",
+          "nombreBase": "La ambulancia sin luces",
+          "pasajeros": []
+        }
+      },
+      "_key": "!scenes.tokens!7tUfy5A2ebpJ94dq.rgXuXqaO2NewliGR"
     }
   ],
   "notes": [

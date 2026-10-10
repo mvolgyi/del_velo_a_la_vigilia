@@ -2477,7 +2477,51 @@
       "_key": "!scenes.regions!k6Pw1WQrh6R8nY8k.XsZD1yJt8BmRb6bA"
     }
   ],
-  "tokens": [],
+  "tokens": [
+    {
+      "_id": "9TeyjYps65yUZTkY",
+      "name": "Patrulla de la Policía Nacional",
+      "displayName": 30,
+      "actorId": "KaOECUY6OQaHijZX",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/patrulla-policia.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2550,
+      "y": 1900,
+      "width": 2,
+      "height": 4,
+      "elevation": 0,
+      "level": "9BSUPpQY7U4bPr9l",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "comisaria",
+          "vehiculo": "patrulla-policia",
+          "nombreBase": "Patrulla de la Policía Nacional",
+          "pasajeros": []
+        }
+      },
+      "_key": "!scenes.tokens!k6Pw1WQrh6R8nY8k.9TeyjYps65yUZTkY"
+    }
+  ],
   "notes": [
     {
       "_id": "DA8TPEcNEQPq3bBG",

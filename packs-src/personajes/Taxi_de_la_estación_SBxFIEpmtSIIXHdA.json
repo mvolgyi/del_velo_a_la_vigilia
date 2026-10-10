@@ -1,0 +1,90 @@
+{
+  "_id": "SBxFIEpmtSIIXHdA",
+  "_key": "!actors!SBxFIEpmtSIIXHdA",
+  "name": "Taxi de la estación",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/taxi-malaga.webp",
+  "folder": "SBb8tzJiywySVLxM",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Taxi de la estación",
+    "actorLink": false,
+    "disposition": 0,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/taxi-malaga.webp",
+      "fit": "contain"
+    },
+    "displayName": 30,
+    "lockRotation": false
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vehículo · 5 plazas"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 0
+      },
+      "social": {
+        "value": 0
+      },
+      "mental": {
+        "value": 0
+      }
+    },
+    "exceptionaldicepools": {},
+    "health": {
+      "max": 6,
+      "value": 6,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 0,
+      "value": 0,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 0,
+      "strongest": 0
+    },
+    "description": "<p>Un Toyota Prius híbrido blanco con el escudo del Ayuntamiento en la puerta y la luz verde en el techo, primero de la fila en la parada de la estación María Zambrano. Lo conduce Paco, sesentón, Radio Marca puesta y una opinión sobre todo.</p><p>Adentro: rosario colgado del retrovisor, datáfono que «no va» y caramelos de menta en la consola.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>6</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>normal</td></tr></tbody></table>",
+    "privatenotes": "<p>La forma barata y anónima de moverse de noche: de la estación a Huelin, unos 12 €; al centro, 8 €. Paco no pregunta si se le paga en efectivo, pero se acuerda de las caras.</p><p>«Siga a ese coche» funciona una vez con buena propina: Paco conduce con Conducir 2 y para en seco si ve un arma. Si la célula le quita el taxi, la emisora de la cooperativa da el aviso en cinco minutos y la policía tiene la matrícula: +1 Peligro.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "vehiculo",
+      "vehiculo": {
+        "id": "taxi-malaga",
+        "tipo": "taxi",
+        "plazas": 5,
+        "estructura": 6,
+        "maniobra": 0,
+        "blindaje": 0,
+        "velocidad": "normal",
+        "ancho": 2,
+        "largo": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

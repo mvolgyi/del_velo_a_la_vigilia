@@ -4,7 +4,7 @@
   "name": "Somnia Biotech — Del Velo a la Vigilia",
   "img": "modules/del-velo-a-la-vigilia/assets/mapas/somnia-planta-nueva.webp",
   "caption": "<p>La crónica completa, lista para dirigir.</p>",
-  "description": "<p>Importa al mundo <strong>17 escenas</strong>, <strong>12 actores</strong> (PNJs y plantillas de cazador), <strong>21 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 1 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
+  "description": "<p>Importa al mundo <strong>17 escenas</strong>, <strong>19 actores</strong> (PNJs y plantillas de cazador), <strong>22 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 1 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
   "actors": [
     {
       "_id": "kWQNBnBz3V9gvlnP",
@@ -1951,6 +1951,95 @@
       }
     },
     {
+      "_id": "zidUsRA9JbyBVyY9",
+      "name": "El Seat de Elías",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/seat-celula.webp",
+      "folder": "SBb8tzJiywySVLxM",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "El Seat de Elías",
+        "actorLink": false,
+        "disposition": 0,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/seat-celula.webp",
+          "fit": "contain"
+        },
+        "displayName": 30,
+        "lockRotation": false
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vehículo · 5 plazas"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 0
+          },
+          "social": {
+            "value": 0
+          },
+          "mental": {
+            "value": 0
+          }
+        },
+        "exceptionaldicepools": {},
+        "health": {
+          "max": 7,
+          "value": 7,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 0,
+          "value": 0,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 0,
+          "strongest": 0
+        },
+        "description": "<p>Un Seat León gris plomo de 2008, con la pintura del capó comida por el sol y una pegatina descolorida del Málaga CF en la luneta. Fue el coche de la vieja célula: cinco cazadores entraban apretados y nadie se quejaba. Lleva nueve años tapado con una lona en el garaje de Huelin, con el polvo pegado a los asientos y el olor a gasoil todavía metido en la tapicería.</p><p><strong>Guantera:</strong> un mapa de Málaga de papel con tres cruces a boli (Carretería, Gaona, el Cementerio Inglés), una linterna sin pilas y la cartilla del seguro a nombre de un muerto.</p><p><strong>Baúl:</strong> una caja de cerveza con cuatro @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{molotovs} ya armadas (las mechas, resecas), un bidón de gasoil a la mitad y dos @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OJh3OkqAWt9hopa1]{bengalas de emergencia} de carretera.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>7</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>normal</td></tr></tbody></table>",
+        "privatenotes": "<p><strong>Llaves:</strong> colgadas de un clavo sobre el banco de Mara, con un llavero de la Virgen de la Victoria. Elías no las va a ofrecer: hay que pedírselas o encontrarlas.</p><p><strong>Arrancarlo:</strong> la batería está muerta y las ruedas, bajas. Con pinzas y una batería ajena, o <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.craft\" data-dificultad=\"2\" data-label=\"Inteligencia + Artesanía\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Artesanía</a> con lo que hay en el banco, arranca en diez minutos. Sin eso, no se mueve esa noche.</p><p><strong>Rastro:</strong> la matrícula está a nombre de un miembro muerto de la vieja célula y la ITV venció hace siete años. Un control de tráfico lo para seguro. Somnia conoce el coche: si lo ven circular cerca de la clínica, +1 Peligro y alguien va a ir a mirar el garaje.</p><p>Las molotovs tienen nueve años: con un fallo total al lanzarlas, la mecha no prende.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "vehiculo",
+          "vehiculo": {
+            "id": "seat-celula",
+            "tipo": "coche",
+            "plazas": 5,
+            "estructura": 7,
+            "maniobra": 0,
+            "blindaje": 0,
+            "velocidad": "normal",
+            "ancho": 2,
+            "largo": 4
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
       "_id": "O2GuehcZV88rKsKt",
       "name": "Elías Roca",
       "type": "spc",
@@ -2030,6 +2119,95 @@
         "del-velo-a-la-vigilia": {
           "origen": "pnj",
           "pnj": "elias-roca"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "PiZIumcwjyusHD5k",
+      "name": "Furgoneta de reparto del puerto",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/furgoneta-ghoul.webp",
+      "folder": "SBb8tzJiywySVLxM",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Furgoneta de reparto del puerto",
+        "actorLink": false,
+        "disposition": 0,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/furgoneta-ghoul.webp",
+          "fit": "contain"
+        },
+        "displayName": 30,
+        "lockRotation": false
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vehículo · 3 plazas"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 0
+          },
+          "social": {
+            "value": 0
+          },
+          "mental": {
+            "value": 0
+          }
+        },
+        "exceptionaldicepools": {},
+        "health": {
+          "max": 9,
+          "value": 9,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 0,
+          "value": 0,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 0,
+          "strongest": 0
+        },
+        "description": "<p>Una Renault Trafic blanca con un rótulo medio despegado de «Logística Costa del Sol». La usa un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} de Somnia para recoger en el puerto las cajas que la clínica no quiere que pasen por una aduana normal. Tres plazas delante; atrás, la zona de carga sin ventanas.</p><p><strong>Carga:</strong> cajas de reactivos con etiquetas en alemán, una nevera portátil con bolsas de plasma y, mal escondida bajo una lona, una caja con @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.C9FmdnppITizz2QD]{dos pistolas pesadas} que Joaquín le pasó «por el mismo precio».</p><p><strong>Guantera:</strong> albaranes falsos y un pase de la seguridad portuaria.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>3</td></tr><tr><th>Estructura</th><td>9</td></tr><tr><th>Maniobra</th><td>-1</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>lenta</td></tr></tbody></table>",
+        "privatenotes": "<p>El ghoul la deja en los muelles de carga con las llaves en el contacto mientras discute con Joaquín. Robarla es fácil; salir del recinto portuario con ella, no: la seguridad del puerto pide el pase (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio</a>).</p><p>Sin GPS: Somnia no la rastrea, pero el ghoul la va a echar de menos en una hora y avisa a Marcos. Los albaranes son una pista de qué recibe la clínica (Método).</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "vehiculo",
+          "vehiculo": {
+            "id": "furgoneta-ghoul",
+            "tipo": "furgoneta",
+            "plazas": 3,
+            "estructura": 9,
+            "maniobra": -1,
+            "blindaje": 0,
+            "velocidad": "lenta",
+            "ancho": 2,
+            "largo": 4
+          }
         }
       },
       "_stats": {
@@ -2126,6 +2304,95 @@
         "del-velo-a-la-vigilia": {
           "origen": "pnj",
           "pnj": "ghoul-somnia"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "tCtkbTV1Qnoeay7p",
+      "name": "La ambulancia sin luces",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/ambulancia-somnia.webp",
+      "folder": "SBb8tzJiywySVLxM",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "La ambulancia sin luces",
+        "actorLink": false,
+        "disposition": 0,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/ambulancia-somnia.webp",
+          "fit": "contain"
+        },
+        "displayName": 30,
+        "lockRotation": false
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vehículo · 4 plazas"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 0
+          },
+          "social": {
+            "value": 0
+          },
+          "mental": {
+            "value": 0
+          }
+        },
+        "exceptionaldicepools": {},
+        "health": {
+          "max": 10,
+          "value": 10,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 0,
+          "value": 0,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 0,
+          "strongest": 0
+        },
+        "description": "<p>Una Mercedes Sprinter blanca rotulada como «Transporte sanitario Somnia», con las luces de emergencia desconectadas y los cristales traseros esmerilados. Sale del muelle de carga a las tres de la mañana con un durmiente atado a la camilla. Delante, el conductor y un acompañante; atrás, la camilla y dos asientos plegables.</p><p><strong>Cabina sanitaria:</strong> camilla con correas de sujeción, una bombona de oxígeno, viales de sedante sin etiquetar en un cajón con llave y un botiquín completo de urgencias (cura 1 de daño superficial a quien lo use con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina</a>, una vez por escena).</p><p><strong>Guantera:</strong> una hoja de ruta con direcciones del centro, entre ellas una puerta trasera junto al mercado de Atarazanas.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>4</td></tr><tr><th>Estructura</th><td>10</td></tr><tr><th>Maniobra</th><td>-1</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>lenta</td></tr></tbody></table>",
+        "privatenotes": "<p><strong>Oculta</strong> hasta que la célula vigile el muelle de carga de noche o pregunte por las salidas de madrugada. Revelala cuando sale a las tres.</p><p>La conduce un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} con uniforme de técnico sanitario. Llaves puestas mientras cargan; la puerta trasera solo abre desde fuera.</p><p>Seguirla sin que se note: tirada enfrentada de <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.drive\" data-dificultad=\"0\" data-label=\"Astucia + Conducir\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Conducir</a> contra la Astucia + Consciencia del conductor. Lleva a los durmientes «dados de alta» a una puerta trasera del centro, cerca del mercado de Atarazanas (ver ese lugar). Interceptarla y sacar al durmiente vivo es una buena ocasión para sumar +1 Fe.</p><p>Es pesada: a otro coche le hace +3 al embestir, pero en los callejones del centro va con −2 adicional.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "vehiculo",
+          "vehiculo": {
+            "id": "ambulancia-somnia",
+            "tipo": "ambulancia",
+            "plazas": 4,
+            "estructura": 10,
+            "maniobra": -1,
+            "blindaje": 0,
+            "velocidad": "lenta",
+            "ancho": 2,
+            "largo": 4
+          }
         }
       },
       "_stats": {
@@ -2327,6 +2594,95 @@
       }
     },
     {
+      "_id": "KaOECUY6OQaHijZX",
+      "name": "Patrulla de la Policía Nacional",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/patrulla-policia.webp",
+      "folder": "SBb8tzJiywySVLxM",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Patrulla de la Policía Nacional",
+        "actorLink": false,
+        "disposition": 0,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/patrulla-policia.webp",
+          "fit": "contain"
+        },
+        "displayName": 30,
+        "lockRotation": false
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vehículo · 5 plazas"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 0
+          },
+          "social": {
+            "value": 0
+          },
+          "mental": {
+            "value": 0
+          }
+        },
+        "exceptionaldicepools": {},
+        "health": {
+          "max": 8,
+          "value": 8,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 0,
+          "value": 0,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 0,
+          "strongest": 0
+        },
+        "description": "<p>Un coche patrulla blanco y azul de la Policía Nacional aparcado en doble fila frente a la comisaría de la plaza de Manuel Azaña, junto a los furgones. Emisora, ordenador de a bordo y una mampara entre los asientos delanteros y los de atrás, que solo se abren desde fuera.</p><p><strong>Maletero:</strong> conos, chalecos reflectantes, un extintor y un botiquín.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>8</td></tr><tr><th>Maniobra</th><td>+1</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>rapida</td></tr></tbody></table>",
+        "privatenotes": "<p>Para el Narrador, este coche es una amenaza más que un recurso. Aparece cuando una persecución hace demasiado ruido: tras dos turnos de persecución en zona urbana con choques o disparos, entra una patrulla en la escena.</p><p>Los agentes conducen con 5 dados y tienen la emisora: si la célula escapa, en la siguiente escena hay controles en las salidas del barrio. Robar esta patrulla es la peor idea de la noche: +2 Peligro, GPS policial y orden de búsqueda.</p><p>Asiento trasero: quien vaya detenido atrás no puede abrir las puertas ni actuar contra los de delante.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "vehiculo",
+          "vehiculo": {
+            "id": "patrulla-policia",
+            "tipo": "patrulla",
+            "plazas": 5,
+            "estructura": 8,
+            "maniobra": 1,
+            "blindaje": 0,
+            "velocidad": "rapida",
+            "ancho": 2,
+            "largo": 4
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
       "_id": "UpZ0DCdeSgMIlyXC",
       "name": "Quimera suelta",
       "type": "spc",
@@ -2414,6 +2770,184 @@
         "del-velo-a-la-vigilia": {
           "origen": "pnj",
           "pnj": "quimera-suelta"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "Vn6m2j0hYUZa3xBW",
+      "name": "Sedán negro de Somnia (Carretería)",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-2.webp",
+      "folder": "SBb8tzJiywySVLxM",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Sedán negro de Somnia (Carretería)",
+        "actorLink": false,
+        "disposition": 0,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-2.webp",
+          "fit": "contain"
+        },
+        "displayName": 30,
+        "lockRotation": false
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vehículo · 5 plazas"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 0
+          },
+          "social": {
+            "value": 0
+          },
+          "mental": {
+            "value": 0
+          }
+        },
+        "exceptionaldicepools": {},
+        "health": {
+          "max": 8,
+          "value": 8,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 0,
+          "value": 0,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 0,
+          "strongest": 0
+        },
+        "description": "<p>Gemelo del de Huelin: Skoda Superb negro, lunas tintadas, matrícula correlativa. Está en doble fila en la calle frente a Somnia Biotech, con la puerta del conductor mirando a la garita. De noche lo usan para traer a la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas} o para salir detrás de quien se acerque demasiado.</p><p><strong>Guantera:</strong> una @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.C9FmdnppITizz2QD]{pistola pesada} con un cargador de repuesto, un mando de la barrera del garaje de la clínica y un tique de parking del Clínico.</p><p><strong>Baúl:</strong> bridas, una capucha, una manta y un rollo de plástico de obra.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>8</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>1</td></tr><tr><th>Velocidad</th><td>rapida</td></tr></tbody></table>",
+        "privatenotes": "<p>Mismo GPS de flota que el sedán de Huelin. El mando de la barrera abre el acceso de vehículos de la clínica: es una entrada alternativa para el Acto 3, pero las cámaras graban la matrícula.</p><p>Si hay persecución desde Somnia, sale este coche con dos @UUID[Actor.9iZfEE32ZgK1g9mi]{matones}; si la cosa se pone fea, un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} va de copiloto.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "vehiculo",
+          "vehiculo": {
+            "id": "sedan-somnia-2",
+            "tipo": "sedan",
+            "plazas": 5,
+            "estructura": 8,
+            "maniobra": 0,
+            "blindaje": 1,
+            "velocidad": "rapida",
+            "ancho": 2,
+            "largo": 4
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "tdPn51DUUAKd3rOL",
+      "name": "Sedán negro de Somnia (Huelin)",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-1.webp",
+      "folder": "SBb8tzJiywySVLxM",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Sedán negro de Somnia (Huelin)",
+        "actorLink": false,
+        "disposition": 0,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-1.webp",
+          "fit": "contain"
+        },
+        "displayName": 30,
+        "lockRotation": false
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vehículo · 5 plazas"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 0
+          },
+          "social": {
+            "value": 0
+          },
+          "mental": {
+            "value": 0
+          }
+        },
+        "exceptionaldicepools": {},
+        "health": {
+          "max": 8,
+          "value": 8,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 0,
+          "value": 0,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 0,
+          "strongest": 0
+        },
+        "description": "<p>Un Skoda Superb negro de flota, lunas tintadas, llantas sin un rayón y una antena corta de más en el techo. Está aparcado frente al portal de Elías, en la plaza de Huelin, sin esconderse: quieren que se lo vea. Adentro, dos @UUID[Actor.9iZfEE32ZgK1g9mi]{matones} con café de gasolinera y el motor encendido para la calefacción.</p><p><strong>Guantera:</strong> un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.u0aSGOOp7pCJDisy]{táser}, una carpeta con fotos impresas de la célula tomadas en el Acto 1 y una libreta con horarios de entradas y salidas del portal.</p><p><strong>Baúl:</strong> bridas de plástico, dos capuchas de tela negra, cinta americana y un botiquín de empresa.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>8</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>1</td></tr><tr><th>Velocidad</th><td>rapida</td></tr></tbody></table>",
+        "privatenotes": "<p><strong>Llaves:</strong> llave de proximidad en el bolsillo del matón que conduce. Sin ella, puentearlo es difícil (ver «Robar un coche»).</p><p><strong>Blindaje 1:</strong> paneles de puertas reforzados y lunas laminadas, de los que se piden a una empresa de escoltas.</p><p><strong>GPS de flota:</strong> un localizador cableado bajo el salpicadero reporta la posición cada minuto a la garita de Somnia. Si lo roban y no lo arrancan (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.technology\" data-dificultad=\"2\" data-label=\"Astucia + Tecnología\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Tecnología</a>), en veinte minutos hay otro sedán detrás. Es también una pista: el historial de rutas del GPS muestra los portales de todas las Piedras de Toque que vigilan.</p><p>Si los matones ven a la célula, uno llama y el otro sigue a pie o en el coche. No disparan en la plaza: intimidan.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "vehiculo",
+          "vehiculo": {
+            "id": "sedan-somnia-1",
+            "tipo": "sedan",
+            "plazas": 5,
+            "estructura": 8,
+            "maniobra": 0,
+            "blindaje": 1,
+            "velocidad": "rapida",
+            "ancho": 2,
+            "largo": 4
+          }
         }
       },
       "_stats": {
@@ -2514,6 +3048,95 @@
         "del-velo-a-la-vigilia": {
           "origen": "pnj",
           "pnj": "sor-anunciacion"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "SBxFIEpmtSIIXHdA",
+      "name": "Taxi de la estación",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/taxi-malaga.webp",
+      "folder": "SBb8tzJiywySVLxM",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Taxi de la estación",
+        "actorLink": false,
+        "disposition": 0,
+        "width": 2,
+        "height": 4,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/taxi-malaga.webp",
+          "fit": "contain"
+        },
+        "displayName": 30,
+        "lockRotation": false
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vehículo · 5 plazas"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 0
+          },
+          "social": {
+            "value": 0
+          },
+          "mental": {
+            "value": 0
+          }
+        },
+        "exceptionaldicepools": {},
+        "health": {
+          "max": 6,
+          "value": 6,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 0,
+          "value": 0,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 0,
+          "strongest": 0
+        },
+        "description": "<p>Un Toyota Prius híbrido blanco con el escudo del Ayuntamiento en la puerta y la luz verde en el techo, primero de la fila en la parada de la estación María Zambrano. Lo conduce Paco, sesentón, Radio Marca puesta y una opinión sobre todo.</p><p>Adentro: rosario colgado del retrovisor, datáfono que «no va» y caramelos de menta en la consola.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>6</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>normal</td></tr></tbody></table>",
+        "privatenotes": "<p>La forma barata y anónima de moverse de noche: de la estación a Huelin, unos 12 €; al centro, 8 €. Paco no pregunta si se le paga en efectivo, pero se acuerda de las caras.</p><p>«Siga a ese coche» funciona una vez con buena propina: Paco conduce con Conducir 2 y para en seco si ve un arma. Si la célula le quita el taxi, la emisora de la cooperativa da el aviso en cinco minutos y la policía tiene la matrícula: +1 Peligro.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "vehiculo",
+          "vehiculo": {
+            "id": "taxi-malaga",
+            "tipo": "taxi",
+            "plazas": 5,
+            "estructura": 6,
+            "maniobra": 0,
+            "blindaje": 0,
+            "velocidad": "normal",
+            "ancho": 2,
+            "largo": 4
+          }
         }
       },
       "_stats": {
@@ -6517,6 +7140,190 @@
             "content": "<ul>\n<li>Cargá cada Borde Imbuido como un ítem de tipo Edge y cada Mejora como Perk asociado, igual que los Edges oficiales. El sistema wod5e ya maneja dados de Desesperación en las tiradas, así que &quot;encender la Chispa&quot; es simplemente marcar la opción de incluirlos.</li>\n<li>La Segunda Vista conviene cargarla como Edge pasivo separado para que figure en la hoja.</li>\n<li>Para el Quemar, no hay automatización nativa: bajá la Desesperación a mano desde el tracker de la célula y dejalo anotado en el chat con un /roll descriptivo o un mensaje de GM para que quede registro.</li>\n<li>El +1 de Danger llevalo en tu tracker de crónica de fin de sesión, junto con las preguntas normales de Danger de H5.</li>\n</ul>\n"
           },
           "sort": 700000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ],
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "CeQD0tbea8tCGC1W",
+      "name": "Vehículos y persecuciones",
+      "folder": "xga5vFHstdau9DJL",
+      "sort": 60,
+      "ownership": {
+        "default": 2
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "journal",
+          "archivo": "content/reglas/06-vehiculos-y-persecuciones.md"
+        }
+      },
+      "pages": [
+        {
+          "_id": "Wd9NOqD9V0hDe0eQ",
+          "name": "Introducción",
+          "type": "text",
+          "title": {
+            "show": false,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Málaga de noche es de quien tiene coche. Estas reglas siguen la lógica de H5: contiendas, márgenes y Desesperación.</p>\n"
+          },
+          "sort": 0,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "FE6GSdeh1bC5r11C",
+          "name": "Conducir",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Ir de Huelin al centro no pide tirada. Se tira <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.drive\" data-dificultad=\"0\" data-label=\"Destreza + Conducir\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Conducir</a> cuando hay estrés: huir, seguir a alguien, esquivar un choque. Para seguir sin ser visto o leer el tráfico, <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.drive\" data-dificultad=\"0\" data-label=\"Astucia + Conducir\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Conducir</a>.</p>\n<p>Suma la <strong>maniobra</strong> del vehículo a la reserva (+1 la patrulla, −1 la furgoneta y la ambulancia).</p>\n<table>\n<thead>\n<tr>\n<th>Situación</th>\n<th>Dificultad / penalizador</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Calle despejada, conducción tensa</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Lluvia o asfalto mojado del puerto</td>\n<td>+1 dif.</td>\n</tr>\n<tr>\n<td>De noche sin luces (para no ser visto)</td>\n<td>+2 dif.</td>\n</tr>\n<tr>\n<td>Callejón del centro histórico, peatonal</td>\n<td>+2 dif.; −2 extra a furgoneta y ambulancia</td>\n</tr>\n<tr>\n<td>Contramano por la Alameda</td>\n<td>+3 dif. y +1 Peligro</td>\n</tr>\n</tbody></table>\n<p>Un fallo total es un golpe: el coche recibe 2 de daño.</p>\n"
+          },
+          "sort": 100000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "9yNTTGciSQLNGm5t",
+          "name": "Persecución",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>La persecución es una contienda que se repite por turnos. Cada turno, el que huye y el que persigue tiran Destreza + Conducir + maniobra. El que gana suma su margen a una <strong>ventaja</strong> acumulada; el que pierde no resta, pero si saca fallo total, su rival gana 2 de ventaja gratis.</p>\n<ul>\n<li><strong>3 de ventaja para el que huye:</strong> escapa. Los perde en el tráfico o en un garaje.</li>\n<li><strong>3 de ventaja para el perseguidor:</strong> alcanza. Puede cerrar el paso, embestir o dejar que sus pasajeros disparen a quemarropa.</li>\n<li>La <strong>velocidad</strong> inclina la balanza: el vehículo <em>rápido</em> suma +1 al margen de cada turno ganado contra uno <em>lento</em>, si el tramo es recto (avenida, autovía del puerto). En callejones no cuenta.</li>\n</ul>\n<p><strong>Desesperación por Credo.</strong> Los dados de Desesperación entran cuando la persecución encaja con el Credo:</p>\n<ul>\n<li><strong>Marciales:</strong> cuando persiguen para alcanzar y pelear, o embisten.</li>\n<li><strong>Clandestinos:</strong> cuando huyen, se esconden o se pegan detrás de un coche sin ser vistos.</li>\n</ul>\n<p>Otros Credos, solo si la persecución sirve a su causa directa. Las Extralimitaciones al volante son espectaculares: semáforos en rojo, terrazas arrasadas y una patrulla en camino.</p>\n"
+          },
+          "sort": 200000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "3HHaYmegu9fa8HFR",
+          "name": "Embestir y atropellar",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Embestir es una contienda: Destreza + Conducir contra Destreza + Conducir del otro conductor, o contra Destreza + Atletismo si es un peatón. Daño = <strong>margen + N</strong>:</p>\n<table>\n<thead>\n<tr>\n<th>Vehículo</th>\n<th>N</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Taxi, coche, sedán, patrulla</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>Furgoneta, ambulancia</td>\n<td>+3</td>\n</tr>\n</tbody></table>\n<p>Contra otro coche, el daño va a su estructura y sus ocupantes reciben la mitad como superficial. Contra un peatón, el atropello es superficial a poca velocidad y agravado lanzado (huesos rotos). El propio vehículo recibe la mitad del daño que hizo, redondeando hacia abajo, y sus ocupantes 1 superficial.</p>\n"
+          },
+          "sort": 300000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "2eWsbHAhAkI9LZJd",
+          "name": "Disparar desde o contra un vehículo",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<ul>\n<li><strong>Pasajeros disparando:</strong> −2 dados con el coche en movimiento, −3 si el conductor está maniobrando fuerte ese turno. El conductor no puede disparar y conducir a la vez sin un −3 a ambas cosas.</li>\n<li><strong>Contra los ocupantes:</strong> el coche es cobertura. Quien está adentro se defiende con su reserva completa; el <strong>blindaje</strong> resta su valor al daño de cada impacto.</li>\n<li><strong>Neumáticos:</strong> apuntar a una rueda es Compostura + Armas de fuego a dificultad 3. Si acierta, el conductor tira a dificultad +2 hasta que pare.</li>\n<li><strong>El conductor:</strong> si queda incapacitado, el coche choca en el turno siguiente salvo que alguien agarre el volante (Destreza + Conducir, dif. 3).</li>\n</ul>\n"
+          },
+          "sort": 400000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "1URIB4qHtEeipycE",
+          "name": "Daño al vehículo",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Cada vehículo tiene <strong>estructura</strong> (de 6 a 10). Con la mitad o menos está <strong>averiado</strong>: −1 dado a Conducir y pierde un paso de velocidad. En 0, <strong>destruido</strong>: no anda, y si el daño fue de fuego, arde en dos turnos. Una @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{molotov} contra un coche daña la estructura y alcanza a los ocupantes si van con las ventanillas abiertas.</p>\n"
+          },
+          "sort": 500000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "xokPR1jbHAv28iiy",
+          "name": "Subir, bajar y viajar",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>En Foundry cada vehículo es un token. Para subir, poné tu token al lado y usá el botón <strong>Subir</strong> en el HUD del token del vehículo; para bajar, <strong>Bajar</strong>. Los pasajeros viajan dentro: desaparecen del mapa y se mueven con el vehículo. No entran más personas que <strong>plazas</strong>; el primero en subir es el conductor, salvo que el Narrador lo reasigne.</p>\n"
+          },
+          "sort": 600000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "kQCwFbIdyCtbC3TU",
+          "name": "Los vehículos de la crónica",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<table>\n<thead>\n<tr>\n<th>Vehículo</th>\n<th>Plazas</th>\n<th>Estructura</th>\n<th>Maniobra</th>\n<th>Blindaje</th>\n<th>Dónde está</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>@UUID[Actor.zidUsRA9JbyBVyY9]{El Seat de Elías}</td>\n<td>5</td>\n<td>7</td>\n<td>0</td>\n<td>0</td>\n<td>Garaje de Huelin</td>\n</tr>\n<tr>\n<td>@UUID[Actor.tdPn51DUUAKd3rOL]{Sedán negro de Somnia (Huelin)}</td>\n<td>5</td>\n<td>8</td>\n<td>0</td>\n<td>1</td>\n<td>Plaza de Huelin, frente al portal de Elías</td>\n</tr>\n<tr>\n<td>@UUID[Actor.Vn6m2j0hYUZa3xBW]{Sedán negro de Somnia (Carretería)}</td>\n<td>5</td>\n<td>8</td>\n<td>0</td>\n<td>1</td>\n<td>Carretería, frente a Somnia</td>\n</tr>\n<tr>\n<td>@UUID[Actor.tCtkbTV1Qnoeay7p]{La ambulancia sin luces}</td>\n<td>4</td>\n<td>10</td>\n<td>−1</td>\n<td>0</td>\n<td>Muelle de carga de Somnia</td>\n</tr>\n<tr>\n<td>@UUID[Actor.PiZIumcwjyusHD5k]{Furgoneta de reparto del puerto}</td>\n<td>3</td>\n<td>9</td>\n<td>−1</td>\n<td>0</td>\n<td>Muelle Uno, muelles de carga</td>\n</tr>\n<tr>\n<td>@UUID[Actor.SBxFIEpmtSIIXHdA]{Taxi de la estación}</td>\n<td>5</td>\n<td>6</td>\n<td>0</td>\n<td>0</td>\n<td>Parada de la estación María Zambrano</td>\n</tr>\n<tr>\n<td>@UUID[Actor.KaOECUY6OQaHijZX]{Patrulla de la Policía Nacional}</td>\n<td>5</td>\n<td>8</td>\n<td>+1</td>\n<td>0</td>\n<td>Comisaría Provincial</td>\n</tr>\n</tbody></table>\n<p>Los sedanes y la patrulla son <em>rápidos</em>; la ambulancia y la furgoneta, <em>lentas</em>; el resto, normales.</p>\n"
+          },
+          "sort": 700000,
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
+          "_id": "rmzrGSSYMJAmaV5H",
+          "name": "Robar un coche",
+          "type": "text",
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Abrir y puentear un coche viejo es <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a>. Uno moderno con llave de proximidad pide además <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>, o quitarle la llave al dueño. Si la alarma suena, la calle entera mira.</p>\n<p>Los sedanes de Somnia llevan un <strong>GPS de flota</strong>. Si la célula se lleva uno sin encontrarlo (Astucia + Tecnología, dif. 2), un auto negro aparece detrás en veinte minutos. Pero el GPS también es un regalo: su historial de rutas muestra todos los portales que vigila @UUID[Actor.9iZfEE32ZgK1g9mi]{la gente de Somnia}, y lleva hasta el garaje donde aparca la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}.</p>\n<p>Cada coche robado en zona con cámaras suma +1 Peligro. Robar la patrulla suma +2 y trae a toda la policía de Málaga.</p>\n"
+          },
+          "sort": 800000,
           "ownership": {
             "default": -1
           },
@@ -14611,6 +15418,92 @@
             }
           },
           "_key": "!scenes.tokens!7tUfy5A2ebpJ94dq.j9k3EAwI77QmDpUN"
+        },
+        {
+          "_id": "fcfrOggacQq1ZolJ",
+          "name": "Sedán negro de Somnia (Carretería)",
+          "displayName": 30,
+          "actorId": "Vn6m2j0hYUZa3xBW",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-2.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1050,
+          "y": 1500,
+          "width": 2,
+          "height": 4,
+          "elevation": 0,
+          "level": "SG90A0iSVKtDaAFf",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": false,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "somnia-carreteria",
+              "vehiculo": "sedan-somnia-2",
+              "nombreBase": "Sedán negro de Somnia (Carretería)",
+              "pasajeros": []
+            }
+          },
+          "_key": "!scenes.tokens!7tUfy5A2ebpJ94dq.fcfrOggacQq1ZolJ"
+        },
+        {
+          "_id": "rgXuXqaO2NewliGR",
+          "name": "La ambulancia sin luces",
+          "displayName": 30,
+          "actorId": "tCtkbTV1Qnoeay7p",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/ambulancia-somnia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1250,
+          "y": 1500,
+          "width": 2,
+          "height": 4,
+          "elevation": 0,
+          "level": "SG90A0iSVKtDaAFf",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": false,
+          "locked": false,
+          "sort": 0,
+          "hidden": true,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "somnia-carreteria",
+              "vehiculo": "ambulancia-somnia",
+              "nombreBase": "La ambulancia sin luces",
+              "pasajeros": []
+            }
+          },
+          "_key": "!scenes.tokens!7tUfy5A2ebpJ94dq.rgXuXqaO2NewliGR"
         }
       ],
       "notes": [
@@ -16320,6 +17213,49 @@
             }
           },
           "_key": "!scenes.tokens!4ve7vqoz3rxUR2ia.O9TMk86amxKaq6A4"
+        },
+        {
+          "_id": "8mT8Ort8Bz1pW3sk",
+          "name": "Taxi de la estación",
+          "displayName": 30,
+          "actorId": "SBxFIEpmtSIIXHdA",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/taxi-malaga.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1850,
+          "y": 150,
+          "width": 2,
+          "height": 4,
+          "elevation": 0,
+          "level": "GzuCWhdKZ19qpKLm",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": false,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "perchel-estacion",
+              "vehiculo": "taxi-malaga",
+              "nombreBase": "Taxi de la estación",
+              "pasajeros": []
+            }
+          },
+          "_key": "!scenes.tokens!4ve7vqoz3rxUR2ia.8mT8Ort8Bz1pW3sk"
         }
       ],
       "notes": [
@@ -16843,6 +17779,49 @@
             }
           },
           "_key": "!scenes.tokens!90o7kMg3EvgstYzO.ig6tgonk7M7rddBJ"
+        },
+        {
+          "_id": "MGNDLrzjqbKiW0jn",
+          "name": "Furgoneta de reparto del puerto",
+          "displayName": 30,
+          "actorId": "PiZIumcwjyusHD5k",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/furgoneta-ghoul.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1700,
+          "y": 1100,
+          "width": 2,
+          "height": 4,
+          "elevation": 0,
+          "level": "CKwItMoyzNAsifU7",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": false,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "muelle-uno",
+              "vehiculo": "furgoneta-ghoul",
+              "nombreBase": "Furgoneta de reparto del puerto",
+              "pasajeros": []
+            }
+          },
+          "_key": "!scenes.tokens!90o7kMg3EvgstYzO.MGNDLrzjqbKiW0jn"
         }
       ],
       "notes": [
@@ -21537,7 +22516,51 @@
           "_key": "!scenes.regions!jzdWlT40m38No0XF.u1aNNQxxE0FtJVTr"
         }
       ],
-      "tokens": [],
+      "tokens": [
+        {
+          "_id": "zG6RdFZm1j0j8I7S",
+          "name": "El Seat de Elías",
+          "displayName": 30,
+          "actorId": "zidUsRA9JbyBVyY9",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/seat-celula.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1900,
+          "y": 150,
+          "width": 2,
+          "height": 4,
+          "elevation": 0,
+          "level": "6ltNFYF8vluHEKwQ",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": false,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "huelin-garaje",
+              "vehiculo": "seat-celula",
+              "nombreBase": "El Seat de Elías",
+              "pasajeros": []
+            }
+          },
+          "_key": "!scenes.tokens!jzdWlT40m38No0XF.zG6RdFZm1j0j8I7S"
+        }
+      ],
       "notes": [
         {
           "_id": "djK4cOHDYnnLcbSx",
@@ -24403,6 +25426,49 @@
             }
           },
           "_key": "!scenes.tokens!zvdT27QJkgXIptFe.H94UXj45e6PJE97H"
+        },
+        {
+          "_id": "ZOzKvXUlp6kQB73n",
+          "name": "Sedán negro de Somnia (Huelin)",
+          "displayName": 30,
+          "actorId": "tdPn51DUUAKd3rOL",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-1.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 2600,
+          "y": 1100,
+          "width": 2,
+          "height": 4,
+          "elevation": 0,
+          "level": "lEJUFcLrfGLPbXIs",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": false,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "huelin-plaza",
+              "vehiculo": "sedan-somnia-1",
+              "nombreBase": "Sedán negro de Somnia (Huelin)",
+              "pasajeros": []
+            }
+          },
+          "_key": "!scenes.tokens!zvdT27QJkgXIptFe.ZOzKvXUlp6kQB73n"
         }
       ],
       "notes": [
@@ -28717,7 +29783,51 @@
           "_key": "!scenes.regions!k6Pw1WQrh6R8nY8k.XsZD1yJt8BmRb6bA"
         }
       ],
-      "tokens": [],
+      "tokens": [
+        {
+          "_id": "9TeyjYps65yUZTkY",
+          "name": "Patrulla de la Policía Nacional",
+          "displayName": 30,
+          "actorId": "KaOECUY6OQaHijZX",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/patrulla-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 2550,
+          "y": 1900,
+          "width": 2,
+          "height": 4,
+          "elevation": 0,
+          "level": "9BSUPpQY7U4bPr9l",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": false,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "comisaria",
+              "vehiculo": "patrulla-policia",
+              "nombreBase": "Patrulla de la Policía Nacional",
+              "pasajeros": []
+            }
+          },
+          "_key": "!scenes.tokens!k6Pw1WQrh6R8nY8k.9TeyjYps65yUZTkY"
+        }
+      ],
       "notes": [
         {
           "_id": "DA8TPEcNEQPq3bBG",
@@ -31344,6 +32454,25 @@
       "folder": "2eZIccsbgmrRP7jP",
       "sorting": "m",
       "sort": 10,
+      "color": "#5c1f1f",
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "carpeta"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "SBb8tzJiywySVLxM",
+      "name": "Vehículos",
+      "type": "Actor",
+      "folder": "2eZIccsbgmrRP7jP",
+      "sorting": "m",
+      "sort": 20,
       "color": "#5c1f1f",
       "flags": {
         "del-velo-a-la-vigilia": {

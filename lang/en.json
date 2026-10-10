@@ -133,6 +133,19 @@
       "actualizarTitulo": "Update the Somnia Biotech chronicle",
       "actualizarPregunta": "This world's chronicle was imported with module version {importada}; the module is now {version}. Update it? It replaces scenes, actors, journals, macros and music with the new ones without duplicating anything. Manual edits to those documents are lost; your own documents are untouched.",
       "actualizarSi": "Update now"
+    },
+    "vehiculos": {
+      "subir": "Board",
+      "bajar": "Get out",
+      "subirTooltip": "Board the selected (or adjacent) tokens · {n}/{plazas}",
+      "bajarTooltip": "Drop passengers ({n} inside)",
+      "sinPermiso": "You do not own this vehicle.",
+      "nadieCerca": "Nobody selected or next to the vehicle.",
+      "lleno": "{vehiculo} is full ({plazas} seats).",
+      "quedaronAfuera": "{n} did not fit: no seats left.",
+      "vacio": "Nobody inside.",
+      "subieron": "<strong>{quienes}</strong> board <strong>{vehiculo}</strong> ({n}/{plazas}).",
+      "bajaron": "<strong>{quienes}</strong> get out of <strong>{vehiculo}</strong>."
     }
   }
 }

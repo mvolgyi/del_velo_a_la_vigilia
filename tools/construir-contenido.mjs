@@ -412,6 +412,14 @@ function expandirMarcadores(md, archivo) {
     return `@UUID[Actor.${ID.actor(id)}]{${etiqueta?.trim() || nombrePnj[id]}}`;
   });
 
+  // @vehiculo{id|texto}
+  md = md.replace(/@vehiculo\{([^}|]+)(?:\|([^}]+))?\}/g, (_, id, etiqueta) => {
+    id = id.trim();
+    const v = (existe("content/vehiculos.json") ? leerJson("content/vehiculos.json").vehiculos : []).find(x => x.id === id);
+    if (!v) { avisos.push(`${archivo}: @vehiculo{${id}} no existe`); return etiqueta?.trim() ?? id; }
+    return `@UUID[Actor.${ID.actor(`vehiculo:${id}`)}]{${etiqueta?.trim() || v.nombre}}`;
+  });
+
   // @item{id|texto}
   md = md.replace(/@item\{([^}|]+)(?:\|([^}]+))?\}/g, (_, id, etiqueta) => {
     id = id.trim();
@@ -686,8 +694,33 @@ function construirPersonajes() {
     n++;
   }
 
+  // Vehículos: actores spc con el flag `vehiculo`, token cenital de 2×4 m.
+  const VEHICULOS = existe("content/vehiculos.json") ? leerJson("content/vehiculos.json").vehiculos : [];
+  for (const v of VEHICULOS) {
+    const aid = ID.actor(`vehiculo:${v.id}`);
+    const textura = existe(`assets/tokens/vehiculos/${v.id}.webp`) ? `modules/${MODULO}/assets/tokens/vehiculos/${v.id}.webp` : "icons/svg/anchor.svg";
+    escribirDoc("personajes", {
+      _id: aid, _key: `!actors!${aid}`, name: v.nombre, type: "spc", img: textura,
+      folder: carpetas.id("Vehículos"), sort: 0,
+      prototypeToken: { name: v.nombre, actorLink: false, disposition: 0, width: 2, height: 4, texture: { src: textura, fit: "contain" }, displayName: 30, lockRotation: false },
+      system: {
+        spcType: "mortal", headers: { concept: `Vehículo · ${v.plazas} plazas` },
+        standarddicepools: { physical: { value: 0 }, social: { value: 0 }, mental: { value: 0 } },
+        exceptionaldicepools: {},
+        health: { max: v.estructura ?? 6, value: v.estructura ?? 6, aggravated: 0, superficial: 0 },
+        willpower: { max: 0, value: 0, aggravated: 0, superficial: 0 },
+        power: { value: 0 }, generaldifficulty: { normal: 0, strongest: 0 },
+        description: `${md2html(expandirMarcadores(v.descripcion ?? "", "content/vehiculos.json"))}<table class="dvv-ficha"><tbody><tr><th>Plazas</th><td>${v.plazas}</td></tr><tr><th>Estructura</th><td>${v.estructura}</td></tr><tr><th>Maniobra</th><td>${v.maniobra >= 0 ? "+" : ""}${v.maniobra ?? 0}</td></tr><tr><th>Blindaje</th><td>${v.blindaje ?? 0}</td></tr><tr><th>Velocidad</th><td>${v.velocidad ?? "normal"}</td></tr></tbody></table>`,
+        privatenotes: md2html(expandirMarcadores(v.notas ?? "", "content/vehiculos.json")), settings: { enableDisciplines: false }
+      },
+      items: [], effects: [], ownership: { default: 0 },
+      flags: { [MODULO]: { origen: "vehiculo", vehiculo: { id: v.id, tipo: v.tipo, plazas: v.plazas, estructura: v.estructura, maniobra: v.maniobra ?? 0, blindaje: v.blindaje ?? 0, velocidad: v.velocidad ?? "normal", ancho: 2, largo: 4 } } },
+      _stats: STATS
+    });
+    n++;
+  }
   carpetas.escribir();
-  console.log(`personajes: ${n} actores`);
+  console.log(`personajes: ${n} actores (${VEHICULOS.length} vehículos)`);
 }
 
 /* ========================================================================== */
@@ -1304,6 +1337,20 @@ function construirSectores() {
           hidden: t.oculto, disposition: (DISPOSICION[pnj.spcType] ?? (HOSTILES.test(pnj.id) ? -1 : 0)), flags: flags("token", { sector: sec.id, pnj: pnj.id }) });
       }
     }
+
+    // Vehículos aparcados en este sector.
+    const VEHS = existe("content/vehiculos.json") ? leerJson("content/vehiculos.json").vehiculos.filter(v => v.sector === sec.id) : [];
+    const llegada = (geo.regiones ?? []).find(r => r.id === "llegada");
+    VEHS.forEach((v, i) => {
+      // Siempre sobre la calle (la región de llegada), nunca dentro de un edificio.
+      const base = llegada ? { x: llegada.x + llegada.w / 2, y: llegada.y + llegada.h / 2 } : { x: W / 2, y: H / 2 };
+      const x = Math.round((base.x + 300 + i * 200) / px) * px, y = Math.round((base.y - 100) / px) * px;
+      const textura = existe(`assets/tokens/vehiculos/${v.id}.webp`) ? `modules/${MODULO}/assets/tokens/vehiculos/${v.id}.webp` : "icons/svg/anchor.svg";
+      tokens.push({ _id: idEstable(`token:sector:${sec.id}:vehiculo:${v.id}`), name: v.nombre, displayName: 30, actorId: ID.actor(`vehiculo:${v.id}`), actorLink: false,
+        texture: { src: textura, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+        x: Math.min(x, W - 2 * px), y: Math.min(y, H - 4 * px), width: 2, height: 4, elevation: 0, level: idEstable(`nivel:sector:${sec.id}`), rotation: 0, alpha: 1, lockRotation: false, locked: false, sort: 0,
+        hidden: !!v.oculto, disposition: 0, flags: { [MODULO]: { origen: "token", sector: sec.id, vehiculo: v.id, nombreBase: v.nombre, pasajeros: [] } } });
+    });
 
     const ambiente = ambienteDe("malaga");
     escribirDoc("escenas", conClaves({

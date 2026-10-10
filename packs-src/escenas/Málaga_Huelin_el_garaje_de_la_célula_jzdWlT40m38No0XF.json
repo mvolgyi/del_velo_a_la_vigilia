@@ -621,7 +621,51 @@
       "_key": "!scenes.regions!jzdWlT40m38No0XF.u1aNNQxxE0FtJVTr"
     }
   ],
-  "tokens": [],
+  "tokens": [
+    {
+      "_id": "zG6RdFZm1j0j8I7S",
+      "name": "El Seat de Elías",
+      "displayName": 30,
+      "actorId": "zidUsRA9JbyBVyY9",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/seat-celula.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1900,
+      "y": 150,
+      "width": 2,
+      "height": 4,
+      "elevation": 0,
+      "level": "6ltNFYF8vluHEKwQ",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "huelin-garaje",
+          "vehiculo": "seat-celula",
+          "nombreBase": "El Seat de Elías",
+          "pasajeros": []
+        }
+      },
+      "_key": "!scenes.tokens!jzdWlT40m38No0XF.zG6RdFZm1j0j8I7S"
+    }
+  ],
   "notes": [
     {
       "_id": "djK4cOHDYnnLcbSx",

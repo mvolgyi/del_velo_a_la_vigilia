@@ -1,0 +1,90 @@
+{
+  "_id": "Vn6m2j0hYUZa3xBW",
+  "_key": "!actors!Vn6m2j0hYUZa3xBW",
+  "name": "Sedán negro de Somnia (Carretería)",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-2.webp",
+  "folder": "SBb8tzJiywySVLxM",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Sedán negro de Somnia (Carretería)",
+    "actorLink": false,
+    "disposition": 0,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-2.webp",
+      "fit": "contain"
+    },
+    "displayName": 30,
+    "lockRotation": false
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vehículo · 5 plazas"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 0
+      },
+      "social": {
+        "value": 0
+      },
+      "mental": {
+        "value": 0
+      }
+    },
+    "exceptionaldicepools": {},
+    "health": {
+      "max": 8,
+      "value": 8,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 0,
+      "value": 0,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 0,
+      "strongest": 0
+    },
+    "description": "<p>Gemelo del de Huelin: Skoda Superb negro, lunas tintadas, matrícula correlativa. Está en doble fila en la calle frente a Somnia Biotech, con la puerta del conductor mirando a la garita. De noche lo usan para traer a la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas} o para salir detrás de quien se acerque demasiado.</p><p><strong>Guantera:</strong> una @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.C9FmdnppITizz2QD]{pistola pesada} con un cargador de repuesto, un mando de la barrera del garaje de la clínica y un tique de parking del Clínico.</p><p><strong>Baúl:</strong> bridas, una capucha, una manta y un rollo de plástico de obra.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>8</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>1</td></tr><tr><th>Velocidad</th><td>rapida</td></tr></tbody></table>",
+    "privatenotes": "<p>Mismo GPS de flota que el sedán de Huelin. El mando de la barrera abre el acceso de vehículos de la clínica: es una entrada alternativa para el Acto 3, pero las cámaras graban la matrícula.</p><p>Si hay persecución desde Somnia, sale este coche con dos @UUID[Actor.9iZfEE32ZgK1g9mi]{matones}; si la cosa se pone fea, un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} va de copiloto.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "vehiculo",
+      "vehiculo": {
+        "id": "sedan-somnia-2",
+        "tipo": "sedan",
+        "plazas": 5,
+        "estructura": 8,
+        "maniobra": 0,
+        "blindaje": 1,
+        "velocidad": "rapida",
+        "ancho": 2,
+        "largo": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

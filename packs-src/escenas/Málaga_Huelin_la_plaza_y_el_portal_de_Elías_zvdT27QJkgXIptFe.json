@@ -2769,6 +2769,49 @@
         }
       },
       "_key": "!scenes.tokens!zvdT27QJkgXIptFe.H94UXj45e6PJE97H"
+    },
+    {
+      "_id": "ZOzKvXUlp6kQB73n",
+      "name": "Sedán negro de Somnia (Huelin)",
+      "displayName": 30,
+      "actorId": "tdPn51DUUAKd3rOL",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-1.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2600,
+      "y": 1100,
+      "width": 2,
+      "height": 4,
+      "elevation": 0,
+      "level": "lEJUFcLrfGLPbXIs",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "huelin-plaza",
+          "vehiculo": "sedan-somnia-1",
+          "nombreBase": "Sedán negro de Somnia (Huelin)",
+          "pasajeros": []
+        }
+      },
+      "_key": "!scenes.tokens!zvdT27QJkgXIptFe.ZOzKvXUlp6kQB73n"
     }
   ],
   "notes": [

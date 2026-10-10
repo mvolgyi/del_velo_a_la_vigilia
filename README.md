@@ -152,6 +152,15 @@ páginas van en `content/sectores/<id>.md`. En Foundry, un token que entra en la
 en el mapa de Málaga aparece en su calle; el borde del sector devuelve a la ciudad; la puerta de
 cada lugar lleva a su interior y viceversa.
 
+### Vehículos
+
+`content/vehiculos.json` define los vehículos (plazas, estructura, maniobra, blindaje, dónde
+están aparcados). Son actores con token cenital de 2×4 m; en el mapa general se achican solos a un
+marcador. En el HUD del token del vehículo hay dos botones: **Subir** (los tokens seleccionados o
+los que estén al lado desaparecen y quedan dentro) y **Bajar** (vuelven a aparecer alrededor).
+Los pasajeros viajan con el coche por las regiones de teletransporte. Reglas de conducción y
+persecución en el journal *Vehículos y persecuciones*.
+
 ## Marcadores en los Markdown de `content/`
 
 ```

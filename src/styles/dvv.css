@@ -272,3 +272,15 @@ table.dvv-ficha td { padding: 0.15em 0; }
 
 .dvv-registro li.aplicado { opacity: 0.55; }
 .dvv-fecha { font-size: 0.8rem; opacity: 0.6; }
+
+/* --- Vehículos: HUD ------------------------------------------------------ */
+
+.dvv-hud { position: relative; }
+.dvv-hud .dvv-hud-n {
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--dvv-fe);
+}

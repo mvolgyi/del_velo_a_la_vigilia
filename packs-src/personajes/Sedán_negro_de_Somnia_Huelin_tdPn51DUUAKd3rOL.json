@@ -1,0 +1,90 @@
+{
+  "_id": "tdPn51DUUAKd3rOL",
+  "_key": "!actors!tdPn51DUUAKd3rOL",
+  "name": "Sedán negro de Somnia (Huelin)",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-1.webp",
+  "folder": "SBb8tzJiywySVLxM",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Sedán negro de Somnia (Huelin)",
+    "actorLink": false,
+    "disposition": 0,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/sedan-somnia-1.webp",
+      "fit": "contain"
+    },
+    "displayName": 30,
+    "lockRotation": false
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vehículo · 5 plazas"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 0
+      },
+      "social": {
+        "value": 0
+      },
+      "mental": {
+        "value": 0
+      }
+    },
+    "exceptionaldicepools": {},
+    "health": {
+      "max": 8,
+      "value": 8,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 0,
+      "value": 0,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 0,
+      "strongest": 0
+    },
+    "description": "<p>Un Skoda Superb negro de flota, lunas tintadas, llantas sin un rayón y una antena corta de más en el techo. Está aparcado frente al portal de Elías, en la plaza de Huelin, sin esconderse: quieren que se lo vea. Adentro, dos @UUID[Actor.9iZfEE32ZgK1g9mi]{matones} con café de gasolinera y el motor encendido para la calefacción.</p><p><strong>Guantera:</strong> un @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.u0aSGOOp7pCJDisy]{táser}, una carpeta con fotos impresas de la célula tomadas en el Acto 1 y una libreta con horarios de entradas y salidas del portal.</p><p><strong>Baúl:</strong> bridas de plástico, dos capuchas de tela negra, cinta americana y un botiquín de empresa.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>8</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>1</td></tr><tr><th>Velocidad</th><td>rapida</td></tr></tbody></table>",
+    "privatenotes": "<p><strong>Llaves:</strong> llave de proximidad en el bolsillo del matón que conduce. Sin ella, puentearlo es difícil (ver «Robar un coche»).</p><p><strong>Blindaje 1:</strong> paneles de puertas reforzados y lunas laminadas, de los que se piden a una empresa de escoltas.</p><p><strong>GPS de flota:</strong> un localizador cableado bajo el salpicadero reporta la posición cada minuto a la garita de Somnia. Si lo roban y no lo arrancan (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.technology\" data-dificultad=\"2\" data-label=\"Astucia + Tecnología\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Tecnología</a>), en veinte minutos hay otro sedán detrás. Es también una pista: el historial de rutas del GPS muestra los portales de todas las Piedras de Toque que vigilan.</p><p>Si los matones ven a la célula, uno llama y el otro sigue a pie o en el coche. No disparan en la plaza: intimidan.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "vehiculo",
+      "vehiculo": {
+        "id": "sedan-somnia-1",
+        "tipo": "sedan",
+        "plazas": 5,
+        "estructura": 8,
+        "maniobra": 0,
+        "blindaje": 1,
+        "velocidad": "rapida",
+        "ancho": 2,
+        "largo": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

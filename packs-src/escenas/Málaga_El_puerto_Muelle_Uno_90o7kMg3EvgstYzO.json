@@ -425,6 +425,49 @@
         }
       },
       "_key": "!scenes.tokens!90o7kMg3EvgstYzO.ig6tgonk7M7rddBJ"
+    },
+    {
+      "_id": "MGNDLrzjqbKiW0jn",
+      "name": "Furgoneta de reparto del puerto",
+      "displayName": 30,
+      "actorId": "PiZIumcwjyusHD5k",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/furgoneta-ghoul.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1700,
+      "y": 1100,
+      "width": 2,
+      "height": 4,
+      "elevation": 0,
+      "level": "CKwItMoyzNAsifU7",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "muelle-uno",
+          "vehiculo": "furgoneta-ghoul",
+          "nombreBase": "Furgoneta de reparto del puerto",
+          "pasajeros": []
+        }
+      },
+      "_key": "!scenes.tokens!90o7kMg3EvgstYzO.MGNDLrzjqbKiW0jn"
     }
   ],
   "notes": [

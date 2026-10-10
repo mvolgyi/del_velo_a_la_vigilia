@@ -1,0 +1,90 @@
+{
+  "_id": "zidUsRA9JbyBVyY9",
+  "_key": "!actors!zidUsRA9JbyBVyY9",
+  "name": "El Seat de Elías",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/seat-celula.webp",
+  "folder": "SBb8tzJiywySVLxM",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "El Seat de Elías",
+    "actorLink": false,
+    "disposition": 0,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/seat-celula.webp",
+      "fit": "contain"
+    },
+    "displayName": 30,
+    "lockRotation": false
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vehículo · 5 plazas"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 0
+      },
+      "social": {
+        "value": 0
+      },
+      "mental": {
+        "value": 0
+      }
+    },
+    "exceptionaldicepools": {},
+    "health": {
+      "max": 7,
+      "value": 7,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 0,
+      "value": 0,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 0,
+      "strongest": 0
+    },
+    "description": "<p>Un Seat León gris plomo de 2008, con la pintura del capó comida por el sol y una pegatina descolorida del Málaga CF en la luneta. Fue el coche de la vieja célula: cinco cazadores entraban apretados y nadie se quejaba. Lleva nueve años tapado con una lona en el garaje de Huelin, con el polvo pegado a los asientos y el olor a gasoil todavía metido en la tapicería.</p><p><strong>Guantera:</strong> un mapa de Málaga de papel con tres cruces a boli (Carretería, Gaona, el Cementerio Inglés), una linterna sin pilas y la cartilla del seguro a nombre de un muerto.</p><p><strong>Baúl:</strong> una caja de cerveza con cuatro @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.b0pm2CJKnZing6RL]{molotovs} ya armadas (las mechas, resecas), un bidón de gasoil a la mitad y dos @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OJh3OkqAWt9hopa1]{bengalas de emergencia} de carretera.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>7</td></tr><tr><th>Maniobra</th><td>+0</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>normal</td></tr></tbody></table>",
+    "privatenotes": "<p><strong>Llaves:</strong> colgadas de un clavo sobre el banco de Mara, con un llavero de la Virgen de la Victoria. Elías no las va a ofrecer: hay que pedírselas o encontrarlas.</p><p><strong>Arrancarlo:</strong> la batería está muerta y las ruedas, bajas. Con pinzas y una batería ajena, o <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.craft\" data-dificultad=\"2\" data-label=\"Inteligencia + Artesanía\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Artesanía</a> con lo que hay en el banco, arranca en diez minutos. Sin eso, no se mueve esa noche.</p><p><strong>Rastro:</strong> la matrícula está a nombre de un miembro muerto de la vieja célula y la ITV venció hace siete años. Un control de tráfico lo para seguro. Somnia conoce el coche: si lo ven circular cerca de la clínica, +1 Peligro y alguien va a ir a mirar el garaje.</p><p>Las molotovs tienen nueve años: con un fallo total al lanzarlas, la mecha no prende.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "vehiculo",
+      "vehiculo": {
+        "id": "seat-celula",
+        "tipo": "coche",
+        "plazas": 5,
+        "estructura": 7,
+        "maniobra": 0,
+        "blindaje": 0,
+        "velocidad": "normal",
+        "ancho": 2,
+        "largo": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

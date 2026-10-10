@@ -14,8 +14,9 @@ import { Arsenal } from "./arsenal.mjs";
 import { PanelCronica } from "./panel-cronica.mjs";
 import { cazadorActual } from "./actores.mjs";
 import { instalarParches } from "./compat.mjs";
+import { Vehiculos } from "./vehiculos.mjs";
 
-export { DVV, Caminos, TresPuertas, Desesperacion, Balizas, Arsenal, PanelCronica };
+export { DVV, Caminos, TresPuertas, Desesperacion, Balizas, Arsenal, PanelCronica, Vehiculos };
 
 /* -------------------------------------------- */
 
@@ -44,6 +45,9 @@ Hooks.once("ready", async () => {
     ajustarBalizas: actor => Balizas.dialogo(actor),
     equiparSet: (actor, setId) => Arsenal.equiparSet(actor, setId),
     importarCronica: opciones => importarCronica(opciones),
+    Vehiculos,
+    subirAlVehiculo: (vehiculo, tokens) => Vehiculos.subir(vehiculo ?? canvas.tokens.controlled.map(t => t.document).find(t => Vehiculos.esVehiculo(t)), tokens),
+    bajarDelVehiculo: vehiculo => Vehiculos.dialogoBajar(vehiculo ?? canvas.tokens.controlled.map(t => t.document).find(t => Vehiculos.esVehiculo(t))),
     cazadorActual
   };
 
@@ -135,6 +139,10 @@ Hooks.on("wod5e.handleFailure", (actor, system, failures, diceResults, rollMode)
   Desesperacion.onHandleFailure(actor, system, failures, diceResults, rollMode)
     .catch(err => console.warn(`${DVV.ID} | recordatorio:`, err));
 });
+
+/** Vehículos: botones en el HUD y tamaño según la escena. */
+Hooks.on("renderTokenHUD", (hud, html) => Vehiculos.onRenderTokenHUD(hud, html));
+Hooks.on("preCreateToken", (doc, data) => Vehiculos.onPreCreateToken(doc, data));
 
 /** Reserva o mejora `dvv-*` arrastrada a una hoja: completar la Facultad. */
 Hooks.on("createItem", (item, _options, userId) => {

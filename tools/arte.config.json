@@ -23,6 +23,13 @@
       "aspecto": "1:1",
       "tamano": "1K",
       "carpeta": "assets/tokens-crudo"
+    },
+    "vehiculo": {
+      "prefijo": "Top-down token artwork of ONE single vehicle for a virtual tabletop (World of Darkness, present-day Málaga, Spain), seen from DIRECTLY ABOVE as if photographed from a drone: roof, hood and trunk visible, no side panels, no perspective. Strictly orthographic top view, like a satellite photo: the front bumper, the rear bumper, the rear doors and the licence plates are NOT visible, only their top edges. The vehicle is oriented vertically, front pointing UP, centered, filling about 85% of the frame height.\n\nSUBJECT: ",
+      "sufijo": "\n\nSTYLE: illustrated photorealism with confident ink outlines under painted colour, cold desaturated palette, matching the battlemaps and character tokens of the same campaign. The bodywork is wet with rain: beads of water and cold reflections on the roof and hood.\n\nBACKGROUND: a perfectly flat, uniform, pure chroma-key green (#00FF00) background with absolutely nothing else on it: no road, no ground, no texture, no gradient, no shadow cast under the vehicle, no vignette. The green must be a single flat colour so it can be keyed out.\n\nNO text, no letters, no readable licence plate (plates blank), no logos, no brand emblems on the hood or trunk, no model badges, no people, no frame, no border, no ring, no circle, no token base, no second vehicle.",
+      "aspecto": "9:16",
+      "tamano": "1K",
+      "carpeta": "assets/tokens-crudo/vehiculos"
     }
   },
   "assets": [
@@ -121,6 +128,48 @@
       "estilo": "token",
       "prompt": "a young man in a dark hoodie with the hood down seen from above, sweat-dark hair, surgical scars on the neck and scalp, dark veins on the back of the neck, hands clawed, one forearm showing a bony ridge under the skin.",
       "nota": "token cenital PNJ"
+    },
+    {
+      "id": "seat-celula",
+      "estilo": "vehiculo",
+      "prompt": "an old dark-green 2003 Seat León hatchback, dented, faded paint, a roof box strap, rust on the roof edges",
+      "nota": "token cenital vehículo"
+    },
+    {
+      "id": "sedan-somnia-1",
+      "estilo": "vehiculo",
+      "prompt": "a black Audi A6 sedan, immaculate, tinted windows, corporate, roof wet",
+      "nota": "token cenital vehículo"
+    },
+    {
+      "id": "sedan-somnia-2",
+      "estilo": "vehiculo",
+      "prompt": "a black BMW 5 series sedan, immaculate, tinted windows, roof wet",
+      "nota": "token cenital vehículo"
+    },
+    {
+      "id": "ambulancia-somnia",
+      "estilo": "vehiculo",
+      "prompt": "a white private ambulance van (Mercedes Sprinter type) with a discreet pale-blue stripe, no red cross, no lettering, roof with vents and a lightbar turned off",
+      "nota": "token cenital vehículo"
+    },
+    {
+      "id": "furgoneta-ghoul",
+      "estilo": "vehiculo",
+      "prompt": "a dirty white Renault Trafic cargo van, dented, scraped, one grey replacement door, no windows at the back",
+      "nota": "token cenital vehículo"
+    },
+    {
+      "id": "taxi-malaga",
+      "estilo": "vehiculo",
+      "prompt": "a white Toyota Prius taxi of Málaga with a single thin blue diagonal stripe on the door, a small roof sign turned off, roof wet",
+      "nota": "token cenital vehículo"
+    },
+    {
+      "id": "patrulla-policia",
+      "estilo": "vehiculo",
+      "prompt": "a Spanish Policía Nacional patrol car, white Citroën C4 with a dark blue hood and dark blue stripes, roof lightbar turned off, no lettering, no badge",
+      "nota": "token cenital vehículo"
     }
   ]
 }

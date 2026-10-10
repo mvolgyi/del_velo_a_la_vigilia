@@ -1,0 +1,90 @@
+{
+  "_id": "PiZIumcwjyusHD5k",
+  "_key": "!actors!PiZIumcwjyusHD5k",
+  "name": "Furgoneta de reparto del puerto",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/furgoneta-ghoul.webp",
+  "folder": "SBb8tzJiywySVLxM",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Furgoneta de reparto del puerto",
+    "actorLink": false,
+    "disposition": 0,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/furgoneta-ghoul.webp",
+      "fit": "contain"
+    },
+    "displayName": 30,
+    "lockRotation": false
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vehículo · 3 plazas"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 0
+      },
+      "social": {
+        "value": 0
+      },
+      "mental": {
+        "value": 0
+      }
+    },
+    "exceptionaldicepools": {},
+    "health": {
+      "max": 9,
+      "value": 9,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 0,
+      "value": 0,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 0,
+      "strongest": 0
+    },
+    "description": "<p>Una Renault Trafic blanca con un rótulo medio despegado de «Logística Costa del Sol». La usa un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} de Somnia para recoger en el puerto las cajas que la clínica no quiere que pasen por una aduana normal. Tres plazas delante; atrás, la zona de carga sin ventanas.</p><p><strong>Carga:</strong> cajas de reactivos con etiquetas en alemán, una nevera portátil con bolsas de plasma y, mal escondida bajo una lona, una caja con @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.C9FmdnppITizz2QD]{dos pistolas pesadas} que Joaquín le pasó «por el mismo precio».</p><p><strong>Guantera:</strong> albaranes falsos y un pase de la seguridad portuaria.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>3</td></tr><tr><th>Estructura</th><td>9</td></tr><tr><th>Maniobra</th><td>-1</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>lenta</td></tr></tbody></table>",
+    "privatenotes": "<p>El ghoul la deja en los muelles de carga con las llaves en el contacto mientras discute con Joaquín. Robarla es fácil; salir del recinto portuario con ella, no: la seguridad del puerto pide el pase (<a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio</a>).</p><p>Sin GPS: Somnia no la rastrea, pero el ghoul la va a echar de menos en una hora y avisa a Marcos. Los albaranes son una pista de qué recibe la clínica (Método).</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "vehiculo",
+      "vehiculo": {
+        "id": "furgoneta-ghoul",
+        "tipo": "furgoneta",
+        "plazas": 3,
+        "estructura": 9,
+        "maniobra": -1,
+        "blindaje": 0,
+        "velocidad": "lenta",
+        "ancho": 2,
+        "largo": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

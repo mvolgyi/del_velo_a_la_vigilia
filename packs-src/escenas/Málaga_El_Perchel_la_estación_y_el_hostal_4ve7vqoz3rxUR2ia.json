@@ -480,6 +480,49 @@
         }
       },
       "_key": "!scenes.tokens!4ve7vqoz3rxUR2ia.O9TMk86amxKaq6A4"
+    },
+    {
+      "_id": "8mT8Ort8Bz1pW3sk",
+      "name": "Taxi de la estación",
+      "displayName": 30,
+      "actorId": "SBxFIEpmtSIIXHdA",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/taxi-malaga.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1850,
+      "y": 150,
+      "width": 2,
+      "height": 4,
+      "elevation": 0,
+      "level": "GzuCWhdKZ19qpKLm",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "perchel-estacion",
+          "vehiculo": "taxi-malaga",
+          "nombreBase": "Taxi de la estación",
+          "pasajeros": []
+        }
+      },
+      "_key": "!scenes.tokens!4ve7vqoz3rxUR2ia.8mT8Ort8Bz1pW3sk"
     }
   ],
   "notes": [

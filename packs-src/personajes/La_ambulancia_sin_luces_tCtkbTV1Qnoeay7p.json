@@ -1,0 +1,90 @@
+{
+  "_id": "tCtkbTV1Qnoeay7p",
+  "_key": "!actors!tCtkbTV1Qnoeay7p",
+  "name": "La ambulancia sin luces",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/ambulancia-somnia.webp",
+  "folder": "SBb8tzJiywySVLxM",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "La ambulancia sin luces",
+    "actorLink": false,
+    "disposition": 0,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/ambulancia-somnia.webp",
+      "fit": "contain"
+    },
+    "displayName": 30,
+    "lockRotation": false
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vehículo · 4 plazas"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 0
+      },
+      "social": {
+        "value": 0
+      },
+      "mental": {
+        "value": 0
+      }
+    },
+    "exceptionaldicepools": {},
+    "health": {
+      "max": 10,
+      "value": 10,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 0,
+      "value": 0,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 0,
+      "strongest": 0
+    },
+    "description": "<p>Una Mercedes Sprinter blanca rotulada como «Transporte sanitario Somnia», con las luces de emergencia desconectadas y los cristales traseros esmerilados. Sale del muelle de carga a las tres de la mañana con un durmiente atado a la camilla. Delante, el conductor y un acompañante; atrás, la camilla y dos asientos plegables.</p><p><strong>Cabina sanitaria:</strong> camilla con correas de sujeción, una bombona de oxígeno, viales de sedante sin etiquetar en un cajón con llave y un botiquín completo de urgencias (cura 1 de daño superficial a quien lo use con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina</a>, una vez por escena).</p><p><strong>Guantera:</strong> una hoja de ruta con direcciones del centro, entre ellas una puerta trasera junto al mercado de Atarazanas.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>4</td></tr><tr><th>Estructura</th><td>10</td></tr><tr><th>Maniobra</th><td>-1</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>lenta</td></tr></tbody></table>",
+    "privatenotes": "<p><strong>Oculta</strong> hasta que la célula vigile el muelle de carga de noche o pregunte por las salidas de madrugada. Revelala cuando sale a las tres.</p><p>La conduce un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} con uniforme de técnico sanitario. Llaves puestas mientras cargan; la puerta trasera solo abre desde fuera.</p><p>Seguirla sin que se note: tirada enfrentada de <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.drive\" data-dificultad=\"0\" data-label=\"Astucia + Conducir\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Conducir</a> contra la Astucia + Consciencia del conductor. Lleva a los durmientes «dados de alta» a una puerta trasera del centro, cerca del mercado de Atarazanas (ver ese lugar). Interceptarla y sacar al durmiente vivo es una buena ocasión para sumar +1 Fe.</p><p>Es pesada: a otro coche le hace +3 al embestir, pero en los callejones del centro va con −2 adicional.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "vehiculo",
+      "vehiculo": {
+        "id": "ambulancia-somnia",
+        "tipo": "ambulancia",
+        "plazas": 4,
+        "estructura": 10,
+        "maniobra": -1,
+        "blindaje": 0,
+        "velocidad": "lenta",
+        "ancho": 2,
+        "largo": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

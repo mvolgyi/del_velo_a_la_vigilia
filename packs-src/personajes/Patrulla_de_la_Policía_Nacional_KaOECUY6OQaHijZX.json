@@ -1,0 +1,90 @@
+{
+  "_id": "KaOECUY6OQaHijZX",
+  "_key": "!actors!KaOECUY6OQaHijZX",
+  "name": "Patrulla de la Policía Nacional",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/patrulla-policia.webp",
+  "folder": "SBb8tzJiywySVLxM",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Patrulla de la Policía Nacional",
+    "actorLink": false,
+    "disposition": 0,
+    "width": 2,
+    "height": 4,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/vehiculos/patrulla-policia.webp",
+      "fit": "contain"
+    },
+    "displayName": 30,
+    "lockRotation": false
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vehículo · 5 plazas"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 0
+      },
+      "social": {
+        "value": 0
+      },
+      "mental": {
+        "value": 0
+      }
+    },
+    "exceptionaldicepools": {},
+    "health": {
+      "max": 8,
+      "value": 8,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 0,
+      "value": 0,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 0,
+      "strongest": 0
+    },
+    "description": "<p>Un coche patrulla blanco y azul de la Policía Nacional aparcado en doble fila frente a la comisaría de la plaza de Manuel Azaña, junto a los furgones. Emisora, ordenador de a bordo y una mampara entre los asientos delanteros y los de atrás, que solo se abren desde fuera.</p><p><strong>Maletero:</strong> conos, chalecos reflectantes, un extintor y un botiquín.</p><table class=\"dvv-ficha\"><tbody><tr><th>Plazas</th><td>5</td></tr><tr><th>Estructura</th><td>8</td></tr><tr><th>Maniobra</th><td>+1</td></tr><tr><th>Blindaje</th><td>0</td></tr><tr><th>Velocidad</th><td>rapida</td></tr></tbody></table>",
+    "privatenotes": "<p>Para el Narrador, este coche es una amenaza más que un recurso. Aparece cuando una persecución hace demasiado ruido: tras dos turnos de persecución en zona urbana con choques o disparos, entra una patrulla en la escena.</p><p>Los agentes conducen con 5 dados y tienen la emisora: si la célula escapa, en la siguiente escena hay controles en las salidas del barrio. Robar esta patrulla es la peor idea de la noche: +2 Peligro, GPS policial y orden de búsqueda.</p><p>Asiento trasero: quien vaya detenido atrás no puede abrir las puertas ni actuar contra los de delante.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "vehiculo",
+      "vehiculo": {
+        "id": "patrulla-policia",
+        "tipo": "patrulla",
+        "plazas": 5,
+        "estructura": 8,
+        "maniobra": 1,
+        "blindaje": 0,
+        "velocidad": "rapida",
+        "ancho": 2,
+        "largo": 4
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}
