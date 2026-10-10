@@ -1,0 +1,125 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "malagueta",
+ "nombre": "La Malagueta de noche",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.71943,
+  "lon": -4.4065
+ },
+ "bbox": {
+  "oeste": -4.4069483,
+  "este": -4.4060517,
+  "sur": 36.7191605,
+  "norte": 36.7196995
+ },
+ "enMalaga": {
+  "region": "malaga:malagueta",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH",
+  "x": 3706,
+  "y": 1129.9,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 0,
+ "muros": [],
+ "puertas": [],
+ "luces": [
+  {
+   "x": 1424,
+   "y": 908,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  },
+  {
+   "x": 717,
+   "y": 1178,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  },
+  {
+   "x": 2576,
+   "y": 403,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "malagueta",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+   },
+   "uuid": "Scene.jp0NVVq8htpFKq6a.Region.5C6zUYtM5R83v6hd"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "malagueta",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+   },
+   "uuid": "Scene.jp0NVVq8htpFKq6a.Region.RUv1A23LFAZGmg25"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "malagueta",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+   },
+   "uuid": "Scene.jp0NVVq8htpFKq6a.Region.FBzW6N0gI8HoHw2D"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "malagueta",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+   },
+   "uuid": "Scene.jp0NVVq8htpFKq6a.Region.kmmtVlr16Skmwpjc"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 1296,
+   "y": 338,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.jp0NVVq8htpFKq6a.Region.RmMFRCyayrh7P97h"
+  } ],
+ "puntos": [
+  {
+   "poi": "malagueta",
+   "x": 2000,
+   "y": 2780,
+   "edificio": null,
+   "aproximado": false
+  } ],
+ "avisos": [
+  "POI malagueta: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+}

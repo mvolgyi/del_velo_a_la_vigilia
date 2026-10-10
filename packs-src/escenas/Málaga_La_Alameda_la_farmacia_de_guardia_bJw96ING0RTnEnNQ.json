@@ -1,0 +1,1178 @@
+{
+  "_id": "bJw96ING0RTnEnNQ",
+  "_key": "!scenes!bJw96ING0RTnEnNQ",
+  "name": "Málaga · La Alameda · la farmacia de guardia",
+  "folder": "3juiA14H0J18xQ4h",
+  "navigation": false,
+  "navOrder": 270,
+  "width": 4000,
+  "height": 3000,
+  "padding": 0,
+  "playlist": "RREVIAminsF37jT3",
+  "playlistSound": "gni4ryurkIQsdYTN",
+  "grid": {
+    "type": 1,
+    "size": 50,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 1,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.8,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "NkLBnS4N0V4L0ZzQ",
+      "name": "Calle",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/sectores/alameda-farmacia.webp",
+        "color": "#0b0d10"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!bJw96ING0RTnEnNQ.NkLBnS4N0V4L0ZzQ"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "3G9gic94zETmuR18",
+      "c": [
+        2777,
+        257,
+        2927,
+        202
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.3G9gic94zETmuR18"
+    },
+    {
+      "_id": "iW6OgHkdF4cXutNe",
+      "c": [
+        2927,
+        202,
+        3105,
+        108
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.iW6OgHkdF4cXutNe"
+    },
+    {
+      "_id": "awDOWWPnSB18WrE7",
+      "c": [
+        3105,
+        108,
+        3132,
+        29
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.awDOWWPnSB18WrE7"
+    },
+    {
+      "_id": "rTHLDrMfkAEqZsih",
+      "c": [
+        3132,
+        29,
+        3129,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.rTHLDrMfkAEqZsih"
+    },
+    {
+      "_id": "obEoX74CqcllumUG",
+      "c": [
+        1118,
+        828,
+        1203,
+        798
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.obEoX74CqcllumUG"
+    },
+    {
+      "_id": "muYdBV4hCY7TT579",
+      "c": [
+        1203,
+        798,
+        1279,
+        771
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.muYdBV4hCY7TT579"
+    },
+    {
+      "_id": "5XcBuLwJMXs9jNs8",
+      "c": [
+        1279,
+        771,
+        1363,
+        742
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.5XcBuLwJMXs9jNs8"
+    },
+    {
+      "_id": "zryRc3sVNDP2a9Xh",
+      "c": [
+        1363,
+        742,
+        1540,
+        680
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.zryRc3sVNDP2a9Xh"
+    },
+    {
+      "_id": "LGLTEyGZ6DKNzwcG",
+      "c": [
+        1540,
+        680,
+        1739,
+        611
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.LGLTEyGZ6DKNzwcG"
+    },
+    {
+      "_id": "0gV5TKRG3NUJHorF",
+      "c": [
+        1739,
+        611,
+        2174,
+        459
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.0gV5TKRG3NUJHorF"
+    },
+    {
+      "_id": "m4pd1AcOESpF0j7F",
+      "c": [
+        2174,
+        459,
+        2267,
+        426
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.m4pd1AcOESpF0j7F"
+    },
+    {
+      "_id": "kzELfkTvaklSIuxf",
+      "c": [
+        2267,
+        426,
+        2347,
+        398
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.kzELfkTvaklSIuxf"
+    },
+    {
+      "_id": "F0WQEDjtbxVd7RBQ",
+      "c": [
+        0,
+        725,
+        12,
+        782
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.F0WQEDjtbxVd7RBQ"
+    },
+    {
+      "_id": "iZwXwftglT5FGmKD",
+      "c": [
+        0,
+        0,
+        106,
+        520
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.iZwXwftglT5FGmKD"
+    },
+    {
+      "_id": "biMDCNC9EWjldiMZ",
+      "c": [
+        106,
+        520,
+        236,
+        1155
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.biMDCNC9EWjldiMZ"
+    },
+    {
+      "_id": "5wWT8sQheVCi8pOo",
+      "c": [
+        236,
+        1155,
+        400,
+        1097
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.5wWT8sQheVCi8pOo"
+    },
+    {
+      "_id": "0ExidvIB0helzzJI",
+      "c": [
+        400,
+        1097,
+        507,
+        1058
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.0ExidvIB0helzzJI"
+    },
+    {
+      "_id": "xlivWtxW65HPRYxc",
+      "c": [
+        507,
+        1058,
+        679,
+        994
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.xlivWtxW65HPRYxc"
+    },
+    {
+      "_id": "JumAVDpVLorqI55C",
+      "c": [
+        679,
+        994,
+        847,
+        931
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.JumAVDpVLorqI55C"
+    },
+    {
+      "_id": "mwZlDKPxWXMikvzI",
+      "c": [
+        847,
+        931,
+        1003,
+        871
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.mwZlDKPxWXMikvzI"
+    },
+    {
+      "_id": "JTPcs3OM2IRxk3y9",
+      "c": [
+        1003,
+        871,
+        1118,
+        828
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.JTPcs3OM2IRxk3y9"
+    },
+    {
+      "_id": "zqZFNFpW8rzbYusU",
+      "c": [
+        2347,
+        398,
+        2471,
+        357
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.zqZFNFpW8rzbYusU"
+    },
+    {
+      "_id": "fidUxOk8gGRaqOZY",
+      "c": [
+        2471,
+        357,
+        2777,
+        257
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.fidUxOk8gGRaqOZY"
+    },
+    {
+      "_id": "1YvvEWXmdJQsugZD",
+      "c": [
+        12,
+        782,
+        44,
+        933
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.1YvvEWXmdJQsugZD"
+    },
+    {
+      "_id": "t2xgboMzBm1Bpi3e",
+      "c": [
+        44,
+        933,
+        50,
+        966
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.t2xgboMzBm1Bpi3e"
+    },
+    {
+      "_id": "z3jAI6jbylc3jCqF",
+      "c": [
+        50,
+        966,
+        95,
+        1192
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.z3jAI6jbylc3jCqF"
+    },
+    {
+      "_id": "F4QSvWSJk9sQtaxY",
+      "c": [
+        95,
+        1192,
+        109,
+        1256
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.F4QSvWSJk9sQtaxY"
+    },
+    {
+      "_id": "zk8u22r1N5mZFImz",
+      "c": [
+        109,
+        1256,
+        0,
+        1297
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!bJw96ING0RTnEnNQ.zk8u22r1N5mZFImz"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "eZLEVYf8s3GAtTvy",
+      "x": 3334,
+      "y": 2126,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!bJw96ING0RTnEnNQ.eZLEVYf8s3GAtTvy"
+    },
+    {
+      "_id": "h3g9pprTqXP8h15b",
+      "x": 1952,
+      "y": 1963,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!bJw96ING0RTnEnNQ.h3g9pprTqXP8h15b"
+    },
+    {
+      "_id": "a2q8YtPO1pEcTdg4",
+      "x": 974,
+      "y": 2951,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!bJw96ING0RTnEnNQ.a2q8YtPO1pEcTdg4"
+    },
+    {
+      "_id": "asyrgLOqEHAMAipn",
+      "x": 291,
+      "y": 1242,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!bJw96ING0RTnEnNQ.asyrgLOqEHAMAipn"
+    },
+    {
+      "_id": "o4FbUsQSoYl8zRbd",
+      "x": 3868,
+      "y": 2914,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!bJw96ING0RTnEnNQ.o4FbUsQSoYl8zRbd"
+    },
+    {
+      "_id": "sWhSiiuQ5pfFiCPl",
+      "x": 1834,
+      "y": 1275,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!bJw96ING0RTnEnNQ.sWhSiiuQ5pfFiCPl"
+    },
+    {
+      "_id": "BrUf7kthW0LYQ6JZ",
+      "x": 2925,
+      "y": 620,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!bJw96ING0RTnEnNQ.BrUf7kthW0LYQ6JZ"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "LrbxDNDEJM2nK8jN",
+      "name": "Volver a la ciudad (norte)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 0,
+          "width": 4000,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "alameda-farmacia",
+          "region": "borde-n"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "NgXiAcLJZwOprMmI",
+          "name": "Volver a la ciudad (norte)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!bJw96ING0RTnEnNQ.LrbxDNDEJM2nK8jN.NgXiAcLJZwOprMmI"
+        }
+      ],
+      "_key": "!scenes.regions!bJw96ING0RTnEnNQ.LrbxDNDEJM2nK8jN"
+    },
+    {
+      "_id": "cE2wqRlLZ568iK4t",
+      "name": "Volver a la ciudad (sur)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 2850,
+          "width": 4000,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "alameda-farmacia",
+          "region": "borde-s"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "SqeEHLPwKH98ypBt",
+          "name": "Volver a la ciudad (sur)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!bJw96ING0RTnEnNQ.cE2wqRlLZ568iK4t.SqeEHLPwKH98ypBt"
+        }
+      ],
+      "_key": "!scenes.regions!bJw96ING0RTnEnNQ.cE2wqRlLZ568iK4t"
+    },
+    {
+      "_id": "9L8uveAVuzG4bj02",
+      "name": "Volver a la ciudad (oeste)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 150,
+          "width": 150,
+          "height": 2700,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "alameda-farmacia",
+          "region": "borde-o"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "VpLFhR5WcDcuJvsd",
+          "name": "Volver a la ciudad (oeste)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!bJw96ING0RTnEnNQ.9L8uveAVuzG4bj02.VpLFhR5WcDcuJvsd"
+        }
+      ],
+      "_key": "!scenes.regions!bJw96ING0RTnEnNQ.9L8uveAVuzG4bj02"
+    },
+    {
+      "_id": "df3XuwxbT8JSvynp",
+      "name": "Volver a la ciudad (este)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 3850,
+          "y": 150,
+          "width": 150,
+          "height": 2700,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "alameda-farmacia",
+          "region": "borde-e"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "Lh5VF38VTMx701mF",
+          "name": "Volver a la ciudad (este)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!bJw96ING0RTnEnNQ.df3XuwxbT8JSvynp.Lh5VF38VTMx701mF"
+        }
+      ],
+      "_key": "!scenes.regions!bJw96ING0RTnEnNQ.df3XuwxbT8JSvynp"
+    },
+    {
+      "_id": "zkwCEgWNFrWSm9dE",
+      "name": "Llegada desde la ciudad",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2165,
+          "y": 2110,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "alameda-farmacia",
+          "region": "llegada"
+        }
+      },
+      "behaviors": [],
+      "_key": "!scenes.regions!bJw96ING0RTnEnNQ.zkwCEgWNFrWSm9dE"
+    }
+  ],
+  "tokens": [
+    {
+      "_id": "L3cbviHp0XnMuEuc",
+      "name": "Quimera suelta",
+      "displayName": 30,
+      "actorId": "UpZ0DCdeSgMIlyXC",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/quimera-suelta.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1900,
+      "y": 1650,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "NkLBnS4N0V4L0ZzQ",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "alameda-farmacia",
+          "pnj": "quimera-suelta"
+        }
+      },
+      "_key": "!scenes.tokens!bJw96ING0RTnEnNQ.L3cbviHp0XnMuEuc"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "sWnMhNOkKec62onw",
+      "entryId": "hoj1rJUeaTvA06gq",
+      "pageId": "r1N5PDVgmp5EGVVW",
+      "x": 2000,
+      "y": 120,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "La Alameda · la farmacia de guardia",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "sector": "alameda-farmacia"
+        }
+      },
+      "_key": "!scenes.notes!bJw96ING0RTnEnNQ.sWnMhNOkKec62onw"
+    },
+    {
+      "_id": "hfDUd2F0OxxRVyLb",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "6To8Yw00K4z0Y2ac",
+      "x": 2000,
+      "y": 1500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/light.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Farmacia de guardia de la Alameda",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "sector": "alameda-farmacia",
+          "poi": "farmacia-guardia"
+        }
+      },
+      "_key": "!scenes.notes!bJw96ING0RTnEnNQ.hfDUd2F0OxxRVyLb"
+    }
+  ],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "sector:alameda-farmacia",
+      "sector": "alameda-farmacia",
+      "nota": "La Alameda Principal y la esquina de Larios de madrugada: la farmacia 24 h, borrachos, un coche patrulla. Datos de OpenStreetMap (© OpenStreetMap contributors, ODbL).",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

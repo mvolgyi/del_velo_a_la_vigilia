@@ -19,3 +19,6 @@ node_modules/
 # Artefactos de release
 dist/
 *.zip
+
+# Datos crudos de OpenStreetMap (se bajan con tools/malaga-mapa.py --descargar)
+cache/

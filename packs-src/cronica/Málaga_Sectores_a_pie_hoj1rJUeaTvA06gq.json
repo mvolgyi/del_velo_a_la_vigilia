@@ -1,0 +1,306 @@
+{
+  "_id": "hoj1rJUeaTvA06gq",
+  "_key": "!journal!hoj1rJUeaTvA06gq",
+  "name": "Málaga — Sectores a pie",
+  "folder": "wLhwD4CLZ873vynb",
+  "sort": 910,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/sectores"
+    }
+  },
+  "pages": [
+    {
+      "_id": "vYTt5MpUhRqg6b11",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.vYTt5MpUhRqg6b11",
+      "name": "Sectores",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Manzanas de Málaga a escala de calle (1 m por casilla). Desde el mapa de la ciudad, un token que entra en la zona de un sector aparece en su calle; pisar el borde del sector lo devuelve a la ciudad, y la puerta de cada lugar lleva a su interior.</p><ul><li>@UUID[Scene.7tUfy5A2ebpJ94dq]{Carretería · la fachada de Somnia} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.Kng4JUERpw2dCKEp]{página}</li><li>@UUID[Scene.SuFeWW9kccoRyaZq]{Gaona · el convento desconsagrado} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.We3hNAsODe4wYFeq]{página}</li><li>@UUID[Scene.zvdT27QJkgXIptFe]{Huelin · la plaza y el portal de Elías} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.20hxb4COc5bgB7JV]{página}</li><li>@UUID[Scene.jzdWlT40m38No0XF]{Huelin · el garaje de la célula} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.hSrlnkGamcq0bK6z]{página}</li><li>@UUID[Scene.ZoRbtqbkuxXAjK1C]{Martiricos · el laboratorio satélite} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.xy4SCQ2glwrDCkGb]{página}</li><li>@UUID[Scene.4ve7vqoz3rxUR2ia]{El Perchel · la estación y el hostal} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.WYLDNb1VE30ljnNC]{página}</li><li>@UUID[Scene.bJw96ING0RTnEnNQ]{La Alameda · la farmacia de guardia} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.r1N5PDVgmp5EGVVW]{página}</li><li>@UUID[Scene.k6Pw1WQrh6R8nY8k]{La comisaría provincial} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.oQvR6sxtYiC9FxMT]{página}</li><li>@UUID[Scene.90o7kMg3EvgstYzO]{El puerto · Muelle Uno} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.ARhvvY7RyaoJB4ww]{página}</li><li>@UUID[Scene.jp0NVVq8htpFKq6a]{La Malagueta de noche} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.jsCUSEwA8wLGKRhI]{página}</li><li>@UUID[Scene.cugE1TsLpRiHF5b4]{El Cementerio Inglés} — @UUID[JournalEntry.hoj1rJUeaTvA06gq.JournalEntryPage.JfQXvaSkQ8g1QPeT]{página}</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Kng4JUERpw2dCKEp",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.Kng4JUERpw2dCKEp",
+      "name": "Carretería · la fachada de Somnia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>La fachada del XIX con cristal ahumado, la garita y el callejón del muelle de carga. Por acá sale la célula la noche del apagón, y por acá vuelve a mirar en el Acto 2.</em></p><section class=\"dvv-leer\"><p>La lluvia baja por Carretería en regueros que brillan bajo las farolas. La fachada de Somnia es cristal ahumado metido dentro de un edificio viejo. En la acera de enfrente hay dos sedanes negros con el motor apagado y las lunas empañadas. Al costado, un callejón angosto se pierde hacia un contenedor verde y una persiana metálica.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal da a la calle; el muelle de carga, al callejón de atrás, con la puerta de servicio de chapa junto al contenedor. Una garita controla el acceso de vehículos. Cámaras en las dos esquinas y sobre la persiana: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Atención (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Atención (dif. 2)</a> para contarlas y ver el ángulo muerto detrás del contenedor. Los portales de enfrente dan cobertura.</p>\n<p><strong>Quién anda.</strong> De noche, el @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} de la garita y dos @UUID[Actor.9iZfEE32ZgK1g9mi]{matones} que fuman dentro del auto. De madrugada, una ambulancia sin luces sale a las tres. De día, Loli, la del quiosco: &quot;Esos del coche no compran ni el periódico&quot;.</p>\n<p><strong>Qué pasa.</strong> En el Acto 1, @UUID[Actor.O2GuehcZV88rKsKt]{Elías} aparca en el callejón con su bidón y una @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OJh3OkqAWt9hopa1]{bengala}: la calle es la meta de la huida. En el Interludio y el Acto 2, vigilar la fachada sin ser vistos pide <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>; anotar matrículas, <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a>. +1 Peligro si un PJ del Acto 1 se deja ver: la garita tiene sus fotos.</p>\n<p><strong>Para el Narrador.</strong> Esa noche, que las farolas sigan encendidas con la clínica a oscuras. Si escapan en el coche de Elías, uno de los sedanes enciende las luces y los sigue dos calles. Después se va: solo quería que lo vieran.</p>\n"
+      },
+      "sort": 10000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "somnia-carreteria"
+        }
+      }
+    },
+    {
+      "_id": "We3hNAsODe4wYFeq",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.We3hNAsODe4wYFeq",
+      "name": "Gaona · el convento desconsagrado",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Una calle estrecha del centro histórico, el portón de madera del convento y una tapia con una puerta tapiada que da a la planta vieja de Somnia.</em></p><section class=\"dvv-leer\"><p>La calle Gaona es tan angosta que los balcones casi se tocan por encima de sus cabezas. El empedrado brilla con la lluvia y huele a azahar podrido y a piedra mojada. El portón del convento es de madera vieja con clavos de hierro; al lado, un cartel de obra descolorido. Más allá, la tapia sigue hasta perderse detrás de la clínica.</p>\n</section><p><strong>Qué hay.</strong> El portón, con una cámara de la fundación sobre el dintel. A mitad de la tapia, el contorno de una puerta tapiada con ladrillo más nuevo: da a la planta vieja de Somnia. Quien la examine con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a> nota que el mortero de abajo está rascado, como si algo pesado se arrastrara por ahí. Los zaguanes de las casas sirven para esconderse; la salida rápida es hacia Carretería.</p>\n<p><strong>Quién anda.</strong> De noche, un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul} con chaleco de la fundación que hace la ronda del portón cada media hora. De madrugada, nadie: solo gatos y algún turista perdido. De día, Julián, el conserje, que abre la capilla y barre la puerta: &quot;Si queréis ver la capilla, a las diez, que antes no abro&quot;.</p>\n<p><strong>Qué pasa.</strong> En el Acto 2, la visita de día es legal. De noche, acercarse al portón sin que el ghoul los vea: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>. Si los ve, no ataca: llama por teléfono. +1 Peligro si alguien toca la puerta tapiada o el portón de noche antes del Acto 3.</p>\n<p><strong>Para el Narrador.</strong> Que el Limpiador sienta el olor a cera desde la calle. Pegando la oreja a la tapia, a la hora en punto, un murmullo en latín. No lo expliques.</p>\n"
+      },
+      "sort": 20000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "convento-gaona"
+        }
+      }
+    },
+    {
+      "_id": "20hxb4COc5bgB7JV",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.20hxb4COc5bgB7JV",
+      "name": "Huelin · la plaza y el portal de Elías",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Bloques obreros de los setenta, una plaza con bancos y el bar de Paco en la esquina. El portal de Elías está a la vista, y los autos negros de Somnia también.</em></p><section class=\"dvv-leer\"><p>Huelin a esta hora es un barrio dormido: bloques de ladrillo con persianas bajadas, ropa tendida que nadie recogió antes de la lluvia y una plaza de bancos de piedra bajo dos ficus. En la esquina, la persiana de Casa Paco está a medio bajar y deja escapar un rayo de luz amarilla. Frente al portal de Elías, aparcado en doble fila, hay un sedán negro con alguien adentro.</p>\n</section><p><strong>Qué hay.</strong> El portal de Elías, con portero automático roto y puerta que no cierra del todo. El bar en la esquina, con ventanal a la plaza: el mejor punto para vigilar. Ni una cámara, salvo la del cajero de la caja de ahorros. Detrás del bloque, un pasaje peatonal hacia el parque: la salida discreta. Descubrir quién mira desde el sedán: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Atención (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Atención (dif. 2)</a>.</p>\n<p><strong>Quién anda.</strong> De noche, dos @UUID[Actor.9iZfEE32ZgK1g9mi]{matones} en el auto y Manolo, el del perro, que da la vuelta a la plaza a las doce. De madrugada, el barrendero Rubén con su carrito. De día, jubilados en los bancos, Paco y, a las seis, @UUID[Actor.O2GuehcZV88rKsKt]{Elías} rumbo a su café. Doña Remedios mira desde el cuarto piso.</p>\n<p><strong>Qué pasa.</strong> En el Interludio y el Acto 2, el sedán aparece dos noches seguidas (+1 Peligro). Entrar al portal sin que lo noten: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>. Encararlos: bajan la ventanilla y sonríen; <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.intimidation\" data-dificultad=\"3\" data-label=\"Manipulación + Intimidación (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Intimidación (dif. 3)</a> los hace arrancar. Si la infiltración del laboratorio falla, esa noche @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} cruza esta plaza a pie.</p>\n<p><strong>Para el Narrador.</strong> Que los matones no se escondan: es el mensaje. Si alguien les pincha una rueda, Paco lo ve y no dice nada.</p>\n"
+      },
+      "sort": 30000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "huelin-plaza"
+        }
+      }
+    },
+    {
+      "_id": "hSrlnkGamcq0bK6z",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.hSrlnkGamcq0bK6z",
+      "name": "Huelin · el garaje de la célula",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Un pasaje de cocheras entre naves y talleres junto a la Carretera de Cádiz. Una persiana que no se abre desde hace nueve años.</em></p><section class=\"dvv-leer\"><p>El pasaje de cocheras es una hilera de persianas metálicas pintadas de colores distintos, todas con candado. Del otro lado de la tapia ronca la Carretera de Cádiz, con camiones aunque sea de noche. Huele a aceite de motor y a lluvia sobre chapa. Una de las persianas tiene el óxido de nueve años sin moverse.</p>\n</section><p><strong>Qué hay.</strong> El garaje de la célula, con un candado viejo y la cerradura de la persiana: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a>, o la llave que guarda Antonio. Adentro esperan el banco de Mara y una @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.Py5ozbh2UAqChiok]{ballesta} vieja. Enfrente, un taller mecánico cerrado de noche. Una sola farola, una cámara apuntando al taller (no al pasaje). Dos salidas: la Carretera de Cádiz y un callejón de tierra hacia las vías.</p>\n<p><strong>Quién anda.</strong> De noche, algún camionero dormido en la cabina. De día, el ruido del taller de Fali, que canta coplas debajo de los coches, y Antonio, que cobra en mano: &quot;La del fondo, ¿no? Esa no la abre nadie, hijo&quot;.</p>\n<p><strong>Qué pasa.</strong> Abrir la persiana chirría de forma terrible: hacerlo en silencio pide <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.strength skills.craft\" data-dificultad=\"2\" data-label=\"Fuerza + Artesanía (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Fuerza + Artesanía (dif. 2)</a> con aceite y paciencia; si falla, +1 Peligro si nadie vigila el pasaje. Somnia sabe que el garaje existió: tras el primer fallo, un sedán negro pasa despacio por la Carretera de Cádiz cada noche. Mirar el suelo con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a> muestra que alguien más forzó el candado hace años y lo volvió a cerrar.</p>\n<p><strong>Para el Narrador.</strong> Si @UUID[Actor.O2GuehcZV88rKsKt]{Elías} viene, se queda en la boca del pasaje fumando. Que la persiana suba despacio y la luz de la farola entre antes que ellos.</p>\n"
+      },
+      "sort": 40000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "huelin-garaje"
+        }
+      }
+    },
+    {
+      "_id": "xy4SCQ2glwrDCkGb",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.xy4SCQ2glwrDCkGb",
+      "name": "Martiricos · el laboratorio satélite",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Torres de oficinas junto al Guadalmedina, a la sombra de La Rosaleda. La doctora llega de noche en auto negro, dos veces por semana.</em></p><section class=\"dvv-leer\"><p>La torre de oficinas es un bloque de cristal con la mitad de las plantas a oscuras. Detrás, el cauce del Guadalmedina corre casi seco entre muros de hormigón, y más allá se recorta la mole del estadio. La rampa del garaje está iluminada como un quirófano. En el vestíbulo, un vigilante lee con la cabeza apoyada en la mano.</p>\n</section><p><strong>Qué hay.</strong> La entrada de la torre (recepción, tornos con tarjeta), la rampa del garaje con barrera y la puerta de emergencia de atrás, que da al paseo del río. Cámaras sobre la puerta y la rampa, ninguna hacia el río: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a> para leer el sistema. El aparcamiento en batería de la avenida y la barandilla del cauce sirven para esperar a cubierto.</p>\n<p><strong>Quién anda.</strong> De noche, Rafa, el vigilante de los crucigramas, y los martes y viernes la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}, que llega a las once con un @UUID[Actor.9iZfEE32ZgK1g9mi]{matón} al volante; él la espera en el garaje con la radio puesta. De madrugada, corredores por el río y algún repartidor. De día, oficinistas, alumnos de la academia de inglés y mucho tráfico.</p>\n<p><strong>Qué pasa.</strong> La infiltración del Acto 2 empieza acá. Seguir el auto negro sin que los note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.drive\" data-dificultad=\"2\" data-label=\"Astucia + Conducir (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Conducir (dif. 2)</a>. Colarse por la puerta del río: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 3)</a>. Distraer al matón del garaje: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio (dif. 2)</a>. Un fallo total: +1 Peligro y @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} visita el piso de Elías esa noche.</p>\n<p><strong>Para el Narrador.</strong> Si hay partido en La Rosaleda, la calle se llena de gente y de policía nacional: cobertura o desastre. Revelá a Salas solo cuando baje del auto.</p>\n"
+      },
+      "sort": 50000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "martiricos-laboratorio"
+        }
+      }
+    },
+    {
+      "_id": "WYLDNb1VE30ljnNC",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.WYLDNb1VE30ljnNC",
+      "name": "El Perchel · la estación y el hostal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Frente a María Zambrano, un hostal barato encima de un locutorio, la parada de taxis y las cámaras de la estación. El lugar para esconder a alguien o irse de la ciudad.</em></p><section class=\"dvv-leer\"><p>La explanada de la estación está bañada en luz blanca, y sus puertas de cristal se abren y se cierran solas para nadie. Una fila de taxis espera con los pilotos verdes encendidos. Del otro lado de la avenida, el rótulo del Hostal Andalucía parpadea encima de un locutorio con el cierre a medio bajar. En un banco de la parada de autobús, alguien duerme sentado.</p>\n</section><p><strong>Qué hay.</strong> El portal del hostal, estrecho, junto al locutorio de Karim. La estación, con cámaras en cada acceso y policía en el vestíbulo: es la salida rápida de la ciudad, pero todo lo que entra ahí queda grabado. La acera del hostal no tiene cámaras; la parada de taxis, sí. Ver qué cámaras cubren la avenida: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.streetwise\" data-dificultad=\"2\" data-label=\"Astucia + Callejeo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Callejeo (dif. 2)</a>.</p>\n<p><strong>Quién anda.</strong> De noche, taxistas, Karim fumando en la puerta y Doña Concha en la recepción. De madrugada, viajeros del último tren y una pareja de policía nacional que hace la ronda. De día, maletas y prisas.</p>\n<p><strong>Qué pasa.</strong> El que duerme en el banco es un @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente} dado de alta: no despierta del todo, mira al vacío y lleva la pulsera de Somnia. Reconocerlo: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>. Es la escena del Acto 2: cuidarlo o estudiarlo. Llevarlo al hostal sin que los taxistas lo recuerden: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>. +1 Peligro si alguien llama a una ambulancia con su nombre real: la manda Somnia.</p>\n<p><strong>Para el Narrador.</strong> Si un PJ sube a un tren, la crónica se acaba para él. Que Concha lo sepa: &quot;Los que se van de noche, cariño, no vuelven&quot;.</p>\n"
+      },
+      "sort": 60000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "perchel-estacion"
+        }
+      }
+    },
+    {
+      "_id": "r1N5PDVgmp5EGVVW",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.r1N5PDVgmp5EGVVW",
+      "name": "La Alameda · la farmacia de guardia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>La Alameda Principal y la boca de calle Larios de madrugada: la cruz verde de la farmacia 24 h, borrachos y un coche patrulla.</em></p><section class=\"dvv-leer\"><p>Los plátanos de la Alameda gotean sobre los bancos y sobre el carril bus vacío. En la esquina de Larios, el mármol del suelo brilla como un espejo bajo los escaparates encendidos. La cruz verde de la farmacia parpadea sobre una ventanilla con timbre. A media cuadra, un coche patrulla con el motor en marcha.</p>\n</section><p><strong>Qué hay.</strong> La ventanilla blindada de la farmacia, con su cámara encima. Calle Larios, peatonal y llena de cámaras de comercios; la Alameda, ancha, con el carril bus y paradas de las líneas nocturnas. Los troncos de los plátanos y los quioscos cerrados dan algo de cobertura. Hacia el sur, el puerto y el Muelle Uno; hacia el oeste, el puente sobre el Guadalmedina.</p>\n<p><strong>Quién anda.</strong> De noche, turistas a la salida de los bares, riders en bicicleta y un coche de la Policía Local aparcado junto a la boca de Larios. De madrugada, borrachos, barrenderos y Carmen en la ventanilla. De día, el tráfico de la Alameda y los autobuses, uno detrás de otro.</p>\n<p><strong>Qué pasa.</strong> Comprar vendas con sangre en la ropa delante del patrullero: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.composure skills.subterfuge\" data-dificultad=\"2\" data-label=\"Compostura + Subterfugio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Compostura + Subterfugio (dif. 2)</a> o los paran a preguntar (+1 Peligro). Un hombre con fiebre espera turno en la ventanilla, empapado y en manga corta: es la @UUID[Actor.UpZ0DCdeSgMIlyXC]{Quimera}, el cliente fijo de Carmen. Notar algo raro: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Atención (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Atención (dif. 2)</a>. Seguirlo hasta el mar: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>. Si lo encaran acá, huye; no pelea con policía a la vista.</p>\n<p><strong>Para el Narrador.</strong> La Alameda es la bisagra de la ciudad: todos los caminos de noche pasan por acá. Usala para recordar que el mundo normal sigue funcionando.</p>\n"
+      },
+      "sort": 70000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "alameda-farmacia"
+        }
+      }
+    },
+    {
+      "_id": "oQvR6sxtYiC9FxMT",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.oQvR6sxtYiC9FxMT",
+      "name": "La comisaría provincial",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>La plaza de Manuel Azaña: la comisaría con sus furgones, el bar de los policías enfrente y un lugar donde Somnia tiene amigos.</em></p><section class=\"dvv-leer\"><p>La plaza es amplia, de baldosa gris, con unos pocos árboles jóvenes y bancos vacíos. El edificio de la comisaría ocupa todo un lado, con la bandera mojada colgando sobre la puerta y dos furgones aparcados en doble fila. Las ventanas de arriba siguen encendidas. Enfrente, un bar con el toldo verde tiene las luces prendidas y la tele puesta.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal, con un agente de puertas y el arco de seguridad visible desde la calle. El acceso de vehículos, al costado, con barrera. Cámaras en todo el perímetro del edificio: no hay ángulo muerto. El Bar Azaña, enfrente, es donde los policías desayunan y comentan los casos. Salidas: avenidas anchas en dos direcciones y la parada de taxis de la esquina.</p>\n<p><strong>Quién anda.</strong> De noche, el agente de guardia en la puerta, furgones que entran y salen y el subinspector Gálvez fumando en la acera a las once. De madrugada, detenidos que salen con sus papeles y un abogado de oficio con sueño. De día, colas para el DNI y el pasaporte.</p>\n<p><strong>Qué pasa.</strong> Sacarle a Gálvez algo en la acera, fuera del edificio y de las cámaras de adentro: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.persuasion\" data-dificultad=\"3\" data-label=\"Manipulación + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Persuasión (dif. 3)</a>. En el bar, escuchar a los agentes con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.streetwise\" data-dificultad=\"2\" data-label=\"Astucia + Callejeo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Callejeo (dif. 2)</a> revela si alguien busca a un PJ. Cada visita: +1 Peligro. Entrar armado y que pite el arco es una noche en el calabozo.</p>\n<p><strong>Para el Narrador.</strong> Una noche, un sedán negro de Somnia aparca frente a la comisaría y un hombre de traje entra sin pasar por el arco. Que lo vean. Así se entiende por qué Elías descarta a la policía.</p>\n"
+      },
+      "sort": 80000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "comisaria"
+        }
+      }
+    },
+    {
+      "_id": "ARhvvY7RyaoJB4ww",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.ARhvvY7RyaoJB4ww",
+      "name": "El puerto · Muelle Uno",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>El paseo comercial del puerto vacío de noche, con la pérgola blanca, las tiendas cerradas y, detrás de las vallas, contenedores y grúas que no paran.</em></p><section class=\"dvv-leer\"><p>La pérgola blanca del paseo se curva sobre un suelo de madera mojada, y las tiendas del Muelle Uno tienen las persianas bajadas. Los yates del puerto deportivo cabecean con un tintineo de cables. Detrás de una valla, los contenedores apilados forman una ciudad de colores apagados, y una grúa gira despacio bajo un foco naranja.</p>\n</section><p><strong>Qué hay.</strong> El paseo, ancho y abierto, con bancos y pocos rincones: se ve venir a cualquiera. La tienda náutica de las @UUID[Compendium.del-velo-a-la-vigilia.arsenal.Item.OJh3OkqAWt9hopa1]{bengalas}, cerrada de noche. La valla del puerto de carga, con una puerta de servicio por la que entra y sale Joaquín. Cámaras portuarias en los postes. Del otro lado, el Paseo del Parque y sus ficus: la salida hacia el centro.</p>\n<p><strong>Quién anda.</strong> De noche, un guardia de seguridad privada que hace la ronda en patinete y Joaquín, que fuma junto a la valla esperando clientes. De madrugada, la Guardia Civil pasa por el muelle de carga. De día, turistas de los cruceros y terrazas llenas.</p>\n<p><strong>Qué pasa.</strong> Comprar en negro a Joaquín junto a la valla: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.streetwise\" data-dificultad=\"3\" data-label=\"Manipulación + Callejeo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Callejeo (dif. 3)</a> y +1 Peligro por compra. A veces, una furgoneta oscura de Somnia carga cajas que Joaquín le pasa por la puerta de servicio: al volante va un @UUID[Actor.nSObabU1QRNcyMnw]{ghoul}. Verlo sin ser vistos: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a>. Leer los rótulos de las cajas: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a>.</p>\n<p><strong>Para el Narrador.</strong> El puerto es el lugar donde el dinero de Somnia se vuelve visible. Si la célula llega en coche, que aparquen en el Paseo del Parque y caminen: al muelle no se entra en auto sin que nadie lo apunte.</p>\n"
+      },
+      "sort": 90000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "muelle-uno"
+        }
+      }
+    },
+    {
+      "_id": "jsCUSEwA8wLGKRhI",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.jsCUSEwA8wLGKRhI",
+      "name": "La Malagueta de noche",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>La playa a oscuras, los chiringuitos cerrados y el paseo con farolas, con la plaza de toros detrás. Donde la Quimera suelta caza.</em></p><section class=\"dvv-leer\"><p>El paseo marítimo es una fila de farolas que se apaga a medida que mira hacia el mar. Abajo, la arena es negra y los chiringuitos son bultos con lonas atadas. Las letras gigantes de la playa brillan, vacías. Desde el agua, a unos metros de la orilla, alguien está parado, metido hasta la cintura, muy quieto.</p>\n</section><p><strong>Qué hay.</strong> El paseo, iluminado y con bancos; la arena, sin luz ni techos. Las pasarelas de madera hacia la orilla tienen un hueco debajo: ahí duerme la Quimera. El chiringuito El Espeto, con la hamaca de Sebas. Detrás del paseo, los edificios altos y, más atrás, la plaza de toros: la calle hacia el Cementerio Inglés. La Farola del puerto gira y barre la playa cada pocos segundos.</p>\n<p><strong>Quién anda.</strong> De noche, gente del botellón junto a las letras, un vendedor de latas y Sebas en su hamaca. De madrugada, nadie, salvo la @UUID[Actor.UpZ0DCdeSgMIlyXC]{Quimera}, con fiebre, en el agua o bajo las pasarelas. De día, toallas, espetos y bañistas.</p>\n<p><strong>Qué pasa.</strong> Acercarse sin que la Quimera los huela: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 3)</a>. Hablarle: está lúcida a ratos y pide algo para la fiebre; <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.insight\" data-dificultad=\"2\" data-label=\"Carisma + Perspicacia (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Perspicacia (dif. 2)</a> para que no salga corriendo. Si se siente acorralada, ataca. La Policía Local hace batidas por los botellones: +1 Peligro si pasan de las dos de la mañana en la arena.</p>\n<p><strong>Para el Narrador.</strong> El mar tapa los gritos. Que el haz de la Farola pase y muestre a la Quimera más cerca cada vez. Al amanecer, el sol sale de frente: si alguien la retiene hasta entonces, la escena cambia de tono.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "malagueta"
+        }
+      }
+    },
+    {
+      "_id": "JfQXvaSkQ8g1QPeT",
+      "_key": "!journal.pages!hoj1rJUeaTvA06gq.JfQXvaSkQ8g1QPeT",
+      "name": "El Cementerio Inglés",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Verja de hierro, cipreses y la capilla anglicana al pie de Gibralfaro. Un lugar para hablar con los muertos o para enterrar algo.</em></p><section class=\"dvv-leer\"><p>La Avenida de Pries sube bajo la ladera de Gibralfaro, con el tráfico casi muerto a esta hora. Detrás de la verja de hierro, los cipreses negros se mueven con el viento del mar, y la capilla anglicana asoma pálida entre lápidas de 1830. Huele a tierra mojada y a geranios. Un gato los mira desde lo alto de la tapia.</p>\n</section><p><strong>Qué hay.</strong> La verja de la entrada, con candado de noche y un cartel de horarios en inglés y español. Las tapias bajas del lado de la ladera, fáciles de saltar: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.athletics\" data-dificultad=\"1\" data-label=\"Destreza + Atletismo (dif. 1)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Atletismo (dif. 1)</a>. Ninguna cámara en el recinto; una en el semáforo de la avenida. Adentro, los cipreses y las tumbas dan toda la cobertura que haga falta.</p>\n<p><strong>Quién anda.</strong> De noche, gatos y silencio, y la patrulla de la Policía Local que pasa por la avenida cada hora. De madrugada, algún paseante de perros que baja de Gibralfaro. De día, Mr. Alan Hughes con sus grupos de turistas y la señora que riega los geranios.</p>\n<p><strong>Qué pasa.</strong> Saltar la tapia entre una patrulla y otra: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.streetwise\" data-dificultad=\"2\" data-label=\"Astucia + Callejeo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Callejeo (dif. 2)</a> para calcular el paso; si los encuentran dentro, +1 Peligro. Buscar la tumba sin nombre de la célula de Elías en la oscuridad: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"3\" data-label=\"Astucia + Investigación (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 3)</a>. Pasar la noche bajo los cipreses es dormir en tierra consagrada, aunque no católica: Sor Anunciación la desprecia.</p>\n<p><strong>Para el Narrador.</strong> Es el único lugar de la ciudad donde la célula puede hablar en voz alta sin miedo. Dales esa calma antes del Acto 3. Si @UUID[Actor.O2GuehcZV88rKsKt]{Elías} muere, el funeral es acá, y que llueva.</p>\n"
+      },
+      "sort": 110000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sector",
+          "sector": "cementerio-ingles"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

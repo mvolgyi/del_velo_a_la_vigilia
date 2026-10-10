@@ -1,0 +1,1853 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "convento-gaona",
+ "nombre": "Gaona · el convento desconsagrado",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.7238,
+  "lon": -4.4234
+ },
+ "bbox": {
+  "oeste": -4.4238483,
+  "este": -4.4229517,
+  "sur": 36.7235305,
+  "norte": 36.7240695
+ },
+ "enMalaga": {
+  "region": "malaga:convento-gaona",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.dtv9ekFUPTbd6FY6",
+  "x": 2951.8,
+  "y": 886.7,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 31,
+ "muros": [
+  {
+   "c": [4000, 1903, 3819, 1977 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3588, 1352, 3556, 1252 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3606, 735, 3536, 516 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3819, 1977, 3849, 2054 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3849, 2054, 3892, 2162 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3892, 2162, 3898, 2162 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3898, 2162, 3918, 2212 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3918, 2212, 3731, 2293 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3731, 2293, 3683, 2314 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3448, 1925, 3512, 1902 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3512, 1902, 3486, 1818 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3486, 1818, 3426, 1839 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3368, 1614, 3332, 1472 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3332, 1472, 3312, 1394 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3461, 1286, 3493, 1384 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3493, 1384, 3588, 1352 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3298, 835, 3606, 735 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3556, 1252, 3530, 1264 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3530, 1264, 3461, 1286 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3312, 1394, 3121, 1458 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3683, 2314, 3352, 2456 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3352, 2456, 3241, 2504 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3176, 1678, 3368, 1614 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3426, 1839, 3448, 1925 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3536, 516, 3236, 625 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3082, 664, 2924, 724 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2924, 724, 2929, 738 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2215, 1063, 2169, 908 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2169, 908, 2132, 780 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2132, 780, 2104, 687 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2748, 450, 3005, 371 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1223, 1778, 1230, 1801 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1230, 1801, 1113, 1841 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1113, 1841, 1149, 1955 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1149, 1955, 1266, 1919 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1266, 1919, 1282, 1970 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1328, 2111, 1233, 2144 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [951, 2401, 861, 2110 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [861, 2110, 750, 1751 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1886, 1767, 1965, 1754 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1965, 1754, 1957, 1708 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1957, 1708, 2036, 1683 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2036, 1683, 2031, 1668 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2031, 1668, 2085, 1652 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2085, 1652, 2218, 1616 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2218, 1616, 2256, 1755 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2256, 1755, 2326, 2013 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1836, 1976, 1948, 1947 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1948, 1947, 1920, 1868 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1920, 1868, 1810, 1899 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1779, 1786, 1886, 1767 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2326, 2013, 2373, 2162 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2373, 2162, 2456, 2427 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2124, 2404, 2205, 2379 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2205, 2379, 2178, 2297 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2178, 2297, 2099, 2320 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1726, 1602, 1738, 1643 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1738, 1643, 1638, 1667 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1638, 1667, 1663, 1748 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1663, 1748, 1761, 1724 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1761, 1724, 1779, 1786 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1810, 1899, 1836, 1976 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1940, 2344, 1824, 2381 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1824, 2381, 1787, 2258 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1787, 2258, 1689, 2286 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1689, 2286, 1781, 2545 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1781, 2545, 1888, 2506 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1888, 2506, 1982, 2689 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1683, 1458, 1726, 1602 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2308, 2933, 2246, 2964 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2246, 2964, 2173, 3000 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1982, 2689, 2047, 2662 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2047, 2662, 2017, 2572 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2456, 2427, 2498, 2563 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2498, 2563, 2568, 2793 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2568, 2793, 2513, 2823 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2513, 2823, 2308, 2933 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2017, 2572, 1940, 2344 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2099, 2320, 2124, 2404 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1358, 2207, 1342, 2156 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1342, 2156, 1328, 2111 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1282, 1970, 1358, 1945 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1358, 1945, 1297, 1754 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1297, 1754, 1223, 1778 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1300, 2693, 1385, 2659 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1385, 2659, 1365, 2544 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1365, 2544, 1261, 2584 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1233, 2144, 1265, 2239 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1265, 2239, 1358, 2207 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1150, 3000, 1127, 2933 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1127, 2933, 951, 2401 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1261, 2584, 1300, 2693 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1264, 0, 1281, 54 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1336, 32, 1326, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1833, 381, 1889, 563 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1889, 563, 1971, 829 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1442, 872, 1645, 788 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1645, 788, 1619, 716 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1619, 716, 1416, 797 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1038, 1164, 1083, 1305 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1083, 1305, 1047, 1319 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1047, 1319, 1068, 1385 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1068, 1385, 1184, 1346 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1184, 1346, 1118, 1140 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1118, 1140, 1246, 1103 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [750, 1751, 679, 1473 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [679, 1473, 631, 1286 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1416, 797, 1442, 872 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1246, 1103, 1175, 872 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1175, 872, 1047, 912 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1047, 912, 1118, 1140 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1118, 1140, 1038, 1164 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [631, 1286, 562, 1041 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [562, 1041, 519, 892 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [996, 366, 1011, 442 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [519, 892, 447, 632 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [447, 632, 390, 426 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [0, 95, 36, 214 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [36, 214, 259, 945 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [259, 945, 0, 997 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [390, 426, 269, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [4000, 2950, 3883, 2999 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3883, 2999, 3800, 2804 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3800, 2804, 4000, 2718 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1971, 829, 2045, 1054 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2045, 1054, 2093, 1201 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2093, 1201, 2124, 1296 ],
+   "door": 1,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20,
+   "doorSound": "woodHeavy"
+  },
+  {
+   "c": [2124, 1296, 2128, 1307 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2128, 1307, 1683, 1458 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1514, 1225, 1702, 1174 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1702, 1174, 1665, 1060 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1665, 1060, 1482, 1113 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1482, 1113, 1514, 1225 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1011, 442, 1138, 407 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1138, 407, 1119, 332 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1119, 332, 996, 366 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1281, 54, 1336, 32 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1718, 0, 1734, 54 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1734, 54, 1760, 140 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1760, 140, 1833, 381 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1479, 452, 1464, 380 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1464, 380, 1349, 418 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1349, 418, 1367, 490 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1367, 490, 1479, 452 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2002, 364, 1916, 90 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1916, 90, 1888, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2386, 0, 2392, 19 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2392, 19, 2456, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2738, 1342, 2777, 1467 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2777, 1467, 2907, 1426 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2907, 1426, 2866, 1293 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3003, 959, 3148, 910 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3148, 910, 3082, 664 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3236, 625, 3298, 835 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3121, 1458, 3168, 1651 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3168, 1651, 3176, 1678 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3241, 2504, 3107, 2561 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3107, 2561, 2875, 2659 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2875, 2659, 2717, 2726 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2717, 2726, 2581, 2288 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2581, 2288, 2478, 1954 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2478, 1954, 2327, 1464 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3010, 1856, 3028, 1821 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3028, 1821, 3004, 1744 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3004, 1744, 2976, 1729 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2976, 1729, 2912, 1695 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2912, 1695, 2759, 1749 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2759, 1749, 2825, 1974 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2825, 1974, 2971, 1928 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2971, 1928, 3010, 1856 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2929, 738, 3003, 959 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2866, 1293, 2738, 1342 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2327, 1464, 2253, 1202 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2253, 1202, 2215, 1063 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2719, 1173, 2698, 1179 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2698, 1179, 2663, 1097 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2663, 1097, 2536, 1138 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2536, 1138, 2593, 1319 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2593, 1319, 2749, 1270 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2749, 1270, 2719, 1173 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2104, 687, 2038, 478 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2038, 478, 2002, 364 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3005, 371, 2984, 304 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2984, 304, 2729, 390 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2729, 390, 2748, 450 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2634, 305, 2443, 369 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2443, 369, 2466, 445 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2466, 445, 2658, 381 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2658, 381, 2634, 305 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [
+  {
+   "entrada": 1,
+   "poi": "convento-desconsagrado",
+   "nombre": "Portón del convento",
+   "c": [2093, 1201, 2124, 1296 ],
+   "destino": "convento-planta",
+   "sala": "Capilla",
+   "regionInterior": "desde-convento-gaona",
+   "regionSalida": "salida-convento-gaona",
+   "doorSound": "woodHeavy"
+  } ],
+ "luces": [
+  {
+   "x": 245,
+   "y": 1153,
+   "preset": "farola",
+   "nombre": "Farola · Calle Viento"
+  },
+  {
+   "x": 3434,
+   "y": 2855,
+   "preset": "farola",
+   "nombre": "Farola · Calle Carretería"
+  },
+  {
+   "x": 187,
+   "y": 639,
+   "preset": "farola",
+   "nombre": "Farola · Calle Gigantes"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "convento-gaona",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.dtv9ekFUPTbd6FY6"
+   },
+   "uuid": "Scene.SuFeWW9kccoRyaZq.Region.cZ8BuvD8bcJtt8vr"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "convento-gaona",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.dtv9ekFUPTbd6FY6"
+   },
+   "uuid": "Scene.SuFeWW9kccoRyaZq.Region.DnqFrGyrK3ne577H"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "convento-gaona",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.dtv9ekFUPTbd6FY6"
+   },
+   "uuid": "Scene.SuFeWW9kccoRyaZq.Region.Jx42PLKBAKXFSV6k"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "convento-gaona",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.dtv9ekFUPTbd6FY6"
+   },
+   "uuid": "Scene.SuFeWW9kccoRyaZq.Region.QfuuZVIsqt4Ha6Xs"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 2626,
+   "y": 2675,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.SuFeWW9kccoRyaZq.Region.brlnXuR8P2tOPzYC"
+  },
+  {
+   "id": "entrada-1",
+   "nombre": "Portón del convento → convento-planta",
+   "x": 2121,
+   "y": 1179,
+   "w": 100,
+   "h": 100,
+   "destino": {
+    "escena": "convento-planta",
+    "region": "desde-convento-gaona",
+    "uuid": "Scene.Lt8TlhDCDtaStvhY.Region.BH9cbqVkwtoWSuyl"
+   },
+   "uuid": "Scene.SuFeWW9kccoRyaZq.Region.bPKHBjWVehAn4y6z"
+  } ],
+ "puntos": [
+  {
+   "poi": "convento-desconsagrado",
+   "x": 2109,
+   "y": 1249,
+   "edificio": 13078143,
+   "aproximado": true,
+   "puerta": true
+  } ],
+ "avisos": [
+  "POI convento-desconsagrado: no hay edificio en su coordenada; uso el más cercano (osm 13078143, a 2.8 m)" ]
+}

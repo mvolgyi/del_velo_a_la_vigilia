@@ -110,6 +110,27 @@
       }
     },
     {
+      "_id": "gni4ryurkIQsdYTN",
+      "_key": "!playlists.sounds!RREVIAminsF37jT3.gni4ryurkIQsdYTN",
+      "name": "Málaga · la calle de noche",
+      "description": "Ambiente de la escena malaga",
+      "path": "modules/del-velo-a-la-vigilia/assets/music/malaga-noche.mp3",
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.35,
+      "fade": 2000,
+      "sort": 5000,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pista",
+          "pista": "malaga-noche",
+          "escena": "malaga"
+        }
+      }
+    },
+    {
       "_id": "L32JCtpbTuvLIuZF",
       "_key": "!playlists.sounds!RREVIAminsF37jT3.L32JCtpbTuvLIuZF",
       "name": "Acto 1 · La huida por los pasillos",
@@ -121,7 +142,7 @@
       "repeat": true,
       "volume": 0.5,
       "fade": 2000,
-      "sort": 5000,
+      "sort": 6000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -142,7 +163,7 @@
       "repeat": true,
       "volume": 0.5,
       "fade": 2000,
-      "sort": 6000,
+      "sort": 7000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -154,16 +175,16 @@
     {
       "_id": "qKhxZeZsga6Qcvsx",
       "_key": "!playlists.sounds!RREVIAminsF37jT3.qKhxZeZsga6Qcvsx",
-      "name": "Los Heraldos (Imbuimiento)",
+      "name": "Los Heraldos (The Weight of Grace)",
       "description": "",
-      "path": "modules/del-velo-a-la-vigilia/assets/music/heraldos.mp3",
+      "path": "modules/del-velo-a-la-vigilia/assets/music/The_Weight_of_Grace.mp3",
       "channel": "",
       "playing": false,
       "pausedTime": null,
       "repeat": true,
       "volume": 0.45,
       "fade": 2000,
-      "sort": 7000,
+      "sort": 8000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -184,7 +205,7 @@
       "repeat": true,
       "volume": 0.4,
       "fade": 2000,
-      "sort": 8000,
+      "sort": 9000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -205,7 +226,7 @@
       "repeat": true,
       "volume": 0.45,
       "fade": 2000,
-      "sort": 9000,
+      "sort": 10000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",

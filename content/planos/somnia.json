@@ -668,6 +668,48 @@
           "h": 10,
           "destino": "somnia-planta-vieja:desde-planta-nueva",
           "color": "#7b1c1c"
+        },
+        {
+          "id": "desde-somnia-carreteria",
+          "nombre": "Llegada desde la calle (Carretería · la fachada de Somnia)",
+          "x": 12.5,
+          "y": 44,
+          "w": 5,
+          "h": 5,
+          "destino": "somnia-carreteria:entrada-1",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "salida-somnia-carreteria",
+          "nombre": "Salir a la calle (Carretería · la fachada de Somnia)",
+          "x": 12.5,
+          "y": 50,
+          "w": 5,
+          "h": 5,
+          "destino": "somnia-carreteria:entrada-1",
+          "color": "#8c2f5c"
+        },
+        {
+          "id": "desde-somnia-carreteria-2",
+          "nombre": "Llegada desde la calle (Carretería · la fachada de Somnia)",
+          "x": 55,
+          "y": 44,
+          "w": 5,
+          "h": 5,
+          "destino": "somnia-carreteria:entrada-2",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "salida-somnia-carreteria-2",
+          "nombre": "Salir a la calle (Carretería · la fachada de Somnia)",
+          "x": 55,
+          "y": 50,
+          "w": 5,
+          "h": 5,
+          "destino": "somnia-carreteria:entrada-2",
+          "color": "#8c2f5c"
         }
       ]
     },

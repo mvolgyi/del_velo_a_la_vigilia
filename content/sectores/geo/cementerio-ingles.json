@@ -1,0 +1,449 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "cementerio-ingles",
+ "nombre": "El Cementerio Inglés",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.7214,
+  "lon": -4.4068
+ },
+ "bbox": {
+  "oeste": -4.4072483,
+  "este": -4.4063517,
+  "sur": 36.7211305,
+  "norte": 36.7216695
+ },
+ "enMalaga": {
+  "region": "malaga:cementerio-ingles",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8",
+  "x": 3692.6,
+  "y": 1020.3,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 3,
+ "muros": [
+  {
+   "c": [3165, 536, 3256, 504 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3256, 504, 3891, 282 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3891, 282, 3907, 328 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3907, 328, 4000, 296 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [4000, 847, 3863, 894 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3863, 894, 3807, 735 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3807, 735, 3783, 743 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3783, 743, 3668, 783 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3668, 783, 3472, 851 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3472, 851, 3387, 881 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3387, 881, 3297, 912 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3297, 912, 3165, 536 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3714, 1892, 3673, 1906 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3673, 1906, 3530, 1954 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3530, 1954, 3502, 1964 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3502, 1964, 3497, 1949 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3497, 1949, 3439, 1752 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3439, 1752, 3649, 1681 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3649, 1681, 3654, 1705 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3654, 1705, 3783, 1666 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3783, 1666, 4000, 1591 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [4000, 1803, 3841, 1853 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3841, 1853, 3714, 1892 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [437, 2697, 420, 2610 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [420, 2610, 399, 2507 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [399, 2507, 421, 2503 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [421, 2503, 379, 2284 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [379, 2284, 529, 2257 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [529, 2257, 671, 2231 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [671, 2231, 748, 2638 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [748, 2638, 631, 2658 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [631, 2658, 638, 2703 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [638, 2703, 602, 2709 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [602, 2709, 474, 2731 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [474, 2731, 467, 2692 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [467, 2692, 437, 2697 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [],
+ "luces": [
+  {
+   "x": 2851,
+   "y": 2374,
+   "preset": "farola",
+   "nombre": "Farola · Avenida de Príes"
+  },
+  {
+   "x": 1644,
+   "y": 2699,
+   "preset": "farola",
+   "nombre": "Farola · Avenida de Príes"
+  },
+  {
+   "x": 64,
+   "y": 2076,
+   "preset": "farola",
+   "nombre": "Farola · Calle Ibarra"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "cementerio-ingles",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+   },
+   "uuid": "Scene.cugE1TsLpRiHF5b4.Region.kAIxz4UGoJbHGKt6"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "cementerio-ingles",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+   },
+   "uuid": "Scene.cugE1TsLpRiHF5b4.Region.YHTouI0XVAEqG2NC"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "cementerio-ingles",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+   },
+   "uuid": "Scene.cugE1TsLpRiHF5b4.Region.drzCERQZIoqT7lKq"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "cementerio-ingles",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+   },
+   "uuid": "Scene.cugE1TsLpRiHF5b4.Region.aHZEKD1Zr0rE0yzt"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 2302,
+   "y": 2675,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.cugE1TsLpRiHF5b4.Region.u62TjxHKVuklklqs"
+  } ],
+ "puntos": [
+  {
+   "poi": "cementerio-ingles",
+   "x": 2000,
+   "y": 1500,
+   "edificio": null,
+   "aproximado": false
+  } ],
+ "avisos": [
+  "POI cementerio-ingles: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+}

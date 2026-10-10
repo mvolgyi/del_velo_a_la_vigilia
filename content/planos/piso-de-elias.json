@@ -46,6 +46,10 @@
       ],
       "luces": [
         { "x": 35, "y": 12, "preset": "fluorescente", "nombre": "Tubo de la cocina" }
+      ],
+      "regiones": [
+        { "id": "desde-huelin-plaza", "nombre": "Llegada desde la calle (Huelin · la plaza y el portal de Elías)", "x": 40, "y": 18.75, "w": 5, "h": 5, "destino": "huelin-plaza:entrada-1", "llegada": true, "color": "#2f7f8c" },
+        { "id": "salida-huelin-plaza", "nombre": "Salir a la calle (Huelin · la plaza y el portal de Elías)", "x": 40, "y": 24.75, "w": 5, "h": 5, "destino": "huelin-plaza:entrada-1", "color": "#8c2f5c" }
       ]
     }
   ]

@@ -46,7 +46,525 @@
   ],
   "walls": [],
   "lights": [],
-  "regions": [],
+  "regions": [
+    {
+      "_id": "LZKrOlNQxfYAJDEX",
+      "name": "Carretería · la fachada de Somnia",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2860,
+          "y": 825,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "somnia-carreteria"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "fURwVckuedfGJjhV",
+          "name": "Entrar a Carretería · la fachada de Somnia",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.7tUfy5A2ebpJ94dq.Region.h3tZ7m3yntsGh82p"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.LZKrOlNQxfYAJDEX.fURwVckuedfGJjhV"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.LZKrOlNQxfYAJDEX"
+    },
+    {
+      "_id": "dtv9ekFUPTbd6FY6",
+      "name": "Gaona · el convento desconsagrado",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2940,
+          "y": 870,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "convento-gaona"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "2SqCGBLUedoyD7qt",
+          "name": "Entrar a Gaona · el convento desconsagrado",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.SuFeWW9kccoRyaZq.Region.brlnXuR8P2tOPzYC"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.dtv9ekFUPTbd6FY6.2SqCGBLUedoyD7qt"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.dtv9ekFUPTbd6FY6"
+    },
+    {
+      "_id": "LHXFj8E8u5Jr9zYN",
+      "name": "Huelin · la plaza y el portal de Elías",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2063,
+          "y": 2039,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "huelin-plaza"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "t6GmeXwcHfkQn9aX",
+          "name": "Entrar a Huelin · la plaza y el portal de Elías",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.zvdT27QJkgXIptFe.Region.nDtC0VBzGr5EVDSV"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.LHXFj8E8u5Jr9zYN.t6GmeXwcHfkQn9aX"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.LHXFj8E8u5Jr9zYN"
+    },
+    {
+      "_id": "n8LerdNSW9XAuu9o",
+      "name": "Huelin · el garaje de la célula",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1878,
+          "y": 2128,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "huelin-garaje"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "gsv07MIB0Mc0jrgB",
+          "name": "Entrar a Huelin · el garaje de la célula",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.jzdWlT40m38No0XF.Region.u1aNNQxxE0FtJVTr"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.n8LerdNSW9XAuu9o.gsv07MIB0Mc0jrgB"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.n8LerdNSW9XAuu9o"
+    },
+    {
+      "_id": "tvfA78g97VoL5b8n",
+      "name": "Martiricos · el laboratorio satélite",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2623,
+          "y": 441,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "martiricos-laboratorio"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "cEscazSrhBv1nThH",
+          "name": "Entrar a Martiricos · el laboratorio satélite",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.ZoRbtqbkuxXAjK1C.Region.ECyU0kJV59himIq7"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.tvfA78g97VoL5b8n.cEscazSrhBv1nThH"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.tvfA78g97VoL5b8n"
+    },
+    {
+      "_id": "yzZ87THND7tehChW",
+      "name": "El Perchel · la estación y el hostal",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2467,
+          "y": 1526,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "perchel-estacion"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "c3cym7vtMFGcyYGv",
+          "name": "Entrar a El Perchel · la estación y el hostal",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.4ve7vqoz3rxUR2ia.Region.REMkoL7tPMSvL2q8"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.yzZ87THND7tehChW.c3cym7vtMFGcyYGv"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.yzZ87THND7tehChW"
+    },
+    {
+      "_id": "vdglIQK24os9BiTL",
+      "name": "La Alameda · la farmacia de guardia",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 3011,
+          "y": 1193,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "alameda-farmacia"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "jaeXtEHY4zFTkqwT",
+          "name": "Entrar a La Alameda · la farmacia de guardia",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.bJw96ING0RTnEnNQ.Region.zkwCEgWNFrWSm9dE"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.vdglIQK24os9BiTL.jaeXtEHY4zFTkqwT"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.vdglIQK24os9BiTL"
+    },
+    {
+      "_id": "9lvK6VtprFpxaQVg",
+      "name": "La comisaría provincial",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2288,
+          "y": 1471,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "comisaria"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "Pjl9rsRvxdJXp3kz",
+          "name": "Entrar a La comisaría provincial",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.k6Pw1WQrh6R8nY8k.Region.XsZD1yJt8BmRb6bA"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.9lvK6VtprFpxaQVg.Pjl9rsRvxdJXp3kz"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.9lvK6VtprFpxaQVg"
+    },
+    {
+      "_id": "tBEnwahyzWoS85eH",
+      "name": "El puerto · Muelle Uno",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 3388,
+          "y": 1248,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "muelle-uno"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "51M6jH3ZocwDVCAG",
+          "name": "Entrar a El puerto · Muelle Uno",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.90o7kMg3EvgstYzO.Region.e3vFGEdRmlAJF9RN"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.tBEnwahyzWoS85eH.51M6jH3ZocwDVCAG"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.tBEnwahyzWoS85eH"
+    },
+    {
+      "_id": "arR9XwkbZtPyLGiH",
+      "name": "La Malagueta de noche",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 3694,
+          "y": 1113,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "malagueta"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "XZklLuSS2RSOH9SX",
+          "name": "Entrar a La Malagueta de noche",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.jp0NVVq8htpFKq6a.Region.RmMFRCyayrh7P97h"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.arR9XwkbZtPyLGiH.XZklLuSS2RSOH9SX"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.arR9XwkbZtPyLGiH"
+    },
+    {
+      "_id": "vhrX4y4oY18JSIj8",
+      "name": "El Cementerio Inglés",
+      "color": "#5c1f1f",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 3681,
+          "y": 1003,
+          "width": 64,
+          "height": 64,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "cementerio-ingles"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "OfjcCX7Jlj8DCgHQ",
+          "name": "Entrar a El Cementerio Inglés",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.cugE1TsLpRiHF5b4.Region.u62TjxHKVuklklqs"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!n2z0loJi3vcGR6r7.vhrX4y4oY18JSIj8.OfjcCX7Jlj8DCgHQ"
+        }
+      ],
+      "_key": "!scenes.regions!n2z0loJi3vcGR6r7.vhrX4y4oY18JSIj8"
+    }
+  ],
   "tokens": [],
   "notes": [
     {
@@ -91,8 +609,8 @@
       "_id": "YZvueZL9OJjjt5EQ",
       "entryId": "9ypDcVGaJFr0RcLE",
       "pageId": "taGqdILqin3gVyNO",
-      "x": 2097,
-      "y": 2032,
+      "x": 2098,
+      "y": 2074,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -167,8 +685,8 @@
       "_id": "1sfJwOcpmuywygM7",
       "entryId": "9ypDcVGaJFr0RcLE",
       "pageId": "CldMbiTko4XwkSQC",
-      "x": 2017,
-      "y": 2104,
+      "x": 2092,
+      "y": 2065,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -471,8 +989,8 @@
       "_id": "QqVWQPXDDA7IMHzu",
       "entryId": "9ypDcVGaJFr0RcLE",
       "pageId": "oRyUrlX9QmHYqC76",
-      "x": 3597,
-      "y": 1013,
+      "x": 3713,
+      "y": 1035,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -661,8 +1179,8 @@
       "_id": "S9t7qMU6yuXT72fZ",
       "entryId": "9ypDcVGaJFr0RcLE",
       "pageId": "5DECGf999anMY4HG",
-      "x": 3369,
-      "y": 1252,
+      "x": 3420,
+      "y": 1280,
       "elevation": 0,
       "sort": 0,
       "locked": false,

@@ -638,6 +638,140 @@
       "locked": false,
       "flags": {},
       "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.j3e4Y9k1d3pIc7J6"
+    },
+    {
+      "_id": "v52hOvEW42C37hls",
+      "name": "Llegada desde la calle (Carretería · la fachada de Somnia)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 375,
+          "y": 1320,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.v52hOvEW42C37hls"
+    },
+    {
+      "_id": "bTIOiKoKdPKrTz0t",
+      "name": "Salir a la calle (Carretería · la fachada de Somnia)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 375,
+          "y": 1500,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "PYndOLr2084YwNzK",
+          "name": "Salir a la calle (Carretería · la fachada de Somnia)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.7tUfy5A2ebpJ94dq.Region.ZjsaOPgGAa44ABpH"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!BPMiFLBkIFJzWR7T.bTIOiKoKdPKrTz0t.PYndOLr2084YwNzK"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.bTIOiKoKdPKrTz0t"
+    },
+    {
+      "_id": "UVR82Xne6wd5Byzl",
+      "name": "Llegada desde la calle (Carretería · la fachada de Somnia)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1650,
+          "y": 1320,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.UVR82Xne6wd5Byzl"
+    },
+    {
+      "_id": "iLGBF4OVIX0BaePK",
+      "name": "Salir a la calle (Carretería · la fachada de Somnia)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1650,
+          "y": 1500,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "6v5O2iwhhdg3otDt",
+          "name": "Salir a la calle (Carretería · la fachada de Somnia)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.7tUfy5A2ebpJ94dq.Region.e0j9ovcrhZNE4sE1"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!BPMiFLBkIFJzWR7T.iLGBF4OVIX0BaePK.6v5O2iwhhdg3otDt"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!BPMiFLBkIFJzWR7T.iLGBF4OVIX0BaePK"
     }
   ],
   "lights": [

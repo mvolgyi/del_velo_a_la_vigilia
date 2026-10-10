@@ -142,6 +142,16 @@ genera un journal por escena, un **pin numerado** por sala en el mapa que abre s
 mapa, lo escribe `tools/malaga-mapa.mjs` al renderizar OpenStreetMap) y un Markdown por punto.
 El build genera la escena «Málaga» con un pin por punto y el journal de la ciudad.
 
+### Sectores caminables
+
+`content/sectores.json` define manzanas de 80×60 m (1 m = 50 px). `npm run sectores` genera desde
+la caché de OpenStreetMap (`cache/osm/`, se baja con `tools/malaga-mapa.py --descargar`) el
+esquema, los muros, las puertas, las farolas y las regiones de cada sector
+(`content/sectores/geo/<id>.json`); `npm run pintar:sectores` los repinta con el modelo. Las
+páginas van en `content/sectores/<id>.md`. En Foundry, un token que entra en la zona de un sector
+en el mapa de Málaga aparece en su calle; el borde del sector devuelve a la ciudad; la puerta de
+cada lugar lleva a su interior y viceversa.
+
 ## Marcadores en los Markdown de `content/`
 
 ```

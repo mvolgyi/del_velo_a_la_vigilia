@@ -491,6 +491,27 @@
           "h": 10,
           "destino": "cripta:escalera",
           "color": "#7b1c1c"
+        },
+        {
+          "id": "desde-convento-gaona",
+          "nombre": "Llegada desde la calle (Gaona · el convento desconsagrado)",
+          "x": 12.5,
+          "y": 34,
+          "w": 5,
+          "h": 5,
+          "destino": "convento-gaona:entrada-1",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "salida-convento-gaona",
+          "nombre": "Salir a la calle (Gaona · el convento desconsagrado)",
+          "x": 12.5,
+          "y": 40,
+          "w": 5,
+          "h": 5,
+          "destino": "convento-gaona:entrada-1",
+          "color": "#8c2f5c"
         }
       ]
     },

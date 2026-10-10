@@ -1,0 +1,525 @@
+{
+  "_id": "jp0NVVq8htpFKq6a",
+  "_key": "!scenes!jp0NVVq8htpFKq6a",
+  "name": "Málaga · La Malagueta de noche",
+  "folder": "3juiA14H0J18xQ4h",
+  "navigation": false,
+  "navOrder": 300,
+  "width": 4000,
+  "height": 3000,
+  "padding": 0,
+  "playlist": "RREVIAminsF37jT3",
+  "playlistSound": "gni4ryurkIQsdYTN",
+  "grid": {
+    "type": 1,
+    "size": 50,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 1,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.8,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "BR1oG7ZCnnPSDxUz",
+      "name": "Calle",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/sectores/malagueta.webp",
+        "color": "#0b0d10"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!jp0NVVq8htpFKq6a.BR1oG7ZCnnPSDxUz"
+    }
+  ],
+  "walls": [],
+  "lights": [
+    {
+      "_id": "Gh1n6ESxFgQd0Sgr",
+      "x": 1424,
+      "y": 908,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.Gh1n6ESxFgQd0Sgr"
+    },
+    {
+      "_id": "oPhmK6lGHUt83J2f",
+      "x": 717,
+      "y": 1178,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.oPhmK6lGHUt83J2f"
+    },
+    {
+      "_id": "dG9HGp6j4QT7V4Cd",
+      "x": 2576,
+      "y": 403,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.dG9HGp6j4QT7V4Cd"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "5C6zUYtM5R83v6hd",
+      "name": "Volver a la ciudad (norte)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 0,
+          "width": 4000,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "malagueta",
+          "region": "borde-n"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "AvNoCg0I38zPv1gP",
+          "name": "Volver a la ciudad (norte)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!jp0NVVq8htpFKq6a.5C6zUYtM5R83v6hd.AvNoCg0I38zPv1gP"
+        }
+      ],
+      "_key": "!scenes.regions!jp0NVVq8htpFKq6a.5C6zUYtM5R83v6hd"
+    },
+    {
+      "_id": "RUv1A23LFAZGmg25",
+      "name": "Volver a la ciudad (sur)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 2850,
+          "width": 4000,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "malagueta",
+          "region": "borde-s"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "p07jqrKiXgfDVvZM",
+          "name": "Volver a la ciudad (sur)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!jp0NVVq8htpFKq6a.RUv1A23LFAZGmg25.p07jqrKiXgfDVvZM"
+        }
+      ],
+      "_key": "!scenes.regions!jp0NVVq8htpFKq6a.RUv1A23LFAZGmg25"
+    },
+    {
+      "_id": "FBzW6N0gI8HoHw2D",
+      "name": "Volver a la ciudad (oeste)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 150,
+          "width": 150,
+          "height": 2700,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "malagueta",
+          "region": "borde-o"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "JJFroXpIb1Oeh5y4",
+          "name": "Volver a la ciudad (oeste)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!jp0NVVq8htpFKq6a.FBzW6N0gI8HoHw2D.JJFroXpIb1Oeh5y4"
+        }
+      ],
+      "_key": "!scenes.regions!jp0NVVq8htpFKq6a.FBzW6N0gI8HoHw2D"
+    },
+    {
+      "_id": "kmmtVlr16Skmwpjc",
+      "name": "Volver a la ciudad (este)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 3850,
+          "y": 150,
+          "width": 150,
+          "height": 2700,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "malagueta",
+          "region": "borde-e"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "LwWE6cM5FsInS8LV",
+          "name": "Volver a la ciudad (este)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!jp0NVVq8htpFKq6a.kmmtVlr16Skmwpjc.LwWE6cM5FsInS8LV"
+        }
+      ],
+      "_key": "!scenes.regions!jp0NVVq8htpFKq6a.kmmtVlr16Skmwpjc"
+    },
+    {
+      "_id": "RmMFRCyayrh7P97h",
+      "name": "Llegada desde la ciudad",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1296,
+          "y": 338,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "malagueta",
+          "region": "llegada"
+        }
+      },
+      "behaviors": [],
+      "_key": "!scenes.regions!jp0NVVq8htpFKq6a.RmMFRCyayrh7P97h"
+    }
+  ],
+  "tokens": [
+    {
+      "_id": "CaWSCPJ0H4kKazS9",
+      "name": "Quimera suelta",
+      "displayName": 30,
+      "actorId": "UpZ0DCdeSgMIlyXC",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/quimera-suelta.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1900,
+      "y": 2950,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "BR1oG7ZCnnPSDxUz",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": false,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "malagueta",
+          "pnj": "quimera-suelta"
+        }
+      },
+      "_key": "!scenes.tokens!jp0NVVq8htpFKq6a.CaWSCPJ0H4kKazS9"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "8ZezKlwCiMRVlIck",
+      "entryId": "hoj1rJUeaTvA06gq",
+      "pageId": "jsCUSEwA8wLGKRhI",
+      "x": 2000,
+      "y": 120,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "La Malagueta de noche",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "sector": "malagueta"
+        }
+      },
+      "_key": "!scenes.notes!jp0NVVq8htpFKq6a.8ZezKlwCiMRVlIck"
+    },
+    {
+      "_id": "6bA0jCNWPxU7CFoD",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "rO9TxQCGNXGO5MqJ",
+      "x": 2000,
+      "y": 2780,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/light.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Playa de La Malagueta",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "sector": "malagueta",
+          "poi": "malagueta"
+        }
+      },
+      "_key": "!scenes.notes!jp0NVVq8htpFKq6a.6bA0jCNWPxU7CFoD"
+    }
+  ],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "sector:malagueta",
+      "sector": "malagueta",
+      "nota": "La playa a oscuras, los chiringuitos cerrados, el paseo con farolas. La Quimera suelta caza por acá. Datos de OpenStreetMap (© OpenStreetMap contributors, ODbL).",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

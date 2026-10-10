@@ -824,6 +824,15 @@ function cargarSalas() {
   }
   return salasPorEscena;
 }
+const SECTORES = existe("content/sectores.json") ? leerJson("content/sectores.json") : { sectores: [], pxPorMetro: 50 };
+const geoSector = id => existe(`content/sectores/geo/${id}.json`) ? leerJson(`content/sectores/geo/${id}.json`) : null;
+const PRESETS_SECTOR = { farola: { dim: 12, bright: 4, color: "#ffb46b", alpha: 0.45, animation: { type: null, speed: 5, intensity: 5, reverse: false } },
+                         neon: { dim: 6, bright: 2, color: "#7fd1ff", alpha: 0.4, animation: { type: "pulse", speed: 1, intensity: 1, reverse: false } } };
+ID.sector = id => idEstable(`escena:sector:${id}`);
+ID.regionSector = (sector, region) => idEstable(`region:sector:${sector}:${region}`);
+ID.regionCiudad = sector => idEstable(`region:malaga:${sector}`);
+const JID_SECTORES = idEstable("journal:sectores");
+
 const SALAS = cargarSalas();
 
 /** Pines y tokens de una escena a partir de sus salas y del plano (habitaciones en pies). */
@@ -920,8 +929,10 @@ function construirSalas() {
 function escenasDePlanos(carpetas) {
   const planos = cargarPlanos();
   const ids = new Set(planos.map(p => p.id));
-  const uuidDeRegion = (idPlano, idRegion) =>
-    `Scene.${ID.escena(idPlano)}.Region.${idEstable(`region:${idPlano}:${idRegion}`)}`;
+  const esSector = id => SECTORES.sectores.some(s => s.id === id);
+  const uuidDeRegion = (idPlano, idRegion) => esSector(idPlano)
+    ? `Scene.${ID.sector(idPlano)}.Region.${ID.regionSector(idPlano, idRegion)}`
+    : `Scene.${ID.escena(idPlano)}.Region.${idEstable(`region:${idPlano}:${idRegion}`)}`;
   const resumen = [];
 
   for (const plano of planos) {
@@ -945,11 +956,18 @@ function escenasDePlanos(carpetas) {
       ...plano,
       regiones: (plano.regiones ?? []).filter(rg => {
         const [destino, region] = rg.destino.split(":");
-        const ok = ids.has(destino) && planos.find(p => p.id === destino).regiones?.some(r => r.id === region);
+        const ok = esSector(destino)
+          ? !!(geoSector(destino)?.regiones ?? []).some(r => r.id === region)
+          : ids.has(destino) && planos.find(p => p.id === destino).regiones?.some(r => r.id === region);
         if (!ok) avisos.push(`plano ${plano.id}: la región ${rg.id} apunta a ${rg.destino}, que no existe`);
         return ok;
       })
     }, idEstable, uuidDeRegion);
+    // Las regiones de llegada (`llegada: true`) reciben tokens pero no los mandan a ningún lado.
+    for (const rg of regions) {
+      const def = (plano.regiones ?? []).find(r => idEstable(`region:${plano.id}:${r.id}`) === rg._id);
+      if (def?.llegada) rg.behaviors = [];
+    }
     const lights = lucesDePlano(plano, idEstable);
     const moviles = mueblesMoviles(plano);
     const nota = [plano.nota ?? "",
@@ -1141,12 +1159,189 @@ function construirMalaga() {
     tokenVision: false, fog: { exploration: false },
     environment: { darknessLevel: 0.15, globalLight: { enabled: true } },
     levels: [{ _id: idEstable("nivel:malaga"), name: "Ciudad", elevation: { bottom: 0, top: 20 }, background: { src: `modules/${MODULO}/assets/mapas/malaga.webp`, color: "#0b0d10" }, sort: 0 }],
-    walls: [], lights: [], regions: [], tokens: [], notes, sounds: [], tiles: [], drawings: [],
+    walls: [], lights: [], regions: regionesCiudad(aPx), tokens: [], notes, sounds: [], tiles: [], drawings: [],
     flags: flags("escena", { escena: "malaga", nota: `Mapa de ciudad (OpenStreetMap, ${geo.atribucion ?? "© OpenStreetMap contributors"}). Los pines abren el journal de Málaga.` }),
     _stats: STATS
   }));
   escenasCarp.escribir();
   console.log(`malaga: escena ${w}×${h}, ${pois.length} puntos de interés, ${pages.length} páginas`);
+}
+
+
+/* ========================================================================== */
+/*  Sectores: manzanas caminables de Málaga                                   */
+/* ========================================================================== */
+
+/**
+ * content/sectores.json + content/sectores/geo/<id>.json (tools/sectores.mjs)
+ * + content/sectores/<id>.md → una escena por sector (1 m = 50 px) con muros,
+ * farolas y regiones de transición ciudad ↔ sector ↔ interior, un journal
+ * "Sectores" con una página por sector, pines a los lugares, y los tokens
+ * declarados en la línea `tokens:` del Markdown.
+ *
+ * Las regiones de llegada en la escena Málaga las devuelve regionesCiudad(),
+ * que construirMalaga() consume.
+ */
+
+function cargarSectoresMd() {
+  const out = {};
+  for (const archivo of archivosMd(path.join(RAIZ, "content/sectores"))) {
+    const rel = path.relative(RAIZ, archivo);
+    const { meta, cuerpo } = separarFrontmatter(fs.readFileSync(archivo, "utf8"));
+    const id = meta.sector ?? slug(path.basename(archivo, ".md"));
+    const tokens = [];
+    const md = cuerpo.replace(/^# La calle\s*$/m, "").replace(/^tokens:\s*(.+)$/m, (_, lista) => {
+      for (const t of lista.split(",").map(x => x.trim()).filter(Boolean)) {
+        const mm = /^([a-z0-9-]+)(?:\s*x(\d+))?(?:\s*@([a-z0-9-]+))?(?:\s*\((oculto)\))?$/i.exec(t);
+        if (!mm || !nombrePnj[mm[1]]) { avisos.push(`${rel}: token ilegible o PNJ desconocido «${t}»`); continue; }
+        tokens.push({ pnj: mm[1], n: Number(mm[2] ?? 1), poi: mm[3] ?? null, oculto: !!mm[4] });
+      }
+      return "";
+    });
+    out[id] = { rel, nombre: meta.nombre, intro: meta.intro ?? "", md: md.trim(), tokens, pageId: ID.pagina(JID_SECTORES, id) };
+  }
+  return out;
+}
+
+/** Regiones de llegada/entrada de cada sector dentro de la escena Málaga, en px del mapa general. */
+function regionesCiudad(aPx) {
+  const regiones = [];
+  for (const sec of SECTORES.sectores) {
+    const geo = geoSector(sec.id);
+    if (!geo) continue;
+    const a = aPx(geo.bbox.norte, geo.bbox.oeste), b = aPx(geo.bbox.sur, geo.bbox.este);
+    const w = Math.max(b.x - a.x, 64), h = Math.max(b.y - a.y, 64);
+    const x = Math.round((a.x + b.x) / 2 - w / 2), y = Math.round((a.y + b.y) / 2 - h / 2);
+    const llegada = (geo.regiones ?? []).find(r => r.id === "llegada");
+    const rid = ID.regionCiudad(sec.id);
+    regiones.push({
+      _id: rid, name: sec.nombre, color: "#5c1f1f",
+      shapes: [{ type: "rectangle", x, y, width: w, height: h, rotation: 0, hole: false }],
+      elevation: { bottom: null, top: null }, visibility: 0, locked: false, flags: flags("region", { sector: sec.id }),
+      behaviors: llegada ? [{
+        _id: idEstable(`regionB:malaga:${sec.id}`), name: `Entrar a ${sec.nombre}`, type: "teleportToken", disabled: false, flags: {},
+        system: { destinations: [`Scene.${ID.sector(sec.id)}.Region.${ID.regionSector(sec.id, "llegada")}`], placement: "center", snap: true, choice: false }
+      }] : []
+    });
+  }
+  return regiones;
+}
+
+function construirSectores() {
+  if (!SECTORES.sectores.length) return;
+  const md = cargarSectoresMd();
+  const carpetas = new Carpetas("escenas", "Scene");
+  const px = SECTORES.pxPorMetro ?? 50;
+  const paginas = [];
+  let n = 0;
+
+  for (const sec of SECTORES.sectores) {
+    const geo = geoSector(sec.id);
+    if (!geo) { avisos.push(`sector ${sec.id}: falta content/sectores/geo/${sec.id}.json (node tools/sectores.mjs)`); continue; }
+    const pintado = `assets/mapas/sectores/${sec.id}.webp`, esquema = `assets/mapas/sectores/${sec.id}.esquema.webp`;
+    const fondo = existe(pintado) ? pintado : existe(esquema) ? esquema : null;
+    if (!fondo) { avisos.push(`sector ${sec.id}: sin mapa ni esquema`); continue; }
+    if (fondo === esquema) avisos.push(`sector ${sec.id}: sin mapa pintado, uso el esquema (npm run pintar:sectores)`);
+    const W = geo.ancho ?? sec.ancho * px, H = geo.alto ?? sec.alto * px;
+    const sid = ID.sector(sec.id);
+    const doc = md[sec.id];
+
+    const walls = (geo.muros ?? []).map((m, i) => ({
+      _id: idEstable(`muro:sector:${sec.id}:${i}`), c: m.c.map(Math.round),
+      door: m.door ?? 0, ds: m.ds ?? 0, move: m.move ?? 20, sight: m.sight ?? 20, light: m.light ?? 20, sound: m.sound ?? 20, dir: 0, flags: {}
+    }));
+    const lights = (geo.luces ?? []).map((l, i) => {
+      const p = PRESETS_SECTOR[l.preset] ?? PRESETS_SECTOR.farola;
+      return {
+        _id: idEstable(`luz:sector:${sec.id}:${i}`), x: Math.round(l.x), y: Math.round(l.y), rotation: 0, elevation: 0, walls: true, vision: false, hidden: false,
+        config: { dim: l.dim ?? p.dim, bright: l.bright ?? p.bright, angle: 360, color: l.color ?? p.color, alpha: l.alpha ?? p.alpha, animation: p.animation,
+          coloration: 1, attenuation: 0.6, luminosity: 0.5, saturation: 0, contrast: 0, shadows: 0, darkness: { min: 0, max: 1 }, negative: false, priority: 0 },
+        flags: {}
+      };
+    });
+    const regions = (geo.regiones ?? []).map(r => {
+      let destino = null;
+      if (r.destino?.escena === "malaga") destino = `Scene.${ID.escena("malaga")}.Region.${ID.regionCiudad(sec.id)}`;
+      else if (r.destino?.escena && r.destino?.region) destino = `Scene.${ID.escena(r.destino.escena)}.Region.${idEstable(`region:${r.destino.escena}:${r.destino.region}`)}`;
+      return {
+        _id: ID.regionSector(sec.id, r.id), name: r.nombre ?? r.id, color: destino ? "#8c2f5c" : "#2f7f8c",
+        shapes: [{ type: "rectangle", x: Math.round(r.x), y: Math.round(r.y), width: Math.round(r.w), height: Math.round(r.h), rotation: 0, hole: false }],
+        elevation: { bottom: null, top: null }, visibility: 0, locked: false, flags: flags("region", { sector: sec.id, region: r.id }),
+        behaviors: destino && !r.llegada ? [{ _id: idEstable(`regionB:sector:${sec.id}:${r.id}`), name: r.nombre ?? r.id, type: "teleportToken", disabled: false, flags: {}, system: { destinations: [destino], placement: "center", snap: true, choice: false } }] : []
+      };
+    });
+
+    // Pines: la página del sector en el centro y un pin por POI en su puerta (o en el centro del POI).
+    const notes = [];
+    const puntoPoi = poiId => {
+      const e = (geo.puntos ?? []).find(p => p.poi === poiId);
+      return e ? { x: e.x, y: e.y } : { x: W / 2, y: H / 2 };
+    };
+    if (doc) notes.push({ _id: idEstable(`nota:sector:${sec.id}`), entryId: JID_SECTORES, pageId: doc.pageId, x: Math.round(W / 2), y: 120, elevation: 0, sort: 0, locked: false,
+      texture: { src: "icons/svg/book.svg", anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+      iconSize: 48, text: sec.nombre, fontFamily: "Signika", fontSize: 28, textAnchor: 1, textColor: "#ffffff", global: false, flags: flags("pin", { sector: sec.id }) });
+    for (const poiId of sec.pois ?? []) {
+      const poi = (existe("content/malaga/pois.json") ? leerJson("content/malaga/pois.json").pois : []).find(p => p.id === poiId);
+      if (!poi) continue;
+      const { x, y } = puntoPoi(poiId);
+      notes.push({ _id: idEstable(`nota:sector:${sec.id}:${poiId}`), entryId: ID.journal("malaga"), pageId: ID.pagina(ID.journal("malaga"), poiId), x: Math.round(x), y: Math.round(y), elevation: 0, sort: 0, locked: false,
+        texture: { src: poi.icono ?? "icons/svg/house.svg", anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+        iconSize: 48, text: poi.nombre, fontFamily: "Signika", fontSize: 28, textAnchor: 1, textColor: "#ffffff", global: false, flags: flags("pin", { sector: sec.id, poi: poiId }) });
+    }
+
+    // Tokens.
+    const tokens = [];
+    let k = 0;
+    for (const t of doc?.tokens ?? []) {
+      const pnj = PNJS.find(p => p.id === t.pnj);
+      const base = t.poi ? puntoPoi(t.poi) : { x: W / 2, y: H / 2 };
+      for (let i = 0; i < t.n; i++, k++) {
+        const x = Math.round((base.x + (k % 3 - 1) * 120) / px) * px, y = Math.round((base.y + 150 + Math.floor(k / 3) * 100) / px) * px;
+        const textura = existe(`assets/tokens/${pnj.id}.webp`) ? `modules/${MODULO}/assets/tokens/${pnj.id}.webp` : "icons/svg/mystery-man.svg";
+        tokens.push({ _id: idEstable(`token:sector:${sec.id}:${t.pnj}:${i}`), name: t.n > 1 ? `${pnj.nombre} ${i + 1}` : pnj.nombre, displayName: 30, actorId: ID.actor(pnj.id), actorLink: false,
+          texture: { src: textura, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+          x, y, width: 1, height: 1, elevation: 0, level: idEstable(`nivel:sector:${sec.id}`), rotation: 0, alpha: 1, lockRotation: false, locked: false, sort: 0,
+          hidden: t.oculto, disposition: (DISPOSICION[pnj.spcType] ?? (HOSTILES.test(pnj.id) ? -1 : 0)), flags: flags("token", { sector: sec.id, pnj: pnj.id }) });
+      }
+    }
+
+    const ambiente = ambienteDe("malaga");
+    escribirDoc("escenas", conClaves({
+      _id: sid, _key: `!scenes!${sid}`, name: `Málaga · ${sec.nombre}`, folder: carpetas.id("Málaga · sectores"),
+      navigation: false, navOrder: 200 + (sec.orden ?? 0), width: W, height: H, padding: 0,
+      playlist: ambiente.playlist ?? null, playlistSound: ambiente.playlistSound ?? null,
+      grid: { type: 1, size: px, style: "solidLines", thickness: 1, color: "#000000", alpha: 0, distance: 1, units: "m" },
+      tokenVision: true, fog: { exploration: true },
+      environment: { darknessLevel: sec.oscuridad ?? 0.8, globalLight: { enabled: false } },
+      levels: [{ _id: idEstable(`nivel:sector:${sec.id}`), name: "Calle", elevation: { bottom: 0, top: 20 }, background: { src: `modules/${MODULO}/${fondo}`, color: "#0b0d10" }, sort: 0 }],
+      walls, lights, regions, tokens, notes, sounds: [], tiles: [], drawings: [],
+      flags: flags("escena", { escena: `sector:${sec.id}`, sector: sec.id, nota: `${sec.nota ?? ""} Datos de OpenStreetMap (© OpenStreetMap contributors, ODbL).`, provisional: fondo === esquema }),
+      _stats: STATS
+    }));
+
+    if (doc) {
+      const html = md2html(expandirMarcadores(doc.md, doc.rel));
+      const cab = `<p class="dvv-ficha-poi"><strong>Sector</strong> · ${(sec.pois ?? []).map(p => enlace("cronica", "JournalEntry", ID.journal("malaga"), p)).join(" · ")}</p>`;
+      paginas.push({ _id: doc.pageId, _key: `!journal.pages!${JID_SECTORES}.${doc.pageId}`, name: sec.nombre, type: "text", title: { show: true, level: 1 },
+        text: { format: 1, content: (doc.intro ? `<p><em>${doc.intro}</em></p>` : "") + html }, sort: (sec.orden ?? 0) * 1000, ownership: { default: -1 }, flags: flags("sector", { sector: sec.id }) });
+    } else avisos.push(`sector ${sec.id}: sin content/sectores/${sec.id}.md`);
+    n++;
+  }
+  carpetas.escribir();
+
+  if (paginas.length) {
+    const pid0 = ID.pagina(JID_SECTORES, 0);
+    const intro = `<p>Manzanas de Málaga a escala de calle (1 m por casilla). Desde el mapa de la ciudad, un token que entra en la zona de un sector aparece en su calle; pisar el borde del sector lo devuelve a la ciudad, y la puerta de cada lugar lleva a su interior.</p><ul>${SECTORES.sectores.filter(s => md[s.id] && geoSector(s.id)).map(s => `<li>@UUID[Scene.${ID.sector(s.id)}]{${s.nombre}} — @UUID[JournalEntry.${JID_SECTORES}.JournalEntryPage.${md[s.id].pageId}]{página}</li>`).join("")}</ul>`;
+    const carpJ = new Carpetas("cronica", "JournalEntry");
+    escribirDoc("cronica", {
+      _id: JID_SECTORES, _key: `!journal!${JID_SECTORES}`, name: "Málaga — Sectores a pie",
+      folder: carpJ.id("Crónica"), sort: 910, ownership: { default: 0 }, flags: flags("journal", { archivo: "content/sectores" }),
+      pages: [{ _id: pid0, _key: `!journal.pages!${JID_SECTORES}.${pid0}`, name: "Sectores", type: "text", title: { show: false, level: 1 }, text: { format: 1, content: intro }, sort: 0, ownership: { default: -1 }, flags: {} }, ...paginas],
+      _stats: STATS
+    });
+    carpJ.escribir();
+  }
+  console.log(`sectores: ${n} escenas, ${paginas.length} páginas`);
 }
 
 /* ========================================================================== */
@@ -1299,6 +1494,7 @@ function construirAventura() {
 }
 
 construirSalas();
+construirSectores();
 construirMalaga();
 construirPlaylists();
 construirAventura();

@@ -1,0 +1,149 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "muelle-uno",
+ "nombre": "El puerto · Muelle Uno",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.717,
+  "lon": -4.41335
+ },
+ "bbox": {
+  "oeste": -4.4137983,
+  "este": -4.4129017,
+  "sur": 36.7167305,
+  "norte": 36.7172695
+ },
+ "enMalaga": {
+  "region": "malaga:muelle-uno",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tBEnwahyzWoS85eH",
+  "x": 3400.3,
+  "y": 1265.2,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 1,
+ "muros": [
+  {
+   "c": [3116, 1767, 3467, 1949 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3467, 1949, 3291, 2289 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3291, 2289, 2940, 2107 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2940, 2107, 3116, 1767 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [],
+ "luces": [
+  {
+   "x": 3960,
+   "y": 2114,
+   "preset": "farola",
+   "nombre": "Farola · Paseo de la Farola"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "muelle-uno",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tBEnwahyzWoS85eH"
+   },
+   "uuid": "Scene.90o7kMg3EvgstYzO.Region.c8X4DhF5M221jM7o"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "muelle-uno",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tBEnwahyzWoS85eH"
+   },
+   "uuid": "Scene.90o7kMg3EvgstYzO.Region.3PaVigFiLN2F1eiP"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "muelle-uno",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tBEnwahyzWoS85eH"
+   },
+   "uuid": "Scene.90o7kMg3EvgstYzO.Region.4WZsuZEHZi4M3grL"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "muelle-uno",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tBEnwahyzWoS85eH"
+   },
+   "uuid": "Scene.90o7kMg3EvgstYzO.Region.2MmHCOtml1MiNfj2"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 1347,
+   "y": 1135,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.90o7kMg3EvgstYzO.Region.e3vFGEdRmlAJF9RN"
+  } ],
+ "puntos": [
+  {
+   "poi": "muelle-uno",
+   "x": 2000,
+   "y": 1500,
+   "edificio": null,
+   "aproximado": false
+  } ],
+ "avisos": [
+  "POI muelle-uno: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+}

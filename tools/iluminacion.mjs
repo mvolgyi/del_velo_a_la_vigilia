@@ -45,6 +45,17 @@ export const PRESETS = {
     bright: 3, dim: 12, color: "#ffc547", alpha: 0.5,
     animation: { type: "torch", speed: 4, intensity: 1 }
   },
+  // Farola de vapor de sodio (sectores de calle): naranja, 4 m brillante y
+  // 12 m tenue (en pies: 13.1 y 39.4). Ver tools/sectores.mjs.
+  farola: {
+    bright: 13.12, dim: 39.37, color: "#ffb46b", alpha: 0.45,
+    animation: { type: null, speed: 5, intensity: 5 }
+  },
+  // Neón o escaparate: frío, corto, con un leve parpadeo.
+  neon: {
+    bright: 6.56, dim: 19.69, color: "#7fd1ff", alpha: 0.4,
+    animation: { type: "pulse", speed: 1, intensity: 1 }
+  },
   // La bengala de Elías.
   bengala: {
     bright: 20, dim: 40, color: "#ff3b1f", alpha: 0.7,

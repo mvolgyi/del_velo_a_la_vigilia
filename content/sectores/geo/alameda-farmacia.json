@@ -1,0 +1,401 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "alameda-farmacia",
+ "nombre": "La Alameda · la farmacia de guardia",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.718,
+  "lon": -4.4218
+ },
+ "bbox": {
+  "oeste": -4.4222483,
+  "este": -4.4213517,
+  "sur": 36.7177305,
+  "norte": 36.7182695
+ },
+ "enMalaga": {
+  "region": "malaga:alameda-farmacia",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL",
+  "x": 3023.2,
+  "y": 1209.5,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 7,
+ "muros": [
+  {
+   "c": [2777, 257, 2927, 202 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2927, 202, 3105, 108 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3105, 108, 3132, 29 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3132, 29, 3129, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1118, 828, 1203, 798 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1203, 798, 1279, 771 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1279, 771, 1363, 742 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1363, 742, 1540, 680 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1540, 680, 1739, 611 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1739, 611, 2174, 459 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2174, 459, 2267, 426 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2267, 426, 2347, 398 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [0, 725, 12, 782 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [0, 0, 106, 520 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [106, 520, 236, 1155 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [236, 1155, 400, 1097 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [400, 1097, 507, 1058 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [507, 1058, 679, 994 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [679, 994, 847, 931 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [847, 931, 1003, 871 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1003, 871, 1118, 828 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2347, 398, 2471, 357 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2471, 357, 2777, 257 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [12, 782, 44, 933 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [44, 933, 50, 966 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [50, 966, 95, 1192 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [95, 1192, 109, 1256 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [109, 1256, 0, 1297 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [],
+ "luces": [
+  {
+   "x": 3334,
+   "y": 2126,
+   "preset": "farola",
+   "nombre": "Farola · Alameda Principal"
+  },
+  {
+   "x": 1952,
+   "y": 1963,
+   "preset": "farola",
+   "nombre": "Farola · Alameda Principal"
+  },
+  {
+   "x": 974,
+   "y": 2951,
+   "preset": "farola",
+   "nombre": "Farola · Alameda Principal"
+  },
+  {
+   "x": 291,
+   "y": 1242,
+   "preset": "farola",
+   "nombre": "Farola · Calle del Comisario"
+  },
+  {
+   "x": 3868,
+   "y": 2914,
+   "preset": "farola",
+   "nombre": "Farola · Alameda Principal"
+  },
+  {
+   "x": 1834,
+   "y": 1275,
+   "preset": "farola",
+   "nombre": "Farola · Alameda Principal"
+  },
+  {
+   "x": 2925,
+   "y": 620,
+   "preset": "farola",
+   "nombre": "Farola · Alameda Principal"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "alameda-farmacia",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+   },
+   "uuid": "Scene.bJw96ING0RTnEnNQ.Region.LrbxDNDEJM2nK8jN"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "alameda-farmacia",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+   },
+   "uuid": "Scene.bJw96ING0RTnEnNQ.Region.cE2wqRlLZ568iK4t"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "alameda-farmacia",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+   },
+   "uuid": "Scene.bJw96ING0RTnEnNQ.Region.9L8uveAVuzG4bj02"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "alameda-farmacia",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.vdglIQK24os9BiTL"
+   },
+   "uuid": "Scene.bJw96ING0RTnEnNQ.Region.df3XuwxbT8JSvynp"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 2165,
+   "y": 2110,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.bJw96ING0RTnEnNQ.Region.zkwCEgWNFrWSm9dE"
+  } ],
+ "puntos": [
+  {
+   "poi": "farmacia-guardia",
+   "x": 2000,
+   "y": 1500,
+   "edificio": null,
+   "aproximado": false
+  } ],
+ "avisos": [
+  "POI farmacia-guardia: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+}

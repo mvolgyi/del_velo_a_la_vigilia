@@ -303,3 +303,16 @@ modelo: se **renderiza desde OpenStreetMap** con `tools/malaga-mapa.py`
   nota de la escena y en cualquier lugar donde se muestre o redistribuya el
   mapa. Es una obra derivada de una base de datos ODbL: si se publica, debe
   conservar esa atribución.
+
+
+## 9. Sectores caminables (nivel 2.5)
+
+Manzanas de 80×60 m a **1 m = 50 px** (4000×3000 px), definidas en `content/sectores.json` y
+generadas por `tools/sectores.mjs` desde la caché de OpenStreetMap (`cache/osm/`): contornos de
+edificios → muros; hueco de 2 m en la fachada de cada `entrada` → puerta; farolas cada 25 m en la
+acera (preset `farola`, sodio); regiones de borde (vuelta a la ciudad), `llegada` y `entrada-n`
+(al interior). `tools/pintar-sectores.mjs` repinta el esquema con el modelo y corrige la deriva por
+perfiles de bordes; QC: anisotropía ≤3 %, calidad ≥0.35 (ajustable por sector con `qc.calidadMinima`
+cuando no hay muros), correlación de bordes ≥0.30, saturación ≤15 %. Campo `exterior` para
+describir el lugar al modelo (playa, puerto, cementerio, canchas). Tolerancias aceptadas: lluvia
+tenue, charcos, baldosas grandes en aceras. Atribución OSM obligatoria en la nota de cada escena.

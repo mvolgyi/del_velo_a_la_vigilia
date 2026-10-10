@@ -683,6 +683,73 @@
       "locked": false,
       "flags": {},
       "_key": "!scenes.regions!Lt8TlhDCDtaStvhY.ManBH4IsHKiXwmfO"
+    },
+    {
+      "_id": "BH9cbqVkwtoWSuyl",
+      "name": "Llegada desde la calle (Gaona · el convento desconsagrado)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 375,
+          "y": 1020,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!Lt8TlhDCDtaStvhY.BH9cbqVkwtoWSuyl"
+    },
+    {
+      "_id": "JzI20fzFpsHEqGD6",
+      "name": "Salir a la calle (Gaona · el convento desconsagrado)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 375,
+          "y": 1200,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "ivBoNGfQJPHGm8F6",
+          "name": "Salir a la calle (Gaona · el convento desconsagrado)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.SuFeWW9kccoRyaZq.Region.bPKHBjWVehAn4y6z"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!Lt8TlhDCDtaStvhY.JzI20fzFpsHEqGD6.ivBoNGfQJPHGm8F6"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!Lt8TlhDCDtaStvhY.JzI20fzFpsHEqGD6"
     }
   ],
   "lights": [],

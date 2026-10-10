@@ -1,0 +1,227 @@
+{
+  "_comentario": "Sectores caminables de Málaga: manzanas de 80×60 m a 1 m = 50 px (4000×3000 px), renderizadas desde OpenStreetMap (cache/osm) con tools/sectores.mjs y repintadas con tools/pintar-sectores.mjs. `entradas` conectan con interiores (sala del plano destino). El mapa general de la ciudad (assets/mapas/malaga.webp) NO se toca.",
+  "pxPorMetro": 50,
+  "sectores": [
+    {
+      "id": "somnia-carreteria",
+      "nombre": "Carretería · la fachada de Somnia",
+      "centro": {
+        "lat": 36.7246,
+        "lon": -4.4252
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "somnia-biotech"
+      ],
+      "entradas": [
+        {
+          "poi": "somnia-biotech",
+          "nombre": "Entrada principal",
+          "destino": "somnia-planta-nueva",
+          "sala": "Hall de entrada"
+        },
+        {
+          "poi": "somnia-biotech",
+          "nombre": "Muelle de carga",
+          "destino": "somnia-planta-nueva",
+          "sala": "Muelle de carga"
+        }
+      ],
+      "orden": 10,
+      "nota": "La noche del apagón y la huida. Autos negros aparcados, cámaras, el muelle de carga en el callejón de atrás."
+    },
+    {
+      "id": "convento-gaona",
+      "nombre": "Gaona · el convento desconsagrado",
+      "centro": {
+        "lat": 36.7238,
+        "lon": -4.4234
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "convento-desconsagrado"
+      ],
+      "entradas": [
+        {
+          "poi": "convento-desconsagrado",
+          "nombre": "Portón del convento",
+          "destino": "convento-planta",
+          "sala": "Capilla"
+        }
+      ],
+      "orden": 20,
+      "nota": "Calle estrecha del centro histórico, el portón de madera, una tapia con una puerta tapiada hacia la planta vieja de Somnia."
+    },
+    {
+      "id": "huelin-plaza",
+      "nombre": "Huelin · la plaza y el portal de Elías",
+      "centro": {
+        "lat": 36.7028,
+        "lon": -4.44305
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "piso-elias",
+        "bar-huelin"
+      ],
+      "entradas": [
+        {
+          "poi": "piso-elias",
+          "nombre": "Portal de Elías",
+          "destino": "piso-de-elias",
+          "sala": "Rellano"
+        }
+      ],
+      "orden": 30,
+      "nota": "Barrio obrero: bloques de los setenta, la plaza con bancos, el bar en la esquina. Los autos negros de Somnia rondan de noche.",
+      "ubicaciones": {
+        "piso-elias": {
+          "lat": 36.702746,
+          "lon": -4.442978
+        },
+        "bar-huelin": {
+          "lat": 36.702897,
+          "lon": -4.443122
+        }
+      }
+    },
+    {
+      "id": "huelin-garaje",
+      "nombre": "Huelin · el garaje de la célula",
+      "centro": {
+        "lat": 36.7012,
+        "lon": -4.4472
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "garaje-huelin"
+      ],
+      "entradas": [],
+      "orden": 40,
+      "nota": "Naves y talleres junto a la Carretera de Cádiz. El garaje cerrado desde hace nueve años."
+    },
+    {
+      "id": "martiricos-laboratorio",
+      "nombre": "Martiricos · el laboratorio satélite",
+      "centro": {
+        "lat": 36.7315,
+        "lon": -4.4305
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "laboratorio-salas"
+      ],
+      "entradas": [],
+      "orden": 50,
+      "nota": "Polígono de oficinas junto al río. Salas lo visita dos veces por semana; la infiltración del Acto 2."
+    },
+    {
+      "id": "perchel-estacion",
+      "nombre": "El Perchel · la estación y el hostal",
+      "centro": {
+        "lat": 36.712,
+        "lon": -4.434
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "hostal-perchel"
+      ],
+      "entradas": [],
+      "orden": 60,
+      "nota": "Frente a María Zambrano: hostal barato, locutorio, taxis, cámaras de la estación."
+    },
+    {
+      "id": "alameda-farmacia",
+      "nombre": "La Alameda · la farmacia de guardia",
+      "centro": {
+        "lat": 36.718,
+        "lon": -4.4218
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "farmacia-guardia"
+      ],
+      "entradas": [],
+      "orden": 70,
+      "nota": "La Alameda Principal y la esquina de Larios de madrugada: la farmacia 24 h, borrachos, un coche patrulla."
+    },
+    {
+      "id": "comisaria",
+      "nombre": "La comisaría provincial",
+      "centro": {
+        "lat": 36.713,
+        "lon": -4.438
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "comisaria-provincial"
+      ],
+      "entradas": [],
+      "orden": 80,
+      "nota": "Plaza de Manuel Azaña: la comisaría, sus coches, el bar de los policías enfrente. Coordenada aproximada."
+    },
+    {
+      "id": "muelle-uno",
+      "nombre": "El puerto · Muelle Uno",
+      "centro": {
+        "lat": 36.717,
+        "lon": -4.41335
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "muelle-uno"
+      ],
+      "entradas": [],
+      "orden": 90,
+      "nota": "El paseo del puerto de noche: contenedores al fondo, el estibador Joaquín, la lonja cerrada.",
+      "exterior": "Muelle Uno, the modern harbour promenade of Málaga's port at night. The large grey area is a wide quay paved with big pale limestone and concrete slabs of slightly varied tone; their joints are only faint hairline seams, lighter or barely darker than the stone, NEVER dark ink lines and never a regular dark grid. The pale bands crossing it are smooth walkway strips of lighter polished stone. The very dark area on the left is the harbour water, black and still with faint ripples, with a stone quay kerb and a few iron mooring bollards along the water's edge. The narrow dark band is a service road of wet asphalt. The small square wooden-plank shape is a closed timber kiosk roof seen from above. The rain has stopped: no falling rain, no rain streaks, only wet surfaces. Empty, deserted, no boats, no people, no dead trees."
+    },
+    {
+      "id": "malagueta",
+      "nombre": "La Malagueta de noche",
+      "centro": {
+        "lat": 36.71943,
+        "lon": -4.4065
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "malagueta"
+      ],
+      "entradas": [],
+      "orden": 100,
+      "nota": "La playa a oscuras, los chiringuitos cerrados, el paseo con farolas. La Quimera suelta caza por acá.",
+      "exterior": "La Malagueta beach in Málaga at night. Top left: the wet asphalt avenue (Paseo Marítimo) and the promenade sidewalk of pale paving, exactly where drawn. The large pale beige area is the SAND of the beach, smooth, even and cold grey-beige at night, slightly darker and damp toward the water. The single grey L-shaped band on the sand is a narrow wooden boardwalk of weathered planks: exactly one L, same position, same length, do not extend it. The one small square of fine checkered paving at the top right, touching the promenade, is the closed terrace of a beach bar (chiringuito): flat and empty, keep it EXACTLY the size drawn (small, do not enlarge it) with its outer edge where drawn; there is only this one terrace, do not add another. Bottom right: the Mediterranean sea, very dark blue-grey; the shoreline (the boundary between sand and sea) must stay EXACTLY on the drawn line, with only a thin pale line of foam along it. Keep the large empty expanse of sand as empty sand. No umbrellas, no sunbeds, no boats, no people.",
+      "qc": {
+        "calidadMinima": 0.15,
+        "_nota": "Sector sin edificios ni muros: la métrica de coincidencia de perfiles es débil (bordes diagonales y escasos) y la deriva no afecta a ninguna geometría de colisión."
+      }
+    },
+    {
+      "id": "cementerio-ingles",
+      "nombre": "El Cementerio Inglés",
+      "centro": {
+        "lat": 36.7214,
+        "lon": -4.4068
+      },
+      "ancho": 80,
+      "alto": 60,
+      "pois": [
+        "cementerio-ingles"
+      ],
+      "entradas": [],
+      "orden": 110,
+      "nota": "Verja de hierro, cipreses, la capilla anglicana, lápidas de 1830. Un lugar para hablar con los muertos o enterrar algo.",
+      "exterior": "The English Cemetery of Málaga (Cementerio Inglés) at night, an old 19th-century Protestant cemetery. The brown-grey earth plots between the pale gravel paths are filled with rows of small OLD GRAVES seen strictly from above: flat stone slabs, low kerbed grave plots and small upright headstones seen only as their thin top edge, weathered white marble and grey stone with moss and lichen, a few broken. The headstones and slabs carry NO inscriptions, no letters, no numbers, no crosses with writing: blank stone. The slim round tree canopies are dark cypresses and the larger ones are old pines. The dark green areas are overgrown grass and ivy. The brown hatched roof at the right is the small Anglican chapel (St George's) with a clay-tile roof; the grey flat roofs are the lodge and outbuildings. The dark asphalt lane at the left is the cemetery's inner driveway. Along the boundary with the pavement at the bottom runs the cemetery's wrought-iron railing on a low stone wall, seen from above as a thin dark line. No people, no ghosts, no candles, no flowers lit."
+    }
+  ]
+}

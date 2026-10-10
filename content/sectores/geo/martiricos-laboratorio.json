@@ -1,0 +1,146 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "martiricos-laboratorio",
+ "nombre": "Martiricos · el laboratorio satélite",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.7315,
+  "lon": -4.4305
+ },
+ "bbox": {
+  "oeste": -4.4309483,
+  "este": -4.4300517,
+  "sur": 36.7312305,
+  "norte": 36.7317695
+ },
+ "enMalaga": {
+  "region": "malaga:martiricos-laboratorio",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tvfA78g97VoL5b8n",
+  "x": 2635,
+  "y": 458.1,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 1,
+ "muros": [
+  {
+   "c": [1931, 3000, 1971, 2746 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1971, 2746, 2877, 2911 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2877, 2911, 2865, 3000 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [],
+ "luces": [
+  {
+   "x": 2692,
+   "y": 89,
+   "preset": "farola",
+   "nombre": "Farola · Calle Poeta Bernardo de la Torre"
+  },
+  {
+   "x": 3938,
+   "y": 184,
+   "preset": "farola",
+   "nombre": "Farola · Calle Poeta Bernardo de la Torre"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "martiricos-laboratorio",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tvfA78g97VoL5b8n"
+   },
+   "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.MbuLdOzT7vCioMoB"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "martiricos-laboratorio",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tvfA78g97VoL5b8n"
+   },
+   "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.R65lj6hIQPgF4b2o"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "martiricos-laboratorio",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tvfA78g97VoL5b8n"
+   },
+   "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.6qsl1uA7LZ00rtOs"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "martiricos-laboratorio",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tvfA78g97VoL5b8n"
+   },
+   "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.UePi72PJi1trRGra"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 1925,
+   "y": 1425,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.ECyU0kJV59himIq7"
+  } ],
+ "puntos": [
+  {
+   "poi": "laboratorio-salas",
+   "x": 2000,
+   "y": 1500,
+   "edificio": null,
+   "aproximado": false
+  } ],
+ "avisos": [
+  "POI laboratorio-salas: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+}

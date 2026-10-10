@@ -1,0 +1,230 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "huelin-garaje",
+ "nombre": "Huelin · el garaje de la célula",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.7012,
+  "lon": -4.4472
+ },
+ "bbox": {
+  "oeste": -4.4476483,
+  "este": -4.4467517,
+  "sur": 36.7009305,
+  "norte": 36.7014695
+ },
+ "enMalaga": {
+  "region": "malaga:huelin-garaje",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.n8LerdNSW9XAuu9o",
+  "x": 1889.8,
+  "y": 2144.6,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 2,
+ "muros": [
+  {
+   "c": [203, 3000, 16, 2805 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [16, 2805, 0, 2820 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [0, 1400, 129, 1533 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [129, 1533, 279, 1385 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [279, 1385, 0, 1101 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [0, 960, 879, 702 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [879, 702, 924, 749 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [924, 749, 1223, 1060 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1223, 1060, 1451, 1292 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1451, 1292, 433, 2251 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [433, 2251, 0, 2658 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [],
+ "luces": [
+  {
+   "x": 3620,
+   "y": 180,
+   "preset": "farola",
+   "nombre": "Farola · Calle José Palanca"
+  },
+  {
+   "x": 2576,
+   "y": 132,
+   "preset": "farola",
+   "nombre": "Farola · Calle José Palanca"
+  },
+  {
+   "x": 1253,
+   "y": 84,
+   "preset": "farola",
+   "nombre": "Farola · Calle José Palanca"
+  },
+  {
+   "x": 187,
+   "y": 868,
+   "preset": "farola",
+   "nombre": "Farola · Calle José Palanca"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "huelin-garaje",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.n8LerdNSW9XAuu9o"
+   },
+   "uuid": "Scene.jzdWlT40m38No0XF.Region.Na0b7fRbOZj7rdM7"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "huelin-garaje",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.n8LerdNSW9XAuu9o"
+   },
+   "uuid": "Scene.jzdWlT40m38No0XF.Region.VE1qUuun6ro2JNlF"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "huelin-garaje",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.n8LerdNSW9XAuu9o"
+   },
+   "uuid": "Scene.jzdWlT40m38No0XF.Region.HbEknmEwoFNYmIrR"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "huelin-garaje",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.n8LerdNSW9XAuu9o"
+   },
+   "uuid": "Scene.jzdWlT40m38No0XF.Region.BVMiXvpHMuPjuUyd"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 1521,
+   "y": 175,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.jzdWlT40m38No0XF.Region.u1aNNQxxE0FtJVTr"
+  } ],
+ "puntos": [
+  {
+   "poi": "garaje-huelin",
+   "x": 2000,
+   "y": 1500,
+   "edificio": null,
+   "aproximado": false
+  } ],
+ "avisos": [
+  "POI garaje-huelin: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+}

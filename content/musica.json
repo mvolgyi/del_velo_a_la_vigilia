@@ -43,6 +43,13 @@
           "prompt": "Dark ambient horror soundscape for a tabletop RPG scene: a medieval stone crypt beneath a convent, converted into a secret medical ward. Dripping water, the slow rhythmic pump of an IV machine, a faint heartbeat, distant whispered Latin prayers from a woman, deep sub-bass drone, occasional metallic scrape of a gurney. No melody, no drums, instrumental, seamless loopable, about 2 minutes."
         },
         {
+          "id": "malaga-noche",
+          "nombre": "Málaga · la calle de noche",
+          "escena": "malaga",
+          "volumen": 0.35,
+          "prompt": "Nocturnal urban ambient soundscape for a tabletop RPG set in Málaga, Spain, after midnight: wet streets after rain, distant traffic on an avenue, a scooter passing, sodium streetlights buzzing, seagulls far away, a bar closing its metal shutter, a church bell striking once, footsteps echoing in a narrow street, a car idling nearby with the engine running. Uneasy, watched. No melody, no drums, no voices, instrumental, seamless loopable, about 2 minutes."
+        },
+        {
           "id": "persecucion",
           "nombre": "Acto 1 · La huida por los pasillos",
           "volumen": 0.5,
@@ -56,9 +63,9 @@
         },
         {
           "id": "heraldos",
-          "nombre": "Los Heraldos (Imbuimiento)",
-          "volumen": 0.45,
-          "prompt": "Luminous, eerie, sacred ambient music for a tabletop RPG moment when unseen angelic messengers speak to a mortal: time stops, dust hangs in the air. Shimmering high choral pads, glass harmonics, a slow swell of warm light with an undertone of dread, letters of fire. Awe and fear in equal measure. Slow, instrumental, no drums, no lyrics, about 2 minutes."
+          "nombre": "Los Heraldos (The Weight of Grace)",
+          "archivo": "The_Weight_of_Grace.mp3",
+          "volumen": 0.45
         },
         {
           "id": "amanecer",

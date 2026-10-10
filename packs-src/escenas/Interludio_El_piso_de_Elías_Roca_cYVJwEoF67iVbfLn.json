@@ -237,7 +237,75 @@
       "_key": "!scenes.walls!cYVJwEoF67iVbfLn.vo7Lw0CblN1pVBww"
     }
   ],
-  "regions": [],
+  "regions": [
+    {
+      "_id": "cGiiDdz2a6mboVB9",
+      "name": "Llegada desde la calle (Huelin · la plaza y el portal de Elías)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1200,
+          "y": 563,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!cYVJwEoF67iVbfLn.cGiiDdz2a6mboVB9"
+    },
+    {
+      "_id": "qiLYlbVdsdS1BSLB",
+      "name": "Salir a la calle (Huelin · la plaza y el portal de Elías)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1200,
+          "y": 743,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "0Eh5NT2JmoWqAkEi",
+          "name": "Salir a la calle (Huelin · la plaza y el portal de Elías)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.zvdT27QJkgXIptFe.Region.urUoAxBpWTBGEpTJ"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!cYVJwEoF67iVbfLn.qiLYlbVdsdS1BSLB.0Eh5NT2JmoWqAkEi"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!cYVJwEoF67iVbfLn.qiLYlbVdsdS1BSLB"
+    }
+  ],
   "lights": [
     {
       "_id": "Szu0CKYPH3y0vKHo",

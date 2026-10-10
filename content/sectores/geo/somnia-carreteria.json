@@ -1,0 +1,678 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "somnia-carreteria",
+ "nombre": "Carretería · la fachada de Somnia",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.7246,
+  "lon": -4.4252
+ },
+ "bbox": {
+  "oeste": -4.4256483,
+  "este": -4.4247517,
+  "sur": 36.7243305,
+  "norte": 36.7248695
+ },
+ "enMalaga": {
+  "region": "malaga:somnia-carreteria",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.LZKrOlNQxfYAJDEX",
+  "x": 2871.5,
+  "y": 842.2,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 6,
+ "muros": [
+  {
+   "c": [2033, 2129, 2723, 2093 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2723, 2093, 2708, 2409 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2708, 2409, 2701, 2559 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2701, 2559, 2681, 3000 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2096, 2902, 2072, 2904 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2072, 2904, 2062, 2757 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2062, 2757, 2054, 2638 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2054, 2638, 2025, 2640 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2025, 2640, 1981, 2610 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1981, 2610, 1736, 2624 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1711, 2146, 2033, 2129 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [4000, 1730, 3855, 1738 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3855, 1738, 3828, 1214 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3828, 1214, 3772, 144 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3772, 144, 3844, 140 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3001, 3000, 3012, 2719 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3012, 2719, 3032, 2197 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3032, 2197, 3151, 2072 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3151, 2072, 3956, 2027 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3956, 2027, 4000, 2066 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [4000, 2808, 3737, 2824 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3737, 2824, 3738, 2885 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3738, 2885, 3733, 3000 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3844, 140, 3839, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1212, 571, 1189, 571 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1189, 571, 1188, 529 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1188, 529, 1193, 528 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1193, 528, 1189, 453 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1189, 453, 1180, 298 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1180, 298, 1175, 198 ],
+   "door": 1,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20,
+   "doorSound": "metal"
+  },
+  {
+   "c": [1175, 198, 1164, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3390, 0, 3488, 1807 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3488, 1807, 3483, 1807 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3483, 1807, 3383, 1812 ],
+   "door": 1,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20,
+   "doorSound": "metal"
+  },
+  {
+   "c": [3383, 1812, 1270, 1923 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1270, 1923, 1206, 768 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1206, 768, 1198, 765 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1198, 765, 1198, 724 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1198, 724, 1215, 723 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1215, 723, 1213, 643 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1213, 643, 1212, 571 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1823, 0, 1858, 616 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1858, 616, 1892, 1246 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1892, 1246, 3074, 1180 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3074, 1180, 3008, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1740, 2702, 1751, 2920 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1751, 2920, 1839, 2915 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1839, 2915, 1844, 3000 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2103, 3000, 2096, 2902 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1331, 3000, 1322, 2842 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1322, 2842, 1285, 2168 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1285, 2168, 1711, 2146 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1736, 2624, 1740, 2702 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [
+  {
+   "entrada": 1,
+   "poi": "somnia-biotech",
+   "nombre": "Entrada principal",
+   "c": [3483, 1807, 3383, 1812 ],
+   "destino": "somnia-planta-nueva",
+   "sala": "Hall de entrada",
+   "regionInterior": "desde-somnia-carreteria",
+   "regionSalida": "salida-somnia-carreteria",
+   "doorSound": "metal"
+  },
+  {
+   "entrada": 2,
+   "poi": "somnia-biotech",
+   "nombre": "Muelle de carga",
+   "c": [1180, 298, 1175, 198 ],
+   "destino": "somnia-planta-nueva",
+   "sala": "Muelle de carga",
+   "regionInterior": "desde-somnia-carreteria-2",
+   "regionSalida": "salida-somnia-carreteria-2",
+   "doorSound": "metal"
+  } ],
+ "luces": [
+  {
+   "x": 346,
+   "y": 2654,
+   "preset": "farola",
+   "nombre": "Farola · Avenida de la Rosaleda"
+  },
+  {
+   "x": 1182,
+   "y": 1351,
+   "preset": "farola",
+   "nombre": "Farola · Avenida de la Rosaleda"
+  },
+  {
+   "x": 191,
+   "y": 164,
+   "preset": "farola",
+   "nombre": "Farola · Avenida de la Rosaleda"
+  },
+  {
+   "x": 3932,
+   "y": 1749,
+   "preset": "farola",
+   "nombre": "Farola · Calle Purificación"
+  },
+  {
+   "x": 2688,
+   "y": 1858,
+   "preset": "farola",
+   "nombre": "Farola · Calle Purificación"
+  },
+  {
+   "x": 1447,
+   "y": 2151,
+   "preset": "farola",
+   "nombre": "Farola · Calle Purificación"
+  },
+  {
+   "x": 3789,
+   "y": 600,
+   "preset": "farola",
+   "nombre": "Farola · Calle Wad Ras"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "somnia-carreteria",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.LZKrOlNQxfYAJDEX"
+   },
+   "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.qM11oDuTmSvB8n9W"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "somnia-carreteria",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.LZKrOlNQxfYAJDEX"
+   },
+   "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.srUEKDSUn0rbqgu0"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "somnia-carreteria",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.LZKrOlNQxfYAJDEX"
+   },
+   "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.uixviaSyK21uJHNo"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "somnia-carreteria",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.LZKrOlNQxfYAJDEX"
+   },
+   "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.qsdjV3O5IlOJrLSX"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 666,
+   "y": 1510,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.h3tZ7m3yntsGh82p"
+  },
+  {
+   "id": "entrada-1",
+   "nombre": "Entrada principal → somnia-planta-nueva",
+   "x": 3386,
+   "y": 1825,
+   "w": 100,
+   "h": 100,
+   "destino": {
+    "escena": "somnia-planta-nueva",
+    "region": "desde-somnia-carreteria",
+    "uuid": "Scene.BPMiFLBkIFJzWR7T.Region.v52hOvEW42C37hls"
+   },
+   "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.ZjsaOPgGAa44ABpH"
+  },
+  {
+   "id": "entrada-2",
+   "nombre": "Muelle de carga → somnia-planta-nueva",
+   "x": 1063,
+   "y": 202,
+   "w": 100,
+   "h": 100,
+   "destino": {
+    "escena": "somnia-planta-nueva",
+    "region": "desde-somnia-carreteria-2",
+    "uuid": "Scene.BPMiFLBkIFJzWR7T.Region.UVR82Xne6wd5Byzl"
+   },
+   "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.e0j9ovcrhZNE4sE1"
+  } ],
+ "puntos": [
+  {
+   "poi": "somnia-biotech",
+   "x": 3433,
+   "y": 1810,
+   "edificio": 11979813,
+   "aproximado": false,
+   "puerta": true
+  } ],
+ "avisos": []
+}

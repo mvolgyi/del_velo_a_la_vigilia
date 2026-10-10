@@ -1,0 +1,163 @@
+{
+ "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
+ "id": "perchel-estacion",
+ "nombre": "El Perchel · la estación y el hostal",
+ "ancho": 4000,
+ "alto": 3000,
+ "pxPorMetro": 50,
+ "centro": {
+  "lat": 36.712,
+  "lon": -4.434
+ },
+ "bbox": {
+  "oeste": -4.4344483,
+  "este": -4.4335517,
+  "sur": 36.7117305,
+  "norte": 36.7122695
+ },
+ "enMalaga": {
+  "region": "malaga:perchel-estacion",
+  "uuid": "Scene.n2z0loJi3vcGR6r7.Region.yzZ87THND7tehChW",
+  "x": 2478.8,
+  "y": 1543.5,
+  "w": 40,
+  "h": 30
+ },
+ "edificios": 1,
+ "muros": [
+  {
+   "c": [488, 3000, 256, 2596 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [256, 2596, 181, 2466 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [181, 2466, 0, 2149 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [0, 1083, 2311, 389 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2311, 389, 3606, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
+ "puertas": [],
+ "luces": [
+  {
+   "x": 1553,
+   "y": 250,
+   "preset": "farola",
+   "nombre": "Farola · Calle Mendívil"
+  },
+  {
+   "x": 362,
+   "y": 631,
+   "preset": "farola",
+   "nombre": "Farola · Calle Mendívil"
+  } ],
+ "regiones": [
+  {
+   "id": "borde-n",
+   "nombre": "Volver a la ciudad (norte)",
+   "x": 0,
+   "y": 0,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "perchel-estacion",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.yzZ87THND7tehChW"
+   },
+   "uuid": "Scene.4ve7vqoz3rxUR2ia.Region.eAPcQ16rFkyCGGEO"
+  },
+  {
+   "id": "borde-s",
+   "nombre": "Volver a la ciudad (sur)",
+   "x": 0,
+   "y": 2850,
+   "w": 4000,
+   "h": 150,
+   "destino": {
+    "escena": "malaga",
+    "region": "perchel-estacion",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.yzZ87THND7tehChW"
+   },
+   "uuid": "Scene.4ve7vqoz3rxUR2ia.Region.slBWBHSrrfNQzgdc"
+  },
+  {
+   "id": "borde-o",
+   "nombre": "Volver a la ciudad (oeste)",
+   "x": 0,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "perchel-estacion",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.yzZ87THND7tehChW"
+   },
+   "uuid": "Scene.4ve7vqoz3rxUR2ia.Region.3xbs5ttcYzfgCWch"
+  },
+  {
+   "id": "borde-e",
+   "nombre": "Volver a la ciudad (este)",
+   "x": 3850,
+   "y": 150,
+   "w": 150,
+   "h": 2700,
+   "destino": {
+    "escena": "malaga",
+    "region": "perchel-estacion",
+    "uuid": "Scene.n2z0loJi3vcGR6r7.Region.yzZ87THND7tehChW"
+   },
+   "uuid": "Scene.4ve7vqoz3rxUR2ia.Region.peCOV3Ej7xFwQccV"
+  },
+  {
+   "id": "llegada",
+   "nombre": "Llegada desde la ciudad",
+   "x": 1454,
+   "y": 175,
+   "w": 150,
+   "h": 150,
+   "destino": null,
+   "uuid": "Scene.4ve7vqoz3rxUR2ia.Region.REMkoL7tPMSvL2q8"
+  } ],
+ "puntos": [
+  {
+   "poi": "hostal-perchel",
+   "x": 2000,
+   "y": 1500,
+   "edificio": 10743861,
+   "aproximado": false
+  } ],
+ "avisos": []
+}

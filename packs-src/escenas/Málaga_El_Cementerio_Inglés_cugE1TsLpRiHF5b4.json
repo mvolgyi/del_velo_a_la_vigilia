@@ -1,0 +1,1132 @@
+{
+  "_id": "cugE1TsLpRiHF5b4",
+  "_key": "!scenes!cugE1TsLpRiHF5b4",
+  "name": "Málaga · El Cementerio Inglés",
+  "folder": "3juiA14H0J18xQ4h",
+  "navigation": false,
+  "navOrder": 310,
+  "width": 4000,
+  "height": 3000,
+  "padding": 0,
+  "playlist": "RREVIAminsF37jT3",
+  "playlistSound": "gni4ryurkIQsdYTN",
+  "grid": {
+    "type": 1,
+    "size": 50,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 1,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.8,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "hrs4XZacJ2BFveSC",
+      "name": "Calle",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/sectores/cementerio-ingles.webp",
+        "color": "#0b0d10"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!cugE1TsLpRiHF5b4.hrs4XZacJ2BFveSC"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "3I8TUtdHqcyXZJSQ",
+      "c": [
+        3165,
+        536,
+        3256,
+        504
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.3I8TUtdHqcyXZJSQ"
+    },
+    {
+      "_id": "C9DLOcJMj3OpLQcQ",
+      "c": [
+        3256,
+        504,
+        3891,
+        282
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.C9DLOcJMj3OpLQcQ"
+    },
+    {
+      "_id": "NuVX37VJlSFtunqs",
+      "c": [
+        3891,
+        282,
+        3907,
+        328
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.NuVX37VJlSFtunqs"
+    },
+    {
+      "_id": "OmMa3KjyZpNJ5kTd",
+      "c": [
+        3907,
+        328,
+        4000,
+        296
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.OmMa3KjyZpNJ5kTd"
+    },
+    {
+      "_id": "689DhPcj0YdrD2ZE",
+      "c": [
+        4000,
+        847,
+        3863,
+        894
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.689DhPcj0YdrD2ZE"
+    },
+    {
+      "_id": "KsrUxDUgI6gzMkVQ",
+      "c": [
+        3863,
+        894,
+        3807,
+        735
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.KsrUxDUgI6gzMkVQ"
+    },
+    {
+      "_id": "mDEdzI9e6vvnU0zX",
+      "c": [
+        3807,
+        735,
+        3783,
+        743
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.mDEdzI9e6vvnU0zX"
+    },
+    {
+      "_id": "iz9Kyk5YAyZMzae1",
+      "c": [
+        3783,
+        743,
+        3668,
+        783
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.iz9Kyk5YAyZMzae1"
+    },
+    {
+      "_id": "n9th3Q8CpC1Q768J",
+      "c": [
+        3668,
+        783,
+        3472,
+        851
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.n9th3Q8CpC1Q768J"
+    },
+    {
+      "_id": "Taqe7zrd73TyOx77",
+      "c": [
+        3472,
+        851,
+        3387,
+        881
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.Taqe7zrd73TyOx77"
+    },
+    {
+      "_id": "1ujJrTeq4nzPuRGX",
+      "c": [
+        3387,
+        881,
+        3297,
+        912
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.1ujJrTeq4nzPuRGX"
+    },
+    {
+      "_id": "3U25lnpAkhwj4Gmj",
+      "c": [
+        3297,
+        912,
+        3165,
+        536
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.3U25lnpAkhwj4Gmj"
+    },
+    {
+      "_id": "9lc0n18tBIviH0vx",
+      "c": [
+        3714,
+        1892,
+        3673,
+        1906
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.9lc0n18tBIviH0vx"
+    },
+    {
+      "_id": "Cr033paAjoZthLFc",
+      "c": [
+        3673,
+        1906,
+        3530,
+        1954
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.Cr033paAjoZthLFc"
+    },
+    {
+      "_id": "WFa5a7ygMNErWZ9y",
+      "c": [
+        3530,
+        1954,
+        3502,
+        1964
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.WFa5a7ygMNErWZ9y"
+    },
+    {
+      "_id": "BeBknVgzH1yPLfOF",
+      "c": [
+        3502,
+        1964,
+        3497,
+        1949
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.BeBknVgzH1yPLfOF"
+    },
+    {
+      "_id": "etWYLOM24HKaCr4U",
+      "c": [
+        3497,
+        1949,
+        3439,
+        1752
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.etWYLOM24HKaCr4U"
+    },
+    {
+      "_id": "LoMgmfDn7zMvSgiK",
+      "c": [
+        3439,
+        1752,
+        3649,
+        1681
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.LoMgmfDn7zMvSgiK"
+    },
+    {
+      "_id": "bKCFReXb5aJJLg1Y",
+      "c": [
+        3649,
+        1681,
+        3654,
+        1705
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.bKCFReXb5aJJLg1Y"
+    },
+    {
+      "_id": "WdmZoDRdi6yUXkwV",
+      "c": [
+        3654,
+        1705,
+        3783,
+        1666
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.WdmZoDRdi6yUXkwV"
+    },
+    {
+      "_id": "f0TsonQP1wnDhcBW",
+      "c": [
+        3783,
+        1666,
+        4000,
+        1591
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.f0TsonQP1wnDhcBW"
+    },
+    {
+      "_id": "Gp4e0Ulhh7QrxeyS",
+      "c": [
+        4000,
+        1803,
+        3841,
+        1853
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.Gp4e0Ulhh7QrxeyS"
+    },
+    {
+      "_id": "fvvYEBn1MFG1zb3H",
+      "c": [
+        3841,
+        1853,
+        3714,
+        1892
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.fvvYEBn1MFG1zb3H"
+    },
+    {
+      "_id": "fbVfVb0tNbBjMuCZ",
+      "c": [
+        437,
+        2697,
+        420,
+        2610
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.fbVfVb0tNbBjMuCZ"
+    },
+    {
+      "_id": "1FyUvJRvrsMzl7cv",
+      "c": [
+        420,
+        2610,
+        399,
+        2507
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.1FyUvJRvrsMzl7cv"
+    },
+    {
+      "_id": "EA1Xo3tTnWosEuY3",
+      "c": [
+        399,
+        2507,
+        421,
+        2503
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.EA1Xo3tTnWosEuY3"
+    },
+    {
+      "_id": "P2HQW12raXgdjvZB",
+      "c": [
+        421,
+        2503,
+        379,
+        2284
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.P2HQW12raXgdjvZB"
+    },
+    {
+      "_id": "G4szxXxeXhffw8zI",
+      "c": [
+        379,
+        2284,
+        529,
+        2257
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.G4szxXxeXhffw8zI"
+    },
+    {
+      "_id": "PZ5JM28SrgRJ9pqv",
+      "c": [
+        529,
+        2257,
+        671,
+        2231
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.PZ5JM28SrgRJ9pqv"
+    },
+    {
+      "_id": "EiYopV1I59XJww4O",
+      "c": [
+        671,
+        2231,
+        748,
+        2638
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.EiYopV1I59XJww4O"
+    },
+    {
+      "_id": "EEfPDvvOWfTFKOy8",
+      "c": [
+        748,
+        2638,
+        631,
+        2658
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.EEfPDvvOWfTFKOy8"
+    },
+    {
+      "_id": "XkaXe1wJ1BWaGsfe",
+      "c": [
+        631,
+        2658,
+        638,
+        2703
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.XkaXe1wJ1BWaGsfe"
+    },
+    {
+      "_id": "WukhvMrhEiOwhaKX",
+      "c": [
+        638,
+        2703,
+        602,
+        2709
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.WukhvMrhEiOwhaKX"
+    },
+    {
+      "_id": "r2eTRrkJQIphPJfy",
+      "c": [
+        602,
+        2709,
+        474,
+        2731
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.r2eTRrkJQIphPJfy"
+    },
+    {
+      "_id": "KkzM1sotGGXgeOm1",
+      "c": [
+        474,
+        2731,
+        467,
+        2692
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.KkzM1sotGGXgeOm1"
+    },
+    {
+      "_id": "EUvHygJqQhNAqIZ6",
+      "c": [
+        467,
+        2692,
+        437,
+        2697
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!cugE1TsLpRiHF5b4.EUvHygJqQhNAqIZ6"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "oXRqatcb32OumSPx",
+      "x": 2851,
+      "y": 2374,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!cugE1TsLpRiHF5b4.oXRqatcb32OumSPx"
+    },
+    {
+      "_id": "eS4O7Hp3knr3hUUz",
+      "x": 1644,
+      "y": 2699,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!cugE1TsLpRiHF5b4.eS4O7Hp3knr3hUUz"
+    },
+    {
+      "_id": "d28Jf9FCK6RRj8fk",
+      "x": 64,
+      "y": 2076,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!cugE1TsLpRiHF5b4.d28Jf9FCK6RRj8fk"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "kAIxz4UGoJbHGKt6",
+      "name": "Volver a la ciudad (norte)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 0,
+          "width": 4000,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "cementerio-ingles",
+          "region": "borde-n"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "zZWJBOzGklx52u68",
+          "name": "Volver a la ciudad (norte)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!cugE1TsLpRiHF5b4.kAIxz4UGoJbHGKt6.zZWJBOzGklx52u68"
+        }
+      ],
+      "_key": "!scenes.regions!cugE1TsLpRiHF5b4.kAIxz4UGoJbHGKt6"
+    },
+    {
+      "_id": "YHTouI0XVAEqG2NC",
+      "name": "Volver a la ciudad (sur)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 2850,
+          "width": 4000,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "cementerio-ingles",
+          "region": "borde-s"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "5CsBZPHO6HsJmuRA",
+          "name": "Volver a la ciudad (sur)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!cugE1TsLpRiHF5b4.YHTouI0XVAEqG2NC.5CsBZPHO6HsJmuRA"
+        }
+      ],
+      "_key": "!scenes.regions!cugE1TsLpRiHF5b4.YHTouI0XVAEqG2NC"
+    },
+    {
+      "_id": "drzCERQZIoqT7lKq",
+      "name": "Volver a la ciudad (oeste)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 150,
+          "width": 150,
+          "height": 2700,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "cementerio-ingles",
+          "region": "borde-o"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "tz5NEJWIChG7wNJA",
+          "name": "Volver a la ciudad (oeste)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!cugE1TsLpRiHF5b4.drzCERQZIoqT7lKq.tz5NEJWIChG7wNJA"
+        }
+      ],
+      "_key": "!scenes.regions!cugE1TsLpRiHF5b4.drzCERQZIoqT7lKq"
+    },
+    {
+      "_id": "aHZEKD1Zr0rE0yzt",
+      "name": "Volver a la ciudad (este)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 3850,
+          "y": 150,
+          "width": 150,
+          "height": 2700,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "cementerio-ingles",
+          "region": "borde-e"
+        }
+      },
+      "behaviors": [
+        {
+          "_id": "8eZPukZvoPAi7XpA",
+          "name": "Volver a la ciudad (este)",
+          "type": "teleportToken",
+          "disabled": false,
+          "flags": {},
+          "system": {
+            "destinations": [
+              "Scene.n2z0loJi3vcGR6r7.Region.vhrX4y4oY18JSIj8"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "_key": "!scenes.regions.behaviors!cugE1TsLpRiHF5b4.aHZEKD1Zr0rE0yzt.8eZPukZvoPAi7XpA"
+        }
+      ],
+      "_key": "!scenes.regions!cugE1TsLpRiHF5b4.aHZEKD1Zr0rE0yzt"
+    },
+    {
+      "_id": "u62TjxHKVuklklqs",
+      "name": "Llegada desde la ciudad",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2302,
+          "y": 2675,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "visibility": 0,
+      "locked": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "region",
+          "sector": "cementerio-ingles",
+          "region": "llegada"
+        }
+      },
+      "behaviors": [],
+      "_key": "!scenes.regions!cugE1TsLpRiHF5b4.u62TjxHKVuklklqs"
+    }
+  ],
+  "tokens": [],
+  "notes": [
+    {
+      "_id": "bSazAS6FbCKS2inP",
+      "entryId": "hoj1rJUeaTvA06gq",
+      "pageId": "JfQXvaSkQ8g1QPeT",
+      "x": 2000,
+      "y": 120,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "El Cementerio Inglés",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "sector": "cementerio-ingles"
+        }
+      },
+      "_key": "!scenes.notes!cugE1TsLpRiHF5b4.bSazAS6FbCKS2inP"
+    },
+    {
+      "_id": "hH5qQEwIJhN6oRcI",
+      "entryId": "9ypDcVGaJFr0RcLE",
+      "pageId": "oRyUrlX9QmHYqC76",
+      "x": 2000,
+      "y": 1500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/oak.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 48,
+      "text": "Cementerio Inglés",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "sector": "cementerio-ingles",
+          "poi": "cementerio-ingles"
+        }
+      },
+      "_key": "!scenes.notes!cugE1TsLpRiHF5b4.hH5qQEwIJhN6oRcI"
+    }
+  ],
+  "sounds": [],
+  "tiles": [],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "sector:cementerio-ingles",
+      "sector": "cementerio-ingles",
+      "nota": "Verja de hierro, cipreses, la capilla anglicana, lápidas de 1830. Un lugar para hablar con los muertos o enterrar algo. Datos de OpenStreetMap (© OpenStreetMap contributors, ODbL).",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}
