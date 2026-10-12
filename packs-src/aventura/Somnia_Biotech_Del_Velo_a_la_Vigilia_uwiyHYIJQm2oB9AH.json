@@ -200,6 +200,10 @@
         "actorLink": true,
         "disposition": 1,
         "lockRotation": true,
+        "sight": {
+          "enabled": true,
+          "range": 0
+        },
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }
@@ -625,6 +629,10 @@
         "actorLink": true,
         "disposition": 1,
         "lockRotation": true,
+        "sight": {
+          "enabled": true,
+          "range": 0
+        },
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }
@@ -1016,6 +1024,10 @@
         "actorLink": true,
         "disposition": 1,
         "lockRotation": true,
+        "sight": {
+          "enabled": true,
+          "range": 0
+        },
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }
@@ -1450,6 +1462,10 @@
         "actorLink": true,
         "disposition": 1,
         "lockRotation": true,
+        "sight": {
+          "enabled": true,
+          "range": 0
+        },
         "texture": {
           "src": "icons/svg/mystery-man.svg"
         }

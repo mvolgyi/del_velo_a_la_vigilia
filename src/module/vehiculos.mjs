@@ -147,6 +147,8 @@ export class Vehiculos {
   /** Hook preCreateToken: un vehículo mide 2×4 en calles e interiores y es un marcador en el mapa general. */
   static onPreCreateToken(doc, data) {
     const actor = game.actors.get(data.actorId);
+    // Cazadores: visión encendida siempre (sin esto, un jugador ve la escena negra).
+    if (actor?.type === "hunter" && !doc.sight?.enabled) doc.updateSource({ sight: { enabled: true } });
     const datos = actor?.getFlag(DVV.ID, "vehiculo");
     if (!datos) return;
     const escena = doc.parent;

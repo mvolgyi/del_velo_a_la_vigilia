@@ -664,7 +664,7 @@ function construirPersonajes() {
       img: "icons/svg/mystery-man.svg",
       folder: carpetas.id("Plantillas de cazador"),
       sort: 0,
-      prototypeToken: { name: pj.nombre, actorLink: true, disposition: 1, lockRotation: true, texture: { src: "icons/svg/mystery-man.svg" } },
+      prototypeToken: { name: pj.nombre, actorLink: true, disposition: 1, lockRotation: true, sight: { enabled: true, range: 0 }, texture: { src: "icons/svg/mystery-man.svg" } },
       system: {
         headers: {
           concept: pj.concepto ?? "",
