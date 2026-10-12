@@ -1057,7 +1057,7 @@ function escenasDeJson(carpetas) {
         _id: idEstable(`nota:${def.id}:${pin.id}`), entryId: jid, pageId: null,
         x: Math.round(pin.x * w), y: Math.round(pin.y * h), elevation: 0, sort: 0, locked: false,
         texture: { src: pin.icono ?? "icons/svg/book.svg", anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
-        iconSize: 56, text: pin.texto ?? "", fontFamily: "Signika", fontSize: 30, textAnchor: 1, textColor: "#ffffff", global: true, flags: flags("pin", { escena: def.id, pin: pin.id })
+        iconSize: 56, text: pin.texto ?? "", fontFamily: "Signika", fontSize: 30, textAnchor: 1, textColor: "#ffffff", global: false, flags: flags("pin", { escena: def.id, pin: pin.id })
       };
     });
     escribirDoc("escenas", docEscena({
@@ -1191,7 +1191,7 @@ function construirMalaga() {
       x, y, elevation: 0, sort: 0, locked: false,
       texture: { src: poi.icono ?? "icons/svg/house.svg", anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: poi.ficticio ? "#ff8a80" : "#ffffff", alphaThreshold: 0.75 },
       iconSize: 48, text: poi.nombre, fontFamily: "Signika", fontSize: 26, textAnchor: 1, textColor: "#ffffff",
-      global: true, flags: flags("pin", { poi: poi.id, tipo: poi.tipo })
+      global: false, flags: flags("pin", { poi: poi.id, tipo: poi.tipo })
     };
   });
   const escenasCarp = new Carpetas("escenas", "Scene");

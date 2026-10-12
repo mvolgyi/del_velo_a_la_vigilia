@@ -15,7 +15,7 @@
       "nota": "Portada de la crónica. El pin del corcho abre la visión general.",
       "pines": [
         { "id": "vision", "x": 0.21, "y": 0.42, "journal": "vision-general", "texto": "La crónica", "icono": "icons/svg/book.svg" },
-        { "id": "reglas", "x": 0.72, "y": 0.84, "journal": "la-marca-de-los-heraldos", "pack": "reglas", "texto": "Los tres caminos", "icono": "icons/svg/aura.svg" }
+        { "id": "reglas", "x": 0.72, "y": 0.84, "journal": "pantalla-del-narrador", "texto": "Pantalla del Narrador", "icono": "icons/svg/aura.svg" }
       ]
     }
   ]

@@ -79,7 +79,7 @@
       "fontSize": 30,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -91,7 +91,7 @@
     },
     {
       "_id": "atDRN1GA70GxkJw8",
-      "entryId": "34kV1LOxmFjfTzZl",
+      "entryId": "qIjdVHh7zgoUJw6r",
       "pageId": null,
       "x": 1981,
       "y": 1290,
@@ -112,12 +112,12 @@
         "alphaThreshold": 0.75
       },
       "iconSize": 56,
-      "text": "Los tres caminos",
+      "text": "Pantalla del Narrador",
       "fontFamily": "Signika",
       "fontSize": 30,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",

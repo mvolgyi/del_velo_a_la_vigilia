@@ -595,7 +595,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -633,7 +633,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -671,7 +671,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -709,7 +709,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -747,7 +747,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -785,7 +785,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -823,7 +823,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -861,7 +861,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -899,7 +899,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -937,7 +937,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -975,7 +975,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1013,7 +1013,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1051,7 +1051,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1089,7 +1089,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1127,7 +1127,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1165,7 +1165,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1203,7 +1203,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1241,7 +1241,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1279,7 +1279,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
@@ -1317,7 +1317,7 @@
       "fontSize": 26,
       "textAnchor": 1,
       "textColor": "#ffffff",
-      "global": true,
+      "global": false,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pin",
