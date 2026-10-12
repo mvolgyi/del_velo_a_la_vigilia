@@ -1,0 +1,22 @@
+{
+  "_comentario": "Escenas sin plano vectorial (fondo = assets/mapas/<mapa>.webp). La landing es la escena activa al entrar al mundo: la pared de corcho de Elías.",
+  "escenas": [
+    {
+      "id": "landing",
+      "nombre": "Del Velo a la Vigilia",
+      "mapa": "landing",
+      "carpeta": "Somnia Biotech",
+      "orden": -10,
+      "sinGrid": true,
+      "oscuridad": 0,
+      "luzGlobal": true,
+      "visionToken": false,
+      "landing": true,
+      "nota": "Portada de la crónica. El pin del corcho abre la visión general.",
+      "pines": [
+        { "id": "vision", "x": 0.21, "y": 0.42, "journal": "vision-general", "texto": "La crónica", "icono": "icons/svg/book.svg" },
+        { "id": "reglas", "x": 0.72, "y": 0.84, "journal": "la-marca-de-los-heraldos", "pack": "reglas", "texto": "Los tres caminos", "icono": "icons/svg/aura.svg" }
+      ]
+    }
+  ]
+}

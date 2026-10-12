@@ -22,3 +22,6 @@ dist/
 
 # Datos crudos de OpenStreetMap (se bajan con tools/malaga-mapa.py --descargar)
 cache/
+
+# Material local del usuario: nunca al repo ni al release
+scratch/

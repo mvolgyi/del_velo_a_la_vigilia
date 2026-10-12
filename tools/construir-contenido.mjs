@@ -770,7 +770,7 @@ function ambienteDe(escenaId) {
 }
 
 /** Escena base, compartida por las dos fuentes (planos y escenas.json). */
-function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscuridad, luzGlobal, fondo, walls, lights, regions, nota, notes = [], tokens = [], extra = {} }) {
+function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscuridad, luzGlobal, fondo, walls, lights, regions, nota, notes = [], tokens = [], extra = {}, sinGrid = false, visionToken = true }) {
   const sid = ID.escena(id);
   const ambiente = ambienteDe(id);
   return conClaves({
@@ -790,9 +790,9 @@ function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscurida
     padding: 0,
     // Casillas de 1 metro (100 px a 30 px/pie, 2 % de error): en interiores
     // modernos una casilla de 5 pies hace que un token tape media habitación.
-    grid: { type: 1, size: GRID_M_PX, style: "solidLines", thickness: 1, color: "#000000", alpha: gridAlpha, distance: 1, units: "m" },
-    tokenVision: true,
-    fog: { exploration: true },
+    grid: { type: sinGrid ? 0 : 1, size: GRID_M_PX, style: "solidLines", thickness: 1, color: "#000000", alpha: gridAlpha, distance: 1, units: "m" },
+    tokenVision: visionToken,
+    fog: { exploration: visionToken },
     environment: { darknessLevel: oscuridad, globalLight: { enabled: Boolean(luzGlobal) } },
     // En v14 el fondo vive en un Level embebido, no en la escena.
     levels: [{
@@ -1050,10 +1050,21 @@ function escenasDeJson(carpetas) {
       },
       flags: {}
     }));
+    // Pines declarados en fracciones del mapa (x, y en 0..1) hacia journals del módulo.
+    const notes = (def.pines ?? []).map(pin => {
+      const jid = ID.journal(pin.journal);
+      return {
+        _id: idEstable(`nota:${def.id}:${pin.id}`), entryId: jid, pageId: null,
+        x: Math.round(pin.x * w), y: Math.round(pin.y * h), elevation: 0, sort: 0, locked: false,
+        texture: { src: pin.icono ?? "icons/svg/book.svg", anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+        iconSize: 56, text: pin.texto ?? "", fontFamily: "Signika", fontSize: 30, textAnchor: 1, textColor: "#ffffff", global: true, flags: flags("pin", { escena: def.id, pin: pin.id })
+      };
+    });
     escribirDoc("escenas", docEscena({
       id: def.id, nombre: def.nombre, carpeta: carpetas.id(def.carpeta ?? "Somnia Biotech"), orden: def.orden,
       w, h, grid: def.grid ?? GRID_PX, gridAlpha: def.gridAlpha ?? 0.1, oscuridad: def.oscuridad ?? 0.6,
-      luzGlobal: def.luzGlobal, fondo: rel, walls, lights, regions: [], nota: def.nota
+      luzGlobal: def.luzGlobal, fondo: rel, walls, lights, regions: [], nota: def.nota, notes,
+      sinGrid: !!def.sinGrid, visionToken: def.visionToken ?? true, extra: def.landing ? { landing: true } : {}
     }));
     n++;
   }

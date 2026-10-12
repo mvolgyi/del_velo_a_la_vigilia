@@ -4,7 +4,7 @@
   "name": "Somnia Biotech — Del Velo a la Vigilia",
   "img": "modules/del-velo-a-la-vigilia/assets/mapas/somnia-planta-nueva.webp",
   "caption": "<p>La crónica completa, lista para dirigir.</p>",
-  "description": "<p>Importa al mundo <strong>17 escenas</strong>, <strong>19 actores</strong> (PNJs y plantillas de cazador), <strong>22 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 1 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
+  "description": "<p>Importa al mundo <strong>18 escenas</strong>, <strong>19 actores</strong> (PNJs y plantillas de cazador), <strong>22 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 1 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
   "actors": [
     {
       "_id": "kWQNBnBz3V9gvlnP",
@@ -13036,6 +13036,152 @@
           "nota": "El ala antigua de la clínica: terrazo gastado, cañerías vistas, consultorios abandonados. La entrada es por el oeste, desde la pesada puerta de la planta nueva (región). Durante el apagón la única luz es la del rack prohibido, que sigue al máximo. El Limpiador sabe qué baldosas crujen y qué pasillos de mantenimiento no tienen cámaras. Al sur, la puerta de piedra de la que venían los rezos: detrás, la escalera baja al pasillo lateral de la cripta (región). Muebles móviles NO pintados (colocarlos como tiles): palet.",
           "plano": "somnia-planta-vieja",
           "provisional": false
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "playlist": null,
+      "playlistSound": null,
+      "_id": "g89yHoq6Qwkr7Gq1",
+      "name": "Del Velo a la Vigilia",
+      "folder": "jO7QZOk0HboPNns0",
+      "navigation": true,
+      "navOrder": -10,
+      "width": 2752,
+      "height": 1536,
+      "padding": 0,
+      "grid": {
+        "type": 0,
+        "size": 100,
+        "style": "solidLines",
+        "thickness": 1,
+        "color": "#000000",
+        "alpha": 0.1,
+        "distance": 1,
+        "units": "m"
+      },
+      "tokenVision": false,
+      "fog": {
+        "exploration": false
+      },
+      "environment": {
+        "darknessLevel": 0,
+        "globalLight": {
+          "enabled": true
+        }
+      },
+      "levels": [
+        {
+          "_id": "gzmxb2LhICNCd4O1",
+          "name": "Suelo",
+          "elevation": {
+            "bottom": 0,
+            "top": 20
+          },
+          "background": {
+            "src": "modules/del-velo-a-la-vigilia/assets/mapas/landing.webp",
+            "color": "#000000"
+          },
+          "sort": 0,
+          "_key": "!scenes.levels!g89yHoq6Qwkr7Gq1.gzmxb2LhICNCd4O1"
+        }
+      ],
+      "walls": [],
+      "regions": [],
+      "lights": [],
+      "tokens": [],
+      "notes": [
+        {
+          "_id": "j7Lv4UPUWvtr5nV4",
+          "entryId": "odK6SXRylCTYU821",
+          "pageId": null,
+          "x": 578,
+          "y": 645,
+          "elevation": 0,
+          "sort": 0,
+          "locked": false,
+          "texture": {
+            "src": "icons/svg/book.svg",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "iconSize": 56,
+          "text": "La crónica",
+          "fontFamily": "Signika",
+          "fontSize": 30,
+          "textAnchor": 1,
+          "textColor": "#ffffff",
+          "global": true,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pin",
+              "escena": "landing",
+              "pin": "vision"
+            }
+          },
+          "_key": "!scenes.notes!g89yHoq6Qwkr7Gq1.j7Lv4UPUWvtr5nV4"
+        },
+        {
+          "_id": "atDRN1GA70GxkJw8",
+          "entryId": "34kV1LOxmFjfTzZl",
+          "pageId": null,
+          "x": 1981,
+          "y": 1290,
+          "elevation": 0,
+          "sort": 0,
+          "locked": false,
+          "texture": {
+            "src": "icons/svg/aura.svg",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "iconSize": 56,
+          "text": "Los tres caminos",
+          "fontFamily": "Signika",
+          "fontSize": 30,
+          "textAnchor": 1,
+          "textColor": "#ffffff",
+          "global": true,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pin",
+              "escena": "landing",
+              "pin": "reglas"
+            }
+          },
+          "_key": "!scenes.notes!g89yHoq6Qwkr7Gq1.atDRN1GA70GxkJw8"
+        }
+      ],
+      "sounds": [],
+      "tiles": [],
+      "drawings": [],
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "escena",
+          "escena": "landing",
+          "nota": "Portada de la crónica. El pin del corcho abre la visión general.",
+          "landing": true
         }
       },
       "_stats": {

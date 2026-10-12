@@ -83,6 +83,9 @@ async function importarCronica({ silencioso = false } = {}) {
   if (!doc) return ui.notifications.error(game.i18n.localize("DVV.importar.sinAventura"));
   const resultado = await doc.import({ dialog: false });
   await game.settings.set(DVV.ID, DVV.SETTINGS.IMPORTACION_OFRECIDA, true);
+  // La portada queda como escena activa la primera vez (después el Narrador manda).
+  const landing = game.scenes.find(s => s.getFlag(DVV.ID, "landing"));
+  if (landing && !game.scenes.active?.getFlag(DVV.ID, "escena")) await landing.activate();
   if (!silencioso) ui.notifications.info(game.i18n.format("DVV.importar.hecho", { n: Object.values(resultado?.created ?? {}).reduce((a, b) => a + (b?.length ?? 0), 0) }));
   return resultado;
 }
