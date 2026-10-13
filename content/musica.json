@@ -9,8 +9,14 @@
       "pistas": [
         {
           "id": "landing",
-          "nombre": "Portada · La pared de corcho (bossa nova)",
+          "nombre": "Portada · La pared de corcho",
           "escena": "landing",
+          "volumen": 0.3,
+          "prompt": "Slow, melancholic noir ambient music for an insomniac investigator's rented room at night: rain streaking the window, a red neon sign buzzing and flickering outside, a cork board covered in photos and red string, a single warm lamp, mould on the walls, cold mate and a full ashtray. A lonely muted trumpet or sparse tremolo electric guitar plays a few tired phrases over a soft upright bass and a low warm synth pad, brushed snare barely there, warm tape hiss and vinyl crackle, distant city hum under the rain. Lo-fi, dusty, paranoid but calm, very slow tempo around 60 bpm. Instrumental, no vocals, no fade-in or fade-out, steady volume from start to end, constant tempo, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "bossa-nova",
+          "nombre": "Descanso · Bossa nova",
           "volumen": 0.3,
           "prompt": "Relaxed, warm instrumental bossa nova for a quiet lounge, in the style of a late afternoon in Málaga. Soft nylon-string guitar comping the classic bossa rhythm, gentle brushed drums, upright bass, a mellow Rhodes piano and a sparse, lazy melody. Slow tempo around 70 bpm, mid-tempo groove, low energy, cozy and nostalgic. No vocals, no horns, no fade-in or fade-out, steady volume from start to end, constant tempo, seamlessly loopable, about 2 minutes."
         },
