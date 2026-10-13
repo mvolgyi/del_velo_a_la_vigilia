@@ -13061,8 +13061,8 @@
       }
     },
     {
-      "playlist": null,
-      "playlistSound": null,
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "EtdULfeKH3Qwmc2Y",
       "_id": "g89yHoq6Qwkr7Gq1",
       "name": "Del Velo a la Vigilia",
       "folder": "jO7QZOk0HboPNns0",
@@ -32251,6 +32251,27 @@
       "description": "",
       "sounds": [
         {
+          "_id": "EtdULfeKH3Qwmc2Y",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.EtdULfeKH3Qwmc2Y",
+          "name": "Portada · La pared de corcho (bossa nova)",
+          "description": "Ambiente de la escena landing",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/landing.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.3,
+          "fade": 2000,
+          "sort": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "landing",
+              "escena": "landing"
+            }
+          }
+        },
+        {
           "_id": "zl4QyC5jr06y0na6",
           "_key": "!playlists.sounds!RREVIAminsF37jT3.zl4QyC5jr06y0na6",
           "name": "Acto 1 · Somnia, el apagón",
@@ -32262,7 +32283,7 @@
           "repeat": true,
           "volume": 0.4,
           "fade": 2000,
-          "sort": 0,
+          "sort": 1000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32283,7 +32304,7 @@
           "repeat": true,
           "volume": 0.4,
           "fade": 2000,
-          "sort": 1000,
+          "sort": 2000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32304,7 +32325,7 @@
           "repeat": true,
           "volume": 0.35,
           "fade": 2000,
-          "sort": 2000,
+          "sort": 3000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32325,7 +32346,7 @@
           "repeat": true,
           "volume": 0.35,
           "fade": 2000,
-          "sort": 3000,
+          "sort": 4000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32346,7 +32367,7 @@
           "repeat": true,
           "volume": 0.45,
           "fade": 2000,
-          "sort": 4000,
+          "sort": 5000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32367,7 +32388,7 @@
           "repeat": true,
           "volume": 0.35,
           "fade": 2000,
-          "sort": 5000,
+          "sort": 6000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32388,7 +32409,7 @@
           "repeat": true,
           "volume": 0.5,
           "fade": 2000,
-          "sort": 6000,
+          "sort": 7000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32409,7 +32430,7 @@
           "repeat": true,
           "volume": 0.5,
           "fade": 2000,
-          "sort": 7000,
+          "sort": 8000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32430,7 +32451,7 @@
           "repeat": true,
           "volume": 0.45,
           "fade": 2000,
-          "sort": 8000,
+          "sort": 9000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32451,7 +32472,7 @@
           "repeat": true,
           "volume": 0.4,
           "fade": 2000,
-          "sort": 9000,
+          "sort": 10000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -32472,7 +32493,7 @@
           "repeat": true,
           "volume": 0.45,
           "fade": 2000,
-          "sort": 10000,
+          "sort": 11000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",

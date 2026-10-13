@@ -8,6 +8,13 @@
       "modo": "soundboard",
       "pistas": [
         {
+          "id": "landing",
+          "nombre": "Portada · La pared de corcho (bossa nova)",
+          "escena": "landing",
+          "volumen": 0.3,
+          "prompt": "Relaxed, warm instrumental bossa nova for a quiet lounge, in the style of a late afternoon in Málaga. Soft nylon-string guitar comping the classic bossa rhythm, gentle brushed drums, upright bass, a mellow Rhodes piano and a sparse, lazy melody. Slow tempo around 70 bpm, mid-tempo groove, low energy, cozy and nostalgic. No vocals, no horns, no fade-in or fade-out, steady volume from start to end, constant tempo, seamlessly loopable, about 2 minutes."
+        },
+        {
           "id": "somnia-apagon",
           "nombre": "Acto 1 · Somnia, el apagón",
           "escena": "somnia-planta-nueva",
