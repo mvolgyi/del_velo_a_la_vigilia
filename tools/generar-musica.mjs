@@ -12,12 +12,16 @@
  *   node tools/generar-musica.mjs --forzar       # regenera aunque exista
  *   node tools/generar-musica.mjs --listar
  *
+ * Cada pista nueva que se repite pasa por tools/bucle.mjs (corta la intro y
+ * el fundido de Lyria y empalma la cola con la cabeza); `"bucle": false` lo evita.
+ *
  * Requiere GOOGE_AI_STUDIO_API_KEY en .env. Modelos: lyria-3-pro-preview
  * (~2 min) o lyria-3-clip-preview (~30 s); se elige por pista o por defecto.
  */
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import { hacerBucle } from "./bucle.mjs";
 
 const RAIZ = path.resolve(import.meta.dirname, "..");
 const SALIDA = path.join(RAIZ, "assets/music");
@@ -96,6 +100,8 @@ for (const [i, p] of cola.entries()) {
     const mp3 = await generar(p, clave);
     fs.writeFileSync(rutaDe(p), mp3);
     console.log(`✓ ${Math.round(mp3.length / 1024)} KB  ${duracion(rutaDe(p)) ?? "?"} s`);
+    // Las pistas que se repiten salen ya recortadas a bucle (ver tools/bucle.mjs).
+    if (p.bucle !== false && p.repetir !== false) hacerBucle(rutaDe(p));
   } catch (err) {
     console.log(`✗ ${err.message}`);
     fallos.push(p.id);

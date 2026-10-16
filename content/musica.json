@@ -93,6 +93,90 @@
           "volumen": 0.45
         }
       ]
+    },
+    {
+      "id": "manzanas",
+      "nombre": "Málaga — Las manzanas",
+      "modo": "soundboard",
+      "pistas": [
+        {
+          "id": "manzana-somnia-carreteria",
+          "nombre": "Málaga · Carretería, la fachada de Somnia",
+          "escena": "sector:somnia-carreteria",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: Calle Carretería in the old centre after midnight, outside a modern biotech clinic during a blackout. The ticking of a cooling car engine, a black sedan idling with its doors shut, the faint click of a security camera motor, a generator thrumming behind a loading-dock shutter, distant traffic on the river avenue, a dog barking far off, a low uneasy drone underneath. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-convento-gaona",
+          "nombre": "Málaga · Gaona, el convento desconsagrado",
+          "escena": "sector:convento-gaona",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: a narrow cobbled street in the historic centre at night beside an old deconsecrated convent wall: wind whistling through a boarded-up wooden gate, pigeons stirring in a bell tower, a loose shutter knocking, water trickling in a gutter, a church bell tolling the hour far away, and under it all a barely audible, almost subliminal low hum that should not be there. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-huelin-plaza",
+          "nombre": "Málaga · Huelin, la plaza y el portal de Elías",
+          "escena": "sector:huelin-plaza",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: a working-class neighbourhood square surrounded by 1970s apartment blocks: a corner bar closing late with clinking glasses and a television murmuring through the door, a scooter passing, a television through an open window, an old man coughing on a balcony, cicadas, a slow car with its engine low circling the block, footsteps in a stairwell. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-huelin-garaje",
+          "nombre": "Málaga · Huelin, el garaje de la célula",
+          "escena": "sector:huelin-garaje",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: an industrial strip of warehouses and workshops beside the Carretera de Cádiz: trucks passing on the main road, the hum of sodium streetlights, a corrugated metal roller door rattling in the wind, a chain clinking on a fence, dripping from a rusty gutter, a stray dog, the long empty echo of a closed garage. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-martiricos-laboratorio",
+          "nombre": "Málaga · Martiricos, el laboratorio satélite",
+          "escena": "sector:martiricos-laboratorio",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: a quiet office park next to the Guadalmedina riverbed: air-conditioning units humming on rooftops, automatic sprinklers hissing over a lawn, the buzz of a keycard reader and a glass door sighing shut, a distant motorway, frogs and crickets in the dry river, a security guard's radio crackling far away with no words. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-perchel-estacion",
+          "nombre": "Málaga · El Perchel, la estación y el hostal",
+          "escena": "sector:perchel-estacion",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: the area in front of María Zambrano railway station late at night: taxis idling in a rank, a wheeled suitcase rattling over paving, distant station announcement chimes with no words, a last train braking, a neon sign of a cheap hostel buzzing, a payphone shop's door chime, a street sweeper truck passing slowly. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-alameda-farmacia",
+          "nombre": "Málaga · La Alameda, la farmacia de guardia",
+          "escena": "sector:alameda-farmacia",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: the Alameda Principal boulevard at four in the morning: wind through big old ficus trees, the electronic hum of an all-night pharmacy's sliding door, drunk distant laughter and a bottle rolling, a police car idling with the radio low, a night bus hissing at a stop, a horse-carriage clopping far away. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-comisaria",
+          "nombre": "Málaga · La comisaría provincial",
+          "escena": "sector:comisaria",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: a square outside a provincial police headquarters at night: patrol car engines starting and doors slamming, a barrier gate motor, the murmur of a bar across the square with a coffee machine hissing, a flag rope clanking on a pole, distant sirens rising and falling, fluorescent buzz from the entrance. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-muelle-uno",
+          "nombre": "Málaga · El puerto, Muelle Uno",
+          "escena": "sector:muelle-uno",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: the harbour promenade at night: water lapping against the quay, mooring ropes creaking, halyards clinking on yacht masts, a ship's low horn far out, container cranes groaning in the distant cargo port, gulls, the hollow thud of a pontoon, a fish market's shutter closed and ticking. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-malagueta",
+          "nombre": "Málaga · La Malagueta de noche",
+          "escena": "sector:malagueta",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: the dark city beach after midnight: slow waves breaking on the sand and pebbles, wind in palm trees, beach bar umbrellas flapping and chairs stacked and chained, a lonely streetlight humming on the promenade, a distant moped, and once in a while something heavy moving in the water that is not a wave. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "manzana-cementerio-ingles",
+          "nombre": "Málaga · El Cementerio Inglés",
+          "escena": "sector:cementerio-ingles",
+          "volumen": 0.35,
+          "prompt": "Nocturnal field-recording ambient soundscape for a tabletop RPG scene set in Málaga, Spain: an old 19th-century English cemetery on a hillside at night: wind through tall cypress trees, an iron gate creaking on its hinges, dry leaves scraping over gravel paths and gravestones, an owl, the city murmuring far below, a small chapel bell moving slightly in the wind without ringing fully. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        }
+      ]
     }
   ]
 }

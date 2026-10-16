@@ -1406,7 +1406,9 @@ function construirSectores() {
         hidden: !!v.oculto, disposition: 0, flags: { [MODULO]: { origen: "token", sector: sec.id, vehiculo: v.id, nombreBase: v.nombre, pasajeros: [] } } });
     });
 
-    const ambiente = ambienteDe("malaga");
+    // Cada manzana tiene su ambiente (`"escena": "sector:<id>"` en musica.json); si no, la noche de Málaga.
+    const propio = ambienteDe(`sector:${sec.id}`);
+    const ambiente = propio.playlist ? propio : ambienteDe("malaga");
     escribirDoc("escenas", conClaves({
       _id: sid, _key: `!scenes!${sid}`, name: `Málaga · ${sec.nombre}`, folder: carpetas.id("Málaga · sectores"),
       navigation: false, navOrder: 200 + (sec.orden ?? 0), width: W, height: H, padding: 0,

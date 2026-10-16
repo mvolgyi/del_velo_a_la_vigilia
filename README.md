@@ -105,6 +105,11 @@ npm run musica                         # assets/music/<id>.mp3 (las propias, con
 npm run contenido                      # lista de reproducción + ambiente enlazado a cada escena
 ```
 
+Cada pista nueva que se repite sale ya en bucle: `tools/bucle.mjs` corta la intro y el fundido
+que Lyria agrega, ajusta el largo a compases enteros y funde la cola sobre la cabeza. Las
+manzanas de Málaga buscan su pista con `"escena": "sector:<id>"`; si no tienen, suena la noche
+de Málaga. Para rehacer el bucle de un archivo a mano: `node tools/bucle.mjs assets/music/<id>.mp3`.
+
 ### Tiles de muebles móviles
 
 Sillas, sofás, mesas, carros, palets y tubos no se pintan en el mapa: van como tiles que el

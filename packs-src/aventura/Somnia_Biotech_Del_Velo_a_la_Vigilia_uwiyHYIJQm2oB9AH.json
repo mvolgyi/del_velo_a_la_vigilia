@@ -4,7 +4,7 @@
   "name": "Somnia Biotech — Del Velo a la Vigilia",
   "img": "modules/del-velo-a-la-vigilia/assets/mapas/somnia-planta-nueva.webp",
   "caption": "<p>La crónica completa, lista para dirigir.</p>",
-  "description": "<p>Importa al mundo <strong>18 escenas</strong>, <strong>19 actores</strong> (PNJs y plantillas de cazador), <strong>22 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 1 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
+  "description": "<p>Importa al mundo <strong>18 escenas</strong>, <strong>19 actores</strong> (PNJs y plantillas de cazador), <strong>22 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 2 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
   "actors": [
     {
       "_id": "kWQNBnBz3V9gvlnP",
@@ -15122,8 +15122,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "Cd7odUKh0ToAi6JV",
       "grid": {
         "type": 1,
         "size": 50,
@@ -17013,8 +17013,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "MGtpmRZ5ynHU1FOu",
       "grid": {
         "type": 1,
         "size": 50,
@@ -18144,8 +18144,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "FF022xF8wznFgSm4",
       "grid": {
         "type": 1,
         "size": 50,
@@ -18765,8 +18765,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "wiFB4kionQIzkwpX",
       "grid": {
         "type": 1,
         "size": 50,
@@ -19331,8 +19331,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "jz6as9nXzCw6eRCh",
       "grid": {
         "type": 1,
         "size": 50,
@@ -23306,8 +23306,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "6zsvJhthX6POqrYl",
       "grid": {
         "type": 1,
         "size": 50,
@@ -24068,8 +24068,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "kUnoWvn2x4YQNevp",
       "grid": {
         "type": 1,
         "size": 50,
@@ -27016,8 +27016,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "EPFOsEqgJv50zHw9",
       "grid": {
         "type": 1,
         "size": 50,
@@ -28193,8 +28193,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "SsCrreUVJhcsrJyT",
       "grid": {
         "type": 1,
         "size": 50,
@@ -28717,8 +28717,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "GeY9WCAZLLoqZjD0",
       "grid": {
         "type": 1,
         "size": 50,
@@ -31335,8 +31335,8 @@
       "width": 4000,
       "height": 3000,
       "padding": 0,
-      "playlist": "RREVIAminsF37jT3",
-      "playlistSound": "gni4ryurkIQsdYTN",
+      "playlist": "snnFlU2hqHvbR946",
+      "playlistSound": "SabfcP7Y04b8Lzcr",
       "grid": {
         "type": 1,
         "size": 50,
@@ -33474,6 +33474,266 @@
     }
   ],
   "playlists": [
+    {
+      "_id": "snnFlU2hqHvbR946",
+      "name": "Málaga — Las manzanas",
+      "description": "",
+      "sounds": [
+        {
+          "_id": "Cd7odUKh0ToAi6JV",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.Cd7odUKh0ToAi6JV",
+          "name": "Málaga · Carretería, la fachada de Somnia",
+          "description": "Ambiente de la escena sector:somnia-carreteria",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-somnia-carreteria.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-somnia-carreteria",
+              "escena": "sector:somnia-carreteria"
+            }
+          }
+        },
+        {
+          "_id": "jz6as9nXzCw6eRCh",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.jz6as9nXzCw6eRCh",
+          "name": "Málaga · Gaona, el convento desconsagrado",
+          "description": "Ambiente de la escena sector:convento-gaona",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-convento-gaona.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 1000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-convento-gaona",
+              "escena": "sector:convento-gaona"
+            }
+          }
+        },
+        {
+          "_id": "kUnoWvn2x4YQNevp",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.kUnoWvn2x4YQNevp",
+          "name": "Málaga · Huelin, la plaza y el portal de Elías",
+          "description": "Ambiente de la escena sector:huelin-plaza",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-huelin-plaza.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 2000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-huelin-plaza",
+              "escena": "sector:huelin-plaza"
+            }
+          }
+        },
+        {
+          "_id": "6zsvJhthX6POqrYl",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.6zsvJhthX6POqrYl",
+          "name": "Málaga · Huelin, el garaje de la célula",
+          "description": "Ambiente de la escena sector:huelin-garaje",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-huelin-garaje.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 3000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-huelin-garaje",
+              "escena": "sector:huelin-garaje"
+            }
+          }
+        },
+        {
+          "_id": "SabfcP7Y04b8Lzcr",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.SabfcP7Y04b8Lzcr",
+          "name": "Málaga · Martiricos, el laboratorio satélite",
+          "description": "Ambiente de la escena sector:martiricos-laboratorio",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-martiricos-laboratorio.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 4000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-martiricos-laboratorio",
+              "escena": "sector:martiricos-laboratorio"
+            }
+          }
+        },
+        {
+          "_id": "FF022xF8wznFgSm4",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.FF022xF8wznFgSm4",
+          "name": "Málaga · El Perchel, la estación y el hostal",
+          "description": "Ambiente de la escena sector:perchel-estacion",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-perchel-estacion.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 5000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-perchel-estacion",
+              "escena": "sector:perchel-estacion"
+            }
+          }
+        },
+        {
+          "_id": "EPFOsEqgJv50zHw9",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.EPFOsEqgJv50zHw9",
+          "name": "Málaga · La Alameda, la farmacia de guardia",
+          "description": "Ambiente de la escena sector:alameda-farmacia",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-alameda-farmacia.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 6000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-alameda-farmacia",
+              "escena": "sector:alameda-farmacia"
+            }
+          }
+        },
+        {
+          "_id": "GeY9WCAZLLoqZjD0",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.GeY9WCAZLLoqZjD0",
+          "name": "Málaga · La comisaría provincial",
+          "description": "Ambiente de la escena sector:comisaria",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-comisaria.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 7000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-comisaria",
+              "escena": "sector:comisaria"
+            }
+          }
+        },
+        {
+          "_id": "wiFB4kionQIzkwpX",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.wiFB4kionQIzkwpX",
+          "name": "Málaga · El puerto, Muelle Uno",
+          "description": "Ambiente de la escena sector:muelle-uno",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-muelle-uno.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 8000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-muelle-uno",
+              "escena": "sector:muelle-uno"
+            }
+          }
+        },
+        {
+          "_id": "SsCrreUVJhcsrJyT",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.SsCrreUVJhcsrJyT",
+          "name": "Málaga · La Malagueta de noche",
+          "description": "Ambiente de la escena sector:malagueta",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-malagueta.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 9000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-malagueta",
+              "escena": "sector:malagueta"
+            }
+          }
+        },
+        {
+          "_id": "MGtpmRZ5ynHU1FOu",
+          "_key": "!playlists.sounds!snnFlU2hqHvbR946.MGtpmRZ5ynHU1FOu",
+          "name": "Málaga · El Cementerio Inglés",
+          "description": "Ambiente de la escena sector:cementerio-ingles",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/manzana-cementerio-ingles.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 10000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "manzana-cementerio-ingles",
+              "escena": "sector:cementerio-ingles"
+            }
+          }
+        }
+      ],
+      "channel": "music",
+      "mode": -1,
+      "playing": false,
+      "fade": 2000,
+      "folder": "bcRYBghBjS8J592E",
+      "sorting": "m",
+      "seed": 0,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "playlist",
+          "lista": "manzanas"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
     {
       "_id": "RREVIAminsF37jT3",
       "name": "Somnia Biotech — Ambientes",

@@ -271,11 +271,11 @@ El Foundry local (v14.365) no tiene wod5e instalado. Para probar:
 | 7 | Sectores caminables: 11 manzanas a 1 m = 50 px desde OSM, repintadas, con muros, farolas y teletransporte ciudad ↔ sector ↔ interior | ✓ hecho en 0.3.0 |
 | 8 | Vehículos: siete coches con token cenital, subir/bajar desde el HUD, pasajeros que viajan con el coche, reglas de conducción y persecución | ✓ hecho en 0.4.0 |
 | 9 | Portada y pulido de mesa: escena de portada (el corcho de Elías) activa al importar, pines solo para el Narrador, orientación y visión de tokens, carpetas legibles, música de portada en loop | ✓ hecho en 0.4.1–0.4.7 |
+| 10 | Muebles móviles como tiles (24 en las cinco escenas interiores, rotados y desbloqueados) y un ambiente propio para cada una de las 11 manzanas de Málaga, con bucle automático de las pistas generadas | ✓ hecho en 0.4.8 |
 
-Prueba end-to-end: `npm run e2e` (ver README).
+Prueba end-to-end: `npm run e2e` (ver README); pasó completa el 2026-10-16 sobre 0.4.7.
 
-Pendiente de mesa: tiles de muebles móviles (listados en la nota de cada escena) y ambiente
-propio para los sectores de Málaga.
+Sin pendientes de mesa.
 
 Las cuatro plantillas de cazador quedan **sin retrato a propósito**: cada jugador sube el suyo.
 
