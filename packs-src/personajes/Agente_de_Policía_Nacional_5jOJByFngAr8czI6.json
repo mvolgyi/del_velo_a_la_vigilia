@@ -1,0 +1,98 @@
+{
+  "_id": "5jOJByFngAr8czI6",
+  "_key": "!actors!5jOJByFngAr8czI6",
+  "name": "Agente de Policía Nacional",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/retratos/agente-policia.webp",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Agente de Policía Nacional",
+    "actorLink": false,
+    "disposition": 0,
+    "lockRotation": true,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Agente de uniforme de la comisaría provincial"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 4
+      },
+      "social": {
+        "value": 3
+      },
+      "mental": {
+        "value": 3
+      }
+    },
+    "exceptionaldicepools": {
+      "firearms": {
+        "value": 5,
+        "active": true
+      },
+      "brawl": {
+        "value": 5,
+        "active": true
+      },
+      "awareness": {
+        "value": 5,
+        "active": true
+      },
+      "athletics": {
+        "value": 4,
+        "active": true
+      },
+      "intimidation": {
+        "value": 4,
+        "active": true
+      }
+    },
+    "health": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 4,
+      "value": 4,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 2,
+      "strongest": 3
+    },
+    "description": "<p>Policía de turno de noche: control de acceso, atención al público, ingreso de detenidos o sala de guardia. Hace su trabajo y no sabe nada de Somnia.</p>",
+    "biography": "<h3>Debilidades</h3><ul><li>Mortal.</li><li>No es enemigo: pelear con él es convertir a la célula en fugitivos (+1 Peligro y una orden de busca).</li></ul>",
+    "privatenotes": "<p>Usalo para cualquier agente de la comisaría o de un patrullero. Armado con pistola reglamentaria, defensa y grilletes.</p><p><em>Cifras:</em> sugeridas, mortales entrenados.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "agente-policia"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

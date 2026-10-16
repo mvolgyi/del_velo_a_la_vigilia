@@ -71,7 +71,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<section class=\"dvv-leer\"><p>Un arco detector, una cinta de rayos X y un agente detrás de una mesa con un monitor. Junto a la cinta, una bandeja de plástico con llaves, monedas y un cinturón que nadie vino a buscar.</p>\n</section><p><strong>Qué hay.</strong> El arco pita con cualquier arma, incluidos los cuchillos y las herramientas del Limpiador. La puerta de seguridad hacia el pasillo de servicio se abre con tarjeta desde la mesa.</p>\n<p><strong>Qué pasa.</strong> Entrar armado y que pite es una noche en el calabozo y +1 Peligro. Pasar algo chico sin que lo vean: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>. Convencer al agente de que los deje pasar a &quot;hablar con Gálvez&quot;: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.persuasion\" data-dificultad=\"3\" data-label=\"Carisma + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Persuasión (dif. 3)</a>.</p>\n"
+        "content": "<section class=\"dvv-leer\"><p>Un arco detector, una cinta de rayos X y un agente detrás de una mesa con un monitor. Junto a la cinta, una bandeja de plástico con llaves, monedas y un cinturón que nadie vino a buscar.</p>\n</section><p><strong>Qué hay.</strong> El arco pita con cualquier arma, incluidos los cuchillos y las herramientas del Limpiador. La puerta de seguridad hacia el pasillo de servicio se abre con tarjeta desde la mesa.</p>\n<p><strong>Qué pasa.</strong> Entrar armado y que pite es una noche en el calabozo y +1 Peligro. Pasar algo chico sin que lo vean: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>. Convencer al agente de que los deje pasar a &quot;hablar con Gálvez&quot;: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.persuasion\" data-dificultad=\"3\" data-label=\"Carisma + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Persuasión (dif. 3)</a>.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional}</p>"
       },
       "sort": 200000,
       "ownership": {
@@ -97,7 +97,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<section class=\"dvv-leer\"><p>Un mostrador largo detrás de mamparas de vidrio, un dispensador de turnos que marca el 47 y filas de sillas de plástico. Un agente toma una denuncia a dos dedos en un teclado viejo.</p>\n</section><p><strong>Qué hay.</strong> Donde se ponen las denuncias. Denunciar a Somnia no sirve de nada: el papel termina en el despacho de Gálvez (G5) a la mañana siguiente. La puerta de personal del fondo da al pasillo de servicio; está trabada.</p>\n<p><strong>Para el Narrador.</strong> Si un PJ denuncia algo con su nombre real, +1 Peligro: Somnia se entera esa misma noche.</p>\n"
+        "content": "<section class=\"dvv-leer\"><p>Un mostrador largo detrás de mamparas de vidrio, un dispensador de turnos que marca el 47 y filas de sillas de plástico. Un agente toma una denuncia a dos dedos en un teclado viejo.</p>\n</section><p><strong>Qué hay.</strong> Donde se ponen las denuncias. Denunciar a Somnia no sirve de nada: el papel termina en el despacho de Gálvez (G5) a la mañana siguiente. La puerta de personal del fondo da al pasillo de servicio; está trabada.</p>\n<p><strong>Para el Narrador.</strong> Si un PJ denuncia algo con su nombre real, +1 Peligro: Somnia se entera esa misma noche.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional}</p>"
       },
       "sort": 300000,
       "ownership": {
@@ -123,7 +123,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<section class=\"dvv-leer\"><p>Escritorios llenos de carpetas, una pizarra con fotos de casos unidas con flechas de rotulador y un archivador abierto. A esta hora, una sola agente teclea con auriculares puestos.</p>\n</section><p><strong>Qué hay.</strong> En la pizarra, entre robos y un caso de tráfico, una foto del muelle de carga de Somnia la noche del apagón: alguien de aquí estuvo mirando. En el archivador, un expediente de hace nueve años con el nombre de @UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca}, archivado &quot;por falta de pruebas&quot;.</p>\n<p><strong>Qué pasa.</strong> Leer el expediente sin que la agente lo note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a> y <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a>.</p>\n"
+        "content": "<section class=\"dvv-leer\"><p>Escritorios llenos de carpetas, una pizarra con fotos de casos unidas con flechas de rotulador y un archivador abierto. A esta hora, una sola agente teclea con auriculares puestos.</p>\n</section><p><strong>Qué hay.</strong> En la pizarra, entre robos y un caso de tráfico, una foto del muelle de carga de Somnia la noche del apagón: alguien de aquí estuvo mirando. En el archivador, un expediente de hace nueve años con el nombre de @UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca}, archivado &quot;por falta de pruebas&quot;.</p>\n<p><strong>Qué pasa.</strong> Leer el expediente sin que la agente lo note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a> y <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a>.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional}</p>"
       },
       "sort": 400000,
       "ownership": {
@@ -149,7 +149,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<section class=\"dvv-leer\"><p>Un despacho con persianas a medio bajar, un cenicero lleno aunque está prohibido fumar y una foto enmarcada de un hombre de bigote con un pez enorme. En la bandeja de entrada, un sobre sin remitente.</p>\n</section><p><strong>Qué hay.</strong> El subinspector Gálvez cobra de Somnia. El sobre tiene dinero en efectivo y una tarjeta de la clínica con un número escrito a mano. En el cajón, una lista de matrículas: una es la del Seat de la célula.</p>\n<p><strong>Qué pasa.</strong> Encontrar el sobre y la lista: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a>. Con la prueba, Gálvez se vuelve un problema que la célula puede presionar, o una amenaza que sabe de ellos. La puerta lateral da a la sala de observación (G6).</p>\n"
+        "content": "<section class=\"dvv-leer\"><p>Un despacho con persianas a medio bajar, un cenicero lleno aunque está prohibido fumar y una foto enmarcada de un hombre de bigote con un pez enorme. En la bandeja de entrada, un sobre sin remitente.</p>\n</section><p><strong>Qué hay.</strong> El @UUID[Actor.McivGNzuW5ztXdJP]{subinspector Gálvez} cobra de Somnia (token oculto: a las once está fumando en la plaza; revelalo si vuelve). El sobre tiene dinero en efectivo y una tarjeta de la clínica con un número escrito a mano. En el cajón, una lista de matrículas: una es la del Seat de la célula.</p>\n<p><strong>Qué pasa.</strong> Encontrar el sobre y la lista: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a>. Con la prueba, Gálvez se vuelve un problema que la célula puede presionar, o una amenaza que sabe de ellos. La puerta lateral da a la sala de observación (G6).</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.McivGNzuW5ztXdJP]{Subinspector Gálvez} (oculto)</p>"
       },
       "sort": 500000,
       "ownership": {
@@ -253,7 +253,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<section class=\"dvv-leer\"><p>Una consola larga con una pared de monitores en blanco y negro, una radio que habla sola y dos sillas giratorias. Un vaso de café se enfría junto al teclado.</p>\n</section><p><strong>Qué hay.</strong> Las cámaras de toda la comisaría y de la plaza. La grabación de la noche se guarda aquí 72 horas.</p>\n<p><strong>Qué pasa.</strong> Borrar o copiar una grabación: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>. Con éxito, desaparece la prueba de que un PJ estuvo aquí.</p>\n"
+        "content": "<section class=\"dvv-leer\"><p>Una consola larga con una pared de monitores en blanco y negro, una radio que habla sola y dos sillas giratorias. Un vaso de café se enfría junto al teclado.</p>\n</section><p><strong>Qué hay.</strong> Las cámaras de toda la comisaría y de la plaza. La grabación de la noche se guarda aquí 72 horas.</p>\n<p><strong>Qué pasa.</strong> Borrar o copiar una grabación: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>. Con éxito, desaparece la prueba de que un PJ estuvo aquí.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional} ×2</p>"
       },
       "sort": 900000,
       "ownership": {
@@ -305,7 +305,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<section class=\"dvv-leer\"><p>Un mostrador alto, un escáner de huellas y una regla pintada en la pared para las fotos. En un banco de acero, las argollas para esposar a quien espera su turno.</p>\n</section><p><strong>Qué pasa.</strong> Todo detenido pasa por aquí: huellas, foto y efectos personales en una bolsa. Si un PJ tiene en los bolsillos algo de Somnia, alguien lo anota.</p>\n"
+        "content": "<section class=\"dvv-leer\"><p>Un mostrador alto, un escáner de huellas y una regla pintada en la pared para las fotos. En un banco de acero, las argollas para esposar a quien espera su turno.</p>\n</section><p><strong>Qué pasa.</strong> Todo detenido pasa por aquí: huellas, foto y efectos personales en una bolsa. Si un PJ tiene en los bolsillos algo de Somnia, alguien lo anota.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional} (oculto)</p>"
       },
       "sort": 1100000,
       "ownership": {
@@ -435,7 +435,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<section class=\"dvv-leer\"><p>Un borracho duerme en el banco con un zapato puesto. Ronca.</p>\n</section><p><strong>Qué hay.</strong> El calabozo de las noches normales. Si un PJ termina detenido, va aquí, con su compañero de celda roncando. Despierta a las cinco y habla mucho.</p>\n"
+        "content": "<section class=\"dvv-leer\"><p>Un borracho duerme en el banco con un zapato puesto. Ronca.</p>\n</section><p><strong>Quién.</strong> @UUID[Actor.k03cIu4xEAM2rmeT]{Paco}, detenido por romper un escaparate en Larios.</p>\n<p><strong>Qué hay.</strong> El calabozo de las noches normales. Si un PJ termina detenido, va aquí, con su compañero de celda roncando. Despierta a las cinco y habla mucho.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.k03cIu4xEAM2rmeT]{Detenido (borracho)}</p>"
       },
       "sort": 1600000,
       "ownership": {

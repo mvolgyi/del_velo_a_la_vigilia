@@ -63,6 +63,20 @@
           "prompt": "Nocturnal urban ambient soundscape for a tabletop RPG set in Málaga, Spain, after midnight: wet streets after rain, distant traffic on an avenue, a scooter passing, sodium streetlights buzzing, seagulls far away, a bar closing its metal shutter, a church bell striking once, footsteps echoing in a narrow street, a car idling nearby with the engine running. Uneasy, watched. No melody, no drums, no voices, instrumental, seamless loopable, about 2 minutes."
         },
         {
+          "id": "laboratorio-satelite",
+          "nombre": "Martiricos · La torre y el laboratorio",
+          "escena": "laboratorio-satelite",
+          "volumen": 0.35,
+          "prompt": "Cold clinical night ambience for a tabletop RPG infiltration scene in a secret biotech laboratory on an office tower floor: humming lab fridges and a freezer compressor cycling, the whir of a centrifuge slowing down, server fans in a nearby room, a fume hood blowing, the faint beep of a keycard reader, distant elevator machinery in the shaft, rain against tall windows, and a slow, sinister low synth pulse underneath like a held breath. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
+          "id": "comisaria-interior",
+          "nombre": "Málaga · La comisaría por dentro",
+          "escena": "comisaria-interior",
+          "volumen": 0.35,
+          "prompt": "Institutional night ambience for a tabletop RPG scene inside a Spanish provincial police station after midnight: the steady buzz of fluorescent tubes, a police radio murmuring indistinct static bursts, a printer feeding paper, distant keyboard typing, a coffee vending machine humming, a heavy steel cell door slamming far down a corridor, keys jangling, an air vent rattling, and under it a low, tense, uneasy drone. No melody, no drums, no voices or speech, instrumental, steady level from start to end, no fade-in or fade-out, seamlessly loopable, about 2 minutes."
+        },
+        {
           "id": "persecucion",
           "nombre": "Acto 1 · La huida por los pasillos",
           "volumen": 0.5,

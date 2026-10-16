@@ -173,6 +173,48 @@
       }
     },
     {
+      "_id": "CIDVfOPZiyGFfkY1",
+      "_key": "!playlists.sounds!RREVIAminsF37jT3.CIDVfOPZiyGFfkY1",
+      "name": "Martiricos · La torre y el laboratorio",
+      "description": "Ambiente de la escena laboratorio-satelite",
+      "path": "modules/del-velo-a-la-vigilia/assets/music/laboratorio-satelite.mp3",
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.35,
+      "fade": 2000,
+      "sort": 8000,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pista",
+          "pista": "laboratorio-satelite",
+          "escena": "laboratorio-satelite"
+        }
+      }
+    },
+    {
+      "_id": "QLvOsJ45CKgoQEDi",
+      "_key": "!playlists.sounds!RREVIAminsF37jT3.QLvOsJ45CKgoQEDi",
+      "name": "Málaga · La comisaría por dentro",
+      "description": "Ambiente de la escena comisaria-interior",
+      "path": "modules/del-velo-a-la-vigilia/assets/music/comisaria-interior.mp3",
+      "channel": "",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.35,
+      "fade": 2000,
+      "sort": 9000,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pista",
+          "pista": "comisaria-interior",
+          "escena": "comisaria-interior"
+        }
+      }
+    },
+    {
       "_id": "L32JCtpbTuvLIuZF",
       "_key": "!playlists.sounds!RREVIAminsF37jT3.L32JCtpbTuvLIuZF",
       "name": "Acto 1 · La huida por los pasillos",
@@ -184,7 +226,7 @@
       "repeat": true,
       "volume": 0.5,
       "fade": 2000,
-      "sort": 8000,
+      "sort": 10000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -205,7 +247,7 @@
       "repeat": true,
       "volume": 0.5,
       "fade": 2000,
-      "sort": 9000,
+      "sort": 11000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -226,7 +268,7 @@
       "repeat": true,
       "volume": 0.45,
       "fade": 2000,
-      "sort": 10000,
+      "sort": 12000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -247,7 +289,7 @@
       "repeat": true,
       "volume": 0.4,
       "fade": 2000,
-      "sort": 11000,
+      "sort": 13000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",
@@ -268,7 +310,7 @@
       "repeat": true,
       "volume": 0.45,
       "fade": 2000,
-      "sort": 12000,
+      "sort": 14000,
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "pista",

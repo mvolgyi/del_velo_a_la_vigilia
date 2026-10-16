@@ -1,0 +1,86 @@
+{
+  "_id": "k03cIu4xEAM2rmeT",
+  "_key": "!actors!k03cIu4xEAM2rmeT",
+  "name": "Detenido (borracho)",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/retratos/detenido-borracho.webp",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Detenido (borracho)",
+    "actorLink": false,
+    "disposition": 0,
+    "lockRotation": true,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/detenido-borracho.webp"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Un detenido de una noche normal en el calabozo"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 3
+      },
+      "social": {
+        "value": 2
+      },
+      "mental": {
+        "value": 1
+      }
+    },
+    "exceptionaldicepools": {
+      "brawl": {
+        "value": 4,
+        "active": true
+      },
+      "streetwise": {
+        "value": 4,
+        "active": true
+      }
+    },
+    "health": {
+      "max": 4,
+      "value": 4,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 2,
+      "value": 2,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 1,
+      "strongest": 2
+    },
+    "description": "<p>Paco, cincuenta y tantos, detenido por romper un escaparate en calle Larios. Duerme con un zapato puesto y despierta a las cinco con ganas de hablar. Vio cosas raras en el puerto y nadie le cree.</p>",
+    "biography": "<h3>Debilidades</h3><ul><li>Mortal y borracho.</li></ul>",
+    "privatenotes": "<p><strong>Comisaría:</strong> calabozo 3 (G16). Si un PJ termina detenido, es su compañero de celda; habla del «hombre que se metió en el mar con fiebre» (la Quimera).</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "detenido-borracho"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

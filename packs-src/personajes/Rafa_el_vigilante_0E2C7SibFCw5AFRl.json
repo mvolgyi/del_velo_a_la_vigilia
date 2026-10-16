@@ -1,0 +1,90 @@
+{
+  "_id": "0E2C7SibFCw5AFRl",
+  "_key": "!actors!0E2C7SibFCw5AFRl",
+  "name": "Rafa, el vigilante",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/retratos/rafa-vigilante.webp",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Rafa, el vigilante",
+    "actorLink": false,
+    "disposition": 0,
+    "lockRotation": true,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/rafa-vigilante.webp"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Vigilante nocturno de la torre de Martiricos"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 2
+      },
+      "social": {
+        "value": 4
+      },
+      "mental": {
+        "value": 3
+      }
+    },
+    "exceptionaldicepools": {
+      "awareness": {
+        "value": 4,
+        "active": true
+      },
+      "persuasion": {
+        "value": 4,
+        "active": true
+      },
+      "technology": {
+        "value": 3,
+        "active": true
+      }
+    },
+    "health": {
+      "max": 4,
+      "value": 4,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 3,
+      "value": 3,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 2,
+      "strongest": 3
+    },
+    "description": "<p>Rafael, sesenta y un años, vigilante de una empresa de seguridad desde que cerró su taller. Hace crucigramas, escucha la radio y conoce a todos los que entran de noche. Los martes y viernes ve llegar a «la doctora» y no le gusta cómo mira el matón que la acompaña.</p>",
+    "biography": "<h3>Debilidades</h3><ul><li>Mortal, sin armas (una linterna y la radio).</li><li>Quiere jubilarse sin problemas: no se juega el puesto por nadie, pero tampoco por Somnia.</li></ul>",
+    "privatenotes": "<p><strong>Torre de Martiricos:</strong> en el vestíbulo (F1). Tratado con respeto, avisa por radio cuando Salas baja; tratado mal, llama a su central.</p><p><em>Cifras:</em> sugeridas.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "rafa-vigilante"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

@@ -6,6 +6,7 @@ intro: La escena de «Seguir a Salas» (Acto 2). Dos plantas de la misma torre j
 ---
 
 # F1. Vestíbulo {sala: Vestíbulo}
+tokens: rafa-vigilante
 
 :::leer
 Mármol claro, un ficus de plástico y una pantalla que repite el logo de una gestoría. Detrás del mostrador, un vigilante de unos sesenta años resuelve un crucigrama con la radio bajita. Entre él y los ascensores, tres tornos de cristal con lector de tarjeta, encendidos en verde.
@@ -13,7 +14,7 @@ Mármol claro, un ficus de plástico y una pantalla que repite el logo de una ge
 
 **Qué hay.** La entrada principal de la torre, con cámara sobre la puerta y otra sobre los tornos. Rafa tiene la lista de visitas de la noche: los martes y viernes aparece "Laboratorios Aldaia, planta 6", que es Somnia con otro nombre. Detrás del mostrador cuelga un tablero con tarjetas de proveedor.
 
-**Qué pasa.** Pasar por los tornos sin tarjeta: @tirada{attributes.dexterity+skills.larceny|2|Destreza + Latrocinio (dif. 2)} o una excusa a Rafa con @tirada{attributes.manipulation+skills.subterfuge|2|Manipulación + Subterfugio (dif. 2)}. Rafa no es enemigo: si lo tratan bien, avisa por radio cuando "la doctora" baja. Una tarjeta de proveedor del tablero abre la puerta de la esclusa de arriba (F5).
+**Qué pasa.** Pasar por los tornos sin tarjeta: @tirada{attributes.dexterity+skills.larceny|2|Destreza + Latrocinio (dif. 2)} o una excusa a Rafa con @tirada{attributes.manipulation+skills.subterfuge|2|Manipulación + Subterfugio (dif. 2)}. @npc{rafa-vigilante|Rafa} no es enemigo: si lo tratan bien, avisa por radio cuando "la doctora" baja. Una tarjeta de proveedor del tablero abre la puerta de la esclusa de arriba (F5).
 
 **Para el Narrador.** El ascensor y la escalera llevan a la planta 6 (regiones). Si la célula entra por la puerta de emergencia del río, Rafa no se entera de nada.
 

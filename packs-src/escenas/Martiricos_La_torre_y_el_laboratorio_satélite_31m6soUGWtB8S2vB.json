@@ -1,6 +1,6 @@
 {
-  "playlist": null,
-  "playlistSound": null,
+  "playlist": "RREVIAminsF37jT3",
+  "playlistSound": "CIDVfOPZiyGFfkY1",
   "_id": "31m6soUGWtB8S2vB",
   "_key": "!scenes!31m6soUGWtB8S2vB",
   "name": "Martiricos · La torre y el laboratorio satélite",
@@ -1093,6 +1093,48 @@
     }
   ],
   "tokens": [
+    {
+      "_id": "hZlolstwQYeTVPo7",
+      "name": "Rafa, el vigilante",
+      "displayName": 30,
+      "actorId": "0E2C7SibFCw5AFRl",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/rafa-vigilante.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 300,
+      "y": 1100,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "Zdrue0aHrFZzejlO",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": true,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "laboratorio-satelite",
+          "sala": "Vestíbulo",
+          "pnj": "rafa-vigilante"
+        }
+      },
+      "_key": "!scenes.tokens!31m6soUGWtB8S2vB.hZlolstwQYeTVPo7"
+    },
     {
       "_id": "Mf8aoMWk0BEPbTnE",
       "name": "Dra. Irene Salas",

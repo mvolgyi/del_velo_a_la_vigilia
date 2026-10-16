@@ -275,6 +275,54 @@
       "aspecto": "1:1",
       "prompt": "an empty old wooden shipping pallet, grey with age, one plank cracked, a few torn scraps of shrink-wrap film and a dirty rag on it.",
       "nota": "tile mueble móvil"
+    },
+    {
+      "id": "galvez",
+      "estilo": "retrato",
+      "prompt": "Sub-inspector Gálvez of the Spanish National Police, a tired detective in his early fifties: thinning grey hair, a heavy moustache, puffy eyes, a cheap brown suit jacket over an open-collared shirt with a loosened tie, a lit cigarette. Shrewd, compromised, uneasy expression. Behind him, out of focus, the lit windows of a police station on a wet square at night.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "galvez",
+      "estilo": "token",
+      "prompt": "a heavy-set middle-aged man in a brown suit jacket seen from above, thinning grey hair, one hand holding a cigarette, the other in his pocket, a folder under his arm.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "agente-policia",
+      "estilo": "retrato",
+      "prompt": "A uniformed officer of the Spanish National Police on the night shift: a woman in her early thirties with her hair in a tight low bun, dark navy uniform with a dark blue cap, reflective details, a radio clipped to the chest and a duty belt. Alert, neutral, professional face. Behind her, blurred, the blue strobe of a patrol car on a wet street.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "agente-policia",
+      "estilo": "token",
+      "prompt": "a police officer in a dark navy uniform and dark blue cap seen from above, a radio on the shoulder, a duty belt with holster, one hand resting on the holster.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "rafa-vigilante",
+      "estilo": "retrato",
+      "prompt": "Rafa, a night security guard of an office tower: a Spanish man of about sixty, bald on top with grey hair at the sides, reading glasses on his nose, a grey security-company uniform shirt with a plain dark tie and an anonymous patch with no lettering, a pen behind the ear. Kind, tired, wary eyes. Behind him, blurred, a marble lobby with glass turnstiles glowing green.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "rafa-vigilante",
+      "estilo": "token",
+      "prompt": "an older security guard photographed from directly above the top of his head: we see only his bald crown with a ring of grey hair, his shoulders in a grey uniform shirt and his forearms, one hand holding a torch, the other a folded newspaper. His face is NOT visible. Strictly top-down, like a ceiling camera.",
+      "nota": "token cenital PNJ"
+    },
+    {
+      "id": "detenido-borracho",
+      "estilo": "retrato",
+      "prompt": "A drunk man in his fifties held overnight in a police cell: unshaven, red nose, bloodshot half-closed eyes, thinning greasy hair, a stained old jacket over a football shirt with no logos. Bleary, sad, rambling expression. Behind him, blurred, the grey concrete wall of a holding cell lit by a buzzing tube.",
+      "nota": "retrato PNJ"
+    },
+    {
+      "id": "detenido-borracho",
+      "estilo": "token",
+      "prompt": "a dishevelled man in a stained old jacket lying curled on his side seen from above, one shoe missing, one arm under his head.",
+      "nota": "token cenital PNJ"
     }
   ]
 }

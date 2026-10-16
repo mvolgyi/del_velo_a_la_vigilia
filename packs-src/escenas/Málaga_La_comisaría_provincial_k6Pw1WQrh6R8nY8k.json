@@ -864,6 +864,88 @@
   ],
   "tokens": [
     {
+      "_id": "eqlMhgHc8diDclrJ",
+      "name": "Agente de Policía Nacional",
+      "displayName": 30,
+      "actorId": "5jOJByFngAr8czI6",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 150,
+      "y": 1550,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "9BSUPpQY7U4bPr9l",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": true,
+      "locked": false,
+      "sort": 0,
+      "hidden": false,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "comisaria",
+          "pnj": "agente-policia"
+        }
+      },
+      "_key": "!scenes.tokens!k6Pw1WQrh6R8nY8k.eqlMhgHc8diDclrJ"
+    },
+    {
+      "_id": "hd0bSWTYmVPvqgRR",
+      "name": "Subinspector Gálvez",
+      "displayName": 30,
+      "actorId": "McivGNzuW5ztXdJP",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/galvez.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 250,
+      "y": 1550,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "9BSUPpQY7U4bPr9l",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": true,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "sector": "comisaria",
+          "pnj": "galvez"
+        }
+      },
+      "_key": "!scenes.tokens!k6Pw1WQrh6R8nY8k.hd0bSWTYmVPvqgRR"
+    },
+    {
       "_id": "9TeyjYps65yUZTkY",
       "name": "Patrulla de la Policía Nacional",
       "displayName": 30,

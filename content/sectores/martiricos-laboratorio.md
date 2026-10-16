@@ -13,7 +13,7 @@ La torre de oficinas es un bloque de cristal con la mitad de las plantas a oscur
 
 **Qué hay.** La entrada de la torre (recepción, tornos con tarjeta), la rampa del garaje con barrera y la puerta de emergencia de atrás, que da al paseo del río. Cámaras sobre la puerta y la rampa, ninguna hacia el río: @tirada{attributes.intelligence+skills.technology|2|Inteligencia + Tecnología (dif. 2)} para leer el sistema. El aparcamiento en batería de la avenida y la barandilla del cauce sirven para esperar a cubierto.
 
-**Quién anda.** De noche, Rafa, el vigilante de los crucigramas, y los martes y viernes la @npc{dra-salas|Dra. Salas}, que llega a las once con un @npc{maton-somnia|matón} al volante; él la espera en el garaje con la radio puesta. De madrugada, corredores por el río y algún repartidor. De día, oficinistas, alumnos de la academia de inglés y mucho tráfico.
+**Quién anda.** De noche, @npc{rafa-vigilante|Rafa}, el vigilante de los crucigramas, y los martes y viernes la @npc{dra-salas|Dra. Salas}, que llega a las once con un @npc{maton-somnia|matón} al volante; él la espera en el garaje con la radio puesta. De madrugada, corredores por el río y algún repartidor. De día, oficinistas, alumnos de la academia de inglés y mucho tráfico.
 
 **Qué pasa.** La infiltración del Acto 2 empieza acá. Seguir el auto negro sin que los note: @tirada{attributes.wits+skills.drive|2|Astucia + Conducir (dif. 2)}. Colarse por la puerta del río: @tirada{attributes.dexterity+skills.stealth|3|Destreza + Sigilo (dif. 3)}. Distraer al matón del garaje: @tirada{attributes.manipulation+skills.subterfuge|2|Manipulación + Subterfugio (dif. 2)}. Un fallo total: +1 Peligro y @npc{marcos} visita el piso de Elías esa noche.
 

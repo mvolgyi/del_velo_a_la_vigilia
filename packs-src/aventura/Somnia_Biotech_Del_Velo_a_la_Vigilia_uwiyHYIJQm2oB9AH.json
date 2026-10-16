@@ -4,8 +4,190 @@
   "name": "Somnia Biotech — Del Velo a la Vigilia",
   "img": "modules/del-velo-a-la-vigilia/assets/mapas/somnia-planta-nueva.webp",
   "caption": "<p>La crónica completa, lista para dirigir.</p>",
-  "description": "<p>Importa al mundo <strong>20 escenas</strong>, <strong>19 actores</strong> (PNJs y plantillas de cazador), <strong>24 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 2 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
+  "description": "<p>Importa al mundo <strong>20 escenas</strong>, <strong>23 actores</strong> (PNJs y plantillas de cazador), <strong>24 journals</strong> (crónica y reglas caseras), <strong>9 macros</strong> y 2 lista(s) de música y ambientes, con sus carpetas.</p><p>Los poderes de los tres caminos, los estados y el Arsenal quedan en sus compendios: se usan desde ahí (o desde el panel del Narrador).</p><p>Reimportar actualiza los documentos existentes sin duplicarlos.</p>",
   "actors": [
+    {
+      "_id": "5jOJByFngAr8czI6",
+      "name": "Agente de Policía Nacional",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/agente-policia.webp",
+      "folder": "cQiS68CRfa7a3enP",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Agente de Policía Nacional",
+        "actorLink": false,
+        "disposition": 0,
+        "lockRotation": true,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp"
+        }
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Agente de uniforme de la comisaría provincial"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 4
+          },
+          "social": {
+            "value": 3
+          },
+          "mental": {
+            "value": 3
+          }
+        },
+        "exceptionaldicepools": {
+          "firearms": {
+            "value": 5,
+            "active": true
+          },
+          "brawl": {
+            "value": 5,
+            "active": true
+          },
+          "awareness": {
+            "value": 5,
+            "active": true
+          },
+          "athletics": {
+            "value": 4,
+            "active": true
+          },
+          "intimidation": {
+            "value": 4,
+            "active": true
+          }
+        },
+        "health": {
+          "max": 5,
+          "value": 5,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 4,
+          "value": 4,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 2,
+          "strongest": 3
+        },
+        "description": "<p>Policía de turno de noche: control de acceso, atención al público, ingreso de detenidos o sala de guardia. Hace su trabajo y no sabe nada de Somnia.</p>",
+        "biography": "<h3>Debilidades</h3><ul><li>Mortal.</li><li>No es enemigo: pelear con él es convertir a la célula en fugitivos (+1 Peligro y una orden de busca).</li></ul>",
+        "privatenotes": "<p>Usalo para cualquier agente de la comisaría o de un patrullero. Armado con pistola reglamentaria, defensa y grilletes.</p><p><em>Cifras:</em> sugeridas, mortales entrenados.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pnj",
+          "pnj": "agente-policia"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "k03cIu4xEAM2rmeT",
+      "name": "Detenido (borracho)",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/detenido-borracho.webp",
+      "folder": "cQiS68CRfa7a3enP",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Detenido (borracho)",
+        "actorLink": false,
+        "disposition": 0,
+        "lockRotation": true,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/detenido-borracho.webp"
+        }
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Un detenido de una noche normal en el calabozo"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 3
+          },
+          "social": {
+            "value": 2
+          },
+          "mental": {
+            "value": 1
+          }
+        },
+        "exceptionaldicepools": {
+          "brawl": {
+            "value": 4,
+            "active": true
+          },
+          "streetwise": {
+            "value": 4,
+            "active": true
+          }
+        },
+        "health": {
+          "max": 4,
+          "value": 4,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 2,
+          "value": 2,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 1,
+          "strongest": 2
+        },
+        "description": "<p>Paco, cincuenta y tantos, detenido por romper un escaparate en calle Larios. Duerme con un zapato puesto y despierta a las cinco con ganas de hablar. Vio cosas raras en el puerto y nadie le cree.</p>",
+        "biography": "<h3>Debilidades</h3><ul><li>Mortal y borracho.</li></ul>",
+        "privatenotes": "<p><strong>Comisaría:</strong> calabozo 3 (G16). Si un PJ termina detenido, es su compañero de celda; habla del «hombre que se metió en el mar con fiebre» (la Quimera).</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pnj",
+          "pnj": "detenido-borracho"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
     {
       "_id": "kWQNBnBz3V9gvlnP",
       "name": "Dra. Irene Salas",
@@ -2806,6 +2988,95 @@
       }
     },
     {
+      "_id": "0E2C7SibFCw5AFRl",
+      "name": "Rafa, el vigilante",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/rafa-vigilante.webp",
+      "folder": "cQiS68CRfa7a3enP",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Rafa, el vigilante",
+        "actorLink": false,
+        "disposition": 0,
+        "lockRotation": true,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/rafa-vigilante.webp"
+        }
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Vigilante nocturno de la torre de Martiricos"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 2
+          },
+          "social": {
+            "value": 4
+          },
+          "mental": {
+            "value": 3
+          }
+        },
+        "exceptionaldicepools": {
+          "awareness": {
+            "value": 4,
+            "active": true
+          },
+          "persuasion": {
+            "value": 4,
+            "active": true
+          },
+          "technology": {
+            "value": 3,
+            "active": true
+          }
+        },
+        "health": {
+          "max": 4,
+          "value": 4,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 3,
+          "value": 3,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 2,
+          "strongest": 3
+        },
+        "description": "<p>Rafael, sesenta y un años, vigilante de una empresa de seguridad desde que cerró su taller. Hace crucigramas, escucha la radio y conoce a todos los que entran de noche. Los martes y viernes ve llegar a «la doctora» y no le gusta cómo mira el matón que la acompaña.</p>",
+        "biography": "<h3>Debilidades</h3><ul><li>Mortal, sin armas (una linterna y la radio).</li><li>Quiere jubilarse sin problemas: no se juega el puesto por nadie, pero tampoco por Somnia.</li></ul>",
+        "privatenotes": "<p><strong>Torre de Martiricos:</strong> en el vestíbulo (F1). Tratado con respeto, avisa por radio cuando Salas baja; tratado mal, llama a su central.</p><p><em>Cifras:</em> sugeridas.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pnj",
+          "pnj": "rafa-vigilante"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
       "_id": "Vn6m2j0hYUZa3xBW",
       "name": "Sedán negro de Somnia (Carretería)",
       "type": "spc",
@@ -3076,6 +3347,103 @@
         "del-velo-a-la-vigilia": {
           "origen": "pnj",
           "pnj": "sor-anunciacion"
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "wod5e",
+        "systemVersion": "5.3.28"
+      }
+    },
+    {
+      "_id": "McivGNzuW5ztXdJP",
+      "name": "Subinspector Gálvez",
+      "type": "spc",
+      "img": "modules/del-velo-a-la-vigilia/assets/retratos/galvez.webp",
+      "folder": "cQiS68CRfa7a3enP",
+      "sort": 0,
+      "prototypeToken": {
+        "name": "Subinspector Gálvez",
+        "actorLink": false,
+        "disposition": 0,
+        "lockRotation": true,
+        "texture": {
+          "src": "modules/del-velo-a-la-vigilia/assets/tokens/galvez.webp"
+        }
+      },
+      "system": {
+        "spcType": "mortal",
+        "headers": {
+          "concept": "Subinspector de Policía Judicial a sueldo de Somnia"
+        },
+        "standarddicepools": {
+          "physical": {
+            "value": 3
+          },
+          "social": {
+            "value": 5
+          },
+          "mental": {
+            "value": 4
+          }
+        },
+        "exceptionaldicepools": {
+          "investigation": {
+            "value": 6,
+            "active": true
+          },
+          "insight": {
+            "value": 6,
+            "active": true
+          },
+          "intimidation": {
+            "value": 6,
+            "active": true
+          },
+          "persuasion": {
+            "value": 5,
+            "active": true
+          },
+          "firearms": {
+            "value": 4,
+            "active": true
+          }
+        },
+        "health": {
+          "max": 5,
+          "value": 5,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "willpower": {
+          "max": 5,
+          "value": 5,
+          "aggravated": 0,
+          "superficial": 0
+        },
+        "power": {
+          "value": 0
+        },
+        "generaldifficulty": {
+          "normal": 2,
+          "strongest": 3
+        },
+        "description": "<p>Veinticinco años en la Policía Nacional, los últimos diez en Judicial. Cansado, listo y con deudas. Somnia le paga en sobres desde hace años: él archiva las denuncias que molestan, avisa de las matrículas que preguntan y mira hacia otro lado cuando un sedán negro se lleva a alguien del calabozo sin papeles.</p><p>No es un monstruo; se convenció de que todo es «seguridad privada que se pasa un poco». Fuma en la acera a las once.</p>",
+        "biography": "<h3>Debilidades</h3><ul><li>Mortal.</li><li>El sobre de su bandeja y la lista de matrículas lo hunden si salen a la luz: presionado con pruebas, cede.</li><li>Tiene miedo de Marcos aunque no sabe qué es.</li></ul>",
+        "privatenotes": "<p><strong>Comisaría:</strong> en su despacho (G5) o fumando en la plaza. Puede ser un problema que la célula presiona o una amenaza que sabe de ellos.</p><p><em>Cifras:</em> sugeridas.</p>",
+        "settings": {
+          "enableDisciplines": false
+        }
+      },
+      "items": [],
+      "effects": [],
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pnj",
+          "pnj": "galvez"
         }
       },
       "_stats": {
@@ -4542,7 +4910,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<p><em>Torres de oficinas junto al Guadalmedina, a la sombra de La Rosaleda. La doctora llega de noche en auto negro, dos veces por semana.</em></p><section class=\"dvv-leer\"><p>La torre de oficinas es un bloque de cristal con la mitad de las plantas a oscuras. Detrás, el cauce del Guadalmedina corre casi seco entre muros de hormigón, y más allá se recorta la mole del estadio. La rampa del garaje está iluminada como un quirófano. En el vestíbulo, un vigilante lee con la cabeza apoyada en la mano.</p>\n</section><p><strong>Qué hay.</strong> La entrada de la torre (recepción, tornos con tarjeta), la rampa del garaje con barrera y la puerta de emergencia de atrás, que da al paseo del río. Cámaras sobre la puerta y la rampa, ninguna hacia el río: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a> para leer el sistema. El aparcamiento en batería de la avenida y la barandilla del cauce sirven para esperar a cubierto.</p>\n<p><strong>Quién anda.</strong> De noche, Rafa, el vigilante de los crucigramas, y los martes y viernes la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}, que llega a las once con un @UUID[Actor.9iZfEE32ZgK1g9mi]{matón} al volante; él la espera en el garaje con la radio puesta. De madrugada, corredores por el río y algún repartidor. De día, oficinistas, alumnos de la academia de inglés y mucho tráfico.</p>\n<p><strong>Qué pasa.</strong> La infiltración del Acto 2 empieza acá. Seguir el auto negro sin que los note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.drive\" data-dificultad=\"2\" data-label=\"Astucia + Conducir (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Conducir (dif. 2)</a>. Colarse por la puerta del río: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 3)</a>. Distraer al matón del garaje: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio (dif. 2)</a>. Un fallo total: +1 Peligro y @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} visita el piso de Elías esa noche.</p>\n<p><strong>Adentro.</strong> La puerta del vestíbulo y la de emergencia del paseo del río llevan a la escena «La torre y el laboratorio satélite»: la planta baja con Rafa y la planta 6 de Somnia.</p>\n<p><strong>Para el Narrador.</strong> Si hay partido en La Rosaleda, la calle se llena de gente y de policía nacional: cobertura o desastre. Revelá a Salas solo cuando baje del auto.</p>\n"
+            "content": "<p><em>Torres de oficinas junto al Guadalmedina, a la sombra de La Rosaleda. La doctora llega de noche en auto negro, dos veces por semana.</em></p><section class=\"dvv-leer\"><p>La torre de oficinas es un bloque de cristal con la mitad de las plantas a oscuras. Detrás, el cauce del Guadalmedina corre casi seco entre muros de hormigón, y más allá se recorta la mole del estadio. La rampa del garaje está iluminada como un quirófano. En el vestíbulo, un vigilante lee con la cabeza apoyada en la mano.</p>\n</section><p><strong>Qué hay.</strong> La entrada de la torre (recepción, tornos con tarjeta), la rampa del garaje con barrera y la puerta de emergencia de atrás, que da al paseo del río. Cámaras sobre la puerta y la rampa, ninguna hacia el río: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a> para leer el sistema. El aparcamiento en batería de la avenida y la barandilla del cauce sirven para esperar a cubierto.</p>\n<p><strong>Quién anda.</strong> De noche, @UUID[Actor.0E2C7SibFCw5AFRl]{Rafa}, el vigilante de los crucigramas, y los martes y viernes la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas}, que llega a las once con un @UUID[Actor.9iZfEE32ZgK1g9mi]{matón} al volante; él la espera en el garaje con la radio puesta. De madrugada, corredores por el río y algún repartidor. De día, oficinistas, alumnos de la academia de inglés y mucho tráfico.</p>\n<p><strong>Qué pasa.</strong> La infiltración del Acto 2 empieza acá. Seguir el auto negro sin que los note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.drive\" data-dificultad=\"2\" data-label=\"Astucia + Conducir (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Conducir (dif. 2)</a>. Colarse por la puerta del río: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 3)</a>. Distraer al matón del garaje: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio (dif. 2)</a>. Un fallo total: +1 Peligro y @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} visita el piso de Elías esa noche.</p>\n<p><strong>Adentro.</strong> La puerta del vestíbulo y la de emergencia del paseo del río llevan a la escena «La torre y el laboratorio satélite»: la planta baja con Rafa y la planta 6 de Somnia.</p>\n<p><strong>Para el Narrador.</strong> Si hay partido en La Rosaleda, la calle se llena de gente y de policía nacional: cobertura o desastre. Revelá a Salas solo cuando baje del auto.</p>\n"
           },
           "sort": 50000,
           "ownership": {
@@ -4611,7 +4979,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<p><em>La plaza de Manuel Azaña: la comisaría con sus furgones, el bar de los policías enfrente y un lugar donde Somnia tiene amigos.</em></p><section class=\"dvv-leer\"><p>La plaza es amplia, de baldosa gris, con unos pocos árboles jóvenes y bancos vacíos. El edificio de la comisaría ocupa todo un lado, con la bandera mojada colgando sobre la puerta y dos furgones aparcados en doble fila. Las ventanas de arriba siguen encendidas. Enfrente, un bar con el toldo verde tiene las luces prendidas y la tele puesta.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal, con un agente de puertas y el arco de seguridad visible desde la calle. El acceso de vehículos, al costado, con barrera. Cámaras en todo el perímetro del edificio: no hay ángulo muerto. El Bar Azaña, enfrente, es donde los policías desayunan y comentan los casos. Salidas: avenidas anchas en dos direcciones y la parada de taxis de la esquina.</p>\n<p><strong>Quién anda.</strong> De noche, el agente de guardia en la puerta, furgones que entran y salen y el subinspector Gálvez fumando en la acera a las once. De madrugada, detenidos que salen con sus papeles y un abogado de oficio con sueño. De día, colas para el DNI y el pasaporte.</p>\n<p><strong>Qué pasa.</strong> Sacarle a Gálvez algo en la acera, fuera del edificio y de las cámaras de adentro: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.persuasion\" data-dificultad=\"3\" data-label=\"Manipulación + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Persuasión (dif. 3)</a>. En el bar, escuchar a los agentes con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.streetwise\" data-dificultad=\"2\" data-label=\"Astucia + Callejeo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Callejeo (dif. 2)</a> revela si alguien busca a un PJ. Cada visita: +1 Peligro. Entrar armado y que pite el arco es una noche en el calabozo.</p>\n<p><strong>Adentro.</strong> La puerta principal lleva a la planta baja de la comisaría (escena «La comisaría provincial por dentro»): vestíbulo, interrogatorios, el despacho de Gálvez y los calabozos.</p>\n<p><strong>Para el Narrador.</strong> Una noche, un sedán negro de Somnia aparca frente a la comisaría y un hombre de traje entra sin pasar por el arco. Que lo vean. Así se entiende por qué Elías descarta a la policía.</p>\n"
+            "content": "<p><em>La plaza de Manuel Azaña: la comisaría con sus furgones, el bar de los policías enfrente y un lugar donde Somnia tiene amigos.</em></p><section class=\"dvv-leer\"><p>La plaza es amplia, de baldosa gris, con unos pocos árboles jóvenes y bancos vacíos. El edificio de la comisaría ocupa todo un lado, con la bandera mojada colgando sobre la puerta y dos furgones aparcados en doble fila. Las ventanas de arriba siguen encendidas. Enfrente, un bar con el toldo verde tiene las luces prendidas y la tele puesta.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal, con un agente de puertas y el arco de seguridad visible desde la calle. El acceso de vehículos, al costado, con barrera. Cámaras en todo el perímetro del edificio: no hay ángulo muerto. El Bar Azaña, enfrente, es donde los policías desayunan y comentan los casos. Salidas: avenidas anchas en dos direcciones y la parada de taxis de la esquina.</p>\n<p><strong>Quién anda.</strong> De noche, el agente de guardia en la puerta, furgones que entran y salen y el @UUID[Actor.McivGNzuW5ztXdJP]{subinspector Gálvez} fumando en la acera a las once. De madrugada, detenidos que salen con sus papeles y un abogado de oficio con sueño. De día, colas para el DNI y el pasaporte.</p>\n<p><strong>Qué pasa.</strong> Sacarle a Gálvez algo en la acera, fuera del edificio y de las cámaras de adentro: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.persuasion\" data-dificultad=\"3\" data-label=\"Manipulación + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Persuasión (dif. 3)</a>. En el bar, escuchar a los agentes con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.streetwise\" data-dificultad=\"2\" data-label=\"Astucia + Callejeo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Callejeo (dif. 2)</a> revela si alguien busca a un PJ. Cada visita: +1 Peligro. Entrar armado y que pite el arco es una noche en el calabozo.</p>\n<p><strong>Adentro.</strong> La puerta principal lleva a la planta baja de la comisaría (escena «La comisaría provincial por dentro»): vestíbulo, interrogatorios, el despacho de Gálvez y los calabozos.</p>\n<p><strong>Para el Narrador.</strong> Una noche, un sedán negro de Somnia aparca frente a la comisaría y un hombre de traje entra sin pasar por el arco. Que lo vean. Así se entiende por qué Elías descarta a la policía.</p>\n"
           },
           "sort": 80000,
           "ownership": {
@@ -5438,7 +5806,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Un arco detector, una cinta de rayos X y un agente detrás de una mesa con un monitor. Junto a la cinta, una bandeja de plástico con llaves, monedas y un cinturón que nadie vino a buscar.</p>\n</section><p><strong>Qué hay.</strong> El arco pita con cualquier arma, incluidos los cuchillos y las herramientas del Limpiador. La puerta de seguridad hacia el pasillo de servicio se abre con tarjeta desde la mesa.</p>\n<p><strong>Qué pasa.</strong> Entrar armado y que pite es una noche en el calabozo y +1 Peligro. Pasar algo chico sin que lo vean: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>. Convencer al agente de que los deje pasar a &quot;hablar con Gálvez&quot;: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.persuasion\" data-dificultad=\"3\" data-label=\"Carisma + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Persuasión (dif. 3)</a>.</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Un arco detector, una cinta de rayos X y un agente detrás de una mesa con un monitor. Junto a la cinta, una bandeja de plástico con llaves, monedas y un cinturón que nadie vino a buscar.</p>\n</section><p><strong>Qué hay.</strong> El arco pita con cualquier arma, incluidos los cuchillos y las herramientas del Limpiador. La puerta de seguridad hacia el pasillo de servicio se abre con tarjeta desde la mesa.</p>\n<p><strong>Qué pasa.</strong> Entrar armado y que pite es una noche en el calabozo y +1 Peligro. Pasar algo chico sin que lo vean: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>. Convencer al agente de que los deje pasar a &quot;hablar con Gálvez&quot;: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.persuasion\" data-dificultad=\"3\" data-label=\"Carisma + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Persuasión (dif. 3)</a>.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional}</p>"
           },
           "sort": 200000,
           "ownership": {
@@ -5463,7 +5831,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Un mostrador largo detrás de mamparas de vidrio, un dispensador de turnos que marca el 47 y filas de sillas de plástico. Un agente toma una denuncia a dos dedos en un teclado viejo.</p>\n</section><p><strong>Qué hay.</strong> Donde se ponen las denuncias. Denunciar a Somnia no sirve de nada: el papel termina en el despacho de Gálvez (G5) a la mañana siguiente. La puerta de personal del fondo da al pasillo de servicio; está trabada.</p>\n<p><strong>Para el Narrador.</strong> Si un PJ denuncia algo con su nombre real, +1 Peligro: Somnia se entera esa misma noche.</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Un mostrador largo detrás de mamparas de vidrio, un dispensador de turnos que marca el 47 y filas de sillas de plástico. Un agente toma una denuncia a dos dedos en un teclado viejo.</p>\n</section><p><strong>Qué hay.</strong> Donde se ponen las denuncias. Denunciar a Somnia no sirve de nada: el papel termina en el despacho de Gálvez (G5) a la mañana siguiente. La puerta de personal del fondo da al pasillo de servicio; está trabada.</p>\n<p><strong>Para el Narrador.</strong> Si un PJ denuncia algo con su nombre real, +1 Peligro: Somnia se entera esa misma noche.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional}</p>"
           },
           "sort": 300000,
           "ownership": {
@@ -5488,7 +5856,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Escritorios llenos de carpetas, una pizarra con fotos de casos unidas con flechas de rotulador y un archivador abierto. A esta hora, una sola agente teclea con auriculares puestos.</p>\n</section><p><strong>Qué hay.</strong> En la pizarra, entre robos y un caso de tráfico, una foto del muelle de carga de Somnia la noche del apagón: alguien de aquí estuvo mirando. En el archivador, un expediente de hace nueve años con el nombre de @UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca}, archivado &quot;por falta de pruebas&quot;.</p>\n<p><strong>Qué pasa.</strong> Leer el expediente sin que la agente lo note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a> y <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a>.</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Escritorios llenos de carpetas, una pizarra con fotos de casos unidas con flechas de rotulador y un archivador abierto. A esta hora, una sola agente teclea con auriculares puestos.</p>\n</section><p><strong>Qué hay.</strong> En la pizarra, entre robos y un caso de tráfico, una foto del muelle de carga de Somnia la noche del apagón: alguien de aquí estuvo mirando. En el archivador, un expediente de hace nueve años con el nombre de @UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca}, archivado &quot;por falta de pruebas&quot;.</p>\n<p><strong>Qué pasa.</strong> Leer el expediente sin que la agente lo note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a> y <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a>.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional}</p>"
           },
           "sort": 400000,
           "ownership": {
@@ -5513,7 +5881,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Un despacho con persianas a medio bajar, un cenicero lleno aunque está prohibido fumar y una foto enmarcada de un hombre de bigote con un pez enorme. En la bandeja de entrada, un sobre sin remitente.</p>\n</section><p><strong>Qué hay.</strong> El subinspector Gálvez cobra de Somnia. El sobre tiene dinero en efectivo y una tarjeta de la clínica con un número escrito a mano. En el cajón, una lista de matrículas: una es la del Seat de la célula.</p>\n<p><strong>Qué pasa.</strong> Encontrar el sobre y la lista: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a>. Con la prueba, Gálvez se vuelve un problema que la célula puede presionar, o una amenaza que sabe de ellos. La puerta lateral da a la sala de observación (G6).</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Un despacho con persianas a medio bajar, un cenicero lleno aunque está prohibido fumar y una foto enmarcada de un hombre de bigote con un pez enorme. En la bandeja de entrada, un sobre sin remitente.</p>\n</section><p><strong>Qué hay.</strong> El @UUID[Actor.McivGNzuW5ztXdJP]{subinspector Gálvez} cobra de Somnia (token oculto: a las once está fumando en la plaza; revelalo si vuelve). El sobre tiene dinero en efectivo y una tarjeta de la clínica con un número escrito a mano. En el cajón, una lista de matrículas: una es la del Seat de la célula.</p>\n<p><strong>Qué pasa.</strong> Encontrar el sobre y la lista: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a>. Con la prueba, Gálvez se vuelve un problema que la célula puede presionar, o una amenaza que sabe de ellos. La puerta lateral da a la sala de observación (G6).</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.McivGNzuW5ztXdJP]{Subinspector Gálvez} (oculto)</p>"
           },
           "sort": 500000,
           "ownership": {
@@ -5613,7 +5981,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Una consola larga con una pared de monitores en blanco y negro, una radio que habla sola y dos sillas giratorias. Un vaso de café se enfría junto al teclado.</p>\n</section><p><strong>Qué hay.</strong> Las cámaras de toda la comisaría y de la plaza. La grabación de la noche se guarda aquí 72 horas.</p>\n<p><strong>Qué pasa.</strong> Borrar o copiar una grabación: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>. Con éxito, desaparece la prueba de que un PJ estuvo aquí.</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Una consola larga con una pared de monitores en blanco y negro, una radio que habla sola y dos sillas giratorias. Un vaso de café se enfría junto al teclado.</p>\n</section><p><strong>Qué hay.</strong> Las cámaras de toda la comisaría y de la plaza. La grabación de la noche se guarda aquí 72 horas.</p>\n<p><strong>Qué pasa.</strong> Borrar o copiar una grabación: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>. Con éxito, desaparece la prueba de que un PJ estuvo aquí.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional} ×2</p>"
           },
           "sort": 900000,
           "ownership": {
@@ -5663,7 +6031,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Un mostrador alto, un escáner de huellas y una regla pintada en la pared para las fotos. En un banco de acero, las argollas para esposar a quien espera su turno.</p>\n</section><p><strong>Qué pasa.</strong> Todo detenido pasa por aquí: huellas, foto y efectos personales en una bolsa. Si un PJ tiene en los bolsillos algo de Somnia, alguien lo anota.</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Un mostrador alto, un escáner de huellas y una regla pintada en la pared para las fotos. En un banco de acero, las argollas para esposar a quien espera su turno.</p>\n</section><p><strong>Qué pasa.</strong> Todo detenido pasa por aquí: huellas, foto y efectos personales en una bolsa. Si un PJ tiene en los bolsillos algo de Somnia, alguien lo anota.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.5jOJByFngAr8czI6]{Agente de Policía Nacional} (oculto)</p>"
           },
           "sort": 1100000,
           "ownership": {
@@ -5788,7 +6156,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Un borracho duerme en el banco con un zapato puesto. Ronca.</p>\n</section><p><strong>Qué hay.</strong> El calabozo de las noches normales. Si un PJ termina detenido, va aquí, con su compañero de celda roncando. Despierta a las cinco y habla mucho.</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Un borracho duerme en el banco con un zapato puesto. Ronca.</p>\n</section><p><strong>Quién.</strong> @UUID[Actor.k03cIu4xEAM2rmeT]{Paco}, detenido por romper un escaparate en Larios.</p>\n<p><strong>Qué hay.</strong> El calabozo de las noches normales. Si un PJ termina detenido, va aquí, con su compañero de celda roncando. Despierta a las cinco y habla mucho.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.k03cIu4xEAM2rmeT]{Detenido (borracho)}</p>"
           },
           "sort": 1600000,
           "ownership": {
@@ -6045,7 +6413,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<section class=\"dvv-leer\"><p>Mármol claro, un ficus de plástico y una pantalla que repite el logo de una gestoría. Detrás del mostrador, un vigilante de unos sesenta años resuelve un crucigrama con la radio bajita. Entre él y los ascensores, tres tornos de cristal con lector de tarjeta, encendidos en verde.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal de la torre, con cámara sobre la puerta y otra sobre los tornos. Rafa tiene la lista de visitas de la noche: los martes y viernes aparece &quot;Laboratorios Aldaia, planta 6&quot;, que es Somnia con otro nombre. Detrás del mostrador cuelga un tablero con tarjetas de proveedor.</p>\n<p><strong>Qué pasa.</strong> Pasar por los tornos sin tarjeta: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a> o una excusa a Rafa con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio (dif. 2)</a>. Rafa no es enemigo: si lo tratan bien, avisa por radio cuando &quot;la doctora&quot; baja. Una tarjeta de proveedor del tablero abre la puerta de la esclusa de arriba (F5).</p>\n<p><strong>Para el Narrador.</strong> El ascensor y la escalera llevan a la planta 6 (regiones). Si la célula entra por la puerta de emergencia del río, Rafa no se entera de nada.</p>\n"
+            "content": "<section class=\"dvv-leer\"><p>Mármol claro, un ficus de plástico y una pantalla que repite el logo de una gestoría. Detrás del mostrador, un vigilante de unos sesenta años resuelve un crucigrama con la radio bajita. Entre él y los ascensores, tres tornos de cristal con lector de tarjeta, encendidos en verde.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal de la torre, con cámara sobre la puerta y otra sobre los tornos. Rafa tiene la lista de visitas de la noche: los martes y viernes aparece &quot;Laboratorios Aldaia, planta 6&quot;, que es Somnia con otro nombre. Detrás del mostrador cuelga un tablero con tarjetas de proveedor.</p>\n<p><strong>Qué pasa.</strong> Pasar por los tornos sin tarjeta: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a> o una excusa a Rafa con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio (dif. 2)</a>. @UUID[Actor.0E2C7SibFCw5AFRl]{Rafa} no es enemigo: si lo tratan bien, avisa por radio cuando &quot;la doctora&quot; baja. Una tarjeta de proveedor del tablero abre la puerta de la esclusa de arriba (F5).</p>\n<p><strong>Para el Narrador.</strong> El ascensor y la escalera llevan a la planta 6 (regiones). Si la célula entra por la puerta de emergencia del río, Rafa no se entera de nada.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.0E2C7SibFCw5AFRl]{Rafa, el vigilante}</p>"
           },
           "sort": 100000,
           "ownership": {
@@ -15872,8 +16240,8 @@
       }
     },
     {
-      "playlist": null,
-      "playlistSound": null,
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "CIDVfOPZiyGFfkY1",
       "_id": "31m6soUGWtB8S2vB",
       "name": "Martiricos · La torre y el laboratorio satélite",
       "folder": "kffVpQjofs2BwSWN",
@@ -16965,6 +17333,48 @@
         }
       ],
       "tokens": [
+        {
+          "_id": "hZlolstwQYeTVPo7",
+          "name": "Rafa, el vigilante",
+          "displayName": 30,
+          "actorId": "0E2C7SibFCw5AFRl",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/rafa-vigilante.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 300,
+          "y": 1100,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "Zdrue0aHrFZzejlO",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "laboratorio-satelite",
+              "sala": "Vestíbulo",
+              "pnj": "rafa-vigilante"
+            }
+          },
+          "_key": "!scenes.tokens!31m6soUGWtB8S2vB.hZlolstwQYeTVPo7"
+        },
         {
           "_id": "Mf8aoMWk0BEPbTnE",
           "name": "Dra. Irene Salas",
@@ -33060,6 +33470,88 @@
       ],
       "tokens": [
         {
+          "_id": "eqlMhgHc8diDclrJ",
+          "name": "Agente de Policía Nacional",
+          "displayName": 30,
+          "actorId": "5jOJByFngAr8czI6",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 150,
+          "y": 1550,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "9BSUPpQY7U4bPr9l",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "comisaria",
+              "pnj": "agente-policia"
+            }
+          },
+          "_key": "!scenes.tokens!k6Pw1WQrh6R8nY8k.eqlMhgHc8diDclrJ"
+        },
+        {
+          "_id": "hd0bSWTYmVPvqgRR",
+          "name": "Subinspector Gálvez",
+          "displayName": 30,
+          "actorId": "McivGNzuW5ztXdJP",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/galvez.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 250,
+          "y": 1550,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "9BSUPpQY7U4bPr9l",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": true,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "sector": "comisaria",
+              "pnj": "galvez"
+            }
+          },
+          "_key": "!scenes.tokens!k6Pw1WQrh6R8nY8k.hd0bSWTYmVPvqgRR"
+        },
+        {
           "_id": "9TeyjYps65yUZTkY",
           "name": "Patrulla de la Policía Nacional",
           "displayName": 30,
@@ -33199,8 +33691,8 @@
       }
     },
     {
-      "playlist": null,
-      "playlistSound": null,
+      "playlist": "RREVIAminsF37jT3",
+      "playlistSound": "QLvOsJ45CKgoQEDi",
       "_id": "ccaOm1J8qOHv41s8",
       "name": "Málaga · La comisaría provincial por dentro",
       "folder": "kffVpQjofs2BwSWN",
@@ -34533,6 +35025,300 @@
       ],
       "tokens": [
         {
+          "_id": "uChYYtIT5CDEd9uS",
+          "name": "Agente de Policía Nacional",
+          "displayName": 30,
+          "actorId": "5jOJByFngAr8czI6",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 250,
+          "y": 1100,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Control de acceso",
+              "pnj": "agente-policia"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.uChYYtIT5CDEd9uS"
+        },
+        {
+          "_id": "wSMpawaw5VZLF4H9",
+          "name": "Agente de Policía Nacional",
+          "displayName": 30,
+          "actorId": "5jOJByFngAr8czI6",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 850,
+          "y": 1350,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Atención al ciudadano",
+              "pnj": "agente-policia"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.wSMpawaw5VZLF4H9"
+        },
+        {
+          "_id": "uSrzHnfA2GhK62Xp",
+          "name": "Agente de Policía Nacional",
+          "displayName": 30,
+          "actorId": "5jOJByFngAr8czI6",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 300,
+          "y": 500,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Oficinas de Policía Judicial",
+              "pnj": "agente-policia"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.uSrzHnfA2GhK62Xp"
+        },
+        {
+          "_id": "Hj0Xmpdp4ZpqPyF7",
+          "name": "Subinspector Gálvez",
+          "displayName": 30,
+          "actorId": "McivGNzuW5ztXdJP",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/galvez.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 800,
+          "y": 500,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": true,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Despacho de Gálvez",
+              "pnj": "galvez"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.Hj0Xmpdp4ZpqPyF7"
+        },
+        {
+          "_id": "0wX4YykstGe2EKbF",
+          "name": "Agente de Policía Nacional 1",
+          "displayName": 30,
+          "actorId": "5jOJByFngAr8czI6",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1900,
+          "y": 500,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Sala de guardia",
+              "pnj": "agente-policia"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.0wX4YykstGe2EKbF"
+        },
+        {
+          "_id": "c3nNma3BFSP3AQRi",
+          "name": "Agente de Policía Nacional 2",
+          "displayName": 30,
+          "actorId": "5jOJByFngAr8czI6",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 2000,
+          "y": 500,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Sala de guardia",
+              "pnj": "agente-policia"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.c3nNma3BFSP3AQRi"
+        },
+        {
+          "_id": "kVVJt0PMkRVs3zl7",
+          "name": "Agente de Policía Nacional",
+          "displayName": 30,
+          "actorId": "5jOJByFngAr8czI6",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/agente-policia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1400,
+          "y": 1150,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": true,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Ingreso de detenidos",
+              "pnj": "agente-policia"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.kVVJt0PMkRVs3zl7"
+        },
+        {
           "_id": "3pj7QLxYXmV01YV4",
           "name": "Durmiente",
           "displayName": 30,
@@ -34573,6 +35359,48 @@
             }
           },
           "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.3pj7QLxYXmV01YV4"
+        },
+        {
+          "_id": "gPHgwuHsM7p758J0",
+          "name": "Detenido (borracho)",
+          "displayName": 30,
+          "actorId": "k03cIu4xEAM2rmeT",
+          "actorLink": false,
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tokens/detenido-borracho.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1950,
+          "y": 1600,
+          "width": 1,
+          "height": 1,
+          "elevation": 0,
+          "level": "xDLEHNhV15dDHuJq",
+          "rotation": 0,
+          "alpha": 1,
+          "lockRotation": true,
+          "locked": false,
+          "sort": 0,
+          "hidden": false,
+          "disposition": 0,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "token",
+              "escena": "comisaria-interior",
+              "sala": "Calabozo 3",
+              "pnj": "detenido-borracho"
+            }
+          },
+          "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.gPHgwuHsM7p758J0"
         }
       ],
       "notes": [
@@ -38651,6 +39479,48 @@
           }
         },
         {
+          "_id": "CIDVfOPZiyGFfkY1",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.CIDVfOPZiyGFfkY1",
+          "name": "Martiricos · La torre y el laboratorio",
+          "description": "Ambiente de la escena laboratorio-satelite",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/laboratorio-satelite.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 8000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "laboratorio-satelite",
+              "escena": "laboratorio-satelite"
+            }
+          }
+        },
+        {
+          "_id": "QLvOsJ45CKgoQEDi",
+          "_key": "!playlists.sounds!RREVIAminsF37jT3.QLvOsJ45CKgoQEDi",
+          "name": "Málaga · La comisaría por dentro",
+          "description": "Ambiente de la escena comisaria-interior",
+          "path": "modules/del-velo-a-la-vigilia/assets/music/comisaria-interior.mp3",
+          "channel": "",
+          "playing": false,
+          "pausedTime": null,
+          "repeat": true,
+          "volume": 0.35,
+          "fade": 2000,
+          "sort": 9000,
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "pista",
+              "pista": "comisaria-interior",
+              "escena": "comisaria-interior"
+            }
+          }
+        },
+        {
           "_id": "L32JCtpbTuvLIuZF",
           "_key": "!playlists.sounds!RREVIAminsF37jT3.L32JCtpbTuvLIuZF",
           "name": "Acto 1 · La huida por los pasillos",
@@ -38662,7 +39532,7 @@
           "repeat": true,
           "volume": 0.5,
           "fade": 2000,
-          "sort": 8000,
+          "sort": 10000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -38683,7 +39553,7 @@
           "repeat": true,
           "volume": 0.5,
           "fade": 2000,
-          "sort": 9000,
+          "sort": 11000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -38704,7 +39574,7 @@
           "repeat": true,
           "volume": 0.45,
           "fade": 2000,
-          "sort": 10000,
+          "sort": 12000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -38725,7 +39595,7 @@
           "repeat": true,
           "volume": 0.4,
           "fade": 2000,
-          "sort": 11000,
+          "sort": 13000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",
@@ -38746,7 +39616,7 @@
           "repeat": true,
           "volume": 0.45,
           "fade": 2000,
-          "sort": 12000,
+          "sort": 14000,
           "flags": {
             "del-velo-a-la-vigilia": {
               "origen": "pista",

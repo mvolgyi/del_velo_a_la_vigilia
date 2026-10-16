@@ -235,6 +235,121 @@
       "poderes": "<p>Tiene el <strong>Sentido Vestigial</strong> (siente lo sobrenatural como escalofríos y sabores metálicos) y un injerto según la variante:</p><ul><li><strong>A — Osteoinjerto</strong>: +2 al daño de Pelea y sus golpes rompen puertas y huesos.</li><li><strong>B — Glándula de Sobremarcha</strong>: Prisa (como el poder de monstruo) una vez por turno, a costa de 1 de daño superficial propio.</li><li><strong>C — Olfato Quimérico</strong>: rastrea a quien haya sangrado cerca; −2 a la dificultad para encontrar a la célula.</li></ul>",
       "debilidades": "<ul><li><strong>Sin régimen</strong>: −1 dado a todo por falta de inmunosupresores; cada escena de esfuerzo, tirá 1 dado: con un 1 sufre una crisis de rechazo (1 de daño agravado y el injerto se apaga).</li><li><strong>El olor de la quimera</strong>: los sobrenaturales lo detectan con +1 dado; los vampiros podrían reclamarlo.</li><li>Mortal en lo demás: recibe daño normal.</li></ul>",
       "notas": "<p><strong>Acto 2 (crítico en Seguir a Salas):</strong> la palabra «Quimera» entra en juego; la agenda de Salas da pistas de los tres voluntarios.</p><p><strong>Después:</strong> hilo abierto de «Las Quimeras Sueltas». Pueden aparecer cazando durmientes, buscando a Salas o pidiendo ayuda a la célula. Ideales para mostrarle al Guardia (camino de la Carne) su posible futuro.</p><p><em>Cifras:</em> todas sugeridas. «poder» 1 indica el injerto; es mortal modificado, no sobrenatural. Los injertos están simplificados a partir de La Carne Templada e Injertos de Segunda Generación.</p>"
+    },
+    {
+      "id": "galvez",
+      "nombre": "Subinspector Gálvez",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Subinspector de Policía Judicial a sueldo de Somnia",
+      "estandar": {
+        "physical": 3,
+        "social": 5,
+        "mental": 4
+      },
+      "excepcionales": {
+        "investigation": 6,
+        "insight": 6,
+        "intimidation": 6,
+        "persuasion": 5,
+        "firearms": 4
+      },
+      "salud": 5,
+      "voluntad": 5,
+      "poder": 0,
+      "dificultadGeneral": {
+        "normal": 2,
+        "fuerte": 3
+      },
+      "descripcion": "<p>Veinticinco años en la Policía Nacional, los últimos diez en Judicial. Cansado, listo y con deudas. Somnia le paga en sobres desde hace años: él archiva las denuncias que molestan, avisa de las matrículas que preguntan y mira hacia otro lado cuando un sedán negro se lleva a alguien del calabozo sin papeles.</p><p>No es un monstruo; se convenció de que todo es «seguridad privada que se pasa un poco». Fuma en la acera a las once.</p>",
+      "poderes": "",
+      "debilidades": "<ul><li>Mortal.</li><li>El sobre de su bandeja y la lista de matrículas lo hunden si salen a la luz: presionado con pruebas, cede.</li><li>Tiene miedo de Marcos aunque no sabe qué es.</li></ul>",
+      "notas": "<p><strong>Comisaría:</strong> en su despacho (G5) o fumando en la plaza. Puede ser un problema que la célula presiona o una amenaza que sabe de ellos.</p><p><em>Cifras:</em> sugeridas.</p>"
+    },
+    {
+      "id": "agente-policia",
+      "nombre": "Agente de Policía Nacional",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Agente de uniforme de la comisaría provincial",
+      "estandar": {
+        "physical": 4,
+        "social": 3,
+        "mental": 3
+      },
+      "excepcionales": {
+        "firearms": 5,
+        "brawl": 5,
+        "awareness": 5,
+        "athletics": 4,
+        "intimidation": 4
+      },
+      "salud": 5,
+      "voluntad": 4,
+      "poder": 0,
+      "dificultadGeneral": {
+        "normal": 2,
+        "fuerte": 3
+      },
+      "descripcion": "<p>Policía de turno de noche: control de acceso, atención al público, ingreso de detenidos o sala de guardia. Hace su trabajo y no sabe nada de Somnia.</p>",
+      "poderes": "",
+      "debilidades": "<ul><li>Mortal.</li><li>No es enemigo: pelear con él es convertir a la célula en fugitivos (+1 Peligro y una orden de busca).</li></ul>",
+      "notas": "<p>Usalo para cualquier agente de la comisaría o de un patrullero. Armado con pistola reglamentaria, defensa y grilletes.</p><p><em>Cifras:</em> sugeridas, mortales entrenados.</p>"
+    },
+    {
+      "id": "rafa-vigilante",
+      "nombre": "Rafa, el vigilante",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Vigilante nocturno de la torre de Martiricos",
+      "estandar": {
+        "physical": 2,
+        "social": 4,
+        "mental": 3
+      },
+      "excepcionales": {
+        "awareness": 4,
+        "persuasion": 4,
+        "technology": 3
+      },
+      "salud": 4,
+      "voluntad": 3,
+      "poder": 0,
+      "dificultadGeneral": {
+        "normal": 2,
+        "fuerte": 3
+      },
+      "descripcion": "<p>Rafael, sesenta y un años, vigilante de una empresa de seguridad desde que cerró su taller. Hace crucigramas, escucha la radio y conoce a todos los que entran de noche. Los martes y viernes ve llegar a «la doctora» y no le gusta cómo mira el matón que la acompaña.</p>",
+      "poderes": "",
+      "debilidades": "<ul><li>Mortal, sin armas (una linterna y la radio).</li><li>Quiere jubilarse sin problemas: no se juega el puesto por nadie, pero tampoco por Somnia.</li></ul>",
+      "notas": "<p><strong>Torre de Martiricos:</strong> en el vestíbulo (F1). Tratado con respeto, avisa por radio cuando Salas baja; tratado mal, llama a su central.</p><p><em>Cifras:</em> sugeridas.</p>"
+    },
+    {
+      "id": "detenido-borracho",
+      "nombre": "Detenido (borracho)",
+      "spcType": "mortal",
+      "gamesystem": "mortal",
+      "concepto": "Un detenido de una noche normal en el calabozo",
+      "estandar": {
+        "physical": 3,
+        "social": 2,
+        "mental": 1
+      },
+      "excepcionales": {
+        "brawl": 4,
+        "streetwise": 4
+      },
+      "salud": 4,
+      "voluntad": 2,
+      "poder": 0,
+      "dificultadGeneral": {
+        "normal": 1,
+        "fuerte": 2
+      },
+      "descripcion": "<p>Paco, cincuenta y tantos, detenido por romper un escaparate en calle Larios. Duerme con un zapato puesto y despierta a las cinco con ganas de hablar. Vio cosas raras en el puerto y nadie le cree.</p>",
+      "poderes": "",
+      "debilidades": "<ul><li>Mortal y borracho.</li></ul>",
+      "notas": "<p><strong>Comisaría:</strong> calabozo 3 (G16). Si un PJ termina detenido, es su compañero de celda; habla del «hombre que se metió en el mar con fiebre» (la Quimera).</p>"
     }
   ]
 }

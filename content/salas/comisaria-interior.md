@@ -16,6 +16,7 @@ Luz blanca, sillas de metal atornilladas al suelo y un olor a café de máquina.
 **Qué pasa.** Esperar aquí y escuchar: @tirada{attributes.wits+skills.awareness|2|Astucia + Alerta (dif. 2)} para enterarse de quién está en los calabozos esta noche.
 
 # G2. Control de acceso {sala: Control de acceso}
+tokens: agente-policia
 
 :::leer
 Un arco detector, una cinta de rayos X y un agente detrás de una mesa con un monitor. Junto a la cinta, una bandeja de plástico con llaves, monedas y un cinturón que nadie vino a buscar.
@@ -26,6 +27,7 @@ Un arco detector, una cinta de rayos X y un agente detrás de una mesa con un mo
 **Qué pasa.** Entrar armado y que pite es una noche en el calabozo y +1 Peligro. Pasar algo chico sin que lo vean: @tirada{attributes.dexterity+skills.larceny|3|Destreza + Latrocinio (dif. 3)}. Convencer al agente de que los deje pasar a "hablar con Gálvez": @tirada{attributes.charisma+skills.persuasion|3|Carisma + Persuasión (dif. 3)}.
 
 # G3. Atención al ciudadano {sala: Atención al ciudadano}
+tokens: agente-policia
 
 :::leer
 Un mostrador largo detrás de mamparas de vidrio, un dispensador de turnos que marca el 47 y filas de sillas de plástico. Un agente toma una denuncia a dos dedos en un teclado viejo.
@@ -36,6 +38,7 @@ Un mostrador largo detrás de mamparas de vidrio, un dispensador de turnos que m
 **Para el Narrador.** Si un PJ denuncia algo con su nombre real, +1 Peligro: Somnia se entera esa misma noche.
 
 # G4. Oficinas de Policía Judicial {sala: Oficinas de Policía Judicial}
+tokens: agente-policia
 
 :::leer
 Escritorios llenos de carpetas, una pizarra con fotos de casos unidas con flechas de rotulador y un archivador abierto. A esta hora, una sola agente teclea con auriculares puestos.
@@ -46,12 +49,13 @@ Escritorios llenos de carpetas, una pizarra con fotos de casos unidas con flecha
 **Qué pasa.** Leer el expediente sin que la agente lo note: @tirada{attributes.dexterity+skills.stealth|2|Destreza + Sigilo (dif. 2)} y @tirada{attributes.intelligence+skills.investigation|2|Inteligencia + Investigación (dif. 2)}.
 
 # G5. Despacho de Gálvez {sala: Despacho de Gálvez}
+tokens: galvez (oculto)
 
 :::leer
 Un despacho con persianas a medio bajar, un cenicero lleno aunque está prohibido fumar y una foto enmarcada de un hombre de bigote con un pez enorme. En la bandeja de entrada, un sobre sin remitente.
 :::
 
-**Qué hay.** El subinspector Gálvez cobra de Somnia. El sobre tiene dinero en efectivo y una tarjeta de la clínica con un número escrito a mano. En el cajón, una lista de matrículas: una es la del Seat de la célula.
+**Qué hay.** El @npc{galvez|subinspector Gálvez} cobra de Somnia (token oculto: a las once está fumando en la plaza; revelalo si vuelve). El sobre tiene dinero en efectivo y una tarjeta de la clínica con un número escrito a mano. En el cajón, una lista de matrículas: una es la del Seat de la célula.
 
 **Qué pasa.** Encontrar el sobre y la lista: @tirada{attributes.wits+skills.investigation|2|Astucia + Investigación (dif. 2)}. Con la prueba, Gálvez se vuelve un problema que la célula puede presionar, o una amenaza que sabe de ellos. La puerta lateral da a la sala de observación (G6).
 
@@ -80,6 +84,7 @@ Taquillas de acero, un armero cerrado con candado doble y un mostrador con un li
 **Qué hay.** Las armas reglamentarias y lo incautado. Robar aquí es convertir a la célula en enemigos del Estado; dejalo claro antes de que nadie lo intente.
 
 # G9. Sala de guardia {sala: Sala de guardia}
+tokens: agente-policia x2
 
 :::leer
 Una consola larga con una pared de monitores en blanco y negro, una radio que habla sola y dos sillas giratorias. Un vaso de café se enfría junto al teclado.
@@ -98,6 +103,7 @@ Un pasillo largo de linóleo gastado con puertas a los dos lados y avisos clavad
 **Qué hay.** Une todo lo que no es público. Siempre hay alguien caminando con una carpeta en la mano.
 
 # G11. Ingreso de detenidos {sala: Ingreso de detenidos}
+tokens: agente-policia (oculto)
 
 :::leer
 Un mostrador alto, un escáner de huellas y una regla pintada en la pared para las fotos. En un banco de acero, las argollas para esposar a quien espera su turno.
@@ -141,9 +147,12 @@ Vacío. En la pared, alguien rayó con la uña una cruz y una fecha de hace nuev
 **Para el Narrador.** La celda donde pasó la noche Elías Roca después de que cayera su célula. Si él está con los PJs, se queda mirando la cruz y no dice nada.
 
 # G16. Calabozo 3 {sala: Calabozo 3}
+tokens: detenido-borracho
 
 :::leer
 Un borracho duerme en el banco con un zapato puesto. Ronca.
 :::
+
+**Quién.** @npc{detenido-borracho|Paco}, detenido por romper un escaparate en Larios.
 
 **Qué hay.** El calabozo de las noches normales. Si un PJ termina detenido, va aquí, con su compañero de celda roncando. Despierta a las cinco y habla mucho.

@@ -1,0 +1,98 @@
+{
+  "_id": "McivGNzuW5ztXdJP",
+  "_key": "!actors!McivGNzuW5ztXdJP",
+  "name": "Subinspector Gálvez",
+  "type": "spc",
+  "img": "modules/del-velo-a-la-vigilia/assets/retratos/galvez.webp",
+  "folder": "cQiS68CRfa7a3enP",
+  "sort": 0,
+  "prototypeToken": {
+    "name": "Subinspector Gálvez",
+    "actorLink": false,
+    "disposition": 0,
+    "lockRotation": true,
+    "texture": {
+      "src": "modules/del-velo-a-la-vigilia/assets/tokens/galvez.webp"
+    }
+  },
+  "system": {
+    "spcType": "mortal",
+    "headers": {
+      "concept": "Subinspector de Policía Judicial a sueldo de Somnia"
+    },
+    "standarddicepools": {
+      "physical": {
+        "value": 3
+      },
+      "social": {
+        "value": 5
+      },
+      "mental": {
+        "value": 4
+      }
+    },
+    "exceptionaldicepools": {
+      "investigation": {
+        "value": 6,
+        "active": true
+      },
+      "insight": {
+        "value": 6,
+        "active": true
+      },
+      "intimidation": {
+        "value": 6,
+        "active": true
+      },
+      "persuasion": {
+        "value": 5,
+        "active": true
+      },
+      "firearms": {
+        "value": 4,
+        "active": true
+      }
+    },
+    "health": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "willpower": {
+      "max": 5,
+      "value": 5,
+      "aggravated": 0,
+      "superficial": 0
+    },
+    "power": {
+      "value": 0
+    },
+    "generaldifficulty": {
+      "normal": 2,
+      "strongest": 3
+    },
+    "description": "<p>Veinticinco años en la Policía Nacional, los últimos diez en Judicial. Cansado, listo y con deudas. Somnia le paga en sobres desde hace años: él archiva las denuncias que molestan, avisa de las matrículas que preguntan y mira hacia otro lado cuando un sedán negro se lleva a alguien del calabozo sin papeles.</p><p>No es un monstruo; se convenció de que todo es «seguridad privada que se pasa un poco». Fuma en la acera a las once.</p>",
+    "biography": "<h3>Debilidades</h3><ul><li>Mortal.</li><li>El sobre de su bandeja y la lista de matrículas lo hunden si salen a la luz: presionado con pruebas, cede.</li><li>Tiene miedo de Marcos aunque no sabe qué es.</li></ul>",
+    "privatenotes": "<p><strong>Comisaría:</strong> en su despacho (G5) o fumando en la plaza. Puede ser un problema que la célula presiona o una amenaza que sabe de ellos.</p><p><em>Cifras:</em> sugeridas.</p>",
+    "settings": {
+      "enableDisciplines": false
+    }
+  },
+  "items": [],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "pnj",
+      "pnj": "galvez"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}
