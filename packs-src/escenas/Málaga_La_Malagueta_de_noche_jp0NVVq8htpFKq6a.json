@@ -5,8 +5,8 @@
   "folder": "3juiA14H0J18xQ4h",
   "navigation": false,
   "navOrder": 300,
-  "width": 4000,
-  "height": 3000,
+  "width": 6000,
+  "height": 4500,
   "padding": 0,
   "playlist": "snnFlU2hqHvbR946",
   "playlistSound": "SsCrreUVJhcsrJyT",
@@ -46,12 +46,157 @@
       "_key": "!scenes.levels!jp0NVVq8htpFKq6a.BR1oG7ZCnnPSDxUz"
     }
   ],
-  "walls": [],
+  "walls": [
+    {
+      "_id": "aEPXCPKuIX0NEub2",
+      "c": [
+        2163,
+        84,
+        2132,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.aEPXCPKuIX0NEub2"
+    },
+    {
+      "_id": "vUXRvWtqFXv8kU4G",
+      "c": [
+        2414,
+        0,
+        2258,
+        55
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.vUXRvWtqFXv8kU4G"
+    },
+    {
+      "_id": "KGx9CUYPzlcqCYCo",
+      "c": [
+        2258,
+        55,
+        2255,
+        47
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.KGx9CUYPzlcqCYCo"
+    },
+    {
+      "_id": "2RQCl4hlhHhk3No1",
+      "c": [
+        2255,
+        47,
+        2163,
+        84
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.2RQCl4hlhHhk3No1"
+    },
+    {
+      "_id": "3DICuSUxREwQX4Mh",
+      "c": [
+        1435,
+        0,
+        1602,
+        442
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.3DICuSUxREwQX4Mh"
+    },
+    {
+      "_id": "uWRHkbKl2bIEeqW1",
+      "c": [
+        1602,
+        442,
+        1563,
+        453
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.uWRHkbKl2bIEeqW1"
+    },
+    {
+      "_id": "1SaHnuy95LHafKuO",
+      "c": [
+        1563,
+        453,
+        1230,
+        555
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.1SaHnuy95LHafKuO"
+    },
+    {
+      "_id": "knoUDK1GqdYl9GXD",
+      "c": [
+        1230,
+        555,
+        1063,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "dir": 0,
+      "flags": {},
+      "_key": "!scenes.walls!jp0NVVq8htpFKq6a.knoUDK1GqdYl9GXD"
+    }
+  ],
   "lights": [
     {
       "_id": "Gh1n6ESxFgQd0Sgr",
-      "x": 1424,
-      "y": 908,
+      "x": 460,
+      "y": 2094,
       "rotation": 0,
       "elevation": 0,
       "walls": true,
@@ -87,8 +232,8 @@
     },
     {
       "_id": "oPhmK6lGHUt83J2f",
-      "x": 717,
-      "y": 1178,
+      "x": 2647,
+      "y": 1880,
       "rotation": 0,
       "elevation": 0,
       "walls": true,
@@ -124,8 +269,8 @@
     },
     {
       "_id": "dG9HGp6j4QT7V4Cd",
-      "x": 2576,
-      "y": 403,
+      "x": 3970,
+      "y": 132,
       "rotation": 0,
       "elevation": 0,
       "walls": true,
@@ -158,6 +303,228 @@
       },
       "flags": {},
       "_key": "!scenes.lights!jp0NVVq8htpFKq6a.dG9HGp6j4QT7V4Cd"
+    },
+    {
+      "_id": "HWIFQgbGRpmUht3b",
+      "x": 3804,
+      "y": 780,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.HWIFQgbGRpmUht3b"
+    },
+    {
+      "_id": "sHdOF0EoHjb0OKsV",
+      "x": 1569,
+      "y": 221,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.sHdOF0EoHjb0OKsV"
+    },
+    {
+      "_id": "vJcFicDC7vb4Rae6",
+      "x": 345,
+      "y": 3361,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.vJcFicDC7vb4Rae6"
+    },
+    {
+      "_id": "BKT2Wp6DrkB7z4XX",
+      "x": 1940,
+      "y": 2151,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.BKT2Wp6DrkB7z4XX"
+    },
+    {
+      "_id": "MWFistDQO71ynxgk",
+      "x": 3799,
+      "y": 1375,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.MWFistDQO71ynxgk"
+    },
+    {
+      "_id": "ypuCOOkk9WS86pwl",
+      "x": 5440,
+      "y": 210,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!jp0NVVq8htpFKq6a.ypuCOOkk9WS86pwl"
     }
   ],
   "regions": [
@@ -170,7 +537,7 @@
           "type": "rectangle",
           "x": 0,
           "y": 0,
-          "width": 4000,
+          "width": 6000,
           "height": 150,
           "rotation": 0,
           "hole": false
@@ -217,8 +584,8 @@
         {
           "type": "rectangle",
           "x": 0,
-          "y": 2850,
-          "width": 4000,
+          "y": 4350,
+          "width": 6000,
           "height": 150,
           "rotation": 0,
           "hole": false
@@ -267,7 +634,7 @@
           "x": 0,
           "y": 150,
           "width": 150,
-          "height": 2700,
+          "height": 4200,
           "rotation": 0,
           "hole": false
         }
@@ -312,10 +679,10 @@
       "shapes": [
         {
           "type": "rectangle",
-          "x": 3850,
+          "x": 5850,
           "y": 150,
           "width": 150,
-          "height": 2700,
+          "height": 4200,
           "rotation": 0,
           "hole": false
         }
@@ -360,8 +727,8 @@
       "shapes": [
         {
           "type": "rectangle",
-          "x": 1296,
-          "y": 338,
+          "x": 2449,
+          "y": 1351,
           "width": 150,
           "height": 150,
           "rotation": 0,
@@ -405,8 +772,8 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
-      "x": 1900,
-      "y": 2950,
+      "x": 3100,
+      "y": 3900,
       "width": 1,
       "height": 1,
       "elevation": 0,
@@ -433,7 +800,7 @@
       "_id": "8ZezKlwCiMRVlIck",
       "entryId": "hoj1rJUeaTvA06gq",
       "pageId": "jsCUSEwA8wLGKRhI",
-      "x": 2000,
+      "x": 3000,
       "y": 120,
       "elevation": 0,
       "sort": 0,
@@ -470,8 +837,8 @@
       "_id": "6bA0jCNWPxU7CFoD",
       "entryId": "9ypDcVGaJFr0RcLE",
       "pageId": "rO9TxQCGNXGO5MqJ",
-      "x": 2000,
-      "y": 2780,
+      "x": 3223,
+      "y": 3753,
       "elevation": 0,
       "sort": 0,
       "locked": false,

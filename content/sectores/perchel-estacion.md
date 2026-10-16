@@ -1,14 +1,14 @@
 ---
 sector: perchel-estacion
 nombre: El Perchel · la estación y el hostal
-intro: Frente a María Zambrano, un hostal barato encima de un locutorio, la parada de taxis y las cámaras de la estación. El lugar para esconder a alguien o irse de la ciudad.
+intro: La explanada de María Zambrano: la fachada de la estación, los carriles de la parada de taxis y, en la plazoleta de enfrente, un hostal barato encima de un locutorio. El lugar para esconder a alguien o irse de la ciudad.
 ---
 
 # La calle
 tokens: durmiente (oculto)
 
 :::leer
-La explanada de la estación está bañada en luz blanca, y sus puertas de cristal se abren y se cierran solas para nadie. Una fila de taxis espera con los pilotos verdes encendidos. Del otro lado de la avenida, el rótulo del Hostal Andalucía parpadea encima de un locutorio con el cierre a medio bajar. En un banco de la parada de autobús, alguien duerme sentado.
+La explanada de la estación está bañada en luz blanca, y sus puertas de cristal se abren y se cierran solas para nadie. Una fila de taxis espera con los pilotos verdes encendidos. En la plazoleta de enfrente, entre los dos carriles de taxis y la avenida, el rótulo del Hostal Andalucía parpadea encima de un locutorio con el cierre a medio bajar. En un banco de la parada de autobús, alguien duerme sentado.
 :::
 
 **Qué hay.** El portal del hostal, estrecho, junto al locutorio de Karim. La estación, con cámaras en cada acceso y policía en el vestíbulo: es la salida rápida de la ciudad, pero todo lo que entra ahí queda grabado. La acera del hostal no tiene cámaras; la parada de taxis, sí. Ver qué cámaras cubren la avenida: @tirada{attributes.wits+skills.streetwise|2|Astucia + Callejeo (dif. 2)}.

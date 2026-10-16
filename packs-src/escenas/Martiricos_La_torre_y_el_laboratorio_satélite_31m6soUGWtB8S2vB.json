@@ -1,0 +1,1819 @@
+{
+  "playlist": null,
+  "playlistSound": null,
+  "_id": "31m6soUGWtB8S2vB",
+  "_key": "!scenes!31m6soUGWtB8S2vB",
+  "name": "Martiricos · La torre y el laboratorio satélite",
+  "folder": "kffVpQjofs2BwSWN",
+  "navigation": true,
+  "navOrder": 41,
+  "width": 2400,
+  "height": 1800,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 1,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.75,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "Zdrue0aHrFZzejlO",
+      "name": "Suelo",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/laboratorio-satelite.webp",
+        "color": "#000000"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!31m6soUGWtB8S2vB.Zdrue0aHrFZzejlO"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "O1eFtDv5UdKh2VWo",
+      "c": [
+        150,
+        150,
+        450,
+        150
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.O1eFtDv5UdKh2VWo"
+    },
+    {
+      "_id": "ltpbJrqBlYd5zOlm",
+      "c": [
+        990,
+        150,
+        2340,
+        150
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.ltpbJrqBlYd5zOlm"
+    },
+    {
+      "_id": "Q6xR9vbwa23A50Yq",
+      "c": [
+        150,
+        750,
+        240,
+        750
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.Q6xR9vbwa23A50Yq"
+    },
+    {
+      "_id": "hH43fHUj2V8lMkYd",
+      "c": [
+        330,
+        750,
+        510,
+        750
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.hH43fHUj2V8lMkYd"
+    },
+    {
+      "_id": "0kusveFqWHbXXQRv",
+      "c": [
+        750,
+        750,
+        810,
+        750
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.0kusveFqWHbXXQRv"
+    },
+    {
+      "_id": "nTw3CMASyMnqwPZR",
+      "c": [
+        150,
+        150,
+        150,
+        540
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.nTw3CMASyMnqwPZR"
+    },
+    {
+      "_id": "3QETAQnujkERBoHi",
+      "c": [
+        150,
+        630,
+        150,
+        1350
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.3QETAQnujkERBoHi"
+    },
+    {
+      "_id": "Hh3hXi4s7oeuqfkw",
+      "c": [
+        450,
+        150,
+        450,
+        750
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.Hh3hXi4s7oeuqfkw"
+    },
+    {
+      "_id": "0Xbu4up2uAyUoz0D",
+      "c": [
+        450,
+        450,
+        810,
+        450
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.0Xbu4up2uAyUoz0D"
+    },
+    {
+      "_id": "JVZRIoA4YhynfAsw",
+      "c": [
+        810,
+        450,
+        810,
+        1350
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.JVZRIoA4YhynfAsw"
+    },
+    {
+      "_id": "Ty1RxqXfitTRnN3l",
+      "c": [
+        150,
+        1350,
+        360,
+        1350
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.Ty1RxqXfitTRnN3l"
+    },
+    {
+      "_id": "talaSkEHZK3cRo7O",
+      "c": [
+        540,
+        1350,
+        810,
+        1350
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.talaSkEHZK3cRo7O"
+    },
+    {
+      "_id": "Yf6cIGSdHupxUxjV",
+      "c": [
+        990,
+        600,
+        1530,
+        600
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.Yf6cIGSdHupxUxjV"
+    },
+    {
+      "_id": "pc3k0EyC6aE7ahPU",
+      "c": [
+        990,
+        960,
+        1530,
+        960
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.pc3k0EyC6aE7ahPU"
+    },
+    {
+      "_id": "SFBBBmZvpOYrEaOI",
+      "c": [
+        990,
+        150,
+        990,
+        1500
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.SFBBBmZvpOYrEaOI"
+    },
+    {
+      "_id": "cxKgg7GyOwTYKCyS",
+      "c": [
+        1290,
+        600,
+        1290,
+        720
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.cxKgg7GyOwTYKCyS"
+    },
+    {
+      "_id": "XyyuysaTUDgjMiZt",
+      "c": [
+        1290,
+        840,
+        1290,
+        960
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.XyyuysaTUDgjMiZt"
+    },
+    {
+      "_id": "WiUnC2WBDNE5yjgn",
+      "c": [
+        1530,
+        150,
+        1530,
+        300
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.WiUnC2WBDNE5yjgn"
+    },
+    {
+      "_id": "H7o5C8WU2kKQrliq",
+      "c": [
+        1530,
+        390,
+        1530,
+        720
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.H7o5C8WU2kKQrliq"
+    },
+    {
+      "_id": "W3zKEGTkJ9dVGkSO",
+      "c": [
+        1530,
+        840,
+        1530,
+        1200
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.W3zKEGTkJ9dVGkSO"
+    },
+    {
+      "_id": "HZDjShYQ2cnmNZl6",
+      "c": [
+        1530,
+        1320,
+        1530,
+        1500
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.HZDjShYQ2cnmNZl6"
+    },
+    {
+      "_id": "NJWEL7SsjSlJmUmk",
+      "c": [
+        990,
+        1500,
+        2340,
+        1500
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.NJWEL7SsjSlJmUmk"
+    },
+    {
+      "_id": "haircY9yC0p1fTgz",
+      "c": [
+        1680,
+        150,
+        1680,
+        360
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.haircY9yC0p1fTgz"
+    },
+    {
+      "_id": "MNCNu4kAL9CV1Tb5",
+      "c": [
+        1680,
+        480,
+        1680,
+        810
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.MNCNu4kAL9CV1Tb5"
+    },
+    {
+      "_id": "lgUfyQmVz2Tk22M4",
+      "c": [
+        1680,
+        900,
+        1680,
+        1230
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.lgUfyQmVz2Tk22M4"
+    },
+    {
+      "_id": "y6v7XdCqr0PjJ1qw",
+      "c": [
+        1680,
+        1320,
+        1680,
+        1500
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.y6v7XdCqr0PjJ1qw"
+    },
+    {
+      "_id": "8W9eYPZHuaqEco5W",
+      "c": [
+        1680,
+        690,
+        2100,
+        690
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.8W9eYPZHuaqEco5W"
+    },
+    {
+      "_id": "T05NTmLkB5bsa0Rl",
+      "c": [
+        2220,
+        690,
+        2340,
+        690
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.T05NTmLkB5bsa0Rl"
+    },
+    {
+      "_id": "0RJdf7EihKnpi1Nr",
+      "c": [
+        2340,
+        150,
+        2340,
+        1500
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.0RJdf7EihKnpi1Nr"
+    },
+    {
+      "_id": "4xUKDzQHJ9sbil1T",
+      "c": [
+        1680,
+        1050,
+        2340,
+        1050
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.4xUKDzQHJ9sbil1T"
+    },
+    {
+      "_id": "ofEPpgwU9aqjiQJa",
+      "c": [
+        1980,
+        690,
+        1980,
+        1050
+      ],
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.ofEPpgwU9aqjiQJa"
+    },
+    {
+      "_id": "j0PzRUIopkysOcGr",
+      "c": [
+        360,
+        1350,
+        540,
+        1350
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "slidingModern",
+      "sight": 0,
+      "light": 0,
+      "sound": 10,
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.j0PzRUIopkysOcGr"
+    },
+    {
+      "_id": "jyRLHrpZyQKcOthz",
+      "c": [
+        150,
+        540,
+        150,
+        630
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.jyRLHrpZyQKcOthz"
+    },
+    {
+      "_id": "pthSwbD7Rdo5kSzX",
+      "c": [
+        240,
+        750,
+        330,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.pthSwbD7Rdo5kSzX"
+    },
+    {
+      "_id": "imZG7fSREBOS3ws8",
+      "c": [
+        1290,
+        720,
+        1290,
+        840
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.imZG7fSREBOS3ws8"
+    },
+    {
+      "_id": "OLQ40vYnmg10cSkI",
+      "c": [
+        1530,
+        720,
+        1530,
+        840
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.OLQ40vYnmg10cSkI"
+    },
+    {
+      "_id": "osnj6dSAZZSDBJcb",
+      "c": [
+        1530,
+        300,
+        1530,
+        390
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.osnj6dSAZZSDBJcb"
+    },
+    {
+      "_id": "S3eLnH0Sn6xNqe2x",
+      "c": [
+        1530,
+        1200,
+        1530,
+        1320
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.S3eLnH0Sn6xNqe2x"
+    },
+    {
+      "_id": "MtzX3VopQuWjsIyE",
+      "c": [
+        1680,
+        360,
+        1680,
+        480
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "slidingModern",
+      "sight": 0,
+      "light": 0,
+      "sound": 10,
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.MtzX3VopQuWjsIyE"
+    },
+    {
+      "_id": "Qr9yXhQqL2Ag33dN",
+      "c": [
+        1680,
+        810,
+        1680,
+        900
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.Qr9yXhQqL2Ag33dN"
+    },
+    {
+      "_id": "SPU8Go2DelvhqxKF",
+      "c": [
+        2100,
+        690,
+        2220,
+        690
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.SPU8Go2DelvhqxKF"
+    },
+    {
+      "_id": "0Fe5S4F0CiPeEy9L",
+      "c": [
+        1680,
+        1230,
+        1680,
+        1320
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!31m6soUGWtB8S2vB.0Fe5S4F0CiPeEy9L"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "ZgrloHqWqGz96m5i",
+      "name": "Subir a la planta 6 (ascensor)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 480,
+          "y": 480,
+          "width": 300,
+          "height": 240,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "QS81G0nZjaZYV6EQ",
+          "name": "Subir a la planta 6 (ascensor)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.31m6soUGWtB8S2vB.Region.dLPOWGpcl0kBuVCP"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!31m6soUGWtB8S2vB.ZgrloHqWqGz96m5i.QS81G0nZjaZYV6EQ"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.ZgrloHqWqGz96m5i"
+    },
+    {
+      "_id": "n00rDUADQeEk2SmO",
+      "name": "Subir a la planta 6 (escalera)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 180,
+          "y": 180,
+          "width": 120,
+          "height": 90,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "Ol3UpC6K6LRV5lqG",
+          "name": "Subir a la planta 6 (escalera)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.31m6soUGWtB8S2vB.Region.dLPOWGpcl0kBuVCP"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!31m6soUGWtB8S2vB.n00rDUADQeEk2SmO.Ol3UpC6K6LRV5lqG"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.n00rDUADQeEk2SmO"
+    },
+    {
+      "_id": "dLPOWGpcl0kBuVCP",
+      "name": "Llegada a la planta 6",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1140,
+          "y": 720,
+          "width": 120,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.dLPOWGpcl0kBuVCP"
+    },
+    {
+      "_id": "Wsac4ZxZTeNNpOoS",
+      "name": "Bajar a la planta baja",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1020,
+          "y": 780,
+          "width": 105,
+          "height": 90,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "r2H0UaUDAsNzgY5M",
+          "name": "Bajar a la planta baja",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.31m6soUGWtB8S2vB.Region.3uWvO47znSooT8ia"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!31m6soUGWtB8S2vB.Wsac4ZxZTeNNpOoS.r2H0UaUDAsNzgY5M"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.Wsac4ZxZTeNNpOoS"
+    },
+    {
+      "_id": "3uWvO47znSooT8ia",
+      "name": "Llegada a la planta baja",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 540,
+          "y": 870,
+          "width": 150,
+          "height": 120,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.3uWvO47znSooT8ia"
+    },
+    {
+      "_id": "yZexNUQhJHpCDKXc",
+      "name": "Llegada desde la calle (Martiricos · el laboratorio satélite)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 375,
+          "y": 1020,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.yZexNUQhJHpCDKXc"
+    },
+    {
+      "_id": "suaDXUv0CMX1dLlq",
+      "name": "Salir a la calle (Martiricos · el laboratorio satélite)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 375,
+          "y": 1200,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "eQHJuVEaQfGL7xPi",
+          "name": "Salir a la calle (Martiricos · el laboratorio satélite)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.ZoRbtqbkuxXAjK1C.Region.A5gStK5qJIahTRnm"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!31m6soUGWtB8S2vB.suaDXUv0CMX1dLlq.eQHJuVEaQfGL7xPi"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.suaDXUv0CMX1dLlq"
+    },
+    {
+      "_id": "0Ta12sHd7l3jv7h8",
+      "name": "Llegada desde la calle (Martiricos · el laboratorio satélite)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 300,
+          "y": 510,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.0Ta12sHd7l3jv7h8"
+    },
+    {
+      "_id": "ZlYNa0l5aO6rG6Ik",
+      "name": "Salir a la calle (Martiricos · el laboratorio satélite)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 150,
+          "y": 510,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "9ppaI6XAPyiStOJP",
+          "name": "Salir a la calle (Martiricos · el laboratorio satélite)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.ZoRbtqbkuxXAjK1C.Region.Vxs1OPDusItjmpxr"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!31m6soUGWtB8S2vB.ZlYNa0l5aO6rG6Ik.9ppaI6XAPyiStOJP"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!31m6soUGWtB8S2vB.ZlYNa0l5aO6rG6Ik"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "YK5roJq33ZA7ORLk",
+      "name": "Vestíbulo (siempre encendido)",
+      "x": 480,
+      "y": 1050,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 3.05,
+        "dim": 6.1,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!31m6soUGWtB8S2vB.YK5roJq33ZA7ORLk"
+    },
+    {
+      "_id": "Q3oAdpW99QNctibJ",
+      "name": "Monitor del vigilante",
+      "x": 330,
+      "y": 1170,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 0,
+        "dim": 3.05,
+        "color": "#4fd1a5",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!31m6soUGWtB8S2vB.Q3oAdpW99QNctibJ"
+    },
+    {
+      "_id": "wcWbai2ZUK8BtYwm",
+      "name": "Cartel de salida del rellano",
+      "x": 1140,
+      "y": 780,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 2,
+        "dim": 6,
+        "color": "#7fd1ff",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!31m6soUGWtB8S2vB.wcWbai2ZUK8BtYwm"
+    },
+    {
+      "_id": "zQPmwHh8sdXjDxnm",
+      "name": "Cartel de salida del pasillo",
+      "x": 1605,
+      "y": 210,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 2,
+        "dim": 6,
+        "color": "#7fd1ff",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!31m6soUGWtB8S2vB.zQPmwHh8sdXjDxnm"
+    },
+    {
+      "_id": "z7dV3HrUPVbsj7bY",
+      "name": "Lámpara del escritorio de Salas",
+      "x": 2025,
+      "y": 1215,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 3.35,
+        "color": "#ffb35c",
+        "coloration": 1,
+        "attenuation": 0.85,
+        "luminosity": 0.3,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!31m6soUGWtB8S2vB.z7dV3HrUPVbsj7bY"
+    },
+    {
+      "_id": "E6F8TqW6ueItVHdV",
+      "x": 2280,
+      "y": 585,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.35,
+        "angle": 360,
+        "bright": 0,
+        "dim": 2.44,
+        "color": "#8fb3c9",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "fog",
+          "speed": 1,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!31m6soUGWtB8S2vB.E6F8TqW6ueItVHdV"
+    },
+    {
+      "_id": "gX95CDnk2Zh8TGkB",
+      "x": 1770,
+      "y": 870,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 0,
+        "dim": 3.05,
+        "color": "#4fd1a5",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!31m6soUGWtB8S2vB.gX95CDnk2Zh8TGkB"
+    }
+  ],
+  "tokens": [
+    {
+      "_id": "Mf8aoMWk0BEPbTnE",
+      "name": "Dra. Irene Salas",
+      "displayName": 30,
+      "actorId": "kWQNBnBz3V9gvlnP",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/dra-salas.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1800,
+      "y": 1350,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "Zdrue0aHrFZzejlO",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": true,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": -1,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "laboratorio-satelite",
+          "sala": "Despacho de Salas",
+          "pnj": "dra-salas"
+        }
+      },
+      "_key": "!scenes.tokens!31m6soUGWtB8S2vB.Mf8aoMWk0BEPbTnE"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "32XVojAsQPUNlJxt",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "UeG030yVtw6avRpw",
+      "x": 480,
+      "y": 1050,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F1",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Vestíbulo"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.32XVojAsQPUNlJxt"
+    },
+    {
+      "_id": "tdzsN95nTPp93xWE",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "VfL4ysQjOmwq2g6a",
+      "x": 630,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F2",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Ascensores"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.tdzsN95nTPp93xWE"
+    },
+    {
+      "_id": "lgnMvsqBrMwFnJxe",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "1QNlu50kzNLMdYfG",
+      "x": 300,
+      "y": 450,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F3",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Escalera de emergencia (planta baja)"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.lgnMvsqBrMwFnJxe"
+    },
+    {
+      "_id": "hWWXIuTlHS3I1mZi",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "mLH7oVKFf0IXjTWq",
+      "x": 1140,
+      "y": 780,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F4",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Rellano de la planta 6"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.hWWXIuTlHS3I1mZi"
+    },
+    {
+      "_id": "u0WQLEYQ9fDWt0tZ",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "2yGoKhBR9k2e1PBM",
+      "x": 1410,
+      "y": 780,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F5",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Esclusa"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.u0WQLEYQ9fDWt0tZ"
+    },
+    {
+      "_id": "T3AzBLFuDlAyrPo4",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "0V4wTz9BqM2Clq8Q",
+      "x": 1260,
+      "y": 375,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F6",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Sala de técnicos"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.T3AzBLFuDlAyrPo4"
+    },
+    {
+      "_id": "8PCBMnW1dd6IspUg",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "YSe9ROKNG7G3chNV",
+      "x": 1605,
+      "y": 825,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F7",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Pasillo del laboratorio"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.8PCBMnW1dd6IspUg"
+    },
+    {
+      "_id": "NBUSj12hRX6i8lPw",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "ly121PWTE2IVKzPc",
+      "x": 2010,
+      "y": 420,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F8",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Laboratorio"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.NBUSj12hRX6i8lPw"
+    },
+    {
+      "_id": "RsqFcvkQUGtH9WIC",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "F7uTAUsNwpSMorKU",
+      "x": 1830,
+      "y": 870,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F9",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Sala de servidores"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.RsqFcvkQUGtH9WIC"
+    },
+    {
+      "_id": "l6Ed0waMzbhjGt4g",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "8XdXrzIMlT6Zpq3L",
+      "x": 2160,
+      "y": 870,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F10",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Cámara fría"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.l6Ed0waMzbhjGt4g"
+    },
+    {
+      "_id": "ncsLgnEjmOH2zQXM",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "z2KcoznFJuCLeviA",
+      "x": 2010,
+      "y": 1275,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F11",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Despacho de Salas"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.ncsLgnEjmOH2zQXM"
+    },
+    {
+      "_id": "SBM7Oyf0W6IbPwIu",
+      "entryId": "iSa0UKrw86qlV5i0",
+      "pageId": "NxwdmWERwyLJIg1F",
+      "x": 1260,
+      "y": 1230,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "F12",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "laboratorio-satelite",
+          "sala": "Sala de procedimientos"
+        }
+      },
+      "_key": "!scenes.notes!31m6soUGWtB8S2vB.SBM7Oyf0W6IbPwIu"
+    }
+  ],
+  "sounds": [],
+  "tiles": [
+    {
+      "_id": "kdWVMEbihqYiIWoF",
+      "name": "silla oficina",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 330,
+      "y": 1092,
+      "width": 48,
+      "height": 48,
+      "elevation": 0,
+      "levels": [
+        "Zdrue0aHrFZzejlO"
+      ],
+      "sort": 0,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "laboratorio-satelite",
+          "tipo": "silla"
+        }
+      },
+      "_key": "!scenes.tiles!31m6soUGWtB8S2vB.kdWVMEbihqYiIWoF"
+    },
+    {
+      "_id": "kKyxmvotTuV6qupO",
+      "name": "silla oficina",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2025,
+      "y": 1302,
+      "width": 48,
+      "height": 48,
+      "elevation": 0,
+      "levels": [
+        "Zdrue0aHrFZzejlO"
+      ],
+      "sort": 1,
+      "rotation": 180,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "laboratorio-satelite",
+          "tipo": "silla"
+        }
+      },
+      "_key": "!scenes.tiles!31m6soUGWtB8S2vB.kKyxmvotTuV6qupO"
+    },
+    {
+      "_id": "hBZTK79BoaQmOYon",
+      "name": "sofa espera",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-sofa-espera.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2175,
+      "y": 1437,
+      "width": 210,
+      "height": 78,
+      "elevation": 0,
+      "levels": [
+        "Zdrue0aHrFZzejlO"
+      ],
+      "sort": 2,
+      "rotation": 180,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "laboratorio-satelite",
+          "tipo": "sofa"
+        }
+      },
+      "_key": "!scenes.tiles!31m6soUGWtB8S2vB.hBZTK79BoaQmOYon"
+    },
+    {
+      "_id": "h1Z9WBbisC7mHBza",
+      "name": "carro instrumental",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-carro-instrumental.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1425,
+      "y": 1305,
+      "width": 90,
+      "height": 60,
+      "elevation": 0,
+      "levels": [
+        "Zdrue0aHrFZzejlO"
+      ],
+      "sort": 3,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "laboratorio-satelite",
+          "tipo": "carro"
+        }
+      },
+      "_key": "!scenes.tiles!31m6soUGWtB8S2vB.h1Z9WBbisC7mHBza"
+    }
+  ],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "laboratorio-satelite",
+      "nota": "Dos plantas de la misma torre de Martiricos. A la izquierda, la planta baja: el vestíbulo con los tornos y el mostrador de Rafa, los ascensores y la escalera de emergencia, cuya puerta da al paseo del río. A la derecha, la planta 6, alquilada por una sociedad pantalla de Somnia: esclusa con lector de tarjeta, sala de técnicos, laboratorio, servidores, cámara fría, el despacho de Salas y la sala de procedimientos. Ascensor y escalera unen las dos plantas (regiones). De noche la planta 6 está a oscuras salvo las pantallas y la heladera de los viales. Los muebles móviles (4) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
+      "plano": "laboratorio-satelite",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

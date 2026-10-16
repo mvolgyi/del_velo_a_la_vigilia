@@ -8,7 +8,7 @@ intro: La Alameda Principal y la boca de calle Larios de madrugada: la cruz verd
 tokens: quimera-suelta @farmacia-guardia (oculto)
 
 :::leer
-Los plátanos de la Alameda gotean sobre los bancos y sobre el carril bus vacío. En la esquina de Larios, el mármol del suelo brilla como un espejo bajo los escaparates encendidos. La cruz verde de la farmacia parpadea sobre una ventanilla con timbre. A media cuadra, un coche patrulla con el motor en marcha.
+Los plátanos de la Alameda gotean sobre los bancos y sobre el carril bus vacío. En la esquina de Larios, el mármol del suelo brilla como un espejo bajo los escaparates encendidos. En la esquina de la manzana de la izquierda, la cruz verde de la farmacia parpadea sobre una ventanilla con timbre. A media cuadra, un coche patrulla con el motor en marcha.
 :::
 
 **Qué hay.** La ventanilla blindada de la farmacia, con su cámara encima. Calle Larios, peatonal y llena de cámaras de comercios; la Alameda, ancha, con el carril bus y paradas de las líneas nocturnas. Los troncos de los plátanos y los quioscos cerrados dan algo de cobertura. Hacia el sur, el puerto y el Muelle Uno; hacia el oeste, el puente sobre el Guadalmedina.

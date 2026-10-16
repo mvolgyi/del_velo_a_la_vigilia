@@ -1,0 +1,1366 @@
+{
+  "_comentario": "Interiores de Málaga que no son de Somnia ni del convento: la comisaría provincial y la torre de Martiricos con el laboratorio satélite. Formato: MAPS_SPEC.md.",
+  "planos": [
+    {
+      "id": "comisaria-interior",
+      "nombre": "Málaga · La comisaría provincial por dentro",
+      "orden": 40,
+      "carpeta": "Málaga · interiores",
+      "ancho": 80,
+      "alto": 60,
+      "paleta": "clinica",
+      "fondo": "edificio",
+      "oscuridad": 0.35,
+      "exterior": "the other wings of the same police headquarters: plain flat dark concrete roofs with no detail, continuous on every side; night",
+      "nota": "La planta baja de la Comisaría Provincial de la Plaza de Manuel Azaña. Lo público queda al sur (vestíbulo, arco de seguridad, atención al ciudadano); detrás de la puerta de seguridad, el pasillo de servicio con las oficinas, el despacho del subinspector Gálvez, interrogatorios, la armería y la sala de guardia con las cámaras. Al este, el circuito de detenidos: garaje, ingreso y calabozos. La puerta principal conecta con la plaza (región).",
+      "habitaciones": [
+        {
+          "nombre": "Oficinas de Policía Judicial",
+          "x": 5,
+          "y": 5,
+          "w": 22,
+          "h": 20,
+          "piso": "moqueta"
+        },
+        {
+          "nombre": "Despacho de Gálvez",
+          "x": 27,
+          "y": 5,
+          "w": 13,
+          "h": 20,
+          "piso": "linoleo"
+        },
+        {
+          "nombre": "Sala de observación",
+          "x": 40,
+          "y": 5,
+          "w": 12,
+          "h": 8,
+          "piso": "linoleo"
+        },
+        {
+          "nombre": "Sala de interrogatorios",
+          "x": 40,
+          "y": 13,
+          "w": 12,
+          "h": 12,
+          "piso": "linoleo"
+        },
+        {
+          "nombre": "Armería",
+          "x": 52,
+          "y": 5,
+          "w": 10,
+          "h": 20,
+          "piso": "hormigon"
+        },
+        {
+          "nombre": "Sala de guardia",
+          "x": 62,
+          "y": 5,
+          "w": 16,
+          "h": 20,
+          "piso": "linoleo"
+        },
+        {
+          "nombre": "Pasillo de servicio",
+          "x": 5,
+          "y": 25,
+          "w": 73,
+          "h": 5,
+          "piso": "linoleo"
+        },
+        {
+          "nombre": "Control de acceso",
+          "x": 5,
+          "y": 30,
+          "w": 20,
+          "h": 10,
+          "piso": "terrazo"
+        },
+        {
+          "nombre": "Vestíbulo",
+          "x": 5,
+          "y": 40,
+          "w": 20,
+          "h": 15,
+          "piso": "terrazo"
+        },
+        {
+          "nombre": "Atención al ciudadano",
+          "x": 25,
+          "y": 30,
+          "w": 20,
+          "h": 25,
+          "piso": "terrazo"
+        },
+        {
+          "nombre": "Ingreso de detenidos",
+          "x": 45,
+          "y": 30,
+          "w": 17,
+          "h": 12,
+          "piso": "azulejo"
+        },
+        {
+          "nombre": "Garaje de detenidos",
+          "x": 45,
+          "y": 42,
+          "w": 17,
+          "h": 13,
+          "piso": "hormigon"
+        },
+        {
+          "nombre": "Pasillo de calabozos",
+          "x": 62,
+          "y": 30,
+          "w": 4,
+          "h": 25,
+          "piso": "hormigon"
+        },
+        {
+          "nombre": "Calabozo 1",
+          "x": 66,
+          "y": 30,
+          "w": 12,
+          "h": 8,
+          "piso": "hormigon"
+        },
+        {
+          "nombre": "Calabozo 2",
+          "x": 66,
+          "y": 38,
+          "w": 12,
+          "h": 8,
+          "piso": "hormigon"
+        },
+        {
+          "nombre": "Calabozo 3",
+          "x": 66,
+          "y": 46,
+          "w": 12,
+          "h": 9,
+          "piso": "hormigon"
+        }
+      ],
+      "vanos": [
+        {
+          "x": 12,
+          "y": 55,
+          "w": 5,
+          "eje": "h",
+          "tipo": "puerta-vidrio",
+          "nombre": "Puerta principal"
+        },
+        {
+          "x": 11,
+          "y": 40,
+          "w": 5,
+          "eje": "h",
+          "tipo": "abierto",
+          "nombre": "Arco de seguridad"
+        },
+        {
+          "x": 25,
+          "y": 45,
+          "w": 6,
+          "eje": "v",
+          "tipo": "abierto",
+          "nombre": "Vestíbulo → atención"
+        },
+        {
+          "x": 12,
+          "y": 30,
+          "w": 4,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Puerta de seguridad",
+          "estado": "cerrada"
+        },
+        {
+          "x": 35,
+          "y": 30,
+          "w": 3,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Puerta de personal",
+          "estado": "trabada"
+        },
+        {
+          "x": 14,
+          "y": 25,
+          "w": 4,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Oficinas"
+        },
+        {
+          "x": 32,
+          "y": 25,
+          "w": 3,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Despacho de Gálvez"
+        },
+        {
+          "x": 40,
+          "y": 8,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Despacho → observación"
+        },
+        {
+          "x": 42,
+          "y": 13,
+          "w": 8,
+          "eje": "h",
+          "tipo": "vidrio",
+          "nombre": "Espejo de interrogatorios"
+        },
+        {
+          "x": 45,
+          "y": 25,
+          "w": 3,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Interrogatorios",
+          "estado": "cerrada"
+        },
+        {
+          "x": 55,
+          "y": 25,
+          "w": 3,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Armería",
+          "estado": "trabada"
+        },
+        {
+          "x": 68,
+          "y": 25,
+          "w": 3,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Sala de guardia"
+        },
+        {
+          "x": 50,
+          "y": 30,
+          "w": 4,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Ingreso"
+        },
+        {
+          "x": 52,
+          "y": 42,
+          "w": 4,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Garaje → ingreso"
+        },
+        {
+          "x": 49,
+          "y": 55,
+          "w": 9,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Portón del garaje",
+          "estado": "cerrada"
+        },
+        {
+          "x": 62,
+          "y": 30,
+          "w": 4,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Reja de calabozos",
+          "estado": "trabada"
+        },
+        {
+          "x": 62,
+          "y": 34,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Ingreso → calabozos",
+          "estado": "cerrada"
+        },
+        {
+          "x": 66,
+          "y": 33,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Calabozo 1",
+          "estado": "trabada"
+        },
+        {
+          "x": 66,
+          "y": 41,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Calabozo 2",
+          "estado": "trabada"
+        },
+        {
+          "x": 66,
+          "y": 49,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Calabozo 3",
+          "estado": "trabada"
+        }
+      ],
+      "muebles": [
+        {
+          "tipo": "escritorio",
+          "x": 7,
+          "y": 8,
+          "w": 5,
+          "h": 2.5,
+          "desc": "a cluttered police desk with a computer and case files"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 14,
+          "y": 8,
+          "w": 5,
+          "h": 2.5,
+          "desc": "a cluttered police desk with a computer and case files"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 7,
+          "y": 15,
+          "w": 5,
+          "h": 2.5,
+          "desc": "a cluttered police desk with a computer and case files"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 14,
+          "y": 15,
+          "w": 5,
+          "h": 2.5,
+          "desc": "a cluttered police desk with a computer and case files"
+        },
+        {
+          "tipo": "estante",
+          "x": 22.8,
+          "y": 7,
+          "w": 1.6,
+          "h": 8,
+          "desc": "grey metal filing cabinets"
+        },
+        {
+          "tipo": "corcho",
+          "x": 8,
+          "y": 5.6,
+          "w": 12,
+          "h": 0.9,
+          "desc": "a whiteboard covered in case photos and arrows"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 29.5,
+          "y": 9,
+          "w": 6,
+          "h": 3,
+          "desc": "the sub-inspector's desk with an overflowing ashtray and stacks of files"
+        },
+        {
+          "tipo": "estante",
+          "x": 37.8,
+          "y": 6,
+          "w": 1.5,
+          "h": 8,
+          "desc": "a shelf of ring binders"
+        },
+        {
+          "tipo": "silla",
+          "x": 31.8,
+          "y": 12.6,
+          "w": 1.6,
+          "h": 1.6,
+          "fijo": true,
+          "desc": "a chair (already painted)"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 42,
+          "y": 10.6,
+          "w": 8,
+          "h": 2,
+          "desc": "a desk with recording equipment, a monitor and headphones"
+        },
+        {
+          "tipo": "silla",
+          "x": 45.2,
+          "y": 8.6,
+          "w": 1.6,
+          "h": 1.6,
+          "fijo": true,
+          "desc": "a chair (already painted)"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 44,
+          "y": 17.5,
+          "w": 4,
+          "h": 3,
+          "desc": "a bolted steel interrogation table with a ring for handcuffs"
+        },
+        {
+          "tipo": "silla",
+          "x": 45.2,
+          "y": 15.6,
+          "w": 1.6,
+          "h": 1.6,
+          "fijo": true,
+          "desc": "a chair (already painted)"
+        },
+        {
+          "tipo": "silla",
+          "x": 45.2,
+          "y": 20.8,
+          "w": 1.6,
+          "h": 1.6,
+          "fijo": true,
+          "desc": "a chair (already painted)"
+        },
+        {
+          "tipo": "casillero",
+          "x": 53,
+          "y": 6,
+          "w": 1.5,
+          "h": 9,
+          "desc": "a row of steel lockers"
+        },
+        {
+          "tipo": "estante",
+          "x": 60,
+          "y": 6,
+          "w": 1.5,
+          "h": 10,
+          "desc": "a locked steel gun cabinet"
+        },
+        {
+          "tipo": "mostrador",
+          "x": 53,
+          "y": 19,
+          "w": 8,
+          "h": 2,
+          "desc": "the armoury counter"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 64,
+          "y": 7,
+          "w": 12,
+          "h": 2.5,
+          "desc": "a long console with a bank of CCTV monitors and a radio set"
+        },
+        {
+          "tipo": "rack",
+          "x": 75.6,
+          "y": 13,
+          "w": 2,
+          "h": 7,
+          "desc": "a rack of radio and recording equipment"
+        },
+        {
+          "tipo": "silla",
+          "x": 66.4,
+          "y": 10.2,
+          "w": 1.6,
+          "h": 1.6,
+          "tile": "tile-silla-oficina",
+          "hacia": "n"
+        },
+        {
+          "tipo": "silla",
+          "x": 71.4,
+          "y": 10.2,
+          "w": 1.6,
+          "h": 1.6,
+          "tile": "tile-silla-oficina",
+          "hacia": "n"
+        },
+        {
+          "tipo": "maquina",
+          "x": 10.5,
+          "y": 33.5,
+          "w": 4,
+          "h": 2.5,
+          "desc": "a walk-through metal detector arch"
+        },
+        {
+          "tipo": "maquina",
+          "x": 16,
+          "y": 33,
+          "w": 6,
+          "h": 2.5,
+          "desc": "an X-ray baggage scanner with a conveyor belt"
+        },
+        {
+          "tipo": "mostrador",
+          "x": 6,
+          "y": 31,
+          "w": 3,
+          "h": 7,
+          "desc": "the duty officer's desk"
+        },
+        {
+          "tipo": "banco",
+          "x": 6,
+          "y": 46,
+          "w": 1.8,
+          "h": 6,
+          "desc": "a row of metal waiting seats"
+        },
+        {
+          "tipo": "banco",
+          "x": 21,
+          "y": 46,
+          "w": 1.8,
+          "h": 6,
+          "desc": "a row of metal waiting seats"
+        },
+        {
+          "tipo": "mostrador",
+          "x": 27,
+          "y": 31,
+          "w": 14,
+          "h": 2.5,
+          "desc": "the public counter for reporting crimes, behind glass screens"
+        },
+        {
+          "tipo": "banco",
+          "x": 29,
+          "y": 40,
+          "w": 11,
+          "h": 1.8,
+          "desc": "a row of bolted plastic waiting chairs"
+        },
+        {
+          "tipo": "banco",
+          "x": 29,
+          "y": 45,
+          "w": 11,
+          "h": 1.8,
+          "desc": "a row of bolted plastic waiting chairs"
+        },
+        {
+          "tipo": "banco",
+          "x": 29,
+          "y": 50,
+          "w": 11,
+          "h": 1.8,
+          "desc": "a row of bolted plastic waiting chairs"
+        },
+        {
+          "tipo": "maquina",
+          "x": 42,
+          "y": 52,
+          "w": 2,
+          "h": 2,
+          "desc": "a ticket dispenser"
+        },
+        {
+          "tipo": "mostrador",
+          "x": 47,
+          "y": 31,
+          "w": 10,
+          "h": 2.5,
+          "desc": "the booking counter"
+        },
+        {
+          "tipo": "maquina",
+          "x": 58.5,
+          "y": 32,
+          "w": 2.5,
+          "h": 3,
+          "desc": "a fingerprint scanner"
+        },
+        {
+          "tipo": "banco",
+          "x": 47,
+          "y": 39.4,
+          "w": 8,
+          "h": 1.6,
+          "desc": "a steel bench with handcuff rings"
+        },
+        {
+          "tipo": "banco",
+          "x": 75.6,
+          "y": 31,
+          "w": 2,
+          "h": 6,
+          "desc": "a concrete bunk"
+        },
+        {
+          "tipo": "inodoro",
+          "x": 67,
+          "y": 35.4,
+          "w": 1.5,
+          "h": 2,
+          "desc": "a steel toilet"
+        },
+        {
+          "tipo": "banco",
+          "x": 75.6,
+          "y": 39,
+          "w": 2,
+          "h": 6,
+          "desc": "a concrete bunk"
+        },
+        {
+          "tipo": "inodoro",
+          "x": 67,
+          "y": 43.4,
+          "w": 1.5,
+          "h": 2,
+          "desc": "a steel toilet"
+        },
+        {
+          "tipo": "banco",
+          "x": 75.6,
+          "y": 47,
+          "w": 2,
+          "h": 7,
+          "desc": "a concrete bunk"
+        },
+        {
+          "tipo": "inodoro",
+          "x": 67,
+          "y": 52.2,
+          "w": 1.5,
+          "h": 2,
+          "desc": "a steel toilet"
+        }
+      ],
+      "luces": [
+        {
+          "x": 15,
+          "y": 15,
+          "preset": "fluorescente",
+          "nombre": "Oficinas"
+        },
+        {
+          "x": 33,
+          "y": 16,
+          "preset": "lampara-tenue",
+          "nombre": "Lámpara de Gálvez"
+        },
+        {
+          "x": 46,
+          "y": 9,
+          "preset": "pantalla",
+          "nombre": "Monitores de observación"
+        },
+        {
+          "x": 46,
+          "y": 19,
+          "preset": "fluorescente-viejo",
+          "nombre": "Tubo de interrogatorios"
+        },
+        {
+          "x": 70,
+          "y": 9,
+          "preset": "pantalla",
+          "nombre": "Monitores de la sala de guardia"
+        },
+        {
+          "x": 40,
+          "y": 27.5,
+          "preset": "fluorescente",
+          "nombre": "Pasillo de servicio"
+        },
+        {
+          "x": 15,
+          "y": 35,
+          "preset": "fluorescente",
+          "nombre": "Control de acceso"
+        },
+        {
+          "x": 15,
+          "y": 48,
+          "preset": "fluorescente",
+          "nombre": "Vestíbulo"
+        },
+        {
+          "x": 35,
+          "y": 42,
+          "preset": "fluorescente",
+          "nombre": "Atención al ciudadano"
+        },
+        {
+          "x": 53,
+          "y": 36,
+          "preset": "fluorescente",
+          "nombre": "Ingreso"
+        },
+        {
+          "x": 53,
+          "y": 48,
+          "preset": "fluorescente-viejo",
+          "nombre": "Garaje"
+        },
+        {
+          "x": 64,
+          "y": 42,
+          "preset": "fluorescente-viejo",
+          "nombre": "Pasillo de calabozos"
+        },
+        {
+          "x": 72,
+          "y": 34,
+          "preset": "fluorescente-viejo",
+          "nombre": "Calabozo 1"
+        },
+        {
+          "x": 72,
+          "y": 42,
+          "preset": "fluorescente-viejo",
+          "nombre": "Calabozo 2"
+        },
+        {
+          "x": 72,
+          "y": 50,
+          "preset": "fluorescente-viejo",
+          "nombre": "Calabozo 3"
+        }
+      ],
+      "regiones": [
+        {
+          "id": "desde-comisaria",
+          "nombre": "Llegada desde la calle (La comisaría provincial)",
+          "x": 12,
+          "y": 44,
+          "w": 5,
+          "h": 5,
+          "destino": "comisaria:entrada-1",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "salida-comisaria",
+          "nombre": "Salir a la calle (La comisaría provincial)",
+          "x": 12,
+          "y": 50,
+          "w": 5,
+          "h": 5,
+          "destino": "comisaria:entrada-1",
+          "color": "#8c2f5c"
+        }
+      ]
+    },
+    {
+      "id": "laboratorio-satelite",
+      "nombre": "Martiricos · La torre y el laboratorio satélite",
+      "orden": 41,
+      "carpeta": "Málaga · interiores",
+      "ancho": 80,
+      "alto": 60,
+      "paleta": "clinica",
+      "fondo": "edificio",
+      "oscuridad": 0.75,
+      "exterior": "the rest of the office tower at night: plain flat dark concrete with no detail, continuous on every side; the two areas of the plan are different floors of the same building",
+      "nota": "Dos plantas de la misma torre de Martiricos. A la izquierda, la planta baja: el vestíbulo con los tornos y el mostrador de Rafa, los ascensores y la escalera de emergencia, cuya puerta da al paseo del río. A la derecha, la planta 6, alquilada por una sociedad pantalla de Somnia: esclusa con lector de tarjeta, sala de técnicos, laboratorio, servidores, cámara fría, el despacho de Salas y la sala de procedimientos. Ascensor y escalera unen las dos plantas (regiones). De noche la planta 6 está a oscuras salvo las pantallas y la heladera de los viales.",
+      "habitaciones": [
+        {
+          "nombre": "Escalera de emergencia (planta baja)",
+          "x": 5,
+          "y": 5,
+          "w": 10,
+          "h": 20,
+          "piso": "hormigon"
+        },
+        {
+          "nombre": "Ascensores",
+          "x": 15,
+          "y": 15,
+          "w": 12,
+          "h": 10,
+          "piso": "terrazo"
+        },
+        {
+          "nombre": "Vestíbulo",
+          "x": 5,
+          "y": 25,
+          "w": 22,
+          "h": 20,
+          "piso": "terrazo"
+        },
+        {
+          "nombre": "Rellano de la planta 6",
+          "x": 33,
+          "y": 20,
+          "w": 10,
+          "h": 12,
+          "piso": "terrazo"
+        },
+        {
+          "nombre": "Esclusa",
+          "x": 43,
+          "y": 20,
+          "w": 8,
+          "h": 12,
+          "piso": "azulejo"
+        },
+        {
+          "nombre": "Sala de técnicos",
+          "x": 33,
+          "y": 5,
+          "w": 18,
+          "h": 15,
+          "piso": "linoleo"
+        },
+        {
+          "nombre": "Pasillo del laboratorio",
+          "x": 51,
+          "y": 5,
+          "w": 5,
+          "h": 45,
+          "piso": "linoleo"
+        },
+        {
+          "nombre": "Laboratorio",
+          "x": 56,
+          "y": 5,
+          "w": 22,
+          "h": 18,
+          "piso": "azulejo"
+        },
+        {
+          "nombre": "Sala de servidores",
+          "x": 56,
+          "y": 23,
+          "w": 10,
+          "h": 12,
+          "piso": "tecnico"
+        },
+        {
+          "nombre": "Cámara fría",
+          "x": 66,
+          "y": 23,
+          "w": 12,
+          "h": 12,
+          "piso": "azulejo"
+        },
+        {
+          "nombre": "Despacho de Salas",
+          "x": 56,
+          "y": 35,
+          "w": 22,
+          "h": 15,
+          "piso": "moqueta"
+        },
+        {
+          "nombre": "Sala de procedimientos",
+          "x": 33,
+          "y": 32,
+          "w": 18,
+          "h": 18,
+          "piso": "azulejo"
+        }
+      ],
+      "vanos": [
+        {
+          "x": 12,
+          "y": 45,
+          "w": 6,
+          "eje": "h",
+          "tipo": "puerta-vidrio",
+          "nombre": "Puerta principal de la torre"
+        },
+        {
+          "x": 5,
+          "y": 18,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Puerta de emergencia (al río)",
+          "estado": "cerrada"
+        },
+        {
+          "x": 8,
+          "y": 25,
+          "w": 3,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Vestíbulo → escalera"
+        },
+        {
+          "x": 17,
+          "y": 25,
+          "w": 8,
+          "eje": "h",
+          "tipo": "abierto",
+          "nombre": "Tornos"
+        },
+        {
+          "x": 43,
+          "y": 24,
+          "w": 4,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Puerta con lector de tarjeta",
+          "estado": "cerrada"
+        },
+        {
+          "x": 51,
+          "y": 24,
+          "w": 4,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Esclusa → pasillo",
+          "estado": "cerrada"
+        },
+        {
+          "x": 51,
+          "y": 10,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Sala de técnicos"
+        },
+        {
+          "x": 51,
+          "y": 40,
+          "w": 4,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Sala de procedimientos",
+          "estado": "cerrada"
+        },
+        {
+          "x": 56,
+          "y": 12,
+          "w": 4,
+          "eje": "v",
+          "tipo": "puerta-vidrio",
+          "nombre": "Laboratorio"
+        },
+        {
+          "x": 56,
+          "y": 27,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Sala de servidores",
+          "estado": "trabada"
+        },
+        {
+          "x": 70,
+          "y": 23,
+          "w": 4,
+          "eje": "h",
+          "tipo": "puerta",
+          "nombre": "Cámara fría",
+          "estado": "cerrada"
+        },
+        {
+          "x": 56,
+          "y": 41,
+          "w": 3,
+          "eje": "v",
+          "tipo": "puerta",
+          "nombre": "Despacho de Salas",
+          "estado": "trabada"
+        }
+      ],
+      "muebles": [
+        {
+          "tipo": "escalera",
+          "x": 6,
+          "y": 6,
+          "w": 4,
+          "h": 7,
+          "desc": "a concrete emergency staircase going up",
+          "hacia": "n",
+          "salida": false
+        },
+        {
+          "tipo": "mostrador",
+          "x": 7,
+          "y": 38,
+          "w": 8,
+          "h": 2.5,
+          "desc": "the security guard's reception desk with a small monitor and a newspaper crossword"
+        },
+        {
+          "tipo": "silla",
+          "x": 10.2,
+          "y": 35.6,
+          "w": 1.6,
+          "h": 1.6,
+          "tile": "tile-silla-oficina",
+          "hacia": "s"
+        },
+        {
+          "tipo": "maquina",
+          "x": 17,
+          "y": 26,
+          "w": 8,
+          "h": 1.5,
+          "desc": "a row of three glass speed-gate turnstiles"
+        },
+        {
+          "tipo": "banco",
+          "x": 23,
+          "y": 33,
+          "w": 1.8,
+          "h": 7,
+          "desc": "a modern lobby bench"
+        },
+        {
+          "tipo": "escalera",
+          "x": 34,
+          "y": 21,
+          "w": 3.5,
+          "h": 8,
+          "desc": "the emergency staircase landing going down",
+          "hacia": "s"
+        },
+        {
+          "tipo": "casillero",
+          "x": 44,
+          "y": 21,
+          "w": 1.5,
+          "h": 6,
+          "desc": "lockers with white lab coats"
+        },
+        {
+          "tipo": "lavabo",
+          "x": 48.5,
+          "y": 29.6,
+          "w": 2,
+          "h": 1.5,
+          "desc": "a hands-free scrub sink"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 35,
+          "y": 7,
+          "w": 5,
+          "h": 2.5,
+          "desc": "a technician's desk with a dark monitor"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 42,
+          "y": 7,
+          "w": 5,
+          "h": 2.5,
+          "desc": "a technician's desk with a dark monitor"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 35,
+          "y": 13,
+          "w": 5,
+          "h": 2.5,
+          "desc": "a technician's desk with a dark monitor"
+        },
+        {
+          "tipo": "mesada",
+          "x": 44,
+          "y": 17.6,
+          "w": 6,
+          "h": 2,
+          "desc": "a kitchenette counter with a coffee machine",
+          "anafe": false,
+          "bacha": true
+        },
+        {
+          "tipo": "mesada",
+          "x": 58,
+          "y": 6,
+          "w": 16,
+          "h": 2.5,
+          "desc": "a long lab bench with microscopes, pipettes and racks of glass vials",
+          "anafe": false,
+          "bacha": false
+        },
+        {
+          "tipo": "mesada",
+          "x": 58,
+          "y": 13,
+          "w": 11,
+          "h": 2.5,
+          "desc": "an island lab bench with a centrifuge and a sequencer",
+          "anafe": false,
+          "bacha": false
+        },
+        {
+          "tipo": "maquina",
+          "x": 73,
+          "y": 12,
+          "w": 4,
+          "h": 4,
+          "desc": "a fume hood"
+        },
+        {
+          "tipo": "heladera",
+          "x": 74.5,
+          "y": 17.5,
+          "w": 3,
+          "h": 4,
+          "desc": "a lab fridge with a glass door full of dark red vials",
+          "luz": "relicario"
+        },
+        {
+          "tipo": "estante",
+          "x": 57,
+          "y": 20.8,
+          "w": 6,
+          "h": 1.5,
+          "desc": "shelves of reagents"
+        },
+        {
+          "tipo": "rack",
+          "x": 58,
+          "y": 25,
+          "w": 2,
+          "h": 8,
+          "desc": "a server rack",
+          "luz": "pantalla"
+        },
+        {
+          "tipo": "rack",
+          "x": 61.5,
+          "y": 25,
+          "w": 2,
+          "h": 8,
+          "desc": "a server rack"
+        },
+        {
+          "tipo": "heladera",
+          "x": 67,
+          "y": 24,
+          "w": 10,
+          "h": 2.2,
+          "desc": "a wall of steel freezer doors"
+        },
+        {
+          "tipo": "estante",
+          "x": 67,
+          "y": 31,
+          "w": 10,
+          "h": 1.5,
+          "desc": "steel shelves with cool boxes of blood bags and sample tubes"
+        },
+        {
+          "tipo": "escritorio",
+          "x": 64,
+          "y": 39,
+          "w": 7,
+          "h": 3,
+          "desc": "Dr Salas's desk: stacks of lab notebooks, a laptop and a printed surgical schedule"
+        },
+        {
+          "tipo": "estante",
+          "x": 57,
+          "y": 36.5,
+          "w": 1.5,
+          "h": 10,
+          "desc": "bookshelves of medical journals and binders"
+        },
+        {
+          "tipo": "corcho",
+          "x": 64,
+          "y": 35.6,
+          "w": 10,
+          "h": 0.9,
+          "desc": "a whiteboard covered in formulas and a patient schedule"
+        },
+        {
+          "tipo": "silla",
+          "x": 66.7,
+          "y": 42.6,
+          "w": 1.6,
+          "h": 1.6,
+          "tile": "tile-silla-oficina",
+          "hacia": "n"
+        },
+        {
+          "tipo": "sofa",
+          "x": 69,
+          "y": 46.6,
+          "w": 7,
+          "h": 2.6,
+          "tile": "tile-sofa-espera",
+          "hacia": "n"
+        },
+        {
+          "tipo": "camilla-medica",
+          "x": 37,
+          "y": 38,
+          "w": 7,
+          "h": 3,
+          "desc": "a surgical table under a big operating lamp",
+          "cabecera": "o"
+        },
+        {
+          "tipo": "maquina",
+          "x": 46,
+          "y": 35,
+          "w": 3,
+          "h": 3,
+          "desc": "an anaesthesia machine with a monitor"
+        },
+        {
+          "tipo": "mesada",
+          "x": 34,
+          "y": 47,
+          "w": 10,
+          "h": 2,
+          "desc": "a steel counter with sterilised instruments",
+          "anafe": false,
+          "bacha": false
+        },
+        {
+          "tipo": "carro",
+          "x": 46.5,
+          "y": 42,
+          "w": 2,
+          "h": 3,
+          "tile": "tile-carro-instrumental"
+        }
+      ],
+      "luces": [
+        {
+          "x": 16,
+          "y": 35,
+          "preset": "fluorescente",
+          "nombre": "Vestíbulo (siempre encendido)"
+        },
+        {
+          "x": 11,
+          "y": 39,
+          "preset": "pantalla",
+          "nombre": "Monitor del vigilante"
+        },
+        {
+          "x": 38,
+          "y": 26,
+          "preset": "neon",
+          "nombre": "Cartel de salida del rellano"
+        },
+        {
+          "x": 53.5,
+          "y": 7,
+          "preset": "neon",
+          "nombre": "Cartel de salida del pasillo"
+        },
+        {
+          "x": 67.5,
+          "y": 40.5,
+          "preset": "lampara-tenue",
+          "nombre": "Lámpara del escritorio de Salas"
+        }
+      ],
+      "regiones": [
+        {
+          "id": "ascensor-pb",
+          "nombre": "Subir a la planta 6 (ascensor)",
+          "x": 16,
+          "y": 16,
+          "w": 10,
+          "h": 8,
+          "destino": "laboratorio-satelite:llegada-p6",
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "escalera-pb",
+          "nombre": "Subir a la planta 6 (escalera)",
+          "x": 6,
+          "y": 6,
+          "w": 4,
+          "h": 3,
+          "destino": "laboratorio-satelite:llegada-p6",
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "llegada-p6",
+          "nombre": "Llegada a la planta 6",
+          "x": 38,
+          "y": 24,
+          "w": 4,
+          "h": 5,
+          "destino": "laboratorio-satelite:ascensor-pb",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "bajar-p6",
+          "nombre": "Bajar a la planta baja",
+          "x": 34,
+          "y": 26,
+          "w": 3.5,
+          "h": 3,
+          "destino": "laboratorio-satelite:llegada-pb",
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "llegada-pb",
+          "nombre": "Llegada a la planta baja",
+          "x": 18,
+          "y": 29,
+          "w": 5,
+          "h": 4,
+          "destino": "laboratorio-satelite:bajar-p6",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "desde-martiricos-laboratorio",
+          "nombre": "Llegada desde la calle (Martiricos · el laboratorio satélite)",
+          "x": 12.5,
+          "y": 34,
+          "w": 5,
+          "h": 5,
+          "destino": "martiricos-laboratorio:entrada-1",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "salida-martiricos-laboratorio",
+          "nombre": "Salir a la calle (Martiricos · el laboratorio satélite)",
+          "x": 12.5,
+          "y": 40,
+          "w": 5,
+          "h": 5,
+          "destino": "martiricos-laboratorio:entrada-1",
+          "color": "#8c2f5c"
+        },
+        {
+          "id": "desde-martiricos-laboratorio-2",
+          "nombre": "Llegada desde la calle (Martiricos · el laboratorio satélite)",
+          "x": 10,
+          "y": 17,
+          "w": 5,
+          "h": 5,
+          "destino": "martiricos-laboratorio:entrada-2",
+          "llegada": true,
+          "color": "#2f7f8c"
+        },
+        {
+          "id": "salida-martiricos-laboratorio-2",
+          "nombre": "Salir a la calle (Martiricos · el laboratorio satélite)",
+          "x": 5,
+          "y": 17,
+          "w": 5,
+          "h": 5,
+          "destino": "martiricos-laboratorio:entrada-2",
+          "color": "#8c2f5c"
+        }
+      ]
+    }
+  ]
+}

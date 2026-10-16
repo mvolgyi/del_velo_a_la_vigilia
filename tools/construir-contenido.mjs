@@ -1056,7 +1056,7 @@ function escenasDePlanos(carpetas) {
 
     const { notes, tokens } = pinesYTokensDe(plano);
     escribirDoc("escenas", docEscena({
-      id: plano.id, nombre: plano.nombre, carpeta: carpetas.id("Somnia Biotech"), orden: plano.orden ?? 10,
+      id: plano.id, nombre: plano.nombre, carpeta: carpetas.id(plano.carpeta ?? "Somnia Biotech"), orden: plano.orden ?? 10,
       w: W, h: H, grid: GRID_PX, gridAlpha: 0, oscuridad: plano.oscuridad ?? 0.5, luzGlobal: plano.luzGlobal,
       fondo, walls, lights, regions, nota, notes, tokens, tiles,
       extra: { origen: "escena", plano: plano.id, provisional: fondo === esquema }

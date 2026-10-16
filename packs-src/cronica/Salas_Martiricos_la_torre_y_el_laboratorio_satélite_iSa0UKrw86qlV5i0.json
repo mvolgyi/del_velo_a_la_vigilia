@@ -1,0 +1,355 @@
+{
+  "_id": "iSa0UKrw86qlV5i0",
+  "_key": "!journal!iSa0UKrw86qlV5i0",
+  "name": "Salas · Martiricos — la torre y el laboratorio satélite",
+  "folder": "jcMvTH4WzA9DN1fp",
+  "sort": 503,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/salas/laboratorio-satelite.md",
+      "escena": "laboratorio-satelite"
+    }
+  },
+  "pages": [
+    {
+      "_id": "vhxKM0zwNMCKXCNv",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.vhxKM0zwNMCKXCNv",
+      "name": "Salas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>La escena de «Seguir a Salas» (Acto 2). Dos plantas de la misma torre junto al Guadalmedina. Abajo, el vestíbulo con los tornos y Rafa, el vigilante. Arriba, en la planta 6, el laboratorio que una sociedad pantalla alquila para Somnia, donde la Dra. Salas refina el Compuesto A y agenda las cirugías. El Informático anula las alarmas; el Doctorando sabe qué buscar.</p><p>Cada pin numerado del mapa abre la página de su sala. Los tokens de PNJ ya están colocados; los ocultos se revelan desde la capa de tokens.</p><ul><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.UeG030yVtw6avRpw]{F1. Vestíbulo}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.VfL4ysQjOmwq2g6a]{F2. Ascensores}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.1QNlu50kzNLMdYfG]{F3. Escalera de emergencia}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.mLH7oVKFf0IXjTWq]{F4. Rellano de la planta 6}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.2yGoKhBR9k2e1PBM]{F5. Esclusa}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.0V4wTz9BqM2Clq8Q]{F6. Sala de técnicos}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.YSe9ROKNG7G3chNV]{F7. Pasillo del laboratorio}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.ly121PWTE2IVKzPc]{F8. Laboratorio}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.F7uTAUsNwpSMorKU]{F9. Sala de servidores}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.8XdXrzIMlT6Zpq3L]{F10. Cámara fría}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.z2KcoznFJuCLeviA]{F11. Despacho de Salas}</li><li>@UUID[JournalEntry.iSa0UKrw86qlV5i0.JournalEntryPage.NxwdmWERwyLJIg1F]{F12. Sala de procedimientos}</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UeG030yVtw6avRpw",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.UeG030yVtw6avRpw",
+      "name": "F1. Vestíbulo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Mármol claro, un ficus de plástico y una pantalla que repite el logo de una gestoría. Detrás del mostrador, un vigilante de unos sesenta años resuelve un crucigrama con la radio bajita. Entre él y los ascensores, tres tornos de cristal con lector de tarjeta, encendidos en verde.</p>\n</section><p><strong>Qué hay.</strong> La entrada principal de la torre, con cámara sobre la puerta y otra sobre los tornos. Rafa tiene la lista de visitas de la noche: los martes y viernes aparece &quot;Laboratorios Aldaia, planta 6&quot;, que es Somnia con otro nombre. Detrás del mostrador cuelga un tablero con tarjetas de proveedor.</p>\n<p><strong>Qué pasa.</strong> Pasar por los tornos sin tarjeta: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a> o una excusa a Rafa con <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.manipulation skills.subterfuge\" data-dificultad=\"2\" data-label=\"Manipulación + Subterfugio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Manipulación + Subterfugio (dif. 2)</a>. Rafa no es enemigo: si lo tratan bien, avisa por radio cuando &quot;la doctora&quot; baja. Una tarjeta de proveedor del tablero abre la puerta de la esclusa de arriba (F5).</p>\n<p><strong>Para el Narrador.</strong> El ascensor y la escalera llevan a la planta 6 (regiones). Si la célula entra por la puerta de emergencia del río, Rafa no se entera de nada.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Vestíbulo",
+          "codigo": "F1"
+        }
+      }
+    },
+    {
+      "_id": "VfL4ysQjOmwq2g6a",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.VfL4ysQjOmwq2g6a",
+      "name": "F2. Ascensores",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Dos puertas de acero cepillado con el panel iluminado. Uno de los dos ascensores tiene el botón del 6 tapado con cinta: &quot;solo con llave&quot;.</p>\n</section><p><strong>Qué hay.</strong> El ascensor sube a la planta 6 solo con la llave o la tarjeta de Salas. Sin ella, hay que forzar el panel: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a>. Cada viaje queda en el registro del edificio.</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Ascensores",
+          "codigo": "F2"
+        }
+      }
+    },
+    {
+      "_id": "1QNlu50kzNLMdYfG",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.1QNlu50kzNLMdYfG",
+      "name": "F3. Escalera de emergencia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Hormigón pintado de gris, un pasamanos frío y una puerta con barra antipánico que da al paseo del río. La luz se enciende con un sensor de movimiento, con un segundo de retraso.</p>\n</section><p><strong>Qué hay.</strong> La puerta del río no tiene cámara y la alarma de apertura está cableada al panel del vestíbulo. Anularla antes de abrir: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a>; si no, suena en el mostrador de Rafa. Seis tramos de escalera hasta la planta 6.</p>\n<p><strong>Qué pasa.</strong> Es la ruta de la infiltración: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"3\" data-label=\"Destreza + Sigilo (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 3)</a> para subir sin que el sensor de luz de cada rellano los delate ante la cámara del pasillo de arriba.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Escalera de emergencia (planta baja)",
+          "codigo": "F3"
+        }
+      }
+    },
+    {
+      "_id": "mLH7oVKFf0IXjTWq",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.mLH7oVKFf0IXjTWq",
+      "name": "F4. Rellano de la planta 6",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>El rellano huele a desinfectante y a algo dulce debajo. La única luz es el cartel verde de salida. Una puerta blanca sin nombre, con un lector de tarjeta que parpadea en rojo.</p>\n</section><p><strong>Qué hay.</strong> La llegada desde el ascensor y la escalera. La puerta de la esclusa (F5) pide tarjeta. Una cámara pequeña sobre el marco graba a quien espere aquí.</p>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Rellano de la planta 6",
+          "codigo": "F4"
+        }
+      }
+    },
+    {
+      "_id": "2yGoKhBR9k2e1PBM",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.2yGoKhBR9k2e1PBM",
+      "name": "F5. Esclusa",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un cuarto estrecho de azulejo blanco con taquillas, batas colgadas y un lavamanos que se acciona con la rodilla. En la pared, un cartel plastificado con el protocolo de lavado.</p>\n</section><p><strong>Qué hay.</strong> Batas, guantes, mascarillas y calzas. Ponérselas hace que una cámara los tome por personal de noche. En una taquilla sin candado, la bata de Salas con su credencial de la clínica en el bolsillo.</p>\n<p><strong>Qué pasa.</strong> Abrir la puerta del rellano sin tarjeta: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a> (el Informático) o <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>.</p>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Esclusa",
+          "codigo": "F5"
+        }
+      }
+    },
+    {
+      "_id": "0V4wTz9BqM2Clq8Q",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.0V4wTz9BqM2Clq8Q",
+      "name": "F6. Sala de técnicos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Tres escritorios con los monitores apagados, tazas con restos de café y un calendario de una distribuidora farmacéutica. En la cocinita, la cafetera tiene la luz roja encendida: alguien la dejó prendida.</p>\n</section><p><strong>Qué hay.</strong> Los puestos de los técnicos que trabajan de día y no saben para quién. En un cajón, un listado de pedidos con cantidades de anticoagulante que no tienen sentido para un laboratorio de análisis. Entender por qué: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Sala de técnicos",
+          "codigo": "F6"
+        }
+      }
+    },
+    {
+      "_id": "YSe9ROKNG7G3chNV",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.YSe9ROKNG7G3chNV",
+      "name": "F7. Pasillo del laboratorio",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un pasillo largo de linóleo con puertas a los dos lados. Al fondo, una cámara domo con el piloto encendido. Del otro lado de una puerta de vidrio esmerilado, el resplandor rojizo de una heladera.</p>\n</section><p><strong>Qué hay.</strong> La cámara del fondo graba todo el pasillo y está conectada a los servidores (F9), no al edificio. Si el Informático la congela desde la sala de servidores, el pasillo es libre.</p>\n"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Pasillo del laboratorio",
+          "codigo": "F7"
+        }
+      }
+    },
+    {
+      "_id": "ly121PWTE2IVKzPc",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.ly121PWTE2IVKzPc",
+      "name": "F8. Laboratorio",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Mesas de trabajo con microscopios, pipetas y gradillas de tubos. Una campana de extracción zumba. Contra la pared, una heladera de puerta de vidrio llena de viales con un líquido oscuro, casi negro, que brilla un poco cuando le da la luz.</p>\n</section><p><strong>Qué hay.</strong> Donde se refina el Compuesto A. Los viales de la heladera son la producción de la semana. En la mesa de la isla, un cuaderno de protocolo con anotaciones a mano de Salas: dosis, tiempos y &quot;pérdidas&quot;.</p>\n<p><strong>Qué pasa.</strong> Llevarse viales es posible, pero cada uno que falta se nota al día siguiente. Entender el protocolo: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.science\" data-dificultad=\"2\" data-label=\"Inteligencia + Ciencia (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Ciencia (dif. 2)</a> (el Doctorando): con éxito, sabe qué cuadernos de F11 importan y no pierde tiempo allí.</p>\n"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Laboratorio",
+          "codigo": "F8"
+        }
+      }
+    },
+    {
+      "_id": "F7uTAUsNwpSMorKU",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.F7uTAUsNwpSMorKU",
+      "name": "F9. Sala de servidores",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Dos racks a máxima potencia, un ruido de ventiladores que tapa todo lo demás y un aire acondicionado que gotea. Una consola con la pantalla bloqueada.</p>\n</section><p><strong>Qué hay.</strong> Las cámaras de la planta, el control de acceso y la copia de seguridad de los datos de los ensayos. La puerta está trabada.</p>\n<p><strong>Qué pasa.</strong> Congelar las cámaras: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"2\" data-label=\"Inteligencia + Tecnología (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 2)</a>. Copiar los datos de los voluntarios: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>; con éxito, la célula tiene los nombres de los durmientes. Un fallo dispara una alerta que llega al teléfono de Salas.</p>\n"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Sala de servidores",
+          "codigo": "F9"
+        }
+      }
+    },
+    {
+      "_id": "8XdXrzIMlT6Zpq3L",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.8XdXrzIMlT6Zpq3L",
+      "name": "F10. Cámara fría",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>El frío pega en la cara. Puertas de congelador de acero, estantes con neveras portátiles y bolsas de sangre etiquetadas con números, no con nombres.</p>\n</section><p><strong>Qué hay.</strong> La materia prima: sangre de los voluntarios del ensayo, clasificada por &quot;lote&quot;. Una de las neveras portátiles lleva una etiqueta con la cruz del convento. Quien la abra sabe de dónde sale el Compuesto A: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.resolve skills.occult\" data-dificultad=\"2\" data-label=\"Resolución + Ocultismo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Resolución + Ocultismo (dif. 2)</a> para mirar sin quebrarse.</p>\n"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Cámara fría",
+          "codigo": "F10"
+        }
+      }
+    },
+    {
+      "_id": "z2KcoznFJuCLeviA",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.z2KcoznFJuCLeviA",
+      "name": "F11. Despacho de Salas",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un despacho con moqueta gris, estanterías de revistas médicas y una pizarra llena de fórmulas. Sobre el escritorio, una pila de cuadernos de tapa negra, una laptop cerrada y una hoja impresa con una tabla de fechas y nombres. La lámpara de escritorio está encendida.</p>\n</section><p><strong>Qué hay.</strong> Los <strong>cuadernos del Compuesto A</strong>: el objetivo de la infiltración. La hoja impresa es la <strong>agenda de cirugías clandestinas</strong>, con una columna que dice &quot;Quimera&quot; junto a varios nombres. La puerta está trabada con llave.</p>\n<p><strong>Qué pasa.</strong> Abrir la puerta: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"2\" data-label=\"Destreza + Latrocinio (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 2)</a>. Llevarse los cuadernos sin dejar rastro: <button type=\"button\" class=\"dvv-baliza metodo\" data-dvv-baliza=\"metodo\" data-delta=\"1\" data-motivo=\"Robar los cuadernos del Compuesto A\"><span class=\"dvv-baliza-delta\">+1 Método</span><span class=\"dvv-baliza-motivo\">Robar los cuadernos del Compuesto A</span></button>. Con un crítico en la infiltración, la célula se lleva también la agenda: la palabra &quot;@UUID[Actor.UpZ0DCdeSgMIlyXC]{Quimera}&quot; entra en juego. Si la @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Salas} está esta noche, está acá (token oculto): revelala cuando abran la puerta.</p>\n<p><strong>Para el Narrador.</strong> Si los detectan, esa misma noche @UUID[Actor.yWZmWOJ2RbCdY4Dq]{Marcos} visita el piso de Elías.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.kWQNBnBz3V9gvlnP]{Dra. Irene Salas} (oculto)</p>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Despacho de Salas",
+          "codigo": "F11"
+        }
+      }
+    },
+    {
+      "_id": "NxwdmWERwyLJIg1F",
+      "_key": "!journal.pages!iSa0UKrw86qlV5i0.NxwdmWERwyLJIg1F",
+      "name": "F12. Sala de procedimientos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Azulejo blanco, una camilla quirúrgica bajo una lámpara enorme apagada, una máquina de anestesia con la pantalla en negro. El carro de instrumental todavía tiene una gasa con sangre seca. Huele a lejía, y no alcanza.</p>\n</section><p><strong>Qué hay.</strong> Aquí se hacen las &quot;cirugías&quot; de la agenda: implantes de continuidad en voluntarios. En el cubo de residuos, una pulsera de Somnia cortada con el número de un ensayo.</p>\n<p><strong>Qué pasa.</strong> Reconocer qué se operó aquí: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.medicine\" data-dificultad=\"2\" data-label=\"Inteligencia + Medicina (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Medicina (dif. 2)</a>. Es la puerta de entrada a la Carne: quien se quede mirando la camilla demasiado tiempo entiende que podría tumbarse en ella.</p>\n"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "laboratorio-satelite",
+          "sala": "Sala de procedimientos",
+          "codigo": "F12"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

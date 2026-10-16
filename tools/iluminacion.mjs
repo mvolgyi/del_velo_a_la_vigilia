@@ -71,6 +71,11 @@ export const PRESETS = {
     bright: 6.56, dim: 19.69, color: "#7fd1ff", alpha: 0.4,
     animation: { type: "pulse", speed: 1, intensity: 1 }
   },
+  // La cruz verde de una farmacia de guardia: rótulo de LED, verde y corto.
+  "cruz-farmacia": {
+    bright: 3.28, dim: 16.4, color: "#2fd36b", alpha: 0.5,
+    animation: { type: "pulse", speed: 2, intensity: 2 }
+  },
   // La bengala de Elías.
   bengala: {
     bright: 20, dim: 40, color: "#ff3b1f", alpha: 0.7,

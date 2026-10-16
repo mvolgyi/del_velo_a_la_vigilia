@@ -6,27 +6,27 @@
  "alto": 3000,
  "pxPorMetro": 50,
  "centro": {
-  "lat": 36.7315,
-  "lon": -4.4305
+  "lat": 36.73078,
+  "lon": -4.42672
  },
  "bbox": {
-  "oeste": -4.4309483,
-  "este": -4.4300517,
-  "sur": 36.7312305,
-  "norte": 36.7317695
+  "oeste": -4.4271683,
+  "este": -4.4262717,
+  "sur": 36.7305105,
+  "norte": 36.7310495
  },
  "enMalaga": {
   "region": "malaga:martiricos-laboratorio",
   "uuid": "Scene.n2z0loJi3vcGR6r7.Region.tvfA78g97VoL5b8n",
-  "x": 2635,
-  "y": 458.1,
+  "x": 2803.7,
+  "y": 498.2,
   "w": 40,
   "h": 30
  },
  "edificios": 1,
  "muros": [
   {
-   "c": [1931, 3000, 1971, 2746 ],
+   "c": [2817, 595, 3185, 616 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -35,7 +35,7 @@
    "sound": 20
   },
   {
-   "c": [1971, 2746, 2877, 2911 ],
+   "c": [3185, 616, 3179, 677 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -44,7 +44,324 @@
    "sound": 20
   },
   {
-   "c": [2877, 2911, 2865, 3000 ],
+   "c": [3179, 677, 3234, 682 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3234, 682, 3240, 621 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3240, 621, 3599, 650 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3599, 650, 3549, 1614 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3549, 1614, 3527, 1615 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3527, 1615, 3553, 1661 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3553, 1661, 3565, 1645 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3565, 1645, 4000, 1936 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [4000, 2557, 3826, 2644 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3826, 2644, 3774, 2609 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3774, 2609, 3719, 2684 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3719, 2684, 3120, 2274 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3120, 2274, 3171, 2165 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3171, 2165, 3047, 2158 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3047, 2158, 3100, 2274 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3100, 2274, 2441, 2598 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2441, 2598, 2437, 2595 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2437, 2595, 2354, 2540 ],
+   "door": 1,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20,
+   "doorSound": "metal"
+  },
+  {
+   "c": [2354, 2540, 2113, 2378 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2113, 2378, 2075, 2371 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2075, 2371, 2193, 2314 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2193, 2314, 2174, 2264 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2174, 2264, 2046, 2328 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2046, 2328, 2076, 2277 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2076, 2277, 2082, 2122 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2082, 2122, 2086, 2022 ],
+   "door": 1,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20,
+   "doorSound": "metal"
+  },
+  {
+   "c": [2086, 2022, 2086, 2016 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2086, 2016, 2142, 1995 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2142, 1995, 2093, 1900 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2093, 1900, 2709, 1595 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2709, 1595, 2734, 1635 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2734, 1635, 2778, 1559 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2778, 1559, 2742, 1566 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2742, 1566, 2786, 852 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2786, 852, 2812, 859 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2812, 859, 2817, 595 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -52,19 +369,47 @@
    "light": 20,
    "sound": 20
   } ],
- "puertas": [],
- "luces": [
+ "puertas": [
   {
-   "x": 2692,
-   "y": 89,
-   "preset": "farola",
-   "nombre": "Farola · Calle Poeta Bernardo de la Torre"
+   "entrada": 1,
+   "poi": "laboratorio-salas",
+   "nombre": "Vestíbulo de la torre",
+   "c": [2082, 2122, 2086, 2022 ],
+   "destino": "laboratorio-satelite",
+   "sala": "Vestíbulo",
+   "regionInterior": "desde-martiricos-laboratorio",
+   "regionSalida": "salida-martiricos-laboratorio",
+   "doorSound": "metal"
   },
   {
-   "x": 3938,
-   "y": 184,
+   "entrada": 2,
+   "poi": "laboratorio-salas",
+   "nombre": "Puerta de emergencia (al río)",
+   "c": [2437, 2595, 2354, 2540 ],
+   "destino": "laboratorio-satelite",
+   "sala": "Escalera de emergencia (planta baja)",
+   "regionInterior": "desde-martiricos-laboratorio-2",
+   "regionSalida": "salida-martiricos-laboratorio-2",
+   "doorSound": "metal"
+  } ],
+ "luces": [
+  {
+   "x": 1898,
+   "y": 44,
    "preset": "farola",
-   "nombre": "Farola · Calle Poeta Bernardo de la Torre"
+   "nombre": "Farola · Paseo Martiricos"
+  },
+  {
+   "x": 1817,
+   "y": 1284,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Martiricos"
+  },
+  {
+   "x": 835,
+   "y": 2479,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Martiricos"
   } ],
  "regiones": [
   {
@@ -126,23 +471,90 @@
   {
    "id": "llegada",
    "nombre": "Llegada desde la ciudad",
-   "x": 1925,
-   "y": 1425,
+   "x": 1275,
+   "y": 1387,
    "w": 150,
    "h": 150,
    "destino": null,
    "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.ECyU0kJV59himIq7"
+  },
+  {
+   "id": "entrada-1",
+   "nombre": "Vestíbulo de la torre → laboratorio-satelite",
+   "x": 1969,
+   "y": 2020,
+   "w": 100,
+   "h": 100,
+   "destino": {
+    "escena": "laboratorio-satelite",
+    "region": "desde-martiricos-laboratorio",
+    "uuid": "Scene.31m6soUGWtB8S2vB.Region.yZexNUQhJHpCDKXc"
+   },
+   "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.A5gStK5qJIahTRnm"
+  },
+  {
+   "id": "entrada-2",
+   "nombre": "Puerta de emergencia (al río) → laboratorio-satelite",
+   "x": 2309,
+   "y": 2571,
+   "w": 100,
+   "h": 100,
+   "destino": {
+    "escena": "laboratorio-satelite",
+    "region": "desde-martiricos-laboratorio-2",
+    "uuid": "Scene.31m6soUGWtB8S2vB.Region.0Ta12sHd7l3jv7h8"
+   },
+   "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.Vxs1OPDusItjmpxr"
   } ],
- "aparcamientos": [],
+ "aparcamientos": [
+  {
+   "x": 992,
+   "y": 1417,
+   "rotacion": 3
+  },
+  {
+   "x": 1711,
+   "y": 1458,
+   "rotacion": 3
+  },
+  {
+   "x": 1694,
+   "y": 1758,
+   "rotacion": 3
+  },
+  {
+   "x": 1010,
+   "y": 1117,
+   "rotacion": 3
+  },
+  {
+   "x": 972,
+   "y": 1766,
+   "rotacion": 3
+  },
+  {
+   "x": 1732,
+   "y": 1109,
+   "rotacion": 3
+  },
+  {
+   "x": 1673,
+   "y": 2107,
+   "rotacion": 3
+  },
+  {
+   "x": 1030,
+   "y": 768,
+   "rotacion": 3
+  } ],
  "puntos": [
   {
    "poi": "laboratorio-salas",
-   "x": 2000,
-   "y": 1500,
-   "edificio": null,
-   "aproximado": false
+   "x": 2084,
+   "y": 2072,
+   "edificio": 1312385835,
+   "aproximado": false,
+   "puerta": true
   } ],
- "avisos": [
-  "POI laboratorio-salas: no hay edificio en su coordenada (lugar abierto); pin en la coordenada",
-  "sin aparcamientos: los vehículos del sector irán junto a la llegada" ]
+ "avisos": []
 }

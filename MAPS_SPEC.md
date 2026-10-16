@@ -235,7 +235,7 @@ packs-src/escenas/*.json               escena + muros + puertas + vidrios + regi
 | `nota` | nota del Narrador (va a los flags de la escena, con la lista de móviles) |
 | `habitaciones[]` | `{ nombre, x, y, w, h, piso }` — piso: `linoleo`, `baldosa`, `azulejo`, `terrazo`, `moqueta`, `tecnico`, `hormigon`, `parquet`, `piedra`, `iglesia`, `piedra-humeda`, `tierra`, `grava` |
 | `vanos[]` | `{ x, y, w, eje, tipo, estado?, sonido? }` — `abierto`, `puerta`, `secreta`, `puerta-vidrio`, `vidrio`, `arcada`; `estado`: `cerrada` · `abierta` · `trabada` |
-| `muebles[]` | `{ tipo, x, y, w, h, desc?, fijo?, luz?, cabecera?, tile?, hacia? }` — `tile` (móviles): id en `assets/tiles`; `hacia`: `n` · `s` · `e` · `o`, a dónde mira el frente |
+| `muebles[]` | `{ tipo, x, y, w, h, desc?, fijo?, luz?, cabecera?, tile?, hacia?, salida? }` — `salida: false` en una escalera que no sale a la calle; — `tile` (móviles): id en `assets/tiles`; `hacia`: `n` · `s` · `e` · `o`, a dónde mira el frente |
 | `luces[]` | `{ x, y, preset, nombre? }` — presets en `tools/iluminacion.mjs` |
 | `regiones[]` | `{ id, nombre, x, y, w, h, destino: "<plano>:<región>" }` |
 

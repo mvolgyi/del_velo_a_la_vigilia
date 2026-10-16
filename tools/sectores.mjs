@@ -73,6 +73,8 @@
  *                      teletransportado: la llegada no dispara la región)
  *     salida-<id>      (salida-<id>-<n> si n ≥ 2)  sobre la puerta exterior (o
  *                      la escalera) de la sala → "<id>:entrada-<n>"
+ *   `luces` (opcional): [{ lat, lon, preset, nombre }] luces propias del lugar.
+ *   `aparcamientos` (opcional): [{ lat, lon, rotacion }] pisa el cálculo automático.
  *   `ubicaciones` (opcional en content/sectores.json): { "<poi>": { lat, lon } }
  *   ubica un lugar ficticio en un edificio real del sector sin tocar el pin
  *   del mapa general (content/malaga/pois.json).
@@ -713,7 +715,8 @@ function regionesInteriores(plano, sala) {
   const ajustar = r => ({ ...r, x: Math.min(h.x + h.w - r.w, Math.max(h.x, r.x)), y: Math.min(h.y + h.h - r.h, Math.max(h.y, r.y)) });
   let salida = null, haciaAdentro = null;
 
-  const escalera = (plano.muebles ?? []).find(m => m.tipo === "escalera" && m.x >= h.x && m.y >= h.y && m.x + m.w <= h.x + h.w && m.y + m.h <= h.y + h.h);
+  // `salida: false` en la escalera: sube a otra planta, no a la calle.
+  const escalera = (plano.muebles ?? []).find(m => m.tipo === "escalera" && m.salida !== false && m.x >= h.x && m.y >= h.y && m.x + m.w <= h.x + h.w && m.y + m.h <= h.y + h.h);
   if (escalera) {
     salida = ajustar({ x: escalera.x + escalera.w / 2 - T / 2, y: escalera.y + escalera.h / 2 - T / 2, w: T, h: T });
     const cy = salida.y + T / 2, cx = salida.x + T / 2;
@@ -1102,7 +1105,8 @@ function renderSvg(S, sec, geo) {
   }
 
   // 10. Postes de farola (el objeto físico, apagado; la luz la pone Foundry) y umbrales de las puertas.
-  for (const l of geo.luces) {
+  // Solo las farolas tienen poste; las luces propias (rótulos, cruces) no se dibujan.
+  for (const l of geo.luces.filter(l => l._haciaCalle)) {
     const h = l._haciaCalle, L = Math.hypot(h[0], h[1]) || 1;
     const bx = l.x + h[0] / L * 0.9 * PXM, by = l.y + h[1] / L * 0.9 * PXM;
     o.push(`<circle cx="${l.x + 5}" cy="${l.y + 6}" r="9" fill="${PAL.sombra}" opacity="0.5"/>`);
@@ -1207,6 +1211,12 @@ export function construirSector(sec, { imagen = true, svg = false } = {}) {
 
   // Farolas.
   const luces = farolas(S, sec);
+  // Luces propias del lugar (`luces` en content/sectores.json): la cruz verde
+  // de la farmacia, un rótulo. { lat, lon, preset, nombre }.
+  for (const l of sec.luces ?? []) {
+    const [x, y] = P.aPx(l.lat, l.lon);
+    luces.push({ x: Math.round(x), y: Math.round(y), preset: l.preset, nombre: l.nombre ?? l.preset });
+  }
 
   // Regiones.
   const regiones = [...regionesBorde(S, sec), regionLlegada(S)];
@@ -1218,7 +1228,11 @@ export function construirSector(sec, { imagen = true, svg = false } = {}) {
       destino: p.regionInterior ? { escena: p.destino, region: p.regionInterior, uuid: UUID.plano(p.destino, p.regionInterior) } : null });
   }
   for (const rg of regiones) rg.uuid = UUID.sector(sec.id, rg.id);
-  const huecos = aparcamientos(S, regiones.find(r => r.id === "llegada"));
+  // `aparcamientos` en content/sectores.json manda sobre el cálculo (rotondas y
+  // plazas sin eje de calle): { lat, lon, rotacion }.
+  const huecos = sec.aparcamientos?.length
+    ? sec.aparcamientos.map(a => { const [x, y] = P.aPx(a.lat, a.lon); return { x: Math.round(x), y: Math.round(y), rotacion: a.rotacion ?? 0 }; })
+    : aparcamientos(S, regiones.find(r => r.id === "llegada"));
   if (!huecos.length) avisos.push("sin aparcamientos: los vehículos del sector irán junto a la llegada");
 
   const a = generalPx(P.bbox.norte, P.bbox.oeste), b = generalPx(P.bbox.sur, P.bbox.este);

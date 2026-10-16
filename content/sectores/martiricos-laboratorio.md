@@ -17,4 +17,6 @@ La torre de oficinas es un bloque de cristal con la mitad de las plantas a oscur
 
 **Qué pasa.** La infiltración del Acto 2 empieza acá. Seguir el auto negro sin que los note: @tirada{attributes.wits+skills.drive|2|Astucia + Conducir (dif. 2)}. Colarse por la puerta del río: @tirada{attributes.dexterity+skills.stealth|3|Destreza + Sigilo (dif. 3)}. Distraer al matón del garaje: @tirada{attributes.manipulation+skills.subterfuge|2|Manipulación + Subterfugio (dif. 2)}. Un fallo total: +1 Peligro y @npc{marcos} visita el piso de Elías esa noche.
 
+**Adentro.** La puerta del vestíbulo y la de emergencia del paseo del río llevan a la escena «La torre y el laboratorio satélite»: la planta baja con Rafa y la planta 6 de Somnia.
+
 **Para el Narrador.** Si hay partido en La Rosaleda, la calle se llena de gente y de policía nacional: cobertura o desastre. Revelá a Salas solo cuando baje del auto.

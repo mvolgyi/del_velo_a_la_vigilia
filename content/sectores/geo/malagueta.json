@@ -2,46 +2,154 @@
  "_comentario": "Generado por tools/sectores.mjs desde OpenStreetMap (© OpenStreetMap contributors, ODbL). No editar a mano.",
  "id": "malagueta",
  "nombre": "La Malagueta de noche",
- "ancho": 4000,
- "alto": 3000,
+ "ancho": 6000,
+ "alto": 4500,
  "pxPorMetro": 50,
  "centro": {
-  "lat": 36.71943,
-  "lon": -4.4065
+  "lat": 36.71947,
+  "lon": -4.40655
  },
  "bbox": {
-  "oeste": -4.4069483,
-  "este": -4.4060517,
-  "sur": 36.7191605,
-  "norte": 36.7196995
+  "oeste": -4.4072224,
+  "este": -4.4058776,
+  "sur": 36.7190657,
+  "norte": 36.7198743
  },
  "enMalaga": {
   "region": "malaga:malagueta",
   "uuid": "Scene.n2z0loJi3vcGR6r7.Region.arR9XwkbZtPyLGiH",
-  "x": 3706,
-  "y": 1129.9,
-  "w": 40,
-  "h": 30
+  "x": 3693.7,
+  "y": 1120.2,
+  "w": 60,
+  "h": 45
  },
- "edificios": 0,
- "muros": [],
+ "edificios": 2,
+ "muros": [
+  {
+   "c": [2163, 84, 2132, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2414, 0, 2258, 55 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2258, 55, 2255, 47 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2255, 47, 2163, 84 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1435, 0, 1602, 442 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1602, 442, 1563, 453 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1563, 453, 1230, 555 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1230, 555, 1063, 0 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  } ],
  "puertas": [],
  "luces": [
   {
-   "x": 1424,
-   "y": 908,
+   "x": 460,
+   "y": 2094,
    "preset": "farola",
    "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
   },
   {
-   "x": 717,
-   "y": 1178,
+   "x": 2647,
+   "y": 1880,
    "preset": "farola",
    "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
   },
   {
-   "x": 2576,
-   "y": 403,
+   "x": 3970,
+   "y": 132,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  },
+  {
+   "x": 3804,
+   "y": 780,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  },
+  {
+   "x": 1569,
+   "y": 221,
+   "preset": "farola",
+   "nombre": "Farola · Calle Santa Cristina"
+  },
+  {
+   "x": 345,
+   "y": 3361,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  },
+  {
+   "x": 1940,
+   "y": 2151,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  },
+  {
+   "x": 3799,
+   "y": 1375,
+   "preset": "farola",
+   "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
+  },
+  {
+   "x": 5440,
+   "y": 210,
    "preset": "farola",
    "nombre": "Farola · Paseo Marítimo Pablo Ruiz Picasso"
   } ],
@@ -51,7 +159,7 @@
    "nombre": "Volver a la ciudad (norte)",
    "x": 0,
    "y": 0,
-   "w": 4000,
+   "w": 6000,
    "h": 150,
    "destino": {
     "escena": "malaga",
@@ -64,8 +172,8 @@
    "id": "borde-s",
    "nombre": "Volver a la ciudad (sur)",
    "x": 0,
-   "y": 2850,
-   "w": 4000,
+   "y": 4350,
+   "w": 6000,
    "h": 150,
    "destino": {
     "escena": "malaga",
@@ -80,7 +188,7 @@
    "x": 0,
    "y": 150,
    "w": 150,
-   "h": 2700,
+   "h": 4200,
    "destino": {
     "escena": "malaga",
     "region": "malagueta",
@@ -91,10 +199,10 @@
   {
    "id": "borde-e",
    "nombre": "Volver a la ciudad (este)",
-   "x": 3850,
+   "x": 5850,
    "y": 150,
    "w": 150,
-   "h": 2700,
+   "h": 4200,
    "destino": {
     "escena": "malaga",
     "region": "malagueta",
@@ -105,23 +213,52 @@
   {
    "id": "llegada",
    "nombre": "Llegada desde la ciudad",
-   "x": 1296,
-   "y": 338,
+   "x": 2449,
+   "y": 1351,
    "w": 150,
    "h": 150,
    "destino": null,
    "uuid": "Scene.jp0NVVq8htpFKq6a.Region.RmMFRCyayrh7P97h"
   } ],
- "aparcamientos": [],
+ "aparcamientos": [
+  {
+   "x": 1848,
+   "y": 922,
+   "rotacion": 60
+  },
+  {
+   "x": 1587,
+   "y": 1070,
+   "rotacion": 60
+  },
+  {
+   "x": 1326,
+   "y": 1219,
+   "rotacion": 60
+  },
+  {
+   "x": 1065,
+   "y": 1367,
+   "rotacion": 60
+  },
+  {
+   "x": 804,
+   "y": 1515,
+   "rotacion": 60
+  },
+  {
+   "x": 500,
+   "y": 1688,
+   "rotacion": 60
+  } ],
  "puntos": [
   {
    "poi": "malagueta",
-   "x": 2000,
-   "y": 2780,
+   "x": 3223,
+   "y": 3753,
    "edificio": null,
    "aproximado": false
   } ],
  "avisos": [
-  "POI malagueta: no hay edificio en su coordenada (lugar abierto); pin en la coordenada",
-  "sin aparcamientos: los vehículos del sector irán junto a la llegada" ]
+  "POI malagueta: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
 }

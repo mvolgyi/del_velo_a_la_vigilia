@@ -1,0 +1,459 @@
+{
+  "_id": "ai3xdRZcZDZa5KwG",
+  "_key": "!journal!ai3xdRZcZDZa5KwG",
+  "name": "Salas · La comisaría provincial por dentro",
+  "folder": "jcMvTH4WzA9DN1fp",
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "journal",
+      "archivo": "content/salas/comisaria-interior.md",
+      "escena": "comisaria-interior"
+    }
+  },
+  "pages": [
+    {
+      "_id": "c8HzmqRiP72m2sOi",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.c8HzmqRiP72m2sOi",
+      "name": "Salas",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>La planta baja de la Comisaría Provincial de la Plaza de Manuel Azaña. Para cuando un PJ termina detenido (entrar armado, una pelea en la calle, el patrullero de la Alameda), para visitar a alguien en los calabozos o para colarse a mirar qué sabe la policía. Somnia tiene amigos aquí, y uno de ellos es el subinspector Gálvez.</p><p>Cada pin numerado del mapa abre la página de su sala. Los tokens de PNJ ya están colocados; los ocultos se revelan desde la capa de tokens.</p><ul><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.mb3Q8VBuSwsDVTAG]{G1. Vestíbulo}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.lEmMlDrfbSPT2Z7L]{G2. Control de acceso}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.Ea2qrY1l4jLI9hlB]{G3. Atención al ciudadano}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.DT9Pe5UWyzs71ORK]{G4. Oficinas de Policía Judicial}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.Se3OgqullAsKJnFK]{G5. Despacho de Gálvez}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.aKStUbqFQPbv3keG]{G6. Sala de observación}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.o1Ut6yz9HfEWBvwL]{G7. Sala de interrogatorios}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.rpQNFu2iifIU9RFh]{G8. Armería}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.4JTiP6NEVBC2xW2A]{G9. Sala de guardia}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.uvOkn3TKIl4RGmmW]{G10. Pasillo de servicio}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.scCx8xbAe5mLhpnp]{G11. Ingreso de detenidos}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.pXs5vyYQlkljB7er]{G12. Garaje de detenidos}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.j4LmtJl4Jo4KwC94]{G13. Pasillo de calabozos}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.bLFYWQ7lI2HEhSFf]{G14. Calabozo 1}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.9J2TD7c2PjCkxDON]{G15. Calabozo 2}</li><li>@UUID[JournalEntry.ai3xdRZcZDZa5KwG.JournalEntryPage.9RjeGTSHGEI2kySe]{G16. Calabozo 3}</li></ul>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mb3Q8VBuSwsDVTAG",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.mb3Q8VBuSwsDVTAG",
+      "name": "G1. Vestíbulo",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Luz blanca, sillas de metal atornilladas al suelo y un olor a café de máquina. Una pareja espera con cara de no haber dormido. Al fondo, el arco de seguridad y un agente de uniforme que los mira entrar sin levantar la vista del todo.</p>\n</section><p><strong>Qué hay.</strong> La entrada pública, con cámaras sobre la puerta y sobre las sillas. A la derecha, la sala de atención al ciudadano (G3). Al fondo, el control de acceso (G2): todo lo que entre más allá pasa por el arco.</p>\n<p><strong>Qué pasa.</strong> Esperar aquí y escuchar: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.awareness\" data-dificultad=\"2\" data-label=\"Astucia + Alerta (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Alerta (dif. 2)</a> para enterarse de quién está en los calabozos esta noche.</p>\n"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Vestíbulo",
+          "codigo": "G1"
+        }
+      }
+    },
+    {
+      "_id": "lEmMlDrfbSPT2Z7L",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.lEmMlDrfbSPT2Z7L",
+      "name": "G2. Control de acceso",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un arco detector, una cinta de rayos X y un agente detrás de una mesa con un monitor. Junto a la cinta, una bandeja de plástico con llaves, monedas y un cinturón que nadie vino a buscar.</p>\n</section><p><strong>Qué hay.</strong> El arco pita con cualquier arma, incluidos los cuchillos y las herramientas del Limpiador. La puerta de seguridad hacia el pasillo de servicio se abre con tarjeta desde la mesa.</p>\n<p><strong>Qué pasa.</strong> Entrar armado y que pite es una noche en el calabozo y +1 Peligro. Pasar algo chico sin que lo vean: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>. Convencer al agente de que los deje pasar a &quot;hablar con Gálvez&quot;: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.charisma skills.persuasion\" data-dificultad=\"3\" data-label=\"Carisma + Persuasión (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Carisma + Persuasión (dif. 3)</a>.</p>\n"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Control de acceso",
+          "codigo": "G2"
+        }
+      }
+    },
+    {
+      "_id": "Ea2qrY1l4jLI9hlB",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.Ea2qrY1l4jLI9hlB",
+      "name": "G3. Atención al ciudadano",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un mostrador largo detrás de mamparas de vidrio, un dispensador de turnos que marca el 47 y filas de sillas de plástico. Un agente toma una denuncia a dos dedos en un teclado viejo.</p>\n</section><p><strong>Qué hay.</strong> Donde se ponen las denuncias. Denunciar a Somnia no sirve de nada: el papel termina en el despacho de Gálvez (G5) a la mañana siguiente. La puerta de personal del fondo da al pasillo de servicio; está trabada.</p>\n<p><strong>Para el Narrador.</strong> Si un PJ denuncia algo con su nombre real, +1 Peligro: Somnia se entera esa misma noche.</p>\n"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Atención al ciudadano",
+          "codigo": "G3"
+        }
+      }
+    },
+    {
+      "_id": "DT9Pe5UWyzs71ORK",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.DT9Pe5UWyzs71ORK",
+      "name": "G4. Oficinas de Policía Judicial",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Escritorios llenos de carpetas, una pizarra con fotos de casos unidas con flechas de rotulador y un archivador abierto. A esta hora, una sola agente teclea con auriculares puestos.</p>\n</section><p><strong>Qué hay.</strong> En la pizarra, entre robos y un caso de tráfico, una foto del muelle de carga de Somnia la noche del apagón: alguien de aquí estuvo mirando. En el archivador, un expediente de hace nueve años con el nombre de @UUID[Actor.O2GuehcZV88rKsKt]{Elías Roca}, archivado &quot;por falta de pruebas&quot;.</p>\n<p><strong>Qué pasa.</strong> Leer el expediente sin que la agente lo note: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.stealth\" data-dificultad=\"2\" data-label=\"Destreza + Sigilo (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Sigilo (dif. 2)</a> y <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.investigation\" data-dificultad=\"2\" data-label=\"Inteligencia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Investigación (dif. 2)</a>.</p>\n"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Oficinas de Policía Judicial",
+          "codigo": "G4"
+        }
+      }
+    },
+    {
+      "_id": "Se3OgqullAsKJnFK",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.Se3OgqullAsKJnFK",
+      "name": "G5. Despacho de Gálvez",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un despacho con persianas a medio bajar, un cenicero lleno aunque está prohibido fumar y una foto enmarcada de un hombre de bigote con un pez enorme. En la bandeja de entrada, un sobre sin remitente.</p>\n</section><p><strong>Qué hay.</strong> El subinspector Gálvez cobra de Somnia. El sobre tiene dinero en efectivo y una tarjeta de la clínica con un número escrito a mano. En el cajón, una lista de matrículas: una es la del Seat de la célula.</p>\n<p><strong>Qué pasa.</strong> Encontrar el sobre y la lista: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.investigation\" data-dificultad=\"2\" data-label=\"Astucia + Investigación (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Investigación (dif. 2)</a>. Con la prueba, Gálvez se vuelve un problema que la célula puede presionar, o una amenaza que sabe de ellos. La puerta lateral da a la sala de observación (G6).</p>\n"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Despacho de Gálvez",
+          "codigo": "G5"
+        }
+      }
+    },
+    {
+      "_id": "aKStUbqFQPbv3keG",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.aKStUbqFQPbv3keG",
+      "name": "G6. Sala de observación",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un cuarto a oscuras con una mesa, un equipo de grabación y un vidrio que del otro lado es un espejo. Se oye todo lo que pasa en la sala de interrogatorios.</p>\n</section><p><strong>Qué hay.</strong> Desde aquí se ve y se graba G7. Si un PJ es interrogado, alguien de traje mira desde esta sala: no es policía.</p>\n"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Sala de observación",
+          "codigo": "G6"
+        }
+      }
+    },
+    {
+      "_id": "o1Ut6yz9HfEWBvwL",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.o1Ut6yz9HfEWBvwL",
+      "name": "G7. Sala de interrogatorios",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una mesa de acero atornillada al suelo con una argolla para las esposas, dos sillas y un espejo grande en la pared. El fluorescente del techo parpadea cada pocos segundos.</p>\n</section><p><strong>Qué pasa.</strong> Aguantar un interrogatorio sin dar nombres: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.composure skills.subterfuge\" data-dificultad=\"3\" data-label=\"Compostura + Subterfugio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Compostura + Subterfugio (dif. 3)</a>. Un fallo: la policía tiene un nombre, y Somnia también (+1 Peligro). Darse cuenta de que el que pregunta sabe cosas que no debería: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.wits skills.insight\" data-dificultad=\"2\" data-label=\"Astucia + Perspicacia (dif. 2)\"><i class=\"fa-solid fa-dice-d10\"></i> Astucia + Perspicacia (dif. 2)</a>.</p>\n"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Sala de interrogatorios",
+          "codigo": "G7"
+        }
+      }
+    },
+    {
+      "_id": "rpQNFu2iifIU9RFh",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.rpQNFu2iifIU9RFh",
+      "name": "G8. Armería",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Taquillas de acero, un armero cerrado con candado doble y un mostrador con un libro de registro.</p>\n</section><p><strong>Qué hay.</strong> Las armas reglamentarias y lo incautado. Robar aquí es convertir a la célula en enemigos del Estado; dejalo claro antes de que nadie lo intente.</p>\n"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Armería",
+          "codigo": "G8"
+        }
+      }
+    },
+    {
+      "_id": "4JTiP6NEVBC2xW2A",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.4JTiP6NEVBC2xW2A",
+      "name": "G9. Sala de guardia",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Una consola larga con una pared de monitores en blanco y negro, una radio que habla sola y dos sillas giratorias. Un vaso de café se enfría junto al teclado.</p>\n</section><p><strong>Qué hay.</strong> Las cámaras de toda la comisaría y de la plaza. La grabación de la noche se guarda aquí 72 horas.</p>\n<p><strong>Qué pasa.</strong> Borrar o copiar una grabación: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.intelligence skills.technology\" data-dificultad=\"3\" data-label=\"Inteligencia + Tecnología (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Inteligencia + Tecnología (dif. 3)</a>. Con éxito, desaparece la prueba de que un PJ estuvo aquí.</p>\n"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Sala de guardia",
+          "codigo": "G9"
+        }
+      }
+    },
+    {
+      "_id": "uvOkn3TKIl4RGmmW",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.uvOkn3TKIl4RGmmW",
+      "name": "G10. Pasillo de servicio",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un pasillo largo de linóleo gastado con puertas a los dos lados y avisos clavados con chinchetas. Al fondo, una reja con un cartel: CALABOZOS.</p>\n</section><p><strong>Qué hay.</strong> Une todo lo que no es público. Siempre hay alguien caminando con una carpeta en la mano.</p>\n"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Pasillo de servicio",
+          "codigo": "G10"
+        }
+      }
+    },
+    {
+      "_id": "scCx8xbAe5mLhpnp",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.scCx8xbAe5mLhpnp",
+      "name": "G11. Ingreso de detenidos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un mostrador alto, un escáner de huellas y una regla pintada en la pared para las fotos. En un banco de acero, las argollas para esposar a quien espera su turno.</p>\n</section><p><strong>Qué pasa.</strong> Todo detenido pasa por aquí: huellas, foto y efectos personales en una bolsa. Si un PJ tiene en los bolsillos algo de Somnia, alguien lo anota.</p>\n"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Ingreso de detenidos",
+          "codigo": "G11"
+        }
+      }
+    },
+    {
+      "_id": "pXs5vyYQlkljB7er",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.pXs5vyYQlkljB7er",
+      "name": "G12. Garaje de detenidos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un garaje de hormigón con manchas de aceite y un portón basculante. Huele a gasoil. Una cámara en cada esquina.</p>\n</section><p><strong>Qué hay.</strong> Los furgones descargan aquí, lejos de la vista de la plaza. El portón se abre desde la sala de guardia. Es la ruta para sacar a alguien sin pasar por el vestíbulo, o para que Somnia se lleve a alguien sin papeles.</p>\n"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Garaje de detenidos",
+          "codigo": "G12"
+        }
+      }
+    },
+    {
+      "_id": "j4LmtJl4Jo4KwC94",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.j4LmtJl4Jo4KwC94",
+      "name": "G13. Pasillo de calabozos",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un pasillo estrecho de hormigón, luz de tubo que zumba y tres puertas de acero con ventanilla. De una de las celdas sale una voz que canta bajito.</p>\n</section><p><strong>Qué hay.</strong> La reja del pasillo de servicio se abre con llave desde el ingreso. Hablar a través de la ventanilla de una celda no requiere tirada; abrirla sin llave sí: <a class=\"dvv-tirada\" data-dvv-tirada=\"attributes.dexterity skills.larceny\" data-dificultad=\"3\" data-label=\"Destreza + Latrocinio (dif. 3)\"><i class=\"fa-solid fa-dice-d10\"></i> Destreza + Latrocinio (dif. 3)</a>.</p>\n"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Pasillo de calabozos",
+          "codigo": "G13"
+        }
+      }
+    },
+    {
+      "_id": "bLFYWQ7lI2HEhSFf",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.bLFYWQ7lI2HEhSFf",
+      "name": "G14. Calabozo 1",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un banco de hormigón, un inodoro de acero sin tapa y una manta gris doblada. En el banco, un hombre joven con la pulsera de Somnia mira la pared sin parpadear.</p>\n</section><p><strong>Qué hay.</strong> Un @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente} detenido por &quot;conducta extraña&quot; en la estación. Nadie vino a buscarlo todavía. Somnia vendrá antes del amanecer.</p>\n<p><strong>Qué pasa.</strong> Es otra versión de &quot;El Durmiente Dado de Alta&quot;: sacarlo antes de que llegue Somnia es una escena de Fe; dejarlo para ver quién viene a buscarlo, de Método.</p>\n<p class=\"dvv-tokens\"><strong>Tokens en la sala:</strong> @UUID[Actor.62xFjZPXiec7OFTE]{Durmiente} (oculto)</p>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Calabozo 1",
+          "codigo": "G14"
+        }
+      }
+    },
+    {
+      "_id": "9J2TD7c2PjCkxDON",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.9J2TD7c2PjCkxDON",
+      "name": "G15. Calabozo 2",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Vacío. En la pared, alguien rayó con la uña una cruz y una fecha de hace nueve años.</p>\n</section><p><strong>Para el Narrador.</strong> La celda donde pasó la noche Elías Roca después de que cayera su célula. Si él está con los PJs, se queda mirando la cruz y no dice nada.</p>\n"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Calabozo 2",
+          "codigo": "G15"
+        }
+      }
+    },
+    {
+      "_id": "9RjeGTSHGEI2kySe",
+      "_key": "!journal.pages!ai3xdRZcZDZa5KwG.9RjeGTSHGEI2kySe",
+      "name": "G16. Calabozo 3",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<section class=\"dvv-leer\"><p>Un borracho duerme en el banco con un zapato puesto. Ronca.</p>\n</section><p><strong>Qué hay.</strong> El calabozo de las noches normales. Si un PJ termina detenido, va aquí, con su compañero de celda roncando. Despierta a las cinco y habla mucho.</p>\n"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "sala",
+          "escena": "comisaria-interior",
+          "sala": "Calabozo 3",
+          "codigo": "G16"
+        }
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

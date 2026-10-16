@@ -6,27 +6,27 @@
  "alto": 3000,
  "pxPorMetro": 50,
  "centro": {
-  "lat": 36.712,
-  "lon": -4.434
+  "lat": 36.71205,
+  "lon": -4.43125
  },
  "bbox": {
-  "oeste": -4.4344483,
-  "este": -4.4335517,
-  "sur": 36.7117305,
-  "norte": 36.7122695
+  "oeste": -4.4316983,
+  "este": -4.4308017,
+  "sur": 36.7117805,
+  "norte": 36.7123195
  },
  "enMalaga": {
   "region": "malaga:perchel-estacion",
   "uuid": "Scene.n2z0loJi3vcGR6r7.Region.yzZ87THND7tehChW",
-  "x": 2478.8,
-  "y": 1543.5,
+  "x": 2601.6,
+  "y": 1540.7,
   "w": 40,
   "h": 30
  },
- "edificios": 1,
+ "edificios": 3,
  "muros": [
   {
-   "c": [488, 3000, 256, 2596 ],
+   "c": [3860, 1039, 3748, 845 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -35,7 +35,7 @@
    "sound": 20
   },
   {
-   "c": [256, 2596, 181, 2466 ],
+   "c": [3748, 845, 3657, 897 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -44,7 +44,7 @@
    "sound": 20
   },
   {
-   "c": [181, 2466, 0, 2149 ],
+   "c": [3657, 897, 3690, 954 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -53,7 +53,7 @@
    "sound": 20
   },
   {
-   "c": [0, 1083, 2311, 389 ],
+   "c": [3690, 954, 3769, 1091 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -62,7 +62,124 @@
    "sound": 20
   },
   {
-   "c": [2311, 389, 3606, 0 ],
+   "c": [3769, 1091, 3860, 1039 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [0, 606, 51, 687 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [51, 687, 396, 1294 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [396, 1294, 728, 1875 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [728, 1875, 773, 1949 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [773, 1949, 1022, 2383 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1022, 2383, 1072, 2470 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [1072, 2470, 1376, 3000 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2081, 1214, 2366, 1706 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2366, 1706, 2613, 2130 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2613, 2130, 3180, 1785 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [3180, 1785, 2916, 1332 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2916, 1332, 2651, 881 ],
+   "door": 0,
+   "ds": 0,
+   "move": 20,
+   "sight": 20,
+   "light": 20,
+   "sound": 20
+  },
+  {
+   "c": [2651, 881, 2081, 1214 ],
    "door": 0,
    "ds": 0,
    "move": 20,
@@ -73,16 +190,16 @@
  "puertas": [],
  "luces": [
   {
-   "x": 1553,
-   "y": 250,
+   "x": 2939,
+   "y": 1126,
    "preset": "farola",
-   "nombre": "Farola · Calle Mendívil"
+   "nombre": "Farola · Calle Explanada de la Estación"
   },
   {
-   "x": 362,
-   "y": 631,
+   "x": 3559,
+   "y": 2220,
    "preset": "farola",
-   "nombre": "Farola · Calle Mendívil"
+   "nombre": "Farola · Calle Explanada de la Estación"
   } ],
  "regiones": [
   {
@@ -144,8 +261,8 @@
   {
    "id": "llegada",
    "nombre": "Llegada desde la ciudad",
-   "x": 1454,
-   "y": 175,
+   "x": 3193,
+   "y": 709,
    "w": 150,
    "h": 150,
    "destino": null,
@@ -153,46 +270,51 @@
   } ],
  "aparcamientos": [
   {
-   "x": 1612,
-   "y": 500,
-   "rotacion": 73
+   "x": 3589,
+   "y": 619,
+   "rotacion": 331
   },
   {
-   "x": 1899,
-   "y": 410,
-   "rotacion": 73
+   "x": 1908,
+   "y": 1592,
+   "rotacion": 330
   },
   {
-   "x": 1278,
-   "y": 605,
-   "rotacion": 73
+   "x": 1758,
+   "y": 1332,
+   "rotacion": 330
   },
   {
-   "x": 946,
-   "y": 344,
-   "rotacion": 72
+   "x": 2084,
+   "y": 1895,
+   "rotacion": 330
   },
   {
-   "x": 944,
-   "y": 709,
-   "rotacion": 73
+   "x": 1582,
+   "y": 1029,
+   "rotacion": 330
   },
   {
-   "x": 660,
-   "y": 436,
-   "rotacion": 72
+   "x": 2259,
+   "y": 2197,
+   "rotacion": 330
   },
   {
-   "x": 610,
-   "y": 814,
-   "rotacion": 73
+   "x": 1407,
+   "y": 726,
+   "rotacion": 330
+  },
+  {
+   "x": 2409,
+   "y": 2457,
+   "rotacion": 330
   } ],
  "puntos": [
   {
    "poi": "hostal-perchel",
-   "x": 2000,
+   "x": 2669,
    "y": 1500,
-   "edificio": 10743861,
+   "edificio": 18144528,
    "aproximado": false
   } ],
  "avisos": []

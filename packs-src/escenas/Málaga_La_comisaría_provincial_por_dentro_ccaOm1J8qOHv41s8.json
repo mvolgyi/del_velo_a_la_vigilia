@@ -1,0 +1,2109 @@
+{
+  "playlist": null,
+  "playlistSound": null,
+  "_id": "ccaOm1J8qOHv41s8",
+  "_key": "!scenes!ccaOm1J8qOHv41s8",
+  "name": "Málaga · La comisaría provincial por dentro",
+  "folder": "kffVpQjofs2BwSWN",
+  "navigation": true,
+  "navOrder": 40,
+  "width": 2400,
+  "height": 1800,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0,
+    "distance": 1,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": true
+  },
+  "environment": {
+    "darknessLevel": 0.35,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "xDLEHNhV15dDHuJq",
+      "name": "Suelo",
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "background": {
+        "src": "modules/del-velo-a-la-vigilia/assets/mapas/comisaria-interior.webp",
+        "color": "#000000"
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!ccaOm1J8qOHv41s8.xDLEHNhV15dDHuJq"
+    }
+  ],
+  "walls": [
+    {
+      "_id": "o4Rc3mrBocK3jwba",
+      "c": [
+        150,
+        150,
+        2340,
+        150
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.o4Rc3mrBocK3jwba"
+    },
+    {
+      "_id": "5l5NMFQa4yCbFRsF",
+      "c": [
+        150,
+        750,
+        420,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.5l5NMFQa4yCbFRsF"
+    },
+    {
+      "_id": "ZlgJnnoHkkepJsxN",
+      "c": [
+        540,
+        750,
+        960,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.ZlgJnnoHkkepJsxN"
+    },
+    {
+      "_id": "1bahTYuqlAJFhHwC",
+      "c": [
+        1050,
+        750,
+        1350,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.1bahTYuqlAJFhHwC"
+    },
+    {
+      "_id": "rPIXFdABRtvdzolj",
+      "c": [
+        1440,
+        750,
+        1650,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.rPIXFdABRtvdzolj"
+    },
+    {
+      "_id": "ZdSFC2Y1RLrepKgY",
+      "c": [
+        1740,
+        750,
+        2040,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.ZdSFC2Y1RLrepKgY"
+    },
+    {
+      "_id": "9KFLTDPX2sYbVMBB",
+      "c": [
+        2130,
+        750,
+        2340,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.9KFLTDPX2sYbVMBB"
+    },
+    {
+      "_id": "Zk6ISVt3etKUX3Ev",
+      "c": [
+        150,
+        150,
+        150,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.Zk6ISVt3etKUX3Ev"
+    },
+    {
+      "_id": "ttPJfVAE2RRoNcJY",
+      "c": [
+        810,
+        150,
+        810,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.ttPJfVAE2RRoNcJY"
+    },
+    {
+      "_id": "gcokoH1aT1i1nNyi",
+      "c": [
+        1200,
+        150,
+        1200,
+        240
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.gcokoH1aT1i1nNyi"
+    },
+    {
+      "_id": "UYOOTF3vIKiOV8mm",
+      "c": [
+        1200,
+        330,
+        1200,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.UYOOTF3vIKiOV8mm"
+    },
+    {
+      "_id": "tdWb7OivZzE1HbBo",
+      "c": [
+        1200,
+        390,
+        1260,
+        390
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.tdWb7OivZzE1HbBo"
+    },
+    {
+      "_id": "CMjiHkkR7vhrlI6o",
+      "c": [
+        1500,
+        390,
+        1560,
+        390
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.CMjiHkkR7vhrlI6o"
+    },
+    {
+      "_id": "rmIYA60WJ6GQl63M",
+      "c": [
+        1560,
+        150,
+        1560,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.rmIYA60WJ6GQl63M"
+    },
+    {
+      "_id": "Y2h4slqfsaIcYBUP",
+      "c": [
+        1860,
+        150,
+        1860,
+        750
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.Y2h4slqfsaIcYBUP"
+    },
+    {
+      "_id": "yZltNrMqL9tR8BGt",
+      "c": [
+        1860,
+        900,
+        1860,
+        1020
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.yZltNrMqL9tR8BGt"
+    },
+    {
+      "_id": "xW0BrmMmw8vdQRgb",
+      "c": [
+        1860,
+        1110,
+        1860,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.xW0BrmMmw8vdQRgb"
+    },
+    {
+      "_id": "IMpoFxWnOcVVxVBY",
+      "c": [
+        2340,
+        150,
+        2340,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.IMpoFxWnOcVVxVBY"
+    },
+    {
+      "_id": "WidloR9ah2ymPumh",
+      "c": [
+        150,
+        900,
+        360,
+        900
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.WidloR9ah2ymPumh"
+    },
+    {
+      "_id": "nWRdEBi5bOvOoOGI",
+      "c": [
+        480,
+        900,
+        1050,
+        900
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.nWRdEBi5bOvOoOGI"
+    },
+    {
+      "_id": "zw6gm5yzVEnerJVm",
+      "c": [
+        1140,
+        900,
+        1500,
+        900
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.zw6gm5yzVEnerJVm"
+    },
+    {
+      "_id": "whWTDxkmfmzbiozl",
+      "c": [
+        1620,
+        900,
+        1860,
+        900
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.whWTDxkmfmzbiozl"
+    },
+    {
+      "_id": "z08YFyxu4o7IvcoG",
+      "c": [
+        1980,
+        900,
+        2340,
+        900
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.z08YFyxu4o7IvcoG"
+    },
+    {
+      "_id": "eb8b29unPTniGCmK",
+      "c": [
+        150,
+        1200,
+        330,
+        1200
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.eb8b29unPTniGCmK"
+    },
+    {
+      "_id": "Xiz2IL8sWQ5koAMf",
+      "c": [
+        480,
+        1200,
+        750,
+        1200
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.Xiz2IL8sWQ5koAMf"
+    },
+    {
+      "_id": "wl9FmEFaz0PJRwoP",
+      "c": [
+        750,
+        900,
+        750,
+        1350
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.wl9FmEFaz0PJRwoP"
+    },
+    {
+      "_id": "lCc592NcLxjWz4ot",
+      "c": [
+        750,
+        1530,
+        750,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.lCc592NcLxjWz4ot"
+    },
+    {
+      "_id": "brncLvI1Z98E8hbo",
+      "c": [
+        150,
+        1650,
+        360,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.brncLvI1Z98E8hbo"
+    },
+    {
+      "_id": "qiv8Crnqtf9Sv9bc",
+      "c": [
+        510,
+        1650,
+        1470,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.qiv8Crnqtf9Sv9bc"
+    },
+    {
+      "_id": "HEAEXVse4cgjKRmI",
+      "c": [
+        1740,
+        1650,
+        2340,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.HEAEXVse4cgjKRmI"
+    },
+    {
+      "_id": "cjqGVlU3lzR2nZNj",
+      "c": [
+        1350,
+        900,
+        1350,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.cjqGVlU3lzR2nZNj"
+    },
+    {
+      "_id": "bsTCwWM6WUCgXH3H",
+      "c": [
+        1350,
+        1260,
+        1560,
+        1260
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.bsTCwWM6WUCgXH3H"
+    },
+    {
+      "_id": "2GDk5N9HMKZFN6eE",
+      "c": [
+        1680,
+        1260,
+        1860,
+        1260
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.2GDk5N9HMKZFN6eE"
+    },
+    {
+      "_id": "ZWghnH0Kr0ycXiJQ",
+      "c": [
+        1980,
+        900,
+        1980,
+        990
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.ZWghnH0Kr0ycXiJQ"
+    },
+    {
+      "_id": "7y7FYcT1xL3Dt8lG",
+      "c": [
+        1980,
+        1080,
+        1980,
+        1230
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.7y7FYcT1xL3Dt8lG"
+    },
+    {
+      "_id": "7OguxaC5QRNj6SSq",
+      "c": [
+        1980,
+        1320,
+        1980,
+        1470
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.7OguxaC5QRNj6SSq"
+    },
+    {
+      "_id": "UMwi5daXrybt9gDb",
+      "c": [
+        1980,
+        1560,
+        1980,
+        1650
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.UMwi5daXrybt9gDb"
+    },
+    {
+      "_id": "t3jQB8cnguln2GIw",
+      "c": [
+        1980,
+        1140,
+        2340,
+        1140
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.t3jQB8cnguln2GIw"
+    },
+    {
+      "_id": "unD6McBjbnWpj0du",
+      "c": [
+        1980,
+        1380,
+        2340,
+        1380
+      ],
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.unD6McBjbnWpj0du"
+    },
+    {
+      "_id": "GvbXcd6AEjnlxY7w",
+      "c": [
+        360,
+        1650,
+        510,
+        1650
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "slidingModern",
+      "sight": 0,
+      "light": 0,
+      "sound": 10,
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.GvbXcd6AEjnlxY7w"
+    },
+    {
+      "_id": "2OnHNrI6gOZJ34zz",
+      "c": [
+        360,
+        900,
+        480,
+        900
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.2OnHNrI6gOZJ34zz"
+    },
+    {
+      "_id": "CiEdava8OfZnGgl8",
+      "c": [
+        1050,
+        900,
+        1140,
+        900
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.CiEdava8OfZnGgl8"
+    },
+    {
+      "_id": "1F8S6yDGIwTjnfwR",
+      "c": [
+        420,
+        750,
+        540,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.1F8S6yDGIwTjnfwR"
+    },
+    {
+      "_id": "yoc3xo7psvveSdPA",
+      "c": [
+        960,
+        750,
+        1050,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.yoc3xo7psvveSdPA"
+    },
+    {
+      "_id": "LnNIeRKHQbVZxPCj",
+      "c": [
+        1200,
+        240,
+        1200,
+        330
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.LnNIeRKHQbVZxPCj"
+    },
+    {
+      "_id": "MOOkv4JzqtGw1z7z",
+      "c": [
+        1260,
+        390,
+        1500,
+        390
+      ],
+      "move": 20,
+      "sight": 0,
+      "light": 0,
+      "sound": 20,
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.MOOkv4JzqtGw1z7z"
+    },
+    {
+      "_id": "GuOBjv77DQyCZDXn",
+      "c": [
+        1350,
+        750,
+        1440,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.GuOBjv77DQyCZDXn"
+    },
+    {
+      "_id": "dg7IlNuLWp99yVRD",
+      "c": [
+        1650,
+        750,
+        1740,
+        750
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.dg7IlNuLWp99yVRD"
+    },
+    {
+      "_id": "nLN4mOqD3GJhJrAo",
+      "c": [
+        2040,
+        750,
+        2130,
+        750
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.nLN4mOqD3GJhJrAo"
+    },
+    {
+      "_id": "DsJafsLOBudcNHia",
+      "c": [
+        1500,
+        900,
+        1620,
+        900
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.DsJafsLOBudcNHia"
+    },
+    {
+      "_id": "4SjenG84m16RlUbg",
+      "c": [
+        1560,
+        1260,
+        1680,
+        1260
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.4SjenG84m16RlUbg"
+    },
+    {
+      "_id": "2uDyYUo5MQCNxNCX",
+      "c": [
+        1470,
+        1650,
+        1740,
+        1650
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.2uDyYUo5MQCNxNCX"
+    },
+    {
+      "_id": "CHSB2Kw1kT7BO3IV",
+      "c": [
+        1860,
+        900,
+        1980,
+        900
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.CHSB2Kw1kT7BO3IV"
+    },
+    {
+      "_id": "dit2UACvjjtAoHae",
+      "c": [
+        1860,
+        1020,
+        1860,
+        1110
+      ],
+      "door": 1,
+      "ds": 0,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.dit2UACvjjtAoHae"
+    },
+    {
+      "_id": "SEq4rQeAMr1EjovI",
+      "c": [
+        1980,
+        990,
+        1980,
+        1080
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.SEq4rQeAMr1EjovI"
+    },
+    {
+      "_id": "blDArrfUbQ1a9ZjJ",
+      "c": [
+        1980,
+        1230,
+        1980,
+        1320
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.blDArrfUbQ1a9ZjJ"
+    },
+    {
+      "_id": "ZUMw3C3YLtQs3kFn",
+      "c": [
+        1980,
+        1470,
+        1980,
+        1560
+      ],
+      "door": 1,
+      "ds": 2,
+      "doorSound": "metal",
+      "_key": "!scenes.walls!ccaOm1J8qOHv41s8.ZUMw3C3YLtQs3kFn"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "n0vkx10I5gi4Iak6",
+      "name": "Llegada desde la calle (La comisaría provincial)",
+      "color": "#2f7f8c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 360,
+          "y": 1320,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!ccaOm1J8qOHv41s8.n0vkx10I5gi4Iak6"
+    },
+    {
+      "_id": "bRsQS6L8aCCdqAXM",
+      "name": "Salir a la calle (La comisaría provincial)",
+      "color": "#8c2f5c",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 360,
+          "y": 1500,
+          "width": 150,
+          "height": 150,
+          "rotation": 0,
+          "hole": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "_id": "1uE3YcsCnwnPw0bJ",
+          "name": "Salir a la calle (La comisaría provincial)",
+          "type": "teleportToken",
+          "system": {
+            "destinations": [
+              "Scene.k6Pw1WQrh6R8nY8k.Region.Vo1EQbtV4xZ7a1ID"
+            ],
+            "placement": "center",
+            "snap": true,
+            "choice": false
+          },
+          "disabled": false,
+          "flags": {},
+          "_key": "!scenes.regions.behaviors!ccaOm1J8qOHv41s8.bRsQS6L8aCCdqAXM.1uE3YcsCnwnPw0bJ"
+        }
+      ],
+      "visibility": 2,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.regions!ccaOm1J8qOHv41s8.bRsQS6L8aCCdqAXM"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "Gg5gHcZJ37Cl3i7t",
+      "name": "Oficinas",
+      "x": 450,
+      "y": 450,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 3.05,
+        "dim": 6.1,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.Gg5gHcZJ37Cl3i7t"
+    },
+    {
+      "_id": "1HBAFOt4UAryMSwZ",
+      "name": "Lámpara de Gálvez",
+      "x": 990,
+      "y": 480,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 0.91,
+        "dim": 3.35,
+        "color": "#ffb35c",
+        "coloration": 1,
+        "attenuation": 0.85,
+        "luminosity": 0.3,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.1HBAFOt4UAryMSwZ"
+    },
+    {
+      "_id": "EVvEkA3ZXjaibU88",
+      "name": "Monitores de observación",
+      "x": 1380,
+      "y": 270,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 0,
+        "dim": 3.05,
+        "color": "#4fd1a5",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.EVvEkA3ZXjaibU88"
+    },
+    {
+      "_id": "OxhEaQcpQeH081Dj",
+      "name": "Tubo de interrogatorios",
+      "x": 1380,
+      "y": 570,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.25,
+        "angle": 360,
+        "bright": 0.61,
+        "dim": 3.66,
+        "color": "#cfe3ee",
+        "coloration": 1,
+        "attenuation": 0.8,
+        "luminosity": 0.25,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 8,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.OxhEaQcpQeH081Dj"
+    },
+    {
+      "_id": "Nx98e05Ng5N5RHzS",
+      "name": "Monitores de la sala de guardia",
+      "x": 2100,
+      "y": 270,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.4,
+        "angle": 360,
+        "bright": 0,
+        "dim": 3.05,
+        "color": "#4fd1a5",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 1,
+          "intensity": 1,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.Nx98e05Ng5N5RHzS"
+    },
+    {
+      "_id": "nM20V7MAQ9eHI77j",
+      "name": "Pasillo de servicio",
+      "x": 1200,
+      "y": 825,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 3.05,
+        "dim": 6.1,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.nM20V7MAQ9eHI77j"
+    },
+    {
+      "_id": "nlMs9vks8yffueqQ",
+      "name": "Control de acceso",
+      "x": 450,
+      "y": 1050,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 3.05,
+        "dim": 6.1,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.nlMs9vks8yffueqQ"
+    },
+    {
+      "_id": "2Mg8zyFfknEPQ6SP",
+      "name": "Vestíbulo",
+      "x": 450,
+      "y": 1440,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 3.05,
+        "dim": 6.1,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.2Mg8zyFfknEPQ6SP"
+    },
+    {
+      "_id": "AgfV3xtXie1PTKfn",
+      "name": "Atención al ciudadano",
+      "x": 1050,
+      "y": 1260,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 3.05,
+        "dim": 6.1,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.AgfV3xtXie1PTKfn"
+    },
+    {
+      "_id": "WiLZerGShJ9CKEcB",
+      "name": "Ingreso",
+      "x": 1590,
+      "y": 1080,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.3,
+        "angle": 360,
+        "bright": 3.05,
+        "dim": 6.1,
+        "color": "#dbe6ee",
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.WiLZerGShJ9CKEcB"
+    },
+    {
+      "_id": "0xfHpvMcFPesd0ku",
+      "name": "Garaje",
+      "x": 1590,
+      "y": 1440,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.25,
+        "angle": 360,
+        "bright": 0.61,
+        "dim": 3.66,
+        "color": "#cfe3ee",
+        "coloration": 1,
+        "attenuation": 0.8,
+        "luminosity": 0.25,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 8,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.0xfHpvMcFPesd0ku"
+    },
+    {
+      "_id": "vZ1SPktwRckYI883",
+      "name": "Pasillo de calabozos",
+      "x": 1920,
+      "y": 1260,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.25,
+        "angle": 360,
+        "bright": 0.61,
+        "dim": 3.66,
+        "color": "#cfe3ee",
+        "coloration": 1,
+        "attenuation": 0.8,
+        "luminosity": 0.25,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 8,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.vZ1SPktwRckYI883"
+    },
+    {
+      "_id": "xggbZMq3zmtriwod",
+      "name": "Calabozo 1",
+      "x": 2160,
+      "y": 1020,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.25,
+        "angle": 360,
+        "bright": 0.61,
+        "dim": 3.66,
+        "color": "#cfe3ee",
+        "coloration": 1,
+        "attenuation": 0.8,
+        "luminosity": 0.25,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 8,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.xggbZMq3zmtriwod"
+    },
+    {
+      "_id": "nue3QVEDSPgkeoTM",
+      "name": "Calabozo 2",
+      "x": 2160,
+      "y": 1260,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.25,
+        "angle": 360,
+        "bright": 0.61,
+        "dim": 3.66,
+        "color": "#cfe3ee",
+        "coloration": 1,
+        "attenuation": 0.8,
+        "luminosity": 0.25,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 8,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.nue3QVEDSPgkeoTM"
+    },
+    {
+      "_id": "cVGX5YHK4iKvlNgi",
+      "name": "Calabozo 3",
+      "x": 2160,
+      "y": 1500,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.25,
+        "angle": 360,
+        "bright": 0.61,
+        "dim": 3.66,
+        "color": "#cfe3ee",
+        "coloration": 1,
+        "attenuation": 0.8,
+        "luminosity": 0.25,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 8,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "_key": "!scenes.lights!ccaOm1J8qOHv41s8.cVGX5YHK4iKvlNgi"
+    }
+  ],
+  "tokens": [
+    {
+      "_id": "3pj7QLxYXmV01YV4",
+      "name": "Durmiente",
+      "displayName": 30,
+      "actorId": "62xFjZPXiec7OFTE",
+      "actorLink": false,
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tokens/durmiente.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1950,
+      "y": 1100,
+      "width": 1,
+      "height": 1,
+      "elevation": 0,
+      "level": "xDLEHNhV15dDHuJq",
+      "rotation": 0,
+      "alpha": 1,
+      "lockRotation": true,
+      "locked": false,
+      "sort": 0,
+      "hidden": true,
+      "disposition": 0,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "token",
+          "escena": "comisaria-interior",
+          "sala": "Calabozo 1",
+          "pnj": "durmiente"
+        }
+      },
+      "_key": "!scenes.tokens!ccaOm1J8qOHv41s8.3pj7QLxYXmV01YV4"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "VptRnJKYAF1BIrUq",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "mb3Q8VBuSwsDVTAG",
+      "x": 450,
+      "y": 1425,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G1",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Vestíbulo"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.VptRnJKYAF1BIrUq"
+    },
+    {
+      "_id": "bRoL6r2eo7sBbZ1G",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "lEmMlDrfbSPT2Z7L",
+      "x": 450,
+      "y": 1050,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G2",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Control de acceso"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.bRoL6r2eo7sBbZ1G"
+    },
+    {
+      "_id": "iz8UTKnQdIP7MFXn",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "Ea2qrY1l4jLI9hlB",
+      "x": 1050,
+      "y": 1275,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G3",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Atención al ciudadano"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.iz8UTKnQdIP7MFXn"
+    },
+    {
+      "_id": "i9ttSUTWnOcmg9gP",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "DT9Pe5UWyzs71ORK",
+      "x": 480,
+      "y": 450,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G4",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Oficinas de Policía Judicial"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.i9ttSUTWnOcmg9gP"
+    },
+    {
+      "_id": "8BvjpykEMuAaK8R7",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "Se3OgqullAsKJnFK",
+      "x": 1005,
+      "y": 450,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G5",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Despacho de Gálvez"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.8BvjpykEMuAaK8R7"
+    },
+    {
+      "_id": "ZB4sUFUG4sQpjyTV",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "aKStUbqFQPbv3keG",
+      "x": 1380,
+      "y": 270,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G6",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Sala de observación"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.ZB4sUFUG4sQpjyTV"
+    },
+    {
+      "_id": "7yHl3HsY0YNRaeTb",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "o1Ut6yz9HfEWBvwL",
+      "x": 1380,
+      "y": 570,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G7",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Sala de interrogatorios"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.7yHl3HsY0YNRaeTb"
+    },
+    {
+      "_id": "WzpBipwLurvDLldh",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "rpQNFu2iifIU9RFh",
+      "x": 1710,
+      "y": 450,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G8",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Armería"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.WzpBipwLurvDLldh"
+    },
+    {
+      "_id": "ZJR3OfAyrxyZfaKp",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "4JTiP6NEVBC2xW2A",
+      "x": 2100,
+      "y": 450,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G9",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Sala de guardia"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.ZJR3OfAyrxyZfaKp"
+    },
+    {
+      "_id": "WDbqCa1iDaHjGZL4",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "uvOkn3TKIl4RGmmW",
+      "x": 1245,
+      "y": 825,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G10",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Pasillo de servicio"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.WDbqCa1iDaHjGZL4"
+    },
+    {
+      "_id": "Drt3x74irOYyBEaK",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "scCx8xbAe5mLhpnp",
+      "x": 1605,
+      "y": 1080,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G11",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Ingreso de detenidos"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.Drt3x74irOYyBEaK"
+    },
+    {
+      "_id": "Sce92NBMmf6G1d96",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "pXs5vyYQlkljB7er",
+      "x": 1605,
+      "y": 1455,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G12",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Garaje de detenidos"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.Sce92NBMmf6G1d96"
+    },
+    {
+      "_id": "cNQQk1o8DBxUxsve",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "j4LmtJl4Jo4KwC94",
+      "x": 1920,
+      "y": 1275,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G13",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Pasillo de calabozos"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.cNQQk1o8DBxUxsve"
+    },
+    {
+      "_id": "TcBi2fCqAZe9DfeG",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "bLFYWQ7lI2HEhSFf",
+      "x": 2160,
+      "y": 1020,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G14",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Calabozo 1"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.TcBi2fCqAZe9DfeG"
+    },
+    {
+      "_id": "EeTzS0gc7RPykpRL",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "9J2TD7c2PjCkxDON",
+      "x": 2160,
+      "y": 1260,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G15",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Calabozo 2"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.EeTzS0gc7RPykpRL"
+    },
+    {
+      "_id": "bwgCpnWZEPi7yaD8",
+      "entryId": "ai3xdRZcZDZa5KwG",
+      "pageId": "9RjeGTSHGEI2kySe",
+      "x": 2160,
+      "y": 1515,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "iconSize": 44,
+      "text": "G16",
+      "fontFamily": "Signika",
+      "fontSize": 28,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "pin",
+          "escena": "comisaria-interior",
+          "sala": "Calabozo 3"
+        }
+      },
+      "_key": "!scenes.notes!ccaOm1J8qOHv41s8.bwgCpnWZEPi7yaD8"
+    }
+  ],
+  "sounds": [],
+  "tiles": [
+    {
+      "_id": "O31L8y9M2cTFnqi3",
+      "name": "silla oficina",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2016,
+      "y": 330,
+      "width": 48,
+      "height": 48,
+      "elevation": 0,
+      "levels": [
+        "xDLEHNhV15dDHuJq"
+      ],
+      "sort": 0,
+      "rotation": 180,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "comisaria-interior",
+          "tipo": "silla"
+        }
+      },
+      "_key": "!scenes.tiles!ccaOm1J8qOHv41s8.O31L8y9M2cTFnqi3"
+    },
+    {
+      "_id": "jlT9EiD8dpcpk2fg",
+      "name": "silla oficina",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 2166,
+      "y": 330,
+      "width": 48,
+      "height": 48,
+      "elevation": 0,
+      "levels": [
+        "xDLEHNhV15dDHuJq"
+      ],
+      "sort": 1,
+      "rotation": 180,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "comisaria-interior",
+          "tipo": "silla"
+        }
+      },
+      "_key": "!scenes.tiles!ccaOm1J8qOHv41s8.jlT9EiD8dpcpk2fg"
+    }
+  ],
+  "drawings": [],
+  "flags": {
+    "del-velo-a-la-vigilia": {
+      "origen": "escena",
+      "escena": "comisaria-interior",
+      "nota": "La planta baja de la Comisaría Provincial de la Plaza de Manuel Azaña. Lo público queda al sur (vestíbulo, arco de seguridad, atención al ciudadano); detrás de la puerta de seguridad, el pasillo de servicio con las oficinas, el despacho del subinspector Gálvez, interrogatorios, la armería y la sala de guardia con las cámaras. Al este, el circuito de detenidos: garaje, ingreso y calabozos. La puerta principal conecta con la plaza (región). Los muebles móviles (2) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
+      "plano": "comisaria-interior",
+      "provisional": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "wod5e",
+    "systemVersion": "5.3.28"
+  }
+}

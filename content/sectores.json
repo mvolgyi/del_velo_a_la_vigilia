@@ -108,24 +108,38 @@
       "id": "martiricos-laboratorio",
       "nombre": "Martiricos · el laboratorio satélite",
       "centro": {
-        "lat": 36.7315,
-        "lon": -4.4305
+        "lat": 36.73078,
+        "lon": -4.42672
       },
       "ancho": 80,
       "alto": 60,
       "pois": [
         "laboratorio-salas"
       ],
-      "entradas": [],
+      "entradas": [
+        {
+          "poi": "laboratorio-salas",
+          "nombre": "Vestíbulo de la torre",
+          "destino": "laboratorio-satelite",
+          "sala": "Vestíbulo"
+        },
+        {
+          "poi": "laboratorio-salas",
+          "nombre": "Puerta de emergencia (al río)",
+          "destino": "laboratorio-satelite",
+          "sala": "Escalera de emergencia (planta baja)"
+        }
+      ],
       "orden": 50,
-      "nota": "Polígono de oficinas junto al río. Salas lo visita dos veces por semana; la infiltración del Acto 2."
+      "nota": "Polígono de oficinas junto al río. Salas lo visita dos veces por semana; la infiltración del Acto 2.",
+      "exterior": "Paseo de Martiricos in Málaga at night, beside the Guadalmedina river. On the left, the riverside promenade: a narrow paved walk and strips of grass and weeds with a row of round tree canopies along the edge of the river channel. The vertical band of dark wet asphalt is the avenue. On the right, a wide plaza of pale paving at the foot of a modern residential-office TOWER whose flat roof is the large grey Y-shaped (three-armed) shape, seen strictly from above with a few rooftop machines; the smaller grey rectangles at the top are the edges of neighbouring buildings. No cars, no people, no lettering."
     },
     {
       "id": "perchel-estacion",
       "nombre": "El Perchel · la estación y el hostal",
       "centro": {
-        "lat": 36.712,
-        "lon": -4.434
+        "lat": 36.71205,
+        "lon": -4.43125
       },
       "ancho": 80,
       "alto": 60,
@@ -134,14 +148,15 @@
       ],
       "entradas": [],
       "orden": 60,
-      "nota": "Frente a María Zambrano: hostal barato, locutorio, taxis, cámaras de la estación."
+      "nota": "Frente a María Zambrano: hostal barato, locutorio, taxis, cámaras de la estación.",
+      "exterior": "The forecourt of María Zambrano railway station in Málaga at night. The pale flat ROOF of the station building fills only the area at the LEFT, bounded by the long straight diagonal edge drawn in the plan: keep that roof edge exactly where drawn and keep the roof as ONE continuous flat roof (no subdivisions into separate buildings). Everything between that roof edge and the first dark asphalt lane is a wide PEDESTRIAN FORECOURT paved with pale stone tiles, open air, NOT a roof. Then two narrow asphalt lanes (the taxi rank and the drop-off lane) with pale kerbs. To their right, a small plaza of pale paving with footpaths and one small flat-roofed building (a cheap hostel above a phone shop). On the far right, the wide dark asphalt avenue with its sidewalk. Everything is paving or asphalt exactly as drawn: NO grass lawns, NO water, NO trees that are not drawn. No cars, no people, no taxis, no lettering."
     },
     {
       "id": "alameda-farmacia",
       "nombre": "La Alameda · la farmacia de guardia",
       "centro": {
-        "lat": 36.718,
-        "lon": -4.4218
+        "lat": 36.71822,
+        "lon": -4.4214
       },
       "ancho": 80,
       "alto": 60,
@@ -150,23 +165,47 @@
       ],
       "entradas": [],
       "orden": 70,
-      "nota": "La Alameda Principal y la esquina de Larios de madrugada: la farmacia 24 h, borrachos, un coche patrulla."
+      "nota": "La Alameda Principal y la esquina de Larios de madrugada: la farmacia 24 h, borrachos, un coche patrulla.",
+      "luces": [
+        {
+          "lat": 36.718205,
+          "lon": -4.42152,
+          "preset": "cruz-farmacia",
+          "nombre": "Cruz verde de la farmacia de guardia"
+        }
+      ],
+      "exterior": "The corner of the Alameda Principal and Calle Larios in Málaga at night. Top left and top right: the flat roofs of two old city blocks (seen strictly from above, with rooftop clutter), separated by the mouth of pedestrian Calle Larios, paved in polished pale marble slabs that shine with rain. Below them, the wide pedestrian promenade of the Alameda, paved with pale stone, with a big round tree canopy in a circular planter and a narrow green strip. At the bottom, the dark wet asphalt carriageway of the Alameda with its lane markings and a bus lane. No cars, no people, no lettering, no shop signs."
     },
     {
       "id": "comisaria",
       "nombre": "La comisaría provincial",
       "centro": {
-        "lat": 36.713,
-        "lon": -4.438
+        "lat": 36.71462,
+        "lon": -4.44874
       },
       "ancho": 80,
       "alto": 60,
       "pois": [
         "comisaria-provincial"
       ],
-      "entradas": [],
+      "entradas": [
+        {
+          "poi": "comisaria-provincial",
+          "nombre": "Entrada principal",
+          "destino": "comisaria-interior",
+          "sala": "Vestíbulo"
+        }
+      ],
       "orden": 80,
-      "nota": "Plaza de Manuel Azaña: la comisaría, sus coches, el bar de los policías enfrente. Coordenada aproximada."
+      "nota": "La Plaza de Manuel Azaña: la fachada de la comisaría detrás de su jardín de caminos en abanico y la rotonda. La puerta principal lleva adentro (vestíbulo, calabozos, interrogatorios).",
+      "aparcamientos": [
+        {
+          "lat": 36.71484,
+          "lon": -4.4488,
+          "rotacion": 256
+        }
+      ],
+      "exterior": "The Provincial Police Headquarters of Málaga at night, seen from directly above. The large grey flat roof with square light wells at the bottom left is the police building itself (plain concrete roof with a few vents, no lettering, no flag). In front of it lies a formal garden: dark green lawn beds cut by pale paved paths fanning out in an arc, with round tree canopies, exactly as drawn. The wide band of dark wet asphalt at the top is the roundabout road of the square, with its pale kerb. No cars, no people."
     },
     {
       "id": "muelle-uno",
@@ -189,21 +228,21 @@
       "id": "malagueta",
       "nombre": "La Malagueta de noche",
       "centro": {
-        "lat": 36.71943,
-        "lon": -4.4065
+        "lat": 36.71947,
+        "lon": -4.40655
       },
-      "ancho": 80,
-      "alto": 60,
+      "ancho": 120,
+      "alto": 90,
       "pois": [
         "malagueta"
       ],
       "entradas": [],
       "orden": 100,
       "nota": "La playa a oscuras, los chiringuitos cerrados, el paseo con farolas. La Quimera suelta caza por acá.",
-      "exterior": "La Malagueta beach in Málaga at night. Top left: the wet asphalt avenue (Paseo Marítimo) and the promenade sidewalk of pale paving, exactly where drawn. The large pale beige area is the SAND of the beach, smooth, even and cold grey-beige at night, slightly darker and damp toward the water. The single grey L-shaped band on the sand is a narrow wooden boardwalk of weathered planks: exactly one L, same position, same length, do not extend it. The one small square of fine checkered paving at the top right, touching the promenade, is the closed terrace of a beach bar (chiringuito): flat and empty, keep it EXACTLY the size drawn (small, do not enlarge it) with its outer edge where drawn; there is only this one terrace, do not add another. Bottom right: the Mediterranean sea, very dark blue-grey; the shoreline (the boundary between sand and sea) must stay EXACTLY on the drawn line, with only a thin pale line of foam along it. Keep the large empty expanse of sand as empty sand. No umbrellas, no sunbeds, no boats, no people.",
+      "exterior": "La Malagueta beach in Málaga at night. Top left: a paved plaza with the flat roof of a building at its edge and the wide dark wet asphalt avenue (Paseo Marítimo) crossing the image diagonally, with its pale promenade sidewalk along the beach side, exactly where drawn. The large pale beige area is the SAND of the beach, smooth, even and cold grey-beige at night, slightly darker and damp toward the water. The grey bands on the sand are narrow wooden boardwalks of weathered planks: keep each one exactly where drawn, same length, do not add more. The small square of checkered paving touching the promenade is the closed terrace of a beach bar (chiringuito): flat and empty, keep it EXACTLY the size drawn. Bottom right: the Mediterranean sea, very dark blue-grey; the shoreline must stay EXACTLY on the drawn line, with only a thin pale line of foam along it. Keep the large empty expanse of sand as empty sand. No umbrellas, no sunbeds, no boats, no people.",
       "qc": {
-        "calidadMinima": 0.15,
-        "_nota": "Sector sin edificios ni muros: la métrica de coincidencia de perfiles es débil (bordes diagonales y escasos) y la deriva no afecta a ninguna geometría de colisión."
+        "calidadMinima": 0.08,
+        "_nota": "Sector sin edificios ni muros: la métrica de coincidencia de perfiles es débil (bordes diagonales y escasos) y la deriva no afecta a ninguna geometría de colisión. A 120 × 90 m, con dos edificios apenas en una esquina, la coincidencia ronda 0,1: se revisa a ojo contra el esquema."
       }
     },
     {

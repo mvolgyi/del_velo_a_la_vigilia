@@ -16,4 +16,6 @@ La plaza es amplia, de baldosa gris, con unos pocos árboles jóvenes y bancos v
 
 **Qué pasa.** Sacarle a Gálvez algo en la acera, fuera del edificio y de las cámaras de adentro: @tirada{attributes.manipulation+skills.persuasion|3|Manipulación + Persuasión (dif. 3)}. En el bar, escuchar a los agentes con @tirada{attributes.wits+skills.streetwise|2|Astucia + Callejeo (dif. 2)} revela si alguien busca a un PJ. Cada visita: +1 Peligro. Entrar armado y que pite el arco es una noche en el calabozo.
 
+**Adentro.** La puerta principal lleva a la planta baja de la comisaría (escena «La comisaría provincial por dentro»): vestíbulo, interrogatorios, el despacho de Gálvez y los calabozos.
+
 **Para el Narrador.** Una noche, un sedán negro de Somnia aparca frente a la comisaría y un hombre de traje entra sin pasar por el arco. Que lo vean. Así se entiende por qué Elías descarta a la policía.
