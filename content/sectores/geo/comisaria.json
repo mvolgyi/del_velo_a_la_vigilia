@@ -1120,6 +1120,47 @@
    "destino": null,
    "uuid": "Scene.k6Pw1WQrh6R8nY8k.Region.XsZD1yJt8BmRb6bA"
   } ],
+ "aparcamientos": [
+  {
+   "x": 2564,
+   "y": 2137,
+   "rotacion": 65
+  },
+  {
+   "x": 2458,
+   "y": 2466,
+   "rotacion": 145
+  },
+  {
+   "x": 2835,
+   "y": 2008,
+   "rotacion": 65
+  },
+  {
+   "x": 1757,
+   "y": 1604,
+   "rotacion": 144
+  },
+  {
+   "x": 1795,
+   "y": 2589,
+   "rotacion": 56
+  },
+  {
+   "x": 1473,
+   "y": 2119,
+   "rotacion": 56
+  },
+  {
+   "x": 3106,
+   "y": 1879,
+   "rotacion": 65
+  },
+  {
+   "x": 2861,
+   "y": 1364,
+   "rotacion": 65
+  } ],
  "puntos": [
   {
    "poi": "comisaria-provincial",

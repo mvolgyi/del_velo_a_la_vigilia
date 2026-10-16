@@ -136,6 +136,47 @@
    "destino": null,
    "uuid": "Scene.90o7kMg3EvgstYzO.Region.e3vFGEdRmlAJF9RN"
   } ],
+ "aparcamientos": [
+  {
+   "x": 1470,
+   "y": 994,
+   "rotacion": 27
+  },
+  {
+   "x": 1366,
+   "y": 1445,
+   "rotacion": 27
+  },
+  {
+   "x": 1703,
+   "y": 775,
+   "rotacion": 27
+  },
+  {
+   "x": 1133,
+   "y": 1664,
+   "rotacion": 27
+  },
+  {
+   "x": 1739,
+   "y": 458,
+   "rotacion": 27
+  },
+  {
+   "x": 998,
+   "y": 1932,
+   "rotacion": 27
+  },
+  {
+   "x": 863,
+   "y": 2200,
+   "rotacion": 27
+  },
+  {
+   "x": 728,
+   "y": 2468,
+   "rotacion": 27
+  } ],
  "puntos": [
   {
    "poi": "muelle-uno",

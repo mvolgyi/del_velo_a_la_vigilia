@@ -966,7 +966,9 @@ function construirSalas() {
  * frente hacia abajo (sur); `hacia` rota el tile para que el frente mire a ese
  * lado. En Foundry, x/y/width/height son del rectángulo SIN rotar y el giro es
  * sobre su centro: a 90°/270° se intercambian ancho y alto para que el tile
- * caiga sobre la huella del plano. Quedan desbloqueados: son para moverlos.
+ * caiga sobre la huella del plano. OJO: en v14 x/y es el punto de anclaje de
+ * la textura (anchorX/Y = 0,5), o sea el CENTRO del tile, no la esquina.
+ * Quedan desbloqueados: son para moverlos.
  */
 const ROTACION_HACIA = { s: 0, o: 90, n: 180, e: 270 };
 function tilesDe(plano) {
@@ -989,7 +991,7 @@ function tilesDe(plano) {
       _id: idEstable(`tile:${plano.id}:${i}`),
       name: m.desc ?? m.tile.replace(/^tile-/, "").replace(/-/g, " "),
       texture: { src: `modules/${MODULO}/assets/tiles/${m.tile}.webp`, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
-      x: Math.round(cx - ancho / 2), y: Math.round(cy - alto / 2), width: ancho, height: alto,
+      x: cx, y: cy, width: ancho, height: alto,
       elevation: 0, levels: [idEstable(`nivel:${plano.id}`)], sort: i, rotation: rotacion ?? 0,
       alpha: 1, hidden: false, locked: false,
       restrictions: { light: false, weather: false },
@@ -1396,13 +1398,18 @@ function construirSectores() {
     const VEHS = existe("content/vehiculos.json") ? leerJson("content/vehiculos.json").vehiculos.filter(v => v.sector === sec.id) : [];
     const llegada = (geo.regiones ?? []).find(r => r.id === "llegada");
     VEHS.forEach((v, i) => {
-      // Siempre sobre la calle (la región de llegada), nunca dentro de un edificio.
+      // En un aparcamiento calculado sobre la calzada (tools/sectores.mjs): el
+      // coche entero libre de edificios y alineado con la calle. Sin hueco, al
+      // lado de la llegada como antes. El token es 2 × 4 m y x/y es su esquina.
+      const hueco = (geo.aparcamientos ?? [])[i];
       const base = llegada ? { x: llegada.x + llegada.w / 2, y: llegada.y + llegada.h / 2 } : { x: W / 2, y: H / 2 };
-      const x = Math.round((base.x + 300 + i * 200) / px) * px, y = Math.round((base.y - 100) / px) * px;
+      const cx = hueco ? hueco.x : base.x + 300 + i * 200, cy = hueco ? hueco.y : base.y - 100;
+      const rotacion = hueco?.rotacion ?? 0;
+      const x = Math.round(cx - px), y = Math.round(cy - 2 * px);
       const textura = existe(`assets/tokens/vehiculos/${v.id}.webp`) ? `modules/${MODULO}/assets/tokens/vehiculos/${v.id}.webp` : "icons/svg/anchor.svg";
       tokens.push({ _id: idEstable(`token:sector:${sec.id}:vehiculo:${v.id}`), name: v.nombre, displayName: 30, actorId: ID.actor(`vehiculo:${v.id}`), actorLink: false,
         texture: { src: textura, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
-        x: Math.min(x, W - 2 * px), y: Math.min(y, H - 4 * px), width: 2, height: 4, elevation: 0, level: idEstable(`nivel:sector:${sec.id}`), rotation: 0, alpha: 1, lockRotation: false, locked: false, sort: 0,
+        x: Math.min(x, W - 2 * px), y: Math.min(y, H - 4 * px), width: 2, height: 4, elevation: 0, level: idEstable(`nivel:sector:${sec.id}`), rotation: rotacion, alpha: 1, lockRotation: false, locked: false, sort: 0,
         hidden: !!v.oculto, disposition: 0, flags: { [MODULO]: { origen: "token", sector: sec.id, vehiculo: v.id, nombreBase: v.nombre, pasajeros: [] } } });
     });
 

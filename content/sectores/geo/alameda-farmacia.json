@@ -388,6 +388,47 @@
    "destino": null,
    "uuid": "Scene.bJw96ING0RTnEnNQ.Region.zkwCEgWNFrWSm9dE"
   } ],
+ "aparcamientos": [
+  {
+   "x": 2294,
+   "y": 2389,
+   "rotacion": 71
+  },
+  {
+   "x": 2202,
+   "y": 1976,
+   "rotacion": 71
+  },
+  {
+   "x": 1872,
+   "y": 2092,
+   "rotacion": 71
+  },
+  {
+   "x": 2010,
+   "y": 2488,
+   "rotacion": 71
+  },
+  {
+   "x": 2624,
+   "y": 2273,
+   "rotacion": 71
+  },
+  {
+   "x": 2532,
+   "y": 1860,
+   "rotacion": 71
+  },
+  {
+   "x": 1588,
+   "y": 2191,
+   "rotacion": 71
+  },
+  {
+   "x": 1680,
+   "y": 2603,
+   "rotacion": 71
+  } ],
  "puntos": [
   {
    "poi": "farmacia-guardia",

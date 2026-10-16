@@ -436,6 +436,47 @@
    "destino": null,
    "uuid": "Scene.cugE1TsLpRiHF5b4.Region.u62TjxHKVuklklqs"
   } ],
+ "aparcamientos": [
+  {
+   "x": 2144,
+   "y": 2663,
+   "rotacion": 75
+  },
+  {
+   "x": 2579,
+   "y": 2546,
+   "rotacion": 75
+  },
+  {
+   "x": 2917,
+   "y": 2454,
+   "rotacion": 75
+  },
+  {
+   "x": 3255,
+   "y": 2363,
+   "rotacion": 75
+  },
+  {
+   "x": 3592,
+   "y": 2272,
+   "rotacion": 75
+  },
+  {
+   "x": 1075,
+   "y": 1164,
+   "rotacion": 295
+  },
+  {
+   "x": 325,
+   "y": 2545,
+   "rotacion": 186
+  },
+  {
+   "x": 364,
+   "y": 2147,
+   "rotacion": 186
+  } ],
  "puntos": [
   {
    "poi": "cementerio-ingles",

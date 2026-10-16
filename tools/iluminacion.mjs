@@ -35,6 +35,21 @@ export const PRESETS = {
     bright: 8, dim: 20, color: "#ffc77a", alpha: 0.45,
     animation: { type: null, speed: 5, intensity: 5 }
   },
+  // Lámpara de pie vieja en un cuarto a oscuras: un charco cálido y corto.
+  "lampara-tenue": {
+    bright: 3, dim: 11, color: "#ffb35c", alpha: 0.4, luminosity: 0.3, attenuation: 0.85,
+    animation: { type: "torch", speed: 1, intensity: 1 }
+  },
+  // Fluorescente que falla: frío, flojo y parpadeando.
+  "fluorescente-viejo": {
+    bright: 2, dim: 12, color: "#cfe3ee", alpha: 0.25, luminosity: 0.25, attenuation: 0.8,
+    animation: { type: "flame", speed: 8, intensity: 4 }
+  },
+  // El neón rojo de la calle entrando por la persiana (la portada de la crónica).
+  "neon-rojo": {
+    bright: 1, dim: 9, color: "#e0283a", alpha: 0.55, luminosity: 0.2, attenuation: 0.9,
+    animation: { type: "pulse", speed: 1, intensity: 2 }
+  },
   // Tubo fluorescente frío.
   fluorescente: {
     bright: 10, dim: 20, color: "#dbe6ee", alpha: 0.3,
@@ -79,7 +94,7 @@ export function luz(idEstable, semilla, xPie, yPie, preset, nombre) {
     config: {
       negative: false, priority: 0, alpha: p.alpha, angle: 360,
       bright: p.bright, dim: p.dim, color: p.color, coloration: 1,
-      attenuation: 0.6, luminosity: 0.5, saturation: 0, contrast: 0, shadows: 0,
+      attenuation: p.attenuation ?? 0.6, luminosity: p.luminosity ?? 0.5, saturation: 0, contrast: 0, shadows: 0,
       animation: { type: p.animation.type, speed: p.animation.speed, intensity: p.animation.intensity, reverse: false },
       darkness: { min: 0, max: 1 }
     },

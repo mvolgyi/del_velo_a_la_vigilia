@@ -133,6 +133,7 @@
    "destino": null,
    "uuid": "Scene.ZoRbtqbkuxXAjK1C.Region.ECyU0kJV59himIq7"
   } ],
+ "aparcamientos": [],
  "puntos": [
   {
    "poi": "laboratorio-salas",
@@ -142,5 +143,6 @@
    "aproximado": false
   } ],
  "avisos": [
-  "POI laboratorio-salas: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+  "POI laboratorio-salas: no hay edificio en su coordenada (lugar abierto); pin en la coordenada",
+  "sin aparcamientos: los vehículos del sector irán junto a la llegada" ]
 }

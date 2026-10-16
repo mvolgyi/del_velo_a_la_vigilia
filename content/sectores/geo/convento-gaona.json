@@ -1839,6 +1839,7 @@
    },
    "uuid": "Scene.SuFeWW9kccoRyaZq.Region.bPKHBjWVehAn4y6z"
   } ],
+ "aparcamientos": [],
  "puntos": [
   {
    "poi": "convento-desconsagrado",
@@ -1849,5 +1850,6 @@
    "puerta": true
   } ],
  "avisos": [
-  "POI convento-desconsagrado: no hay edificio en su coordenada; uso el más cercano (osm 13078143, a 2.8 m)" ]
+  "POI convento-desconsagrado: no hay edificio en su coordenada; uso el más cercano (osm 13078143, a 2.8 m)",
+  "sin aparcamientos: los vehículos del sector irán junto a la llegada" ]
 }

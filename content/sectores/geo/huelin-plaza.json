@@ -1227,6 +1227,32 @@
    },
    "uuid": "Scene.zvdT27QJkgXIptFe.Region.urUoAxBpWTBGEpTJ"
   } ],
+ "aparcamientos": [
+  {
+   "x": 1266,
+   "y": 655,
+   "rotacion": 226
+  },
+  {
+   "x": 1050,
+   "y": 864,
+   "rotacion": 226
+  },
+  {
+   "x": 799,
+   "y": 1107,
+   "rotacion": 226
+  },
+  {
+   "x": 547,
+   "y": 1350,
+   "rotacion": 226
+  },
+  {
+   "x": 458,
+   "y": 2616,
+   "rotacion": 136
+  } ],
  "puntos": [
   {
    "poi": "piso-elias",

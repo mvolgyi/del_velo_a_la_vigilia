@@ -37,6 +37,7 @@
  *     puertas: [{ entrada: n, poi, nombre, c: [x1,y1,x2,y2], destino, sala }],
  *     luces:   [{ x, y, preset: "farola"|"neon", nombre }],
  *     regiones:[{ id, nombre, x, y, w, h, destino: { escena, region, uuid } | null }],
+ *     aparcamientos: [{ x, y, rotacion }],             // centro del coche y giro del token
  *     puntos:  [{ poi, x, y, edificio: <osm id>|null, aproximado: bool }],
  *     edificios, avisos: [...]
  *   }
@@ -564,6 +565,58 @@ const enMar = (mar, p) => {
   const fx = Math.floor(p[0] / mar.paso), fy = Math.floor(p[1] / mar.paso);
   return fx >= 0 && fy >= 0 && fx < mar.cols && fy < mar.filas && mar.m[fy * mar.cols + fx] === 1;
 };
+
+/* -------------------------------------------- */
+/*  Aparcamientos                               */
+/* -------------------------------------------- */
+
+/**
+ * Lugares donde un coche puede estar aparcado: sobre la calzada de una calle
+ * asfaltada, pegado al cordón y alineado con ella, con TODO el rectángulo del
+ * coche (4,6 × 2,2 m) fuera de edificios, del mar y de las franjas de borde.
+ * Ordenados por cercanía a la llegada y separados al menos 6 m.
+ *
+ * `rotacion` es la del token: el arte de vehículo mira al sur con rotación 0
+ * (tools/tokens.mjs), así que se gira para que el eje largo siga la calle.
+ * x/y son el centro del coche en px.
+ */
+function aparcamientos(S, llegada, max = 8) {
+  const largo = 4.6 * PXM, ancho = 2.2 * PXM, borde = 5 * PXM;
+  const libre = q => q[0] > borde && q[0] < S.W - borde && q[1] > borde && q[1] < S.H - borde &&
+    !enAlgunEdificio(S, q) && !(S.mar && enMar(S.mar, q));
+  const cands = [];
+  for (const c of S.calles.filter(c => c.sup === "asfalto" && !c.tipo.startsWith("motorway"))) {
+    const L = largoPolilinea(c.l);
+    const off = Math.max(1.1, c.ancho / 2 - 1.3) * PXM;
+    for (let d = 3 * PXM; d < L - 3 * PXM; d += PXM) {
+      const { p, tan } = puntoEn(c.l, d);
+      const n = [-tan[1], tan[0]];
+      for (const lado of [1, -1]) {
+        const q = [p[0] + n[0] * off * lado, p[1] + n[1] * off * lado];
+        const puntos = [];
+        for (const a of [-0.5, 0, 0.5]) for (const b of [-0.5, 0, 0.5])
+          puntos.push([q[0] + tan[0] * largo * a + n[0] * ancho * b, q[1] + tan[1] * largo * a + n[1] * ancho * b]);
+        if (!puntos.every(libre)) continue;
+        // Nada de cruces: el coche no puede invadir la calzada de otra calle.
+        const otras = S.calles.filter(o => o !== c && o.sup !== "senda");
+        if (puntos.some(pt => otras.some(o => distPolilinea(pt, o.l).d < (o.ancho / 2 + 1) * PXM))) continue;
+        const rot = (Math.atan2(-tan[0], tan[1]) * 180 / Math.PI + 360) % 360;
+        cands.push({ x: Math.round(q[0]), y: Math.round(q[1]), rotacion: Math.round(rot),
+          _d: llegada ? Math.hypot(q[0] - (llegada.x + llegada.w / 2), q[1] - (llegada.y + llegada.h / 2)) : 0 });
+      }
+    }
+  }
+  cands.sort((a, b) => a._d - b._d);
+  const elegidos = [];
+  for (const c of cands) {
+    if (elegidos.some(e => Math.hypot(e.x - c.x, e.y - c.y) < 6 * PXM)) continue;
+    // No tapar la llegada: los tokens que vienen de la ciudad aparecen ahí.
+    if (llegada && Math.abs(c.x - (llegada.x + llegada.w / 2)) < 4 * PXM && Math.abs(c.y - (llegada.y + llegada.h / 2)) < 4 * PXM) continue;
+    elegidos.push(c);
+    if (elegidos.length >= max) break;
+  }
+  return elegidos.map(({ _d, ...c }) => c);
+}
 
 /* -------------------------------------------- */
 /*  Regiones                                    */
@@ -1165,6 +1218,8 @@ export function construirSector(sec, { imagen = true, svg = false } = {}) {
       destino: p.regionInterior ? { escena: p.destino, region: p.regionInterior, uuid: UUID.plano(p.destino, p.regionInterior) } : null });
   }
   for (const rg of regiones) rg.uuid = UUID.sector(sec.id, rg.id);
+  const huecos = aparcamientos(S, regiones.find(r => r.id === "llegada"));
+  if (!huecos.length) avisos.push("sin aparcamientos: los vehículos del sector irán junto a la llegada");
 
   const a = generalPx(P.bbox.norte, P.bbox.oeste), b = generalPx(P.bbox.sur, P.bbox.este);
   const geo = {
@@ -1179,6 +1234,7 @@ export function construirSector(sec, { imagen = true, svg = false } = {}) {
     puertas: puertas.map(({ _centro, normal, ...p }) => p),
     luces: luces.map(({ _tan, _haciaCalle, ...l }) => l),
     regiones,
+    aparcamientos: huecos,
     puntos: puntos.map(({ _bi, ...p }) => p),
     avisos
   };

@@ -112,6 +112,7 @@
    "destino": null,
    "uuid": "Scene.jp0NVVq8htpFKq6a.Region.RmMFRCyayrh7P97h"
   } ],
+ "aparcamientos": [],
  "puntos": [
   {
    "poi": "malagueta",
@@ -121,5 +122,6 @@
    "aproximado": false
   } ],
  "avisos": [
-  "POI malagueta: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
+  "POI malagueta: no hay edificio en su coordenada (lugar abierto); pin en la coordenada",
+  "sin aparcamientos: los vehículos del sector irán junto a la llegada" ]
 }

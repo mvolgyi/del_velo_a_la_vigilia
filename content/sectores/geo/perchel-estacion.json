@@ -151,6 +151,42 @@
    "destino": null,
    "uuid": "Scene.4ve7vqoz3rxUR2ia.Region.REMkoL7tPMSvL2q8"
   } ],
+ "aparcamientos": [
+  {
+   "x": 1612,
+   "y": 500,
+   "rotacion": 73
+  },
+  {
+   "x": 1899,
+   "y": 410,
+   "rotacion": 73
+  },
+  {
+   "x": 1278,
+   "y": 605,
+   "rotacion": 73
+  },
+  {
+   "x": 946,
+   "y": 344,
+   "rotacion": 72
+  },
+  {
+   "x": 944,
+   "y": 709,
+   "rotacion": 73
+  },
+  {
+   "x": 660,
+   "y": 436,
+   "rotacion": 72
+  },
+  {
+   "x": 610,
+   "y": 814,
+   "rotacion": 73
+  } ],
  "puntos": [
   {
    "poi": "hostal-perchel",

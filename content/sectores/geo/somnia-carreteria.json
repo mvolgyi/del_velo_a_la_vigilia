@@ -665,6 +665,47 @@
    },
    "uuid": "Scene.7tUfy5A2ebpJ94dq.Region.e0j9ovcrhZNE4sE1"
   } ],
+ "aparcamientos": [
+  {
+   "x": 381,
+   "y": 1586,
+   "rotacion": 176
+  },
+  {
+   "x": 1099,
+   "y": 1537,
+   "rotacion": 176
+  },
+  {
+   "x": 404,
+   "y": 1935,
+   "rotacion": 176
+  },
+  {
+   "x": 357,
+   "y": 1237,
+   "rotacion": 176
+  },
+  {
+   "x": 1075,
+   "y": 1188,
+   "rotacion": 176
+  },
+  {
+   "x": 421,
+   "y": 2275,
+   "rotacion": 178
+  },
+  {
+   "x": 333,
+   "y": 888,
+   "rotacion": 176
+  },
+  {
+   "x": 1147,
+   "y": 2391,
+   "rotacion": 177
+  } ],
  "puntos": [
   {
    "poi": "somnia-biotech",

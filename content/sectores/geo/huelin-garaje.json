@@ -217,6 +217,17 @@
    "destino": null,
    "uuid": "Scene.jzdWlT40m38No0XF.Region.u1aNNQxxE0FtJVTr"
   } ],
+ "aparcamientos": [
+  {
+   "x": 1395,
+   "y": 396,
+   "rotacion": 73
+  },
+  {
+   "x": 583,
+   "y": 648,
+   "rotacion": 73
+  } ],
  "puntos": [
   {
    "poi": "garaje-huelin",

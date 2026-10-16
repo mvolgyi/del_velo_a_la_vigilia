@@ -245,7 +245,7 @@
       "id": "tile-tubos-plasma",
       "estilo": "tile",
       "aspecto": "21:9",
-      "prompt": "a long run of clear medical tubing filled with dark red blood lying loose on the floor, two parallel lines held together by plastic clamps and a three-way valve, with a small hanging plasma bag at one end.",
+      "prompt": "a short run of clear medical tubing filled with dark red blood lying loose on a floor: two parallel tubes held together by small plastic clamps, with a three-way valve in the middle and a needle cap at each end. NO bag, NO pouch, NO stand: only the tubing.",
       "nota": "tile mueble móvil"
     },
     {
