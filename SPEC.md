@@ -234,11 +234,14 @@ tools/verificar.mjs             ids únicos, _key, UUIDs resueltos, paths de dic
 docs/                       material fuente (PDF ignorado por git)
 ```
 
-Packs en `module.json`: `reservas`, `mejoras`, `estados`, `rasgos`, `arsenal`, `reglas`,
-`cronica` (solo GM), `pnjs` (solo GM), `macros`. Carpeta de compendios "Del Velo a la Vigilia".
+Packs en `module.json`: `reservas`, `mejoras`, `estados`, `rasgos`, `arsenal`, `reglas` y
+`macros` (visibles para jugadores); `cronica`, `personajes`, `escenas`, `playlists` y
+`aventura` (solo Narrador; la aventura importa todo al mundo). Carpeta de compendios "Del Velo a la Vigilia".
 
-Flujo: `npm run contenido` → `npm run verificar` → `npm run pack`. Release por GitHub Releases
-(`manifest` fijo en `latest/download/module.json`, `download` fijado al tag). En Molten se
+Flujo: `npm run contenido` → `npm run verificar` → `npm run pack`. Release por GitHub Releases:
+`node tools/release.mjs vX.Y.Z` fija la versión, se commitea, y al subir el tag el workflow
+compila los packs y publica (`manifest` fijo en `latest/download/module.json`, `download`
+fijado al tag). En Molten se
 instala pegando la URL del manifest en *Add-on Modules → Install*.
 
 ---
@@ -256,21 +259,25 @@ El Foundry local (v14.365) no tiene wod5e instalado. Para probar:
 
 ## 9. Fases
 
-| Fase | Entrega | Estado (2026-10-09) |
+| Fase | Entrega | Estado (2026-10-16) |
 |---|---|---|
 | 0 | esqueleto: manifest, pipeline, lang, entorno local con wod5e | ✓ hecho; probado en Foundry 14.365 + wod5e 5.3.28 |
 | 1 | los Tres Caminos: `caminos.json`, customEdges, reservas, mejoras, estados, rasgos, journals de reglas, Tres Puertas, Quemar | ✓ hecho; 37 Facultades, 39 reservas, 46 mejoras, 15 estados, 3 defectos |
 | 2 | Arsenal: ítems, journal, Equipar set | ✓ hecho; 23 armas, 7 equipo, 7 sets |
 | 3 | Crónica: journals con botones, PNJs, balizas, panel del Narrador, pantalla | ✓ hecho; 9 journals, 8 PNJs, 4 plantillas de PJ |
 | 4 | Escenas con mapa | ✓ hecho; 5 escenas desde planos vectoriales, mapas pintados (ver `MAPS_SPEC.md`) |
-| 5 | Release 0.1.0 e instalación en Molten | pendiente: commit, tag `v0.1.0`, el workflow publica `module.json` + `module.zip`; instalar en Molten con la URL del manifest |
-
+| 5 | Release e instalación en Molten | ✓ hecho en 0.1.0; cada tag `v*` publica `module.json` + `module.zip` con `.github/workflows/release.yml` |
 | 6 | Salas con pin y página por habitación (51), tokens de PNJ colocados, Málaga como escena de ciudad (OpenStreetMap) con 20 puntos de interés | ✓ hecho en 0.2.0 |
-| 8 | Vehículos: siete coches con token cenital, subir/bajar desde el HUD, pasajeros que viajan con el coche, reglas de conducción y persecución | ✓ hecho en 0.4.0 |
 | 7 | Sectores caminables: 11 manzanas a 1 m = 50 px desde OSM, repintadas, con muros, farolas y teletransporte ciudad ↔ sector ↔ interior | ✓ hecho en 0.3.0 |
+| 8 | Vehículos: siete coches con token cenital, subir/bajar desde el HUD, pasajeros que viajan con el coche, reglas de conducción y persecución | ✓ hecho en 0.4.0 |
+| 9 | Portada y pulido de mesa: escena de portada (el corcho de Elías) activa al importar, pines solo para el Narrador, orientación y visión de tokens, carpetas legibles, música de portada en loop | ✓ hecho en 0.4.1–0.4.7 |
 
-Prueba end-to-end: `npm run e2e` (ver README). Pendiente de mesa: retratos/tokens de PNJs y
-tiles de muebles móviles (listados en la nota de cada escena).
+Prueba end-to-end: `npm run e2e` (ver README).
+
+Pendiente de mesa: tiles de muebles móviles (listados en la nota de cada escena) y ambiente
+propio para los sectores de Málaga.
+
+Las cuatro plantillas de cazador quedan **sin retrato a propósito**: cada jugador sube el suyo.
 
 ---
 
