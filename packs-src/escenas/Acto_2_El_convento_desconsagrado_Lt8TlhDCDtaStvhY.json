@@ -1294,13 +1294,65 @@
     }
   ],
   "sounds": [],
-  "tiles": [],
+  "tiles": [
+    {
+      "_id": "2JsTCnCWjcJGaiSn",
+      "name": "mesa sacristia",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-mesa-sacristia.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 855,
+      "y": 286,
+      "width": 120,
+      "height": 75,
+      "elevation": 0,
+      "levels": [
+        "xWsjegtfTeGJsFZQ"
+      ],
+      "sort": 0,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "convento-planta",
+          "tipo": "mesa"
+        }
+      },
+      "_key": "!scenes.tiles!Lt8TlhDCDtaStvhY.2JsTCnCWjcJGaiSn"
+    }
+  ],
   "drawings": [],
   "flags": {
     "del-velo-a-la-vigilia": {
       "origen": "escena",
       "escena": "convento-planta",
-      "nota": "De día, sin culto: una visita legal. El Limpiador siente el peso del lugar. Quien se quede a solas en el altar puede rezar (Acto 2, Resolución + Convicción dif. 2). La puerta de piedra de la sacristía está cerrada con llave; detrás, la escalera baja a la cripta (región). El claustro rodea un patio de grava con un pozo seco; las celdas dan a la galería este. Muebles móviles NO pintados (colocarlos como tiles): mesa.",
+      "nota": "De día, sin culto: una visita legal. El Limpiador siente el peso del lugar. Quien se quede a solas en el altar puede rezar (Acto 2, Resolución + Convicción dif. 2). La puerta de piedra de la sacristía está cerrada con llave; detrás, la escalera baja a la cripta (región). El claustro rodea un patio de grava con un pozo seco; las celdas dan a la galería este. Los muebles móviles (1) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
       "plano": "convento-planta",
       "provisional": false
     }

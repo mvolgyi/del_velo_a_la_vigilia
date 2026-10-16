@@ -400,7 +400,8 @@
           "x": 28.5,
           "y": 9.5,
           "w": 4,
-          "h": 2.5
+          "h": 2.5,
+          "tile": "tile-mesa-sacristia"
         },
         {
           "tipo": "escalera",
@@ -802,42 +803,48 @@
           "x": 39.5,
           "y": 15,
           "w": 1,
-          "h": 3
+          "h": 3,
+          "tile": "tile-tubos-plasma"
         },
         {
           "tipo": "tubos",
           "x": 39.5,
           "y": 22,
           "w": 1,
-          "h": 3
+          "h": 3,
+          "tile": "tile-tubos-plasma"
         },
         {
           "tipo": "tubos",
           "x": 44.5,
           "y": 15,
           "w": 1,
-          "h": 3
+          "h": 3,
+          "tile": "tile-tubos-plasma"
         },
         {
           "tipo": "tubos",
           "x": 44.5,
           "y": 22,
           "w": 1,
-          "h": 3
+          "h": 3,
+          "tile": "tile-tubos-plasma"
         },
         {
           "tipo": "tubos",
           "x": 42,
           "y": 13.5,
           "w": 1,
-          "h": 3
+          "h": 3,
+          "tile": "tile-tubos-plasma"
         },
         {
           "tipo": "tubos",
           "x": 42,
           "y": 23.5,
           "w": 1,
-          "h": 3
+          "h": 3,
+          "tile": "tile-tubos-plasma"
         },
         {
           "tipo": "escritorio",
@@ -869,7 +876,8 @@
           "y": 14,
           "w": 2,
           "h": 3,
-          "desc": "a steel instrument trolley"
+          "desc": "a steel instrument trolley",
+          "tile": "tile-carro-instrumental"
         }
       ],
       "regiones": [

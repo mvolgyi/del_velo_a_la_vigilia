@@ -1265,13 +1265,65 @@
     }
   ],
   "sounds": [],
-  "tiles": [],
+  "tiles": [
+    {
+      "_id": "sI4tGr11MPMjDISC",
+      "name": "palet vacio",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-vacio.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 901,
+      "y": 1141,
+      "width": 105,
+      "height": 105,
+      "elevation": 0,
+      "levels": [
+        "S4mmsrjVJsKUO3bY"
+      ],
+      "sort": 0,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-vieja",
+          "tipo": "palet"
+        }
+      },
+      "_key": "!scenes.tiles!uH16g5FyHIKxoG5J.sI4tGr11MPMjDISC"
+    }
+  ],
   "drawings": [],
   "flags": {
     "del-velo-a-la-vigilia": {
       "origen": "escena",
       "escena": "somnia-planta-vieja",
-      "nota": "El ala antigua de la clínica: terrazo gastado, cañerías vistas, consultorios abandonados. La entrada es por el oeste, desde la pesada puerta de la planta nueva (región). Durante el apagón la única luz es la del rack prohibido, que sigue al máximo. El Limpiador sabe qué baldosas crujen y qué pasillos de mantenimiento no tienen cámaras. Al sur, la puerta de piedra de la que venían los rezos: detrás, la escalera baja al pasillo lateral de la cripta (región). Muebles móviles NO pintados (colocarlos como tiles): palet.",
+      "nota": "El ala antigua de la clínica: terrazo gastado, cañerías vistas, consultorios abandonados. La entrada es por el oeste, desde la pesada puerta de la planta nueva (región). Durante el apagón la única luz es la del rack prohibido, que sigue al máximo. El Limpiador sabe qué baldosas crujen y qué pasillos de mantenimiento no tienen cámaras. Al sur, la puerta de piedra de la que venían los rezos: detrás, la escalera baja al pasillo lateral de la cripta (región). Los muebles móviles (1) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
       "plano": "somnia-planta-vieja",
       "provisional": false
     }

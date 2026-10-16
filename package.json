@@ -29,7 +29,8 @@
     "pack:aventura": "fvtt package pack aventura --id del-velo-a-la-vigilia --type Module --in packs-src/aventura --out packs",
     "tokens": "node tools/tokens.mjs",
     "pack:playlists": "fvtt package pack playlists --id del-velo-a-la-vigilia --type Module --in packs-src/playlists --out packs",
-    "musica": "node tools/generar-musica.mjs"
+    "musica": "node tools/generar-musica.mjs",
+    "tiles": "node tools/tiles.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.4",

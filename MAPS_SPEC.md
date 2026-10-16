@@ -91,9 +91,21 @@ vidrio, regiones de transición y luces. El mapa se entrega **limpio**.
 
 ## 3. Assets sueltos (tiles)
 
-Mismos requisitos que el skill: PNG con alfa real, cenital estricto, mismo
-estilo, **150 px por casilla**, recortado, sin sombra en el suelo (o mínima y
-neutra), sin luz pintada.
+Mismos requisitos que el skill: alfa real, cenital estricto, mismo estilo,
+recortado, sin sombra en el suelo, sin luz pintada.
+
+Pipeline: el estilo `tile` de `tools/arte.config.json` genera el objeto solo
+sobre verde chroma (`node tools/generar-arte.mjs --estilo tile`) y
+`npm run tiles` lo recorta a alfa en `assets/tiles/`. El arte va con el **eje
+largo horizontal** y, en asientos, el **respaldo arriba** (el frente mira al
+sur). Cada mueble móvil del plano nombra su `tile` y, si tiene frente, `hacia`;
+construir-contenido lo coloca sobre la huella del plano, rotado (`s` 0°, `o`
+90°, `n` 180°, `e` 270°) y **desbloqueado** para que el Narrador lo mueva. Sin
+`tile`, el mueble sigue listado en la nota de la escena.
+
+Hechos (0.4.8): sillas de oficina y de madera, sofá de espera y sofá gastado,
+mesa de espera, de trabajo, de cocina y de sacristía, lámpara de pie, tubos de
+plasma, carros de instrumental y de limpieza, palet con cajas y palet vacío.
 
 Prioridad para esta crónica (son los móviles que los planos ya declaran):
 
@@ -207,8 +219,9 @@ packs-src/escenas/*.json               escena + muros + puertas + vidrios + regi
   el reporte de entrega, porque un `--forzar` lo pierde.
 - **Nombres:** el id del plano ES el nombre del archivo (`somnia-planta-nueva.webp`,
   `somnia-planta-nueva.esquema.webp`) y el id de la escena; las versiones las
-  lleva git. Tiles: `assets/tiles/tile-<categoría>-<nombre>[-<variante>]-v<n>.png`
-  (`tile-silla-oficina-v1.png`, `tile-bengala-encendida-v1.png`).
+  lleva git. Tiles: `assets/tiles/tile-<nombre>[-<variante>].webp` (WebP con alfa),
+  recortados desde `assets/tiles-crudo/` (`tile-silla-oficina.webp`,
+  `tile-bengala-encendida.webp`).
 
 ### Formato del plano (resumen)
 
@@ -222,7 +235,7 @@ packs-src/escenas/*.json               escena + muros + puertas + vidrios + regi
 | `nota` | nota del Narrador (va a los flags de la escena, con la lista de móviles) |
 | `habitaciones[]` | `{ nombre, x, y, w, h, piso }` — piso: `linoleo`, `baldosa`, `azulejo`, `terrazo`, `moqueta`, `tecnico`, `hormigon`, `parquet`, `piedra`, `iglesia`, `piedra-humeda`, `tierra`, `grava` |
 | `vanos[]` | `{ x, y, w, eje, tipo, estado?, sonido? }` — `abierto`, `puerta`, `secreta`, `puerta-vidrio`, `vidrio`, `arcada`; `estado`: `cerrada` · `abierta` · `trabada` |
-| `muebles[]` | `{ tipo, x, y, w, h, desc?, fijo?, luz?, cabecera?, hacia? }` |
+| `muebles[]` | `{ tipo, x, y, w, h, desc?, fijo?, luz?, cabecera?, tile?, hacia? }` — `tile` (móviles): id en `assets/tiles`; `hacia`: `n` · `s` · `e` · `o`, a dónde mira el frente |
 | `luces[]` | `{ x, y, preset, nombre? }` — presets en `tools/iluminacion.mjs` |
 | `regiones[]` | `{ id, nombre, x, y, w, h, destino: "<plano>:<región>" }` |
 

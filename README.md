@@ -105,6 +105,17 @@ npm run musica                         # assets/music/<id>.mp3 (las propias, con
 npm run contenido                      # lista de reproducción + ambiente enlazado a cada escena
 ```
 
+### Tiles de muebles móviles
+
+Sillas, sofás, mesas, carros, palets y tubos no se pintan en el mapa: van como tiles que el
+Narrador puede mover. Cada mueble móvil del plano nombra su `tile` y hacia dónde mira (`hacia`):
+
+```bash
+node tools/generar-arte.mjs --estilo tile   # objeto cenital sobre verde → assets/tiles-crudo/
+npm run tiles                               # recorte con alfa → assets/tiles/<id>.webp
+npm run contenido                           # cada escena coloca sus tiles, rotados y desbloqueados
+```
+
 ### Retratos y tokens de PNJs
 
 Los prompts viven en `tools/arte.config.json` (estilos `retrato` y `token`). El token se genera

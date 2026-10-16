@@ -1219,13 +1219,371 @@
     }
   ],
   "sounds": [],
-  "tiles": [],
+  "tiles": [
+    {
+      "_id": "uDKD02vDq3UL7PA8",
+      "name": "tubos plasma",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1155,
+      "y": 480,
+      "width": 90,
+      "height": 30,
+      "elevation": 0,
+      "levels": [
+        "2655jgQx1LKBvtTb"
+      ],
+      "sort": 0,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "cripta",
+          "tipo": "tubos"
+        }
+      },
+      "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.uDKD02vDq3UL7PA8"
+    },
+    {
+      "_id": "A9QYPoW96u4dKNfw",
+      "name": "tubos plasma",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1155,
+      "y": 690,
+      "width": 90,
+      "height": 30,
+      "elevation": 0,
+      "levels": [
+        "2655jgQx1LKBvtTb"
+      ],
+      "sort": 1,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "cripta",
+          "tipo": "tubos"
+        }
+      },
+      "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.A9QYPoW96u4dKNfw"
+    },
+    {
+      "_id": "C05wbdkO7Rg4QZMC",
+      "name": "tubos plasma",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1305,
+      "y": 480,
+      "width": 90,
+      "height": 30,
+      "elevation": 0,
+      "levels": [
+        "2655jgQx1LKBvtTb"
+      ],
+      "sort": 2,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "cripta",
+          "tipo": "tubos"
+        }
+      },
+      "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.C05wbdkO7Rg4QZMC"
+    },
+    {
+      "_id": "lm0ds0v36kftJKMF",
+      "name": "tubos plasma",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1305,
+      "y": 690,
+      "width": 90,
+      "height": 30,
+      "elevation": 0,
+      "levels": [
+        "2655jgQx1LKBvtTb"
+      ],
+      "sort": 3,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "cripta",
+          "tipo": "tubos"
+        }
+      },
+      "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.lm0ds0v36kftJKMF"
+    },
+    {
+      "_id": "VxXBHMv0N9H36rt2",
+      "name": "tubos plasma",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1230,
+      "y": 435,
+      "width": 90,
+      "height": 30,
+      "elevation": 0,
+      "levels": [
+        "2655jgQx1LKBvtTb"
+      ],
+      "sort": 4,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "cripta",
+          "tipo": "tubos"
+        }
+      },
+      "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.VxXBHMv0N9H36rt2"
+    },
+    {
+      "_id": "ZWdad7J86og68lVQ",
+      "name": "tubos plasma",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1230,
+      "y": 735,
+      "width": 90,
+      "height": 30,
+      "elevation": 0,
+      "levels": [
+        "2655jgQx1LKBvtTb"
+      ],
+      "sort": 5,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "cripta",
+          "tipo": "tubos"
+        }
+      },
+      "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.ZWdad7J86og68lVQ"
+    },
+    {
+      "_id": "qLMxCROtPcBkLGlq",
+      "name": "a steel instrument trolley",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-carro-instrumental.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1695,
+      "y": 435,
+      "width": 90,
+      "height": 60,
+      "elevation": 0,
+      "levels": [
+        "2655jgQx1LKBvtTb"
+      ],
+      "sort": 6,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "cripta",
+          "tipo": "carro"
+        }
+      },
+      "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.qLMxCROtPcBkLGlq"
+    }
+  ],
   "drawings": [],
   "flags": {
     "del-velo-a-la-vigilia": {
       "origen": "escena",
       "escena": "cripta",
-      "nota": "Muy oscura: la única luz es el brillo frío del relicario. Los durmientes yacen en camillas médicas alrededor del relicario donde duerme Sor Anunciación, conectados por vías (tiles móviles: se pueden cortar). La mesa de la Dra. Salas (disco duro y viales del Compuesto A) está en el laboratorio improvisado, al noreste. La puerta de piedra del pasillo lateral es la que alguien sostiene en la huida; detrás, el pasillo sube a la planta vieja de Somnia y de ahí al muelle de carga (región). La escalera oeste sube a la sacristía del convento (región). Columnas y nichos dan cobertura. Muebles móviles NO pintados (colocarlos como tiles): tubos ×6, carro.",
+      "nota": "Muy oscura: la única luz es el brillo frío del relicario. Los durmientes yacen en camillas médicas alrededor del relicario donde duerme Sor Anunciación, conectados por vías (tiles móviles: se pueden cortar). La mesa de la Dra. Salas (disco duro y viales del Compuesto A) está en el laboratorio improvisado, al noreste. La puerta de piedra del pasillo lateral es la que alguien sostiene en la huida; detrás, el pasillo sube a la planta vieja de Somnia y de ahí al muelle de carga (región). La escalera oeste sube a la sacristía del convento (región). Columnas y nichos dan cobertura. Los muebles móviles (7) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
       "plano": "cripta",
       "provisional": false
     }

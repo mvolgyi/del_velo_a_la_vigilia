@@ -324,14 +324,18 @@
           "x": 8.3,
           "y": 9.3,
           "w": 1.6,
-          "h": 1.6
+          "h": 1.6,
+          "tile": "tile-silla-oficina",
+          "hacia": "n"
         },
         {
           "tipo": "silla",
           "x": 14.8,
           "y": 14.8,
           "w": 1.6,
-          "h": 1.6
+          "h": 1.6,
+          "tile": "tile-silla-oficina",
+          "hacia": "n"
         },
         {
           "tipo": "rack",
@@ -421,21 +425,26 @@
           "x": 6,
           "y": 45,
           "w": 2.6,
-          "h": 7
+          "h": 7,
+          "tile": "tile-sofa-espera",
+          "hacia": "e"
         },
         {
           "tipo": "sofa",
           "x": 21.4,
           "y": 45,
           "w": 2.6,
-          "h": 7
+          "h": 7,
+          "tile": "tile-sofa-espera",
+          "hacia": "o"
         },
         {
           "tipo": "mesa",
           "x": 12,
           "y": 47,
           "w": 4,
-          "h": 2.5
+          "h": 2.5,
+          "tile": "tile-mesa-espera"
         },
         {
           "tipo": "escritorio",
@@ -458,7 +467,9 @@
           "x": 29.2,
           "y": 29.4,
           "w": 1.6,
-          "h": 1.6
+          "h": 1.6,
+          "tile": "tile-silla-oficina",
+          "hacia": "s"
         },
         {
           "tipo": "estante",
@@ -482,7 +493,8 @@
           "y": 27,
           "w": 2,
           "h": 3.5,
-          "desc": "the cleaner's trolley and mop bucket"
+          "desc": "the cleaner's trolley and mop bucket",
+          "tile": "tile-carro-limpieza"
         },
         {
           "tipo": "estante",
@@ -513,7 +525,8 @@
           "x": 40,
           "y": 50,
           "w": 4,
-          "h": 4
+          "h": 4,
+          "tile": "tile-palet-cajas"
         },
         {
           "tipo": "camilla-medica",
@@ -608,14 +621,16 @@
           "x": 50,
           "y": 42,
           "w": 4,
-          "h": 4
+          "h": 4,
+          "tile": "tile-palet-cajas"
         },
         {
           "tipo": "palet",
           "x": 56,
           "y": 44,
           "w": 4,
-          "h": 4
+          "h": 4,
+          "tile": "tile-palet-cajas"
         },
         {
           "tipo": "contenedor",
@@ -1040,7 +1055,8 @@
           "x": 30,
           "y": 38,
           "w": 3.5,
-          "h": 3.5
+          "h": 3.5,
+          "tile": "tile-palet-vacio"
         },
         {
           "tipo": "columna",

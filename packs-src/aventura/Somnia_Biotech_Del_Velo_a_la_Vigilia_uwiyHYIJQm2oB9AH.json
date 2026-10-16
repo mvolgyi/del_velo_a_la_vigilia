@@ -9211,13 +9211,524 @@
         }
       ],
       "sounds": [],
-      "tiles": [],
+      "tiles": [
+        {
+          "_id": "5Nh7d39BeXzZxAM4",
+          "name": "silla oficina",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 249,
+          "y": 279,
+          "width": 48,
+          "height": 48,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 0,
+          "rotation": 180,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "silla"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.5Nh7d39BeXzZxAM4"
+        },
+        {
+          "_id": "sIpsDSldKgffYidB",
+          "name": "silla oficina",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 444,
+          "y": 444,
+          "width": 48,
+          "height": 48,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 1,
+          "rotation": 180,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "silla"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.sIpsDSldKgffYidB"
+        },
+        {
+          "_id": "cRcTPVBvhZI0onvG",
+          "name": "sofa espera",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-sofa-espera.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 114,
+          "y": 1416,
+          "width": 210,
+          "height": 78,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 2,
+          "rotation": 270,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "sofa"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.cRcTPVBvhZI0onvG"
+        },
+        {
+          "_id": "2OnNiq6hV25934kS",
+          "name": "sofa espera",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-sofa-espera.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 576,
+          "y": 1416,
+          "width": 210,
+          "height": 78,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 3,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "sofa"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.2OnNiq6hV25934kS"
+        },
+        {
+          "_id": "Ng5tYlWMpflaJVlY",
+          "name": "mesa espera",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-mesa-espera.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 360,
+          "y": 1411,
+          "width": 120,
+          "height": 75,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 4,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "mesa"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.Ng5tYlWMpflaJVlY"
+        },
+        {
+          "_id": "myUhoS6BSz5nva7a",
+          "name": "silla oficina",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 876,
+          "y": 882,
+          "width": 48,
+          "height": 48,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 5,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "silla"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.myUhoS6BSz5nva7a"
+        },
+        {
+          "_id": "l37BnAls09stjOEo",
+          "name": "the cleaner's trolley and mop bucket",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-carro-limpieza.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1193,
+          "y": 833,
+          "width": 105,
+          "height": 60,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 6,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "carro"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.l37BnAls09stjOEo"
+        },
+        {
+          "_id": "p0dyveGRzgmRyxFZ",
+          "name": "palet cajas",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-cajas.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1200,
+          "y": 1500,
+          "width": 120,
+          "height": 120,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 7,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "palet"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.p0dyveGRzgmRyxFZ"
+        },
+        {
+          "_id": "9Gkt7GKgXYLQA9m3",
+          "name": "palet cajas",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-cajas.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1500,
+          "y": 1260,
+          "width": 120,
+          "height": 120,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 8,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "palet"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.9Gkt7GKgXYLQA9m3"
+        },
+        {
+          "_id": "tudkk9K4HxdTuoZM",
+          "name": "palet cajas",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-cajas.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1680,
+          "y": 1320,
+          "width": 120,
+          "height": 120,
+          "elevation": 0,
+          "levels": [
+            "RScdXbOBxUhtSnOe"
+          ],
+          "sort": 9,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-nueva",
+              "tipo": "palet"
+            }
+          },
+          "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.tudkk9K4HxdTuoZM"
+        }
+      ],
       "drawings": [],
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "escena",
           "escena": "somnia-planta-nueva",
-          "nota": "Apagón: solo las luces de emergencia rojas de los pasillos. Las cerraduras magnéticas sin energía dejan TRABADAS la entrada principal, el control de acceso de recepción, la sala de servidores, el ala de ensayos y la persiana del muelle: los lectores solo pitan en rojo; el Narrador las destraba a mano. El vidrio del ala de ensayos es grueso e insonorizado: se ve todo, no se oye nada, no se pasa (muro de vidrio). La pesada puerta de la planta vieja (este del muelle) está abierta de par en par, como la encuentra el Limpiador. Por la puerta de servicio del muelle entra Elías con el bidón y la bengala (preset de luz «bengala» en tools/iluminacion.mjs). Muebles móviles NO pintados (colocarlos como tiles): silla ×3, sofa ×2, mesa, carro, palet ×3.",
+          "nota": "Apagón: solo las luces de emergencia rojas de los pasillos. Las cerraduras magnéticas sin energía dejan TRABADAS la entrada principal, el control de acceso de recepción, la sala de servidores, el ala de ensayos y la persiana del muelle: los lectores solo pitan en rojo; el Narrador las destraba a mano. El vidrio del ala de ensayos es grueso e insonorizado: se ve todo, no se oye nada, no se pasa (muro de vidrio). La pesada puerta de la planta vieja (este del muelle) está abierta de par en par, como la encuentra el Limpiador. Por la puerta de servicio del muelle entra Elías con el bidón y la bengala (preset de luz «bengala» en tools/iluminacion.mjs). Los muebles móviles (10) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
           "plano": "somnia-planta-nueva",
           "provisional": false
         }
@@ -10523,13 +11034,65 @@
         }
       ],
       "sounds": [],
-      "tiles": [],
+      "tiles": [
+        {
+          "_id": "2JsTCnCWjcJGaiSn",
+          "name": "mesa sacristia",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-mesa-sacristia.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 855,
+          "y": 286,
+          "width": 120,
+          "height": 75,
+          "elevation": 0,
+          "levels": [
+            "xWsjegtfTeGJsFZQ"
+          ],
+          "sort": 0,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "convento-planta",
+              "tipo": "mesa"
+            }
+          },
+          "_key": "!scenes.tiles!Lt8TlhDCDtaStvhY.2JsTCnCWjcJGaiSn"
+        }
+      ],
       "drawings": [],
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "escena",
           "escena": "convento-planta",
-          "nota": "De día, sin culto: una visita legal. El Limpiador siente el peso del lugar. Quien se quede a solas en el altar puede rezar (Acto 2, Resolución + Convicción dif. 2). La puerta de piedra de la sacristía está cerrada con llave; detrás, la escalera baja a la cripta (región). El claustro rodea un patio de grava con un pozo seco; las celdas dan a la galería este. Muebles móviles NO pintados (colocarlos como tiles): mesa.",
+          "nota": "De día, sin culto: una visita legal. El Limpiador siente el peso del lugar. Quien se quede a solas en el altar puede rezar (Acto 2, Resolución + Convicción dif. 2). La puerta de piedra de la sacristía está cerrada con llave; detrás, la escalera baja a la cripta (región). El claustro rodea un patio de grava con un pozo seco; las celdas dan a la galería este. Los muebles móviles (1) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
           "plano": "convento-planta",
           "provisional": false
         }
@@ -11760,13 +12323,371 @@
         }
       ],
       "sounds": [],
-      "tiles": [],
+      "tiles": [
+        {
+          "_id": "uDKD02vDq3UL7PA8",
+          "name": "tubos plasma",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1155,
+          "y": 480,
+          "width": 90,
+          "height": 30,
+          "elevation": 0,
+          "levels": [
+            "2655jgQx1LKBvtTb"
+          ],
+          "sort": 0,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "cripta",
+              "tipo": "tubos"
+            }
+          },
+          "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.uDKD02vDq3UL7PA8"
+        },
+        {
+          "_id": "A9QYPoW96u4dKNfw",
+          "name": "tubos plasma",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1155,
+          "y": 690,
+          "width": 90,
+          "height": 30,
+          "elevation": 0,
+          "levels": [
+            "2655jgQx1LKBvtTb"
+          ],
+          "sort": 1,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "cripta",
+              "tipo": "tubos"
+            }
+          },
+          "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.A9QYPoW96u4dKNfw"
+        },
+        {
+          "_id": "C05wbdkO7Rg4QZMC",
+          "name": "tubos plasma",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1305,
+          "y": 480,
+          "width": 90,
+          "height": 30,
+          "elevation": 0,
+          "levels": [
+            "2655jgQx1LKBvtTb"
+          ],
+          "sort": 2,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "cripta",
+              "tipo": "tubos"
+            }
+          },
+          "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.C05wbdkO7Rg4QZMC"
+        },
+        {
+          "_id": "lm0ds0v36kftJKMF",
+          "name": "tubos plasma",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1305,
+          "y": 690,
+          "width": 90,
+          "height": 30,
+          "elevation": 0,
+          "levels": [
+            "2655jgQx1LKBvtTb"
+          ],
+          "sort": 3,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "cripta",
+              "tipo": "tubos"
+            }
+          },
+          "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.lm0ds0v36kftJKMF"
+        },
+        {
+          "_id": "VxXBHMv0N9H36rt2",
+          "name": "tubos plasma",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1230,
+          "y": 435,
+          "width": 90,
+          "height": 30,
+          "elevation": 0,
+          "levels": [
+            "2655jgQx1LKBvtTb"
+          ],
+          "sort": 4,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "cripta",
+              "tipo": "tubos"
+            }
+          },
+          "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.VxXBHMv0N9H36rt2"
+        },
+        {
+          "_id": "ZWdad7J86og68lVQ",
+          "name": "tubos plasma",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-tubos-plasma.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1230,
+          "y": 735,
+          "width": 90,
+          "height": 30,
+          "elevation": 0,
+          "levels": [
+            "2655jgQx1LKBvtTb"
+          ],
+          "sort": 5,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "cripta",
+              "tipo": "tubos"
+            }
+          },
+          "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.ZWdad7J86og68lVQ"
+        },
+        {
+          "_id": "qLMxCROtPcBkLGlq",
+          "name": "a steel instrument trolley",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-carro-instrumental.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 1695,
+          "y": 435,
+          "width": 90,
+          "height": 60,
+          "elevation": 0,
+          "levels": [
+            "2655jgQx1LKBvtTb"
+          ],
+          "sort": 6,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "cripta",
+              "tipo": "carro"
+            }
+          },
+          "_key": "!scenes.tiles!V4l1mjMxnYhQa1SD.qLMxCROtPcBkLGlq"
+        }
+      ],
       "drawings": [],
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "escena",
           "escena": "cripta",
-          "nota": "Muy oscura: la única luz es el brillo frío del relicario. Los durmientes yacen en camillas médicas alrededor del relicario donde duerme Sor Anunciación, conectados por vías (tiles móviles: se pueden cortar). La mesa de la Dra. Salas (disco duro y viales del Compuesto A) está en el laboratorio improvisado, al noreste. La puerta de piedra del pasillo lateral es la que alguien sostiene en la huida; detrás, el pasillo sube a la planta vieja de Somnia y de ahí al muelle de carga (región). La escalera oeste sube a la sacristía del convento (región). Columnas y nichos dan cobertura. Muebles móviles NO pintados (colocarlos como tiles): tubos ×6, carro.",
+          "nota": "Muy oscura: la única luz es el brillo frío del relicario. Los durmientes yacen en camillas médicas alrededor del relicario donde duerme Sor Anunciación, conectados por vías (tiles móviles: se pueden cortar). La mesa de la Dra. Salas (disco duro y viales del Compuesto A) está en el laboratorio improvisado, al noreste. La puerta de piedra del pasillo lateral es la que alguien sostiene en la huida; detrás, el pasillo sube a la planta vieja de Somnia y de ahí al muelle de carga (región). La escalera oeste sube a la sacristía del convento (región). Columnas y nichos dan cobertura. Los muebles móviles (7) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
           "plano": "cripta",
           "provisional": false
         }
@@ -13043,13 +13964,65 @@
         }
       ],
       "sounds": [],
-      "tiles": [],
+      "tiles": [
+        {
+          "_id": "sI4tGr11MPMjDISC",
+          "name": "palet vacio",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-vacio.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 901,
+          "y": 1141,
+          "width": 105,
+          "height": 105,
+          "elevation": 0,
+          "levels": [
+            "S4mmsrjVJsKUO3bY"
+          ],
+          "sort": 0,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "somnia-planta-vieja",
+              "tipo": "palet"
+            }
+          },
+          "_key": "!scenes.tiles!uH16g5FyHIKxoG5J.sI4tGr11MPMjDISC"
+        }
+      ],
       "drawings": [],
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "escena",
           "escena": "somnia-planta-vieja",
-          "nota": "El ala antigua de la clínica: terrazo gastado, cañerías vistas, consultorios abandonados. La entrada es por el oeste, desde la pesada puerta de la planta nueva (región). Durante el apagón la única luz es la del rack prohibido, que sigue al máximo. El Limpiador sabe qué baldosas crujen y qué pasillos de mantenimiento no tienen cámaras. Al sur, la puerta de piedra de la que venían los rezos: detrás, la escalera baja al pasillo lateral de la cripta (región). Muebles móviles NO pintados (colocarlos como tiles): palet.",
+          "nota": "El ala antigua de la clínica: terrazo gastado, cañerías vistas, consultorios abandonados. La entrada es por el oeste, desde la pesada puerta de la planta nueva (región). Durante el apagón la única luz es la del rack prohibido, que sigue al máximo. El Limpiador sabe qué baldosas crujen y qué pasillos de mantenimiento no tienen cámaras. Al sur, la puerta de piedra de la que venían los rezos: detrás, la escalera baja al pasillo lateral de la cripta (región). Los muebles móviles (1) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
           "plano": "somnia-planta-vieja",
           "provisional": false
         }
@@ -13867,13 +14840,269 @@
         }
       ],
       "sounds": [],
-      "tiles": [],
+      "tiles": [
+        {
+          "_id": "t54q42QuKovHY3Db",
+          "name": "mesa trabajo",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-mesa-trabajo.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 585,
+          "y": 270,
+          "width": 150,
+          "height": 90,
+          "elevation": 0,
+          "levels": [
+            "rERHoLsMyvcPRVT1"
+          ],
+          "sort": 0,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "piso-de-elias",
+              "tipo": "mesa"
+            }
+          },
+          "_key": "!scenes.tiles!cYVJwEoF67iVbfLn.t54q42QuKovHY3Db"
+        },
+        {
+          "_id": "q2x02T8j6XAliu0J",
+          "name": "silla madera",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-madera.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 750,
+          "y": 291,
+          "width": 48,
+          "height": 48,
+          "elevation": 0,
+          "levels": [
+            "rERHoLsMyvcPRVT1"
+          ],
+          "sort": 1,
+          "rotation": 90,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "piso-de-elias",
+              "tipo": "silla"
+            }
+          },
+          "_key": "!scenes.tiles!cYVJwEoF67iVbfLn.q2x02T8j6XAliu0J"
+        },
+        {
+          "_id": "CHHxo7c8DE0O7MCt",
+          "name": "sofa gastado",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-sofa-gastado.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 540,
+          "y": 420,
+          "width": 240,
+          "height": 84,
+          "elevation": 0,
+          "levels": [
+            "rERHoLsMyvcPRVT1"
+          ],
+          "sort": 2,
+          "rotation": 180,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "piso-de-elias",
+              "tipo": "sofa"
+            }
+          },
+          "_key": "!scenes.tiles!cYVJwEoF67iVbfLn.CHHxo7c8DE0O7MCt"
+        },
+        {
+          "_id": "CRu9X2ojPbbkOWBZ",
+          "name": "lampara pie",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-lampara-pie.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 825,
+          "y": 495,
+          "width": 36,
+          "height": 36,
+          "elevation": 0,
+          "levels": [
+            "rERHoLsMyvcPRVT1"
+          ],
+          "sort": 3,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "piso-de-elias",
+              "tipo": "lampara"
+            }
+          },
+          "_key": "!scenes.tiles!cYVJwEoF67iVbfLn.CRu9X2ojPbbkOWBZ"
+        },
+        {
+          "_id": "hfUJgI7z2CPyRn06",
+          "name": "mesa cocina",
+          "texture": {
+            "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-mesa-cocina.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 1,
+            "scaleY": 1,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "x": 960,
+          "y": 390,
+          "width": 90,
+          "height": 90,
+          "elevation": 0,
+          "levels": [
+            "rERHoLsMyvcPRVT1"
+          ],
+          "sort": 4,
+          "rotation": 0,
+          "alpha": 1,
+          "hidden": false,
+          "locked": false,
+          "restrictions": {
+            "light": false,
+            "weather": false
+          },
+          "occlusion": {
+            "modes": [],
+            "alpha": 0
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "flags": {
+            "del-velo-a-la-vigilia": {
+              "origen": "tile",
+              "escena": "piso-de-elias",
+              "tipo": "mesa"
+            }
+          },
+          "_key": "!scenes.tiles!cYVJwEoF67iVbfLn.hfUJgI7z2CPyRn06"
+        }
+      ],
       "drawings": [],
       "flags": {
         "del-velo-a-la-vigilia": {
           "origen": "escena",
           "escena": "piso-de-elias",
-          "nota": "Elías traba la puerta con tres cerrojos y corre un pasador oxidado (puerta trabada); baja las persianas. Huele a tabaco negro y humedad. El corcho reventado de fotos cubre la pared norte del living, frente al sofá. El cuaderno de Mara está sobre la mesa (Puerta del Taller). Los tres viales del Compuesto A, al fondo de la heladera (Puerta de la Quimera). Si en el Acto 2 los detectan, Marcos viene acá esa noche: la Custodia de sal se traza en el umbral de la entrada. Muebles móviles NO pintados (colocarlos como tiles): mesa ×2, silla, sofa, lampara.",
+          "nota": "Elías traba la puerta con tres cerrojos y corre un pasador oxidado (puerta trabada); baja las persianas. Huele a tabaco negro y humedad. El corcho reventado de fotos cubre la pared norte del living, frente al sofá. El cuaderno de Mara está sobre la mesa (Puerta del Taller). Los tres viales del Compuesto A, al fondo de la heladera (Puerta de la Quimera). Si en el Acto 2 los detectan, Marcos viene acá esa noche: la Custodia de sal se traza en el umbral de la entrada. Los muebles móviles (5) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
           "plano": "piso-de-elias",
           "provisional": false
         }

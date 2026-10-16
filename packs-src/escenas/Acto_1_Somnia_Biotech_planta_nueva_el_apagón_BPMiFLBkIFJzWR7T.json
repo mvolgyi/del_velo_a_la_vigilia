@@ -1844,13 +1844,524 @@
     }
   ],
   "sounds": [],
-  "tiles": [],
+  "tiles": [
+    {
+      "_id": "5Nh7d39BeXzZxAM4",
+      "name": "silla oficina",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 249,
+      "y": 279,
+      "width": 48,
+      "height": 48,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 0,
+      "rotation": 180,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "silla"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.5Nh7d39BeXzZxAM4"
+    },
+    {
+      "_id": "sIpsDSldKgffYidB",
+      "name": "silla oficina",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 444,
+      "y": 444,
+      "width": 48,
+      "height": 48,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 1,
+      "rotation": 180,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "silla"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.sIpsDSldKgffYidB"
+    },
+    {
+      "_id": "cRcTPVBvhZI0onvG",
+      "name": "sofa espera",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-sofa-espera.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 114,
+      "y": 1416,
+      "width": 210,
+      "height": 78,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 2,
+      "rotation": 270,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "sofa"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.cRcTPVBvhZI0onvG"
+    },
+    {
+      "_id": "2OnNiq6hV25934kS",
+      "name": "sofa espera",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-sofa-espera.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 576,
+      "y": 1416,
+      "width": 210,
+      "height": 78,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 3,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "sofa"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.2OnNiq6hV25934kS"
+    },
+    {
+      "_id": "Ng5tYlWMpflaJVlY",
+      "name": "mesa espera",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-mesa-espera.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 360,
+      "y": 1411,
+      "width": 120,
+      "height": 75,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 4,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "mesa"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.Ng5tYlWMpflaJVlY"
+    },
+    {
+      "_id": "myUhoS6BSz5nva7a",
+      "name": "silla oficina",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-silla-oficina.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 876,
+      "y": 882,
+      "width": 48,
+      "height": 48,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 5,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "silla"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.myUhoS6BSz5nva7a"
+    },
+    {
+      "_id": "l37BnAls09stjOEo",
+      "name": "the cleaner's trolley and mop bucket",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-carro-limpieza.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1193,
+      "y": 833,
+      "width": 105,
+      "height": 60,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 6,
+      "rotation": 90,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "carro"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.l37BnAls09stjOEo"
+    },
+    {
+      "_id": "p0dyveGRzgmRyxFZ",
+      "name": "palet cajas",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-cajas.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1200,
+      "y": 1500,
+      "width": 120,
+      "height": 120,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 7,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "palet"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.p0dyveGRzgmRyxFZ"
+    },
+    {
+      "_id": "9Gkt7GKgXYLQA9m3",
+      "name": "palet cajas",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-cajas.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1500,
+      "y": 1260,
+      "width": 120,
+      "height": 120,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 8,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "palet"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.9Gkt7GKgXYLQA9m3"
+    },
+    {
+      "_id": "tudkk9K4HxdTuoZM",
+      "name": "palet cajas",
+      "texture": {
+        "src": "modules/del-velo-a-la-vigilia/assets/tiles/tile-palet-cajas.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "x": 1680,
+      "y": 1320,
+      "width": 120,
+      "height": 120,
+      "elevation": 0,
+      "levels": [
+        "RScdXbOBxUhtSnOe"
+      ],
+      "sort": 9,
+      "rotation": 0,
+      "alpha": 1,
+      "hidden": false,
+      "locked": false,
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "occlusion": {
+        "modes": [],
+        "alpha": 0
+      },
+      "video": {
+        "loop": true,
+        "autoplay": true,
+        "volume": 0
+      },
+      "flags": {
+        "del-velo-a-la-vigilia": {
+          "origen": "tile",
+          "escena": "somnia-planta-nueva",
+          "tipo": "palet"
+        }
+      },
+      "_key": "!scenes.tiles!BPMiFLBkIFJzWR7T.tudkk9K4HxdTuoZM"
+    }
+  ],
   "drawings": [],
   "flags": {
     "del-velo-a-la-vigilia": {
       "origen": "escena",
       "escena": "somnia-planta-nueva",
-      "nota": "Apagón: solo las luces de emergencia rojas de los pasillos. Las cerraduras magnéticas sin energía dejan TRABADAS la entrada principal, el control de acceso de recepción, la sala de servidores, el ala de ensayos y la persiana del muelle: los lectores solo pitan en rojo; el Narrador las destraba a mano. El vidrio del ala de ensayos es grueso e insonorizado: se ve todo, no se oye nada, no se pasa (muro de vidrio). La pesada puerta de la planta vieja (este del muelle) está abierta de par en par, como la encuentra el Limpiador. Por la puerta de servicio del muelle entra Elías con el bidón y la bengala (preset de luz «bengala» en tools/iluminacion.mjs). Muebles móviles NO pintados (colocarlos como tiles): silla ×3, sofa ×2, mesa, carro, palet ×3.",
+      "nota": "Apagón: solo las luces de emergencia rojas de los pasillos. Las cerraduras magnéticas sin energía dejan TRABADAS la entrada principal, el control de acceso de recepción, la sala de servidores, el ala de ensayos y la persiana del muelle: los lectores solo pitan en rojo; el Narrador las destraba a mano. El vidrio del ala de ensayos es grueso e insonorizado: se ve todo, no se oye nada, no se pasa (muro de vidrio). La pesada puerta de la planta vieja (este del muelle) está abierta de par en par, como la encuentra el Limpiador. Por la puerta de servicio del muelle entra Elías con el bidón y la bengala (preset de luz «bengala» en tools/iluminacion.mjs). Los muebles móviles (10) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.",
       "plano": "somnia-planta-nueva",
       "provisional": false
     }

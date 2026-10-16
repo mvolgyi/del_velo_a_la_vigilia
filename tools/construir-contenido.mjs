@@ -770,7 +770,7 @@ function ambienteDe(escenaId) {
 }
 
 /** Escena base, compartida por las dos fuentes (planos y escenas.json). */
-function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscuridad, luzGlobal, fondo, walls, lights, regions, nota, notes = [], tokens = [], extra = {}, sinGrid = false, visionToken = true }) {
+function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscuridad, luzGlobal, fondo, walls, lights, regions, nota, notes = [], tokens = [], tiles = [], extra = {}, sinGrid = false, visionToken = true }) {
   const sid = ID.escena(id);
   const ambiente = ambienteDe(id);
   return conClaves({
@@ -805,7 +805,7 @@ function docEscena({ id, nombre, carpeta, orden, w, h, grid, gridAlpha, oscurida
     walls, regions,
     // Los radios de las luces vienen en pies (presets del plano); la escena mide en metros.
     lights: (lights ?? []).map(l => ({ ...l, config: { ...l.config, dim: +(l.config.dim / PIES_POR_METRO).toFixed(2), bright: +(l.config.bright / PIES_POR_METRO).toFixed(2) } })),
-    tokens, notes, sounds: [], tiles: [], drawings: [],
+    tokens, notes, sounds: [], tiles, drawings: [],
     flags: flags("escena", { escena: id, nota: nota ?? "", ...extra }),
     _stats: STATS
   });
@@ -960,6 +960,47 @@ function construirSalas() {
  * que se ve y lo que bloquea el paso no pueden desincronizarse. Si todavía no
  * hay mapa pintado, se usa el esquema como fondo provisional.
  */
+/**
+ * Muebles móviles del plano → tiles de la escena. El arte (assets/tiles) se
+ * genera con el eje largo horizontal y, en asientos, el respaldo arriba y el
+ * frente hacia abajo (sur); `hacia` rota el tile para que el frente mire a ese
+ * lado. En Foundry, x/y/width/height son del rectángulo SIN rotar y el giro es
+ * sobre su centro: a 90°/270° se intercambian ancho y alto para que el tile
+ * caiga sobre la huella del plano. Quedan desbloqueados: son para moverlos.
+ */
+const ROTACION_HACIA = { s: 0, o: 90, n: 180, e: 270 };
+function tilesDe(plano) {
+  const px = pies => Math.round(pies * PX_POR_PIE);
+  const tiles = [], sinTile = [];
+  mueblesMoviles(plano).forEach((m, i) => {
+    if (!m.tile) { sinTile.push(m); return; }
+    if (!existe(`assets/tiles/${m.tile}.webp`)) {
+      avisos.push(`plano ${plano.id}: falta assets/tiles/${m.tile}.webp (${m.tipo}); corré npm run tiles`);
+      sinTile.push(m);
+      return;
+    }
+    const horizontal = m.w >= m.h;
+    const rotacion = m.hacia ? ROTACION_HACIA[m.hacia] : (horizontal ? 0 : 90);
+    if (rotacion === undefined) avisos.push(`plano ${plano.id}: hacia «${m.hacia}» inválido en ${m.tipo}`);
+    const girado = rotacion === 90 || rotacion === 270;
+    const ancho = px(girado ? m.h : m.w), alto = px(girado ? m.w : m.h);
+    const cx = px(m.x + m.w / 2), cy = px(m.y + m.h / 2);
+    tiles.push({
+      _id: idEstable(`tile:${plano.id}:${i}`),
+      name: m.desc ?? m.tile.replace(/^tile-/, "").replace(/-/g, " "),
+      texture: { src: `modules/${MODULO}/assets/tiles/${m.tile}.webp`, anchorX: 0.5, anchorY: 0.5, fit: "contain", scaleX: 1, scaleY: 1, offsetX: 0, offsetY: 0, rotation: 0, tint: "#ffffff", alphaThreshold: 0.75 },
+      x: Math.round(cx - ancho / 2), y: Math.round(cy - alto / 2), width: ancho, height: alto,
+      elevation: 0, levels: [idEstable(`nivel:${plano.id}`)], sort: i, rotation: rotacion ?? 0,
+      alpha: 1, hidden: false, locked: false,
+      restrictions: { light: false, weather: false },
+      occlusion: { modes: [], alpha: 0 },
+      video: { loop: true, autoplay: true, volume: 0 },
+      flags: flags("tile", { escena: plano.id, tipo: m.tipo })
+    });
+  });
+  return { tiles, sinTile };
+}
+
 function escenasDePlanos(carpetas) {
   const planos = cargarPlanos();
   const ids = new Set(planos.map(p => p.id));
@@ -1003,9 +1044,10 @@ function escenasDePlanos(carpetas) {
       if (def?.llegada) rg.behaviors = [];
     }
     const lights = lucesDePlano(plano, idEstable);
-    const moviles = mueblesMoviles(plano);
+    const { tiles, sinTile: moviles } = tilesDe(plano);
     const nota = [plano.nota ?? "",
-      moviles.length ? `Muebles móviles NO pintados (colocarlos como tiles): ${Object.entries(
+      tiles.length ? `Los muebles móviles (${tiles.length}) son tiles desbloqueados: se pueden mover, tirar o usar de barricada.` : "",
+      moviles.length ? `Muebles móviles NO pintados y sin tile (colocarlos a mano): ${Object.entries(
         moviles.reduce((acc, m) => ({ ...acc, [m.tipo]: (acc[m.tipo] ?? 0) + 1 }), {})
       ).map(([t, n]) => (n > 1 ? `${t} ×${n}` : t)).join(", ")}.` : ""
     ].filter(Boolean).join(" ");
@@ -1014,12 +1056,12 @@ function escenasDePlanos(carpetas) {
     escribirDoc("escenas", docEscena({
       id: plano.id, nombre: plano.nombre, carpeta: carpetas.id("Somnia Biotech"), orden: plano.orden ?? 10,
       w: W, h: H, grid: GRID_PX, gridAlpha: 0, oscuridad: plano.oscuridad ?? 0.5, luzGlobal: plano.luzGlobal,
-      fondo, walls, lights, regions, nota, notes, tokens,
+      fondo, walls, lights, regions, nota, notes, tokens, tiles,
       extra: { origen: "escena", plano: plano.id, provisional: fondo === esquema }
     }));
     const puertas = walls.filter(m => m.door).length;
     resumen.push(`  ${plano.id.padEnd(22)} ${W}×${H}  ${walls.length - puertas} muros · ${puertas} puertas · ` +
-      `${lights.length} luces · ${regions.length} regiones · ${notes.length} pines · ${tokens.length} tokens${fondo === esquema ? " · ESQUEMA" : ""}`);
+      `${lights.length} luces · ${regions.length} regiones · ${notes.length} pines · ${tokens.length} tokens · ${tiles.length} tiles${fondo === esquema ? " · ESQUEMA" : ""}`);
   }
   if (verbose) for (const r of resumen) console.log(r);
   return resumen.length;

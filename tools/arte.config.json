@@ -30,6 +30,13 @@
       "aspecto": "9:16",
       "tamano": "1K",
       "carpeta": "assets/tokens-crudo/vehiculos"
+    },
+    "tile": {
+      "prefijo": "Top-down tile artwork of ONE single loose piece of furniture or prop for a virtual tabletop battlemap (World of Darkness, Hunter: The Reckoning, present-day Málaga, Spain), seen from DIRECTLY ABOVE: a strict orthographic bird's-eye view as if photographed from the ceiling, no perspective, no isometric tilt, no visible side faces, only the top surfaces. The object is centered and fills about 85% of the frame. Elongated objects lie with their LONG AXIS HORIZONTAL (left to right). Seats and sofas have their backrest along the TOP edge and the seat facing DOWN.\n\nSUBJECT: ",
+      "sufijo": "\n\nSTYLE: illustrated photorealism with crisp, confident dark ink outlines under realistic painted materials, cold desaturated palette (mean saturation about 10%), worn, dusty and lived-in, matching the battlemaps and tokens of the same campaign.\n\nBACKGROUND: a perfectly flat, uniform, pure chroma-key green (#00FF00) background with absolutely nothing else on it: no floor, no rug, no texture, no gradient, NO shadow cast on the ground, no vignette. The object itself contains no green at all, so the green can be keyed out cleanly.\n\nLIGHT: neutral even top light. NEVER a lit lamp, glow, halo, light pool or glowing screen.\n\nABSOLUTELY NO TEXT: no letters, labels, logos, numbers or legible print on boxes, papers or screens. No people, no hands, no frame, no border, no second object.",
+      "aspecto": "1:1",
+      "tamano": "1K",
+      "carpeta": "assets/tiles-crudo"
     }
   },
   "assets": [
@@ -170,6 +177,104 @@
       "estilo": "vehiculo",
       "prompt": "a Spanish Policía Nacional patrol car, white Citroën C4 with a dark blue hood and dark blue stripes, roof lightbar turned off, no lettering, no badge",
       "nota": "token cenital vehículo"
+    },
+    {
+      "id": "tile-silla-oficina",
+      "estilo": "tile",
+      "aspecto": "1:1",
+      "prompt": "a black mesh swivel office chair with a five-star wheeled base and armrests, slightly turned, worn padding.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-silla-madera",
+      "estilo": "tile",
+      "aspecto": "1:1",
+      "prompt": "a cheap old wooden kitchen chair with a scuffed seat, a wool cardigan thrown over its backrest.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-sofa-espera",
+      "estilo": "tile",
+      "aspecto": "21:9",
+      "prompt": "a long three-seat waiting-room sofa upholstered in cracked dark grey vinyl on a steel frame, a dent where people sat, one torn seam.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-sofa-gastado",
+      "estilo": "tile",
+      "aspecto": "21:9",
+      "prompt": "an old, sagging three-seat sofa upholstered in faded grey floral fabric, stained and worn shiny on the arms, a crumpled blanket and a newspaper on one cushion.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-mesa-espera",
+      "estilo": "tile",
+      "aspecto": "3:2",
+      "prompt": "a low rectangular waiting-room coffee table in chipped white laminate with brushed steel edges, a few scattered blank magazines and a paper cup.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-mesa-trabajo",
+      "estilo": "tile",
+      "aspecto": "16:9",
+      "prompt": "an old dark wooden work table buried under an investigator's mess: stacks of photocopies, photographs with blank faces, an open notebook, a city map with red marks, a full ashtray with cigarette butts, a gourd of mate with a metal straw, a cold cup of coffee.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-mesa-cocina",
+      "estilo": "tile",
+      "aspecto": "1:1",
+      "prompt": "a small square kitchen table with a worn cream formica top and chrome edging, a chipped mug, an ashtray and a pile of unopened envelopes.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-lampara-pie",
+      "estilo": "tile",
+      "aspecto": "1:1",
+      "prompt": "a standing floor lamp photographed from directly above the ceiling: all you see is a perfect CIRCLE, the round top opening of a pleated beige fabric lampshade seen as a ring, with the dark dusty inside of the shade and the unlit bulb fitting in the middle, and a thin sliver of a round brass base peeking out around it. Not a side view: no stem, no cone silhouette, no profile. The lamp is switched OFF: no glow, no light.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-mesa-sacristia",
+      "estilo": "tile",
+      "aspecto": "3:2",
+      "prompt": "an old heavy dark oak sacristy table, scarred and dusty, with a folded white altar cloth, two burnt-out candle stubs (unlit) and a few loose sheets of yellowed paper.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-tubos-plasma",
+      "estilo": "tile",
+      "aspecto": "21:9",
+      "prompt": "a long run of clear medical tubing filled with dark red blood lying loose on the floor, two parallel lines held together by plastic clamps and a three-way valve, with a small hanging plasma bag at one end.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-carro-instrumental",
+      "estilo": "tile",
+      "aspecto": "3:2",
+      "prompt": "a stainless-steel surgical instrument trolley photographed from directly above: only its flat rectangular top tray is visible, with a raised steel rim and corner push-handle, holding a steel kidney dish, scalpels, clamps and syringes, a few blood-stained gauze pads and empty glass vials. Strictly flat plan view: NO legs, NO wheels, NO lower shelf, NO side panels visible.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-carro-limpieza",
+      "estilo": "tile",
+      "aspecto": "3:2",
+      "prompt": "a janitor's cleaning trolley in grey and yellow plastic with a mop wringer bucket full of grey water, a mop, spray bottles with blank labels and a roll of black bin bags.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-palet-cajas",
+      "estilo": "tile",
+      "aspecto": "1:1",
+      "prompt": "a wooden shipping pallet loaded with stacked plain brown cardboard boxes wrapped in clear shrink-wrap film, with blank white shipping stickers and plastic strapping.",
+      "nota": "tile mueble móvil"
+    },
+    {
+      "id": "tile-palet-vacio",
+      "estilo": "tile",
+      "aspecto": "1:1",
+      "prompt": "an empty old wooden shipping pallet, grey with age, one plank cracked, a few torn scraps of shrink-wrap film and a dirty rag on it.",
+      "nota": "tile mueble móvil"
     }
   ]
 }
