@@ -384,7 +384,7 @@
         "lockRotation": true,
         "sight": {
           "enabled": true,
-          "range": 0
+          "range": 3
         },
         "texture": {
           "src": "icons/svg/mystery-man.svg"
@@ -813,7 +813,7 @@
         "lockRotation": true,
         "sight": {
           "enabled": true,
-          "range": 0
+          "range": 3
         },
         "texture": {
           "src": "icons/svg/mystery-man.svg"
@@ -1208,7 +1208,7 @@
         "lockRotation": true,
         "sight": {
           "enabled": true,
-          "range": 0
+          "range": 3
         },
         "texture": {
           "src": "icons/svg/mystery-man.svg"
@@ -1646,7 +1646,7 @@
         "lockRotation": true,
         "sight": {
           "enabled": true,
-          "range": 0
+          "range": 3
         },
         "texture": {
           "src": "icons/svg/mystery-man.svg"

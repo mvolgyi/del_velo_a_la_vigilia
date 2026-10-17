@@ -146,6 +146,12 @@
       "vacio": "Nobody inside.",
       "subieron": "<strong>{quienes}</strong> board <strong>{vehiculo}</strong> ({n}/{plazas}).",
       "bajaron": "<strong>{quienes}</strong> get out of <strong>{vehiculo}</strong>."
+    },
+    "vision": {
+      "linterna": "Flashlight (on / off)",
+      "lente": "Spectral Lens: night vision (on / off)",
+      "sinPermiso": "You do not own this token.",
+      "sinLente": "This character does not have the Spectral Lens."
     }
   }
 }

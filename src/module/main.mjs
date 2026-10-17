@@ -15,6 +15,7 @@ import { PanelCronica } from "./panel-cronica.mjs";
 import { cazadorActual } from "./actores.mjs";
 import { instalarParches } from "./compat.mjs";
 import { Vehiculos } from "./vehiculos.mjs";
+import { Vision } from "./vision.mjs";
 
 export { DVV, Caminos, TresPuertas, Desesperacion, Balizas, Arsenal, PanelCronica, Vehiculos };
 
@@ -48,6 +49,8 @@ Hooks.once("ready", async () => {
     Vehiculos,
     subirAlVehiculo: (vehiculo, tokens) => Vehiculos.subir(vehiculo ?? canvas.tokens.controlled.map(t => t.document).find(t => Vehiculos.esVehiculo(t)), tokens),
     bajarDelVehiculo: vehiculo => Vehiculos.dialogoBajar(vehiculo ?? canvas.tokens.controlled.map(t => t.document).find(t => Vehiculos.esVehiculo(t))),
+    linterna: (token, encender) => Vision.linterna(token ?? canvas.tokens.controlled[0]?.document, encender),
+    lenteEspectral: (token, activar) => Vision.lente(token ?? canvas.tokens.controlled[0]?.document, activar),
     cazadorActual
   };
 
@@ -146,6 +149,10 @@ Hooks.on("wod5e.handleFailure", (actor, system, failures, diceResults, rollMode)
 /** Vehículos: botones en el HUD y tamaño según la escena. */
 Hooks.on("renderTokenHUD", (hud, html) => Vehiculos.onRenderTokenHUD(hud, html));
 Hooks.on("preCreateToken", (doc, data) => Vehiculos.onPreCreateToken(doc, data));
+
+/** Visión: penumbra de los cazadores, linterna y Lente Espectral desde el HUD. */
+Hooks.on("renderTokenHUD", (hud, html) => Vision.onRenderTokenHUD(hud, html));
+Hooks.on("preCreateToken", (doc, data) => Vision.onPreCreateToken(doc, data));
 
 /** Reserva o mejora `dvv-*` arrastrada a una hoja: completar la Facultad. */
 Hooks.on("createItem", (item, _options, userId) => {

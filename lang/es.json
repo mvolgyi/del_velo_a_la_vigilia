@@ -146,6 +146,12 @@
       "vacio": "No hay nadie dentro.",
       "subieron": "<strong>{quienes}</strong> suben a <strong>{vehiculo}</strong> ({n}/{plazas}).",
       "bajaron": "<strong>{quienes}</strong> bajan de <strong>{vehiculo}</strong>."
+    },
+    "vision": {
+      "linterna": "Linterna (encender / apagar)",
+      "lente": "Lente Espectral: visión nocturna (activar / desactivar)",
+      "sinPermiso": "No sos dueño de este token.",
+      "sinLente": "Este personaje no tiene la Lente Espectral."
     }
   }
 }

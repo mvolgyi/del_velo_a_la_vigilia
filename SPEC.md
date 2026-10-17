@@ -274,6 +274,7 @@ El Foundry local (v14.365) no tiene wod5e instalado. Para probar:
 | 10 | Muebles móviles como tiles (24 en las cinco escenas interiores, rotados y desbloqueados) y un ambiente propio para cada una de las 11 manzanas de Málaga, con bucle automático de las pistas generadas | ✓ hecho en 0.4.8 |
 | 11 | Arreglos de mesa e interiores de Málaga: tiles centrados (en v14 x/y es el centro), coches en aparcamientos sobre la calzada, iluminación en penumbra del piso de Elías; comisaría reubicada en la Plaza de Manuel Azaña con su interior (calabozos, interrogatorios), Martiricos sobre la torre real con el laboratorio satélite por dentro, El Perchel y la Alameda reencuadrados, La Malagueta a 120 × 90 m | ✓ hecho en 0.5.0 |
 | 12 | Revisión en el canvas real: `tools/e2e/capturas-escenas.mjs` saca una captura de cada escena desde Foundry; pines y tokens de sala van a puntos libres de muebles; PNJs y ambientes de la comisaría y del laboratorio | ✓ hecho en 0.5.2 |
+| 13 | Visión de los cazadores: penumbra de 3 m, linterna desde el HUD (5/10 m, el Narrador puede dársela a un PNJ) y Lente Espectral como visión nocturna (20 m, monocromo) para quien tiene la Facultad | ✓ hecho en 0.5.3 |
 
 Prueba end-to-end: `npm run e2e` (ver README); pasó completa el 2026-10-16 sobre 0.4.7.
 

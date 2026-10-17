@@ -140,6 +140,14 @@ npm run tokens                         # recorte → assets/tokens/<id>.webp
 npm run contenido                      # las fichas toman retrato y token si existen
 ```
 
+### Visión, linterna y Lente Espectral
+
+Los tokens de cazador ven a tientas hasta 3 m (penumbra gris) y, más allá, solo lo que alumbra
+una luz de la escena. En el HUD del token hay dos botones: **Linterna** (una luz de 5 m fuertes y
+10 m tenues sobre el token; el Narrador puede encenderla a cualquier PNJ) y, solo para quien tiene
+la Facultad, **Lente Espectral** (visión nocturna de Foundry a 20 m, en monocromo). También desde
+macros: `game.modules.get("del-velo-a-la-vigilia").api.linterna(token)` y `.lenteEspectral(token)`.
+
 ## Cómo funciona por dentro (wod5e)
 
 - Las **Facultades** de wod5e no son ítems: son un registro que este módulo extiende con
