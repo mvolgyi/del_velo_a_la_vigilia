@@ -140,6 +140,21 @@ npm run tokens                         # recorte → assets/tokens/<id>.webp
 npm run contenido                      # las fichas toman retrato y token si existen
 ```
 
+### La Guía del Narrador (`guia/`)
+
+Una página local con toda la crónica: visión general, los cuatro cazadores, los PNJs con sus
+diálogos, los actos escena por escena, las escenas sala por sala, Málaga con sus manzanas y
+lugares, la pantalla y las reglas caseras. Se abre con doble clic en `guia/index.html`, sin
+internet (las fuentes van en `guia/fonts`, las imágenes salen de `assets/`), y guarda el
+seguimiento de la partida (escenas hechas, Desesperación, Peligro, balizas, notas) en el
+navegador, con exportación a un archivo. Va dentro del zip de la release.
+
+```bash
+npm run guia          # content/ → guia/index.html
+```
+
+El estilo sigue el de los libros de Cazador 5ª (ver `.taste-skill/notas.md` cuando exista).
+
 ### Visión, linterna y Lente Espectral
 
 Los tokens de cazador ven a tientas hasta 3 m (penumbra gris) y, más allá, solo lo que alumbra

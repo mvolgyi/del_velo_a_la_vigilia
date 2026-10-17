@@ -25,3 +25,6 @@ cache/
 
 # Material local del usuario: nunca al repo ni al release
 scratch/
+
+# Archivos de trabajo del skill de diseño (direction.json, capturas del inspector)
+.taste-skill/

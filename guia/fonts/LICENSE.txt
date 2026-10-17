@@ -1,0 +1,4 @@
+Fuentes (SIL Open Font License 1.1):
+- Anton © The Anton Project Authors
+- Oswald © The Oswald Project Authors
+- IBM Plex Sans © IBM Corp.

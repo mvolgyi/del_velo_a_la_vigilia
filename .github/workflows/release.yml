@@ -24,6 +24,7 @@ jobs:
       - name: Construir contenido y compilar packs
         run: |
           npm run contenido
+          npm run guia
           npm run verificar || true
           for p in reservas mejoras estados rasgos arsenal reglas cronica personajes escenas macros playlists aventura; do
             npx fvtt package pack "$p" --id del-velo-a-la-vigilia --type Module --in "packs-src/$p" --out packs
@@ -34,7 +35,7 @@ jobs:
 
       - name: Empaquetar
         run: |
-          zip -r module.zip module.json README.md LICENSE src lang templates content packs assets \
+          zip -r module.zip module.json README.md LICENSE src lang templates content packs assets guia \
             -x "content/muros/*" "assets/mapas/*.svg" "*.DS_Store"
 
       - name: Publicar release

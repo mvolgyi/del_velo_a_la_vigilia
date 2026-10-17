@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "awesome-design-md": {
+      "source": "wearescientist/awesome-design-md",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "13c11ef2913f40773e221ae0601762a0677ff8726f6dc1fa0f4af012d2a64161"
+    },
+    "design-taste-frontend": {
+      "source": "leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "18f81679d2b0247ce9da298b03ed8e47ecd3c206f2951d70eefb1b65d3219345"
+    },
+    "high-end-visual-design": {
+      "source": "leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/soft-skill/SKILL.md",
+      "computedHash": "7db385e4c5370e5a7fca9704a1361b056e4504ea6a03924bb86f33a4f00b5c73"
+    },
+    "playwright-cli": {
+      "source": "fugazi/test-automation-skills-agents",
+      "sourceType": "github",
+      "skillPath": "skills/playwright-cli/SKILL.md",
+      "computedHash": "1738b1f42bc6522a71aa1acea5d858f2a38d8c1e2b1aae4659ba840a15a20e96"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
+    }
+  }
+}
