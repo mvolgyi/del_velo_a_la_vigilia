@@ -93,9 +93,65 @@
     estado = { hecho: {}, contadores: {}, notas: {}, tab: null }; guardar(); location.reload();
   });
 
+  /* ---- barra fija: aparece al dejar atrás la portada ---- */
+  const barra = document.querySelector("[data-barra]"), arriba = document.querySelector("[data-arriba]"), portada = document.getElementById("inicio");
+  if (barra && portada && "IntersectionObserver" in window) {
+    new IntersectionObserver(([en]) => { barra.classList.toggle("visible", !en.isIntersecting); if (arriba) arriba.hidden = en.isIntersecting; }, { threshold: 0.05 }).observe(portada);
+  }
+  arriba?.addEventListener("click", () => window.scrollTo({ top: 0 }));
+
+  /* ---- buscador: ir a una sala, un PNJ, un lugar ---- */
+  const lista = document.getElementById("destinos"), buscar = document.getElementById("buscar");
+  const destinos = [];
+  for (const el of document.querySelectorAll("main [id]")) {
+    const t = el.querySelector(":scope > .banda-cab h3, :scope > .banda-cab h4, :scope > h3, :scope > h2, :scope > .pnj-cuerpo .capitular b, :scope > .escena-mapa figcaption");
+    const nombre = (t?.textContent ?? "").replace(/\s+/g, " ").trim().replace(/\.$/, "");
+    if (nombre && nombre.length < 90) destinos.push({ id: el.id, nombre });
+  }
+  if (lista) lista.innerHTML = destinos.map(d => `<option value="${d.nombre.replace(/"/g, "&quot;")}"></option>`).join("");
+  const irA = texto => {
+    const q = texto.trim().toLowerCase(); if (!q) return;
+    const d = destinos.find(x => x.nombre.toLowerCase() === q) ?? destinos.find(x => x.nombre.toLowerCase().includes(q));
+    if (!d) return;
+    location.hash = d.id; abrirDestino();
+    document.getElementById(d.id)?.scrollIntoView({ block: "start" });
+  };
+  buscar?.form?.addEventListener("submit", e => { e.preventDefault(); irA(buscar.value); });
+  buscar?.addEventListener("change", () => irA(buscar.value));
+
+  /* ---- carrusel de manzanas ---- */
+  for (const c of document.querySelectorAll("[data-carrusel]")) {
+    const pista = c.querySelector(".carrusel-pista"), diapos = [...pista.children], pos = c.querySelector(".carrusel-pos"), minis = [...c.querySelectorAll("[data-ir]")];
+    let actual = 0;
+    const pintar = () => { pos.textContent = `${actual + 1} / ${diapos.length}`; minis.forEach((m, i) => m.setAttribute("aria-selected", i === actual ? "true" : "false")); };
+    const ir = (i, suave = true) => { actual = (i + diapos.length) % diapos.length; pista.scrollTo({ left: diapos[actual].offsetLeft, behavior: suave ? "smooth" : "instant" }); pintar(); };
+    c.querySelector("[data-anterior]").addEventListener("click", () => ir(actual - 1));
+    c.querySelector("[data-siguiente]").addEventListener("click", () => ir(actual + 1));
+    minis.forEach((m, i) => m.addEventListener("click", () => ir(i)));
+    pista.addEventListener("keydown", e => { if (e.key === "ArrowRight") { e.preventDefault(); ir(actual + 1); } if (e.key === "ArrowLeft") { e.preventDefault(); ir(actual - 1); } });
+    // Si el usuario desliza con el dedo o la rueda, el contador sigue.
+    let t; pista.addEventListener("scroll", () => { clearTimeout(t); t = setTimeout(() => { const i = Math.round(pista.scrollLeft / pista.clientWidth); if (i !== actual && i >= 0 && i < diapos.length) { actual = i; pintar(); } }, 80); }, { passive: true });
+    pintar();
+  }
+
+  /* ---- visor de mapas ---- */
+  const visor = document.querySelector("[data-visor]");
+  if (visor) {
+    const img = visor.querySelector("img"), titulo = visor.querySelector("[data-visor-titulo]"), cuerpo = visor.querySelector(".visor-cuerpo");
+    for (const b of document.querySelectorAll("[data-ampliar]")) b.addEventListener("click", () => {
+      const src = b.querySelector("img");
+      img.src = src.currentSrc || src.src; img.alt = src.alt; titulo.textContent = b.dataset.ampliar;
+      cuerpo.classList.add("encajar"); visor.showModal();
+    });
+    // Un toque alterna entre «encajar» y tamaño real (para leer los pines).
+    cuerpo.addEventListener("click", e => { if (e.target === img) cuerpo.classList.toggle("encajar"); });
+    visor.querySelector("[data-visor-cerrar]").addEventListener("click", () => visor.close());
+    visor.addEventListener("click", e => { if (e.target === visor) visor.close(); });
+  }
+
   /* ---- entradas por sección (una vez, en orden de lectura) ---- */
   if (!matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
-    const partes = document.querySelectorAll("main h2, main h3, .cuerpo > p, .banda, .cazador, .pnj, .escena-mapa, .modulo, .st-a, .st-b, .st-c, .st-texto > div");
+    const partes = document.querySelectorAll("main h2, main h3, .cuerpo > p, .banda, .arquetipo, .pnj, .escena-mapa, .st-a, .st-b, .st-c, .st-texto > div");
     partes.forEach(el => el.classList.add("entra"));
     const io = new IntersectionObserver(entradas => {
       for (const en of entradas) {

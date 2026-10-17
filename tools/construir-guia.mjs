@@ -146,32 +146,22 @@ const intro = `
 
 /* ----------------------------------------------------- 3. cazadores */
 const CREDO_LETRA = { martial: "M", entrepreneurial: "E", faithful: "F", inquisitive: "I", underground: "C" };
+const SETS = Object.fromEntries((existe("content/arsenal.json") ? leerJson("content/arsenal.json").sets ?? [] : []).map(x => [x.id, x.nombre]));
+const CAMINO = { fe: "La Marca de los Heraldos (Fe)", metodo: "La Ciencia del Umbral (Método)", carne: "La Carne Templada (Carne)", mortal: "Cazador mortal, con el Arsenal" };
 const cazadores = `
 <section class="pagina" id="cazadores">
   <h2>Los cuatro cazadores</h2>
-  <div class="cuerpo"><p>Cuatro empleados de Somnia Biotech sin nombre propio: el jugador se lo pone. Las fichas van en el compendio de personajes; acá está lo que el Narrador necesita para apretar a cada uno.</p></div>
+  <div class="cuerpo"><p>Cuatro empleados de Somnia Biotech que estaban en el lugar equivocado la noche del apagón. Son arquetipos sugeridos: el nombre, la ficha y la historia los construye cada jugador. Lo que importa para la crónica es el puesto que tenían en la clínica, porque de ahí sale lo que cada uno sabe, a quién conoce y por qué Somnia puede apretarlo.</p></div>
+  <div class="arquetipos">
   ${PJS.map(pj => `
-  <article class="cazador" id="pj-${pj.id}">
-    <div class="caz-lado">
-      <span class="caz-inicial">${CREDO_LETRA[pj.credo] ?? pj.credoNombre?.[0] ?? "?"}</span>
-      <dl><dt>Credo</dt><dd>${esc(pj.credoNombre ?? pj.credo)}</dd><dt>Camino probable</dt><dd>${esc(pj.caminoProbable ?? "—")}</dd><dt>Set del Arsenal</dt><dd>${esc(pj.setArsenal ?? "—")}</dd><dt>Salud / Voluntad</dt><dd>${pj.salud ?? "–"} / ${pj.voluntad ?? "–"}</dd></dl>
-    </div>
-    <div class="caz-cuerpo">
+    <article class="arquetipo" id="pj-${pj.id}">
+      <span class="caz-inicial" aria-hidden="true">${CREDO_LETRA[pj.credo] ?? pj.credoNombre?.[0] ?? "?"}</span>
       <h3>${esc(pj.nombre)}</h3>
       <p class="concepto">${esc(pj.concepto)}</p>
-      ${pj.historia ?? ""}
-      <p class="nota" data-label="Determinación">${esc(pj.determinacion)}</p>
-      <p class="nota" data-label="Ambición">${esc(pj.ambicion)}</p>
-      <p class="nota" data-label="Deseo">${esc(pj.deseo)}</p>
-      <p class="nota" data-label="Piedra de toque">${esc(pj.piedraDeToque)}</p>
-      <div class="ficha">
-        <div><h4>Atributos</h4><ul>${Object.entries(pj.atributos ?? {}).map(([k, v]) => `<li><span>${ATR[k] ?? k}</span><b>${dots(v)}</b></li>`).join("")}</ul></div>
-        <div><h4>Habilidades</h4><ul>${Object.entries(pj.habilidades ?? {}).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<li><span>${HAB[k] ?? k}</span><b>${dots(v)}</b></li>`).join("")}</ul>
-        ${pj.especialidades?.length ? `<p class="chica">Especialidades: ${esc(pj.especialidades.join("; "))}</p>` : ""}</div>
-        <div><h4>Ventajas y defectos</h4><ul class="lista">${(pj.ventajas ?? []).map(v => `<li>${esc(v)}</li>`).join("")}</ul></div>
-      </div>
-    </div>
-  </article>`).join("")}
+      <dl><dt>Credo sugerido</dt><dd>${esc(pj.credoNombre ?? pj.credo)}</dd><dt>Set del Arsenal</dt><dd>${esc(SETS[pj.setArsenal] ?? pj.setArsenal ?? "—")}</dd><dt>Camino probable</dt><dd>${esc(CAMINO[pj.caminoProbable] ?? pj.caminoProbable ?? "—")}</dd></dl>
+    </article>`).join("")}
+  </div>
+  <div class="cuerpo"><p class="chica">En el compendio de personajes del módulo hay una plantilla por arquetipo con cifras sugeridas, por si una mesa quiere empezar a jugar en diez minutos.</p></div>
 </section>`;
 
 /* ----------------------------------------------------- 4. dramatis */
@@ -209,6 +199,7 @@ const dramatisHtml = `
 <section class="pagina" id="dramatis">
   <h2>Dramatis personae</h2>
   <div class="cuerpo"><p>Quién es cada uno, qué puede, qué le pesa y qué dice cuando habla. Las fichas de wod5e están en el compendio; las cifras de todos salvo Elías son sugeridas.</p></div>
+  <nav class="indice" aria-label="Personajes">${PNJS.map(p => `<a href="#pnj-${p.id}">${esc(p.nombre)}</a>`).join("")}</nav>
   ${PNJS.map(pnjCard).join("")}
 </section>`;
 
@@ -227,7 +218,7 @@ const paneles = ACTOS.map((a, i) => {
   const escenas = partes.slice(1).map(bloque => {
     const titulo = bloque.split("\n")[0].trim();
     const id = `${a.meta.id}:${slug(titulo)}`;
-    return `<div class="banda"><div class="banda-cab"><h3>${esc(titulo)}</h3>${hecho(id)}</div><div class="banda-cuerpo">${render(bloque.replace(/^[^\n]*\n/, ""))}</div></div>`;
+    return `<div class="banda" id="escena-${a.meta.id}-${slug(titulo)}"><div class="banda-cab"><h3>${esc(titulo)}</h3>${hecho(id)}</div><div class="banda-cuerpo">${render(bloque.replace(/^[^\n]*\n/, ""))}</div></div>`;
   });
   return `<div class="panel${i === 0 ? " activa" : ""}" data-panel="${a.meta.id}" id="${a.meta.id}">
     <h3 class="panel-titulo">${esc(a.meta.nombre)}</h3>
@@ -256,11 +247,11 @@ const escenasHtml = salasDocs.map(doc => {
     let i = 1;
     if (/^tokens:/.test(lineas[1] ?? "")) { tokens = lineas[1].replace(/^tokens:\s*/, ""); i = 2; }
     const id = `${esc_}:${slug(titulo)}`;
-    return `<div class="banda sala"><div class="banda-cab"><h4>${esc(titulo)}</h4>${hecho(id)}</div><div class="banda-cuerpo">${tokensHtml(tokens)}${render(lineas.slice(i).join("\n"))}</div></div>`;
+    return `<div class="banda sala" id="sala-${esc_}-${slug(titulo)}"><div class="banda-cab"><h4>${esc(titulo)}</h4>${hecho(id)}</div><div class="banda-cuerpo">${tokensHtml(tokens)}${render(lineas.slice(i).join("\n"))}</div></div>`;
   });
   return `
   <article class="escena" id="escena-${esc_}">
-    ${mapa ? `<figure class="escena-mapa"><img src="${mapa}" width="${(plano?.ancho ?? 80) * 30}" height="${(plano?.alto ?? 60) * 30}" alt="Mapa: ${esc(doc.meta.nombre)}" loading="lazy"><figcaption><span>${esc(doc.meta.prefijo ?? "")}</span>${esc(doc.meta.nombre)}</figcaption></figure>` : `<h3>${esc(doc.meta.nombre)}</h3>`}
+    ${mapa ? `<figure class="escena-mapa"><button type="button" class="ampliar" data-ampliar="${esc(doc.meta.nombre)}"><img src="${mapa}" width="${(plano?.ancho ?? 80) * 30}" height="${(plano?.alto ?? 60) * 30}" alt="Mapa: ${esc(doc.meta.nombre)}" loading="lazy"><span class="lupa">Ampliar</span></button><figcaption><span>${esc(doc.meta.prefijo ?? "")}</span>${esc(doc.meta.nombre)}</figcaption></figure>` : `<h3>${esc(doc.meta.nombre)}</h3>`}
     <div class="cuerpo"><p class="intro-escena">${esc(doc.meta.intro ?? "")}</p>${plano?.nota ? `<p class="nota" data-label="La escena">${esc(plano.nota)}</p>` : ""}</div>
     ${salas.join("")}
   </article>`;
@@ -268,7 +259,8 @@ const escenasHtml = salasDocs.map(doc => {
 const escenas = `
 <section class="pagina ancha" id="escenas">
   <h2>Las escenas, sala por sala</h2>
-  <div class="cuerpo"><p>Cada escena de Foundry, con sus salas numeradas como los pines del mapa. «Qué hay» es lo que se ve; «Qué pasa» lo que puede ocurrir; «Para el Narrador», lo que solo vos sabés. Los tokens listados son los que la escena trae colocados.</p></div>
+  <div class="cuerpo"><p>Cada escena de Foundry, con sus salas numeradas como los pines del mapa. «Qué hay» es lo que se ve; «Qué pasa» lo que puede ocurrir; «Para el Narrador», lo que solo vos sabés. Los tokens listados son los que la escena trae colocados. Tocá un mapa para verlo a tamaño completo.</p></div>
+  <nav class="indice" aria-label="Escenas">${salasDocs.map(d => `<a href="#escena-${d.meta.escena}"><b>${esc(d.meta.prefijo ?? "")}</b>${esc(d.meta.nombre)}</a>`).join("")}</nav>
   ${escenasHtml}
 </section>`;
 
@@ -279,10 +271,21 @@ const lugares = malagaDocs.filter(d => d.meta.id !== "malaga");
 const sectoresDocs = archivosMd(path.join(RAIZ, "content/sectores")).map(f => ({ f, ...leerMd(f) }));
 const ordenSector = Object.fromEntries(SECTORES.map(s => [s.id, s.orden ?? 99]));
 sectoresDocs.sort((a, b) => (ordenSector[a.meta.sector] ?? 99) - (ordenSector[b.meta.sector] ?? 99));
-const fila = sectoresDocs.map(d => {
-  const img = existe(`assets/mapas/sectores/${d.meta.sector}.webp`) ? `${A}/mapas/sectores/${d.meta.sector}.webp` : null;
-  return img ? `<a class="modulo" href="#sector-${d.meta.sector}"><img src="${img}" width="4000" height="3000" alt="${esc(d.meta.nombre)}" loading="lazy"><span>${esc(d.meta.nombre)}</span></a>` : "";
-}).join("");
+const conMapa = sectoresDocs.filter(d => existe(`assets/mapas/sectores/${d.meta.sector}.webp`));
+const carrusel = `
+<div class="carrusel" data-carrusel>
+  <div class="carrusel-pista" tabindex="0" aria-label="Mapas de las manzanas; usá las flechas del teclado">
+    ${conMapa.map((d, i) => `<figure class="diapo" data-i="${i}"><button type="button" class="ampliar" data-ampliar="${esc(d.meta.nombre)}"><img src="${A}/mapas/sectores/${d.meta.sector}.webp" width="4000" height="3000" alt="${esc(d.meta.nombre)}" loading="lazy"><span class="lupa">Ampliar</span></button><figcaption><a href="#sector-${d.meta.sector}">${esc(d.meta.nombre)}</a><span>${esc(d.meta.intro ?? "")}</span></figcaption></figure>`).join("")}
+  </div>
+  <div class="carrusel-mandos">
+    <button type="button" data-anterior aria-label="Mapa anterior">◀</button>
+    <span class="carrusel-pos" aria-live="polite">1 / ${conMapa.length}</span>
+    <button type="button" data-siguiente aria-label="Mapa siguiente">▶</button>
+  </div>
+  <div class="carrusel-miniaturas" role="tablist" aria-label="Elegir mapa">
+    ${conMapa.map((d, i) => `<button type="button" role="tab" data-ir="${i}" aria-label="${esc(d.meta.nombre)}"${i === 0 ? ' aria-selected="true"' : ""}><img src="${A}/mapas/sectores/${d.meta.sector}.webp" width="4000" height="3000" alt="" loading="lazy"></button>`).join("")}
+  </div>
+</div>`;
 const sectoresHtml = sectoresDocs.map(d => {
   const lineas = sinH1(d.cuerpo).split("\n");
   let tokens = "", i = 0;
@@ -304,10 +307,13 @@ const malaga = `
 <section class="pagina ancha" id="malaga">
   <h2>Málaga, el tablero de la Vigilia</h2>
   <div class="cuerpo">${malagaIntro ? render(sinH1(malagaIntro.cuerpo).replace(/^## /gm, "### ")) : ""}</div>
-  <div class="galeria"><div class="galeria-cab"><h3>Las manzanas</h3><span>${sectoresDocs.length} mapas</span></div><div class="fila-arrastre">${fila}</div></div>
+  <h3>Las manzanas</h3>
+  ${carrusel}
   <h3>Manzana por manzana</h3>
+  <nav class="indice" aria-label="Manzanas">${sectoresDocs.map(d => `<a href="#sector-${d.meta.sector}">${esc(d.meta.nombre.replace(/^Málaga · /, ""))}</a>`).join("")}</nav>
   ${sectoresHtml}
   <h3>Lugares</h3>
+  <nav class="indice" aria-label="Lugares">${lugares.map(d => `<a href="#lugar-${d.meta.id}">${esc(d.meta.nombre)}</a>`).join("")}</nav>
   ${lugaresHtml}
   ${vehiculosHtml}
 </section>`;
@@ -359,6 +365,12 @@ const html = `<!doctype html>
 <body>
 <a class="saltar" href="#vision">Saltar al contenido</a>
 ${cabecera}
+<nav class="barra" aria-label="Navegación fija" data-barra>
+  <a class="barra-logo" href="#inicio" aria-label="Volver a la portada">WoD</a>
+  <div class="barra-links"><a href="#cronica">Crónica</a><a href="#cazadores">Cazadores</a><a href="#dramatis">Dramatis</a><a href="#escenas">Escenas</a><a href="#malaga">Málaga</a><a href="#pantalla">Pantalla</a><a href="#reglas">Reglas</a></div>
+  <form class="buscar" role="search" data-buscar><label for="buscar" class="visualmente-oculto">Ir a una sala, un personaje o un lugar</label><input id="buscar" name="buscar" type="search" list="destinos" placeholder="Ir a… (sala, PNJ, lugar)" autocomplete="off" spellcheck="false"><datalist id="destinos"></datalist></form>
+  <button class="t-accion" type="button" data-abrir-mesa>La mesa</button>
+</nav>
 <main id="contenido">
 ${intro}
 ${cazadores}
@@ -371,6 +383,8 @@ ${reglasHtml}
 </main>
 <footer class="pie"><p>Del Velo a la Vigilia es un módulo para Hunter: The Reckoning 5ª edición sobre wod5e. Cazador: La Venganza es de Paradox Interactive y Nosolorol; esta guía usa su estilo, no su texto. Mapas de calle con datos de OpenStreetMap (ODbL). Fuentes Anton, Oswald e IBM Plex Sans (OFL).</p></footer>
 ${mesa}
+<button type="button" class="arriba" data-arriba hidden aria-label="Volver arriba">▲</button>
+<dialog class="visor" data-visor><div class="visor-cab"><span data-visor-titulo></span><button type="button" data-visor-cerrar>Cerrar</button></div><div class="visor-cuerpo"><img src="" alt=""></div></dialog>
 <script src="guia.js"></script>
 </body>
 </html>
