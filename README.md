@@ -145,7 +145,8 @@ npm run contenido                      # las fichas toman retrato y token si exi
 Una página local con toda la crónica: visión general, los cuatro cazadores, los PNJs con sus
 diálogos, los actos escena por escena, las escenas sala por sala, Málaga con sus manzanas y
 lugares, la pantalla y las reglas caseras. Se abre con doble clic en `guia/index.html`, sin
-internet (las fuentes van en `guia/fonts`, las imágenes salen de `assets/`), y guarda el
+internet y sin nada al lado: es un solo archivo con el CSS, el JS, las fuentes y las imágenes
+embebidas (un navegador Flatpak abre el archivo por el portal y no ve la carpeta), y guarda el
 seguimiento de la partida (escenas hechas, Desesperación, Peligro, balizas, notas) en el
 navegador, con exportación a un archivo. Va dentro del zip de la release.
 

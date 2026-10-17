@@ -11,10 +11,17 @@
  *
  * Estilo: el de los libros de Cazador 5ª (ver .taste-skill/notas.md).
  *
- * Uso: node tools/construir-guia.mjs
+ * El HTML es AUTOCONTENIDO: CSS, JS, fuentes e imágenes van embebidos (las
+ * imágenes reducidas y en base64). Un navegador Flatpak abre el archivo por
+ * el portal de documentos y no ve la carpeta de al lado; con todo adentro,
+ * la guía se abre con doble clic en cualquier máquina.
+ *
+ * Uso: node tools/construir-guia.mjs [--enlazado]   (--enlazado: sin embeber, para depurar)
  */
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
+import crypto from "node:crypto";
 import { marked } from "marked";
 import { RAIZ, leerJson, archivosMd, separarFrontmatter, slug } from "./util.mjs";
 
@@ -22,6 +29,10 @@ marked.use({ gfm: true });
 const md2html = md => marked.parse(md, { async: false });
 const SALIDA = path.join(RAIZ, "guia/index.html");
 const A = "../assets";
+const ENLAZADO = process.argv.includes("--enlazado");
+const CACHE = path.join(RAIZ, "cache/guia");
+/** Ancho máximo al embeber, por carpeta: los mapas no necesitan 4000 px para leerse en la guía. */
+const ANCHO = { "mapas/sectores": 1400, mapas: 1600, retratos: 480, portadas: 640, "tokens/vehiculos": 120 };
 const existe = rel => fs.existsSync(path.join(RAIZ, rel));
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const leerMd = f => separarFrontmatter(fs.readFileSync(f, "utf8"));
@@ -364,7 +375,31 @@ ${mesa}
 </body>
 </html>
 `;
+/** Reduce la imagen (magick, cacheado por hash) y la devuelve como data URI. */
+function dataUri(rel) {
+  const abs = path.join(RAIZ, rel);
+  const carpeta = Object.keys(ANCHO).sort((a, b) => b.length - a.length).find(k => rel.startsWith(`assets/${k}/`));
+  const ancho = carpeta ? ANCHO[carpeta] : 1200;
+  fs.mkdirSync(CACHE, { recursive: true });
+  const clave = crypto.createHash("md5").update(`${rel}:${ancho}:${fs.statSync(abs).mtimeMs}`).digest("hex").slice(0, 12);
+  const out = path.join(CACHE, `${path.basename(rel, path.extname(rel))}-${clave}.webp`);
+  if (!fs.existsSync(out)) execFileSync("magick", [abs, "-resize", `${ancho}x${ancho}>`, "-quality", "78", "-define", "webp:method=4", out], { stdio: "pipe" });
+  return `data:image/webp;base64,${fs.readFileSync(out).toString("base64")}`;
+}
+function embeber(html) {
+  let css = fs.readFileSync(path.join(RAIZ, "guia/guia.css"), "utf8");
+  css = css.replace(/url\(fonts\/([^)]+)\)/g, (_, f) => `url(data:font/woff2;base64,${fs.readFileSync(path.join(RAIZ, "guia/fonts", f)).toString("base64")})`);
+  const js = fs.readFileSync(path.join(RAIZ, "guia/guia.js"), "utf8");
+  html = html.replace('<link rel="stylesheet" href="guia.css">', `<style>\n${css}\n</style>`);
+  html = html.replace('<script src="guia.js"></script>', `<script>\n${js.replace(/<\/script/g, "<\\/script")}\n</script>`);
+  const vistas = new Map();
+  html = html.replace(/src="\.\.\/(assets\/[^"]+)"/g, (_, rel) => {
+    if (!vistas.has(rel)) vistas.set(rel, dataUri(rel));
+    return `src="${vistas.get(rel)}"`;
+  });
+  return html;
+}
 fs.mkdirSync(path.dirname(SALIDA), { recursive: true });
-fs.writeFileSync(SALIDA, html);
+fs.writeFileSync(SALIDA, ENLAZADO ? html : embeber(html));
 const kb = Math.round(fs.statSync(SALIDA).size / 1024);
-console.log(`✓ guia/index.html (${kb} KB): ${PJS.length} cazadores, ${PNJS.length} PNJs, ${ACTOS.length} partes, ${salasDocs.length} escenas, ${sectoresDocs.length} manzanas, ${lugares.length} lugares, ${reglasDocs.length} reglas`);
+console.log(`✓ guia/index.html (${kb} KB${ENLAZADO ? ", enlazado" : ", autocontenido"}): ${PJS.length} cazadores, ${PNJS.length} PNJs, ${ACTOS.length} partes, ${salasDocs.length} escenas, ${sectoresDocs.length} manzanas, ${lugares.length} lugares, ${reglasDocs.length} reglas`);
