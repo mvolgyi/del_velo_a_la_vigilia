@@ -37,6 +37,13 @@
       "aspecto": "1:1",
       "tamano": "1K",
       "carpeta": "assets/tiles-crudo"
+    },
+    "credo": {
+      "prefijo": "Cinematic photographic portrait for a modern urban-horror tabletop RPG (World of Darkness, Hunter: The Reckoning), present-day Málaga, Spain, meant to be converted to a two-tone orange-and-black treatment with a strong silhouette. Half-length, dramatic, the subject caught mid-action and NOT looking at the camera. Wide 16:9 framing with the subject off-centre and plenty of dark negative space on one side for a title.\n\nSUBJECT: ",
+      "sufijo": "\n\nSTYLE: gritty documentary photograph at night, hard single light source, deep black shadows, high contrast, rain or dust in the air, contemporary unglamorous clothing. The frame bleeds to all four edges: no border, no frame, no paper. ABSOLUTELY NO TEXT anywhere: no signage, no lettering on clothing or screens, no watermark, no logo. A single person only.",
+      "aspecto": "16:9",
+      "tamano": "1K",
+      "carpeta": "assets/credos-crudo"
     }
   },
   "assets": [
@@ -323,6 +330,36 @@
       "estilo": "token",
       "prompt": "a dishevelled man in a stained old jacket lying curled on his side seen from above, one shoe missing, one arm under his head.",
       "nota": "token cenital PNJ"
+    },
+    {
+      "id": "credo-martial",
+      "estilo": "credo",
+      "prompt": "a broad-shouldered private security guard in his thirties in a dark uniform jacket racking a pump shotgun in a concrete loading dock lit by a red emergency light; sweat, focus, a radio on his shoulder.",
+      "nota": "banda de Credo para la guía"
+    },
+    {
+      "id": "credo-underground",
+      "estilo": "credo",
+      "prompt": "a wiry young IT intern in a hoodie crouched by an open server rack with a laptop and a tangle of cables, lit only by the laptop screen and a headlamp, glancing over his shoulder into the dark corridor.",
+      "nota": "banda de Credo para la guía"
+    },
+    {
+      "id": "credo-inquisitive",
+      "estilo": "credo",
+      "prompt": "a tired research student in her late twenties in a lab coat over a sweater, standing before a wall of printed charts and photographs joined by red thread, holding a sheet up to a desk lamp, glasses reflecting the light.",
+      "nota": "banda de Credo para la guía"
+    },
+    {
+      "id": "credo-faithful",
+      "estilo": "credo",
+      "prompt": "a middle-aged night cleaner in a worn work uniform kneeling on a stone floor by a heavy old door, a rosary wrapped around one fist and a mop handle in the other, a candle on the floor, eyes closed.",
+      "nota": "banda de Credo para la guía"
+    },
+    {
+      "id": "credo-entrepreneurial",
+      "estilo": "credo",
+      "prompt": "a sharp woman in her forties in an expensive coat on a wet street at night, phone to her ear, handing a thick envelope to someone out of frame, the headlights of a black car behind her.",
+      "nota": "banda de Credo para la guía"
     }
   ]
 }

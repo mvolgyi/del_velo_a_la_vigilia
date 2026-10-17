@@ -151,8 +151,14 @@ seguimiento de la partida (escenas hechas, Desesperación, Peligro, balizas, not
 navegador, con exportación a un archivo. Va dentro del zip de la release.
 
 ```bash
-npm run guia          # content/ → guia/index.html
+node tools/generar-arte.mjs --estilo credo   # fotos de los cinco Credos → assets/credos-crudo/
+npm run credos                               # duotono naranja + líneas → assets/credos/
+npm run guia                                 # content/ → guia/index.html
 ```
+
+Los Credos se presentan como en la web de World of Darkness: una banda por Credo, mitad texto y
+mitad foto tratada en naranja y negro con el nombre encima, y en cada una el arquetipo de la
+crónica que lo encarna.
 
 El estilo sigue el de los libros de Cazador 5ª (ver `.taste-skill/notas.md` cuando exista).
 

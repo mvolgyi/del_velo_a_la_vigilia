@@ -151,7 +151,7 @@
 
   /* ---- entradas por sección (una vez, en orden de lectura) ---- */
   if (!matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
-    const partes = document.querySelectorAll("main h2, main h3, .cuerpo > p, .banda, .arquetipo, .pnj, .escena-mapa, .st-a, .st-b, .st-c, .st-texto > div");
+    const partes = document.querySelectorAll("main h2, main h3, .cuerpo > p, .banda, .credo, .pnj, .escena-mapa, .st-a, .st-b, .st-c, .st-texto > div");
     partes.forEach(el => el.classList.add("entra"));
     const io = new IntersectionObserver(entradas => {
       for (const en of entradas) {

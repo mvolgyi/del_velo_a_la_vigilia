@@ -32,7 +32,7 @@ const A = "../assets";
 const ENLAZADO = process.argv.includes("--enlazado");
 const CACHE = path.join(RAIZ, "cache/guia");
 /** Ancho máximo al embeber, por carpeta: los mapas no necesitan 4000 px para leerse en la guía. */
-const ANCHO = { "mapas/sectores": 1400, mapas: 1600, retratos: 480, portadas: 640, "tokens/vehiculos": 120 };
+const ANCHO = { "mapas/sectores": 1400, mapas: 1600, retratos: 480, portadas: 640, "tokens/vehiculos": 120, credos: 1400 };
 const existe = rel => fs.existsSync(path.join(RAIZ, rel));
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const leerMd = f => separarFrontmatter(fs.readFileSync(f, "utf8"));
@@ -112,7 +112,7 @@ const cabecera = `
   <div class="fila">
     <a class="t-logo" href="#inicio" aria-label="Inicio"><span>WoD</span></a>
     <nav class="t-nav" aria-label="Secciones">
-      <a href="#cronica">Crónica</a><a href="#cazadores">Cazadores</a><a href="#dramatis">Dramatis</a><a href="#escenas">Escenas</a><a href="#malaga">Málaga</a><a href="#reglas">Reglas</a>
+      <a href="#cronica">Crónica</a><a href="#cazadores">Credos</a><a href="#dramatis">Dramatis</a><a href="#escenas">Escenas</a><a href="#malaga">Málaga</a><a href="#reglas">Reglas</a>
     </nav>
     <button class="t-accion" type="button" data-abrir-mesa>La mesa</button>
   </div>
@@ -144,24 +144,53 @@ const intro = `
   <p>Leela entera una vez antes de la primera sesión; después, en la mesa, trabajá con la pestaña del acto que toca y con las salas de la escena abierta en Foundry. Cada escena y cada sala tienen una casilla «Hecho»; el botón <strong>La mesa</strong> abre el tablero con la Desesperación, el Peligro y las balizas de cada cazador. Todo queda guardado en este navegador y se puede exportar a un archivo.</p></div>
 </section>`;
 
-/* ----------------------------------------------------- 3. cazadores */
-const CREDO_LETRA = { martial: "M", entrepreneurial: "E", faithful: "F", inquisitive: "I", underground: "C" };
-const SETS = Object.fromEntries((existe("content/arsenal.json") ? leerJson("content/arsenal.json").sets ?? [] : []).map(x => [x.id, x.nombre]));
+/* ----------------------------------------------------- 3. credos y cazadores */
+/** Los cinco Credos de Cazador 5ª, como los presenta World of Darkness: una banda por Credo. */
+const CREDOS = [
+  { id: "martial", nombre: "Marciales", titulo: "Marcial", frase: "Aplastar la amenaza con armas, táctica y fuerza bruta.",
+    texto: "El cazador Marcial entiende la Caza como una guerra: hay que entrenar, armarse y golpear antes de que el monstruo golpee. Su fuerte es el conflicto físico, y su dilema es qué queda de él cuando todo se resuelve a tiros.",
+    desesperacion: "Cualquier conflicto físico con lo sobrenatural: armas, táctica, fuerza bruta." },
+  { id: "underground", nombre: "Clandestinos", titulo: "Clandestino", frase: "Astucia, subterfugio y conocer a la gente indicada.",
+    texto: "El cazador Clandestino sabe que a la presa no se llega de frente sino por la puerta de servicio: contactos, mentiras, cerraduras, sigilo. Su fuerte es moverse sin ser visto, y su dilema es a quién termina pareciéndose para lograrlo.",
+    desesperacion: "Sigilo y subterfugio en servicio directo de la Caza." },
+  { id: "inquisitive", nombre: "Inquisitivos", titulo: "Inquisitivo", frase: "Acumular y usar conocimiento contra lo oculto.",
+    texto: "El cazador Inquisitivo estudia al monstruo con métodos de hoy y de hace siglos, y convierte lo que aprende en un arma. Su fuerte es conseguir información: investigar, entrar donde no debe, interrogar. Su dilema es cuánto está dispuesto a saber.",
+    desesperacion: "Obtener información vital: investigación, allanamientos e interrogatorios." },
+  { id: "faithful", nombre: "Fieles", titulo: "Fiel", frase: "Una fe que sostiene en el choque directo con lo sobrenatural.",
+    texto: "El cazador Fiel cree en poderes más altos y mira el mundo con esa certeza. Su fe lo sostiene en el conflicto directo con lo sobrenatural, sea físico, social o mental. Su dilema es qué pasa la noche en que nadie responde.",
+    desesperacion: "Cualquier conflicto directo (físico, social o mental) frente a lo sobrenatural." },
+  { id: "entrepreneurial", nombre: "Emprendedores", titulo: "Emprendedor", frase: "Innovar, construir y reparar en plena Caza.",
+    texto: "El cazador Emprendedor va a la Caza con soluciones nuevas y enfoques experimentales: construye, inventa, mejora y repara sobre la marcha, y lo que no sabe hacer lo compra o lo negocia. Su dilema es que todo cuesta, y alguien paga.",
+    desesperacion: "Construir, inventar, aumentar o reparar dispositivos durante la Caza." }
+];
+const SETS_CREDO = Object.fromEntries((existe("content/arsenal.json") ? leerJson("content/arsenal.json").sets ?? [] : []).map(x => [x.credo, x]));
+const SETS = Object.fromEntries(Object.values(SETS_CREDO).map(x => [x.id, x.nombre]));
 const CAMINO = { fe: "La Marca de los Heraldos (Fe)", metodo: "La Ciencia del Umbral (Método)", carne: "La Carne Templada (Carne)", mortal: "Cazador mortal, con el Arsenal" };
 const cazadores = `
-<section class="pagina" id="cazadores">
-  <h2>Los cuatro cazadores</h2>
-  <div class="cuerpo"><p>Cuatro empleados de Somnia Biotech que estaban en el lugar equivocado la noche del apagón. Son arquetipos sugeridos: el nombre, la ficha y la historia los construye cada jugador. Lo que importa para la crónica es el puesto que tenían en la clínica, porque de ahí sale lo que cada uno sabe, a quién conoce y por qué Somnia puede apretarlo.</p></div>
-  <div class="arquetipos">
-  ${PJS.map(pj => `
-    <article class="arquetipo" id="pj-${pj.id}">
-      <span class="caz-inicial" aria-hidden="true">${CREDO_LETRA[pj.credo] ?? pj.credoNombre?.[0] ?? "?"}</span>
-      <h3>${esc(pj.nombre)}</h3>
-      <p class="concepto">${esc(pj.concepto)}</p>
-      <dl><dt>Credo sugerido</dt><dd>${esc(pj.credoNombre ?? pj.credo)}</dd><dt>Set del Arsenal</dt><dd>${esc(SETS[pj.setArsenal] ?? pj.setArsenal ?? "—")}</dd><dt>Camino probable</dt><dd>${esc(CAMINO[pj.caminoProbable] ?? pj.caminoProbable ?? "—")}</dd></dl>
-    </article>`).join("")}
+<section class="credos" id="cazadores">
+  <div class="credos-cab">
+    <h2>Los Credos y los cuatro cazadores</h2>
+    <p class="standfirst">El Credo es cómo un cazador encara a su presa: su método, sus herramientas y su manera de mirar el mundo. En esta crónica, cuatro empleados de Somnia Biotech encarnan cuatro de los cinco Credos. Son arquetipos sugeridos: el nombre, la ficha y la historia los construye cada jugador. Lo que importa es el puesto que tenían en la clínica, porque de ahí sale lo que cada uno sabe, a quién conoce y por qué Somnia puede apretarlo.</p>
   </div>
-  <div class="cuerpo"><p class="chica">En el compendio de personajes del módulo hay una plantilla por arquetipo con cifras sugeridas, por si una mesa quiere empezar a jugar en diez minutos.</p></div>
+  ${CREDOS.map((c, i) => {
+    const pj = PJS.find(p => p.credo === c.id);
+    const set = SETS_CREDO[c.id];
+    const img = existe(`assets/credos/${c.id}.webp`) ? `${A}/credos/${c.id}.webp` : null;
+    return `
+  <article class="credo${i % 2 ? " invertido" : ""}" id="credo-${c.id}">
+    <figure class="credo-foto">${img ? `<img src="${img}" width="1600" height="900" alt="" loading="lazy">` : ""}<figcaption>${esc(c.titulo)}</figcaption></figure>
+    <div class="credo-texto">
+      <h3>${esc(c.nombre)}</h3>
+      <p class="credo-frase">${esc(c.frase)}</p>
+      <p>${esc(c.texto)}</p>
+      <dl class="credo-datos">
+        <dt>Dados de Desesperación</dt><dd>${esc(c.desesperacion)}</dd>
+        ${set ? `<dt>Set del Arsenal</dt><dd><a href="#regla-el-arsenal-de-la-vigilia">${esc(set.nombre)}</a>${set.lema ? ` · <em>${esc(set.lema)}</em>` : ""}</dd>` : ""}
+      </dl>
+      ${pj ? `<div class="credo-pj" id="pj-${pj.id}"><span class="credo-pj-etiqueta">En esta crónica</span><h4>${esc(pj.nombre)}</h4><p>${esc(pj.concepto)}.</p><p class="chica">Camino probable: ${esc(CAMINO[pj.caminoProbable] ?? pj.caminoProbable ?? "—")}.</p></div>` : `<div class="credo-pj vacio"><span class="credo-pj-etiqueta">En esta crónica</span><p>Sin arquetipo propio. Si un jugador lo elige, el ${set ? esc(set.nombre) : "set"} está en el Arsenal y Somnia tiene una cuenta pendiente con cualquiera que mueva dinero.</p></div>`}
+    </div>
+  </article>`; }).join("")}
+  <p class="credos-pie">En el compendio de personajes del módulo hay una plantilla por arquetipo con cifras sugeridas, por si una mesa quiere empezar a jugar en diez minutos.</p>
 </section>`;
 
 /* ----------------------------------------------------- 4. dramatis */
@@ -367,7 +396,7 @@ const html = `<!doctype html>
 ${cabecera}
 <nav class="barra" aria-label="Navegación fija" data-barra>
   <a class="barra-logo" href="#inicio" aria-label="Volver a la portada">WoD</a>
-  <div class="barra-links"><a href="#cronica">Crónica</a><a href="#cazadores">Cazadores</a><a href="#dramatis">Dramatis</a><a href="#escenas">Escenas</a><a href="#malaga">Málaga</a><a href="#pantalla">Pantalla</a><a href="#reglas">Reglas</a></div>
+  <div class="barra-links"><a href="#cronica">Crónica</a><a href="#cazadores">Credos</a><a href="#dramatis">Dramatis</a><a href="#escenas">Escenas</a><a href="#malaga">Málaga</a><a href="#pantalla">Pantalla</a><a href="#reglas">Reglas</a></div>
   <form class="buscar" role="search" data-buscar><label for="buscar" class="visualmente-oculto">Ir a una sala, un personaje o un lugar</label><input id="buscar" name="buscar" type="search" list="destinos" placeholder="Ir a… (sala, PNJ, lugar)" autocomplete="off" spellcheck="false"><datalist id="destinos"></datalist></form>
   <button class="t-accion" type="button" data-abrir-mesa>La mesa</button>
 </nav>

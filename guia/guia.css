@@ -262,28 +262,32 @@ h5 { font-family: var(--condensada); font-weight: 600; font-size: 16px; color: v
 .arriba { position: fixed; left: 8px; bottom: 8px; z-index: 8; width: 48px; height: 48px; padding: 0; }
 .arriba[hidden] { display: none; }
 
-/* ---------- arquetipos ---------- */
-.arquetipos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 32px 0; }
-.arquetipo { background: var(--papel-2); padding: 20px; display: flex; flex-direction: column; gap: 10px; }
-.arquetipo .caz-inicial { width: 64px; height: 64px; font-size: 44px; margin: 0; }
-.arquetipo h3 { margin: 6px 0 0; font-size: var(--paso-3); }
-.arquetipo .concepto { font-size: 17px; margin: 0; }
-.arquetipo dl { margin: auto 0 0; font-size: var(--paso-5); display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; }
-.arquetipo dt { font-family: var(--condensada); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; font-size: 14px; color: var(--naranja-label); }
-.arquetipo dd { margin: 0; }
-.vehiculos { margin-left: var(--eje); max-width: calc(100% - var(--eje)); }
-.pagina > h2 { max-width: 20ch; }
-.cuerpo { max-width: var(--medida); }
-.cuerpo p, .banda-cuerpo p, .pnj-cuerpo p, .cuerpo ul, .cuerpo ol, .banda-cuerpo ul, .banda-cuerpo ol, .pnj-cuerpo ul, .banda-cuerpo h3, .banda-cuerpo h4, .banda-cuerpo h5 { max-width: var(--medida); }
-.banda-cuerpo table { max-width: 70ch; }
-.pagina.ancha > .cuerpo { max-width: var(--medida); }
-
-/* notas al margen: la etiqueta cuelga a la izquierda del eje */
-.nota { position: relative; }
-.nota::before { content: attr(data-label); font-family: var(--condensada); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; font-size: 15px; color: var(--naranja-label); display: block; margin-bottom: 2px; }
-@media (min-width: 1100px) {
-  .nota::before { position: absolute; right: calc(100% + 24px); top: 0.25em; width: 18ch; text-align: right; margin: 0; }
-}
+/* ---------- Credos: una banda por Credo, como la página de World of Darkness ---------- */
+.credos { background: var(--tinta); color: var(--papel); padding: 120px 0 56px; }
+.credos-cab { padding: 0 var(--margen) 56px; margin-left: var(--eje); max-width: calc(100% - var(--eje)); }
+.credos-cab h2 { color: var(--naranja); margin-bottom: 20px; }
+.credos-cab .standfirst { color: var(--papel-2); max-width: 46ch; }
+.credo { display: grid; grid-template-columns: 1fr 1fr; min-height: 62svh; }
+.credo.invertido .credo-foto { order: 2; }
+.credo-foto { position: relative; margin: 0; overflow: hidden; background: #1a0d04; min-height: 320px; }
+.credo-foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.credo-foto figcaption { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--titulo); font-size: clamp(48px, 7vw, 120px); line-height: 0.9; text-transform: uppercase; color: var(--papel); letter-spacing: 0.01em; text-shadow: 0 0 2px rgba(0,0,0,.6); padding: 20px; text-align: center; }
+.credo-texto { padding: clamp(32px, 5vw, 72px) var(--margen); display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+.credo-texto h3 { color: var(--papel); font-style: normal; font-size: var(--paso-2); margin: 0; }
+.credo-texto p { max-width: 46ch; margin: 0; color: var(--papel-2); }
+.credo-frase { font-size: 21px; line-height: 1.3; color: var(--naranja) !important; font-weight: 500; }
+.credo-datos { margin: 8px 0 0; max-width: 46ch; }
+.credo-datos dt { font-family: var(--condensada); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; font-size: 15px; color: var(--naranja); margin-top: 10px; }
+.credo-datos dd { margin: 2px 0 0; color: var(--papel-2); font-size: 16px; }
+.credo-datos a { color: var(--papel); text-decoration-color: var(--naranja); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.credo-pj { margin-top: 18px; padding: 18px 20px; background: var(--naranja); color: var(--naranja-tinta); max-width: 46ch; }
+.credo-pj p { color: var(--naranja-tinta); }
+.credo-pj.vacio { background: #2a2a2a; color: var(--papel-2); }
+.credo-pj.vacio p { color: var(--papel-2); }
+.credo-pj-etiqueta { display: block; font-family: var(--condensada); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; font-size: 14px; margin-bottom: 4px; }
+.credo-pj h4 { color: var(--naranja-tinta); font-size: 24px; text-transform: none; letter-spacing: 0; margin: 0 0 6px; font-style: italic; }
+.credo-pj .chica { color: var(--naranja-tinta); opacity: 0.85; }
+.credos-pie { padding: 40px var(--margen) 0; margin-left: var(--eje); max-width: 46ch; font-size: var(--paso-5); color: var(--papel-2); }
 
 /* ---------- lectura en voz alta ---------- */
 .leer { margin: 1.2em 0 1.4em; padding: 22px 26px; background: var(--tinta); color: var(--papel); font-weight: 300; font-size: 18px; max-width: calc(var(--medida) + 52px); }
@@ -479,7 +483,7 @@ h5 { font-family: var(--condensada); font-weight: 600; font-size: 16px; color: v
   .pnj-lado dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; max-width: none; align-items: baseline; }
   .pnj-lado dt { margin-top: 0; }
   .pagina > .indice { margin-left: 0; }
-  .arquetipos { grid-template-columns: 1fr 1fr; }
+  .credos-cab, .credos-pie { margin-left: 0; max-width: none; }
   .barra { grid-template-columns: 48px 1fr auto; }
   .buscar { display: none; }
   .agenda-grid { grid-template-columns: 1fr; gap: 20px; }
@@ -509,7 +513,11 @@ h5 { font-family: var(--condensada); font-weight: 600; font-size: 16px; color: v
   .capitular img, .capitular .sin-retrato { width: 110px; height: 110px; }
   .capitular { font-size: 22px; line-height: 1.25; }
   .banda-cab { grid-template-columns: 1fr; gap: 10px; }
-  .arquetipos { grid-template-columns: 1fr; }
+  .credo { grid-template-columns: 1fr; min-height: auto; }
+  .credo.invertido .credo-foto { order: 0; }
+  .credo-foto { aspect-ratio: 16 / 9; min-height: 0; }
+  .credo-foto figcaption { font-size: 15vw; }
+  .credos { padding-top: 64px; }
   .diapo figcaption { grid-template-columns: 1fr; padding: 12px 14px; }
   .diapo figcaption a { font-size: 19px; }
   .diapo figcaption span { font-size: 15px; }
