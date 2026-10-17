@@ -32,8 +32,9 @@ const A = "../assets";
 const ENLAZADO = process.argv.includes("--enlazado");
 const CACHE = path.join(RAIZ, "cache/guia");
 /** Ancho máximo al embeber, por carpeta: los mapas no necesitan 4000 px para leerse en la guía. */
-const ANCHO = { "mapas/sectores": 1400, mapas: 1600, retratos: 480, portadas: 640, "tokens/vehiculos": 120, credos: 1400 };
+const ANCHO = { "mapas/sectores": 1400, mapas: 1600, retratos: 480, portadas: 640, "tokens/vehiculos": 120, guia: 1400, "guia/pnj": 720, "guia/credos": 1400, "guia/escenas": 1400 };
 const existe = rel => fs.existsSync(path.join(RAIZ, rel));
+const trat = rel => (existe(`assets/guia/${rel}.webp`) ? `${A}/guia/${rel}.webp` : null);
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const leerMd = f => separarFrontmatter(fs.readFileSync(f, "utf8"));
 const porOrden = (a, b) => (Number(a.meta.orden ?? 0) - Number(b.meta.orden ?? 0));
@@ -116,32 +117,41 @@ const cabecera = `
     </nav>
     <button class="t-accion" type="button" data-abrir-mesa>La mesa</button>
   </div>
-  <div class="cuadro">
-    <h1 class="t-nombre"><span class="grande">Del Velo</span><span class="chico">a la Vigilia</span></h1>
-    <figure class="t-foto t-shutter"><img src="${A}/mapas/landing.webp" width="2634" height="1359" alt="La pared de corcho de Elías: fotos, recortes y hilo rojo" fetchpriority="high"></figure>
-    <figure class="t-foto t-foto-2"><img src="${A}/mapas/malaga.webp" width="4016" height="2783" alt="El mapa de Málaga de noche" loading="lazy"></figure>
-    <div class="t-par">
-      <p class="t-oscuro">Málaga. Una clínica de ensayos del sueño alimenta a una vampira antigua con la sangre de sus pacientes, y cuatro empleados lo ven la noche de un apagón.</p>
-      <p class="t-acento">Guía del Narrador de la crónica Somnia Biotech para Cazador: La Venganza, 5ª edición. Se abre desde el disco y guarda la partida en este navegador.</p>
+  <div class="banda-hero">
+    <figure class="hero-foto t-shutter"><img src="${trat("landing") ?? `${A}/mapas/landing.webp`}" width="1600" height="900" alt="La pared de corcho de Elías: fotos, recortes y hilo rojo" fetchpriority="high"><figcaption><span class="grande">Del Velo</span><span class="chico">a la Vigilia</span></figcaption></figure>
+    <div class="hero-texto">
+      <p class="kicker">Cazador: La Venganza · Guía del Narrador</p>
+      <h1>Una crónica de cazadores en Málaga</h1>
+      <p>Somnia Biotech, una clínica de ensayos del sueño, alimenta en secreto a una vampira antigua con la sangre de sus pacientes. Cuatro empleados lo ven la noche de un apagón. Desde entonces, la clínica los caza a ellos y a los suyos.</p>
+      <p>Esta guía tiene la crónica completa, los Credos y los arquetipos, cada PNJ con su historia y sus diálogos, las escenas sala por sala y Málaga manzana por manzana. Se abre desde el disco y guarda la partida en este navegador.</p>
+      <button class="cta" type="button" data-abrir-mesa>Abrir la mesa <span aria-hidden="true">→</span></button>
     </div>
   </div>
 </header>`;
 
 /* ------------------------------------------------------ 2. statement */
 const intro = `
-<section class="statement" id="vision">
-  <div class="st-board">
-    <div class="st-a"><p class="lema">Comida<br>que camina</p></div>
-    <div class="st-b"><span>4</span></div>
-    <figure class="st-c"><img src="${A}/portadas/portada.webp" width="1024" height="1536" alt="Portada de Del Velo a la Vigilia" loading="lazy"></figure>
-  </div>
-  <div class="st-texto"><div>${render(premisa)}</div></div>
-</section>
-<section class="pagina" id="estructura">
-  <h2>Cómo se cuenta</h2>
-  <div class="cuerpo">${render(estructura)}<h3>Las tres balizas</h3>${render(balizasTxt)}
-  <h3>Cómo usar esta guía</h3>
-  <p>Leela entera una vez antes de la primera sesión; después, en la mesa, trabajá con la pestaña del acto que toca y con las salas de la escena abierta en Foundry. Cada escena y cada sala tienen una casilla «Hecho»; el botón <strong>La mesa</strong> abre el tablero con la Desesperación, el Peligro y las balizas de cada cazador. Todo queda guardado en este navegador y se puede exportar a un archivo.</p></div>
+<section class="bandas" id="vision">
+  <article class="banda-foto invertido">
+    <figure class="bf-foto"><img src="${trat("portada") ?? `${A}/portadas/portada.webp`}" width="900" height="1200" alt="" loading="lazy"><figcaption>Comida<br>que camina</figcaption></figure>
+    <div class="bf-texto">
+      <p class="kicker">La crónica</p>
+      <h2>Somnia Biotech</h2>
+      ${render(premisa)}
+    </div>
+  </article>
+  <article class="banda-foto" id="estructura">
+    <figure class="bf-foto"><img src="${trat("malaga") ?? `${A}/mapas/malaga.webp`}" width="1600" height="900" alt="" loading="lazy"><figcaption>Cinco<br>partes</figcaption></figure>
+    <div class="bf-texto">
+      <p class="kicker">Cómo se cuenta</p>
+      <h2>Del apagón al amanecer</h2>
+      ${render(estructura)}
+      <h3>Las tres balizas</h3>
+      ${render(balizasTxt)}
+      <h3>Cómo usar esta guía</h3>
+      <p>Leela entera una vez antes de la primera sesión; después, en la mesa, trabajá con la pestaña del acto que toca y con las salas de la escena abierta en Foundry. Cada escena y cada sala tienen una casilla «Hecho»; <strong>La mesa</strong> lleva la Desesperación, el Peligro y las balizas de cada cazador. Todo queda guardado en este navegador y se puede exportar a un archivo.</p>
+    </div>
+  </article>
 </section>`;
 
 /* ----------------------------------------------------- 3. credos y cazadores */
@@ -175,7 +185,7 @@ const cazadores = `
   ${CREDOS.map((c, i) => {
     const pj = PJS.find(p => p.credo === c.id);
     const set = SETS_CREDO[c.id];
-    const img = existe(`assets/credos/${c.id}.webp`) ? `${A}/credos/${c.id}.webp` : null;
+    const img = trat(`credos/${c.id}`);
     return `
   <article class="credo${i % 2 ? " invertido" : ""}" id="credo-${c.id}">
     <figure class="credo-foto">${img ? `<img src="${img}" width="1600" height="900" alt="" loading="lazy">` : ""}<figcaption>${esc(c.titulo)}</figcaption></figure>
@@ -203,32 +213,33 @@ for (const bloque of dramatis.cuerpo.split(/^## /m).slice(1)) {
   const cuerpo = bloque.replace(/^[^\n]*\n/, "").replace(/^Ficha:[^\n]*\n/m, "").replace(/^### /gm, "#### ");
   dialogos[id] = render(cuerpo);
 }
-const pnjCard = p => {
-  const retrato = existe(`assets/retratos/${p.id}.webp`) ? `${A}/retratos/${p.id}.webp` : null;
+const pnjCard = (p, i) => {
+  const retrato = trat(`pnj/${p.id}`) ?? (existe(`assets/retratos/${p.id}.webp`) ? `${A}/retratos/${p.id}.webp` : null);
   const desc = p.descripcion ?? "";
-  const primero = /<p>([\s\S]*?)<\/p>/.exec(desc)?.[1] ?? "";
-  const resto = desc.replace(/<p>[\s\S]*?<\/p>/, "");
   return `
-  <article class="pnj" id="pnj-${p.id}">
-    <div class="pnj-lado">
-      <dl><dt>Es</dt><dd>${TIPO[p.spcType] ?? esc(p.spcType)}</dd><dt>Salud / Voluntad</dt><dd>${p.salud ?? "–"} / ${p.voluntad ?? "–"}</dd><dt>Dificultad</dt><dd>${p.dificultadGeneral?.normal ?? 0} · ${p.dificultadGeneral?.fuerte ?? 0} contra lo suyo</dd></dl>
-    </div>
-    <div class="pnj-cuerpo">
-      <p class="capitular">${retrato ? `<img src="${retrato}" width="768" height="1024" alt="${esc(p.nombre)}" loading="lazy">` : `<span class="sin-retrato" aria-hidden="true"></span>`}<b>${esc(p.nombre)}.</b> ${esc(p.concepto)}. <span class="suave">${primero}</span></p>
-      ${resto ? `<div class="suave">${resto}</div>` : ""}
-      ${p.poderes ? `<h4>Poderes</h4>${p.poderes}` : ""}
-      ${p.debilidades ? `<h4>Debilidades</h4>${p.debilidades}` : ""}
-      ${p.notas ? `<h4>En la crónica</h4>${p.notas}` : ""}
-      ${dialogos[p.id] ? `<h4>Qué dice</h4>${dialogos[p.id]}` : ""}
+  <article class="banda-foto pnj${i % 2 ? " invertido" : ""}" id="pnj-${p.id}">
+    <figure class="bf-foto alta">${retrato ? `<img src="${retrato}" width="900" height="1200" alt="" loading="lazy">` : ""}<figcaption>${esc(p.nombre)}</figcaption></figure>
+    <div class="bf-texto">
+      <p class="kicker">${TIPO[p.spcType] ?? esc(p.spcType)} · Salud ${p.salud ?? "–"} · Voluntad ${p.voluntad ?? "–"} · Dificultad ${p.dificultadGeneral?.normal ?? 0} / ${p.dificultadGeneral?.fuerte ?? 0}</p>
+      <h2>${esc(p.nombre)}</h2>
+      <p class="frase">${esc(p.concepto)}.</p>
+      ${desc}
+      ${p.poderes ? `<h3>Poderes</h3>${p.poderes}` : ""}
+      ${p.debilidades ? `<h3>Debilidades</h3>${p.debilidades}` : ""}
+      ${p.notas ? `<h3>En la crónica</h3>${p.notas}` : ""}
+      ${dialogos[p.id] ? `<h3>Qué dice</h3>${dialogos[p.id]}` : ""}
       <div class="reservas"><span>Físico ${p.estandar?.physical ?? "–"}</span><span>Social ${p.estandar?.social ?? "–"}</span><span>Mental ${p.estandar?.mental ?? "–"}</span>${Object.entries(p.excepcionales ?? {}).map(([k, v]) => `<span>${HAB[k] ?? k} ${v}</span>`).join("")}</div>
     </div>
   </article>`;
 };
 const dramatisHtml = `
-<section class="pagina" id="dramatis">
-  <h2>Dramatis personae</h2>
-  <div class="cuerpo"><p>Quién es cada uno, qué puede, qué le pesa y qué dice cuando habla. Las fichas de wod5e están en el compendio; las cifras de todos salvo Elías son sugeridas.</p></div>
-  <nav class="indice" aria-label="Personajes">${PNJS.map(p => `<a href="#pnj-${p.id}">${esc(p.nombre)}</a>`).join("")}</nav>
+<section class="bandas" id="dramatis">
+  <div class="seccion-cab">
+    <p class="kicker">Dramatis personae</p>
+    <h2>Quién es cada uno</h2>
+    <p class="standfirst">Qué puede, qué le pesa y qué dice cuando habla. Las fichas de wod5e están en el compendio; las cifras de todos salvo Elías son sugeridas.</p>
+    <nav class="indice" aria-label="Personajes">${PNJS.map(p => `<a href="#pnj-${p.id}">${esc(p.nombre)}</a>`).join("")}</nav>
+  </div>
   ${PNJS.map(pnjCard).join("")}
 </section>`;
 
@@ -240,6 +251,7 @@ const pestanas = ACTOS.map((a, i) => {
   const largo = a.meta.nombre.replace(/^[^—-]*[—-]\s*/, "");
   return `<button type="button" class="tab${i === 0 ? " activa" : ""}" data-tab="${a.meta.id}"><span>${esc(corto)}</span><small>${esc(largo === a.meta.nombre ? "" : largo)}</small></button>`;
 }).join("");
+const IMAGEN_ACTO = { "acto-1": "escenas/somnia-planta-nueva", interludio: "escenas/piso-de-elias", "interludio-monologo-de-elias": "pnj/elias-roca", "acto-2": "escenas/convento-planta", "acto-3": "escenas/cripta", epilogo: "malaga" };
 const paneles = ACTOS.map((a, i) => {
   const cuerpo = sinH1(a.cuerpo);
   const partes = cuerpo.split(/^## /m);
@@ -249,15 +261,19 @@ const paneles = ACTOS.map((a, i) => {
     const id = `${a.meta.id}:${slug(titulo)}`;
     return `<div class="banda" id="escena-${a.meta.id}-${slug(titulo)}"><div class="banda-cab"><h3>${esc(titulo)}</h3>${hecho(id)}</div><div class="banda-cuerpo">${render(bloque.replace(/^[^\n]*\n/, ""))}</div></div>`;
   });
+  const imgActo = trat(IMAGEN_ACTO[a.meta.id] ?? "");
+  const [corto, largo] = a.meta.nombre.split(/\s[—-]\s/);
   return `<div class="panel${i === 0 ? " activa" : ""}" data-panel="${a.meta.id}" id="${a.meta.id}">
-    <h3 class="panel-titulo">${esc(a.meta.nombre)}</h3>
-    ${intro ? `<div class="cuerpo">${render(intro)}</div>` : ""}
+    <article class="banda-foto acto">
+      <figure class="bf-foto">${imgActo ? `<img src="${imgActo}" width="1600" height="1200" alt="" loading="lazy">` : ""}<figcaption>${esc(corto)}</figcaption></figure>
+      <div class="bf-texto"><p class="kicker">${esc(corto)}</p><h3 class="panel-titulo">${esc(largo ?? corto)}</h3>${intro ? render(intro) : ""}</div>
+    </article>
     ${escenas.length ? escenas.join("") : `<div class="banda"><div class="banda-cab"><h3>${esc(a.meta.nombre)}</h3>${hecho(a.meta.id)}</div></div>`}
   </div>`;
 }).join("");
 const cronica = `
 <section class="agenda" id="cronica">
-  <div class="agenda-cab"><div><h2>La crónica</h2><p class="standfirst">Acto por acto, escena por escena. Marcá cada una cuando pase.</p></div><p class="progreso" data-progreso="cronica" aria-live="polite"></p></div>
+  <div class="agenda-cab"><div><p class="kicker">La crónica</p><h2>Acto por acto</h2><p class="standfirst">Escena por escena. Marcá cada una cuando pase.</p></div><p class="progreso" data-progreso="cronica" aria-live="polite"></p></div>
   <div class="agenda-grid"><div class="tabs" role="tablist">${pestanas}</div><div class="paneles">${paneles}</div></div>
 </section>`;
 
@@ -278,18 +294,30 @@ const escenasHtml = salasDocs.map(doc => {
     const id = `${esc_}:${slug(titulo)}`;
     return `<div class="banda sala" id="sala-${esc_}-${slug(titulo)}"><div class="banda-cab"><h4>${esc(titulo)}</h4>${hecho(id)}</div><div class="banda-cuerpo">${tokensHtml(tokens)}${render(lineas.slice(i).join("\n"))}</div></div>`;
   });
+  const tratado = trat(`escenas/${esc_}`);
   return `
   <article class="escena" id="escena-${esc_}">
-    ${mapa ? `<figure class="escena-mapa"><button type="button" class="ampliar" data-ampliar="${esc(doc.meta.nombre)}"><img src="${mapa}" width="${(plano?.ancho ?? 80) * 30}" height="${(plano?.alto ?? 60) * 30}" alt="Mapa: ${esc(doc.meta.nombre)}" loading="lazy"><span class="lupa">Ampliar</span></button><figcaption><span>${esc(doc.meta.prefijo ?? "")}</span>${esc(doc.meta.nombre)}</figcaption></figure>` : `<h3>${esc(doc.meta.nombre)}</h3>`}
-    <div class="cuerpo"><p class="intro-escena">${esc(doc.meta.intro ?? "")}</p>${plano?.nota ? `<p class="nota" data-label="La escena">${esc(plano.nota)}</p>` : ""}</div>
+    <div class="banda-foto${salasDocs.indexOf(doc) % 2 ? " invertido" : ""}">
+      <figure class="bf-foto">${tratado ? `<img src="${tratado}" width="1600" height="1200" alt="" loading="lazy">` : ""}<figcaption><b>${esc(doc.meta.prefijo ?? "")}</b>${esc(doc.meta.nombre.replace(/^Málaga · /, ""))}</figcaption></figure>
+      <div class="bf-texto">
+        <p class="kicker">Escena ${esc(doc.meta.prefijo ?? "")}</p>
+        <h3>${esc(doc.meta.nombre)}</h3>
+        <p class="frase">${esc(doc.meta.intro ?? "")}</p>
+        ${plano?.nota ? `<p class="nota" data-label="La escena">${esc(plano.nota)}</p>` : ""}
+        ${mapa ? `<button type="button" class="cta" data-ampliar="${esc(doc.meta.nombre)}"><img class="oculta" src="${mapa}" width="${(plano?.ancho ?? 80) * 30}" height="${(plano?.alto ?? 60) * 30}" alt="Mapa: ${esc(doc.meta.nombre)}" loading="lazy" hidden>Ver el mapa <span aria-hidden="true">→</span></button>` : ""}
+      </div>
+    </div>
     ${salas.join("")}
   </article>`;
 }).join("");
 const escenas = `
-<section class="pagina ancha" id="escenas">
-  <h2>Las escenas, sala por sala</h2>
-  <div class="cuerpo"><p>Cada escena de Foundry, con sus salas numeradas como los pines del mapa. «Qué hay» es lo que se ve; «Qué pasa» lo que puede ocurrir; «Para el Narrador», lo que solo vos sabés. Los tokens listados son los que la escena trae colocados. Tocá un mapa para verlo a tamaño completo.</p></div>
+<section class="bandas" id="escenas">
+  <div class="seccion-cab">
+    <p class="kicker">Las escenas</p>
+    <h2>Sala por sala</h2>
+    <p class="standfirst">Cada escena de Foundry, con sus salas numeradas como los pines del mapa. «Qué hay» es lo que se ve; «Qué pasa» lo que puede ocurrir; «Para el Narrador», lo que solo vos sabés. Los tokens listados son los que la escena trae colocados.</p>
   <nav class="indice" aria-label="Escenas">${salasDocs.map(d => `<a href="#escena-${d.meta.escena}"><b>${esc(d.meta.prefijo ?? "")}</b>${esc(d.meta.nombre)}</a>`).join("")}</nav>
+  </div>
   ${escenasHtml}
 </section>`;
 
@@ -334,7 +362,8 @@ const lugaresHtml = lugares.map(d => {
 const vehiculosHtml = VEHS.length ? `<h3>Vehículos</h3><div class="vehiculos">${VEHS.map(v => `<div class="veh" id="veh-${v.id}">${existe(`assets/tokens/vehiculos/${v.id}.webp`) ? `<img src="${A}/tokens/vehiculos/${v.id}.webp" width="400" height="800" alt="" loading="lazy">` : ""}<div><h4>${esc(v.nombre)}</h4>${v.descripcion ?? ""}<p class="chica">Plazas ${v.plazas} · Estructura ${v.estructura} · Maniobra ${v.maniobra >= 0 ? "+" : ""}${v.maniobra ?? 0} · Blindaje ${v.blindaje ?? 0} · ${esc(v.velocidad ?? "normal")}${v.duenio ? ` · ${esc(v.duenio)}` : ""}</p>${v.notas ? `<div class="chica">${v.notas}</div>` : ""}</div></div>`).join("")}</div>` : "";
 const malaga = `
 <section class="pagina ancha" id="malaga">
-  <h2>Málaga, el tablero de la Vigilia</h2>
+  <p class="kicker">Málaga</p>
+  <h2>El tablero de la Vigilia</h2>
   <div class="cuerpo">${malagaIntro ? render(sinH1(malagaIntro.cuerpo).replace(/^## /gm, "### ")) : ""}</div>
   <h3>Las manzanas</h3>
   ${carrusel}
@@ -351,12 +380,14 @@ const malaga = `
 const pantalla = leerMd(path.join(RAIZ, "content/cronica/08-pantalla-del-narrador.md"));
 const pantallaHtml = `
 <section class="pagina" id="pantalla">
+  <p class="kicker">En la mesa</p>
   <h2>Pantalla del Narrador</h2>
   <div class="cuerpo">${render(sinH1(pantalla.cuerpo).replace(/^## /gm, "### ").replace(/^### (.*)$/gm, (m, t) => `### ${t}`))}</div>
 </section>`;
 const reglasDocs = archivosMd(path.join(RAIZ, "content/reglas")).map(f => ({ f, ...leerMd(f) })).sort(porOrden);
 const reglasHtml = `
 <section class="pagina" id="reglas">
+  <p class="kicker">Apéndice</p>
   <h2>Reglas caseras</h2>
   <div class="cuerpo"><p>Los tres caminos, los injertos, el Arsenal y las persecuciones, tal como están en los journals del módulo. Lo que el jugador puede leer está marcado en Foundry; acá está todo.</p></div>
   ${reglasDocs.map(d => `<details class="regla" id="regla-${d.meta.id}"><summary><h3>${esc(d.meta.nombre)}</h3></summary><div class="cuerpo">${render(sinH1(d.cuerpo).replace(/^## /gm, "### ").replace(/^### (.*)$/gm, "### $1"))}</div></details>`).join("")}
@@ -387,7 +418,7 @@ const html = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Del Velo a la Vigilia — Guía del Narrador</title>
 <meta name="description" content="La crónica Somnia Biotech para Cazador: La Venganza 5ª edición, completa y con seguimiento de la partida.">
-<meta name="theme-color" content="#f7f7f7">
+<meta name="theme-color" content="#070707">
 <!-- Sin preload de fuentes: con crossorigin falla desde file://, y sin él el navegador las carga dos veces. -->
 <link rel="stylesheet" href="guia.css">
 </head>

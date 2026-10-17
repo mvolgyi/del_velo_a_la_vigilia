@@ -152,15 +152,14 @@ navegador, con exportación a un archivo. Va dentro del zip de la release.
 
 ```bash
 node tools/generar-arte.mjs --estilo credo   # fotos de los cinco Credos → assets/credos-crudo/
-npm run credos                               # duotono naranja + líneas → assets/credos/
+npm run duotono                              # retratos, mapas y Credos en naranja → assets/guia/
 npm run guia                                 # content/ → guia/index.html
 ```
 
-Los Credos se presentan como en la web de World of Darkness: una banda por Credo, mitad texto y
-mitad foto tratada en naranja y negro con el nombre encima, y en cada una el arquetipo de la
-crónica que lo encarna.
-
-El estilo sigue el de los libros de Cazador 5ª (ver `.taste-skill/notas.md` cuando exista).
+Toda la guía sigue el patrón de la web de World of Darkness: fondo negro y bandas de mitad texto y
+mitad foto tratada en naranja y negro (`npm run duotono`: retratos, mapas, portada y Credos) con el
+nombre encima en mayúsculas gigantes. Cada Credo lleva el arquetipo de la crónica que lo encarna;
+cada PNJ, cada acto y cada escena abren con su banda.
 
 ### Visión, linterna y Lente Espectral
 
