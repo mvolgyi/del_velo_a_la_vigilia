@@ -410,6 +410,24 @@
    "y": 2479,
    "preset": "farola",
    "nombre": "Farola · Paseo Martiricos"
+  },
+  {
+   "x": 2312,
+   "y": 1834,
+   "preset": "fluorescente",
+   "nombre": "Marquesina del vestíbulo de la torre"
+  },
+  {
+   "x": 2535,
+   "y": 554,
+   "preset": "farola",
+   "nombre": "Farola de la plaza"
+  },
+  {
+   "x": 3428,
+   "y": 2502,
+   "preset": "farola",
+   "nombre": "Farola de la plaza"
   } ],
  "regiones": [
   {

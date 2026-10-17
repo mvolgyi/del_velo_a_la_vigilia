@@ -588,7 +588,193 @@
       "_key": "!scenes.walls!k6Pw1WQrh6R8nY8k.ZystYWf6DirKNWQ8"
     }
   ],
-  "lights": [],
+  "lights": [
+    {
+      "_id": "99AwqjmkI6BvUsrX",
+      "x": 1286,
+      "y": 1890,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!k6Pw1WQrh6R8nY8k.99AwqjmkI6BvUsrX"
+    },
+    {
+      "_id": "tCVdA6SufTQixzXs",
+      "x": 394,
+      "y": -170,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!k6Pw1WQrh6R8nY8k.tCVdA6SufTQixzXs"
+    },
+    {
+      "_id": "4GOkIUILbV0zIyuA",
+      "x": 3294,
+      "y": 610,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!k6Pw1WQrh6R8nY8k.4GOkIUILbV0zIyuA"
+    },
+    {
+      "_id": "dT9ugUk85fGpcbeL",
+      "x": -2060,
+      "y": 1166,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!k6Pw1WQrh6R8nY8k.dT9ugUk85fGpcbeL"
+    },
+    {
+      "_id": "PQHFTykrORdVoxHu",
+      "x": 3963,
+      "y": 2724,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!k6Pw1WQrh6R8nY8k.PQHFTykrORdVoxHu"
+    }
+  ],
   "regions": [
     {
       "_id": "aY2bJelu6AYU7cIm",

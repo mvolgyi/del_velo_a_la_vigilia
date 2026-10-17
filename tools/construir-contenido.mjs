@@ -870,6 +870,60 @@ const JID_SECTORES = idEstable("journal:sectores");
 const SALAS = cargarSalas();
 
 /** Pines y tokens de una escena a partir de sus salas y del plano (habitaciones en pies). */
+/** Punto de una sala (pies) libre de muebles, el más cercano a su centro; el pin mide ~1,5 pies de radio. */
+function puntoLibre(plano, hab) {
+  const R = 1.6;
+  const libre = (x, y) => !(plano.muebles ?? []).some(m => x + R > m.x && x - R < m.x + m.w && y + R > m.y && y - R < m.y + m.h);
+  const cx = hab.x + hab.w / 2, cy = hab.y + hab.h / 2;
+  if (libre(cx, cy)) return { x: cx, y: cy };
+  let mejor = null;
+  for (let y = hab.y + R + 0.5; y <= hab.y + hab.h - R - 0.5; y += 0.5) {
+    for (let x = hab.x + R + 0.5; x <= hab.x + hab.w - R - 0.5; x += 0.5) {
+      if (!libre(x, y)) continue;
+      const d = Math.hypot(x - cx, y - cy);
+      if (!mejor || d < mejor.d) mejor = { x, y, d };
+    }
+  }
+  return mejor ?? { x: cx, y: cy };
+}
+
+/**
+ * Casillas de token (1 m = 100 px, esquina superior izquierda) dentro de una
+ * sala que no pisan ningún mueble, ordenadas por cercanía al centro. Deja una
+ * casilla sin usar alrededor del pin (que va al centro o a su punto libre).
+ */
+function casillasLibres(plano, hab, tolerancia = 0) {
+  const px = pies => pies * PX_POR_PIE;
+  const pin = puntoLibre(plano, hab);
+  const muebles = (plano.muebles ?? []).map(m => ({ x: px(m.x), y: px(m.y), w: px(m.w), h: px(m.h) }));
+  const X0 = px(hab.x), Y0 = px(hab.y), X1 = px(hab.x + hab.w), Y1 = px(hab.y + hab.h);
+  const cx = (X0 + X1) / 2, cy = (Y0 + Y1) / 2;
+  const out = [];
+  // Pasos de media casilla, más los extremos pegados a las paredes (una sala
+  // de 3 m de alto solo tiene sitio arriba o abajo del todo).
+  const posiciones = (a, b) => {
+    const v = new Set([Math.round(a + 10), Math.round(b - 10 - GRID_M_PX)]);
+    for (let p = Math.ceil((a + 10) / 50) * 50; p + GRID_M_PX <= b - 10; p += 50) v.add(p);
+    return [...v].filter(p => p >= a + 10 && p + GRID_M_PX <= b - 10).sort((m, n) => m - n);
+  };
+  for (const y of posiciones(Y0, Y1)) {
+    for (const x of posiciones(X0, X1)) {
+      // Fracción de la casilla tapada por muebles (con tolerancia > 0 se admite
+      // un roce: salas chicas y llenas, como un control de acceso).
+      const tapado = muebles.reduce((acc, m) => acc + Math.max(0, Math.min(x + GRID_M_PX, m.x + m.w) - Math.max(x, m.x)) *
+        Math.max(0, Math.min(y + GRID_M_PX, m.y + m.h) - Math.max(y, m.y)), 0) / (GRID_M_PX * GRID_M_PX);
+      if (tapado > tolerancia) continue;
+      if (Math.abs(x + 50 - px(pin.x)) < 70 && Math.abs(y + 50 - px(pin.y)) < 70) continue;
+      out.push({ x, y, d: Math.hypot(x + 50 - cx, y + 50 - cy) });
+    }
+  }
+  out.sort((a, b) => a.d - b.d);
+  // Sin solaparse entre sí: casillas a 1 m de las ya elegidas.
+  const elegidas = [];
+  for (const c of out) if (!elegidas.some(e => Math.abs(e.x - c.x) < GRID_M_PX && Math.abs(e.y - c.y) < GRID_M_PX)) elegidas.push(c);
+  return elegidas;
+}
+
 function pinesYTokensDe(plano) {
   const def = SALAS[plano.id];
   if (!def) return { notes: [], tokens: [] };
@@ -878,7 +932,10 @@ function pinesYTokensDe(plano) {
   for (const s of def.salas) {
     const hab = plano.habitaciones.find(h => h.nombre === s.sala);
     if (!hab) { avisos.push(`${def.rel}: la sala «${s.sala}» no existe en el plano ${plano.id}`); continue; }
-    const cx = px(hab.x + hab.w / 2), cy = px(hab.y + hab.h / 2);
+    // El pin va al centro de la sala, salvo que ahí haya un mueble (pintado o
+    // tile): entonces al punto libre más cercano, para que no tape nada.
+    const { x: pcx, y: pcy } = puntoLibre(plano, hab);
+    const cx = px(pcx), cy = px(pcy);
     notes.push({
       _id: idEstable(`nota:${plano.id}:${s.codigo}`),
       entryId: def.jid, pageId: s.pageId,
@@ -894,17 +951,19 @@ function pinesYTokensDe(plano) {
     const camas = (plano.muebles ?? []).filter(m => /^(camilla|camilla-medica|cama|catre)$/.test(m.tipo) && dentro(m)).sort((a, b) => a.y - b.y || a.x - b.x).map(centroMueble);
     const relicario = (plano.muebles ?? []).find(m => m.tipo === "relicario" && dentro(m));
     const lista = s.tokens.flatMap(t => Array.from({ length: t.n }, (_, i) => ({ ...t, i })));
-    let k = 0;
+    // Casillas de 1 m libres de muebles (pintados o tiles) y enteras dentro de
+    // la sala, de la más cercana al centro hacia afuera; cada token ocupa una.
+    const casillas = casillasLibres(plano, hab);
     lista.forEach(t => {
       const pnj = PNJS.find(p => p.id === t.pnj);
       let x, y;
       if (t.pnj === "durmiente" && camas.length) ({ x, y } = camas.shift());
       else if (t.pnj === "sor-anunciacion" && relicario) ({ x, y } = centroMueble(relicario));
       else {
-        const col = k % 4, fila = Math.floor(k / 4);
-        x = Math.round((cx - 50 + (col - 1.5) * GRID_M_PX) / 50) * 50;
-        y = Math.round((cy + 60 + fila * GRID_M_PX) / 50) * 50;
-        k++;
+        let c = casillas.shift();
+        if (!c) { casillas.push(...casillasLibres(plano, hab, 0.4)); c = casillas.shift(); }
+        if (c) ({ x, y } = c);
+        else { x = cx - 50; y = cy - 50; avisos.push(`${def.rel}: la sala «${s.sala}» no tiene casillas libres para ${t.pnj}`); }
       }
       const hostil = DISPOSICION[pnj.spcType] ?? (HOSTILES.test(pnj.id) ? -1 : 0);
       const textura = existe(`assets/tokens/${pnj.id}.webp`) ? `modules/${MODULO}/assets/tokens/${pnj.id}.webp`

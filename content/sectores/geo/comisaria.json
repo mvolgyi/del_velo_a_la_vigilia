@@ -308,7 +308,37 @@
    "regionSalida": "salida-comisaria",
    "doorSound": "metal"
   } ],
- "luces": [],
+ "luces": [
+  {
+   "x": 1286,
+   "y": 1890,
+   "preset": "fluorescente",
+   "nombre": "Marquesina de la entrada de la comisaría"
+  },
+  {
+   "x": 394,
+   "y": -170,
+   "preset": "farola",
+   "nombre": "Farola de la rotonda"
+  },
+  {
+   "x": 3294,
+   "y": 610,
+   "preset": "farola",
+   "nombre": "Farola de la rotonda"
+  },
+  {
+   "x": -2060,
+   "y": 1166,
+   "preset": "farola",
+   "nombre": "Farola de la rotonda"
+  },
+  {
+   "x": 3963,
+   "y": 2724,
+   "preset": "farola",
+   "nombre": "Farola del jardín"
+  } ],
  "regiones": [
   {
    "id": "borde-n",

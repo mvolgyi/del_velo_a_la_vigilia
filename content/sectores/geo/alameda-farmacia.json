@@ -512,10 +512,11 @@
  "puntos": [
   {
    "poi": "farmacia-guardia",
-   "x": 1018,
-   "y": 1277,
-   "edificio": 184108285,
+   "x": 1554,
+   "y": 1639,
+   "edificio": null,
    "aproximado": false
   } ],
- "avisos": []
+ "avisos": [
+  "POI farmacia-guardia: no hay edificio en su coordenada (lugar abierto); pin en la coordenada" ]
 }

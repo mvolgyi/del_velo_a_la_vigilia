@@ -132,7 +132,27 @@
       ],
       "orden": 50,
       "nota": "Polígono de oficinas junto al río. Salas lo visita dos veces por semana; la infiltración del Acto 2.",
-      "exterior": "Paseo de Martiricos in Málaga at night, beside the Guadalmedina river. On the left, the riverside promenade: a narrow paved walk and strips of grass and weeds with a row of round tree canopies along the edge of the river channel. The vertical band of dark wet asphalt is the avenue. On the right, a wide plaza of pale paving at the foot of a modern residential-office TOWER whose flat roof is the large grey Y-shaped (three-armed) shape, seen strictly from above with a few rooftop machines; the smaller grey rectangles at the top are the edges of neighbouring buildings. No cars, no people, no lettering."
+      "exterior": "Paseo de Martiricos in Málaga at night, beside the Guadalmedina river. On the left, the riverside promenade: a narrow paved walk and strips of grass and weeds with a row of round tree canopies along the edge of the river channel. The vertical band of dark wet asphalt is the avenue. On the right, a wide plaza of pale paving at the foot of a modern residential-office TOWER whose flat roof is the large grey Y-shaped (three-armed) shape, seen strictly from above with a few rooftop machines; the smaller grey rectangles at the top are the edges of neighbouring buildings. No cars, no people, no lettering.",
+      "luces": [
+        {
+          "lat": 36.73072,
+          "lon": -4.42665,
+          "preset": "fluorescente",
+          "nombre": "Marquesina del vestíbulo de la torre"
+        },
+        {
+          "lat": 36.73095,
+          "lon": -4.4266,
+          "preset": "farola",
+          "nombre": "Farola de la plaza"
+        },
+        {
+          "lat": 36.7306,
+          "lon": -4.4264,
+          "preset": "farola",
+          "nombre": "Farola de la plaza"
+        }
+      ]
     },
     {
       "id": "perchel-estacion",
@@ -205,7 +225,39 @@
           "rotacion": 256
         }
       ],
-      "exterior": "The Provincial Police Headquarters of Málaga at night, seen from directly above. The large grey flat roof with square light wells at the bottom left is the police building itself (plain concrete roof with a few vents, no lettering, no flag). In front of it lies a formal garden: dark green lawn beds cut by pale paved paths fanning out in an arc, with round tree canopies, exactly as drawn. The wide band of dark wet asphalt at the top is the roundabout road of the square, with its pale kerb. No cars, no people."
+      "exterior": "The Provincial Police Headquarters of Málaga at night, seen from directly above. The large grey flat roof with square light wells at the bottom left is the police building itself (plain concrete roof with a few vents, no lettering, no flag). In front of it lies a formal garden: dark green lawn beds cut by pale paved paths fanning out in an arc, with round tree canopies, exactly as drawn. The wide band of dark wet asphalt at the top is the roundabout road of the square, with its pale kerb. No cars, no people.",
+      "luces": [
+        {
+          "lat": 36.71455,
+          "lon": -4.4489,
+          "preset": "fluorescente",
+          "nombre": "Marquesina de la entrada de la comisaría"
+        },
+        {
+          "lat": 36.71492,
+          "lon": -4.4491,
+          "preset": "farola",
+          "nombre": "Farola de la rotonda"
+        },
+        {
+          "lat": 36.71478,
+          "lon": -4.44845,
+          "preset": "farola",
+          "nombre": "Farola de la rotonda"
+        },
+        {
+          "lat": 36.71468,
+          "lon": -4.44965,
+          "preset": "farola",
+          "nombre": "Farola de la rotonda"
+        },
+        {
+          "lat": 36.7144,
+          "lon": -4.4483,
+          "preset": "farola",
+          "nombre": "Farola del jardín"
+        }
+      ]
     },
     {
       "id": "muelle-uno",

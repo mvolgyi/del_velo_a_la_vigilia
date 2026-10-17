@@ -85,6 +85,14 @@ npm run e2e          # en otra terminal; capturas en tools/e2e/capturas/
 Recorre el flujo completo (Facultades registradas, otorgar y comprar caminos, quemar, balizas,
 Peligro, arsenal, recordatorio tras un «1», panel, hoja y journals) en un Chromium headless.
 
+```bash
+node tools/e2e/capturas-escenas.mjs [--solo <texto>] [--jugador]   # tools/e2e/capturas/escenas/*.png
+```
+
+Captura cada escena tal como la dibuja Foundry (luces, tiles, tokens, pines, regiones) para
+revisarla a ojo antes de una release. Es el control que vale: una composición hecha con
+ImageMagick no sabe cómo interpreta Foundry los datos (dónde ancla un tile, qué tapa un pin).
+
 ### Mapas
 
 Los interiores se definen como planos vectoriales en `content/planos/*.json` (pies; 150 px por

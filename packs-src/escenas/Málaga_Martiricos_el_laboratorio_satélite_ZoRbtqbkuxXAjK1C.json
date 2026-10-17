@@ -843,6 +843,117 @@
       },
       "flags": {},
       "_key": "!scenes.lights!ZoRbtqbkuxXAjK1C.gGtRGywZ8qmMUp75"
+    },
+    {
+      "_id": "yZlmWpWnUKmcdbIm",
+      "x": 2312,
+      "y": 1834,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!ZoRbtqbkuxXAjK1C.yZlmWpWnUKmcdbIm"
+    },
+    {
+      "_id": "IgaWYuQTqggiDN8e",
+      "x": 2535,
+      "y": 554,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!ZoRbtqbkuxXAjK1C.IgaWYuQTqggiDN8e"
+    },
+    {
+      "_id": "1bOlh6uqanwOMqIj",
+      "x": 3428,
+      "y": 2502,
+      "rotation": 0,
+      "elevation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "config": {
+        "dim": 12,
+        "bright": 4,
+        "angle": 360,
+        "color": "#ffb46b",
+        "alpha": 0.45,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "coloration": 1,
+        "attenuation": 0.6,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "negative": false,
+        "priority": 0
+      },
+      "flags": {},
+      "_key": "!scenes.lights!ZoRbtqbkuxXAjK1C.1bOlh6uqanwOMqIj"
     }
   ],
   "regions": [

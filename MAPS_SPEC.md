@@ -277,6 +277,10 @@ Se corre **antes de dar por terminado cualquier mapa**. Si algo falla, se rehace
 - [ ] **Transiciones:** cada región tiene su gemela en el plano destino
       (construir-contenido avisa si no).
 - [ ] **Tiles:** alfa real, recortados, sin sombra en el suelo, sin luz pintada.
+- [ ] **Capturas desde Foundry** (`node tools/e2e/capturas-escenas.mjs`): cada escena
+      mirada en el canvas real. Ningún tile sobre un mueble pintado, un pin o un muro;
+      ningún token sobre un mueble; los coches en la calzada; la luz como la pide la
+      escena. Lo que se compone fuera de Foundry no cuenta como revisado.
 
 Comandos útiles:
 
